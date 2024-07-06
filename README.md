@@ -1,10 +1,14 @@
-# MABEL: <u>M</u>alware Analysis Benchmark for Efficient Artificial Intelligence Modeling and Machine Learning
+# MABEL: ***M***alware ***A***nalysis ***B***enchmark for ***E***fficient Artificial Intelligence Modeling and Machine ***L***earning
 
 Welcome to the MABEL malware analysis dataset release for machine learning and AI modeling. 
 
-This is our initial dataset release. More releases will be added here shortly. 
+This is our initial dataset release. There are multiple file segments in our initial dataset. These files should be combined into a single dataset.  Our first release contains analysis from our framework specific to 400+ malware families and binaries associated to each malware family procured.  
 
-Datatable Description
+More releases will be added here shortly. New releases will included analysis of additional malware corpora not just associated to a malware family. 
+
+# Datatable Description
+
+The following features describe metadata regarding the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -49,6 +53,12 @@ Datatable Description
  | execution_end_address | virtual address where final execution instruction can be found (within the first executable section of the binary, e.g., .text) | 0x40437c | 
  | execution_size_bytes | size of first executable section within the binary analyzed by this framework i.e., size of .text | 13085 | 
  | initialized_data_size | size of initialized data section | 4096 | 
+
+
+The following features summarize results of our deep inspection of each binary's dissassembly code:
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ | 
  | count_unique_mnemonic | total number of unique mnemonics accumulated from deep inspection of binary's disassembly code. NOTE: these counts are accumulated from analyzing the first complete section with executable code e.g., .text | 182 | 
  | count_master_function_call_listing | total number of function  invocations via [call] mnemonic  accumulated from deep inspection of binary's disassembly code.  | 1107 | 
  | count_function_call_listing_via_prologue_analysis | total number of functions  derived  from analyzing function prologues during deep inspection of binary's disassembly code .  | 845 | 
@@ -94,6 +104,13 @@ Datatable Description
  | count_OR | total number of [or] commands identified during deep inspection of binary's disassembly code.  | 642 | 
  | count_PUSH | total number of [push] commands identified during deep inspection of binary's disassembly code.  | 12915 | 
  | count_POP | total number of [pop] commands identified during deep inspection of binary's disassembly code.  | 4168 | 
+ 
+ 
+
+The following features describe additional characteristics, metadata, and yara scan results regarding the analyzed binary:
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ | 
  | import_functions | lists import functions for each library | [ADVAPI32.DLL]  RegCloseKey RegCreateKeyExA RegFlushKey RegOpenKeyExA RegQueryValueExA RegSetValueExA [KERNEL32.DLL]  CloseHandle CopyFileA CreateFileA CreateMutexA DeleteFileA ExitProcess FileTimeToDosDateTime FileTimeToLocalFileTime FindClose FindFirstFileA FindNextFileA FreeLibrary GetCommandLineA GetCurrentThreadId GetFileSize GetFileType GetLastError GetModuleFileNameA GetModuleHandleA GetProcessHeap GetStdHandle GetWindowsDirectoryA HeapAlloc HeapFree HeapReAlloc LocalAlloc RaiseException ReadFile RtlUnwind SetEndOfFile SetFilePointer TlsGetValue TlsSetValue UnhandledExceptionFilter WriteFile [USER32.DLL]  CharNextA  | 
  | count_import_functions | provides count of total import functions | 42 | 
  | packer_1 | identifies the type of packer used for this sample (if applicable) - by the first packer analysis routine used in this framework | UPX(1.24)[NRV brute] | 
@@ -202,6 +219,12 @@ Datatable Description
  | program_id | specifies program identifier regarding this binary | com.embarcadero.SpSInstall | 
  | special_build | specifies if this binary is indicated as a special release | 1082 | 
  | uninitialized_data_size | specifies the size of uninitialized data in this binary | 40960 | 
+ 
+
+The following features describe the DOS Header regarding the analyzed binary:
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ |
  | e_magic | PE header identification of the DOS header magic number | 0x5A4D | 
  | e_cblp | PE header identification of the number of bytes in the last page of the binary | 0x50 | 
  | e_cp | PE header identification of the number of pages in this binary | 0x2 | 
@@ -221,7 +244,13 @@ Datatable Description
  | e_oeminfo | PE header identification of the OEM version information | 0x0 | 
  | e_res2 | PE header identification of reserved words (for future use) | !\xb8\x01L\xcd!Win32\x20.EXE.\x0d\x0a$ | 
  | e_lfanew | PE header file address specification of the offset to the PE header | 0x100 | 
- | machine | PE header identification of the machine type (x86 or x64) | 0x14C | 
+ 
+
+The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in hex):
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ |
+| machine | PE header identification of the machine type (x86 or x64) | 0x14C | 
  | number_of_sections | PE header identification of the number of sections in the binary | 0x6 | 
  | size_of_optional_header | PE header identification of the optional header size | 0xE0 | 
  | characteristics | PE header identification of the characteristics flags (specifies various attributes e.g. exe, 64-bit, etc) | 0x818F | 
@@ -284,6 +313,12 @@ Datatable Description
  | size_of_heap_commit_hex | PE header identification of the size of the heap to commit | 0x1000 | 
  | loader_flags_hex | PE header identification of the loader flags | 0 | 
  | number_of_rva_and_sizes_hex | PE header identification of the relative virtual addresses | 0x10 | 
+ 
+
+The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in decimal):
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ |
  | machine_decimal | decimal conversion of machine_hex | 332 | 
  | number_of_sections_decimal | decimal conversion of number_of_sections_hex | 3 | 
  | pointer_to_symbol_table_decimal | decimal conversion of pointer_to_symbol_table_hex | 0 | 
@@ -320,6 +355,11 @@ Datatable Description
  | sfx | specifies details regarding self extracting code for this binary | Microsoft Cabinet(11.00.14393.0 (rs1_release.160715-1616)) | 
  | archive | specifies details if this sample is an archive | Microsoft Cabinet File(1.03)[LZX 83.6% 2 files] | 
  | library | specifies details regarding libraries used for this binary (e.g. .NET) | .NET(v4.0.30319) | 
+ 
+The following features indicate TRUE if the binary was analyzed to contain the specified section name:
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ |
  | .text_in_binary | specifies if [.text] code section was detected in this binary | TRUE | 
  | .data_in_binary | specifies if [.data] code section was detected in this binary | TRUE | 
  | .rsrc_in_binary | specifies if [.rsrc] code section was detected in this binary | TRUE | 
@@ -433,6 +473,12 @@ Datatable Description
  | .xu8i_in_binary | specifies if [.xu8i] code section was detected in this binary | FALSE | 
  | .yj_in_binary | specifies if [.yj] code section was detected in this binary | FALSE | 
  | .ywi1hpv_in_binary | specifies if [.ywi1hpv] code section was detected in this binary | FALSE | 
+ 
+
+The following features specify the size (in bytes) of the respective section in the analyzed binary (if found within the binary):
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ |
  | .text_size_in_binary | specifies the size of [.text] code section if it was detected in this binary | 8192 | 
  | .data_size_in_binary | specifies the size of [.data] code section if it was detected in this binary | 4096 | 
  | .rsrc_size_in_binary | specifies the size of [.rsrc] code section if it was detected in this binary | 110592 | 
@@ -546,6 +592,12 @@ Datatable Description
  | .xu8i_size_in_binary | specifies the size of [.xu8i] code section if it was detected in this binary | 0 | 
  | .yj_size_in_binary | specifies the size of [.yj] code section if it was detected in this binary | 0 | 
  | .ywi1hpv_size_in_binary | specifies the size of [.ywi1hpv] code section if it was detected in this binary | 0 | 
+ 
+
+The following features indicate TRUE if the the respective element was returned from additional yara scans of the analyzed binary:
+
+| Feature   | Description | Example Data |
+| --------  | ----------- | ------------ | 
  | references_domain | yara scan results identifying if the binary was flagged to contain references_domain | FALSE | 
  | references_ip | yara scan results identifying if the binary was flagged to contain references_ip | FALSE | 
  | references_url | yara scan results identifying if the binary was flagged to contain references_url | TRUE | 
