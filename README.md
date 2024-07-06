@@ -6,6 +6,8 @@ This is our initial dataset release. There are multiple file segments in our ini
 
 More releases will be added here shortly. New releases will included analysis of additional malware corpora not just associated to a malware family. 
 
+#### Special thanks to vx-underground.org for providing the samples and malware family attribution in our dataset release
+
 # Datatable Description
 
 
