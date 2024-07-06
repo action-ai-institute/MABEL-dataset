@@ -1,4 +1,4 @@
-# MABEL: ***M***alware ***A***nalysis ***B***enchmark for ***E***fficient Artificial Intelligence Modeling and Machine ***L***earning
+# MABEL: **M**alware **A**nalysis **Be**nchmark for Artificial Intelligence and Machine **L**earning
 
 Welcome to the MABEL malware analysis dataset release for machine learning and AI modeling. 
 
@@ -7,8 +7,9 @@ This is our initial dataset release. There are multiple file segments in our ini
 More releases will be added here shortly. New releases will included analysis of additional malware corpora not just associated to a malware family. 
 
 # Datatable Description
+========================
 
-The following features describe metadata regarding the analyzed binary:
+# The following features describe metadata regarding the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -54,8 +55,8 @@ The following features describe metadata regarding the analyzed binary:
  | execution_size_bytes | size of first executable section within the binary analyzed by this framework i.e., size of .text | 13085 | 
  | initialized_data_size | size of initialized data section | 4096 | 
 
-
-The following features summarize results of our deep inspection of each binary's dissassembly code:
+<br><br>
+# The following features summarize results of our deep inspection of each binary's dissassembly code:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ | 
@@ -106,8 +107,8 @@ The following features summarize results of our deep inspection of each binary's
  | count_POP | total number of [pop] commands identified during deep inspection of binary's disassembly code.  | 4168 | 
  
  
-
-The following features describe additional characteristics, metadata, and yara scan results regarding the analyzed binary:
+<br><br>
+# The following features describe additional characteristics, metadata, and yara scan results regarding the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ | 
@@ -220,8 +221,8 @@ The following features describe additional characteristics, metadata, and yara s
  | special_build | specifies if this binary is indicated as a special release | 1082 | 
  | uninitialized_data_size | specifies the size of uninitialized data in this binary | 40960 | 
  
-
-The following features describe the DOS Header regarding the analyzed binary:
+<br><br>
+# The following features describe the DOS Header regarding the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -245,8 +246,8 @@ The following features describe the DOS Header regarding the analyzed binary:
  | e_res2 | PE header identification of reserved words (for future use) | !\xb8\x01L\xcd!Win32\x20.EXE.\x0d\x0a$ | 
  | e_lfanew | PE header file address specification of the offset to the PE header | 0x100 | 
  
-
-The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in hex):
+<br><br>
+# The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in hex):
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -314,8 +315,8 @@ The following features describe the PE Header regarding the analyzed binary (NOT
  | loader_flags_hex | PE header identification of the loader flags | 0 | 
  | number_of_rva_and_sizes_hex | PE header identification of the relative virtual addresses | 0x10 | 
  
-
-The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in decimal):
+<br><br>
+# The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in decimal):
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -356,7 +357,8 @@ The following features describe the PE Header regarding the analyzed binary (NOT
  | archive | specifies details if this sample is an archive | Microsoft Cabinet File(1.03)[LZX 83.6% 2 files] | 
  | library | specifies details regarding libraries used for this binary (e.g. .NET) | .NET(v4.0.30319) | 
  
-The following features indicate TRUE if the binary was analyzed to contain the specified section name:
+<br><br>
+# The following features indicate TRUE if the binary was analyzed to contain the specified section name:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -475,7 +477,8 @@ The following features indicate TRUE if the binary was analyzed to contain the s
  | .ywi1hpv_in_binary | specifies if [.ywi1hpv] code section was detected in this binary | FALSE | 
  
 
-The following features specify the size (in bytes) of the respective section in the analyzed binary (if found within the binary):
+<br><br>
+# The following features specify the size (in bytes) of the respective section in the analyzed binary (if found within the binary):
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -594,7 +597,8 @@ The following features specify the size (in bytes) of the respective section in 
  | .ywi1hpv_size_in_binary | specifies the size of [.ywi1hpv] code section if it was detected in this binary | 0 | 
  
 
-The following features indicate TRUE if the the respective element was returned from additional yara scans of the analyzed binary:
+<br><br>
+# The following features indicate TRUE if the the respective element was returned from additional yara scans of the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ | 
