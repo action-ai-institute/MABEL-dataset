@@ -2,16 +2,16 @@
 
 Welcome to the MABEL malware analysis dataset release for machine learning and AI modeling. 
 
-This is our initial dataset release. There are multiple file segments in our initial dataset. These files should be combined into a single dataset.  Our first release contains analysis from our framework specific to 400+ malware families and binaries associated to each malware family procured.  
+This is our initial dataset release. There are multiple file segments in our initial dataset. These files should be appended (concatenated) to form a single dataset.  Our first release contains analysis from our framework specific to 400+ malware families and binaries associated to each malware family.  
 
-More releases will be added here shortly. New releases will included analysis of additional malware corpora not just associated to a malware family. 
+More releases will be added here shortly. New releases will included analysis of additional malware corpora not just associated to a specific malware family. 
 
-#### Special thanks to vx-underground.org for providing the samples and malware family attribution in our dataset release
+#### Special thanks to vx-underground.org for providing the samples and malware family attribution in our dataset release. 
 
 # Datatable Description
 
 
-### The following features describe metadata regarding the analyzed binary:
+### The following features included in MABEL describe metadata regarding each analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -58,7 +58,7 @@ More releases will be added here shortly. New releases will included analysis of
  | initialized_data_size | size of initialized data section | 4096 | 
 
 <br><br>
-### The following features summarize results of our deep inspection of each binary's dissassembly code:
+### The following features included in MABEL summarize results of our deep inspection of each binary's dissassembly code:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ | 
@@ -110,7 +110,7 @@ More releases will be added here shortly. New releases will included analysis of
  
  
 <br><br>
-### The following features describe additional characteristics, metadata, and yara scan results regarding the analyzed binary:
+### The following features included in MABEL describe additional characteristics, metadata, and yara scan results regarding the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ | 
@@ -224,7 +224,7 @@ More releases will be added here shortly. New releases will included analysis of
  | uninitialized_data_size | specifies the size of uninitialized data in this binary | 40960 | 
  
 <br><br>
-### The following features describe the DOS Header regarding the analyzed binary:
+### The following features included in MABEL describe the DOS Header regarding the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -249,7 +249,7 @@ More releases will be added here shortly. New releases will included analysis of
  | e_lfanew | PE header file address specification of the offset to the PE header | 0x100 | 
  
 <br><br>
-### The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in hex):
+### The following features included in MABEL describe the PE Header regarding the analyzed binary (NOTE: these values are specified in hex):
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -318,7 +318,7 @@ More releases will be added here shortly. New releases will included analysis of
  | number_of_rva_and_sizes_hex | PE header identification of the relative virtual addresses | 0x10 | 
  
 <br><br>
-### The following features describe the PE Header regarding the analyzed binary (NOTE: values are specified in decimal):
+### The following features included in MABEL describe the PE Header regarding the analyzed binary (NOTE: these values are specified in decimal):
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -360,7 +360,7 @@ More releases will be added here shortly. New releases will included analysis of
  | library | specifies details regarding libraries used for this binary (e.g. .NET) | .NET(v4.0.30319) | 
  
 <br><br>
-### The following features indicate TRUE if the binary was analyzed to contain the specified section name:
+### The following features included in MABEL indicate TRUE if the binary was analyzed to contain the specified section name:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -480,7 +480,7 @@ More releases will be added here shortly. New releases will included analysis of
  
 
 <br><br>
-### The following features specify the size (in bytes) of the respective section in the analyzed binary (if found within the binary):
+### The following features included in MABEL specify the size (in bytes) of the respective section in the analyzed binary (if identified within the binary):
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ |
@@ -600,7 +600,7 @@ More releases will be added here shortly. New releases will included analysis of
  
 
 <br><br>
-### The following features indicate TRUE if the the respective element was returned from additional yara scans of the analyzed binary:
+### The following features included in MABEL indicate TRUE if the the respective element was returned from additional yara scans of the analyzed binary:
 
 | Feature   | Description | Example Data |
 | --------  | ----------- | ------------ | 
