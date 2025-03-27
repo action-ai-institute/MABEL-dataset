@@ -1,0 +1,70 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401026	0x402020	import	0x401000	KERNEL32.dll.GetTempPathW
+0x401042	0x402018	import	0x401000	KERNEL32.dll.GetTempFileNameW
+0x401074	0x402010	import	0x401000	KERNEL32.dll.CreateFileW
+0x4010af	0x402008	import	0x401000	KERNEL32.dll.WriteFile
+0x4010c4	0x402000	import	0x401000	KERNEL32.dll.CloseHandle
+0x40111f	0x402010	import	0x4010e4	KERNEL32.dll.CreateFileW
+0x401177	0x402000	import	0x4010e4	KERNEL32.dll.CloseHandle
+0x401201	0x40deb0	string	0x4011d4	cmd.exe /c wusa.exe "%s" /extract:C:\Windows\system32\sysprep\ /quiet
+0x40122e	0x4020e8	import	0x4011d4	USER32.dll.wsprintfW
+0x40128f	0x402030	import	0x4011d4	KERNEL32.dll.CreateProcessW
+0x4012a3	0x402028	import	0x4011d4	KERNEL32.dll.WaitForSingleObject
+0x4012ae	0x402000	import	0x4011d4	KERNEL32.dll.CloseHandle
+0x4012b9	0x402000	import	0x4011d4	KERNEL32.dll.CloseHandle
+0x4012fe	0x40df70	string	0x4012e0	C:\windows\system32\sysprep\sysprep.exe
+0x40134d	0x402038	import	0x4012e0	KERNEL32.dll.GetModuleFileNameW
+0x40136b	0x40df40	string	0x4012e0	cmd /c %s "%s" "-i"
+0x40137a	0x4020e8	import	0x4012e0	USER32.dll.wsprintfW
+0x4013db	0x402030	import	0x4012e0	KERNEL32.dll.CreateProcessW
+0x4013ef	0x402028	import	0x4012e0	KERNEL32.dll.WaitForSingleObject
+0x4013fa	0x402000	import	0x4012e0	KERNEL32.dll.CloseHandle
+0x401405	0x402000	import	0x4012e0	KERNEL32.dll.CloseHandle
+0x401442	0x40e080	string	0x40142c	lexplore.exe
+0x401497	0x40e060	string	0x40142c	ALLUSERSPROFILE
+0x4014b7	0x402048	import	0x40142c	KERNEL32.dll.GetEnvironmentVariableW
+0x4014c9	0x40e010	string	0x40142c	C:\$Recycle.4181538C.C8BD.E740.12EE0C
+0x4014d0	0x4020e8	import	0x40142c	USER32.dll.wsprintfW
+0x4014e0	0x40dff0	string	0x40142c	%s\Adobe
+0x4014e7	0x4020e8	import	0x40142c	USER32.dll.wsprintfW
+0x4014ff	0x402040	import	0x40142c	KERNEL32.dll.CreateDirectoryW
+0x401515	0x40dfe0	string	0x40142c	%s\%s
+0x401524	0x4020e8	import	0x40142c	USER32.dll.wsprintfW
+0x40153f	0x40dfc0	string	0x40142c	cmd.exe /c "%s"
+0x40154e	0x4020e8	import	0x40142c	USER32.dll.wsprintfW
+0x4015af	0x402030	import	0x40142c	KERNEL32.dll.CreateProcessW
+0x4015e2	0x402060	import	0x4015cc	KERNEL32.dll.GetCommandLineW
+0x4015f0	0x4020d8	import	0x4015cc	SHELL32.dll.CommandLineToArgvW
+0x401608	0x402158	import	0x4015cc	msvcrt.dll.wcscmp
+0x401619	0x402058	import	0x4015cc	KERNEL32.dll.ExitProcess
+0x40162a	0x401000	string	0x4015cc	HSWH
+0x401635	0x402058	import	0x4015cc	KERNEL32.dll.ExitProcess
+0x401646	0x40e0a0	string	0x4015cc	C:\Windows\System32\sysprep\cryptbase.dll
+0x40164d	0x402050	import	0x4015cc	KERNEL32.dll.GetFileAttributesW
+0x40165f	0x402058	import	0x4015cc	KERNEL32.dll.ExitProcess
+0x40166d	0x402058	import	0x4015cc	KERNEL32.dll.ExitProcess
+0x4016c2	0x4020a0	import	0x4015cc	KERNEL32.dll.GetSystemTimeAsFileTime
+0x4016cd	0x4020a8	import	0x4015cc	KERNEL32.dll.GetCurrentProcessId
+0x4016d9	0x4020b0	import	0x4015cc	KERNEL32.dll.GetCurrentThreadId
+0x4016e5	0x4020b8	import	0x4015cc	KERNEL32.dll.GetTickCount
+0x4016f6	0x4020c0	import	0x4015cc	KERNEL32.dll.QueryPerformanceCounter
+0x4018e4	0x402170	import	0x4018e4	msvcrt.dll._CxxThrowException
+0x4018ea	0x402168	import	0x4018ea	msvcrt.dll.memset
+0x4018f0	0x402160	import	0x4018f0	msvcrt.dll.memcpy
+0x401916	0x4020c8	import	0x4018f0	KERNEL32.dll.GetStartupInfoW
+0x4019cf	0x402128	import	0x4018f0	msvcrt.dll.__set_app_type
+0x4019eb	0x402120	import	0x4018f0	msvcrt.dll._fmode
+0x4019fa	0x402118	import	0x4018f0	msvcrt.dll._commode
+0x401a1e	0x402110	import	0x4018f0	msvcrt.dll.__setusermatherr
+0x401a69	0x402100	import	0x4018f0	msvcrt.dll.__wgetmainargs
+0x401a82	0x4020f8	import	0x4018f0	msvcrt.dll._wcmdln
+0x401b3d	0x402138	import	0x4018f0	msvcrt.dll.exit
+0x401b43	0x402180	import	0x4018f0	msvcrt.dll._cexit
+0x401b59	0x402188	import	0x4018f0	msvcrt.dll._exit
+0x401b60	0x402198	import	0x4018f0	msvcrt.dll._c_exit
+0x401bac	0x402150	import	0x401bac	msvcrt.dll.sym_imp_void __cdecl operator delete(void * __ptr64)
+0x401d1a	0x402148	import	0x401d1a	msvcrt.dll.sym_imp_public virtual: void __cdecl type_info::~destructor(void) __ptr64
+0x401d20	0x402140	import	0x401d1a	msvcrt.dll.__C_specific_handler
+0x401d26	0x402190	import	0x401d26	msvcrt.dll._XcptFilter
+0x401d2c	0x402108	import	0x401d2c	msvcrt.dll._initterm
+0x401d44	0x402130	import	0x401d44	msvcrt.dll.sym_imp_void __cdecl terminate(void)

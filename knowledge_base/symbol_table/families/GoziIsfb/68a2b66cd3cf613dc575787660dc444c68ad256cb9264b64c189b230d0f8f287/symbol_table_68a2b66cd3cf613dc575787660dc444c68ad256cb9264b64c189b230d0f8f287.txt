@@ -1,0 +1,653 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x10001030	0x1000e120	import	0x10001000	KERNEL32.dll.EnterCriticalSection
+0x10001062	0x1000e0bc	import	0x10001000	KERNEL32.dll.VirtualProtect
+0x10001082	0x1000e16c	import	0x10001000	KERNEL32.dll.GetLastError
+0x1000108d	0x1000e124	import	0x10001000	KERNEL32.dll.LeaveCriticalSection
+0x100010c6	0x1000e158	import	0x100010b5	KERNEL32.dll.lstrlenA
+0x10001158	0x1000e180	import	0x10001108	OLEAUT32.dll.SysReAllocString
+0x1000117c	0x1000e184	import	0x10001108	OLEAUT32.dll.SysStringLen
+0x1000123a	0x1000e144	import	0x10001108	KERNEL32.dll.lstrcmpW
+0x100013f4	0x1000e158	import	0x10001307	KERNEL32.dll.lstrlenA
+0x1000143c	0x1000e1f0	import	0x10001307	USER32.dll.wsprintfW
+0x10001590	0x1000e270	import	0x10001590	ntdll.dll.sprintf
+0x100017dd	0x1000e180	import	0x1000177c	OLEAUT32.dll.SysReAllocString
+0x10001871	0x1000e184	import	0x1000177c	OLEAUT32.dll.SysStringLen
+0x1000187a	0x10001885	string	0x1000177c	9]\bt\t
+0x1000187f	0x1000e184	import	0x1000177c	OLEAUT32.dll.SysStringLen
+0x1000188d	0x1000e184	import	0x1000177c	OLEAUT32.dll.SysStringLen
+0x100018d9	0x1000e180	import	0x100018bb	OLEAUT32.dll.SysReAllocString
+0x1000193f	0x1000e188	import	0x100018bb	OLEAUT32.dll.SafeArrayDestroy
+0x10001a29	0x1000e1b8	import	0x100018bb	SHLWAPI.dll.StrStrIW
+0x10001a49	0x1000e184	import	0x100018bb	OLEAUT32.dll.SysStringLen
+0x10001a94	0x1000e17c	import	0x100018bb	OLEAUT32.dll.SafeArrayGetDim
+0x10001a9d	0x10001aa8	string	0x100018bb	9]\ft\t
+0x10001aa2	0x1000e184	import	0x100018bb	OLEAUT32.dll.SysStringLen
+0x10001ab0	0x1000e184	import	0x100018bb	OLEAUT32.dll.SysStringLen
+0x10001ac0	0x1000e058	import	0x10001ac0	DNSAPI.dll.DnsFree
+0x10001ae6	0x1000e148	import	0x10001ac0	KERNEL32.dll.GetModuleFileNameW
+0x10001b24	0x1000e16c	import	0x10001ac0	KERNEL32.dll.GetLastError
+0x10002dbc	0x1000e15c	import	0x10002d58	KERNEL32.dll.GetSystemTime
+0x10002dcc	0x1000e2a0	import	0x10002d58	ntdll.dll._snprintf
+0x10002ddd	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x10002dfa	0x1000ebbc	string	0x10002d58	Integrity level: 0x%x, required elevation\n
+0x10002e37	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x10002e4a	0x1000ebe8	string	0x10002d58	Elevation failed\n
+0x10002e6b	0x1000e15c	import	0x10002d58	KERNEL32.dll.GetSystemTime
+0x10002e7b	0x1000e2a0	import	0x10002d58	ntdll.dll._snprintf
+0x10002e8c	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x10002ea4	0x1000ebfc	string	0x10002d58	Loading a startup module\n
+0x10002f05	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x10002f1e	0x1000ec18	string	0x10002d58	Waiting for %u seconds\n
+0x10003023	0x1000e09c	import	0x10002d58	KERNEL32.dll.CreateEventW
+0x10003030	0x1000e16c	import	0x10002d58	KERNEL32.dll.GetLastError
+0x10003040	0x1000e11c	import	0x10002d58	KERNEL32.dll.SetEvent
+0x1000304b	0x1000e0a8	import	0x10002d58	KERNEL32.dll.Sleep
+0x10003054	0x1000e0dc	import	0x10002d58	KERNEL32.dll.ResetEvent
+0x1000305d	0x1000e160	import	0x10002d58	KERNEL32.dll.CloseHandle
+0x10003078	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x1000308b	0x1000ec30	string	0x10002d58	Walking through the registry\n
+0x100030dc	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x100030f5	0x1000ec50	string	0x10002d58	Failed walking through the registry, error %u\n
+0x10003118	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x10003131	0x1000ec80	string	0x10002d58	Failed to make a startup script, error %u\n
+0x1000318f	0x1000e2d8	string	0x10002d58	%02u:%02u:%02u
+0x100031a3	0x1000ecac	string	0x10002d58	Failed to restart the application, error %u\n
+0x100031da	0x1000e158	import	0x100031d1	KERNEL32.dll.lstrlenA
+0x10003207	0x1000e104	import	0x100031d1	KERNEL32.dll.MultiByteToWideChar
+0x10003357	0x10003349	string	0x10003338	Fj @P
+0x10003371	0x1000e1b4	import	0x10003338	SHLWAPI.dll.StrTrimA
+0x100033e0	0x1000e2b0	import	0x100033d2	ole32.dll.CoUninitialize
+0x100034c2	0x1000e090	import	0x1000347d	KERNEL32.dll.lstrlenW
+0x100034ea	0x1000e154	import	0x1000347d	KERNEL32.dll.lstrcpyW
+0x100034f2	0x1000e118	import	0x1000347d	KERNEL32.dll.lstrcatW
+0x1000352c	0x1000e2b8	import	0x10003509	ole32.dll.CoCreateInstance
+0x10003561	0x1000e2b4	import	0x10003509	ole32.dll.CoSetProxyBlanket
+0x1000359a	0x1000e150	import	0x1000358e	KERNEL32.dll.HeapFree
+0x100035b0	0x1000e14c	import	0x100035a3	KERNEL32.dll.HeapAlloc
+0x1000368a	0x1000e280	import	0x1000368a	ntdll.dll.mbstowcs
+0x100036e2	0x1000e15c	import	0x1000368a	KERNEL32.dll.GetSystemTime
+0x100036ec	0x1000e2a0	import	0x1000368a	ntdll.dll._snprintf
+0x100036fd	0x1000e2d8	string	0x1000368a	%02u:%02u:%02u
+0x10003716	0x1000e5b4	string	0x1000368a	File 0x%X has an invalid signature\n
+0x1000373f	0x10004707	string	0x1000368a	QSUVW
+0x100037ce	0x1000e15c	import	0x1000368a	KERNEL32.dll.GetSystemTime
+0x100037d8	0x1000e2a0	import	0x1000368a	ntdll.dll._snprintf
+0x100037e9	0x1000e2d8	string	0x1000368a	%02u:%02u:%02u
+0x10003807	0x1000e5d8	string	0x1000368a	Failed to receive file 0x%X, error %u\n
+0x1000383e	0x10004707	string	0x1000368a	QSUVW
+0x1000385b	0x1000e120	import	0x1000385a	KERNEL32.dll.EnterCriticalSection
+0x10003865	0x1000e0a8	import	0x1000385a	KERNEL32.dll.Sleep
+0x10003896	0x1000e160	import	0x10003873	KERNEL32.dll.CloseHandle
+0x100038cc	0x1000e084	import	0x10003873	KERNEL32.dll.CreateWaitableTimerW
+0x100038e8	0x1000e16c	import	0x10003873	KERNEL32.dll.GetLastError
+0x100038f4	0x1000e124	import	0x10003873	KERNEL32.dll.LeaveCriticalSection
+0x1000392d	0x1000e088	import	0x10003903	KERNEL32.dll.GetModuleHandleA
+0x10003934	0x1000e094	import	0x10003903	KERNEL32.dll.GetProcAddress
+0x100039a8	0x10004707	string	0x1000398d	QSUVW
+0x100039d7	0x100010b5	string	0x1000398d	SVW3
+0x100039f8	0x100010b5	string	0x1000398d	SVW3
+0x10003a07	0x1000e0d4	import	0x1000398d	KERNEL32.dll.InterlockedDecrement
+0x10003a1d	0x1000e158	import	0x1000398d	KERNEL32.dll.lstrlenA
+0x10003a59	0x1000e1e8	import	0x1000398d	USER32.dll.wsprintfA
+0x10003a8f	0x1000e098	import	0x10003a85	KERNEL32.dll.GetSystemTimeAsFileTime
+0x10003aad	0x1000e0c0	import	0x10003a85	KERNEL32.dll.SetWaitableTimer
+0x10003ada	0x1000e0ac	import	0x10003ab7	KERNEL32.dll.CreateWaitableTimerA
+0x10003b10	0x1000e15c	import	0x10003ab7	KERNEL32.dll.GetSystemTime
+0x10003b23	0x1000e2a0	import	0x10003ab7	ntdll.dll._snprintf
+0x10003b34	0x1000e2d8	string	0x10003ab7	%02u:%02u:%02u
+0x10003b52	0x1000ed60	string	0x10003ab7	Staying idle for %u seconds\n
+0x10003b84	0x1000e08c	import	0x10003ab7	KERNEL32.dll.WaitForMultipleObjects
+0x10003bad	0x1000e2d8	string	0x10003ab7	%02u:%02u:%02u
+0x10003bc0	0x1000ed80	string	0x10003ab7	Main loop is active, loading modules\n
+0x10003c45	0x1000e2d8	string	0x10003ab7	%02u:%02u:%02u
+0x10003c5e	0x1000eda8	string	0x10003ab7	Main loop is ended. %u modules are loaded, status: %u\n
+0x10003ce3	0x1000e2d8	string	0x10003ab7	%02u:%02u:%02u
+0x10003cf4	0x1000ede0	string	0x10003ab7	The shutdown event fired or an error occured, exiting\n
+0x10003d1b	0x1000e160	import	0x10003ab7	KERNEL32.dll.CloseHandle
+0x10003d23	0x1000e16c	import	0x10003ab7	KERNEL32.dll.GetLastError
+0x10003d30	0x1000e15c	import	0x10003ab7	KERNEL32.dll.GetSystemTime
+0x10003d3a	0x1000e2a0	import	0x10003ab7	ntdll.dll._snprintf
+0x10003d4b	0x1000e2d8	string	0x10003ab7	%02u:%02u:%02u
+0x10003d64	0x1000ee18	string	0x10003ab7	Error %u creating the main loop timer\n
+0x10003d9a	0x1000e16c	import	0x10003ab7	KERNEL32.dll.GetLastError
+0x10003e06	0x1000e088	import	0x10003dcb	KERNEL32.dll.GetModuleHandleA
+0x10003e0d	0x1000e094	import	0x10003dcb	KERNEL32.dll.GetProcAddress
+0x10003e2b	0x1000e15c	import	0x10003dcb	KERNEL32.dll.GetSystemTime
+0x10003e4c	0x1000e2a0	import	0x10003dcb	ntdll.dll._snprintf
+0x10003e5d	0x1000e2d8	string	0x10003dcb	%02u:%02u:%02u
+0x10003e78	0x1000e928	string	0x10003dcb	Starting proxy process:"%S"\n
+0x10003ee6	0x1000e2d8	string	0x10003dcb	%02u:%02u:%02u
+0x10003ef7	0x1000e948	string	0x10003dcb	Proxy process is started\n
+0x10003f24	0x1000e16c	import	0x10003dcb	KERNEL32.dll.GetLastError
+0x10003f42	0x1000e2d8	string	0x10003dcb	%02u:%02u:%02u
+0x10003f56	0x1000e964	string	0x10003dcb	Unable to start the proxy process, error %u\n
+0x10003f80	0x1000e15c	import	0x10003dcb	KERNEL32.dll.GetSystemTime
+0x10003f8a	0x1000e2a0	import	0x10003dcb	ntdll.dll._snprintf
+0x10003f9b	0x1000e2d8	string	0x10003dcb	%02u:%02u:%02u
+0x10003fb1	0x1000e994	string	0x10003dcb	Failed to resolve kernel32!CreateProcessW pointer\n
+0x10004025	0x1000e294	import	0x10003ff7	ntdll.dll.wcschr
+0x1000404b	0x1000e1b0	import	0x10003ff7	SHLWAPI.dll.PathCombineW
+0x100040bb	0x1000e2a0	import	0x10003ff7	ntdll.dll._snprintf
+0x100040d1	0x1000e15c	import	0x10003ff7	KERNEL32.dll.GetSystemTime
+0x100040e9	0x1000e2d8	string	0x10003ff7	%02u:%02u:%02u
+0x100040fe	0x1000e7a4	string	0x10003ff7	Failed to reset client ID, error %u\n
+0x10004165	0x1000e15c	import	0x10003ff7	KERNEL32.dll.GetSystemTime
+0x1000417d	0x1000e2d8	string	0x10003ff7	%02u:%02u:%02u
+0x1000419a	0x1000e7cc	string	0x10003ff7	Error %u writing autorun value of "%S"\n
+0x100041dd	0x1000e15c	import	0x10003ff7	KERNEL32.dll.GetSystemTime
+0x100041e8	0x1000e2a0	import	0x10003ff7	ntdll.dll._snprintf
+0x100041fb	0x1000e2d8	string	0x10003ff7	%02u:%02u:%02u
+0x1000421e	0x1000e7f4	string	0x10003ff7	Error %u writing startup script to the regstry value: "%S\%S"\n
+0x10004241	0x1000e15c	import	0x10003ff7	KERNEL32.dll.GetSystemTime
+0x1000424c	0x1000e2a0	import	0x10003ff7	ntdll.dll._snprintf
+0x1000425f	0x1000e2d8	string	0x10003ff7	%02u:%02u:%02u
+0x10004281	0x1000e834	string	0x10003ff7	Error %u saving all module to key: "%S"\n
+0x100042ba	0x1000e158	import	0x100042ae	KERNEL32.dll.lstrlenA
+0x10004328	0x1000e110	import	0x100042ae	KERNEL32.dll.lstrcpyA
+0x10004334	0x1000e110	import	0x100042ae	KERNEL32.dll.lstrcpyA
+0x10004364	0x1000e13c	import	0x1000435f	KERNEL32.dll.InitializeCriticalSection
+0x100043b8	0x1000e1e8	import	0x1000435f	USER32.dll.wsprintfA
+0x100043cf	0x100010b5	string	0x1000435f	SVW3
+0x1000440c	0x1000e2b8	import	0x100043d9	ole32.dll.CoCreateInstance
+0x100044a3	0x1000e1ac	import	0x100043d9	SHLWAPI.dll.IUnknown_QueryService
+0x100044e1	0x1000e1ac	import	0x100043d9	SHLWAPI.dll.IUnknown_QueryService
+0x10004565	0x1000e180	import	0x10004547	OLEAUT32.dll.SysReAllocString
+0x100045a3	0x1000e184	import	0x10004547	OLEAUT32.dll.SysStringLen
+0x100045c1	0x1000e15c	import	0x10004547	KERNEL32.dll.GetSystemTime
+0x100045cb	0x1000e2a0	import	0x10004547	ntdll.dll._snprintf
+0x100045dc	0x1000e2d8	string	0x10004547	%02u:%02u:%02u
+0x10004604	0x1000e4e4	string	0x10004547	Error 0x%X writing string value over WMI: "%S\%S"\n
+0x10004622	0x1000e090	import	0x10004547	KERNEL32.dll.lstrlenW
+0x10004654	0x1000e10c	import	0x10004647	KERNEL32.dll.ExpandEnvironmentStringsW
+0x10004693	0x1000e0a8	import	0x1000468f	KERNEL32.dll.Sleep
+0x1000472c	0x1000e0b8	import	0x10004707	KERNEL32.dll.WaitForSingleObject
+0x10004771	0x1000e124	import	0x10004707	KERNEL32.dll.LeaveCriticalSection
+0x100047d5	0x1000e12c	import	0x1000477f	KERNEL32.dll.CreateEventA
+0x100047e7	0x10004c87	string	0x1000477f	SVWj\t
+0x100047f0	0x1000e160	import	0x1000477f	KERNEL32.dll.CloseHandle
+0x10004882	0x1000e268	import	0x10004882	ntdll.dll.strchr
+0x10004962	0x1000e0a4	import	0x100048f7	KERNEL32.dll.VirtualFree
+0x1000496e	0x1000e15c	import	0x100048f7	KERNEL32.dll.GetSystemTime
+0x10004978	0x1000e2a0	import	0x100048f7	ntdll.dll._snprintf
+0x10004989	0x1000e2d8	string	0x100048f7	%02u:%02u:%02u
+0x100049a2	0x1000e8d4	string	0x100048f7	Failed to build BL.DLL image, error %u\n
+0x10004a33	0x1000e290	import	0x100049d0	ntdll.dll.RtlImageNtHeader
+0x10004a41	0x1000e15c	import	0x100049d0	KERNEL32.dll.GetSystemTime
+0x10004a4b	0x1000e2a0	import	0x100049d0	ntdll.dll._snprintf
+0x10004a5c	0x1000e2d8	string	0x100049d0	%02u:%02u:%02u
+0x10004a72	0x1000e860	string	0x100049d0	Invalid PE/PEX module BL.DLL\n
+0x10004aa1	0x1000e0c4	import	0x100049d0	KERNEL32.dll.VirtualAlloc
+0x10004aed	0x1000e15c	import	0x100049d0	KERNEL32.dll.GetSystemTime
+0x10004af7	0x1000e2a0	import	0x100049d0	ntdll.dll._snprintf
+0x10004b08	0x1000e2d8	string	0x100049d0	%02u:%02u:%02u
+0x10004b1e	0x1000e880	string	0x100049d0	BlExecuteDllImage() export is not found\n
+0x10004b51	0x1000e0a4	import	0x100049d0	KERNEL32.dll.VirtualFree
+0x10004b61	0x1000e15c	import	0x100049d0	KERNEL32.dll.GetSystemTime
+0x10004b6b	0x1000e2a0	import	0x100049d0	ntdll.dll._snprintf
+0x10004b7c	0x1000e2d8	string	0x100049d0	%02u:%02u:%02u
+0x10004b92	0x1000e8ac	string	0x100049d0	Invalid PE/PEX module size of BL.DLL\n
+0x10004bec	0x1000e0bc	import	0x10004bca	KERNEL32.dll.VirtualProtect
+0x10004c54	0x10004c73	string	0x10004bfc	9M\fu
+0x10004c62	0x10004c73	string	0x10004bfc	9M\fu
+0x10004cac	0x1000e0b8	import	0x10004c87	KERNEL32.dll.WaitForSingleObject
+0x10004d43	0x1000e0d4	import	0x10004d13	KERNEL32.dll.InterlockedDecrement
+0x10004d5e	0x1000e1b4	import	0x10004d13	SHLWAPI.dll.StrTrimA
+0x10004d67	0x1000e158	import	0x10004d13	KERNEL32.dll.lstrlenA
+0x10004da7	0x1000e1e8	import	0x10004d13	USER32.dll.wsprintfA
+0x10004ece	0x1000e090	import	0x10004ea1	KERNEL32.dll.lstrlenW
+0x10004ef9	0x1000e2a0	import	0x10004ea1	ntdll.dll._snprintf
+0x10004f0f	0x1000e154	import	0x10004ea1	KERNEL32.dll.lstrcpyW
+0x10004f1b	0x1000e118	import	0x10004ea1	KERNEL32.dll.lstrcatW
+0x10004f32	0x1000e09c	import	0x10004ea1	KERNEL32.dll.CreateEventW
+0x10004f53	0x1000e0cc	import	0x10004ea1	KERNEL32.dll.CreateThread
+0x10004f60	0x1000e15c	import	0x10004ea1	KERNEL32.dll.GetSystemTime
+0x10004f7b	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x10004f90	0x1000e16c	import	0x10004ea1	KERNEL32.dll.GetLastError
+0x10004f9e	0x1000ea2c	string	0x10004ea1	Failed to create AVI recorder thread, error %u\n
+0x10004fc5	0x1000e0a0	import	0x10004ea1	KERNEL32.dll.SwitchToThread
+0x10004fd1	0x1000e15c	import	0x10004ea1	KERNEL32.dll.GetSystemTime
+0x10004fe6	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x10004ffa	0x1000e16c	import	0x10004ea1	KERNEL32.dll.GetLastError
+0x10005005	0x1000ea5c	string	0x10004ea1	Failed to create shell startup event, error %u\n
+0x10005027	0x1000e15c	import	0x10004ea1	KERNEL32.dll.GetSystemTime
+0x10005042	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x1000505a	0x1000ea8c	string	0x10004ea1	Restarting the application from "%S"\n
+0x10005089	0x1000e19c	import	0x10004ea1	SHLWAPI.dll.StrChrW
+0x100050c6	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x100050d9	0x1000eab4	string	0x10004ea1	Waiting for application to start\n
+0x10005109	0x1000e0b8	import	0x10004ea1	KERNEL32.dll.WaitForSingleObject
+0x1000512f	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x10005144	0x1000ead8	string	0x10004ea1	Failed to start by a script during %u seconds\n
+0x10005194	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x100051a7	0x1000eab4	string	0x10004ea1	Waiting for application to start\n
+0x100051d7	0x1000e0b8	import	0x10004ea1	KERNEL32.dll.WaitForSingleObject
+0x100051f9	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x1000520e	0x1000eb08	string	0x10004ea1	Failed to start during %u seconds\n
+0x1000523b	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x1000524e	0x1000eb2c	string	0x10004ea1	Successfully started\n
+0x10005285	0x1000e0b8	import	0x10004ea1	KERNEL32.dll.WaitForSingleObject
+0x1000528e	0x1000e160	import	0x10004ea1	KERNEL32.dll.CloseHandle
+0x100052de	0x1000e15c	import	0x10004ea1	KERNEL32.dll.GetSystemTime
+0x100052f3	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x10005307	0x1000eb44	string	0x10004ea1	AVI file of %u bytes is sent\n
+0x1000531e	0x1000e15c	import	0x10004ea1	KERNEL32.dll.GetSystemTime
+0x10005333	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x1000534c	0x1000eb64	string	0x10004ea1	Failed to send AVI file of %u bytes, error %u\n
+0x1000538d	0x1000e2d8	string	0x10004ea1	%02u:%02u:%02u
+0x100053a6	0x1000eb94	string	0x10004ea1	Failed to read AVI file "%S", error %u\n
+0x100053cb	0x1000e0b0	import	0x10004ea1	KERNEL32.dll.DeleteFileW
+0x100053e2	0x1000e160	import	0x10004ea1	KERNEL32.dll.CloseHandle
+0x1000626e	0x1000e090	import	0x10006248	KERNEL32.dll.lstrlenW
+0x10006298	0x1000e1b0	import	0x10006248	SHLWAPI.dll.PathCombineW
+0x10006302	0x1000e15c	import	0x10006248	KERNEL32.dll.GetSystemTime
+0x1000630c	0x1000e2a0	import	0x10006248	ntdll.dll._snprintf
+0x1000631d	0x1000e2d8	string	0x10006248	%02u:%02u:%02u
+0x1000633a	0x1000e6fc	string	0x10006248	Error %u writing 64-bit modules to the key "%S"\n
+0x1000634c	0x1000e15c	import	0x10006248	KERNEL32.dll.GetSystemTime
+0x10006356	0x1000e2a0	import	0x10006248	ntdll.dll._snprintf
+0x10006367	0x1000e2d8	string	0x10006248	%02u:%02u:%02u
+0x10006384	0x1000e730	string	0x10006248	Error %u writing 32-bit modules to the key "%S"\n
+0x100063bc	0x1000e15c	import	0x10006248	KERNEL32.dll.GetSystemTime
+0x100063c6	0x1000e2a0	import	0x10006248	ntdll.dll._snprintf
+0x100063d7	0x1000e2d8	string	0x10006248	%02u:%02u:%02u
+0x100063f7	0x1000e764	string	0x10006248	Error 0x%X creating hive 0x%p key "%S"\n
+0x1000653b	0x1000e184	import	0x10006425	OLEAUT32.dll.SysStringLen
+0x10006541	0x10006548	string	0x10006425	9}\ft
+0x100065c8	0x1000e000	import	0x10006576	ADVAPI32.dll.RegEnumKeyExW
+0x10006636	0x1000e0b8	import	0x10006576	KERNEL32.dll.WaitForSingleObject
+0x10006641	0x100065ad	string	0x10006576	VVVV
+0x10006667	0x1000e018	import	0x10006576	ADVAPI32.dll.RegCloseKey
+0x10006684	0x1000e288	import	0x10006676	ntdll.dll.RtlInitUnicodeString
+0x100066bd	0x1000e264	import	0x10006676	ntdll.dll.NtCreateKey
+0x100066f6	0x1000e0a8	import	0x100066c8	KERNEL32.dll.Sleep
+0x1000672c	0x1000e090	import	0x100066c8	KERNEL32.dll.lstrlenW
+0x10006761	0x1000e184	import	0x100066c8	OLEAUT32.dll.SysStringLen
+0x100067ae	0x100067e1	string	0x10006787	9]\btiV
+0x100067da	0x100067e1	string	0x10006787	9]\btiV
+0x10006872	0x1000e158	import	0x10006866	KERNEL32.dll.lstrlenA
+0x10006899	0x1000e1a4	import	0x10006866	SHLWAPI.dll.StrStrIA
+0x10006904	0x1000e27c	import	0x10006904	ntdll.dll.wcstombs
+0x10006939	0x1000e0c4	import	0x10006923	KERNEL32.dll.VirtualAlloc
+0x10006959	0x1000e0a4	import	0x10006923	KERNEL32.dll.VirtualFree
+0x10006a8a	0x1000e15c	import	0x10006a57	KERNEL32.dll.GetSystemTime
+0x10006a9a	0x1000e2a0	import	0x10006a57	ntdll.dll._snprintf
+0x10006aab	0x1000e2d8	string	0x10006a57	%02u:%02u:%02u
+0x10006ac9	0x1000e424	string	0x10006a57	Error 0x%X creating key over WMI: "%S"\n
+0x10006afb	0x1000e010	import	0x10006a57	ADVAPI32.dll.RegCreateKeyW
+0x10006b1d	0x1000e2d8	string	0x10006a57	%02u:%02u:%02u
+0x10006b36	0x1000e44c	string	0x10006a57	Error %u creating key: "%S"\n
+0x10006b5d	0x1000e018	import	0x10006a57	ADVAPI32.dll.RegCloseKey
+0x10006b98	0x1000e210	import	0x10006b6d	WINHTTP.dll.WinHttpReceiveResponse
+0x10006baf	0x1000e214	import	0x10006b6d	WINHTTP.dll.WinHttpQueryHeaders
+0x10006c43	0x1000e16c	import	0x10006b6d	KERNEL32.dll.GetLastError
+0x10006c5f	0x1000e16c	import	0x10006b6d	KERNEL32.dll.GetLastError
+0x10006c70	0x1000e23c	import	0x10006c70	ntdll.dll.memmove
+0x10006c96	0x1000e168	import	0x10006c70	KERNEL32.dll.CreateMutexW
+0x10006ca4	0x1000e16c	import	0x10006c70	KERNEL32.dll.GetLastError
+0x10006cb9	0x1000e16c	import	0x10006c70	KERNEL32.dll.GetLastError
+0x10006cfe	0x1000c042	string	0x10006c70	VWj(
+0x10006d36	0x1000e164	import	0x10006c70	KERNEL32.dll.GetVersionExA
+0x10006d41	0x1000e15c	import	0x10006c70	KERNEL32.dll.GetSystemTime
+0x10006d4c	0x1000e2a0	import	0x10006c70	ntdll.dll._snprintf
+0x10006d5f	0x1000e2d8	string	0x10006c70	%02u:%02u:%02u
+0x10006d98	0x1000e2e8	string	0x10006c70	RM3 loader version %u.%u build %u on Windows %u.%u.%u %s\n
+0x10006dc9	0x1000e160	import	0x10006c70	KERNEL32.dll.CloseHandle
+0x10006df0	0x1000e098	import	0x10006dda	KERNEL32.dll.GetSystemTimeAsFileTime
+0x10006e12	0x1000e1e8	import	0x10006dda	USER32.dll.wsprintfA
+0x10006e34	0x1000e158	import	0x10006dda	KERNEL32.dll.lstrlenA
+0x10006e7c	0x1000e1e8	import	0x10006dda	USER32.dll.wsprintfA
+0x10006ec9	0x1000e1e8	import	0x10006dda	USER32.dll.wsprintfA
+0x10006f21	0x1000e1e8	import	0x10006dda	USER32.dll.wsprintfA
+0x10006fc9	0x1000e120	import	0x10006fc8	KERNEL32.dll.EnterCriticalSection
+0x10006fd3	0x1000e170	import	0x10006fc8	KERNEL32.dll.InterlockedIncrement
+0x10006fda	0x1000e124	import	0x10006fc8	KERNEL32.dll.LeaveCriticalSection
+0x1000702d	0x1000e15c	import	0x10006fe1	KERNEL32.dll.GetSystemTime
+0x10007037	0x1000e2a0	import	0x10006fe1	ntdll.dll._snprintf
+0x10007048	0x1000e2d8	string	0x10006fe1	%02u:%02u:%02u
+0x10007063	0x1000e628	string	0x10006fe1	A startup module of %u bytes is received\n
+0x1000709a	0x1000e1bc	import	0x10006fe1	SHLWAPI.dll.StrStrA
+0x100070d4	0x1000e15c	import	0x10006fe1	KERNEL32.dll.GetSystemTime
+0x100070e9	0x1000e2d8	string	0x10006fe1	%02u:%02u:%02u
+0x100070fa	0x1000e654	string	0x10006fe1	Invalid STARTUP module is supplied\n
+0x10007115	0x1000e15c	import	0x10006fe1	KERNEL32.dll.GetSystemTime
+0x1000711f	0x1000e2a0	import	0x10006fe1	ntdll.dll._snprintf
+0x10007130	0x1000e2d8	string	0x10006fe1	%02u:%02u:%02u
+0x10007149	0x1000e678	string	0x10006fe1	Failed to load a STARTUP module, error %u\n
+0x100071e7	0x1000e010	import	0x10007177	ADVAPI32.dll.RegCreateKeyW
+0x10007208	0x1000e01c	import	0x10007177	ADVAPI32.dll.RegSetValueExW
+0x10007219	0x1000e15c	import	0x10007177	KERNEL32.dll.GetSystemTime
+0x10007223	0x1000e2a0	import	0x10007177	ntdll.dll._snprintf
+0x10007234	0x1000e2d8	string	0x10007177	%02u:%02u:%02u
+0x1000725c	0x1000e46c	string	0x10007177	Error %u writing key value: "%S\%S"\n
+0x1000727a	0x1000e018	import	0x10007177	ADVAPI32.dll.RegCloseKey
+0x10007286	0x1000e15c	import	0x10007177	KERNEL32.dll.GetSystemTime
+0x10007290	0x1000e2a0	import	0x10007177	ntdll.dll._snprintf
+0x100072a1	0x1000e2d8	string	0x10007177	%02u:%02u:%02u
+0x100072bf	0x1000e494	string	0x10007177	Error %u creating key "%S"\n
+0x1000732d	0x1000e0a4	import	0x10007315	KERNEL32.dll.VirtualFree
+0x10007375	0x10007436	string	0x10007366	jWX_^[
+0x1000737e	0x1000e158	import	0x10007366	KERNEL32.dll.lstrlenA
+0x10007410	0x1000e124	import	0x10007366	KERNEL32.dll.LeaveCriticalSection
+0x1000758a	0x1000e054	import	0x1000758a	DNSAPI.dll.DnsQuery_A
+0x100087e3	0x100087f1	string	0x1000872d	9X\t\b
+0x100087e6	0x1000e160	import	0x1000872d	KERNEL32.dll.CloseHandle
+0x10008aab	0x1000e180	import	0x10008a65	OLEAUT32.dll.SysReAllocString
+0x10008b13	0x1000e184	import	0x10008a65	OLEAUT32.dll.SysStringLen
+0x10008b21	0x1000e184	import	0x10008a65	OLEAUT32.dll.SysStringLen
+0x10008b76	0x1000e0b4	import	0x10008b67	KERNEL32.dll.HeapCreate
+0x10008c91	0x1000e188	import	0x10008c69	OLEAUT32.dll.SafeArrayDestroy
+0x10008c9c	0x10008ce5	string	0x10008c69	j\b^_
+0x10008cdd	0x1000e17c	import	0x10008c69	OLEAUT32.dll.SafeArrayGetDim
+0x10008cfc	0x1000e158	import	0x10008cf0	KERNEL32.dll.lstrlenA
+0x10008d21	0x1000e1bc	import	0x10008cf0	SHLWAPI.dll.StrStrA
+0x10008d3c	0x1000e1a8	import	0x10008cf0	SHLWAPI.dll.StrChrA
+0x10008d6d	0x1000e110	import	0x10008cf0	KERNEL32.dll.lstrcpyA
+0x10008dae	0x1000e0d4	import	0x10008cf0	KERNEL32.dll.InterlockedDecrement
+0x10008e04	0x1000e108	import	0x10008cf0	KERNEL32.dll.lstrcatA
+0x10008e33	0x1000e110	import	0x10008cf0	KERNEL32.dll.lstrcpyA
+0x10008e86	0x1000e158	import	0x10008e81	KERNEL32.dll.lstrlenA
+0x10008e94	0x1000e090	import	0x10008e81	KERNEL32.dll.lstrlenW
+0x10008eb1	0x1000e150	import	0x10008e81	KERNEL32.dll.HeapFree
+0x10008f82	0x1000e198	import	0x10008f07	SHLWAPI.dll.StrToIntExA
+0x1000906b	0x1000e198	import	0x10008f07	SHLWAPI.dll.StrToIntExA
+0x100090cc	0x100010b5	string	0x10008f07	SVW3
+0x10009123	0x100010b5	string	0x10008f07	SVW3
+0x1000919a	0x1000e15c	import	0x10008f07	KERNEL32.dll.GetSystemTime
+0x100091a4	0x1000e2a0	import	0x10008f07	ntdll.dll._snprintf
+0x100091b5	0x1000e2d8	string	0x10008f07	%02u:%02u:%02u
+0x100091ce	0x1000e324	string	0x10008f07	Attached LOADER.INI signature check failed, error %u\n
+0x10009203	0x1000e15c	import	0x10008f07	KERNEL32.dll.GetSystemTime
+0x1000920d	0x1000e2a0	import	0x10008f07	ntdll.dll._snprintf
+0x1000921e	0x1000e2d8	string	0x10008f07	%02u:%02u:%02u
+0x10009234	0x1000e35c	string	0x10008f07	No attached LOADER.INI found\n
+0x10009272	0x1000e090	import	0x10009269	KERNEL32.dll.lstrlenW
+0x10009321	0x1000e15c	import	0x100092c2	KERNEL32.dll.GetSystemTime
+0x1000932b	0x1000e2a0	import	0x100092c2	ntdll.dll._snprintf
+0x1000933c	0x1000e2d8	string	0x100092c2	%02u:%02u:%02u
+0x10009364	0x1000e6a4	string	0x100092c2	Error 0x%X writing value "%S" of key "%S"\n
+0x10009383	0x1000e15c	import	0x100092c2	KERNEL32.dll.GetSystemTime
+0x1000938d	0x1000e2a0	import	0x100092c2	ntdll.dll._snprintf
+0x1000939e	0x1000e2d8	string	0x100092c2	%02u:%02u:%02u
+0x100093c6	0x1000e6d0	string	0x100092c2	Error 0x%X creating 0x%p hive subkey: "%S"\n
+0x10009452	0x1000945a	string	0x100093eb	QPSS
+0x10009461	0x1000e20c	import	0x100093eb	WINHTTP.dll.WinHttpSetTimeouts
+0x100094df	0x1000e15c	import	0x10009494	KERNEL32.dll.GetSystemTime
+0x100094e9	0x1000e2a0	import	0x10009494	ntdll.dll._snprintf
+0x100094fa	0x1000e2d8	string	0x10009494	%02u:%02u:%02u
+0x10009518	0x1000e54c	string	0x10009494	File 0x%X of %u bytes is received over HTTP\n
+0x1000955c	0x1000e15c	import	0x10009494	KERNEL32.dll.GetSystemTime
+0x10009566	0x1000e2a0	import	0x10009494	ntdll.dll._snprintf
+0x10009577	0x1000e2d8	string	0x10009494	%02u:%02u:%02u
+0x10009597	0x1000e57c	string	0x10009494	Failed to send request of 0x%X through IE, error 0x%X\n
+0x100095ec	0x1000e15c	import	0x10009494	KERNEL32.dll.GetSystemTime
+0x10009601	0x1000e2d8	string	0x10009494	%02u:%02u:%02u
+0x1000961a	0x1000e54c	string	0x10009494	File 0x%X of %u bytes is received over HTTP\n
+0x1000965c	0x100010b5	string	0x10009646	SVW3
+0x1000966e	0x1000e0d4	import	0x10009646	KERNEL32.dll.InterlockedDecrement
+0x100096ab	0x1000e2b8	import	0x10009679	ole32.dll.CoCreateInstance
+0x100097f4	0x100010b5	string	0x10009743	SVW3
+0x10009803	0x1000e0d4	import	0x10009743	KERNEL32.dll.InterlockedDecrement
+0x10009816	0x1000e158	import	0x10009743	KERNEL32.dll.lstrlenA
+0x1000982f	0x100010b5	string	0x10009743	SVW3
+0x1000996b	0x1000e008	import	0x10009942	ADVAPI32.dll.OpenProcessToken
+0x10009975	0x1000e020	import	0x10009942	ADVAPI32.dll.GetTokenInformation
+0x100099c4	0x1000e004	import	0x10009942	ADVAPI32.dll.GetSidSubAuthorityCount
+0x100099d4	0x1000e00c	import	0x10009942	ADVAPI32.dll.GetSidSubAuthority
+0x100099e8	0x1000e160	import	0x10009942	KERNEL32.dll.CloseHandle
+0x100099fa	0x1000e15c	import	0x10009942	KERNEL32.dll.GetSystemTime
+0x10009a04	0x1000e2a0	import	0x10009942	ntdll.dll._snprintf
+0x10009a15	0x1000e2d8	string	0x10009942	%02u:%02u:%02u
+0x10009a33	0x1000e600	string	0x10009942	IsElevated = %u, IntegrityLevel = %u\n
+0x10009bbe	0x1000e26c	import	0x10009bbe	ntdll.dll.strcpy
+0x10009bec	0x1000e014	import	0x10009bc4	ADVAPI32.dll.GetUserNameW
+0x10009c2e	0x1000e0d0	import	0x10009bc4	KERNEL32.dll.GetComputerNameW
+0x10009cc6	0x1000e15c	import	0x10009c9b	KERNEL32.dll.GetSystemTime
+0x10009cd0	0x1000e2a0	import	0x10009c9b	ntdll.dll._snprintf
+0x10009ce1	0x1000e2d8	string	0x10009c9b	%02u:%02u:%02u
+0x10009d09	0x1000e4b0	string	0x10009c9b	Error 0x%X writing binary value over WMI: "%S\%S"\n
+0x10009d50	0x1000e21c	import	0x10009d47	WINHTTP.dll.WinHttpCloseHandle
+0x10009dab	0x1000e2ac	import	0x10009da5	ole32.dll.CoInitializeEx
+0x10009eba	0x1000e158	import	0x10009e7b	KERNEL32.dll.lstrlenA
+0x10009ec7	0x1000e1bc	import	0x10009e7b	SHLWAPI.dll.StrStrA
+0x10009f5b	0x1000e280	import	0x10009e7b	ntdll.dll.mbstowcs
+0x10009f7e	0x1000e15c	import	0x10009e7b	KERNEL32.dll.GetSystemTime
+0x10009f88	0x1000e2a0	import	0x10009e7b	ntdll.dll._snprintf
+0x10009f99	0x1000e2d8	string	0x10009e7b	%02u:%02u:%02u
+0x10009fb0	0x1000e78c	string	0x10009e7b	Not enough memory (%u)\n
+0x10009fd2	0x1000e15c	import	0x10009e7b	KERNEL32.dll.GetSystemTime
+0x10009fdc	0x1000e2a0	import	0x10009e7b	ntdll.dll._snprintf
+0x10009fed	0x1000e2d8	string	0x10009e7b	%02u:%02u:%02u
+0x1000a006	0x1000e78c	string	0x10009e7b	Not enough memory (%u)\n
+0x1000a05c	0x1000e288	import	0x1000a034	ntdll.dll.RtlInitUnicodeString
+0x1000a078	0x1000e25c	import	0x1000a034	ntdll.dll.NtSetValueKey
+0x1000a084	0x1000e260	import	0x1000a034	ntdll.dll.NtDeleteValueKey
+0x1000a08f	0x1000e254	import	0x1000a034	ntdll.dll.NtClose
+0x1000a096	0x1000e258	import	0x1000a034	ntdll.dll.RtlNtStatusToDosError
+0x1000a0a2	0x1000e298	import	0x1000a0a2	ntdll.dll.memcpy
+0x1000a1aa	0x1000e120	import	0x1000a171	KERNEL32.dll.EnterCriticalSection
+0x1000a1ea	0x1000e124	import	0x1000a171	KERNEL32.dll.LeaveCriticalSection
+0x1000a1f0	0x1000e0a0	import	0x1000a171	KERNEL32.dll.SwitchToThread
+0x1000a24a	0x1000e0c8	import	0x1000a212	KERNEL32.dll.QueryPerformanceFrequency
+0x1000a254	0x1000e174	import	0x1000a212	KERNEL32.dll.QueryPerformanceCounter
+0x1000a2f0	0x1000e2a4	import	0x1000a2f0	ntdll.dll.RtlUnwind
+0x1000a2f6	0x1000e29c	import	0x1000a2f6	ntdll.dll.memset
+0x1000a331	0x1000e0bc	import	0x1000a2fc	KERNEL32.dll.VirtualProtect
+0x1000a349	0x1000e15c	import	0x1000a2fc	KERNEL32.dll.GetSystemTime
+0x1000a353	0x1000e2a0	import	0x1000a2fc	ntdll.dll._snprintf
+0x1000a364	0x1000e2d8	string	0x1000a2fc	%02u:%02u:%02u
+0x1000a37a	0x1000e9c8	string	0x1000a2fc	BL is started locally\n
+0x1000a3b4	0x1000e160	import	0x1000a2fc	KERNEL32.dll.CloseHandle
+0x1000a3c6	0x1000e16c	import	0x1000a2fc	KERNEL32.dll.GetLastError
+0x1000a3d2	0x1000e15c	import	0x1000a2fc	KERNEL32.dll.GetSystemTime
+0x1000a3dc	0x1000e2a0	import	0x1000a2fc	ntdll.dll._snprintf
+0x1000a3ed	0x1000e2d8	string	0x1000a2fc	%02u:%02u:%02u
+0x1000a407	0x1000e9e0	string	0x1000a2fc	Failed to protect BL image, error %u\n
+0x1000a419	0x1000e15c	import	0x1000a2fc	KERNEL32.dll.GetSystemTime
+0x1000a423	0x1000e2a0	import	0x1000a2fc	ntdll.dll._snprintf
+0x1000a434	0x1000e2d8	string	0x1000a2fc	%02u:%02u:%02u
+0x1000a44e	0x1000ea08	string	0x1000a2fc	Failed to build BL image, error %u\n
+0x1000a493	0x1000e230	import	0x1000a47c	WS2_32.dll.inet_addr
+0x1000a4c6	0x1000e234	import	0x1000a47c	WS2_32.dll.inet_ntoa
+0x1000a4ce	0x1000a4e3	string	0x1000a47c	j\b[j
+0x1000a4d3	0x100010b5	string	0x1000a47c	SVW3
+0x1000a4da	0x1000a4e3	string	0x1000a47c	j\b[j
+0x1000a537	0x1000a573	string	0x1000a4f8	9]\ft
+0x1000a591	0x1000a52e	string	0x1000a4f8	9]\ft`2
+0x1000a74d	0x1000e090	import	0x1000a747	KERNEL32.dll.lstrlenW
+0x1000a776	0x1000e1f0	import	0x1000a747	USER32.dll.wsprintfW
+0x1000a822	0x1000e1f0	import	0x1000a7e6	USER32.dll.wsprintfW
+0x1000a85a	0x1000e158	import	0x1000a84e	KERNEL32.dll.lstrlenA
+0x1000a872	0x1000a8da	string	0x1000a84e	j\bX^
+0x1000a937	0x1000e15c	import	0x1000a8e0	KERNEL32.dll.GetSystemTime
+0x1000a941	0x1000e2a0	import	0x1000a8e0	ntdll.dll._snprintf
+0x1000a952	0x1000e2d8	string	0x1000a8e0	%02u:%02u:%02u
+0x1000a97a	0x1000e518	string	0x1000a8e0	Error 0x%X writing dword value over WMI: "%S\%S"\n
+0x1000aac0	0x1000e0ac	import	0x1000aaab	KERNEL32.dll.CreateWaitableTimerA
+0x1000aadc	0x1000e2a0	import	0x1000aaab	ntdll.dll._snprintf
+0x1000ab3c	0x1000e15c	import	0x1000aaab	KERNEL32.dll.GetSystemTime
+0x1000ab51	0x1000e2d8	string	0x1000aaab	%02u:%02u:%02u
+0x1000ab78	0x1000ed08	string	0x1000aaab	Error %u(0x%X) downloading module 0x%X for %u\n
+0x1000abbb	0x1000e15c	import	0x1000aaab	KERNEL32.dll.GetSystemTime
+0x1000abd0	0x1000e2d8	string	0x1000aaab	%02u:%02u:%02u
+0x1000abeb	0x1000ec18	string	0x1000aaab	Waiting for %u seconds\n
+0x1000ac17	0x1000e08c	import	0x1000aaab	KERNEL32.dll.WaitForMultipleObjects
+0x1000ac30	0x1000e15c	import	0x1000aaab	KERNEL32.dll.GetSystemTime
+0x1000ac45	0x1000e2d8	string	0x1000aaab	%02u:%02u:%02u
+0x1000ac56	0x1000ecdc	string	0x1000aaab	An empty page received, exiting the loader\n
+0x1000ac7d	0x1000e160	import	0x1000aaab	KERNEL32.dll.CloseHandle
+0x1000ac85	0x1000e16c	import	0x1000aaab	KERNEL32.dll.GetLastError
+0x1000acce	0x1000e098	import	0x1000acbe	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000acee	0x1000e15c	import	0x1000acbe	KERNEL32.dll.GetSystemTime
+0x1000acf4	0x1000e2a0	import	0x1000acbe	ntdll.dll._snprintf
+0x1000ad3e	0x1000e2d8	string	0x1000acbe	%02u:%02u:%02u
+0x1000ad69	0x1000ed38	string	0x1000acbe	Error 0x%X writing key value: "%S\%S"\n
+0x1000adea	0x1000e2d8	string	0x1000acbe	%02u:%02u:%02u
+0x1000ae15	0x1000ed38	string	0x1000acbe	Error 0x%X writing key value: "%S\%S"\n
+0x1000ae7d	0x1000e2d8	string	0x1000acbe	%02u:%02u:%02u
+0x1000aea6	0x1000ed38	string	0x1000acbe	Error 0x%X writing key value: "%S\%S"\n
+0x1000af37	0x1000e14c	import	0x1000af2b	KERNEL32.dll.HeapAlloc
+0x1000af55	0x1000e140	import	0x1000af40	KERNEL32.dll.LoadLibraryA
+0x1000af68	0x1000e094	import	0x1000af40	KERNEL32.dll.GetProcAddress
+0x1000b0b0	0x1000a2bd	string	0x1000afa4	IVWx
+0x1000b178	0x1000e13c	import	0x1000b13d	KERNEL32.dll.InitializeCriticalSection
+0x1000b183	0x1000e088	import	0x1000b13d	KERNEL32.dll.GetModuleHandleA
+0x1000b1e7	0x1000e134	import	0x1000b13d	KERNEL32.dll.GetCurrentProcessId
+0x1000b1f3	0x1000e138	import	0x1000b13d	KERNEL32.dll.OpenProcess
+0x1000b267	0x1000e160	import	0x1000b13d	KERNEL32.dll.CloseHandle
+0x1000b2b9	0x1000e098	import	0x1000b13d	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000b442	0x1000b46b	string	0x1000b401	j\v[_^
+0x1000b44f	0x1000b46b	string	0x1000b401	j\v[_^
+0x1000b491	0x1000e19c	import	0x1000b477	SHLWAPI.dll.StrChrW
+0x1000b4a4	0x1000e090	import	0x1000b477	KERNEL32.dll.lstrlenW
+0x1000b4f5	0x1000e1f0	import	0x1000b477	USER32.dll.wsprintfW
+0x1000b571	0x1000e15c	import	0x1000b477	KERNEL32.dll.GetSystemTime
+0x1000b57b	0x1000e2a0	import	0x1000b477	ntdll.dll._snprintf
+0x1000b58c	0x1000e2d8	string	0x1000b477	%02u:%02u:%02u
+0x1000b5a3	0x1000e78c	string	0x1000b477	Not enough memory (%u)\n
+0x1000b5d9	0x1000e15c	import	0x1000b477	KERNEL32.dll.GetSystemTime
+0x1000b5e3	0x1000e2a0	import	0x1000b477	ntdll.dll._snprintf
+0x1000b5f4	0x1000e2d8	string	0x1000b477	%02u:%02u:%02u
+0x1000b60f	0x1000e78c	string	0x1000b477	Not enough memory (%u)\n
+0x1000b645	0x1000e15c	import	0x1000b477	KERNEL32.dll.GetSystemTime
+0x1000b64f	0x1000e2a0	import	0x1000b477	ntdll.dll._snprintf
+0x1000b660	0x1000e2d8	string	0x1000b477	%02u:%02u:%02u
+0x1000b679	0x1000e78c	string	0x1000b477	Not enough memory (%u)\n
+0x1000b6ab	0x1000e15c	import	0x1000b477	KERNEL32.dll.GetSystemTime
+0x1000b6b5	0x1000e2a0	import	0x1000b477	ntdll.dll._snprintf
+0x1000b6c6	0x1000e2d8	string	0x1000b477	%02u:%02u:%02u
+0x1000b6de	0x1000e78c	string	0x1000b477	Not enough memory (%u)\n
+0x1000b71c	0x1000b751	string	0x1000b70c	_^[]
+0x1000b745	0x1000b751	string	0x1000b70c	_^[]
+0x1000ba3c	0x1000e15c	import	0x1000ba1a	KERNEL32.dll.GetSystemTime
+0x1000ba4c	0x1000e2a0	import	0x1000ba1a	ntdll.dll._snprintf
+0x1000ba5d	0x1000e2d8	string	0x1000ba1a	%02u:%02u:%02u
+0x1000ba7b	0x1000e37c	string	0x1000ba1a	RtShlExecute() for file "%S" is failed, error: %u\n
+0x1000bac2	0x1000e190	import	0x1000ba1a	SHELL32.dll.ShellExecuteW
+0x1000baf2	0x1000e2d8	string	0x1000ba1a	%02u:%02u:%02u
+0x1000bb0b	0x1000e3b0	string	0x1000ba1a	Application "%S" is successfully started with parameter "%S"\n
+0x1000bb44	0x1000e2d8	string	0x1000ba1a	%02u:%02u:%02u
+0x1000bb5d	0x1000e3f0	string	0x1000ba1a	ShellExecute() for file "%S" is failed, error: %u\n
+0x1000bb8a	0x1000e284	import	0x1000bb8a	ntdll.dll.wcsrchr
+0x1000bba2	0x1000e24c	import	0x1000bb90	ntdll.dll.NtOpenProcessToken
+0x1000bbae	0x1000e248	import	0x1000bb90	ntdll.dll.NtQueryInformationToken
+0x1000bc0c	0x1000e254	import	0x1000bb90	ntdll.dll.NtClose
+0x1000bc14	0x1000e258	import	0x1000bb90	ntdll.dll.RtlNtStatusToDosError
+0x1000bc55	0x1000e208	import	0x1000bc4d	WINHTTP.dll.WinHttpQueryDataAvailable
+0x1000bc84	0x1000e2bc	import	0x1000bc4d	ole32.dll.CreateStreamOnHGlobal
+0x1000bcbf	0x1000e224	import	0x1000bc4d	WINHTTP.dll.WinHttpReadData
+0x1000bce3	0x1000e16c	import	0x1000bc4d	KERNEL32.dll.GetLastError
+0x1000bced	0x1000e0a8	import	0x1000bc4d	KERNEL32.dll.Sleep
+0x1000bd07	0x1000e16c	import	0x1000bc4d	KERNEL32.dll.GetLastError
+0x1000bd6e	0x1000e16c	import	0x1000bc4d	KERNEL32.dll.GetLastError
+0x1000bdab	0x1000e0a8	import	0x1000bd8b	KERNEL32.dll.Sleep
+0x1000bdd2	0x1000e240	import	0x1000bdd2	ntdll.dll.NtQueryVirtualMemory
+0x1000be13	0x1000e0d4	import	0x1000bdd8	KERNEL32.dll.InterlockedDecrement
+0x1000beb4	0x1000e1c0	import	0x1000be8c	SHLWAPI.dll.PathFindExtensionW
+0x1000bebb	0x1000e154	import	0x1000be8c	KERNEL32.dll.lstrcpyW
+0x1000bec6	0x1000c751	string	0x1000be8c	VWj0
+0x1000bef4	0x1000e16c	import	0x1000be8c	KERNEL32.dll.GetLastError
+0x1000bf07	0x1000e15c	import	0x1000be8c	KERNEL32.dll.GetSystemTime
+0x1000bf11	0x1000e2a0	import	0x1000be8c	ntdll.dll._snprintf
+0x1000bf22	0x1000e2d8	string	0x1000be8c	%02u:%02u:%02u
+0x1000bf3b	0x1000e8fc	string	0x1000be8c	Failed to record desktop video, error %u\n
+0x1000bfc3	0x1000e134	import	0x1000bf72	KERNEL32.dll.GetCurrentProcessId
+0x1000bfca	0x1000e130	import	0x1000bf72	KERNEL32.dll.ProcessIdToSessionId
+0x1000c02c	0x1000c036	string	0x1000bf72	j\b[_^
+0x1000c052	0x1000e13c	import	0x1000c042	KERNEL32.dll.InitializeCriticalSection
+0x1000c0b2	0x1000e158	import	0x1000c0a3	KERNEL32.dll.lstrlenA
+0x1000c113	0x1000e0ec	import	0x1000c0f5	KERNEL32.dll.CreateFileW
+0x1000c123	0x1000e0f0	import	0x1000c0f5	KERNEL32.dll.GetFileSize
+0x1000c14f	0x1000e0f4	import	0x1000c0f5	KERNEL32.dll.ReadFile
+0x1000c174	0x1000e16c	import	0x1000c0f5	KERNEL32.dll.GetLastError
+0x1000c185	0x1000e160	import	0x1000c0f5	KERNEL32.dll.CloseHandle
+0x1000c1a9	0x1000e0e4	import	0x1000c1a2	KERNEL32.dll.GetTempPathW
+0x1000c1d8	0x1000e098	import	0x1000c1a2	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000c1df	0x1000e100	import	0x1000c1a2	KERNEL32.dll.GetCurrentThreadId
+0x1000c1ec	0x1000e0f8	import	0x1000c1a2	KERNEL32.dll.GetTempFileNameW
+0x1000c203	0x1000e1c0	import	0x1000c1a2	SHLWAPI.dll.PathFindExtensionW
+0x1000c20a	0x1000e154	import	0x1000c1a2	KERNEL32.dll.lstrcpyW
+0x1000c261	0x1000e160	import	0x1000c24c	KERNEL32.dll.CloseHandle
+0x1000c26f	0x1000e0b0	import	0x1000c24c	KERNEL32.dll.DeleteFileW
+0x1000c295	0x1000e114	import	0x1000c24c	KERNEL32.dll.DeleteCriticalSection
+0x1000c2ae	0x1000c341	string	0x1000c2a2	j\bX][
+0x1000c2b4	0x1000e0ec	import	0x1000c2a2	KERNEL32.dll.CreateFileW
+0x1000c2d5	0x1000e16c	import	0x1000c2a2	KERNEL32.dll.GetLastError
+0x1000c2e4	0x1000e1a0	import	0x1000c2a2	SHLWAPI.dll.PathFindFileNameW
+0x1000c2ed	0x1000e090	import	0x1000c2a2	KERNEL32.dll.lstrlenW
+0x1000c334	0x1000e16c	import	0x1000c2a2	KERNEL32.dll.GetLastError
+0x1000c354	0x1000e120	import	0x1000c347	KERNEL32.dll.EnterCriticalSection
+0x1000c389	0x1000e0fc	import	0x1000c347	KERNEL32.dll.WriteFile
+0x1000c390	0x1000e124	import	0x1000c347	KERNEL32.dll.LeaveCriticalSection
+0x1000c3ad	0x1000e120	import	0x1000c39a	KERNEL32.dll.EnterCriticalSection
+0x1000c3e1	0x1000e0d8	import	0x1000c39a	KERNEL32.dll.FlushFileBuffers
+0x1000c3eb	0x1000e0f0	import	0x1000c39a	KERNEL32.dll.GetFileSize
+0x1000c405	0x1000e0e8	import	0x1000c39a	KERNEL32.dll.SetFilePointer
+0x1000c41d	0x1000e0f4	import	0x1000c39a	KERNEL32.dll.ReadFile
+0x1000c427	0x1000e16c	import	0x1000c39a	KERNEL32.dll.GetLastError
+0x1000c454	0x1000e0e0	import	0x1000c39a	KERNEL32.dll.SetEndOfFile
+0x1000c466	0x1000e124	import	0x1000c39a	KERNEL32.dll.LeaveCriticalSection
+0x1000c482	0x1000e1d8	import	0x1000c476	USER32.dll.GetShellWindow
+0x1000c491	0x1000e1d0	import	0x1000c476	USER32.dll.GetWindowRect
+0x1000c4b6	0x1000e1dc	import	0x1000c476	USER32.dll.GetSystemMetrics
+0x1000c4da	0x1000e1c8	import	0x1000c476	USER32.dll.GetDC
+0x1000c4e6	0x1000e078	import	0x1000c476	GDI32.dll.GetDeviceCaps
+0x1000c519	0x1000e140	import	0x1000c4f9	KERNEL32.dll.LoadLibraryA
+0x1000c52a	0x1000e094	import	0x1000c4f9	KERNEL32.dll.GetProcAddress
+0x1000c6b5	0x1000e1ec	import	0x1000c6a1	USER32.dll.GetCursorInfo
+0x1000c6d5	0x1000e1cc	import	0x1000c6a1	USER32.dll.GetIconInfo
+0x1000c6ef	0x1000e068	import	0x1000c6a1	GDI32.dll.DeleteObject
+0x1000c717	0x1000e068	import	0x1000c711	GDI32.dll.DeleteObject
+0x1000c737	0x1000e1d4	import	0x1000c711	USER32.dll.ReleaseDC
+0x1000c7b7	0x1000e07c	import	0x1000c7a6	GDI32.dll.GetObjectA
+0x1000c854	0x1000e074	import	0x1000c7a6	GDI32.dll.GetDIBits
+0x1000c880	0x1000e060	import	0x1000c860	GDI32.dll.CreateCompatibleDC
+0x1000c89f	0x1000e070	import	0x1000c860	GDI32.dll.CreateCompatibleBitmap
+0x1000c8af	0x1000e064	import	0x1000c860	GDI32.dll.SelectObject
+0x1000c8d6	0x1000e06c	import	0x1000c860	GDI32.dll.BitBlt
+0x1000c8fc	0x1000e1e0	import	0x1000c860	USER32.dll.DrawIcon
+0x1000c924	0x1000e098	import	0x1000c91b	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000c9d4	0x1000e128	import	0x1000c93e	KERNEL32.dll.SetLastError
+0x1000ca1b	0x1000e1e4	import	0x1000c93e	USER32.dll.SetRect
+0x1000cb4f	0x1000e0b8	import	0x1000c93e	KERNEL32.dll.WaitForSingleObject
+0x1000cb62	0x1000e0a8	import	0x1000c93e	KERNEL32.dll.Sleep
+0x1000cbdf	0x1000e158	import	0x1000cbd5	KERNEL32.dll.lstrlenA
+0x1000cc39	0x1000e158	import	0x1000cc2f	KERNEL32.dll.lstrlenA
+0x1000ccc1	0x1000e158	import	0x1000ccb5	KERNEL32.dll.lstrlenA
+0x1000cd7e	0x1000e158	import	0x1000cd32	KERNEL32.dll.lstrlenA
+0x1000cde3	0x1000e158	import	0x1000cdbf	KERNEL32.dll.lstrlenA
+0x1000ce14	0x1000e108	import	0x1000cdbf	KERNEL32.dll.lstrcatA
+0x1000ce31	0x1000e1b4	import	0x1000cdbf	SHLWAPI.dll.StrTrimA
+0x1000ceed	0x1000e204	import	0x1000cea0	WINHTTP.dll.WinHttpOpen
+0x1000cf15	0x1000e1fc	import	0x1000cea0	WINHTTP.dll.WinHttpSetOption
+0x1000cf4b	0x1000e220	import	0x1000cea0	WINHTTP.dll.WinHttpConnect
+0x1000cfa0	0x1000e1f8	import	0x1000cea0	WINHTTP.dll.WinHttpOpenRequest
+0x1000cfca	0x1000e218	import	0x1000cea0	WINHTTP.dll.WinHttpQueryOption
+0x1000cfe2	0x1000e1fc	import	0x1000cea0	WINHTTP.dll.WinHttpSetOption
+0x1000cfec	0x1000e16c	import	0x1000cea0	KERNEL32.dll.GetLastError
+0x1000d01d	0x1000e200	import	0x1000cff8	WINHTTP.dll.WinHttpSendRequest
+0x1000d02b	0x1000e16c	import	0x1000cff8	KERNEL32.dll.GetLastError
+0x1000d057	0x1000e1fc	import	0x1000cff8	WINHTTP.dll.WinHttpSetOption
+0x1000d094	0x1000e16c	import	0x1000cff8	KERNEL32.dll.GetLastError
+0x1000d0bc	0x1000e228	import	0x1000cff8	WINHTTP.dll.WinHttpWriteData
+0x1000d0c6	0x1000e16c	import	0x1000cff8	KERNEL32.dll.GetLastError
+0x1000d149	0x1000a2bd	string	0x1000d0d8	IVWx
+0x1000d9b6	0x1000e2a0	import	0x1000d9b6	ntdll.dll._snprintf
+0x1000d9bc	0x1000e250	import	0x1000d9bc	ntdll.dll._snwprintf
+0x1000d9c2	0x1000e28c	import	0x1000d9c2	ntdll.dll._wcsupr
+0x1000d9c8	0x1000e02c	import	0x1000d9c8	AVIFIL32.dll.AVIFileExit
+0x1000d9ce	0x1000e028	import	0x1000d9ce	AVIFIL32.dll.AVIMakeCompressedStream
+0x1000d9d4	0x1000e04c	import	0x1000d9d4	AVIFIL32.dll.AVIFileRelease
+0x1000d9da	0x1000e030	import	0x1000d9da	AVIFIL32.dll.AVIFileOpenW
+0x1000d9e0	0x1000e034	import	0x1000d9e0	AVIFIL32.dll.AVISaveOptionsFree
+0x1000d9e6	0x1000e048	import	0x1000d9e6	AVIFIL32.dll.AVIFileInit
+0x1000d9ec	0x1000e038	import	0x1000d9ec	AVIFIL32.dll.AVIStreamWrite
+0x1000d9f2	0x1000e03c	import	0x1000d9f2	AVIFIL32.dll.AVIFileCreateStreamA
+0x1000d9f8	0x1000e040	import	0x1000d9f8	AVIFIL32.dll.AVIStreamSetFormat
+0x1000d9fe	0x1000e044	import	0x1000d9fe	AVIFIL32.dll.AVIStreamRelease
+0x1000da04	0x1000e278	import	0x1000da04	ntdll.dll._aulldiv
+0x1000da0a	0x1000e274	import	0x1000da0a	ntdll.dll._allmul
+0x1000db1d	0x1000db42	string	0x1000da64	]_^[
+0x1000db2b	0x1000db42	string	0x1000da64	]_^[
+0x1000db73	0x1000db80	string	0x1000db68	]_^[
+0x1000dcbc	0x1000dcc6	string	0x1000dc7d	3҉U\b blocks=Basic Latin,Cyrillic
+0x1000de57	0x1000de4d	string	0x1000dc7d	90t\bJ

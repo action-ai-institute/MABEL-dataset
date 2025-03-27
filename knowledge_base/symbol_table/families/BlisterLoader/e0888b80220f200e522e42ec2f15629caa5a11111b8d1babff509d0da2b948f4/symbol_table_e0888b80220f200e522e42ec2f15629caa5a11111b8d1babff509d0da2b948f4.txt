@@ -1,0 +1,998 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x180008bbe	0x18004a818	import	0x180008b98	ADVAPI32.dll.IsValidSid
+0x180008db4	0x18004a930	import	0x180008d80	KERNEL32.dll.CreateMutexW
+0x180008dcc	0x18004a938	import	0x180008d80	KERNEL32.dll.OpenMutexW
+0x180008def	0x18004a7c8	import	0x180008d80	ADVAPI32.dll.ConvertStringSidToSidW
+0x180008e18	0x18004a940	import	0x180008d80	KERNEL32.dll.LocalFree
+0x180008e25	0x18004a948	import	0x180008d80	KERNEL32.dll.CloseHandle
+0x180008e4d	0x18004a950	import	0x180008d80	KERNEL32.dll.CreateEventA
+0x180008e66	0x18004a950	import	0x180008d80	KERNEL32.dll.CreateEventA
+0x180008e9c	0x18004a958	import	0x180008d80	KERNEL32.dll.GetModuleHandleExA
+0x180008ebb	0x18004a960	import	0x180008d80	KERNEL32.dll.CreateThread
+0x180008edf	0x18004a968	import	0x180008d80	KERNEL32.dll.FreeLibrary
+0x180008f21	0x18004a948	import	0x180008f10	KERNEL32.dll.CloseHandle
+0x180008f34	0x18004a948	import	0x180008f10	KERNEL32.dll.CloseHandle
+0x180008f48	0x18004a948	import	0x180008f10	KERNEL32.dll.CloseHandle
+0x180008f5c	0x18004a948	import	0x180008f10	KERNEL32.dll.CloseHandle
+0x180008fa1	0x18004a8f0	import	0x180008f74	GDI32.dll.GdiEntry13
+0x180008fc9	0x18004a8f0	import	0x180008f74	GDI32.dll.GdiEntry13
+0x180008ffc	0x18004ace0	import	0x180008f74	USER32.dll.EnumDisplayDevicesW
+0x180009024	0x18004a8f0	import	0x180008f74	GDI32.dll.GdiEntry13
+0x180009913	0x18004ab10	import	0x1800098cc	KERNEL32.dll.GetVersionExA
+0x180009946	0x180005768	string	0x1800098cc	D3DKMTGetThunkVersion
+0x18000994d	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x18000996b	0x18004a988	import	0x1800098cc	KERNEL32.dll.GetModuleHandleA
+0x18000997c	0x180009985	string	0x1800098cc	H9_Pu"H
+0x18000998b	0x180004648	string	0x1800098cc	gdi32.dll
+0x180009997	0x18004a990	import	0x1800098cc	KERNEL32.dll.LoadLibraryExW
+0x1800099b1	0x180004660	string	0x1800098cc	D3DKMTOpenAdapterFromGdiDisplayName
+0x1800099b8	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x1800099c2	0x180004688	string	0x1800098cc	D3DKMTOpenAdapterFromDeviceName
+0x1800099d4	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x1800099f5	0x1800046a8	string	0x1800098cc	D3DKMTGetDisplayModeList
+0x1800099fc	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009a1a	0x1800046c8	string	0x1800098cc	D3DKMTSetVidPnSourceOwner
+0x180009a21	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009a3f	0x1800046e8	string	0x1800098cc	D3DKMTSetDisplayMode
+0x180009a46	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009a64	0x180004700	string	0x1800098cc	D3DKMTCloseAdapter
+0x180009a6b	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009a89	0x180004718	string	0x1800098cc	D3DKMTSetGammaRamp
+0x180009a90	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009ab1	0x180004730	string	0x1800098cc	D3DKMTGetDeviceState
+0x180009ab8	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009ad9	0x180004748	string	0x1800098cc	D3DKMTQueryAdapterInfo
+0x180009ae0	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009b01	0x180004760	string	0x1800098cc	D3DKMTWaitForVerticalBlankEvent
+0x180009b08	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009b22	0x180004780	string	0x1800098cc	D3DKMTCreateDCFromMemory
+0x180009b2c	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009b32	0x1800047a0	string	0x1800098cc	D3DKMTDestroyDCFromMemory
+0x180009b43	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009b49	0x1800047c0	string	0x1800098cc	D3DKMTCheckVidPnExclusiveOwnership
+0x180009b5a	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009b60	0x1800047e8	string	0x1800098cc	D3DKMTCheckMonitorPowerState
+0x180009b71	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009b77	0x180004808	string	0x1800098cc	D3DKMTCheckSharedResourceAccess
+0x180009b88	0x18004a998	import	0x1800098cc	KERNEL32.dll.GetProcAddress
+0x180009cb6	0x18004a968	import	0x180009bcc	KERNEL32.dll.FreeLibrary
+0x180009cd9	0x18004a968	import	0x180009bcc	KERNEL32.dll.FreeLibrary
+0x180009d46	0x180004828	string	0x180009bcc	OsThunkDDIOpenAdapterFromGdiDisplayName
+0x180009d9d	0x180004850	string	0x180009bcc	Software Adapter
+0x180009f04	0x180004828	string	0x180009bcc	OsThunkDDIOpenAdapterFromGdiDisplayName
+0x18000a037	0x180004878	string	0x180009bcc	OsThunkDDIOpenAdapterFromDeviceName
+0x18000a35a	0x1800048a0	string	0x18000a32c	D3DKMTSignalSynchronizationObject2
+0x18000a361	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a36b	0x1800048c8	string	0x18000a32c	D3DKMTWaitForSynchronizationObject2
+0x18000a380	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a39e	0x1800048f0	string	0x18000a32c	D3DKMTOpenSynchronizationObject
+0x18000a3a5	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a3c3	0x180004910	string	0x18000a32c	D3DKMTCreateSynchronizationObject2
+0x18000a3ca	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a3e8	0x180004938	string	0x18000a32c	D3DKMTReleaseKeyedMutex
+0x18000a3ef	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a40d	0x180004950	string	0x18000a32c	D3DKMTAcquireKeyedMutex
+0x18000a414	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a432	0x180004968	string	0x18000a32c	D3DKMTDestroyKeyedMutex
+0x18000a439	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a457	0x180004980	string	0x18000a32c	D3DKMTOpenKeyedMutex
+0x18000a45e	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a47c	0x180004998	string	0x18000a32c	D3DKMTCreateKeyedMutex
+0x18000a483	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a4a1	0x1800049b0	string	0x18000a32c	D3DKMTOpenResource2
+0x18000a4a8	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a4c6	0x1800049c8	string	0x18000a32c	D3DKMTCreateAllocation2
+0x18000a4cd	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a4eb	0x1800049e0	string	0x18000a32c	D3DKMTConfigureSharedResource
+0x18000a4f2	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a510	0x180004a00	string	0x18000a32c	D3DKMTSetQueuedLimit
+0x18000a517	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a521	0x180004a18	string	0x18000a32c	D3DKMTGetMultisampleMethodList
+0x18000a52f	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a54d	0x180004748	string	0x18000a32c	D3DKMTQueryAdapterInfo
+0x18000a554	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a572	0x180004a38	string	0x18000a32c	D3DKMTSetDisplayPrivateDriverFormat
+0x18000a579	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a597	0x180004a60	string	0x18000a32c	D3DKMTDestroySynchronizationObject
+0x18000a59e	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a5bc	0x180004a88	string	0x18000a32c	D3DKMTCreateSynchronizationObject
+0x18000a5c3	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a5e1	0x180004ab0	string	0x18000a32c	D3DKMTDestroyContext
+0x18000a5e8	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a606	0x180004ac8	string	0x18000a32c	D3DKMTCreateContext
+0x18000a60d	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a62b	0x180004ae0	string	0x18000a32c	D3DKMTGetContextSchedulingPriority
+0x18000a632	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a650	0x180004b08	string	0x18000a32c	D3DKMTSetContextSchedulingPriority
+0x18000a657	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a675	0x180004b30	string	0x18000a32c	D3DKMTPresent
+0x18000a67c	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a69a	0x180004b40	string	0x18000a32c	D3DKMTDestroyDevice
+0x18000a6a1	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a6bf	0x180004b58	string	0x18000a32c	D3DKMTCreateDevice
+0x18000a6c6	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a6e1	0x180004b70	string	0x18000a32c	D3DKMTQueryAllocationResidency
+0x18000a6e8	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a703	0x180004b90	string	0x18000a32c	D3DKMTSetAllocationPriority
+0x18000a70a	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a725	0x180004bb0	string	0x18000a32c	D3DKMTDestroyAllocation
+0x18000a72c	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a747	0x180004bc8	string	0x18000a32c	D3DKMTOpenResource
+0x18000a74e	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a769	0x180004be0	string	0x18000a32c	D3DKMTQueryResourceInfo
+0x18000a770	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a78b	0x180004bf8	string	0x18000a32c	D3DKMTCreateAllocation
+0x18000a792	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a7ad	0x180004730	string	0x18000a32c	D3DKMTGetDeviceState
+0x18000a7b4	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a7cf	0x1800046e8	string	0x18000a32c	D3DKMTSetDisplayMode
+0x18000a7d6	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a7f1	0x180004c10	string	0x18000a32c	D3DKMTSignalSynchronizationObject
+0x18000a7f8	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a813	0x180004c38	string	0x18000a32c	D3DKMTWaitForSynchronizationObject
+0x18000a81a	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a835	0x180004c60	string	0x18000a32c	D3DKMTEscape
+0x18000a83c	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a857	0x180004c70	string	0x18000a32c	D3DKMTUnlock
+0x18000a85e	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a879	0x180004c80	string	0x18000a32c	D3DKMTLock
+0x18000a880	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a89b	0x180004c90	string	0x18000a32c	D3DKMTRender
+0x18000a8a2	0x18004a998	import	0x18000a32c	KERNEL32.dll.GetProcAddress
+0x18000a8c6	0x18004a980	import	0x18000a32c	KERNEL32.dll.GetLastError
+0x18000aac8	0x18004a958	import	0x18000aa34	KERNEL32.dll.GetModuleHandleExA
+0x18000abeb	0x180004f50	string	0x18000aa34	list<T> too long
+0x18000b5de	0x180004d20	string	0x18000b514	vector<T> too long
+0x18000b6d5	0x18004ae08	import	0x18000b514	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18000bc3a	0x18004ade8	import	0x18000bbfc	msvcrt.dll.ldiv
+0x18000bdc2	0x18004ade8	import	0x18000bd7c	msvcrt.dll.ldiv
+0x18000bf8a	0x180004d20	string	0x18000bef8	vector<T> too long
+0x18000c053	0x18004ae08	import	0x18000bef8	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18000c37e	0x180004f50	string	0x18000c32c	list<T> too long
+0x18000c54b	0x18004ade8	import	0x18000c3d8	msvcrt.dll.ldiv
+0x18000c669	0x18004ade8	import	0x18000c3d8	msvcrt.dll.ldiv
+0x18000cc0e	0x18004adf8	import	0x18000cbf0	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(void) __ptr64
+0x18000ccd5	0x18000ccdc	string	0x18000cc64	H9w s
+0x18000cd2b	0x18004ae38	import	0x18000cc64	msvcrt.dll.memcpy_s
+0x18000ce42	0x18004ae78	import	0x18000ce24	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(class exception const & __ptr64) __ptr64
+0x18000d00c	0x18004ae00	import	0x18000cf9c	msvcrt.dll.memmove_s
+0x18000d19b	0x18004ae08	import	0x18000d104	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18000d202	0x18004ae38	import	0x18000d104	msvcrt.dll.memcpy_s
+0x18000d322	0x18004ae38	import	0x18000d248	msvcrt.dll.memcpy_s
+0x18000d5db	0x18004a820	import	0x18000d598	ADVAPI32.dll.EventWrite
+0x18000d689	0x18004a820	import	0x18000d5fc	ADVAPI32.dll.EventWrite
+0x18000dc5b	0x18004ac10	import	0x18000dbb4	USER32.dll.GetDisplayConfigBufferSizes
+0x18000de2a	0x18004ab20	import	0x18000dbb4	USER32.dll.QueryDisplayConfig
+0x18000dfab	0x18004ab30	import	0x18000df48	USER32.dll.EnumDisplayMonitors
+0x18000dfd0	0x18004acf0	import	0x18000df48	USER32.dll.EnumDisplaySettingsW
+0x18000e1ae	0x180005058	string	0x18000e028	Contract breached!
+0x18000e1c8	0x180004fb8	string	0x18000e028	OsThunkDDIGetDisplayModeList
+0x18000e300	0x180005058	string	0x18000e028	Contract breached!
+0x18000e8ef	0x18000e8f8	string	0x18000e8c4	9Y\fu+H
+0x18000e964	0x180005058	string	0x18000e8c4	Contract breached!
+0x18000e9c0	0x180004fd8	string	0x18000e8c4	IDXGIOutput::FindClosestMatchingMode
+0x18000ea4e	0x18000ea3f	string	0x18000e9ec	E9\bt
+0x18000f98f	0x18004ab28	import	0x18000f60c	USER32.dll.GetSystemMetrics
+0x18001005a	0x18004a978	import	0x180010005	KERNEL32.dll.TlsGetValue
+0x18001006e	0x18004a970	import	0x180010005	KERNEL32.dll.TlsSetValue
+0x1800100a3	0x18004a820	import	0x180010005	ADVAPI32.dll.EventWrite
+0x180010118	0x18004a820	import	0x180010005	ADVAPI32.dll.EventWrite
+0x18001012b	0x18004a970	import	0x180010005	KERNEL32.dll.TlsSetValue
+0x1800103c7	0x18004a9c0	import	0x1800102e8	KERNEL32.dll.EnterCriticalSection
+0x1800103e7	0x18004a9b8	import	0x1800102e8	KERNEL32.dll.LeaveCriticalSection
+0x1800103f8	0x18004a9b8	import	0x1800102e8	KERNEL32.dll.LeaveCriticalSection
+0x1800104c1	0x180005000	string	0x1800102e8	OsThunkDDISetVIDPnSourceOwner
+0x180010549	0x18004a9c0	import	0x1800102e8	KERNEL32.dll.EnterCriticalSection
+0x180010578	0x18004a928	import	0x1800102e8	KERNEL32.dll.SetEvent
+0x180010588	0x18004a918	import	0x1800102e8	KERNEL32.dll.WaitForSingleObject
+0x180010595	0x18004a9b8	import	0x1800102e8	KERNEL32.dll.LeaveCriticalSection
+0x1800106bb	0x180005058	string	0x18001061c	Contract breached!
+0x1800106d2	0x180005020	string	0x18001061c	OsThunkDDISetGammaRamp
+0x1800114cf	0x18004a8f8	import	0x18001146c	GDI32.dll.CreateCompatibleDC
+0x18001155f	0x18004a898	import	0x18001146c	GDI32.dll.CreateDIBSection
+0x180011583	0x18004a890	import	0x18001146c	GDI32.dll.SetStretchBltMode
+0x180011590	0x18004a888	import	0x18001146c	GDI32.dll.SelectObject
+0x1800117e2	0x1800193b8	string	0x18001169c	@SUVWATAUAVAWH
+0x18001183b	0x1800192bc	string	0x18001169c	@SUVWATAUAVAWH
+0x180011894	0x1800192bc	string	0x18001169c	@SUVWATAUAVAWH
+0x1800118ed	0x180018fd0	string	0x18001169c	@SUVWATAUAVAWH
+0x18001199f	0x1800194b4	string	0x18001169c	@SUVWATAUAVAWH
+0x180011a05	0x1800190cc	string	0x18001169c	@SUVWATAUAVAWH
+0x180011a5e	0x1800195b0	string	0x18001169c	@SUVWATAUAVAWH
+0x180011ab7	0x1800190cc	string	0x18001169c	@SUVWATAUAVAWH
+0x180011b10	0x1800190cc	string	0x18001169c	@SUVWATAUAVAWH
+0x180011ba3	0x180018b30	string	0x18001169c	@SUVWATAUAVAWH
+0x180011bfc	0x180018a08	string	0x18001169c	@SUVWATAUAVAWH
+0x180011c55	0x180018a08	string	0x18001169c	@SUVWATAUAVAWH
+0x180011cae	0x1800188e0	string	0x18001169c	@SUVWATAUAVAWH
+0x180011d60	0x180018c58	string	0x18001169c	@SUVWATAUAVAWH
+0x180011dd7	0x180018d80	string	0x18001169c	@SUVWATAUAVAWH
+0x180011e1f	0x180018ea8	string	0x18001169c	@SUVWATAUAVAWH
+0x180011e78	0x180018d80	string	0x18001169c	@SUVWATAUAVAWH
+0x180011ed1	0x180018d80	string	0x18001169c	@SUVWATAUAVAWH
+0x180011f64	0x1800183dc	string	0x18001169c	@SUVWATAUAVAWH
+0x180011fbd	0x1800182e4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012016	0x1800182e4	string	0x18001169c	@SUVWATAUAVAWH
+0x18001206f	0x1800181ec	string	0x18001169c	@SUVWATAUAVAWH
+0x180012121	0x1800184d4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012198	0x1800186c4	string	0x18001169c	@SUVWATAUAVAWH
+0x1800121f1	0x1800185cc	string	0x18001169c	@SUVWATAUAVAWH
+0x180012239	0x1800186c4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012292	0x1800186c4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012325	0x1800193b8	string	0x18001169c	@SUVWATAUAVAWH
+0x18001237e	0x1800192bc	string	0x18001169c	@SUVWATAUAVAWH
+0x1800123d7	0x1800192bc	string	0x18001169c	@SUVWATAUAVAWH
+0x180012430	0x180018fd0	string	0x18001169c	@SUVWATAUAVAWH
+0x1800124e2	0x1800194b4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012559	0x1800190cc	string	0x18001169c	@SUVWATAUAVAWH
+0x1800125b2	0x1800195b0	string	0x18001169c	@SUVWATAUAVAWH
+0x18001260b	0x1800190cc	string	0x18001169c	@SUVWATAUAVAWH
+0x180012653	0x1800190cc	string	0x18001169c	@SUVWATAUAVAWH
+0x1800126e6	0x180017f0c	string	0x18001169c	@SUVWATAUAVAWH
+0x18001272e	0x180017e10	string	0x18001169c	@SUVWATAUAVAWH
+0x180012787	0x180017e10	string	0x18001169c	@SUVWATAUAVAWH
+0x1800127e0	0x180017a28	string	0x18001169c	@SUVWATAUAVAWH
+0x180012892	0x180017b24	string	0x18001169c	@SUVWATAUAVAWH
+0x180012909	0x180017c20	string	0x18001169c	@SUVWATAUAVAWH
+0x180012962	0x180018008	string	0x18001169c	@SUVWATAUAVAWH
+0x1800129bb	0x180017c20	string	0x18001169c	@SUVWATAUAVAWH
+0x180012a14	0x180017c20	string	0x18001169c	@SUVWATAUAVAWH
+0x180012aa7	0x180017f0c	string	0x18001169c	@SUVWATAUAVAWH
+0x180012b00	0x180017e10	string	0x18001169c	@SUVWATAUAVAWH
+0x180012b48	0x180017e10	string	0x18001169c	@SUVWATAUAVAWH
+0x180012ba1	0x180017a28	string	0x18001169c	@SUVWATAUAVAWH
+0x180012c53	0x180017b24	string	0x18001169c	@SUVWATAUAVAWH
+0x180012cca	0x180017c20	string	0x18001169c	@SUVWATAUAVAWH
+0x180012d23	0x180018008	string	0x18001169c	@SUVWATAUAVAWH
+0x180012d7c	0x180017c20	string	0x18001169c	@SUVWATAUAVAWH
+0x180012dd5	0x180017c20	string	0x18001169c	@SUVWATAUAVAWH
+0x180012e68	0x1800175d8	string	0x18001169c	@SUVWATAUAVAWH
+0x180012ec1	0x1800174c4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012f1a	0x1800174c4	string	0x18001169c	@SUVWATAUAVAWH
+0x180012f62	0x1800173b0	string	0x18001169c	@SUVWATAUAVAWH
+0x180013014	0x1800176ec	string	0x18001169c	@SUVWATAUAVAWH
+0x18001308b	0x180017800	string	0x18001169c	@SUVWATAUAVAWH
+0x1800130e4	0x180017914	string	0x18001169c	@SUVWATAUAVAWH
+0x18001313d	0x180017800	string	0x18001169c	@SUVWATAUAVAWH
+0x180013196	0x180017800	string	0x18001169c	@SUVWATAUAVAWH
+0x180013309	0x180010ba0	string	0x18001169c	@USH
+0x1800133aa	0x180010ba0	string	0x18001169c	@USH
+0x18001344b	0x180010a84	string	0x18001169c	@USH
+0x1800134d5	0x1800109d0	string	0x18001169c	@USVWAVH
+0x180013638	0x180010cac	string	0x18001169c	@USH
+0x1800136d9	0x180010db8	string	0x18001169c	@USH
+0x18001377a	0x180010cac	string	0x18001169c	@USH
+0x180013815	0x180010cac	string	0x18001169c	@USH
+0x180013887	0x180010ba0	string	0x18001169c	@USH
+0x180013890	0x180010ba0	string	0x18001169c	@USH
+0x180013899	0x180010a84	string	0x18001169c	@USH
+0x1800138a2	0x1800109d0	string	0x18001169c	@USVWAVH
+0x1800138e9	0x180010cac	string	0x18001169c	@USH
+0x1800138f2	0x180010db8	string	0x18001169c	@USH
+0x1800138fb	0x180010cac	string	0x18001169c	@USH
+0x180013904	0x180010cac	string	0x18001169c	@USH
+0x180013ddf	0x180001300	string	0x180013d28	DXGI temporary resolve surface
+0x180014144	0x180001300	string	0x18001409c	DXGI temporary resolve surface
+0x180014182	0x180013d28	string	0x18001409c	@UVWATAVAWH
+0x180014282	0x18004a978	import	0x180014222	KERNEL32.dll.TlsGetValue
+0x180014296	0x18004a970	import	0x180014222	KERNEL32.dll.TlsSetValue
+0x1800142de	0x18004a820	import	0x180014222	ADVAPI32.dll.EventWrite
+0x180014346	0x18004a820	import	0x180014222	ADVAPI32.dll.EventWrite
+0x1800143a5	0x1800144ec	string	0x180014222	@SVWATAUAVAWH
+0x1800143fe	0x18004a820	import	0x180014222	ADVAPI32.dll.EventWrite
+0x180014411	0x18004a970	import	0x180014222	KERNEL32.dll.TlsSetValue
+0x18001482f	0x180013d28	string	0x1800144ec	@UVWATAVAWH
+0x180014876	0x18001409c	string	0x1800144ec	@USVWAVH
+0x1800148d9	0x18004a8e8	import	0x1800144ec	GDI32.dll.CreateDCW
+0x180014a11	0x180005038	string	0x1800144ec	OsThunkDDICreateDCFromMemory
+0x180014aa4	0x18004a8e0	import	0x1800144ec	GDI32.dll.StretchBlt
+0x180014bd2	0x18004a8e0	import	0x1800144ec	GDI32.dll.StretchBlt
+0x180014c06	0x180013bd8	string	0x1800144ec	@USVWATAVAWH
+0x180014e15	0x18001409c	string	0x180014ca8	@USVWAVH
+0x180015252	0x180005058	string	0x1800151d8	Contract breached!
+0x180015269	0x180004cf0	string	0x1800151d8	OsThunkDDIGetDeviceState
+0x18001576a	0x18004ad00	import	0x1800156fc	USER32.dll.SetRect
+0x18001577c	0x18004acf0	import	0x1800156fc	USER32.dll.EnumDisplaySettingsW
+0x1800157b0	0x18004ad00	import	0x1800156fc	USER32.dll.SetRect
+0x180015892	0x18004a978	import	0x180015832	KERNEL32.dll.TlsGetValue
+0x1800158a6	0x18004a970	import	0x180015832	KERNEL32.dll.TlsSetValue
+0x1800158ee	0x18004a820	import	0x180015832	ADVAPI32.dll.EventWrite
+0x18001595a	0x18004a820	import	0x180015832	ADVAPI32.dll.EventWrite
+0x1800159df	0x18004a820	import	0x180015832	ADVAPI32.dll.EventWrite
+0x1800159f2	0x18004a970	import	0x180015832	KERNEL32.dll.TlsSetValue
+0x180015c43	0x180005058	string	0x180015a20	Contract breached!
+0x180015c7f	0x18004acf0	import	0x180015a20	USER32.dll.EnumDisplaySettingsW
+0x180015d9f	0x180005058	string	0x180015d14	Contract breached!
+0x180015e81	0x180005058	string	0x180015df4	Contract breached!
+0x1800160af	0x180004d20	string	0x180015fdc	vector<T> too long
+0x1800161a9	0x18004ae08	import	0x180015fdc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18001646a	0x180004d20	string	0x1800163c4	vector<T> too long
+0x180016532	0x18004ae08	import	0x1800163c4	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x1800167d8	0x180004d20	string	0x18001670c	vector<T> too long
+0x1800168d2	0x18004ae08	import	0x18001670c	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x180016bf2	0x180016c91	string	0x180016ad8	H9|$Xt
+0x180016e42	0x180016f0a	string	0x180016d28	H9|$Pt
+0x180017285	0x180005058	string	0x18001724c	Contract breached!
+0x18001736e	0x1800109d0	string	0x1800172a0	@USVWAVH
+0x180017485	0x180010a84	string	0x1800173b0	@USH
+0x180017599	0x180010ba0	string	0x1800174c4	@USH
+0x1800178d5	0x180010cac	string	0x180017800	@USH
+0x1800179e9	0x180010db8	string	0x180017914	@USH
+0x180017ae9	0x180010a84	string	0x180017a28	@USH
+0x180017ce1	0x180010cac	string	0x180017c20	@USH
+0x180017dd6	0x1800109d0	string	0x180017d1c	@USVWAVH
+0x180017ed1	0x180010ba0	string	0x180017e10	@USH
+0x1800180c9	0x180010db8	string	0x180018008	@USH
+0x1800181b5	0x1800109d0	string	0x180018104	@USVWAVH
+0x1800182aa	0x180010a84	string	0x1800181ec	@USH
+0x1800183a2	0x180010ba0	string	0x1800182e4	@USH
+0x18001868a	0x180010db8	string	0x1800185cc	@USH
+0x180018782	0x180010cac	string	0x1800186c4	@USH
+0x180018899	0x1800109d0	string	0x1800187bc	@USVWAVH
+0x1800189c4	0x180010a84	string	0x1800188e0	@USH
+0x180018aec	0x180010ba0	string	0x180018a08	@USH
+0x180018e64	0x180010cac	string	0x180018d80	@USH
+0x180018f8c	0x180010db8	string	0x180018ea8	@USH
+0x180019091	0x180010a84	string	0x180018fd0	@USH
+0x18001918d	0x180010cac	string	0x1800190cc	@USH
+0x180019282	0x1800109d0	string	0x1800191c8	@USVWAVH
+0x18001937d	0x180010ba0	string	0x1800192bc	@USH
+0x180019671	0x180010db8	string	0x1800195b0	@USH
+0x180019c5d	0x180019ccd	string	0x180019a5c	u}L;
+0x18001a55b	0x18004a978	import	0x18001a4dc	KERNEL32.dll.TlsGetValue
+0x18001a56f	0x18004a970	import	0x18001a4dc	KERNEL32.dll.TlsSetValue
+0x18001a5cb	0x18004a820	import	0x18001a4dc	ADVAPI32.dll.EventWrite
+0x18001a683	0x18004a978	import	0x18001a604	KERNEL32.dll.TlsGetValue
+0x18001a697	0x18004a970	import	0x18001a604	KERNEL32.dll.TlsSetValue
+0x18001a6f3	0x18004a820	import	0x18001a604	ADVAPI32.dll.EventWrite
+0x18001a7bf	0x18004a820	import	0x18001a72c	ADVAPI32.dll.EventWrite
+0x18001aa3e	0x18004a820	import	0x18001a968	ADVAPI32.dll.EventWrite
+0x18001ab20	0x18004a820	import	0x18001aa60	ADVAPI32.dll.EventWrite
+0x18001aca0	0x180004f50	string	0x18001ac2c	list<T> too long
+0x18001ad9f	0x180005160	string	0x18001ad16	NULL
+0x18001adb8	0x18004a820	import	0x18001ad16	ADVAPI32.dll.EventWrite
+0x18001adec	0x18004aea0	import	0x18001addc	ntdll.dll.WinSqmIsOptedIn
+0x18001aec4	0x18004a9c8	import	0x18001ae20	KERNEL32.dll.GetModuleFileNameA
+0x18001af31	0x18004a9d0	import	0x18001ae20	KERNEL32.dll.MultiByteToWideChar
+0x18001af88	0x180005170	string	0x18001ae20	(null)
+0x18001afde	0x18004ae98	import	0x18001ae20	ntdll.dll.WinSqmAddToStreamEx
+0x18001b021	0x18004ab00	import	0x18001b018	KERNEL32.dll.GetProcessHeap
+0x18001b02f	0x18004ab08	import	0x18001b018	KERNEL32.dll.HeapAlloc
+0x18001b04a	0x18004ade0	import	0x18001b018	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18001b089	0x18004ab00	import	0x18001b07c	KERNEL32.dll.GetProcessHeap
+0x18001b097	0x18004a910	import	0x18001b07c	KERNEL32.dll.HeapFree
+0x18001b0e4	0x18004a9d8	import	0x18001b0ac	KERNEL32.dll.GetCurrentThreadId
+0x18001b0ee	0x18004a9e0	import	0x18001b0ac	KERNEL32.dll.GetTickCount
+0x18001b282	0x18004a9e8	import	0x18001b264	KERNEL32.dll.GetHandleInformation
+0x18001b293	0x18004a9f8	import	0x18001b264	KERNEL32.dll.GetCurrentProcess
+0x18001b29c	0x18004a9f8	import	0x18001b264	KERNEL32.dll.GetCurrentProcess
+0x18001b2bf	0x18004a9f0	import	0x18001b264	KERNEL32.dll.DuplicateHandle
+0x18001b35f	0x18004a9c0	import	0x18001b30c	KERNEL32.dll.EnterCriticalSection
+0x18001b381	0x1800051a8	string	0x18001b30c	Software\Microsoft\Direct3D
+0x18001b3aa	0x1800051c8	string	0x18001b30c	D3DBehaviors
+0x18001b3b4	0x18004a7b8	import	0x18001b30c	ADVAPI32.dll.RegQueryValueExA
+0x18001b4f1	0x1800051c8	string	0x18001b30c	D3DBehaviors
+0x18001b4fb	0x18004a7b8	import	0x18001b30c	ADVAPI32.dll.RegQueryValueExA
+0x18001b53c	0x18004a810	import	0x18001b30c	ADVAPI32.dll.RegCloseKey
+0x18001b5b0	0x18004a9b8	import	0x18001b30c	KERNEL32.dll.LeaveCriticalSection
+0x18001b65d	0x18001b66d	string	0x18001b5d8	H+T$P
+0x18001b8f3	0x18004add0	import	0x18001b888	msvcrt.dll.atoi
+0x18001be3d	0x1800013a8	string	0x18001be18	Local\__DDrawExclMode__
+0x18001be67	0x180001368	string	0x18001be18	Local\__DDrawCheckExclMode__
+0x18001bea3	0x18004a928	import	0x18001be18	KERNEL32.dll.SetEvent
+0x18001beb0	0x18004a918	import	0x18001be18	KERNEL32.dll.WaitForSingleObject
+0x18001bfa1	0x1800051e8	string	0x18001bf80	DXGIDebug.dll
+0x18001c061	0x18004a990	import	0x18001bf80	KERNEL32.dll.LoadLibraryExW
+0x18001c0d3	0x18004a990	import	0x18001bf80	KERNEL32.dll.LoadLibraryExW
+0x18001c145	0x18004a990	import	0x18001bf80	KERNEL32.dll.LoadLibraryExW
+0x18001c20e	0x18004a9c0	import	0x18001c1ac	KERNEL32.dll.EnterCriticalSection
+0x18001c440	0x18004a9b8	import	0x18001c1ac	KERNEL32.dll.LeaveCriticalSection
+0x18001c588	0x18001c449	string	0x18001c1ac	H;\$@
+0x18001c5b0	0x18001c590	string	0x18001c1ac	H;\$`t\eH
+0x18001c668	0x18004a9c0	import	0x18001c654	KERNEL32.dll.EnterCriticalSection
+0x18001c680	0x18004a9b8	import	0x18001c654	KERNEL32.dll.LeaveCriticalSection
+0x18001c6c0	0x18004a9c0	import	0x18001c690	KERNEL32.dll.EnterCriticalSection
+0x18001c702	0x180005208	string	0x18001c690	DXGIGetDebugInterface
+0x18001c70c	0x18004a998	import	0x18001c690	KERNEL32.dll.GetProcAddress
+0x18001c722	0x180005220	string	0x18001c690	DXGI_SDK_MESSAGE
+0x18001c72c	0x18004a998	import	0x18001c690	KERNEL32.dll.GetProcAddress
+0x18001c735	0x18004aa48	import	0x18001c690	KERNEL32.dll.EncodePointer
+0x18001c74c	0x18004a9b8	import	0x18001c690	KERNEL32.dll.LeaveCriticalSection
+0x18001c77d	0x180005238	string	0x18001c764	DXGI Error message
+0x18001c7a8	0x18004aa50	import	0x18001c764	KERNEL32.dll.DecodePointer
+0x18001c884	0x180004d20	string	0x18001c83c	vector<T> too long
+0x18001c904	0x18004ae08	import	0x18001c83c	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18001ca34	0x18004adc8	import	0x18001c99c	msvcrt.dll.memchr
+0x18001cafd	0x18001cb04	string	0x18001cabc	H9s s
+0x18001cc42	0x180004d20	string	0x18001cbb0	vector<T> too long
+0x18001cd08	0x18004ae08	import	0x18001cbb0	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18001cd62	0x18004ae00	import	0x18001cbb0	msvcrt.dll.memmove_s
+0x18001cda3	0x18004ae00	import	0x18001cbb0	msvcrt.dll.memmove_s
+0x18001ce0f	0x18004ae00	import	0x18001cbb0	msvcrt.dll.memmove_s
+0x18001ce93	0x18004ae00	import	0x18001cbb0	msvcrt.dll.memmove_s
+0x18001cec0	0x18004ae00	import	0x18001cbb0	msvcrt.dll.memmove_s
+0x18001cf9c	0x180004d20	string	0x18001cf10	vector<T> too long
+0x18001d064	0x18004ae08	import	0x18001cf10	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x18001d0c6	0x18004ae00	import	0x18001cf10	msvcrt.dll.memmove_s
+0x18001d10b	0x18004ae00	import	0x18001cf10	msvcrt.dll.memmove_s
+0x18001d180	0x18004ae00	import	0x18001cf10	msvcrt.dll.memmove_s
+0x18001d207	0x18004ae00	import	0x18001cf10	msvcrt.dll.memmove_s
+0x18001d238	0x18004ae00	import	0x18001cf10	msvcrt.dll.memmove_s
+0x18001d2c8	0x18004aa40	import	0x18001d2c4	KERNEL32.dll.InitializeCriticalSection
+0x18001d326	0x18004aa38	import	0x18001d2ec	KERNEL32.dll.RaiseException
+0x18001d36e	0x18004aa30	import	0x18001d2ec	KERNEL32.dll.DeleteCriticalSection
+0x18001d7d5	0x18004a820	import	0x18001d4f4	ADVAPI32.dll.EventWrite
+0x18001d9b0	0x18004a7f0	import	0x18001d99c	ADVAPI32.dll.EventUnregister
+0x18001db39	0x18004a7f8	import	0x18001db10	ADVAPI32.dll.EventRegister
+0x18001dbb6	0x18004ae90	import	0x18001db8c	ntdll.dll.RtlIsCriticalSectionLockedByThread
+0x18001dfeb	0x1800052c8	string	0x18001df98	EnumWARPOutputs
+0x18001e01a	0x180023644	string	0x18001df98	@WAVAWH
+0x18001e038	0x18004a9c0	import	0x18001df98	KERNEL32.dll.EnterCriticalSection
+0x18001e0ee	0x180004f50	string	0x18001df98	list<T> too long
+0x18001e136	0x18004a9b8	import	0x18001df98	KERNEL32.dll.LeaveCriticalSection
+0x18001e188	0x18004a9b8	import	0x18001df98	KERNEL32.dll.LeaveCriticalSection
+0x18001e5a3	0x18004a9c0	import	0x18001e4d0	KERNEL32.dll.EnterCriticalSection
+0x18001e721	0x18004ae90	import	0x18001e4d0	ntdll.dll.RtlIsCriticalSectionLockedByThread
+0x18001e75a	0x18004aa38	import	0x18001e4d0	KERNEL32.dll.RaiseException
+0x18001e7d2	0x18004a968	import	0x18001e4d0	KERNEL32.dll.FreeLibrary
+0x18001e7e4	0x18004a810	import	0x18001e4d0	ADVAPI32.dll.RegCloseKey
+0x18001e807	0x18004a9b8	import	0x18001e4d0	KERNEL32.dll.LeaveCriticalSection
+0x18001f33c	0x180005348	string	0x18001f26c	VEN_
+0x18001f34b	0x18004adc0	import	0x18001f26c	msvcrt.dll.strstr
+0x18001f360	0x18004ae70	import	0x18001f26c	msvcrt.dll.strtoul
+0x18001f36c	0x180005350	string	0x18001f26c	DEV_
+0x18001f37b	0x18004adc0	import	0x18001f26c	msvcrt.dll.strstr
+0x18001f390	0x18004ae70	import	0x18001f26c	msvcrt.dll.strtoul
+0x18001f39c	0x180005358	string	0x18001f26c	SUBSYS_
+0x18001f3ab	0x18004adc0	import	0x18001f26c	msvcrt.dll.strstr
+0x18001f3c0	0x18004ae70	import	0x18001f26c	msvcrt.dll.strtoul
+0x18001f3cc	0x180005360	string	0x18001f26c	REV_
+0x18001f3db	0x18004adc0	import	0x18001f26c	msvcrt.dll.strstr
+0x18001f3f0	0x18004ae70	import	0x18001f26c	msvcrt.dll.strtoul
+0x18001f4d0	0x18004a8f0	import	0x18001f4bc	GDI32.dll.GdiEntry13
+0x18001f52b	0x180005368	string	0x18001f4bc	Software\Microsoft\DXGI
+0x18001f556	0x18001f5a8	string	0x18001f4bc	@WATAUAVAW
+0x18001f5f5	0x180004648	string	0x18001f5a8	gdi32.dll
+0x18001f5fc	0x18004a990	import	0x18001f5a8	KERNEL32.dll.LoadLibraryExW
+0x18001f614	0x18004a980	import	0x18001f5a8	KERNEL32.dll.GetLastError
+0x18001f62d	0x180004660	string	0x18001f5a8	D3DKMTOpenAdapterFromGdiDisplayName
+0x18001f637	0x18004a998	import	0x18001f5a8	KERNEL32.dll.GetProcAddress
+0x18001f649	0x180004700	string	0x18001f5a8	D3DKMTCloseAdapter
+0x18001f653	0x18004a998	import	0x18001f5a8	KERNEL32.dll.GetProcAddress
+0x18001f66c	0x180004748	string	0x18001f5a8	D3DKMTQueryAdapterInfo
+0x18001f676	0x18004a998	import	0x18001f5a8	KERNEL32.dll.GetProcAddress
+0x18001f691	0x180004688	string	0x18001f5a8	D3DKMTOpenAdapterFromDeviceName
+0x18001f69b	0x18004a998	import	0x18001f5a8	KERNEL32.dll.GetProcAddress
+0x18001f764	0x18004ace0	import	0x18001f5a8	USER32.dll.EnumDisplayDevicesW
+0x18001f815	0x180004828	string	0x18001f5a8	OsThunkDDIOpenAdapterFromGdiDisplayName
+0x18001f86e	0x180037a50	string	0x18001f5a8	@USWH
+0x18001f9dd	0x180037a50	string	0x18001f5a8	@USWH
+0x18001fa90	0x18004a968	import	0x18001f5a8	KERNEL32.dll.FreeLibrary
+0x18001fb08	0x180004660	string	0x18001fadc	D3DKMTOpenAdapterFromGdiDisplayName
+0x18001fb12	0x18004a998	import	0x18001fadc	KERNEL32.dll.GetProcAddress
+0x18001fb22	0x180004688	string	0x18001fadc	D3DKMTOpenAdapterFromDeviceName
+0x18001fb2c	0x18004a998	import	0x18001fadc	KERNEL32.dll.GetProcAddress
+0x18001fb42	0x180004700	string	0x18001fadc	D3DKMTCloseAdapter
+0x18001fb4c	0x18004a998	import	0x18001fadc	KERNEL32.dll.GetProcAddress
+0x18001fb62	0x180004748	string	0x18001fadc	D3DKMTQueryAdapterInfo
+0x18001fb6c	0x18004a998	import	0x18001fadc	KERNEL32.dll.GetProcAddress
+0x18001fc95	0x18001fc73	string	0x18001fadc	D8a)u#L
+0x18001fcf1	0x18001fcfd	string	0x18001fadc	D8`)H
+0x18001fcf6	0x18001fcfd	string	0x18001fadc	D8`)H
+0x180020062	0x18002007c	string	0x18001fadc	D8c)t
+0x180020127	0x180020105	string	0x18001fadc	D8c)u
+0x1800202b5	0x180005380	string	0x180020274	DXGI_SWAP_CHAIN_DESC{ SwapChainType = %s, BufferDesc = DXGI_MODE_DESC1{Width = %u, Height = %u, RefreshRate = DXGI_RATIONAL{ Numerator = %u, Denominator = %u }, Format = %s, ScanlineOrdering = %s, Scaling = %s, Stereo = %s }, SampleDesc = DXGI_SAMPLE_DESC{ Count = %u, Quality = %u }, BufferUsage = 0x%x, BufferCount = %u, OutputWindow = 0x%p, Scaling = %s, Windowed = %s, SwapEffect = %s, AlphaMode = %s, Flags = 0x%x }
+0x1800202e5	0x180005528	string	0x180020274	(Unknown: 0x%x)
+0x18002031d	0x180005568	string	0x180020274	..._CoreWindow
+0x180020326	0x180005558	string	0x180020274	..._Composition
+0x18002032f	0x180005548	string	0x180020274	..._HWND
+0x180020338	0x180005540	string	0x180020274	..._DDA
+0x180020341	0x180005538	string	0x180020274	..._DWM
+0x1800203c4	0x180005578	string	0x180020274	..._UNSPECIFIED
+0x1800203e1	0x1800055b0	string	0x180020274	..._LOWER_FIELD_FIRST
+0x1800203ea	0x180005598	string	0x180020274	..._UPPER_FIELD_FIRST
+0x1800203f3	0x180005588	string	0x180020274	..._PROGRESSIVE
+0x180020427	0x1800055c8	string	0x180020274	..._STRETCHED
+0x180020430	0x1800055d8	string	0x180020274	..._CENTERED
+0x180020460	0x1800055f8	string	0x180020274	..._NONE
+0x180020469	0x1800055e8	string	0x180020274	..._STRETCH
+0x1800204a0	0x180005628	string	0x180020274	..._FLIP_SEQUENTIAL
+0x1800204a9	0x180005618	string	0x180020274	..._SEQUENTIAL
+0x1800204b2	0x180005608	string	0x180020274	..._DISCARD
+0x1800204b9	0x180005528	string	0x180020274	(Unknown: 0x%x)
+0x1800204e7	0x180005640	string	0x180020274	..._IGNORE
+0x1800204f0	0x180005668	string	0x180020274	..._STRAIGHT
+0x1800204f9	0x180005650	string	0x180020274	..._PREMULTIPLIED
+0x180020512	0x180005678	string	0x180020274	TRUE
+0x180020519	0x180005680	string	0x180020274	FALSE
+0x1800206bb	0x1800206dd	string	0x180020610	9^Dt\n
+0x1800207b4	0x1800207e3	string	0x180020610	D9vHu
+0x1800207ba	0x1800207e3	string	0x180020610	D9vHu
+0x1800207c0	0x1800207e3	string	0x180020610	D9vHu
+0x18002081a	0x180020840	string	0x180020610	D9vXu!H
+0x18002089c	0x1800209ac	string	0x180020610	9^X|
+0x1800208c3	0x1800209ac	string	0x180020610	9^X|
+0x1800208cd	0x1800209ac	string	0x180020610	9^X|
+0x1800208e9	0x18002090c	string	0x180020610	9^Dt\f9
+0x180020928	0x180020946	string	0x180020610	D9vXu!H
+0x18002094a	0x18002096d	string	0x180020610	9^`~:
+0x180020970	0x1800209ac	string	0x180020610	9^X|
+0x180020976	0x1800209ac	string	0x180020610	9^X|
+0x1800209e1	0x18004ab38	import	0x180020610	USER32.dll.IsWindow
+0x180020c36	0x180020610	string	0x180020be4	@USVWATAUAVAWH
+0x180020ee0	0x180020ee5	string	0x180020be4	E9<$
+0x180021cff	0x18004ab48	import	0x180021c40	USER32.dll.IntersectRect
+0x180021d38	0x18004ab50	import	0x180021c40	USER32.dll.EqualRect
+0x180021d85	0x18004a8f8	import	0x180021c40	GDI32.dll.CreateCompatibleDC
+0x180021e05	0x18004a898	import	0x180021c40	GDI32.dll.CreateDIBSection
+0x180021e23	0x18004a890	import	0x180021c40	GDI32.dll.SetStretchBltMode
+0x180021e30	0x18004a888	import	0x180021c40	GDI32.dll.SelectObject
+0x180021e8d	0x18004a8d8	import	0x180021c40	GDI32.dll.BitBlt
+0x180021ec1	0x18004a888	import	0x180021c40	GDI32.dll.SelectObject
+0x180021eca	0x18004a880	import	0x180021c40	GDI32.dll.DeleteObject
+0x180021ed7	0x18004a900	import	0x180021c40	GDI32.dll.DeleteDC
+0x180021f25	0x18004a8d8	import	0x180021c40	GDI32.dll.BitBlt
+0x18002206d	0x1800220d8	string	0x180021fc0	H9t$Xu7E
+0x18002212a	0x18004ab40	import	0x180021fc0	USER32.dll.MonitorFromWindow
+0x180022146	0x18004acd8	import	0x180021fc0	USER32.dll.GetMonitorInfoW
+0x18002217f	0x18004aa60	import	0x180021fc0	KERNEL32.dll.lstrcmpiW
+0x1800221ff	0x18004ab58	import	0x180021fc0	USER32.dll.UnionRect
+0x18002228a	0x18004ab60	import	0x180021fc0	USER32.dll.GetDC
+0x18002229f	0x18004a8f8	import	0x180021fc0	GDI32.dll.CreateCompatibleDC
+0x1800222ba	0x18004a8d0	import	0x180021fc0	GDI32.dll.CreateCompatibleBitmap
+0x1800222d2	0x18004a888	import	0x180021fc0	GDI32.dll.SelectObject
+0x1800222e0	0x18004ab68	import	0x180021fc0	USER32.dll.OpenClipboard
+0x180022305	0x180021c40	string	0x180021fc0	@USVWATAUAVAWH
+0x18002230e	0x18004ab70	import	0x180021fc0	USER32.dll.EmptyClipboard
+0x18002231c	0x18004ab78	import	0x180021fc0	USER32.dll.SetClipboardData
+0x180022327	0x18004a880	import	0x180021fc0	GDI32.dll.DeleteObject
+0x18002232d	0x18004ab80	import	0x180021fc0	USER32.dll.CloseClipboard
+0x18002233d	0x18004a880	import	0x180021fc0	GDI32.dll.DeleteObject
+0x180022349	0x18004a888	import	0x180021fc0	GDI32.dll.SelectObject
+0x180022352	0x18004a900	import	0x180021fc0	GDI32.dll.DeleteDC
+0x18002235d	0x18004ab88	import	0x180021fc0	USER32.dll.ReleaseDC
+0x18002241e	0x18004ab90	import	0x1800223d4	USER32.dll.GetWindowInfo
+0x180022452	0x18004ab98	import	0x1800223d4	USER32.dll.GetLayeredWindowAttributes
+0x18002248e	0x18004acf8	import	0x1800223d4	USER32.dll.GetWindowCompositionAttribute
+0x18002250d	0x18004aba0	import	0x1800224cc	USER32.dll.GetWindowLongA
+0x18002251a	0x180005688	string	0x1800224cc	Proxy window is NOT top most
+0x180022538	0x18004aba8	import	0x1800224cc	USER32.dll.GetClientRect
+0x18002256e	0x18004abb0	import	0x1800224cc	USER32.dll.GetWindowRect
+0x1800225a0	0x18004abb8	import	0x1800224cc	USER32.dll.GetWindow
+0x1800225b7	0x1800056a8	string	0x1800224cc	Now checking proxy window?!?
+0x1800225d4	0x18004aba0	import	0x1800224cc	USER32.dll.GetWindowLongA
+0x1800225ef	0x18004abb0	import	0x1800224cc	USER32.dll.GetWindowRect
+0x1800225fa	0x18004abc0	import	0x1800224cc	USER32.dll.IsWindowVisible
+0x180022628	0x18004ab90	import	0x1800224cc	USER32.dll.GetWindowInfo
+0x180022659	0x18004ab48	import	0x1800224cc	USER32.dll.IntersectRect
+0x180022674	0x18004abc8	import	0x1800224cc	USER32.dll.GetClassNameA
+0x180022682	0x1800056c8	string	0x1800224cc	Shell_TrayWnd
+0x18002268d	0x18004aa68	import	0x1800224cc	KERNEL32.dll.lstrcmpA
+0x180022697	0x1800056d8	string	0x1800224cc	Shell_SecondaryTrayWnd
+0x1800226a2	0x18004aa68	import	0x1800224cc	KERNEL32.dll.lstrcmpA
+0x1800226ac	0x1800056f0	string	0x1800224cc	Snapped Desktop
+0x1800226b7	0x18004aa68	import	0x1800224cc	KERNEL32.dll.lstrcmpA
+0x1800226ef	0x180005700	string	0x1800224cc	Occluder wnd ('Code' is HWND):%s
+0x1800234c0	0x18004a9c0	import	0x1800234ac	KERNEL32.dll.EnterCriticalSection
+0x1800234ee	0x180005748	string	0x1800234ac	DisableFullscreenWatchdog
+0x18002350f	0x18004a7b8	import	0x1800234ac	ADVAPI32.dll.RegQueryValueExA
+0x18002355a	0x18004a958	import	0x1800234ac	KERNEL32.dll.GetModuleHandleExA
+0x18002357b	0x18004a960	import	0x1800234ac	KERNEL32.dll.CreateThread
+0x180023592	0x18004a968	import	0x1800234ac	KERNEL32.dll.FreeLibrary
+0x18002359f	0x18004a9b8	import	0x1800234ac	KERNEL32.dll.LeaveCriticalSection
+0x180024061	0x180004d20	string	0x180023f90	vector<T> too long
+0x18002416c	0x18004ae08	import	0x180023f90	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x1800244d1	0x180004d20	string	0x1800243fc	vector<T> too long
+0x1800245b1	0x1800245f5	string	0x1800243fc	Hiɐ\v blocks=Basic Latin,IPA Extensions
+0x1800245bf	0x1800245f5	string	0x1800243fc	Hiɐ\v blocks=Basic Latin,IPA Extensions
+0x1800245d1	0x18004ae08	import	0x1800243fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x180024855	0x180005780	string	0x1800247ec	map/set<T> too long
+0x180024cad	0x180005780	string	0x180024c44	map/set<T> too long
+0x1800250d9	0x180005bf8	string	0x180025088	invalid map/set<T> iterator
+0x18002511e	0x180025126	string	0x180025088	@8p)t
+0x1800251ef	0x1800251f8	string	0x180025088	@8q)t
+0x1800252aa	0x180025301	string	0x180025088	@8q)
+0x180025bfc	0x180025c06	string	0x180025a88	H9]\bu
+0x180027304	0x18004aa38	import	0x18002707c	KERNEL32.dll.RaiseException
+0x18002738b	0x18004a9c0	import	0x18002707c	KERNEL32.dll.EnterCriticalSection
+0x180027408	0x18004a9b8	import	0x18002707c	KERNEL32.dll.LeaveCriticalSection
+0x18002741a	0x18004a948	import	0x18002707c	KERNEL32.dll.CloseHandle
+0x180027449	0x18004ac40	import	0x18002707c	USER32.dll.GetWindowDisplayAffinity
+0x18002745c	0x18004ac38	import	0x18002707c	USER32.dll.SetWindowDisplayAffinity
+0x180027585	0x18004aba0	import	0x1800274ac	USER32.dll.GetWindowLongA
+0x18002759d	0x18004aba0	import	0x1800274ac	USER32.dll.GetWindowLongA
+0x1800276ed	0x180027719	string	0x1800274ac	D8>utD
+0x1800276f3	0x180027719	string	0x1800274ac	D8>utD
+0x18002778b	0x18004aa80	import	0x1800274ac	KERNEL32.dll.QueryPerformanceCounter
+0x180027a9f	0x18004a9c0	import	0x1800274ac	KERNEL32.dll.EnterCriticalSection
+0x180027ae6	0x18004a9b8	import	0x1800274ac	KERNEL32.dll.LeaveCriticalSection
+0x180028006	0x18004adf8	import	0x180027fe8	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(void) __ptr64
+0x1800280b2	0x18004ae78	import	0x180028094	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(class exception const & __ptr64) __ptr64
+0x18002829b	0x18004abd0	import	0x180028250	USER32.dll.GetWindowThreadProcessId
+0x1800282b2	0x18004abd8	import	0x180028250	USER32.dll.SetWindowsHookExA
+0x1800282cd	0x18004abe0	import	0x180028250	USER32.dll.UnhookWindowsHookEx
+0x180028857	0x180004d20	string	0x18002880c	vector<T> too long
+0x1800288aa	0x18004ae08	import	0x18002880c	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x1800289ff	0x18004a820	import	0x180028980	ADVAPI32.dll.EventWrite
+0x180028c03	0x180006340	string	0x180028bac	Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers
+0x180028c11	0x18004a7e8	import	0x180028bac	ADVAPI32.dll.RegCreateKeyExA
+0x180028c2e	0x18004a9c8	import	0x180028bac	KERNEL32.dll.GetModuleFileNameA
+0x180028c69	0x18004a800	import	0x180028bac	ADVAPI32.dll.RegGetValueA
+0x180028cba	0x18004a800	import	0x180028bac	ADVAPI32.dll.RegGetValueA
+0x180028cd5	0x180006388	string	0x180028bac	HIGHDPIAWARE
+0x180028d02	0x18004a7e0	import	0x180028bac	ADVAPI32.dll.RegSetValueExA
+0x180028d1c	0x18004aea8	import	0x180028bac	ntdll.dll.EtwEventWriteNoRegistration
+0x180028d37	0x180006388	string	0x180028bac	HIGHDPIAWARE
+0x180028d56	0x18004a7e0	import	0x180028bac	ADVAPI32.dll.RegSetValueExA
+0x180028d70	0x18004aea8	import	0x180028bac	ntdll.dll.EtwEventWriteNoRegistration
+0x180028d7b	0x18004a810	import	0x180028bac	ADVAPI32.dll.RegCloseKey
+0x180028dcb	0x18004ac48	import	0x180028dac	USER32.dll.IsProcessDPIAware
+0x180028ddf	0x18004ac50	import	0x180028dac	USER32.dll.EnumDisplaySettingsA
+0x180028deb	0x18004ab60	import	0x180028dac	USER32.dll.GetDC
+0x180028e01	0x18004a8c8	import	0x180028dac	GDI32.dll.GetDeviceCaps
+0x180028e11	0x18004a8c8	import	0x180028dac	GDI32.dll.GetDeviceCaps
+0x180028e2e	0x18004ac58	import	0x180028dac	USER32.dll.SetProcessDPIAware
+0x180028e39	0x18004ab88	import	0x180028dac	USER32.dll.ReleaseDC
+0x18002932a	0x18004aa88	import	0x180029008	KERNEL32.dll.QueryPerformanceFrequency
+0x1800293e3	0x1800064f0	string	0x180029378	Non-zero return value
+0x180029419	0x1800064f0	string	0x180029378	Non-zero return value
+0x180029760	0x18004ac68	import	0x180029700	USER32.dll.RegisterHotKey
+0x180029781	0x18004ac68	import	0x180029700	USER32.dll.RegisterHotKey
+0x18002979f	0x18004ac68	import	0x180029700	USER32.dll.RegisterHotKey
+0x1800297c2	0x18004ac70	import	0x180029700	USER32.dll.UnregisterHotKey
+0x1800297d5	0x18004ac70	import	0x180029700	USER32.dll.UnregisterHotKey
+0x1800297e7	0x18004ac70	import	0x180029700	USER32.dll.UnregisterHotKey
+0x180029915	0x180006398	string	0x180029844	S:(ML;;NW;;;LW)
+0x18002993f	0x18004a7d8	import	0x180029844	ADVAPI32.dll.ConvertStringSecurityDescriptorToSecurityDescriptorW
+0x180029953	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029a00	0x1800063b8	string	0x180029844	FlipEx%Ix
+0x180029a3b	0x18004aa90	import	0x180029844	KERNEL32.dll.CreateEventExA
+0x180029aa3	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029ad3	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029b16	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029b5b	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029c2d	0x18004ad30	import	0x180029844	dwmapi.dll.Ordinal_125
+0x180029c40	0x1800063c8	string	0x180029844	DwmpDxBindSwapChain
+0x180029c68	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029c97	0x18004ad48	import	0x180029844	dwmapi.dll.Ordinal_128
+0x180029cbe	0x18004a940	import	0x180029844	KERNEL32.dll.LocalFree
+0x180029d4a	0x18004ad50	import	0x180029d10	dwmapi.dll.Ordinal_126
+0x180029d73	0x18004a948	import	0x180029d10	KERNEL32.dll.CloseHandle
+0x180029ebc	0x1800064f0	string	0x180029e98	Non-zero return value
+0x18002af42	0x18004a978	import	0x18002aee2	KERNEL32.dll.TlsGetValue
+0x18002af56	0x18004a970	import	0x18002aee2	KERNEL32.dll.TlsSetValue
+0x18002afa9	0x18004a820	import	0x18002aee2	ADVAPI32.dll.EventWrite
+0x18002afd8	0x1800064f0	string	0x18002aee2	Non-zero return value
+0x18002b026	0x18004a820	import	0x18002aee2	ADVAPI32.dll.EventWrite
+0x18002b04f	0x1800064f0	string	0x18002aee2	Non-zero return value
+0x18002b071	0x180005058	string	0x18002aee2	Contract breached!
+0x18002b0c6	0x180005058	string	0x18002aee2	Contract breached!
+0x18002b108	0x18004a820	import	0x18002aee2	ADVAPI32.dll.EventWrite
+0x18002b11b	0x18004a970	import	0x18002aee2	KERNEL32.dll.TlsSetValue
+0x18002b171	0x18004ab40	import	0x18002b148	USER32.dll.MonitorFromWindow
+0x18002b187	0x18004acd8	import	0x18002b148	USER32.dll.GetMonitorInfoW
+0x18002b1d6	0x18004aa60	import	0x18002b148	KERNEL32.dll.lstrcmpiW
+0x18002b2cc	0x18002b148	string	0x18002b234	@USWH
+0x18002bb61	0x1800064f0	string	0x18002b988	Non-zero return value
+0x18002bd45	0x18004acd8	import	0x18002b988	USER32.dll.GetMonitorInfoW
+0x18002be31	0x18004ab50	import	0x18002b988	USER32.dll.EqualRect
+0x18002bed8	0x18002bee3	string	0x18002b988	9]Wt
+0x18002bf6f	0x18004ac78	import	0x18002b988	USER32.dll.IsRectEmpty
+0x18002bf88	0x18004ab48	import	0x18002b988	USER32.dll.IntersectRect
+0x18002bf9d	0x18004ab50	import	0x18002b988	USER32.dll.EqualRect
+0x18002c01e	0x18004ab48	import	0x18002b988	USER32.dll.IntersectRect
+0x18002c030	0x18004ab50	import	0x18002b988	USER32.dll.EqualRect
+0x18002c196	0x18004ac78	import	0x18002b988	USER32.dll.IsRectEmpty
+0x18002c1ab	0x18004ab48	import	0x18002b988	USER32.dll.IntersectRect
+0x18002c1bc	0x18004ab50	import	0x18002b988	USER32.dll.EqualRect
+0x18002c43b	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c44b	0x18002c460	string	0x18002c328	D8|$ht\vD
+0x18002c4be	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c553	0x180004cf0	string	0x18002c328	OsThunkDDIGetDeviceState
+0x18002c586	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c627	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c663	0x1800224cc	string	0x18002c328	@USVWATAVAWH
+0x18002c675	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c6b0	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c6f0	0x1800224cc	string	0x18002c328	@USVWATAVAWH
+0x18002c702	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c774	0x18004ac80	import	0x18002c328	USER32.dll.GetAncestor
+0x18002c7a0	0x18004ac40	import	0x18002c328	USER32.dll.GetWindowDisplayAffinity
+0x18002c7be	0x18004ac38	import	0x18002c328	USER32.dll.SetWindowDisplayAffinity
+0x18002c7d0	0x18004ac38	import	0x18002c328	USER32.dll.SetWindowDisplayAffinity
+0x18002c7f3	0x18004ac40	import	0x18002c328	USER32.dll.GetWindowDisplayAffinity
+0x18002c826	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002c91b	0x18004ab90	import	0x18002c328	USER32.dll.GetWindowInfo
+0x18002c98a	0x18004ad38	import	0x18002c328	dwmapi.dll.DwmIsCompositionEnabled
+0x18002ca11	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002ca78	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002cb4c	0x18004ad40	import	0x18002c328	dwmapi.dll.Ordinal_100
+0x18002cb7b	0x180005058	string	0x18002c328	Contract breached!
+0x18002cc2c	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002cc4f	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002ccc5	0x18004ad58	import	0x18002c328	dwmapi.dll.Ordinal_101
+0x18002cd75	0x180005058	string	0x18002c328	Contract breached!
+0x18002cd8a	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002cdd4	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002ce1f	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002ce4b	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002cf76	0x18002e5fc	string	0x18002c328	@SVWATAUAVAWH
+0x18002cf88	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d032	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d073	0x18004ab58	import	0x18002c328	USER32.dll.UnionRect
+0x18002d167	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d4fc	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d51e	0x18002d54f	string	0x18002c328	D8|$mt\tI
+0x18002d5e3	0x18002e5fc	string	0x18002c328	@SVWATAUAVAWH
+0x18002d5f5	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d694	0x18002e5fc	string	0x18002c328	@SVWATAUAVAWH
+0x18002d6a6	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d835	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002d9ea	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002da10	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002dafe	0x18004aa80	import	0x18002c328	KERNEL32.dll.QueryPerformanceCounter
+0x18002db7b	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002dbb5	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002dc0a	0x18002dc23	string	0x18002c328	x&D8|$jt
+0x18002dc13	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002dc38	0x1800064f0	string	0x18002c328	Non-zero return value
+0x18002dc69	0x18002dcba	string	0x18002c328	D8|$tt\rA
+0x18002dc6d	0x18002dcba	string	0x18002c328	D8|$tt\rA
+0x18002dc91	0x18004ac30	import	0x18002c328	USER32.dll.SetWindowPos
+0x18002dcb4	0x18004ac30	import	0x18002c328	USER32.dll.SetWindowPos
+0x18002dcbf	0x18002dcce	string	0x18002c328	D8|$it\rE3
+0x18002dcc9	0x180032ea4	string	0x18002c328	@SVWATAUAVAWH
+0x18002dcdd	0x180032ea4	string	0x18002c328	@SVWATAUAVAWH
+0x18002ddc2	0x1800063e0	string	0x18002dd58	Unrecognized
+0x18002ddd6	0x1800063f0	string	0x18002dd58	DXGI_SWAP_CHAIN_DESC::BufferDesc = { %d, %d, { %d, %d }, %s, %d, %d }; DXGI_SWAP_CHAIN_DESC::SampleDesc = { %d, %d }; DXGI_SWAP_CHAIN_DESC::Flags = %#x;
+0x18002de9f	0x18004aa80	import	0x18002de78	KERNEL32.dll.QueryPerformanceCounter
+0x18002e020	0x18004a8f0	import	0x18002df88	GDI32.dll.GdiEntry13
+0x18002e034	0x18004ab40	import	0x18002df88	USER32.dll.MonitorFromWindow
+0x18002e068	0x18004acd8	import	0x18002df88	USER32.dll.GetMonitorInfoW
+0x18002e080	0x18004acf0	import	0x18002df88	USER32.dll.EnumDisplaySettingsW
+0x18002e0ba	0x18004aa80	import	0x18002df88	KERNEL32.dll.QueryPerformanceCounter
+0x18002e119	0x18004aa70	import	0x18002df88	KERNEL32.dll.Sleep
+0x18002e122	0x18004aa80	import	0x18002df88	KERNEL32.dll.QueryPerformanceCounter
+0x18002e2ab	0x18004a918	import	0x18002e190	KERNEL32.dll.WaitForSingleObject
+0x18002e374	0x18002e5fc	string	0x18002e190	@SVWATAUAVAWH
+0x18002e52a	0x18004aa98	import	0x18002e190	KERNEL32.dll.ResetEvent
+0x18002e7f4	0x18004a8b0	import	0x18002e5fc	GDI32.dll.CombineRgn
+0x18002e80d	0x18004ade0	import	0x18002e5fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18002e87c	0x18004ab58	import	0x18002e5fc	USER32.dll.UnionRect
+0x18002e89b	0x18004ab58	import	0x18002e5fc	USER32.dll.UnionRect
+0x18002e8cc	0x18004a8b0	import	0x18002e5fc	GDI32.dll.CombineRgn
+0x18002e8e8	0x18004ade0	import	0x18002e5fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18002ea42	0x18004a8b0	import	0x18002e5fc	GDI32.dll.CombineRgn
+0x18002ea5e	0x18004ade0	import	0x18002e5fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18002eab0	0x18002ece4	string	0x18002e5fc	@SUVWATAUAVAWH
+0x18002eae3	0x18004a8b0	import	0x18002e5fc	GDI32.dll.CombineRgn
+0x18002eaff	0x18004ade0	import	0x18002e5fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18002eb5a	0x18004a8a8	import	0x18002e5fc	GDI32.dll.EqualRgn
+0x18002ebc4	0x18004a8b0	import	0x18002e5fc	GDI32.dll.CombineRgn
+0x18002ebe0	0x18004ade0	import	0x18002e5fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18002ec38	0x18004a8b0	import	0x18002e5fc	GDI32.dll.CombineRgn
+0x18002ec54	0x18004ade0	import	0x18002e5fc	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x18002ec9e	0x18002ece4	string	0x18002e5fc	@SUVWATAUAVAWH
+0x18002ed30	0x18004a8a0	import	0x18002ece4	GDI32.dll.GetRegionData
+0x18002ed88	0x18002edc3	string	0x18002ece4	H9k\bu
+0x18002ed8d	0x18002edc3	string	0x18002ece4	H9k\bu
+0x18002ed9c	0x18002edc3	string	0x18002ece4	H9k\bu
+0x18002eda5	0x18002edc3	string	0x18002ece4	H9k\bu
+0x18002ee79	0x18004a8a0	import	0x18002ece4	GDI32.dll.GetRegionData
+0x18002eeb3	0x18004ac88	import	0x18002ece4	USER32.dll.OffsetRect
+0x18002f01e	0x1800014e0	string	0x18002ef3c	DXGI temporary for presenting via GDI
+0x18002f126	0x18004ab60	import	0x18002ef3c	USER32.dll.GetDC
+0x18002f2df	0x18004a8e0	import	0x18002ef3c	GDI32.dll.StretchBlt
+0x18002f36a	0x18004a8e0	import	0x18002ef3c	GDI32.dll.StretchBlt
+0x18002f3a4	0x18004ab88	import	0x18002ef3c	USER32.dll.ReleaseDC
+0x18002f4f8	0x18004aba0	import	0x18002f404	USER32.dll.GetWindowLongA
+0x18002f539	0x18004ac88	import	0x18002f404	USER32.dll.OffsetRect
+0x18002f54c	0x18004ab48	import	0x18002f404	USER32.dll.IntersectRect
+0x18002f580	0x18004ac88	import	0x18002f404	USER32.dll.OffsetRect
+0x18002f593	0x18004ac88	import	0x18002f404	USER32.dll.OffsetRect
+0x18002f6d0	0x18004ad00	import	0x18002f404	USER32.dll.SetRect
+0x18002f6eb	0x18004ac78	import	0x18002f404	USER32.dll.IsRectEmpty
+0x18002f733	0x18004ac90	import	0x18002f404	USER32.dll.SubtractRect
+0x18002f758	0x18004ac88	import	0x18002f404	USER32.dll.OffsetRect
+0x18002f78b	0x18004ab48	import	0x18002f404	USER32.dll.IntersectRect
+0x180031aca	0x18004a8f0	import	0x180031aa0	GDI32.dll.GdiEntry13
+0x180031ae4	0x18004a8f0	import	0x180031aa0	GDI32.dll.GdiEntry13
+0x180031b1b	0x18004ace0	import	0x180031aa0	USER32.dll.EnumDisplayDevicesW
+0x180031b64	0x18004acf0	import	0x180031aa0	USER32.dll.EnumDisplaySettingsW
+0x180031b6c	0x18004a8f0	import	0x180031aa0	GDI32.dll.GdiEntry13
+0x180032cd4	0x18004aca0	import	0x180032ca4	USER32.dll.DestroyWindow
+0x180032d4b	0x1800064b8	string	0x180032d00	DXGIFocusProxyWindow
+0x180032d5c	0x18004abf0	import	0x180032d00	USER32.dll.DefWindowProcA
+0x180032d7c	0x18004abf8	import	0x180032d00	USER32.dll.LoadIconA
+0x180032d91	0x18004ac00	import	0x180032d00	USER32.dll.LoadCursorA
+0x180032dc0	0x18004ac08	import	0x180032d00	USER32.dll.RegisterClassA
+0x180032e14	0x18004ace8	import	0x180032d00	USER32.dll.CreateWindowExA
+0x180032e47	0x18004ac30	import	0x180032d00	USER32.dll.SetWindowPos
+0x180032e6e	0x18004ac30	import	0x180032d00	USER32.dll.SetWindowPos
+0x180032f6c	0x18004a9c0	import	0x180032ea4	KERNEL32.dll.EnterCriticalSection
+0x180032f95	0x18004a9b8	import	0x180032ea4	KERNEL32.dll.LeaveCriticalSection
+0x18003310e	0x1800347a8	string	0x180032ea4	@USVWATAUAVAWH
+0x1800331a0	0x18004ac98	import	0x180032ea4	USER32.dll.SetForegroundWindow
+0x1800331b5	0x180006490	string	0x180032ea4	user32.dll
+0x1800331bc	0x18004a988	import	0x180032ea4	KERNEL32.dll.GetModuleHandleA
+0x1800331c7	0x1800064d0	string	0x180032ea4	DisableProcessWindowsGhosting
+0x1800331d1	0x18004a998	import	0x180032ea4	KERNEL32.dll.GetProcAddress
+0x180033308	0x180033a34	string	0x180032ea4	@SVWH
+0x180033362	0x18004a9b8	import	0x180032ea4	KERNEL32.dll.LeaveCriticalSection
+0x18003338e	0x18004a9c0	import	0x180032ea4	KERNEL32.dll.EnterCriticalSection
+0x1800333db	0x18004a9b8	import	0x180032ea4	KERNEL32.dll.LeaveCriticalSection
+0x180033509	0x1800064f0	string	0x180033420	Non-zero return value
+0x180033541	0x18004a9c0	import	0x180033420	KERNEL32.dll.EnterCriticalSection
+0x180033563	0x18004a9b8	import	0x180033420	KERNEL32.dll.LeaveCriticalSection
+0x180033593	0x18004ad00	import	0x180033420	USER32.dll.SetRect
+0x1800335a5	0x18004aba0	import	0x180033420	USER32.dll.GetWindowLongA
+0x1800335b9	0x18004aba0	import	0x180033420	USER32.dll.GetWindowLongA
+0x1800335cf	0x18004aca8	import	0x180033420	USER32.dll.AdjustWindowRectEx
+0x18003376f	0x180033a34	string	0x180033420	@SVWH
+0x1800337e8	0x18004ac30	import	0x180033420	USER32.dll.SetWindowPos
+0x180033827	0x18004a9b8	import	0x180033420	KERNEL32.dll.LeaveCriticalSection
+0x180033852	0x18004a9c0	import	0x180033420	KERNEL32.dll.EnterCriticalSection
+0x180033894	0x18004a9b8	import	0x180033420	KERNEL32.dll.LeaveCriticalSection
+0x180033a9c	0x18004ac30	import	0x180033a34	USER32.dll.SetWindowPos
+0x180033acd	0x18004acb0	import	0x180033a34	USER32.dll.MonitorFromRect
+0x180033ae2	0x18004acb0	import	0x180033a34	USER32.dll.MonitorFromRect
+0x180033afd	0x18004acb8	import	0x180033a34	USER32.dll.GetMonitorInfoA
+0x180033b70	0x18004ad00	import	0x180033a34	USER32.dll.SetRect
+0x180033bb3	0x18004ac30	import	0x180033a34	USER32.dll.SetWindowPos
+0x180033c57	0x180033ce8	string	0x180033bd8	@USVWATAUAVAWH
+0x180033cbd	0x180033ce8	string	0x180033c7c	@USVWATAUAVAWH
+0x180033e47	0x18000f60c	string	0x180033ce8	@SVWATAUAVAWH
+0x180033e75	0x1800064f0	string	0x180033ce8	Non-zero return value
+0x180033ee9	0x18004acd0	import	0x180033ce8	USER32.dll.ChangeDisplaySettingsExW
+0x180033f01	0x18004acc0	import	0x180033ce8	USER32.dll.ChangeDisplaySettingsA
+0x180033f1f	0x18004a9c0	import	0x180033ce8	KERNEL32.dll.EnterCriticalSection
+0x180033f31	0x18004aba0	import	0x180033ce8	USER32.dll.GetWindowLongA
+0x180033f46	0x18004aba0	import	0x180033ce8	USER32.dll.GetWindowLongA
+0x180033f59	0x18004abb0	import	0x180033ce8	USER32.dll.GetWindowRect
+0x180033f66	0x18004a9b8	import	0x180033ce8	KERNEL32.dll.LeaveCriticalSection
+0x180033fc5	0x18004acc8	import	0x180033ce8	USER32.dll.SetWindowLongA
+0x180033ff3	0x18004acc8	import	0x180033ce8	USER32.dll.SetWindowLongA
+0x18003400c	0x18004acc8	import	0x180033ce8	USER32.dll.SetWindowLongA
+0x1800340ad	0x18004acf0	import	0x180034054	USER32.dll.EnumDisplaySettingsW
+0x180034187	0x18004acd0	import	0x180034054	USER32.dll.ChangeDisplaySettingsExW
+0x18003419d	0x1800064f0	string	0x180034054	Non-zero return value
+0x1800343a5	0x1800064f0	string	0x1800341d8	Non-zero return value
+0x1800343e9	0x1800064f0	string	0x1800341d8	Non-zero return value
+0x180034466	0x1800064f0	string	0x1800341d8	Non-zero return value
+0x180034641	0x1800064f0	string	0x180034574	Non-zero return value
+0x180034678	0x1800064f0	string	0x180034574	Non-zero return value
+0x1800348e2	0x1800064f0	string	0x1800347a8	Non-zero return value
+0x1800348fd	0x180001498	string	0x1800347a8	DXGI intermediate backbuffer copy
+0x180034a44	0x1800064f0	string	0x1800347a8	Non-zero return value
+0x180034a5e	0x180001498	string	0x1800347a8	DXGI intermediate backbuffer copy
+0x180034d5e	0x180001438	string	0x180034b50	DXGI proxy primary
+0x180034d9a	0x1800064f0	string	0x180034b50	Non-zero return value
+0x180034fd7	0x18004aba8	import	0x180034f20	USER32.dll.GetClientRect
+0x18003502e	0x18003505b	string	0x180034f20	A9>u
+0x180035037	0x18003505b	string	0x180034f20	A9>u
+0x180035047	0x18003505b	string	0x180034f20	A9>u
+0x180035174	0x180029378	string	0x180034f20	@SUVWAVH
+0x18003549f	0x1800064f0	string	0x180034f20	Non-zero return value
+0x180035586	0x1800064f0	string	0x180034f20	Non-zero return value
+0x1800356bf	0x1800064f0	string	0x180034f20	Non-zero return value
+0x1800356da	0x180001450	string	0x180034f20	DXGI temporary for legacy drivers not supporting small back buffers
+0x180035713	0x1800064f0	string	0x180034f20	Non-zero return value
+0x180035aa4	0x180005058	string	0x180035a1c	Contract breached!
+0x180035b24	0x180005058	string	0x180035ac0	Contract breached!
+0x180035bc8	0x180005058	string	0x180035b40	Contract breached!
+0x180035c65	0x180004d20	string	0x180035be4	vector<T> too long
+0x180035d24	0x18004ae08	import	0x180035be4	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64) __ptr64
+0x180035d74	0x18004ae00	import	0x180035be4	msvcrt.dll.memmove_s
+0x180035dad	0x18004ae00	import	0x180035be4	msvcrt.dll.memmove_s
+0x180035e0f	0x18004ae00	import	0x180035be4	msvcrt.dll.memmove_s
+0x180035e77	0x18004ae00	import	0x180035be4	msvcrt.dll.memmove_s
+0x180035ea6	0x18004ae00	import	0x180035be4	msvcrt.dll.memmove_s
+0x180035f1d	0x180005058	string	0x180035ef4	Contract breached!
+0x180035f81	0x180005058	string	0x180035f38	Contract breached!
+0x180035fb5	0x180005058	string	0x180035f9c	Contract breached!
+0x180036011	0x180005058	string	0x180035fd0	Contract breached!
+0x180036128	0x18004a820	import	0x18003602c	ADVAPI32.dll.EventWrite
+0x1800361f0	0x18004a820	import	0x18003614c	ADVAPI32.dll.EventWrite
+0x1800362a8	0x18004a820	import	0x180036214	ADVAPI32.dll.EventWrite
+0x1800364db	0x18004a820	import	0x180036344	ADVAPI32.dll.EventWrite
+0x180036673	0x18004a820	import	0x1800364fc	ADVAPI32.dll.EventWrite
+0x1800366b6	0x18004a8b8	import	0x180036694	GDI32.dll.SetRectRgn
+0x1800366d0	0x18004ade0	import	0x180036694	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x1800366f7	0x18004a8c0	import	0x180036694	GDI32.dll.CreateRectRgnIndirect
+0x180036715	0x18004ade0	import	0x180036694	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(char const * const __ptr64 const & __ptr64, int) __ptr64
+0x1800367bf	0x18004a820	import	0x180036752	ADVAPI32.dll.EventWrite
+0x180036840	0x18004a820	import	0x1800367e0	ADVAPI32.dll.EventWrite
+0x18003689b	0x18004add8	import	0x180036860	msvcrt.dll._vsnprintf
+0x18003696c	0x18004a820	import	0x1800368d8	ADVAPI32.dll.EventWrite
+0x180036bc0	0x18004a968	import	0x180036b94	KERNEL32.dll.FreeLibrary
+0x180036d66	0x180006510	string	0x180036bd4	User/kernel-mode driver mismatch
+0x180036d6d	0x18004aaa0	import	0x180036bd4	KERNEL32.dll.OutputDebugStringW
+0x180036e7d	0x18004a808	import	0x180036dd8	ADVAPI32.dll.RegOpenKeyExA
+0x180036ec5	0x18004a7d0	import	0x180036dd8	ADVAPI32.dll.RegEnumKeyExA
+0x180036ed9	0x180006c18	string	0x180036dd8	MostRecentApplication
+0x180036ee7	0x18004ada8	import	0x180036dd8	msvcrt.dll._stricmp
+0x180036efc	0x180006c30	string	0x180036dd8	%s\%s
+0x180036f58	0x18004a808	import	0x180036dd8	ADVAPI32.dll.RegOpenKeyExA
+0x180036f7e	0x180006c38	string	0x180036dd8	Size
+0x180036f95	0x18004a7b8	import	0x180036dd8	ADVAPI32.dll.RegQueryValueExA
+0x180036fba	0x18004a810	import	0x180036dd8	ADVAPI32.dll.RegCloseKey
+0x180036fdd	0x180006c40	string	0x180036dd8	Name
+0x180036ff4	0x18004a7b8	import	0x180036dd8	ADVAPI32.dll.RegQueryValueExA
+0x180037001	0x18004a810	import	0x180036dd8	ADVAPI32.dll.RegCloseKey
+0x180037064	0x18004adb0	import	0x180036dd8	msvcrt.dll.tolower
+0x180037070	0x18004adb0	import	0x180036dd8	msvcrt.dll.tolower
+0x1800370db	0x18004ada8	import	0x180036dd8	msvcrt.dll._stricmp
+0x1800371f4	0x18004a810	import	0x180036dd8	ADVAPI32.dll.RegCloseKey
+0x180037312	0x18004a9c8	import	0x1800372d4	KERNEL32.dll.GetModuleFileNameA
+0x18003734f	0x18004aaa8	import	0x1800372d4	KERNEL32.dll.CreateFileA
+0x180037367	0x18004aab0	import	0x1800372d4	KERNEL32.dll.GetFileSize
+0x180037373	0x18004a948	import	0x1800372d4	KERNEL32.dll.CloseHandle
+0x18003740c	0x180036dd8	string	0x1800372d4	@USVWATAUAVAWH
+0x18003743f	0x18004a808	import	0x1800372d4	ADVAPI32.dll.RegOpenKeyExA
+0x1800375db	0x180006c48	string	0x1800375b4	setupapi.dll
+0x1800375e2	0x18004a990	import	0x1800375b4	KERNEL32.dll.LoadLibraryExW
+0x1800375f5	0x180006c68	string	0x1800375b4	SetupDiGetClassDevsW
+0x1800375ff	0x18004a998	import	0x1800375b4	KERNEL32.dll.GetProcAddress
+0x180037609	0x180006c80	string	0x1800375b4	SetupDiEnumDeviceInterfaces
+0x180037614	0x18004a998	import	0x1800375b4	KERNEL32.dll.GetProcAddress
+0x18003761e	0x180006ca0	string	0x1800375b4	SetupDiGetDeviceInterfaceDetailW
+0x180037629	0x18004a998	import	0x1800375b4	KERNEL32.dll.GetProcAddress
+0x180037633	0x180006cc8	string	0x1800375b4	SetupDiDestroyDeviceInfoList
+0x18003763e	0x18004a998	import	0x1800375b4	KERNEL32.dll.GetProcAddress
+0x180037648	0x180006ce8	string	0x1800375b4	SetupDiGetDevicePropertyW
+0x180037653	0x18004a998	import	0x1800375b4	KERNEL32.dll.GetProcAddress
+0x1800376af	0x18004a968	import	0x1800375b4	KERNEL32.dll.FreeLibrary
+0x1800376eb	0x180037714	string	0x1800376c8	@USVWATAUAVAWH
+0x1800377d8	0x18004a980	import	0x180037714	KERNEL32.dll.GetLastError
+0x1800377eb	0x18004ab00	import	0x180037714	KERNEL32.dll.GetProcessHeap
+0x1800377f9	0x18004ab08	import	0x180037714	KERNEL32.dll.HeapAlloc
+0x180037a2f	0x18004a968	import	0x1800379cc	KERNEL32.dll.FreeLibrary
+0x180037ce8	0x180037a50	string	0x180037b34	@USWH
+0x180037d98	0x18004a968	import	0x180037b34	KERNEL32.dll.FreeLibrary
+0x180038537	0x18004a928	import	0x180038524	KERNEL32.dll.SetEvent
+0x1800385ff	0x18004abd0	import	0x180038594	USER32.dll.GetWindowThreadProcessId
+0x180038605	0x18004aab8	import	0x180038594	KERNEL32.dll.GetCurrentProcessId
+0x1800386c4	0x180004f50	string	0x180038594	list<T> too long
+0x180038b86	0x180001108	string	0x180038b64	string too long
+0x180038c20	0x180001118	string	0x180038be4	invalid string position
+0x180038c89	0x18004ad88	import	0x180038be4	msvcrt.dll.malloc
+0x180038d17	0x18004aa70	import	0x180038cbc	KERNEL32.dll.Sleep
+0x180038da4	0x18004ad90	import	0x180038cbc	msvcrt.dll.free
+0x180038dfe	0x18004aa70	import	0x180038cbc	KERNEL32.dll.Sleep
+0x180039276	0x18004adf8	import	0x180039276	msvcrt.dll.sym_imp_public: void __cdecl exception::constructor(void) __ptr64
+0x180039282	0x18004adf0	import	0x180039276	msvcrt.dll._purecall
+0x1800392cb	0x18004ae68	import	0x1800392b0	msvcrt.dll._onexit
+0x18003937c	0x18004aac0	import	0x18003935c	KERNEL32.dll.RtlCaptureContext
+0x180039395	0x18004aac8	import	0x18003935c	KERNEL32.dll.RtlLookupFunctionEntry
+0x1800393d1	0x18004aad0	import	0x18003935c	KERNEL32.dll.RtlVirtualUnwind
+0x1800393f9	0x180001140	string	0x18003935c	Invalid parameter passed to C runtime function.\n
+0x180039400	0x18004aad8	import	0x18003935c	KERNEL32.dll.OutputDebugStringA
+0x180039492	0x18004ada0	import	0x180039492	msvcrt.dll.memset
+0x18003949e	0x18004ad98	import	0x180039492	msvcrt.dll.__C_specific_handler
+0x180039546	0x18004ad80	import	0x180039546	msvcrt.dll._CxxThrowException
+0x180039552	0x18004ad78	import	0x180039552	msvcrt.dll.__CxxFrameHandler3
+0x1800395f6	0x18004ad70	import	0x1800395f6	msvcrt.dll._XcptFilter
+0x180039602	0x18004ad68	import	0x180039602	msvcrt.dll._amsg_exit
+0x18003961b	0x180039620	string	0x180039610	HcH<H
+0x1800396c9	0x180039650	string	0x1800396a0	LcA<E3
+0x180039724	0x18004aae0	import	0x1800396f4	KERNEL32.dll.GetSystemTimeAsFileTime
+0x180039732	0x18004aab8	import	0x1800396f4	KERNEL32.dll.GetCurrentProcessId
+0x18003973f	0x18004a9d8	import	0x1800396f4	KERNEL32.dll.GetCurrentThreadId
+0x18003974c	0x18004a9e0	import	0x1800396f4	KERNEL32.dll.GetTickCount
+0x18003975d	0x18004a9e0	import	0x1800396f4	KERNEL32.dll.GetTickCount
+0x180039779	0x18004aa80	import	0x1800396f4	KERNEL32.dll.QueryPerformanceCounter
+0x1800397ce	0x18004adb8	import	0x1800397ce	msvcrt.dll._initterm
+0x1800397f3	0x18004aac0	import	0x1800397e1	KERNEL32.dll.RtlCaptureContext
+0x180039812	0x18004aac8	import	0x1800397e1	KERNEL32.dll.RtlLookupFunctionEntry
+0x18003985f	0x18004aad0	import	0x1800397e1	KERNEL32.dll.RtlVirtualUnwind
+0x180039927	0x18004aaf0	import	0x18003991c	KERNEL32.dll.SetUnhandledExceptionFilter
+0x180039930	0x18004aae8	import	0x18003991c	KERNEL32.dll.UnhandledExceptionFilter
+0x180039936	0x18004a9f8	import	0x18003991c	KERNEL32.dll.GetCurrentProcess
+0x180039949	0x18004aaf8	import	0x18003991c	KERNEL32.dll.TerminateProcess
+0x180039956	0x18004ae50	import	0x180039956	msvcrt.dll._lock
+0x180039962	0x18004ae58	import	0x180039962	msvcrt.dll._unlock
+0x18003996e	0x18004ae60	import	0x18003996e	msvcrt.dll.__dllonexit
+0x18003997a	0x18004ae28	import	0x18003997a	msvcrt.dll.ceilf
+0x180039986	0x18004ae20	import	0x180039986	msvcrt.dll.memcmp
+0x180039992	0x18004ae18	import	0x180039992	msvcrt.dll.memcpy
+0x18003999e	0x18004ae80	import	0x18003999e	msvcrt.dll.powf

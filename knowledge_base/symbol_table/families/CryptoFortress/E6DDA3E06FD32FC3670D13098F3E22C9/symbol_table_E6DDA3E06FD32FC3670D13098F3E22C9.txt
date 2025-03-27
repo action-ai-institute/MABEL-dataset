@@ -1,0 +1,1007 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x4052a2	0x41c16c	import	0x4052a2	ODBC32.dll.SQLRowCount
+0x4052a8	0x41c178	import	0x4052a8	PSAPI.DLL.GetModuleInformation
+0x4052ae	0x41c17c	import	0x4052ae	PSAPI.DLL.GetModuleBaseNameA
+0x4052b4	0x41c174	import	0x4052b4	PSAPI.DLL.EnumProcessModules
+0x4052ba	0x41c18c	import	0x4052ba	Secur32.dll.InitSecurityInterfaceA
+0x405750	0x41c114	import	0x405710	KERNEL32.dll.GetStartupInfoW
+0x405767	0x41c110	import	0x405710	KERNEL32.dll.HeapSetInformation
+0x4057c4	0x41c10c	import	0x405710	KERNEL32.dll.GetCommandLineA
+0x405a2d	0x41c124	import	0x405972	KERNEL32.dll.IsDebuggerPresent
+0x405a44	0x41c120	import	0x405972	KERNEL32.dll.SetUnhandledExceptionFilter
+0x405a4f	0x41c11c	import	0x405972	KERNEL32.dll.UnhandledExceptionFilter
+0x405a6d	0x41c07c	import	0x405972	KERNEL32.dll.GetCurrentProcess
+0x405a74	0x41c118	import	0x405972	KERNEL32.dll.TerminateProcess
+0x405b47	0x41c128	import	0x405b42	KERNEL32.dll.IsProcessorFeaturePresent
+0x405ce3	0x4204bc	string	0x405c70	_CrtCheckMemory()
+0x405cef	0x420458	string	0x405c70	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x405d78	0x42041c	string	0x405c70	Client hook allocation failure at file %hs line %d.\n
+0x405d95	0x4203f8	string	0x405c70	Client hook allocation failure.\n
+0x405de3	0x4203cc	string	0x405c70	Invalid allocation size: %Iu bytes.\n
+0x405e3a	0x420398	string	0x405c70	Error: memory allocation: bad memory block type.\n
+0x406230	0x4204bc	string	0x4061b0	_CrtCheckMemory()
+0x40623c	0x420458	string	0x4061b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4062c8	0x4207c0	string	0x4061b0	Client hook re-allocation failure at file %hs line %d.\n
+0x4062e5	0x42079c	string	0x4061b0	Client hook re-allocation failure.\n
+0x406324	0x420758	string	0x4061b0	Invalid allocation size: %Iu bytes.\n\nMemory allocated at %hs(%d).\n
+0x406345	0x4203cc	string	0x4061b0	Invalid allocation size: %Iu bytes.\n
+0x4063a1	0x420708	string	0x4061b0	Error: memory allocation: bad memory block type.\n\nMemory allocated at %hs(%d).\n
+0x4063be	0x420398	string	0x4061b0	Error: memory allocation: bad memory block type.\n
+0x406404	0x4206b8	string	0x4061b0	The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
+0x406441	0x420670	string	0x4061b0	_CrtIsValidHeapPointer(pUserData)
+0x40644d	0x420458	string	0x4061b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406496	0x4205e0	string	0x4061b0	pOldBlock->nLine == IGNORE_LINE && pOldBlock->lRequest == IGNORE_REQ
+0x4064a2	0x420458	string	0x4061b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4064f0	0x4205ac	string	0x4061b0	Error: possible heap corruption at or near 0x%p
+0x40668f	0x420548	string	0x4061b0	fRealloc || (!fRealloc && pNewBlock == pOldBlock)
+0x40669b	0x420458	string	0x4061b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4066e9	0x420514	string	0x4061b0	_pLastBlock == pOldBlock
+0x4066f5	0x420458	string	0x4061b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406739	0x4204e0	string	0x4061b0	_pFirstBlock == pOldBlock
+0x406745	0x420458	string	0x4061b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406858	0x4204bc	string	0x406830	_CrtCheckMemory()
+0x406864	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4068c9	0x420c08	string	0x406830	The Block at 0x%p was allocated by aligned routines, use _aligned_free()
+0x40691c	0x420be8	string	0x406830	Client hook free failure.\n
+0x406951	0x420670	string	0x406830	_CrtIsValidHeapPointer(pUserData)
+0x40695d	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4069af	0x420b98	string	0x406830	_BLOCK_TYPE_IS_VALID(pHead->nBlockUse)
+0x4069bb	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406a39	0x420af0	string	0x406830	HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n\nMemory allocated at %hs(%d).\n
+0x406a77	0x420a60	string	0x406830	HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n
+0x406af3	0x4209b8	string	0x406830	HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n\nMemory allocated at %hs(%d).\n
+0x406b31	0x420930	string	0x406830	HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n
+0x406b6a	0x4208b0	string	0x406830	pHead->nLine == IGNORE_LINE && pHead->lRequest == IGNORE_REQ
+0x406b76	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406bdb	0x420874	string	0x406830	pHead->nBlockUse == nBlockUse
+0x406be7	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406c3e	0x420848	string	0x406830	_pLastBlock == pHead
+0x406c4a	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406c8c	0x42081c	string	0x406830	_pFirstBlock == pHead
+0x406c98	0x420458	string	0x406830	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406d54	0x4207f8	string	0x406d10	pUserData != NULL
+0x406d60	0x420458	string	0x406d10	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406d8d	0x420458	string	0x406d10	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406d92	0x420c54	string	0x406d10	_msize_dbg
+0x406d97	0x4207f8	string	0x406d10	pUserData != NULL
+0x406dcf	0x4204bc	string	0x406d10	_CrtCheckMemory()
+0x406ddb	0x420458	string	0x406d10	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406e2c	0x420670	string	0x406d10	_CrtIsValidHeapPointer(pUserData)
+0x406e38	0x420458	string	0x406d10	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406e88	0x420b98	string	0x406d10	_BLOCK_TYPE_IS_VALID(pHead->nBlockUse)
+0x406e94	0x420458	string	0x406d10	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x406fd6	0x420ea8	string	0x406f40	_heapchk fails with _HEAPBADBEGIN.\n
+0x406ffb	0x420e84	string	0x406f40	_heapchk fails with _HEAPBADNODE.\n
+0x40701d	0x420e60	string	0x406f40	_heapchk fails with _HEAPBADEND.\n
+0x40703f	0x420e3c	string	0x406f40	_heapchk fails with _HEAPBADPTR.\n
+0x407061	0x420e10	string	0x406f40	_heapchk fails with unknown return value!\n
+0x407103	0x420e08	string	0x406f40	DAMAGED
+0x407150	0x420af0	string	0x406f40	HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n\nMemory allocated at %hs(%d).\n
+0x40717f	0x420a60	string	0x406f40	HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n
+0x4071ee	0x4209b8	string	0x406f40	HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n\nMemory allocated at %hs(%d).\n
+0x40721d	0x420930	string	0x406f40	HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n
+0x40728c	0x420d68	string	0x406f40	HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n\nMemory allocated at %hs(%d).\n
+0x4072b0	0x420ce0	string	0x406f40	HEAP CORRUPTION DETECTED: on top of Free block at 0x%p.\nCRT detected that the application wrote to a heap buffer that was freed.\n
+0x407301	0x420c98	string	0x406f40	%hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
+0x407330	0x420c6c	string	0x406f40	%hs located at 0x%p is %Iu bytes long.\n
+0x40740a	0x420ef0	string	0x4073a0	(fNewBits==_CRTDBG_REPORT_FLAG) || ((fNewBits & 0x0ffff & ~(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_DELAY_FREE_MEM_DF | _CRTDBG_CHECK_ALWAYS_DF | _CRTDBG_CHECK_CRT_DF | _CRTDBG_LEAK_CHECK_DF) ) == 0)
+0x407416	0x420458	string	0x4073a0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x407443	0x420458	string	0x4073a0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x407448	0x420ecc	string	0x4073a0	_CrtSetDbgFlag
+0x40744d	0x420ef0	string	0x4073a0	(fNewBits==_CRTDBG_REPORT_FLAG) || ((fNewBits & 0x0ffff & ~(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_DELAY_FREE_MEM_DF | _CRTDBG_CHECK_ALWAYS_DF | _CRTDBG_CHECK_CRT_DF | _CRTDBG_LEAK_CHECK_DF) ) == 0)
+0x40753a	0x41c12c	import	0x407500	KERNEL32.dll.HeapValidate
+0x407594	0x4210f8	string	0x407550	state != NULL
+0x4075a0	0x420458	string	0x407550	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4075cd	0x420458	string	0x407550	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x4075d2	0x4210d4	string	0x407550	_CrtMemCheckpoint
+0x4075d7	0x4210f8	string	0x407550	state != NULL
+0x4076e5	0x421094	string	0x407550	Bad memory block found at 0x%p.\n\nMemory allocated at %hs(%d).\n
+0x407706	0x421070	string	0x407550	Bad memory block found at 0x%p.\n
+0x40791a	0x4211e0	string	0x4078d0	Dumping objects ->\n
+0x4079d8	0x41c130	import	0x4078d0	KERNEL32.dll.IsBadReadPtr
+0x4079e9	0x4211cc	string	0x4078d0	#File Error#(%d) :
+0x407a14	0x4211c0	string	0x4078d0	%hs(%d) :
+0x407a36	0x4211b8	string	0x4078d0	{%ld}
+0x407a84	0x421184	string	0x4078d0	client block at 0x%p, subtype %x, %Iu bytes long.\n
+0x407ab1	0x41c130	import	0x4078d0	KERNEL32.dll.IsBadReadPtr
+0x407b00	0x42115c	string	0x4078d0	normal block at 0x%p, %Iu bytes long.\n
+0x407b5c	0x42112c	string	0x4078d0	crt block at 0x%p, subtype %x, %Iu bytes long.\n
+0x407ba5	0x421114	string	0x407b9a	Object dump complete.\n
+0x407cda	0x421244	string	0x407be0	%.2X
+0x407d0b	0x420458	string	0x407be0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgheap.c
+0x407d10	0x42121c	string	0x407be0	_printMemBlockData
+0x407d15	0x421204	string	0x407be0	(*_errno())
+0x407d4d	0x4211f4	string	0x407be0	Data: <%s> %s\n
+0x407dfb	0x42124c	string	0x407dc0	Detected memory leaks!\n
+0x407ffa	0x41c120	import	0x407ff2	KERNEL32.dll.SetUnhandledExceptionFilter
+0x408055	0x41c144	import	0x408010	KERNEL32.dll.GetSystemTimeAsFileTime
+0x40806a	0x41c140	import	0x408010	KERNEL32.dll.GetCurrentProcessId
+0x408076	0x41c13c	import	0x408010	KERNEL32.dll.GetCurrentThreadId
+0x408082	0x41c138	import	0x408010	KERNEL32.dll.GetTickCount
+0x408092	0x41c134	import	0x408010	KERNEL32.dll.QueryPerformanceCounter
+0x40830c	0x41c150	import	0x408240	KERNEL32.dll.DecodePointer
+0x40833f	0x41c14c	import	0x408240	KERNEL32.dll.InterlockedDecrement
+0x408377	0x41c148	import	0x408240	KERNEL32.dll.InterlockedIncrement
+0x4083fe	0x41c150	import	0x408390	KERNEL32.dll.DecodePointer
+0x408418	0x41c150	import	0x408390	KERNEL32.dll.DecodePointer
+0x40847e	0x41c150	import	0x408390	KERNEL32.dll.DecodePointer
+0x40849b	0x41c150	import	0x408390	KERNEL32.dll.DecodePointer
+0x4084aa	0x41c150	import	0x408390	KERNEL32.dll.DecodePointer
+0x408588	0x421274	string	0x408580	mscoree.dll
+0x40858d	0x41c158	import	0x408580	KERNEL32.dll.GetModuleHandleW
+0x40859c	0x421264	string	0x408580	CorExitProcess
+0x4085a5	0x41c154	import	0x408580	KERNEL32.dll.GetProcAddress
+0x4085d5	0x41c15c	import	0x4085c0	KERNEL32.dll.ExitProcess
+0x408a8b	0x4213e4	string	0x408a20	f:\dd\vctools\crt_bld\self_x86\crt\src\stdenvp.c
+0x408b05	0x4213e4	string	0x408a20	f:\dd\vctools\crt_bld\self_x86\crt\src\stdenvp.c
+0x408b4d	0x421380	string	0x408a20	f:\dd\vctools\crt_bld\self_x86\crt\src\stdenvp.c
+0x408b52	0x421368	string	0x408a20	_setenvp
+0x408b57	0x421334	string	0x408a20	strcpy_s(*env, cchars, p)
+0x408c20	0x41c0d8	import	0x408bf0	KERNEL32.dll.GetModuleFileNameA
+0x408ca4	0x421418	string	0x408bf0	f:\dd\vctools\crt_bld\self_x86\crt\src\stdargv.c
+0x40908f	0x41c108	import	0x409080	KERNEL32.dll.GetEnvironmentStringsW
+0x4090f5	0x41c164	import	0x409080	KERNEL32.dll.WideCharToMultiByte
+0x409106	0x42144c	string	0x409080	f:\dd\vctools\crt_bld\self_x86\crt\src\a_env.c
+0x409126	0x41c160	import	0x409080	KERNEL32.dll.FreeEnvironmentStringsW
+0x409148	0x41c164	import	0x409080	KERNEL32.dll.WideCharToMultiByte
+0x40916b	0x41c160	import	0x409080	KERNEL32.dll.FreeEnvironmentStringsW
+0x40918c	0x41c114	import	0x409180	KERNEL32.dll.GetStartupInfoW
+0x409197	0x42147c	string	0x409180	f:\dd\vctools\crt_bld\self_x86\crt\src\ioinit.c
+0x4092ba	0x42147c	string	0x409180	f:\dd\vctools\crt_bld\self_x86\crt\src\ioinit.c
+0x4093d5	0x41c0f4	import	0x409180	KERNEL32.dll.GetFileType
+0x409419	0x41c0f8	import	0x409180	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x4094a8	0x41c0fc	import	0x409180	KERNEL32.dll.GetStdHandle
+0x4094c9	0x41c0f4	import	0x409180	KERNEL32.dll.GetFileType
+0x40952a	0x41c0f8	import	0x409180	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x409583	0x41c104	import	0x409180	KERNEL32.dll.SetHandleCount
+0x4095f7	0x41c0ec	import	0x4095f0	KERNEL32.dll.EncodePointer
+0x409605	0x41c0e8	import	0x409602	KERNEL32.dll.TlsAlloc
+0x40961c	0x41c0e4	import	0x409610	KERNEL32.dll.TlsGetValue
+0x409632	0x41c150	import	0x409610	KERNEL32.dll.DecodePointer
+0x409645	0x41c0d4	import	0x409610	KERNEL32.dll.TlsSetValue
+0x409668	0x42150c	string	0x409660	KERNEL32.DLL
+0x40966d	0x41c158	import	0x409660	KERNEL32.dll.GetModuleHandleW
+0x409688	0x421500	string	0x409660	FlsAlloc
+0x409691	0x41c154	import	0x409660	KERNEL32.dll.GetProcAddress
+0x40969c	0x4214f4	string	0x409660	FlsGetValue
+0x4096a5	0x41c154	import	0x409660	KERNEL32.dll.GetProcAddress
+0x4096b0	0x4214e8	string	0x409660	FlsSetValue
+0x4096b9	0x41c154	import	0x409660	KERNEL32.dll.GetProcAddress
+0x4096c4	0x4214e0	string	0x409660	FlsFree
+0x4096cd	0x41c154	import	0x409660	KERNEL32.dll.GetProcAddress
+0x409706	0x41c0e4	import	0x409660	KERNEL32.dll.TlsGetValue
+0x409712	0x41c0d4	import	0x409660	KERNEL32.dll.TlsSetValue
+0x409728	0x41c0e8	import	0x409660	KERNEL32.dll.TlsAlloc
+0x40974a	0x41c0d4	import	0x409660	KERNEL32.dll.TlsSetValue
+0x409766	0x41c0ec	import	0x409660	KERNEL32.dll.EncodePointer
+0x409778	0x41c0ec	import	0x409660	KERNEL32.dll.EncodePointer
+0x40978a	0x41c0ec	import	0x409660	KERNEL32.dll.EncodePointer
+0x40979b	0x41c0ec	import	0x409660	KERNEL32.dll.EncodePointer
+0x4097c7	0x41c150	import	0x409660	KERNEL32.dll.DecodePointer
+0x4097eb	0x4214ac	string	0x409660	f:\dd\vctools\crt_bld\self_x86\crt\src\tidtable.c
+0x40981b	0x41c150	import	0x409660	KERNEL32.dll.DecodePointer
+0x40983e	0x41c13c	import	0x409660	KERNEL32.dll.GetCurrentThreadId
+0x40987b	0x41c150	import	0x409860	KERNEL32.dll.DecodePointer
+0x40989d	0x41c0d0	import	0x409860	KERNEL32.dll.TlsFree
+0x4098f2	0x42150c	string	0x4098c0	KERNEL32.DLL
+0x4098f7	0x41c158	import	0x4098c0	KERNEL32.dll.GetModuleHandleW
+0x40995e	0x41c148	import	0x4098c0	KERNEL32.dll.InterlockedIncrement
+0x4099f8	0x41c0ac	import	0x4099f0	KERNEL32.dll.GetLastError
+0x409a1e	0x4214ac	string	0x4099f0	f:\dd\vctools\crt_bld\self_x86\crt\src\tidtable.c
+0x409a4e	0x41c150	import	0x4099f0	KERNEL32.dll.DecodePointer
+0x409a68	0x41c13c	import	0x4099f0	KERNEL32.dll.GetCurrentThreadId
+0x409a98	0x41c0cc	import	0x4099f0	KERNEL32.dll.SetLastError
+0x409c19	0x41c14c	import	0x409ae2	KERNEL32.dll.InterlockedDecrement
+0x409d06	0x41c0b4	import	0x409cf0	KERNEL32.dll.HeapCreate
+0x409de4	0x40db12	string	0x409d32	UVWS
+0x40a0b6	0x41c0fc	import	0x409ff0	KERNEL32.dll.GetStdHandle
+0x40a130	0x41c0c4	import	0x409ff0	KERNEL32.dll.WriteFile
+0x40a17f	0x4221e0	string	0x409ff0	f:\dd\vctools\crt_bld\self_x86\crt\src\crt0msg.c
+0x40a184	0x4221c8	string	0x409ff0	_NMSG_WRITE
+0x40a189	0x422118	string	0x409ff0	wcscpy_s(outmsg, (sizeof(outmsg) / sizeof(outmsg[0])), L"Runtime Error!\n\nProgram: ")
+0x40a18e	0x4220e4	string	0x409ff0	Runtime Error!\n\nProgram:
+0x40a1cb	0x41c0c8	import	0x409ff0	KERNEL32.dll.GetModuleFileNameW
+0x40a1dc	0x4221e0	string	0x409ff0	f:\dd\vctools\crt_bld\self_x86\crt\src\crt0msg.c
+0x40a1e1	0x4221c8	string	0x409ff0	_NMSG_WRITE
+0x40a1e6	0x422068	string	0x409ff0	wcscpy_s(progname, progname_size, L"<program name unknown>")
+0x40a1eb	0x422038	string	0x409ff0	<program name unknown>
+0x40a24c	0x4221e0	string	0x409ff0	f:\dd\vctools\crt_bld\self_x86\crt\src\crt0msg.c
+0x40a251	0x4221c8	string	0x409ff0	_NMSG_WRITE
+0x40a256	0x421fc0	string	0x409ff0	wcsncpy_s(pch, progname_size - (pch - progname), L"...", 3)
+0x40a298	0x4221e0	string	0x409ff0	f:\dd\vctools\crt_bld\self_x86\crt\src\crt0msg.c
+0x40a29d	0x4221c8	string	0x409ff0	_NMSG_WRITE
+0x40a2a2	0x421f38	string	0x409ff0	wcscat_s(outmsg, (sizeof(outmsg) / sizeof(outmsg[0])), L"\n\n")
+0x40a2ce	0x4221e0	string	0x409ff0	f:\dd\vctools\crt_bld\self_x86\crt\src\crt0msg.c
+0x40a2d3	0x4221c8	string	0x409ff0	_NMSG_WRITE
+0x40a2d8	0x421ea8	string	0x409ff0	wcscat_s(outmsg, (sizeof(outmsg) / sizeof(outmsg[0])), error_text)
+0x40a48c	0x41c150	import	0x40a480	KERNEL32.dll.DecodePointer
+0x40a523	0x41c0f8	import	0x40a4c0	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40a59b	0x41c0f0	import	0x40a550	KERNEL32.dll.DeleteCriticalSection
+0x40a602	0x41c0f0	import	0x40a550	KERNEL32.dll.DeleteCriticalSection
+0x40a68a	0x422244	string	0x40a610	f:\dd\vctools\crt_bld\self_x86\crt\src\mlock.c
+0x40a6dd	0x41c0f8	import	0x40a610	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40a797	0x41c0c0	import	0x40a760	KERNEL32.dll.EnterCriticalSection
+0x40a7b0	0x41c0bc	import	0x40a7a0	KERNEL32.dll.LeaveCriticalSection
+0x40a89d	0x41c0b8	import	0x40a850	KERNEL32.dll.HeapAlloc
+0x40a96c	0x41c0d8	import	0x40a920	KERNEL32.dll.GetModuleFileNameA
+0x40a982	0x422650	string	0x40a920	__crtMessageWindowA
+0x40a987	0x4225e8	string	0x40a920	strcpy_s(szExeName, 260, "<program name unknown>")
+0x40a98c	0x4225d0	string	0x40a920	<program name unknown>
+0x40a9ea	0x422650	string	0x40a920	__crtMessageWindowA
+0x40a9ef	0x4224f0	string	0x40a920	memcpy_s(szShortProgName, sizeof(TCHAR) * (260 - (szShortProgName - szExeName)), dotdotdot, sizeof(TCHAR) * 3)
+0x40aa70	0x422478	string	0x40a920	\n\nFor information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts.
+0x40aab5	0x422468	string	0x40a920	Expression:
+0x40ab0c	0x42245c	string	0x40a920	\nLine:
+0x40ab43	0x422454	string	0x40a920	\nFile:
+0x40abb3	0x422448	string	0x40a920	\nModule:
+0x40ac25	0x4223f0	string	0x40a920	Debug %s!\n\nProgram: %s%s%s%s%s%s%s%s%s%s%s%s\n\n(Press Retry to debug the application)
+0x40ac58	0x422650	string	0x40a920	__crtMessageWindowA
+0x40ac5d	0x421204	string	0x40a920	(*_errno())
+0x40ac95	0x422650	string	0x40a920	__crtMessageWindowA
+0x40ac9a	0x422358	string	0x40a920	strcpy_s(szOutMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+0x40ac9f	0x42232c	string	0x40a920	_CrtDbgReport: String too long or IO Error
+0x40acc6	0x422308	string	0x40a920	Microsoft Visual C++ Debug Library
+0x40adde	0x41c0c8	import	0x40ad90	KERNEL32.dll.GetModuleFileNameW
+0x40adf4	0x422a50	string	0x40ad90	__crtMessageWindowW
+0x40adf9	0x4229e8	string	0x40ad90	wcscpy_s(szExeName, 260, L"<program name unknown>")
+0x40adfe	0x422038	string	0x40ad90	<program name unknown>
+0x40ae5c	0x422a50	string	0x40ad90	__crtMessageWindowW
+0x40ae61	0x4224f0	string	0x40ad90	memcpy_s(szShortProgName, sizeof(TCHAR) * (260 - (szShortProgName - szExeName)), dotdotdot, sizeof(TCHAR) * 3)
+0x40aee5	0x422900	string	0x40ad90	\n\nFor information on how your program can cause an assertion\nfailure, see the Visual C++ documentation on asserts.
+0x40af2a	0x4228e0	string	0x40ad90	Expression:
+0x40af81	0x4228d0	string	0x40ad90	\nLine:
+0x40afb8	0x4228c0	string	0x40ad90	\nFile:
+0x40b028	0x4228ac	string	0x40ad90	\nModule:
+0x40b09a	0x422800	string	0x40ad90	Debug %s!\n\nProgram: %s%s%s%s%s%s%s%s%s%s%s%s\n\n(Press Retry to debug the application)
+0x40b0cd	0x422a50	string	0x40ad90	__crtMessageWindowW
+0x40b0d2	0x421204	string	0x40ad90	(*_errno())
+0x40b10a	0x422a50	string	0x40ad90	__crtMessageWindowW
+0x40b10f	0x422768	string	0x40ad90	wcscpy_s(szOutMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+0x40b114	0x422710	string	0x40ad90	_CrtDbgReport: String too long or IO Error
+0x40b13b	0x4226c8	string	0x40ad90	Microsoft Visual C++ Debug Library
+0x40b1ab	0x422af8	string	0x40b190	pBlock != NULL
+0x40b1b4	0x422a98	string	0x40b190	f:\dd\vctools\crt_bld\self_x86\crt\src\expand.c
+0x40b1de	0x422a98	string	0x40b190	f:\dd\vctools\crt_bld\self_x86\crt\src\expand.c
+0x40b1e3	0x422a78	string	0x40b190	_expand_base
+0x40b1e8	0x422af8	string	0x40b190	pBlock != NULL
+0x40b22a	0x41c08c	import	0x40b190	KERNEL32.dll.HeapSize
+0x40b243	0x41c090	import	0x40b190	KERNEL32.dll.HeapReAlloc
+0x40b274	0x41c0ac	import	0x40b190	KERNEL32.dll.GetLastError
+0x40b2c0	0x41c088	import	0x40b2a0	KERNEL32.dll.HeapQueryInformation
+0x40b35a	0x41c090	import	0x40b2f0	KERNEL32.dll.HeapReAlloc
+0x40b397	0x41c0ac	import	0x40b2f0	KERNEL32.dll.GetLastError
+0x40b3c4	0x41c0ac	import	0x40b2f0	KERNEL32.dll.GetLastError
+0x40b412	0x41c150	import	0x40b400	KERNEL32.dll.DecodePointer
+0x40b47b	0x41c07c	import	0x40b460	KERNEL32.dll.GetCurrentProcess
+0x40b482	0x41c118	import	0x40b460	KERNEL32.dll.TerminateProcess
+0x40b58f	0x41c124	import	0x40b490	KERNEL32.dll.IsDebuggerPresent
+0x40b59a	0x41c120	import	0x40b490	KERNEL32.dll.SetUnhandledExceptionFilter
+0x40b5a4	0x41c11c	import	0x40b490	KERNEL32.dll.UnhandledExceptionFilter
+0x40b603	0x41c084	import	0x40b5e0	KERNEL32.dll.HeapFree
+0x40b612	0x41c0ac	import	0x40b5e0	KERNEL32.dll.GetLastError
+0x40b647	0x41c12c	import	0x40b630	KERNEL32.dll.HeapValidate
+0x40b6e4	0x41c14c	import	0x40b660	KERNEL32.dll.InterlockedDecrement
+0x40b71d	0x41c148	import	0x40b660	KERNEL32.dll.InterlockedIncrement
+0x40b7e2	0x422b18	string	0x40b770	f:\dd\vctools\crt_bld\self_x86\crt\src\mbctype.c
+0x40b840	0x41c14c	import	0x40b770	KERNEL32.dll.InterlockedDecrement
+0x40b877	0x41c148	import	0x40b770	KERNEL32.dll.InterlockedIncrement
+0x40b967	0x41c14c	import	0x40b770	KERNEL32.dll.InterlockedDecrement
+0x40b99a	0x41c148	import	0x40b770	KERNEL32.dll.InterlockedIncrement
+0x40ba6b	0x41c0e0	import	0x40ba10	KERNEL32.dll.GetOEMCP
+0x40ba9a	0x41c080	import	0x40ba10	KERNEL32.dll.GetACP
+0x40bcd9	0x41c074	import	0x40bb20	KERNEL32.dll.IsValidCodePage
+0x40bcf3	0x41c078	import	0x40bb20	KERNEL32.dll.GetCPInfo
+0x40bff3	0x41c078	import	0x40bfd0	KERNEL32.dll.GetCPInfo
+0x40c34a	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c366	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c382	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c39e	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c3ba	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c409	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c43d	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c455	0x41c148	import	0x40c340	KERNEL32.dll.InterlockedIncrement
+0x40c474	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c490	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c4ac	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c4c8	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c4e4	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c533	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c567	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c57f	0x41c14c	import	0x40c460	KERNEL32.dll.InterlockedDecrement
+0x40c7ee	0x422bb8	string	0x40c590	((ptloci->lc_category[category].wlocale != NULL) && (ptloci->lc_category[category].wrefcount != NULL)) || ((ptloci->lc_category[category].wlocale == NULL) && (ptloci->lc_category[category].wrefcount == NULL))
+0x40c7fa	0x422b50	string	0x40c590	f:\dd\vctools\crt_bld\self_x86\crt\src\localref.c
+0x40ca42	0x423134	string	0x40ca20	(unsigned)(c + 1) <= 256
+0x40ca4b	0x4230d0	string	0x40ca20	f:\dd\vctools\crt_bld\self_x86\crt\src\isctype.c
+0x40cbfa	0x41c0ec	import	0x40cbf0	KERNEL32.dll.EncodePointer
+0x40ccfb	0x41c150	import	0x40ccc0	KERNEL32.dll.DecodePointer
+0x40cdde	0x41c150	import	0x40cdd0	KERNEL32.dll.DecodePointer
+0x40cdee	0x41c150	import	0x40cdd0	KERNEL32.dll.DecodePointer
+0x40ce62	0x423168	string	0x40cdd0	f:\dd\vctools\crt_bld\self_x86\crt\src\onexit.c
+0x40ce98	0x423168	string	0x40cdd0	f:\dd\vctools\crt_bld\self_x86\crt\src\onexit.c
+0x40ced8	0x41c0ec	import	0x40cdd0	KERNEL32.dll.EncodePointer
+0x40cee7	0x41c0ec	import	0x40cdd0	KERNEL32.dll.EncodePointer
+0x40ceff	0x41c0ec	import	0x40cdd0	KERNEL32.dll.EncodePointer
+0x40cf4b	0x423168	string	0x40cf42	f:\dd\vctools\crt_bld\self_x86\crt\src\onexit.c
+0x40cf65	0x41c0ec	import	0x40cf42	KERNEL32.dll.EncodePointer
+0x40cfc9	0x41c0ec	import	0x40cfa0	KERNEL32.dll.EncodePointer
+0x40d34c	0x4231f8	string	0x40d210	("Invalid signal or error", 0)
+0x40d358	0x423198	string	0x40d210	f:\dd\vctools\crt_bld\self_x86\crt\src\winsig.c
+0x40d385	0x423198	string	0x40d210	f:\dd\vctools\crt_bld\self_x86\crt\src\winsig.c
+0x40d38a	0x423238	string	0x40d210	raise
+0x40d38f	0x4231f8	string	0x40d210	("Invalid signal or error", 0)
+0x40d3a8	0x41c150	import	0x40d210	KERNEL32.dll.DecodePointer
+0x40d47e	0x40d48a	string	0x40d47a	Ã}\b\bu blocks=Latin-1 Supplement,Basic Latin
+0x40d58b	0x41c150	import	0x40d580	KERNEL32.dll.DecodePointer
+0x40d6e0	0x423350	string	0x40d6b0	((_Dst)) != NULL && ((_SizeInBytes)) > 0
+0x40d6e9	0x4232e8	string	0x40d6b0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40d713	0x4232e8	string	0x40d6b0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40d718	0x4232d0	string	0x40d6b0	strcpy_s
+0x40d71d	0x423350	string	0x40d6b0	((_Dst)) != NULL && ((_SizeInBytes)) > 0
+0x40d7a5	0x4232a8	string	0x40d6b0	(((_Src))) != NULL
+0x40d7ae	0x4232e8	string	0x40d6b0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40d7d8	0x4232e8	string	0x40d6b0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40d7dd	0x4232d0	string	0x40d6b0	strcpy_s
+0x40d7e2	0x4232a8	string	0x40d6b0	(((_Src))) != NULL
+0x40d897	0x423280	string	0x40d6b0	Buffer is too small
+0x40d8c0	0x423244	string	0x40d6b0	(L"Buffer is too small" && 0)
+0x40d8c9	0x4232e8	string	0x40d6b0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40d8f3	0x4232e8	string	0x40d6b0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40d8f8	0x4232d0	string	0x40d6b0	strcpy_s
+0x40d8fd	0x423244	string	0x40d6b0	(L"Buffer is too small" && 0)
+0x40db4b	0x40db56	string	0x40db42	_^[]
+0x40dbe7	0x42342c	string	0x40db80	("Invalid error_mode", 0)
+0x40dbf0	0x4233c8	string	0x40db80	f:\dd\vctools\crt_bld\self_x86\crt\src\errmode.c
+0x40dc1a	0x4233c8	string	0x40db80	f:\dd\vctools\crt_bld\self_x86\crt\src\errmode.c
+0x40dc1f	0x4233a4	string	0x40db80	_set_error_mode
+0x40dc24	0x42342c	string	0x40db80	("Invalid error_mode", 0)
+0x40dc83	0x4234c4	string	0x40dc40	USER32.DLL
+0x40dc88	0x41c06c	import	0x40dc40	KERNEL32.dll.LoadLibraryW
+0x40dc9e	0x4234b8	string	0x40dc40	MessageBoxW
+0x40dca7	0x41c154	import	0x40dc40	KERNEL32.dll.GetProcAddress
+0x40dcc1	0x41c0ec	import	0x40dc40	KERNEL32.dll.EncodePointer
+0x40dccc	0x4234a8	string	0x40dc40	GetActiveWindow
+0x40dcd5	0x41c154	import	0x40dc40	KERNEL32.dll.GetProcAddress
+0x40dcdc	0x41c0ec	import	0x40dc40	KERNEL32.dll.EncodePointer
+0x40dce7	0x423494	string	0x40dc40	GetLastActivePopup
+0x40dcf0	0x41c154	import	0x40dc40	KERNEL32.dll.GetProcAddress
+0x40dcf7	0x41c0ec	import	0x40dc40	KERNEL32.dll.EncodePointer
+0x40dd02	0x423478	string	0x40dc40	GetUserObjectInformationW
+0x40dd0b	0x41c154	import	0x40dc40	KERNEL32.dll.GetProcAddress
+0x40dd18	0x41c0ec	import	0x40dc40	KERNEL32.dll.EncodePointer
+0x40dd2c	0x423460	string	0x40dc40	GetProcessWindowStation
+0x40dd35	0x41c154	import	0x40dc40	KERNEL32.dll.GetProcAddress
+0x40dd3c	0x41c0ec	import	0x40dc40	KERNEL32.dll.EncodePointer
+0x40dd63	0x41c150	import	0x40dc40	KERNEL32.dll.DecodePointer
+0x40dd73	0x41c150	import	0x40dc40	KERNEL32.dll.DecodePointer
+0x40dddf	0x41c150	import	0x40dc40	KERNEL32.dll.DecodePointer
+0x40de0b	0x41c150	import	0x40dc40	KERNEL32.dll.DecodePointer
+0x40de2a	0x41c150	import	0x40dc40	KERNEL32.dll.DecodePointer
+0x40de90	0x4235e8	string	0x40de60	((_Dst)) != NULL && ((_SizeInWords)) > 0
+0x40de99	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40dec3	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40dec8	0x42356c	string	0x40de60	wcscat_s
+0x40decd	0x4235e8	string	0x40de60	((_Dst)) != NULL && ((_SizeInWords)) > 0
+0x40df59	0x4232a8	string	0x40de60	(((_Src))) != NULL
+0x40df62	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40df8c	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40df91	0x42356c	string	0x40de60	wcscat_s
+0x40df96	0x4232a8	string	0x40de60	(((_Src))) != NULL
+0x40e040	0x423530	string	0x40de60	String is not null terminated
+0x40e069	0x4234e0	string	0x40de60	(L"String is not null terminated" && 0)
+0x40e072	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40e09c	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40e0a1	0x42356c	string	0x40de60	wcscat_s
+0x40e0a6	0x4234e0	string	0x40de60	(L"String is not null terminated" && 0)
+0x40e154	0x423280	string	0x40de60	Buffer is too small
+0x40e17d	0x423244	string	0x40de60	(L"Buffer is too small" && 0)
+0x40e186	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40e1b0	0x423580	string	0x40de60	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x40e1b5	0x42356c	string	0x40de60	wcscat_s
+0x40e1ba	0x423244	string	0x40de60	(L"Buffer is too small" && 0)
+0x40e299	0x4235e8	string	0x40e250	((_Dst)) != NULL && ((_SizeInWords)) > 0
+0x40e2a2	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e2cc	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e2d1	0x42363c	string	0x40e250	wcsncpy_s
+0x40e2d6	0x4235e8	string	0x40e250	((_Dst)) != NULL && ((_SizeInWords)) > 0
+0x40e3c7	0x4232a8	string	0x40e250	(((_Src))) != NULL
+0x40e3d0	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e3fa	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e3ff	0x42363c	string	0x40e250	wcsncpy_s
+0x40e404	0x4232a8	string	0x40e250	(((_Src))) != NULL
+0x40e475	0x423280	string	0x40e250	Buffer is too small
+0x40e47e	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e4ef	0x40e508	string	0x40e250	3ҋE\bf blocks=Basic Latin,Cyrillic
+0x40e561	0x423280	string	0x40e250	Buffer is too small
+0x40e58a	0x423244	string	0x40e250	(L"Buffer is too small" && 0)
+0x40e593	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e5bd	0x423650	string	0x40e250	f:\dd\vctools\crt_bld\self_x86\crt\src\tcsncpy_s.inl
+0x40e5c2	0x42363c	string	0x40e250	wcsncpy_s
+0x40e5c7	0x423244	string	0x40e250	(L"Buffer is too small" && 0)
+0x40e6c0	0x4235e8	string	0x40e690	((_Dst)) != NULL && ((_SizeInWords)) > 0
+0x40e6c9	0x4232e8	string	0x40e690	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40e6f3	0x4232e8	string	0x40e690	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40e6f8	0x4236bc	string	0x40e690	wcscpy_s
+0x40e6fd	0x4235e8	string	0x40e690	((_Dst)) != NULL && ((_SizeInWords)) > 0
+0x40e789	0x4232a8	string	0x40e690	(((_Src))) != NULL
+0x40e792	0x4232e8	string	0x40e690	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40e7bc	0x4232e8	string	0x40e690	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40e7c1	0x4236bc	string	0x40e690	wcscpy_s
+0x40e7c6	0x4232a8	string	0x40e690	(((_Src))) != NULL
+0x40e880	0x423280	string	0x40e690	Buffer is too small
+0x40e8a9	0x423244	string	0x40e690	(L"Buffer is too small" && 0)
+0x40e8b2	0x4232e8	string	0x40e690	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40e8dc	0x4232e8	string	0x40e690	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscpy_s.inl
+0x40e8e1	0x4236bc	string	0x40e690	wcscpy_s
+0x40e8e6	0x423244	string	0x40e690	(L"Buffer is too small" && 0)
+0x40ea73	0x41c148	import	0x40e980	KERNEL32.dll.InterlockedIncrement
+0x40ea88	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ea8d	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ea92	0x423c28	string	0x40e980	_itoa_s(nLine, szLineMessage, 4096, 10)
+0x40eaba	0x423bfc	string	0x40e980	Second Chance Assertion Failed: File
+0x40eabf	0x41c064	import	0x40e980	KERNEL32.dll.OutputDebugStringA
+0x40ead6	0x423bec	string	0x40e980	<file unknown>
+0x40eae7	0x41c064	import	0x40e980	KERNEL32.dll.OutputDebugStringA
+0x40eaed	0x423be4	string	0x40e980	, Line
+0x40eaf2	0x41c064	import	0x40e980	KERNEL32.dll.OutputDebugStringA
+0x40eaff	0x41c064	import	0x40e980	KERNEL32.dll.OutputDebugStringA
+0x40eb0a	0x41c064	import	0x40e980	KERNEL32.dll.OutputDebugStringA
+0x40eb87	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40eb8c	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40eb91	0x421204	string	0x40e980	(*_errno())
+0x40ebc7	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ebcc	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ebd1	0x423b48	string	0x40e980	strcpy_s(szUserMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+0x40ebd6	0x42232c	string	0x40e980	_CrtDbgReport: String too long or IO Error
+0x40ec04	0x423b30	string	0x40e980	Assertion failed:
+0x40ec10	0x423b1c	string	0x40e980	Assertion failed!
+0x40ec21	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ec26	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ec2b	0x423a70	string	0x40e980	strcpy_s(szLineMessage, 4096, szFormat ? "Assertion failed: " : "Assertion failed!")
+0x40ec5b	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ec60	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ec65	0x423a10	string	0x40e980	strcat_s(szLineMessage, 4096, szUserMessage)
+0x40ecaa	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ecaf	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ecb4	0x4239c8	string	0x40e980	strcat_s(szLineMessage, 4096, "\r")
+0x40ece2	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ece7	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ecec	0x423978	string	0x40e980	strcat_s(szLineMessage, 4096, "\n")
+0x40ed4e	0x423968	string	0x40e980	%s(%d) : %s
+0x40ed82	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ed87	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ed8c	0x421204	string	0x40e980	(*_errno())
+0x40edc2	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40edc7	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40edcc	0x422358	string	0x40e980	strcpy_s(szOutMessage, 4096, "_CrtDbgReport: String too long or IO Error")
+0x40edd1	0x42232c	string	0x40e980	_CrtDbgReport: String too long or IO Error
+0x40edfc	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ee01	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ee06	0x423910	string	0x40e980	strcpy_s(szOutMessage, 4096, szLineMessage)
+0x40ee74	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40ee79	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40ee7e	0x423880	string	0x40e980	e = mbstowcs_s(&ret, szOutMessage2, 4096, szOutMessage, ((size_t)-1))
+0x40eea6	0x4236d0	string	0x40e980	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40eeab	0x423c78	string	0x40e980	_VCrtDbgReportA
+0x40eeb0	0x4237b8	string	0x40e980	wcscpy_s(szOutMessage2, 4096, L"_CrtDbgReport: String too long or Invalid characters in String")
+0x40eeb5	0x423738	string	0x40e980	_CrtDbgReport: String too long or Invalid characters in String
+0x40f17a	0x41c14c	import	0x40f16f	KERNEL32.dll.InterlockedDecrement
+0x40f2a7	0x41c148	import	0x40f1b0	KERNEL32.dll.InterlockedIncrement
+0x40f2bc	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f2c1	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f2c6	0x424248	string	0x40f1b0	_itow_s(nLine, szLineMessage, 4096, 10)
+0x40f2ee	0x4241f8	string	0x40f1b0	Second Chance Assertion Failed: File
+0x40f2f3	0x41c05c	import	0x40f1b0	KERNEL32.dll.OutputDebugStringW
+0x40f30a	0x4241d8	string	0x40f1b0	<file unknown>
+0x40f31b	0x41c05c	import	0x40f1b0	KERNEL32.dll.OutputDebugStringW
+0x40f326	0x41c05c	import	0x40f1b0	KERNEL32.dll.OutputDebugStringW
+0x40f333	0x41c05c	import	0x40f1b0	KERNEL32.dll.OutputDebugStringW
+0x40f33e	0x41c05c	import	0x40f1b0	KERNEL32.dll.OutputDebugStringW
+0x40f3b1	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f3b6	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f3bb	0x421204	string	0x40f1b0	(*_errno())
+0x40f3f1	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f3f6	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f3fb	0x424128	string	0x40f1b0	wcscpy_s(szUserMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+0x40f400	0x422710	string	0x40f1b0	_CrtDbgReport: String too long or IO Error
+0x40f42e	0x4240fc	string	0x40f1b0	Assertion failed:
+0x40f43a	0x4240d8	string	0x40f1b0	Assertion failed!
+0x40f44b	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f450	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f455	0x424028	string	0x40f1b0	wcscpy_s(szLineMessage, 4096, szFormat ? L"Assertion failed: " : L"Assertion failed!")
+0x40f485	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f48a	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f48f	0x423fc8	string	0x40f1b0	wcscat_s(szLineMessage, 4096, szUserMessage)
+0x40f4d4	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f4d9	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f50c	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f511	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f516	0x423f28	string	0x40f1b0	wcscat_s(szLineMessage, 4096, L"\n")
+0x40f578	0x423f10	string	0x40f1b0	%s(%d) : %s
+0x40f5ac	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f5b1	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f5b6	0x421204	string	0x40f1b0	(*_errno())
+0x40f5ec	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f5f1	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f5f6	0x422768	string	0x40f1b0	wcscpy_s(szOutMessage, 4096, L"_CrtDbgReport: String too long or IO Error")
+0x40f5fb	0x422710	string	0x40f1b0	_CrtDbgReport: String too long or IO Error
+0x40f626	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f62b	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f630	0x423eb8	string	0x40f1b0	wcscpy_s(szOutMessage, 4096, szLineMessage)
+0x40f66a	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f66f	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f674	0x423e20	string	0x40f1b0	wcstombs_s(((void *)0), szOutMessage2, 4096, szOutMessage, ((size_t)-1))
+0x40f6bb	0x4236d0	string	0x40f1b0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgrptt.c
+0x40f6c0	0x424298	string	0x40f1b0	_VCrtDbgReportW
+0x40f6c5	0x423d60	string	0x40f1b0	strcpy_s(szOutMessage2, 4096, "_CrtDbgReport: String too long or Invalid characters in String")
+0x40f6ca	0x423d1c	string	0x40f1b0	_CrtDbgReport: String too long or Invalid characters in String
+0x40fab2	0x41c14c	import	0x40faa7	KERNEL32.dll.InterlockedDecrement
+0x40fb23	0x4234c4	string	0x40fae0	USER32.DLL
+0x40fb28	0x41c06c	import	0x40fae0	KERNEL32.dll.LoadLibraryW
+0x40fb3e	0x4242d4	string	0x40fae0	MessageBoxA
+0x40fb47	0x41c154	import	0x40fae0	KERNEL32.dll.GetProcAddress
+0x40fb61	0x41c0ec	import	0x40fae0	KERNEL32.dll.EncodePointer
+0x40fb6c	0x4234a8	string	0x40fae0	GetActiveWindow
+0x40fb75	0x41c154	import	0x40fae0	KERNEL32.dll.GetProcAddress
+0x40fb7c	0x41c0ec	import	0x40fae0	KERNEL32.dll.EncodePointer
+0x40fb87	0x423494	string	0x40fae0	GetLastActivePopup
+0x40fb90	0x41c154	import	0x40fae0	KERNEL32.dll.GetProcAddress
+0x40fb97	0x41c0ec	import	0x40fae0	KERNEL32.dll.EncodePointer
+0x40fba2	0x4242b8	string	0x40fae0	GetUserObjectInformationA
+0x40fbab	0x41c154	import	0x40fae0	KERNEL32.dll.GetProcAddress
+0x40fbb8	0x41c0ec	import	0x40fae0	KERNEL32.dll.EncodePointer
+0x40fbcc	0x423460	string	0x40fae0	GetProcessWindowStation
+0x40fbd5	0x41c154	import	0x40fae0	KERNEL32.dll.GetProcAddress
+0x40fbdc	0x41c0ec	import	0x40fae0	KERNEL32.dll.EncodePointer
+0x40fc03	0x41c150	import	0x40fae0	KERNEL32.dll.DecodePointer
+0x40fc13	0x41c150	import	0x40fae0	KERNEL32.dll.DecodePointer
+0x40fc7f	0x41c150	import	0x40fae0	KERNEL32.dll.DecodePointer
+0x40fcab	0x41c150	import	0x40fae0	KERNEL32.dll.DecodePointer
+0x40fcca	0x41c150	import	0x40fae0	KERNEL32.dll.DecodePointer
+0x40fd27	0x42439c	string	0x40fd00	dst != NULL
+0x40fd30	0x424338	string	0x40fd00	f:\dd\vctools\crt_bld\self_x86\crt\src\memcpy_s.c
+0x40fd5a	0x424338	string	0x40fd00	f:\dd\vctools\crt_bld\self_x86\crt\src\memcpy_s.c
+0x40fd5f	0x424324	string	0x40fd00	memcpy_s
+0x40fd64	0x42439c	string	0x40fd00	dst != NULL
+0x40fdb1	0x42430c	string	0x40fd00	src != NULL
+0x40fdba	0x424338	string	0x40fd00	f:\dd\vctools\crt_bld\self_x86\crt\src\memcpy_s.c
+0x40fde4	0x424338	string	0x40fd00	f:\dd\vctools\crt_bld\self_x86\crt\src\memcpy_s.c
+0x40fde9	0x424324	string	0x40fd00	memcpy_s
+0x40fdee	0x42430c	string	0x40fd00	src != NULL
+0x40fe12	0x4242e0	string	0x40fd00	sizeInBytes >= count
+0x40fe1b	0x424338	string	0x40fd00	f:\dd\vctools\crt_bld\self_x86\crt\src\memcpy_s.c
+0x40fe45	0x424338	string	0x40fd00	f:\dd\vctools\crt_bld\self_x86\crt\src\memcpy_s.c
+0x40fe4a	0x424324	string	0x40fd00	memcpy_s
+0x40fe4f	0x4242e0	string	0x40fd00	sizeInBytes >= count
+0x4101fb	0x41020a	string	0x410192	jjjjj
+0x410461	0x41c054	import	0x4103e0	KERNEL32.dll.MultiByteToWideChar
+0x4104e3	0x41c054	import	0x4103e0	KERNEL32.dll.MultiByteToWideChar
+0x41050b	0x41c058	import	0x4103e0	KERNEL32.dll.LCMapStringW
+0x41055f	0x41c058	import	0x4103e0	KERNEL32.dll.LCMapStringW
+0x4105e9	0x41c058	import	0x4103e0	KERNEL32.dll.LCMapStringW
+0x410613	0x41c164	import	0x4103e0	KERNEL32.dll.WideCharToMultiByte
+0x410642	0x41c164	import	0x4103e0	KERNEL32.dll.WideCharToMultiByte
+0x4106e1	0x424418	string	0x4106a0	("Corrupted pointer passed to _freea", 0)
+0x4106ed	0x4243b8	string	0x4106a0	f:\dd\vctools\crt_bld\self_x86\crt\src\malloc.h
+0x410801	0x41c054	import	0x4107c0	KERNEL32.dll.MultiByteToWideChar
+0x41088e	0x41c054	import	0x4107c0	KERNEL32.dll.MultiByteToWideChar
+0x4108ad	0x41c050	import	0x4107c0	KERNEL32.dll.GetStringTypeW
+0x4111ae	0x424d5c	string	0x4111a0	str != NULL
+0x4111b7	0x424cf8	string	0x4111a0	f:\dd\vctools\crt_bld\self_x86\crt\src\_flsbuf.c
+0x41132a	0x424c78	string	0x4111a0	("inconsistent IOB fields", stream->_ptr - stream->_base >= 0)
+0x411336	0x424cf8	string	0x4111a0	f:\dd\vctools\crt_bld\self_x86\crt\src\_flsbuf.c
+0x411507	0x425018	string	0x4114c0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411531	0x425018	string	0x4114c0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411536	0x4250c4	string	0x4114c0	_vsnprintf_helper
+0x411578	0x425080	string	0x4114c0	(count == 0) || (string != NULL)
+0x411581	0x425018	string	0x4114c0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x4115ab	0x425018	string	0x4114c0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x4115b0	0x4250c4	string	0x4114c0	_vsnprintf_helper
+0x4115b5	0x425080	string	0x4114c0	(count == 0) || (string != NULL)
+0x4116d1	0x425178	string	0x4116b0	format != NULL
+0x4116dd	0x425018	string	0x4116b0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x41170a	0x425018	string	0x4116b0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x41170f	0x42515c	string	0x4116b0	_vsprintf_s_l
+0x411714	0x425178	string	0x4116b0	format != NULL
+0x411751	0x425118	string	0x4116b0	string != NULL && sizeInBytes > 0
+0x41175d	0x425018	string	0x4116b0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x41178a	0x425018	string	0x4116b0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x41178f	0x42515c	string	0x4116b0	_vsprintf_s_l
+0x411794	0x425118	string	0x4116b0	string != NULL && sizeInBytes > 0
+0x41184e	0x4250e8	string	0x4116b0	("Buffer too small", 0)
+0x41185a	0x425018	string	0x4116b0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411887	0x425018	string	0x4116b0	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x41188c	0x42515c	string	0x4116b0	_vsprintf_s_l
+0x411891	0x4250e8	string	0x4116b0	("Buffer too small", 0)
+0x411948	0x425178	string	0x411920	format != NULL
+0x411954	0x425018	string	0x411920	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411981	0x425018	string	0x411920	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411986	0x425198	string	0x411920	_vsnprintf_s_l
+0x41198b	0x425178	string	0x411920	format != NULL
+0x4119e1	0x425118	string	0x411920	string != NULL && sizeInBytes > 0
+0x4119ed	0x425018	string	0x411920	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411a1a	0x425018	string	0x411920	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411a1f	0x425198	string	0x411920	_vsnprintf_s_l
+0x411a24	0x425118	string	0x411920	string != NULL && sizeInBytes > 0
+0x411be1	0x4250e8	string	0x411920	("Buffer too small", 0)
+0x411bed	0x425018	string	0x411920	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411c1a	0x425018	string	0x411920	f:\dd\vctools\crt_bld\self_x86\crt\src\vsprintf.c
+0x411c1f	0x425198	string	0x411920	_vsnprintf_s_l
+0x411c24	0x4250e8	string	0x411920	("Buffer too small", 0)
+0x411e8b	0x411e98	string	0x411e80	]_^[
+0x411fe6	0x411ff6	string	0x411fc0	3҃}\f blocks=Basic Latin,Cyrillic
+0x411fec	0x411ff6	string	0x411fc0	3҃}\f blocks=Basic Latin,Cyrillic
+0x412008	0x4252cc	string	0x411fc0	s != NULL
+0x412011	0x425268	string	0x411fc0	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x41203b	0x425268	string	0x411fc0	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x412045	0x4252cc	string	0x411fc0	s != NULL
+0x412108	0x41c054	import	0x411fc0	KERNEL32.dll.MultiByteToWideChar
+0x412130	0x41c0ac	import	0x411fc0	KERNEL32.dll.GetLastError
+0x412220	0x41c054	import	0x411fc0	KERNEL32.dll.MultiByteToWideChar
+0x4122bc	0x41c054	import	0x411fc0	KERNEL32.dll.MultiByteToWideChar
+0x412353	0x425358	string	0x412310	(pwcs == NULL && sizeInWords == 0) || (pwcs != NULL && sizeInWords > 0)
+0x41235f	0x425268	string	0x412310	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x41238c	0x425268	string	0x412310	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x412391	0x42533c	string	0x412310	_mbstowcs_s_l
+0x412396	0x425358	string	0x412310	(pwcs == NULL && sizeInWords == 0) || (pwcs != NULL && sizeInWords > 0)
+0x412455	0x425310	string	0x412310	bufferSize <= INT_MAX
+0x412461	0x425268	string	0x412310	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x41248e	0x425268	string	0x412310	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x412493	0x42533c	string	0x412310	_mbstowcs_s_l
+0x412498	0x425310	string	0x412310	bufferSize <= INT_MAX
+0x4125ec	0x4252e0	string	0x412310	retsize <= sizeInWords
+0x4125f8	0x425268	string	0x412310	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x412625	0x425268	string	0x412310	f:\dd\vctools\crt_bld\self_x86\crt\src\mbstowcs.c
+0x41262a	0x42533c	string	0x412310	_mbstowcs_s_l
+0x41262f	0x4252e0	string	0x412310	retsize <= sizeInWords
+0x4126f0	0x423350	string	0x4126c0	((_Dst)) != NULL && ((_SizeInBytes)) > 0
+0x4126f9	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x412723	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x412728	0x4253e8	string	0x4126c0	strcat_s
+0x41272d	0x423350	string	0x4126c0	((_Dst)) != NULL && ((_SizeInBytes)) > 0
+0x4127b5	0x4232a8	string	0x4126c0	(((_Src))) != NULL
+0x4127be	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x4127e8	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x4127ed	0x4253e8	string	0x4126c0	strcat_s
+0x4127f2	0x4232a8	string	0x4126c0	(((_Src))) != NULL
+0x412897	0x423530	string	0x4126c0	String is not null terminated
+0x4128c0	0x4234e0	string	0x4126c0	(L"String is not null terminated" && 0)
+0x4128c9	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x4128f3	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x4128f8	0x4253e8	string	0x4126c0	strcat_s
+0x4128fd	0x4234e0	string	0x4126c0	(L"String is not null terminated" && 0)
+0x4129a5	0x423280	string	0x4126c0	Buffer is too small
+0x4129ce	0x423244	string	0x4126c0	(L"Buffer is too small" && 0)
+0x4129d7	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x412a01	0x423580	string	0x4126c0	f:\dd\vctools\crt_bld\self_x86\crt\src\tcscat_s.inl
+0x412a06	0x4253e8	string	0x4126c0	strcat_s
+0x412a0b	0x423244	string	0x4126c0	(L"Buffer is too small" && 0)
+0x412b1a	0x425544	string	0x412b00	buf != NULL
+0x412b23	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412b4d	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412b52	0x4254d4	string	0x412b00	xtoa_s
+0x412b57	0x425544	string	0x412b00	buf != NULL
+0x412b7c	0x4254b0	string	0x412b00	sizeInTChars > 0
+0x412b85	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412baf	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412bb4	0x4254d4	string	0x412b00	xtoa_s
+0x412bb9	0x4254b0	string	0x412b00	sizeInTChars > 0
+0x412c3d	0x425460	string	0x412b00	sizeInTChars > (size_t)(is_neg ? 2 : 1)
+0x412c46	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412c70	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412c75	0x4254d4	string	0x412b00	xtoa_s
+0x412c7a	0x425460	string	0x412b00	sizeInTChars > (size_t)(is_neg ? 2 : 1)
+0x412cb9	0x425428	string	0x412b00	2 <= radix && radix <= 36
+0x412cc2	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412cec	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412cf1	0x4254d4	string	0x412b00	xtoa_s
+0x412cf6	0x425428	string	0x412b00	2 <= radix && radix <= 36
+0x412dc0	0x4253fc	string	0x412b00	length < sizeInTChars
+0x412dcc	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412df9	0x4254e8	string	0x412b00	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x412dfe	0x4254d4	string	0x412b00	xtoa_s
+0x412e03	0x4253fc	string	0x412b00	length < sizeInTChars
+0x412eb5	0x4255ec	string	0x412e70	pwcs != NULL
+0x412ebe	0x425588	string	0x412e70	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x412ee8	0x425588	string	0x412e70	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x412eed	0x42555c	string	0x412e70	_wcstombs_l_helper
+0x412ef2	0x4255ec	string	0x412e70	pwcs != NULL
+0x41301a	0x41c164	import	0x412e70	KERNEL32.dll.WideCharToMultiByte
+0x4130a7	0x41c164	import	0x412e70	KERNEL32.dll.WideCharToMultiByte
+0x4130db	0x41c0ac	import	0x412e70	KERNEL32.dll.GetLastError
+0x413145	0x41c164	import	0x412e70	KERNEL32.dll.WideCharToMultiByte
+0x4132ed	0x41c164	import	0x412e70	KERNEL32.dll.WideCharToMultiByte
+0x4133f3	0x425650	string	0x4133b0	(dst != NULL && sizeInBytes > 0) || (dst == NULL && sizeInBytes == 0)
+0x4133ff	0x425588	string	0x4133b0	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x41342c	0x425588	string	0x4133b0	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x413431	0x425634	string	0x4133b0	_wcstombs_s_l
+0x413436	0x425650	string	0x4133b0	(dst != NULL && sizeInBytes > 0) || (dst == NULL && sizeInBytes == 0)
+0x4134e5	0x425310	string	0x4133b0	bufferSize <= INT_MAX
+0x4134f1	0x425588	string	0x4133b0	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x41351e	0x425588	string	0x4133b0	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x413523	0x425634	string	0x4133b0	_wcstombs_s_l
+0x413528	0x425310	string	0x4133b0	bufferSize <= INT_MAX
+0x413653	0x425608	string	0x4133b0	sizeInBytes > retsize
+0x41365f	0x425588	string	0x4133b0	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x41368c	0x425588	string	0x4133b0	f:\dd\vctools\crt_bld\self_x86\crt\src\wcstombs.c
+0x413691	0x425634	string	0x4133b0	_wcstombs_s_l
+0x413696	0x425608	string	0x4133b0	sizeInBytes > retsize
+0x41375a	0x425700	string	0x413710	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x413787	0x425700	string	0x413710	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x41378c	0x4256dc	string	0x413710	_vswprintf_helper
+0x4137ce	0x425080	string	0x413710	(count == 0) || (string != NULL)
+0x4137da	0x425700	string	0x413710	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x413807	0x425700	string	0x413710	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x41380c	0x4256dc	string	0x413710	_vswprintf_helper
+0x413811	0x425080	string	0x413710	(count == 0) || (string != NULL)
+0x413998	0x425178	string	0x413970	format != NULL
+0x4139a4	0x425700	string	0x413970	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x4139d1	0x425700	string	0x413970	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x4139d6	0x4257ac	string	0x413970	_vsnwprintf_s_l
+0x4139db	0x425178	string	0x413970	format != NULL
+0x413a31	0x425768	string	0x413970	string != NULL && sizeInWords > 0
+0x413a3d	0x425700	string	0x413970	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x413a6a	0x425700	string	0x413970	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x413a6f	0x4257ac	string	0x413970	_vsnwprintf_s_l
+0x413a74	0x425768	string	0x413970	string != NULL && sizeInWords > 0
+0x413c3d	0x4250e8	string	0x413970	("Buffer too small", 0)
+0x413c49	0x425700	string	0x413970	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x413c76	0x425700	string	0x413970	f:\dd\vctools\crt_bld\self_x86\crt\src\vswprint.c
+0x413c7b	0x4257ac	string	0x413970	_vsnwprintf_s_l
+0x413c80	0x4250e8	string	0x413970	("Buffer too small", 0)
+0x413dca	0x425544	string	0x413db0	buf != NULL
+0x413dd3	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413dfd	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413e02	0x4257cc	string	0x413db0	xtow_s
+0x413e07	0x425544	string	0x413db0	buf != NULL
+0x413e2c	0x4254b0	string	0x413db0	sizeInTChars > 0
+0x413e35	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413e4e	0x413e80	string	0x413db0	3ҋE\ff blocks=Basic Latin,Cyrillic
+0x413e5f	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413e64	0x4257cc	string	0x413db0	xtow_s
+0x413e69	0x4254b0	string	0x413db0	sizeInTChars > 0
+0x413ef1	0x425460	string	0x413db0	sizeInTChars > (size_t)(is_neg ? 2 : 1)
+0x413efa	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413f24	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413f29	0x4257cc	string	0x413db0	xtow_s
+0x413f2e	0x425460	string	0x413db0	sizeInTChars > (size_t)(is_neg ? 2 : 1)
+0x413f6d	0x425428	string	0x413db0	2 <= radix && radix <= 36
+0x413f76	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413fa0	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x413fa5	0x4257cc	string	0x413db0	xtow_s
+0x413faa	0x425428	string	0x413db0	2 <= radix && radix <= 36
+0x41407d	0x4253fc	string	0x413db0	length < sizeInTChars
+0x414089	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x4140b6	0x4254e8	string	0x413db0	f:\dd\vctools\crt_bld\self_x86\crt\src\xtoa.c
+0x4140bb	0x4257cc	string	0x413db0	xtow_s
+0x4140c0	0x4253fc	string	0x413db0	length < sizeInTChars
+0x41442f	0x4257e0	string	0x414290	bad exception
+0x415704	0x425940	string	0x415670	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x41570d	0x4258d8	string	0x415670	f:\dd\vctools\crt_bld\self_x86\crt\src\lseeki64.c
+0x415742	0x4258d8	string	0x415670	f:\dd\vctools\crt_bld\self_x86\crt\src\lseeki64.c
+0x415747	0x4258c0	string	0x415670	_lseeki64
+0x41574c	0x425940	string	0x415670	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x41578d	0x425894	string	0x415670	(_osfile(fh) & FOPEN)
+0x415796	0x4258d8	string	0x415670	f:\dd\vctools\crt_bld\self_x86\crt\src\lseeki64.c
+0x4157cb	0x4258d8	string	0x415670	f:\dd\vctools\crt_bld\self_x86\crt\src\lseeki64.c
+0x4157d0	0x4258c0	string	0x415670	_lseeki64
+0x4157d5	0x425894	string	0x415670	(_osfile(fh) & FOPEN)
+0x415868	0x425800	string	0x415670	("Invalid file descriptor. File possibly closed by a different thread",0)
+0x415871	0x4258d8	string	0x415670	f:\dd\vctools\crt_bld\self_x86\crt\src\lseeki64.c
+0x4158f8	0x425800	string	0x4158c0	("Invalid file descriptor. File possibly closed by a different thread",0)
+0x415904	0x4258d8	string	0x4158c0	f:\dd\vctools\crt_bld\self_x86\crt\src\lseeki64.c
+0x415934	0x41c070	import	0x4158c0	KERNEL32.dll.SetFilePointer
+0x415943	0x41c0ac	import	0x4158c0	KERNEL32.dll.GetLastError
+0x415a33	0x425940	string	0x4159b0	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x415a3c	0x4259b0	string	0x4159b0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415a71	0x4259b0	string	0x4159b0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415a76	0x4259a0	string	0x4159b0	_write
+0x415a7b	0x425940	string	0x4159b0	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x415ab9	0x425894	string	0x4159b0	(_osfile(fh) & FOPEN)
+0x415ac2	0x4259b0	string	0x4159b0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415af7	0x4259b0	string	0x4159b0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415afc	0x4259a0	string	0x4159b0	_write
+0x415b01	0x425894	string	0x4159b0	(_osfile(fh) & FOPEN)
+0x415b83	0x425800	string	0x4159b0	("Invalid file descriptor. File possibly closed by a different thread",0)
+0x415b8c	0x4259b0	string	0x4159b0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415c18	0x415c21	string	0x415be0	3Ƀ}\f blocks=Basic Latin,Latin Extended-B
+0x415c33	0x425a88	string	0x415be0	(buf != NULL)
+0x415c3c	0x4259b0	string	0x415be0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415c71	0x4259b0	string	0x415be0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415c76	0x425a6c	string	0x415be0	_write_nolock
+0x415c7b	0x425a88	string	0x415be0	(buf != NULL)
+0x415cd5	0x425a48	string	0x415be0	((cnt & 1) == 0)
+0x415cde	0x4259b0	string	0x415be0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415d13	0x4259b0	string	0x415be0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x415d18	0x425a6c	string	0x415be0	_write_nolock
+0x415d1d	0x425a48	string	0x415be0	((cnt & 1) == 0)
+0x415dcf	0x41c098	import	0x415be0	KERNEL32.dll.GetConsoleMode
+0x415df4	0x41c094	import	0x415be0	KERNEL32.dll.GetConsoleCP
+0x415e86	0x425a10	string	0x415be0	isleadbyte(_dbcsBuffer(fh))
+0x415e92	0x4259b0	string	0x415be0	f:\dd\vctools\crt_bld\self_x86\crt\src\write.c
+0x416023	0x41c164	import	0x415be0	KERNEL32.dll.WideCharToMultiByte
+0x416061	0x41c0c4	import	0x415be0	KERNEL32.dll.WriteFile
+0x416086	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x4160cd	0x41c0c4	import	0x415be0	KERNEL32.dll.WriteFile
+0x4160f8	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x416140	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x41618d	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x4162dc	0x41c0c4	import	0x415be0	KERNEL32.dll.WriteFile
+0x416306	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x41642c	0x41c0c4	import	0x415be0	KERNEL32.dll.WriteFile
+0x416456	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x416570	0x41c164	import	0x415be0	KERNEL32.dll.WideCharToMultiByte
+0x416585	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x4165dd	0x41c0c4	import	0x415be0	KERNEL32.dll.WriteFile
+0x4165f8	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x41665c	0x41c0c4	import	0x415be0	KERNEL32.dll.WriteFile
+0x416675	0x41c0ac	import	0x415be0	KERNEL32.dll.GetLastError
+0x41672e	0x424d5c	string	0x416720	str != NULL
+0x416737	0x425ad8	string	0x416720	f:\dd\vctools\crt_bld\self_x86\crt\src\_getbuf.c
+0x416763	0x425aa4	string	0x416720	f:\dd\vctools\crt_bld\self_x86\crt\src\_getbuf.c
+0x41683d	0x425940	string	0x4167f0	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x416846	0x425b50	string	0x4167f0	f:\dd\vctools\crt_bld\self_x86\crt\src\isatty.c
+0x416870	0x425b50	string	0x4167f0	f:\dd\vctools\crt_bld\self_x86\crt\src\isatty.c
+0x416875	0x425b3c	string	0x4167f0	_isatty
+0x41687a	0x425940	string	0x4167f0	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x4168f3	0x425bb0	string	0x4168c2	f:\dd\vctools\crt_bld\self_x86\crt\src\_file.c
+0x416927	0x425bb0	string	0x4168c2	f:\dd\vctools\crt_bld\self_x86\crt\src\_file.c
+0x416a89	0x41c0c0	import	0x416a40	KERNEL32.dll.EnterCriticalSection
+0x416ad5	0x41c0c0	import	0x416aa0	KERNEL32.dll.EnterCriticalSection
+0x416b29	0x41c0bc	import	0x416ae0	KERNEL32.dll.LeaveCriticalSection
+0x416b75	0x41c0bc	import	0x416b40	KERNEL32.dll.LeaveCriticalSection
+0x416b98	0x424ff0	string	0x416b80	(stream != NULL)
+0x416ba1	0x425bf0	string	0x416b80	f:\dd\vctools\crt_bld\self_x86\crt\src\fileno.c
+0x416bcb	0x425bf0	string	0x416b80	f:\dd\vctools\crt_bld\self_x86\crt\src\fileno.c
+0x416bd0	0x425be0	string	0x416b80	_fileno
+0x416bd5	0x424ff0	string	0x416b80	(stream != NULL)
+0x416c6b	0x425ce8	string	0x416c20	sizeInBytes <= INT_MAX
+0x416c74	0x425c88	string	0x416c20	f:\dd\vctools\crt_bld\self_x86\crt\src\wctomb.c
+0x416c9e	0x425c88	string	0x416c20	f:\dd\vctools\crt_bld\self_x86\crt\src\wctomb.c
+0x416ca3	0x425c70	string	0x416c20	_wctomb_s_l
+0x416ca8	0x425ce8	string	0x416c20	sizeInBytes <= INT_MAX
+0x416d42	0x425c50	string	0x416c20	sizeInBytes > 0
+0x416d4b	0x425c88	string	0x416c20	f:\dd\vctools\crt_bld\self_x86\crt\src\wctomb.c
+0x416d75	0x425c88	string	0x416c20	f:\dd\vctools\crt_bld\self_x86\crt\src\wctomb.c
+0x416d7a	0x425c70	string	0x416c20	_wctomb_s_l
+0x416d7f	0x425c50	string	0x416c20	sizeInBytes > 0
+0x416e01	0x41c164	import	0x416c20	KERNEL32.dll.WideCharToMultiByte
+0x416e24	0x41c0ac	import	0x416c20	KERNEL32.dll.GetLastError
+0x416e71	0x4250e8	string	0x416c20	("Buffer too small", 0)
+0x416e7a	0x425c88	string	0x416c20	f:\dd\vctools\crt_bld\self_x86\crt\src\wctomb.c
+0x416ea4	0x425c88	string	0x416c20	f:\dd\vctools\crt_bld\self_x86\crt\src\wctomb.c
+0x416ea9	0x425c70	string	0x416c20	_wctomb_s_l
+0x416eae	0x4250e8	string	0x416c20	("Buffer too small", 0)
+0x417012	0x417022	string	0x416fc0	+D$\b\eT$\f
+0x417018	0x417022	string	0x416fc0	+D$\b\eT$\f
+0x4170bc	0x424ff0	string	0x417042	(stream != NULL)
+0x4170c8	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4170f8	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417102	0x424ff0	string	0x417042	(stream != NULL)
+0x417231	0x424e90	string	0x417042	( (_Stream->_flag & _IOSTRG) || ( fn = _fileno(_Stream), ( (_textmode_safe(fn) == __IOINFO_TM_ANSI) && !_tm_unicode_safe(fn))))
+0x41723d	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417259	0x4172a1	string	0x417042	3Ƀ}\f blocks=Basic Latin,Latin Extended-B
+0x41726d	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417277	0x424e90	string	0x417042	( (_Stream->_flag & _IOSTRG) || ( fn = _fileno(_Stream), ( (_textmode_safe(fn) == __IOINFO_TM_ANSI) && !_tm_unicode_safe(fn))))
+0x4172c5	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4172f5	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417425	0x425d78	string	0x417042	("Incorrect format specifier", 0)
+0x417431	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417461	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x41746b	0x425d78	string	0x417042	("Incorrect format specifier", 0)
+0x417527	0x424e6c	string	0x417042	(ch != _T('\0'))
+0x417533	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417563	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x41756d	0x424e6c	string	0x417042	(ch != _T('\0'))
+0x417b1d	0x424e20	string	0x417042	("'n' format specifier disabled", 0)
+0x417b29	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417b59	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417b63	0x424e20	string	0x417042	("'n' format specifier disabled", 0)
+0x417c3e	0x424dec	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x417cc7	0x41c150	import	0x417042	KERNEL32.dll.DecodePointer
+0x417cf6	0x41c150	import	0x417042	KERNEL32.dll.DecodePointer
+0x417d2c	0x41c150	import	0x417042	KERNEL32.dll.DecodePointer
+0x4182c8	0x425d18	string	0x417042	((state == ST_NORMAL) || (state == ST_TYPE))
+0x4182d4	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x418304	0x424f90	string	0x417042	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x41830e	0x425d18	string	0x417042	((state == ST_NORMAL) || (state == ST_TYPE))
+0x4187ac	0x424ff0	string	0x418732	(stream != NULL)
+0x4187b8	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4187e8	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4187ed	0x425e34	string	0x418732	_woutput_s_l
+0x4187f2	0x424ff0	string	0x418732	(stream != NULL)
+0x418840	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x418870	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x418875	0x425e34	string	0x418732	_woutput_s_l
+0x4189a2	0x425d78	string	0x418732	("Incorrect format specifier", 0)
+0x4189ae	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4189de	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4189e3	0x425e34	string	0x418732	_woutput_s_l
+0x4189e8	0x425d78	string	0x418732	("Incorrect format specifier", 0)
+0x418ff0	0x424e20	string	0x418732	("'n' format specifier disabled", 0)
+0x418ffc	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x41902c	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x419031	0x425e34	string	0x418732	_woutput_s_l
+0x419036	0x424e20	string	0x418732	("'n' format specifier disabled", 0)
+0x419112	0x424dec	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x41919b	0x41c150	import	0x418732	KERNEL32.dll.DecodePointer
+0x4191ca	0x41c150	import	0x418732	KERNEL32.dll.DecodePointer
+0x4191ff	0x41c150	import	0x418732	KERNEL32.dll.DecodePointer
+0x419797	0x425d18	string	0x418732	((state == ST_NORMAL) || (state == ST_TYPE))
+0x4197a3	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4197d3	0x424f90	string	0x418732	f:\dd\vctools\crt_bld\self_x86\crt\src\output.c
+0x4197d8	0x425e34	string	0x418732	_woutput_s_l
+0x4197dd	0x425d18	string	0x418732	((state == ST_NORMAL) || (state == ST_TYPE))
+0x419aec	0x425eb0	string	0x419a80	_loc_update.GetLocaleT()->locinfo->mb_cur_max == 1 || _loc_update.GetLocaleT()->locinfo->mb_cur_max == 2
+0x419af5	0x425e50	string	0x419a80	f:\dd\vctools\crt_bld\self_x86\crt\src\mbtowc.c
+0x419bbf	0x41c054	import	0x419a80	KERNEL32.dll.MultiByteToWideChar
+0x419c51	0x41c054	import	0x419a80	KERNEL32.dll.MultiByteToWideChar
+0x41a02c	0x41c09c	import	0x419fe0	KERNEL32.dll.RaiseException
+0x41a20f	0x425fd4	string	0x41a1f2	Unknown exception
+0x41a35b	0x420b98	string	0x41a2d0	_BLOCK_TYPE_IS_VALID(pHead->nBlockUse)
+0x41a364	0x425fe8	string	0x41a2d0	f:\dd\vctools\crt_bld\self_x86\crt\src\dbgdel.cpp
+0x41a7b6	0x41c0a0	import	0x41a730	KERNEL32.dll.SetStdHandle
+0x41a7c2	0x41c0a0	import	0x41a730	KERNEL32.dll.SetStdHandle
+0x41a7ce	0x41c0a0	import	0x41a730	KERNEL32.dll.SetStdHandle
+0x41a879	0x425940	string	0x41a820	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x41a885	0x426070	string	0x41a820	f:\dd\vctools\crt_bld\self_x86\crt\src\osfinfo.c
+0x41a8bd	0x426070	string	0x41a820	f:\dd\vctools\crt_bld\self_x86\crt\src\osfinfo.c
+0x41a8c2	0x42604c	string	0x41a820	_get_osfhandle
+0x41a8c7	0x425940	string	0x41a820	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x41a905	0x425894	string	0x41a820	(_osfile(fh) & FOPEN)
+0x41a911	0x426070	string	0x41a820	f:\dd\vctools\crt_bld\self_x86\crt\src\osfinfo.c
+0x41a949	0x426070	string	0x41a820	f:\dd\vctools\crt_bld\self_x86\crt\src\osfinfo.c
+0x41a94e	0x42604c	string	0x41a820	_get_osfhandle
+0x41a953	0x425894	string	0x41a820	(_osfile(fh) & FOPEN)
+0x41aa11	0x41c0f8	import	0x41a990	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x41aa6b	0x41c0c0	import	0x41aa3f	KERNEL32.dll.EnterCriticalSection
+0x41aab0	0x41c0bc	import	0x41aa90	KERNEL32.dll.LeaveCriticalSection
+0x41aaf7	0x41c060	import	0x41aac0	KERNEL32.dll.WriteConsoleW
+0x41abd8	0x41c0f0	import	0x41ab10	KERNEL32.dll.DeleteCriticalSection
+0x41af3e	0x424d5c	string	0x41af30	str != NULL
+0x41af47	0x424cf8	string	0x41af30	f:\dd\vctools\crt_bld\self_x86\crt\src\_flsbuf.c
+0x41b0c0	0x424c78	string	0x41af30	("inconsistent IOB fields", stream->_ptr - stream->_base >= 0)
+0x41b0cc	0x424cf8	string	0x41af30	f:\dd\vctools\crt_bld\self_x86\crt\src\_flsbuf.c
+0x41b2b4	0x426150	string	0x41b210	pNode->_Next != NULL
+0x41b2bd	0x4260d8	string	0x41b210	f:\dd\vctools\crt_bld\self_x86\crt\prebuild\eh\typname.cpp
+0x41b334	0x42617c	string	0x41b320	CONOUT$
+0x41b339	0x41c0a4	import	0x41b320	KERNEL32.dll.CreateFileW
+0x41b36d	0x41c0a8	import	0x41b352	KERNEL32.dll.CloseHandle
+0x41b3cb	0x424ff0	string	0x41b380	(stream != NULL)
+0x41b3d4	0x4261a0	string	0x41b380	f:\dd\vctools\crt_bld\self_x86\crt\src\fclose.c
+0x41b3fe	0x4261a0	string	0x41b380	f:\dd\vctools\crt_bld\self_x86\crt\src\fclose.c
+0x41b403	0x42618c	string	0x41b380	fclose
+0x41b408	0x424ff0	string	0x41b380	(stream != NULL)
+0x41b4b1	0x425f84	string	0x41b490	(str != NULL)
+0x41b4ba	0x4261a0	string	0x41b490	f:\dd\vctools\crt_bld\self_x86\crt\src\fclose.c
+0x41b4e4	0x4261a0	string	0x41b490	f:\dd\vctools\crt_bld\self_x86\crt\src\fclose.c
+0x41b4e9	0x426200	string	0x41b490	_fclose_nolock
+0x41b4ee	0x425f84	string	0x41b490	(str != NULL)
+0x41b608	0x4262c8	string	0x41b590	(filedes >= 0 && (unsigned)filedes < (unsigned)_nhandle)
+0x41b611	0x426268	string	0x41b590	f:\dd\vctools\crt_bld\self_x86\crt\src\commit.c
+0x41b63b	0x426268	string	0x41b590	f:\dd\vctools\crt_bld\self_x86\crt\src\commit.c
+0x41b640	0x426258	string	0x41b590	_commit
+0x41b645	0x4262c8	string	0x41b590	(filedes >= 0 && (unsigned)filedes < (unsigned)_nhandle)
+0x41b683	0x426220	string	0x41b590	(_osfile(filedes) & FOPEN)
+0x41b68c	0x426268	string	0x41b590	f:\dd\vctools\crt_bld\self_x86\crt\src\commit.c
+0x41b6b6	0x426268	string	0x41b590	f:\dd\vctools\crt_bld\self_x86\crt\src\commit.c
+0x41b6bb	0x426258	string	0x41b590	_commit
+0x41b6c0	0x426220	string	0x41b590	(_osfile(filedes) & FOPEN)
+0x41b715	0x41c100	import	0x41b590	KERNEL32.dll.FlushFileBuffers
+0x41b71f	0x41c0ac	import	0x41b590	KERNEL32.dll.GetLastError
+0x41b759	0x425800	string	0x41b590	("Invalid file descriptor. File possibly closed by a different thread",0)
+0x41b762	0x426268	string	0x41b590	f:\dd\vctools\crt_bld\self_x86\crt\src\commit.c
+0x41b8a3	0x425940	string	0x41b820	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x41b8ac	0x426a78	string	0x41b820	f:\dd\vctools\crt_bld\self_x86\crt\src\close.c
+0x41b8e1	0x426a78	string	0x41b820	f:\dd\vctools\crt_bld\self_x86\crt\src\close.c
+0x41b8eb	0x425940	string	0x41b820	(fh >= 0 && (unsigned)fh < (unsigned)_nhandle)
+0x41b929	0x425894	string	0x41b820	(_osfile(fh) & FOPEN)
+0x41b932	0x426a78	string	0x41b820	f:\dd\vctools\crt_bld\self_x86\crt\src\close.c
+0x41b967	0x426a78	string	0x41b820	f:\dd\vctools\crt_bld\self_x86\crt\src\close.c
+0x41b971	0x425894	string	0x41b820	(_osfile(fh) & FOPEN)
+0x41b9e0	0x425800	string	0x41b820	("Invalid file descriptor. File possibly closed by a different thread",0)
+0x41b9e9	0x426a78	string	0x41b820	f:\dd\vctools\crt_bld\self_x86\crt\src\close.c
+0x41ba9b	0x41c0a8	import	0x41ba30	KERNEL32.dll.CloseHandle
+0x41baae	0x41c0ac	import	0x41ba30	KERNEL32.dll.GetLastError
+0x41bb0b	0x426b3c	string	0x41bb00	stream != NULL
+0x41bb14	0x426ad8	string	0x41bb00	f:\dd\vctools\crt_bld\self_x86\crt\src\_freebuf.c
+0x41bbf0	0x41c068	import	0x41bbf0	KERNEL32.dll.RtlUnwind

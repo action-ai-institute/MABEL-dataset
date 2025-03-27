@@ -1,0 +1,668 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401012	0x40c174	import	0x401000	KERNEL32.dll.GetCommandLineW
+0x401019	0x40c238	import	0x401000	SHELL32.dll.CommandLineToArgvW
+0x401055	0x40c1d4	import	0x401000	KERNEL32.dll.lstrcmpiW
+0x401063	0x40c340	string	0x401000	/NOKILL
+0x40107d	0x40c350	string	0x401000	/NOMOUNT
+0x401097	0x40c364	string	0x401000	/NOEMPTY
+0x4010b1	0x40c378	string	0x401000	/LAN
+0x4010cb	0x40c384	string	0x401000	/NOLOCAL
+0x4010e5	0x40c398	string	0x401000	/NONETDRIVE
+0x4010ff	0x40c3b0	string	0x401000	/NOSTARTUP
+0x401119	0x40c3c8	string	0x401000	/AUTO
+0x401131	0x40c3d4	string	0x401000	/FULL
+0x40114e	0x40c3e0	string	0x401000	/FAST
+0x401165	0x40c3ec	string	0x401000	/PATH=
+0x40116d	0x40c240	import	0x401000	SHLWAPI.dll.StrStrIW
+0x401186	0x40c114	import	0x401000	KERNEL32.dll.HeapAlloc
+0x401194	0x40c1dc	import	0x401000	KERNEL32.dll.Sleep
+0x4011a7	0x40c114	import	0x401000	KERNEL32.dll.HeapAlloc
+0x4011b8	0x40c1d8	import	0x401000	KERNEL32.dll.lstrcpyW
+0x40148e	0x4014b2	string	0x4011e0	"\rtvA
+0x40150d	0x409b90	string	0x4014d0	SVWh
+0x406825	0x40c1c4	import	0x406820	KERNEL32.dll.DeleteCriticalSection
+0x406848	0x40c178	import	0x406840	KERNEL32.dll.LoadLibraryW
+0x40684f	0x40d334	string	0x406840	bcrypt.dll
+0x40685f	0x40c168	import	0x406840	KERNEL32.dll.GetProcAddress
+0x406865	0x40d34c	string	0x406840	BCryptOpenAlgorithmProvider
+0x40686d	0x40d368	string	0x406840	BCryptGenRandom
+0x406878	0x40d378	string	0x406840	BCryptCloseAlgorithmProvider
+0x4068a1	0x40d398	string	0x406840	Microsoft Primitive Provider
+0x4068d1	0x40c15c	import	0x406840	KERNEL32.dll.ExitProcess
+0x4068d7	0x40d3dc	string	0x406840	advapi32.dll
+0x4068e8	0x40c168	import	0x406840	KERNEL32.dll.GetProcAddress
+0x4068ee	0x40d3f8	string	0x406840	CryptAcquireContextW
+0x4068f6	0x40d410	string	0x406840	CryptGenRandom
+0x406900	0x40d420	string	0x406840	CryptReleaseContext
+0x40693d	0x40d434	string	0x406840	CryptoPP RNG
+0x406951	0x40d450	string	0x406840	CryptoPP RNG
+0x406970	0x40c15c	import	0x406840	KERNEL32.dll.ExitProcess
+0x40699b	0x40c048	import	0x406990	ADVAPI32.dll.AllocateAndInitializeSid
+0x406a39	0x40c04c	import	0x406990	ADVAPI32.dll.SetEntriesInAclW
+0x406a43	0x40c188	import	0x406990	KERNEL32.dll.GetLastError
+0x406a4a	0x40d4f8	string	0x406990	Locker.CFS -> Failed SetEntriesInAcl
+0x406a54	0x40c050	import	0x406990	ADVAPI32.dll.SetNamedSecurityInfoW
+0x406a8f	0x40c138	import	0x406990	KERNEL32.dll.GetCurrentProcess
+0x406a96	0x40c02c	import	0x406990	ADVAPI32.dll.OpenProcessToken
+0x406aa4	0x40d4c4	string	0x406990	SeTakeOwnershipPrivilege
+0x406aab	0x40c05c	import	0x406990	ADVAPI32.dll.LookupPrivilegeValueW
+0x406ade	0x40c060	import	0x406990	ADVAPI32.dll.AdjustTokenPrivileges
+0x406ae8	0x40c188	import	0x406990	KERNEL32.dll.GetLastError
+0x406af6	0x40c17c	import	0x406990	KERNEL32.dll.CloseHandle
+0x406b11	0x40d5e8	string	0x406990	Locker.CFS -> Could not set owner. Error: %u: %u
+0x406b32	0x40d660	string	0x406990	Locker.CFS -> Second SetNamedSecurityInfo call failed: %u
+0x406b42	0x40c054	import	0x406990	ADVAPI32.dll.FreeSid
+0x406b61	0x40c164	import	0x406990	KERNEL32.dll.LocalFree
+0x406b78	0x40c188	import	0x406b70	KERNEL32.dll.GetLastError
+0x406b81	0x40c114	import	0x406b70	KERNEL32.dll.HeapAlloc
+0x406b91	0x40c198	import	0x406b70	KERNEL32.dll.GetFileAttributesW
+0x406ba0	0x40c18c	import	0x406b70	KERNEL32.dll.SetFileAttributesW
+0x406bb6	0x40c19c	import	0x406b70	KERNEL32.dll.CreateFileW
+0x406bdf	0x40d868	string	0x406b70	FileSystem.TAF -> Cannot Access To File: %ls
+0x406bfc	0x40d8e0	string	0x406b70	FileSystem.TAF -> File Unlocked SuccessFullyy: %ls
+0x406c0c	0x40d6e0	string	0x406b70	FileSystem.TAF -> File Is Being Used By a Fucking Program: %ls
+0x406c46	0x40c218	import	0x406b70	RstrtMgr.DLL.RmStartSession
+0x406c61	0x40c220	import	0x406b70	RstrtMgr.DLL.RmRegisterResources
+0x406c80	0x40c224	import	0x406b70	RstrtMgr.DLL.RmGetList
+0x406cb2	0x40c1dc	import	0x406b70	KERNEL32.dll.Sleep
+0x406ce2	0x40c224	import	0x406b70	RstrtMgr.DLL.RmGetList
+0x406cf0	0x40c154	import	0x406b70	KERNEL32.dll.GetCurrentProcessId
+0x406d1a	0x40d47c	string	0x406b70	current proc
+0x406d54	0x40d498	string	0x406b70	explorer or critical
+0x406d70	0x40c114	import	0x406b70	KERNEL32.dll.HeapAlloc
+0x406d7f	0x40c110	import	0x406b70	KERNEL32.dll.HeapFree
+0x406d88	0x40c188	import	0x406b70	KERNEL32.dll.GetLastError
+0x406d91	0x40c21c	import	0x406b70	RstrtMgr.DLL.RmEndSession
+0x406d9e	0x40d760	string	0x406b70	FileSystem.TAF -> File Unlocked SuccessFully: %ls
+0x406db0	0x40d948	string	0x406b70	FileSystem.TAF -> Cannot Unlock: %ls
+0x406dca	0x40da00	string	0x406b70	FileSystem.TAF -> Cannot Access To File: %lu - %ls
+0x406dfc	0x40c17c	import	0x406b70	KERNEL32.dll.CloseHandle
+0x406ee8	0x40c114	import	0x406ec0	KERNEL32.dll.HeapAlloc
+0x406f08	0x40c1dc	import	0x406ec0	KERNEL32.dll.Sleep
+0x406f26	0x40c1d0	import	0x406ec0	KERNEL32.dll.EnterCriticalSection
+0x406f76	0x40c1cc	import	0x406ec0	KERNEL32.dll.LeaveCriticalSection
+0x406f8f	0x40c1d8	import	0x406ec0	KERNEL32.dll.lstrcpyW
+0x406f95	0x40c184	import	0x406ec0	KERNEL32.dll.lstrcatW
+0x406fa2	0x40da68	string	0x406ec0	.Vohuk
+0x406fb0	0x40c160	import	0x406ec0	KERNEL32.dll.MoveFileExW
+0x406fba	0x40c188	import	0x406ec0	KERNEL32.dll.GetLastError
+0x406fd3	0x40da78	string	0x406ec0	FileSystem.TAF -> Cannot Rename File: %ls - %lu
+0x406ff0	0x40c19c	import	0x406ec0	KERNEL32.dll.CreateFileW
+0x407011	0x40c148	import	0x406ec0	KERNEL32.dll.CreateIoCompletionPort
+0x40702c	0x40c114	import	0x406ec0	KERNEL32.dll.HeapAlloc
+0x40703a	0x40c1dc	import	0x406ec0	KERNEL32.dll.Sleep
+0x40704d	0x40c114	import	0x406ec0	KERNEL32.dll.HeapAlloc
+0x407136	0x40c1cc	import	0x406ec0	KERNEL32.dll.LeaveCriticalSection
+0x40714d	0x40c1bc	import	0x406ec0	KERNEL32.dll.GetFileSizeEx
+0x4071ca	0x40c248	import	0x406ec0	SHLWAPI.dll.PathFindExtensionW
+0x4071e7	0x40c1d4	import	0x406ec0	KERNEL32.dll.lstrcmpiW
+0x407367	0x40c188	import	0x406ec0	KERNEL32.dll.GetLastError
+0x40736f	0x40dad8	string	0x406ec0	FileSystem.TAF -> Cannot Open File: %ls - %lu
+0x407388	0x40c110	import	0x406ec0	KERNEL32.dll.HeapFree
+0x4073ad	0x40c114	import	0x4073a0	KERNEL32.dll.HeapAlloc
+0x4073e5	0x40c1dc	import	0x4073a0	KERNEL32.dll.Sleep
+0x40741d	0x40c1d8	import	0x4073a0	KERNEL32.dll.lstrcpyW
+0x407478	0x40c1d8	import	0x4073a0	KERNEL32.dll.lstrcpyW
+0x40747e	0x40d544	string	0x4073a0	\R3ADM3.txt
+0x407484	0x40c184	import	0x4073a0	KERNEL32.dll.lstrcatW
+0x40749d	0x40c19c	import	0x4073a0	KERNEL32.dll.CreateFileW
+0x4074ba	0x40c1a4	import	0x4073a0	KERNEL32.dll.lstrlenA
+0x4074ca	0x40c1ac	import	0x4073a0	KERNEL32.dll.WriteFile
+0x4074d1	0x40c17c	import	0x4073a0	KERNEL32.dll.CloseHandle
+0x4074e0	0x40c110	import	0x4073a0	KERNEL32.dll.HeapFree
+0x4074f3	0x40c184	import	0x4073a0	KERNEL32.dll.lstrcatW
+0x407509	0x40c1b8	import	0x4073a0	KERNEL32.dll.FindFirstFileExW
+0x407518	0x40c188	import	0x4073a0	KERNEL32.dll.GetLastError
+0x407556	0x40c1dc	import	0x4073a0	KERNEL32.dll.Sleep
+0x407577	0x40c1d4	import	0x4073a0	KERNEL32.dll.lstrcmpiW
+0x407604	0x40c1dc	import	0x4073a0	KERNEL32.dll.Sleep
+0x40762b	0x40c1d8	import	0x4073a0	KERNEL32.dll.lstrcpyW
+0x407637	0x40c184	import	0x4073a0	KERNEL32.dll.lstrcatW
+0x407677	0x40c248	import	0x4073a0	SHLWAPI.dll.PathFindExtensionW
+0x407697	0x40c1d4	import	0x4073a0	KERNEL32.dll.lstrcmpiW
+0x4076d6	0x40c1dc	import	0x4073a0	KERNEL32.dll.Sleep
+0x4076fa	0x40c1d8	import	0x4073a0	KERNEL32.dll.lstrcpyW
+0x407706	0x40c184	import	0x4073a0	KERNEL32.dll.lstrcatW
+0x40773e	0x40c190	import	0x4073a0	KERNEL32.dll.PostQueuedCompletionStatus
+0x407751	0x40db78	string	0x4073a0	FileSystem.TAF -> File Sent: %ls - %llu
+0x40776e	0x40c110	import	0x4073a0	KERNEL32.dll.HeapFree
+0x407774	0x40c1d4	import	0x4073a0	KERNEL32.dll.lstrcmpiW
+0x407784	0x40c1b0	import	0x4073a0	KERNEL32.dll.FindNextFileW
+0x407793	0x40c1a0	import	0x4073a0	KERNEL32.dll.FindClose
+0x4077b0	0x40c110	import	0x4073a0	KERNEL32.dll.HeapFree
+0x4077be	0x40c1dc	import	0x4073a0	KERNEL32.dll.Sleep
+0x4077ea	0x40c114	import	0x4077e0	KERNEL32.dll.HeapAlloc
+0x4077f2	0x40c1dc	import	0x4077e0	KERNEL32.dll.Sleep
+0x407810	0x40c1c0	import	0x4077e0	KERNEL32.dll.GetLogicalDrives
+0x40783f	0x40d64c	string	0x4077e0	\\?\%hc:\
+0x407845	0x40c268	import	0x4077e0	USER32.dll.wsprintfW
+0x407855	0x40c144	import	0x4077e0	KERNEL32.dll.GetDriveTypeW
+0x4078b4	0x40c1e8	import	0x4077e0	MPR.dll.WNetGetConnectionW
+0x4078d9	0x40c1dc	import	0x4077e0	KERNEL32.dll.Sleep
+0x4078f4	0x40d8c4	string	0x4077e0	\\?\UNC
+0x4078fa	0x40c1d8	import	0x4077e0	KERNEL32.dll.lstrcpyW
+0x407905	0x40c184	import	0x4077e0	KERNEL32.dll.lstrcatW
+0x407919	0x40c1d4	import	0x4077e0	KERNEL32.dll.lstrcmpiW
+0x40792b	0x40dc10	string	0x4077e0	FileSystem.TAV -> Found Network Share: %ls
+0x407952	0x40c1dc	import	0x4077e0	KERNEL32.dll.Sleep
+0x407978	0x40c1d8	import	0x4077e0	KERNEL32.dll.lstrcpyW
+0x407996	0x40c110	import	0x4077e0	KERNEL32.dll.HeapFree
+0x40799f	0x40c1dc	import	0x4077e0	KERNEL32.dll.Sleep
+0x4079ae	0x40c110	import	0x4077e0	KERNEL32.dll.HeapFree
+0x4079d8	0x40c044	import	0x4077e0	ADVAPI32.dll.RevertToSelf
+0x4079f6	0x40c058	import	0x4077e0	ADVAPI32.dll.SetThreadToken
+0x407a25	0x40c1c0	import	0x407a10	KERNEL32.dll.GetLogicalDrives
+0x407a2b	0x40c114	import	0x407a10	KERNEL32.dll.HeapAlloc
+0x407a36	0x40c1dc	import	0x407a10	KERNEL32.dll.Sleep
+0x407a5f	0x40d5d4	string	0x407a10	\\?\%hc:\
+0x407a65	0x40c268	import	0x407a10	USER32.dll.wsprintfW
+0x407a75	0x40c144	import	0x407a10	KERNEL32.dll.GetDriveTypeW
+0x407a9a	0x40dbc8	string	0x407a10	FileSystem.TAV -> Found Drive: %ls
+0x407aeb	0x40c1d8	import	0x407a10	KERNEL32.dll.lstrcpyW
+0x407b4d	0x40c1dc	import	0x407a10	KERNEL32.dll.Sleep
+0x407be1	0x40c170	import	0x407a10	KERNEL32.dll.CreateThread
+0x407bfb	0x40c058	import	0x407a10	ADVAPI32.dll.SetThreadToken
+0x407c05	0x40c194	import	0x407a10	KERNEL32.dll.ResumeThread
+0x407c29	0x40c1a8	import	0x407a10	KERNEL32.dll.WaitForMultipleObjects
+0x407c3d	0x40c17c	import	0x407a10	KERNEL32.dll.CloseHandle
+0x407c7b	0x40c1a8	import	0x407a10	KERNEL32.dll.WaitForMultipleObjects
+0x407c93	0x40c17c	import	0x407a10	KERNEL32.dll.CloseHandle
+0x407ca1	0x40c110	import	0x407a10	KERNEL32.dll.HeapFree
+0x407d02	0x40c1c0	import	0x407ce0	KERNEL32.dll.GetLogicalDrives
+0x407d08	0x40c114	import	0x407ce0	KERNEL32.dll.HeapAlloc
+0x407d13	0x40c1dc	import	0x407ce0	KERNEL32.dll.Sleep
+0x407d5c	0x40d6d4	string	0x407ce0	%hc:\
+0x407d62	0x40c268	import	0x407ce0	USER32.dll.wsprintfW
+0x407da1	0x40c1b4	import	0x407ce0	KERNEL32.dll.FindFirstVolumeW
+0x407e22	0x40c1dc	import	0x407ce0	KERNEL32.dll.Sleep
+0x407e48	0x40c150	import	0x407ce0	KERNEL32.dll.GetVolumePathNamesForVolumeNameW
+0x407e52	0x40c188	import	0x407ce0	KERNEL32.dll.GetLastError
+0x407e6c	0x40c110	import	0x407ce0	KERNEL32.dll.HeapFree
+0x407e92	0x40c144	import	0x407ce0	KERNEL32.dll.GetDriveTypeW
+0x407ec2	0x40c1dc	import	0x407ce0	KERNEL32.dll.Sleep
+0x407ee5	0x40c1d8	import	0x407ce0	KERNEL32.dll.lstrcpyW
+0x407eeb	0x40d46c	string	0x407ce0	bootmgr
+0x407ef1	0x40c184	import	0x407ce0	KERNEL32.dll.lstrcatW
+0x407f0a	0x40c19c	import	0x407ce0	KERNEL32.dll.CreateFileW
+0x407f16	0x40c17c	import	0x407ce0	KERNEL32.dll.CloseHandle
+0x407f25	0x40c110	import	0x407ce0	KERNEL32.dll.HeapFree
+0x407f3a	0x40c110	import	0x407ce0	KERNEL32.dll.HeapFree
+0x407f57	0x40c110	import	0x407ce0	KERNEL32.dll.HeapFree
+0x407f7c	0x40c16c	import	0x407ce0	KERNEL32.dll.SetVolumeMountPointW
+0x407f8e	0x40ddb0	string	0x407ce0	FileSystem.MHV -> SUCCESS: Mounted %ls as %ls
+0x407f9d	0x40c188	import	0x407ce0	KERNEL32.dll.GetLastError
+0x407fac	0x40de20	string	0x407ce0	FileSystem.MHV -> FAILED: Cannot Mount %ls as %ls - %u\nFileSystem.MHV -> Solution: Manually Mount Volume via diskmgmt.msc
+0x407fcc	0x40c110	import	0x407ce0	KERNEL32.dll.HeapFree
+0x407fe1	0x40c14c	import	0x407ce0	KERNEL32.dll.FindNextVolumeW
+0x407ff2	0x40c158	import	0x407ce0	KERNEL32.dll.FindVolumeClose
+0x407fff	0x40dc68	string	0x407ce0	FileSystem.MHV -> DANGER: Linked-List Is Empty But There is Volumes for Mounting
+0x40800c	0x40dd28	string	0x407ce0	FileSystem.MHV -> Solution: Manually Mount Volumes via diskmgmt.msc
+0x40801c	0x40c158	import	0x407ce0	KERNEL32.dll.FindVolumeClose
+0x40804b	0x40c10c	import	0x408030	KERNEL32.dll.HeapCreate
+0x408055	0x40c118	import	0x408030	KERNEL32.dll.GetProcessHeap
+0x408060	0x40d844	string	0x408030	Global\VohukMutex
+0x408069	0x40c0b4	import	0x408030	KERNEL32.dll.CreateMutexW
+0x408074	0x40c188	import	0x408030	KERNEL32.dll.GetLastError
+0x408095	0x40c230	import	0x408030	SHELL32.dll.SHGetFolderPathW
+0x40809b	0x40c184	import	0x408030	KERNEL32.dll.lstrcatW
+0x4080a5	0x40f0b0	string	0x408030	\Vohuk
+0x4080bc	0x40c140	import	0x408030	KERNEL32.dll.CreateDirectoryW
+0x4080c7	0x40c1c8	import	0x408030	KERNEL32.dll.InitializeCriticalSection
+0x4080dc	0x40c230	import	0x408030	SHELL32.dll.SHGetFolderPathW
+0x4080e6	0x40f0b0	string	0x408030	\Vohuk
+0x4080f4	0x40f924	string	0x408030	\LOG.txt
+0x40811b	0x40c19c	import	0x408030	KERNEL32.dll.CreateFileW
+0x40812d	0x40c104	import	0x408030	KERNEL32.dll.SetFilePointer
+0x408139	0x40fa6c	string	0x408030	[ VohukCrypter V1.51 ]\r\n
+0x40813e	0x40c134	import	0x408030	KERNEL32.dll.lstrlenW
+0x408147	0x40fa6c	string	0x408030	[ VohukCrypter V1.51 ]\r\n
+0x408152	0x40c1ac	import	0x408030	KERNEL32.dll.WriteFile
+0x40815d	0x40c1c8	import	0x408030	KERNEL32.dll.InitializeCriticalSection
+0x4081a6	0x40c17c	import	0x4081a0	KERNEL32.dll.CloseHandle
+0x408203	0x40c1d8	import	0x4081b0	KERNEL32.dll.lstrcpyW
+0x40823d	0x40c0d0	import	0x4081b0	KERNEL32.dll.CreateProcessW
+0x40824a	0x40c17c	import	0x4081b0	KERNEL32.dll.CloseHandle
+0x408289	0x40c204	import	0x408270	OLEAUT32.dll.SysReAllocString
+0x4082c2	0x40e34c	string	0x408270	SELECT * FROM Win32_ShadowCopy
+0x4082cb	0x40e38c	string	0x408270	__ProviderArchitecture
+0x4082d5	0x40e3bc	string	0x408270	ROOT\CIMV2
+0x4082e6	0x40c2dc	import	0x408270	ole32.dll.CoInitializeEx
+0x408306	0x40c2d8	import	0x408270	ole32.dll.CoInitializeSecurity
+0x408314	0x40c2e0	import	0x408270	ole32.dll.CoCreateInstance
+0x40833a	0x40c0c4	import	0x408270	KERNEL32.dll.GetNativeSystemInfo
+0x408367	0x40c20c	import	0x408270	OLEAUT32.dll.VariantClear
+0x408395	0x40c210	import	0x408270	OLEAUT32.dll.VariantCopy
+0x4083d9	0x40c2e4	import	0x408270	ole32.dll.CoSetProxyBlanket
+0x40840f	0x40c268	import	0x408270	USER32.dll.wsprintfW
+0x408431	0x40c20c	import	0x408270	OLEAUT32.dll.VariantClear
+0x40847d	0x40c210	import	0x408270	OLEAUT32.dll.VariantCopy
+0x4084cb	0x40c208	import	0x408270	OLEAUT32.dll.SysStringLen
+0x4084f3	0x40c2d4	import	0x408270	ole32.dll.CoUninitialize
+0x4084fe	0x40e418	string	0x408270	Helper.DSC -> SUCCESS: All Shadow Copies Deleted!
+0x408514	0x40e4a0	string	0x408270	Helper.DSC -> FAILED: Cannot Delete Shadow Copies! (WMI)
+0x408535	0x40c180	import	0x408270	KERNEL32.dll.Wow64DisableWow64FsRedirection
+0x40853b	0x40e270	string	0x408270	cmd.exe /c vssadmin.exe Delete Shadows /All /Quiet
+0x408551	0x40c0bc	import	0x408270	KERNEL32.dll.Wow64RevertWow64FsRedirection
+0x408557	0x40e2d8	string	0x408270	Helper.DSC_CMD -> Deleting Shadow Copies Added to Queue!
+0x408571	0x40e548	string	0x408570	cmd.exe /c for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
+0x40857d	0x40e5e8	string	0x408570	Helper.DEL -> SUCCESS: Deleting Event Logs Added To Queue!
+0x408584	0x40e660	string	0x408570	Helper.DEL -> FAILED: Cannot Delete Event Logs!
+0x4085a5	0x40c138	import	0x4085a0	KERNEL32.dll.GetCurrentProcess
+0x4085ac	0x40c13c	import	0x4085a0	KERNEL32.dll.SetPriorityClass
+0x4085b6	0x40c0b0	import	0x4085a0	KERNEL32.dll.SetProcessShutdownParameters
+0x4085e4	0x40c130	import	0x4085c0	KERNEL32.dll.GetModuleFileNameW
+0x4085f9	0x40c230	import	0x4085c0	SHELL32.dll.SHGetFolderPathW
+0x408603	0x40f0b0	string	0x4085c0	\Vohuk
+0x40860f	0x40c184	import	0x4085c0	KERNEL32.dll.lstrcatW
+0x408615	0x40db64	string	0x4085c0	\APP.exe
+0x408621	0x40c184	import	0x4085c0	KERNEL32.dll.lstrcatW
+0x408637	0x40c0d4	import	0x4085c0	KERNEL32.dll.CopyFileW
+0x408656	0x40e6c0	string	0x4085c0	SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+0x408660	0x40c024	import	0x4085c0	ADVAPI32.dll.RegCreateKeyExW
+0x408671	0x40c134	import	0x4085c0	KERNEL32.dll.lstrlenW
+0x40868a	0x40e3dc	string	0x4085c0	VohukTechnology
+0x408692	0x40c028	import	0x4085c0	ADVAPI32.dll.RegSetValueExW
+0x40869b	0x40c018	import	0x4085c0	ADVAPI32.dll.RegCloseKey
+0x4086d6	0x40c230	import	0x4086b0	SHELL32.dll.SHGetFolderPathW
+0x4086dc	0x40c184	import	0x4086b0	KERNEL32.dll.lstrcatW
+0x4086e6	0x40f0b0	string	0x4086b0	\Vohuk
+0x4086f4	0x40dd14	string	0x4086b0	\ICON.ico
+0x40871b	0x40c19c	import	0x4086b0	KERNEL32.dll.CreateFileW
+0x408739	0x40c1ac	import	0x4086b0	KERNEL32.dll.WriteFile
+0x408740	0x40c17c	import	0x4086b0	KERNEL32.dll.CloseHandle
+0x408759	0x40e740	string	0x4086b0	SOFTWARE\Classes\.Vohuk\DefaultIcon
+0x408763	0x40c024	import	0x4086b0	ADVAPI32.dll.RegCreateKeyExW
+0x408774	0x40c134	import	0x4086b0	KERNEL32.dll.lstrlenW
+0x408792	0x40c028	import	0x4086b0	ADVAPI32.dll.RegSetValueExW
+0x40879b	0x40c018	import	0x4086b0	ADVAPI32.dll.RegCloseKey
+0x4087ac	0x40c234	import	0x4086b0	SHELL32.dll.SHChangeNotify
+0x4087b4	0x40c260	import	0x4086b0	USER32.dll.GetDC
+0x4087c8	0x40c0a0	import	0x4086b0	GDI32.dll.CreateCompatibleDC
+0x4087db	0x40c088	import	0x4086b0	GDI32.dll.GetDeviceCaps
+0x408809	0x40e514	string	0x4086b0	Times New Roman
+0x40882f	0x40c090	import	0x4086b0	GDI32.dll.CreateFontW
+0x408842	0x40c094	import	0x4086b0	GDI32.dll.SelectObject
+0x408856	0x40e788	string	0x4086b0	Vohuk Ransomware\r\n\r\nAll your files are stolen and encrypted!\r\nPlease find R3ADM3.txt file\r\n and follow the instruction!
+0x40885c	0x40c268	import	0x4086b0	USER32.dll.wsprintfW
+0x408875	0x40c074	import	0x4086b0	GDI32.dll.GetTextExtentPoint32W
+0x408888	0x40c098	import	0x4086b0	GDI32.dll.CreateCompatibleBitmap
+0x40889b	0x40c094	import	0x4086b0	GDI32.dll.SelectObject
+0x4088af	0x40c078	import	0x4086b0	GDI32.dll.SetTextColor
+0x4088b8	0x40c07c	import	0x4086b0	GDI32.dll.SetBkMode
+0x4088c1	0x40c080	import	0x4086b0	GDI32.dll.SetBkColor
+0x4088f9	0x40c25c	import	0x4086b0	USER32.dll.DrawTextW
+0x40896b	0x40c114	import	0x4086b0	KERNEL32.dll.HeapAlloc
+0x408982	0x40c1dc	import	0x4086b0	KERNEL32.dll.Sleep
+0x408991	0x40c114	import	0x4086b0	KERNEL32.dll.HeapAlloc
+0x40899d	0x40c184	import	0x4086b0	KERNEL32.dll.lstrcatW
+0x4089b3	0x40c08c	import	0x4086b0	GDI32.dll.GetDIBits
+0x4089d0	0x40c230	import	0x4086b0	SHELL32.dll.SHGetFolderPathW
+0x4089da	0x40f0b0	string	0x4086b0	\Vohuk
+0x4089e8	0x40de0c	string	0x4086b0	\WALL.bmp
+0x408a0f	0x40c19c	import	0x4086b0	KERNEL32.dll.CreateFileW
+0x408a2d	0x40c1ac	import	0x4086b0	KERNEL32.dll.WriteFile
+0x408a40	0x40c1ac	import	0x4086b0	KERNEL32.dll.WriteFile
+0x408a51	0x40c1ac	import	0x4086b0	KERNEL32.dll.WriteFile
+0x408a58	0x40c17c	import	0x4086b0	KERNEL32.dll.CloseHandle
+0x408a73	0x40c034	import	0x4086b0	ADVAPI32.dll.RegOpenKeyExW
+0x408a82	0x40c134	import	0x4086b0	KERNEL32.dll.lstrlenW
+0x408a88	0x40c028	import	0x4086b0	ADVAPI32.dll.RegSetValueExW
+0x408a9f	0x40e878	string	0x4086b0	WallpaperStyle
+0x408aae	0x40c134	import	0x4086b0	KERNEL32.dll.lstrlenW
+0x408ac5	0x40e3fc	string	0x4086b0	TileWallpaper
+0x408ad2	0x40c018	import	0x4086b0	ADVAPI32.dll.RegCloseKey
+0x408ae5	0x40c258	import	0x4086b0	USER32.dll.SystemParametersInfoW
+0x408af4	0x40c110	import	0x4086b0	KERNEL32.dll.HeapFree
+0x408afd	0x40c084	import	0x4086b0	GDI32.dll.DeleteObject
+0x408b06	0x40c084	import	0x4086b0	GDI32.dll.DeleteObject
+0x408b0d	0x40c09c	import	0x4086b0	GDI32.dll.DeleteDC
+0x408b19	0x40c254	import	0x4086b0	USER32.dll.ReleaseDC
+0x408b3f	0x40e898	string	0x408b30	SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+0x408b49	0x40c034	import	0x408b30	ADVAPI32.dll.RegOpenKeyExW
+0x408b53	0x40e47c	string	0x408b30	Vohuk Ransomware
+0x408b58	0x40c134	import	0x408b30	KERNEL32.dll.lstrlenW
+0x408b66	0x40e47c	string	0x408b30	Vohuk Ransomware
+0x408b6f	0x40e9dc	string	0x408b30	LegalNoticeCaption
+0x408b77	0x40c028	import	0x408b30	ADVAPI32.dll.RegSetValueExW
+0x408b7d	0x40e910	string	0x408b30	\r\nAll your files are stolen and encrypted!\r\nPlease find R3ADM3.txt file\r\nand follow the instruction!
+0x408b82	0x40c134	import	0x408b30	KERNEL32.dll.lstrlenW
+0x408b90	0x40e910	string	0x408b30	\r\nAll your files are stolen and encrypted!\r\nPlease find R3ADM3.txt file\r\nand follow the instruction!
+0x408b99	0x40ea04	string	0x408b30	LegalNoticeText
+0x408ba1	0x40c028	import	0x408b30	ADVAPI32.dll.RegSetValueExW
+0x408baa	0x40c018	import	0x408b30	ADVAPI32.dll.RegCloseKey
+0x408be5	0x40c230	import	0x408bc0	SHELL32.dll.SHGetFolderPathW
+0x408bef	0x40f0b0	string	0x408bc0	\Vohuk
+0x408bfb	0x40c184	import	0x408bc0	KERNEL32.dll.lstrcatW
+0x408c01	0x40e534	string	0x408bc0	\APP.exe
+0x408c0d	0x40c184	import	0x408bc0	KERNEL32.dll.lstrcatW
+0x408c1a	0x40c0c0	import	0x408bc0	KERNEL32.dll.DeleteFileW
+0x408c35	0x40ea30	string	0x408bc0	SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+0x408c3f	0x40c024	import	0x408bc0	ADVAPI32.dll.RegCreateKeyExW
+0x408c49	0x40ea8c	string	0x408bc0	VohukTechnology
+0x408c51	0x40c038	import	0x408bc0	ADVAPI32.dll.RegDeleteValueW
+0x408c5a	0x40c018	import	0x408bc0	ADVAPI32.dll.RegCloseKey
+0x408c8a	0x40c180	import	0x408c70	KERNEL32.dll.Wow64DisableWow64FsRedirection
+0x408c90	0x40eaac	string	0x408c70	cmd.exe /c cipher.exe /w:a:
+0x408c9a	0x40eae4	string	0x408c70	cmd.exe /c cipher.exe /w:b:
+0x408ca4	0x40eb1c	string	0x408c70	cmd.exe /c cipher.exe /w:c:
+0x408cae	0x40eb54	string	0x408c70	cmd.exe /c cipher.exe /w:d:
+0x408cb8	0x40eb8c	string	0x408c70	cmd.exe /c cipher.exe /w:e:
+0x408cc2	0x40ebc4	string	0x408c70	cmd.exe /c cipher.exe /w:f:
+0x408ccc	0x40ebfc	string	0x408c70	cmd.exe /c cipher.exe /w:g:
+0x408cd6	0x40ec34	string	0x408c70	cmd.exe /c cipher.exe /w:h:
+0x408ce0	0x40ec6c	string	0x408c70	cmd.exe /c cipher.exe /w:i:
+0x408cea	0x40eca4	string	0x408c70	cmd.exe /c cipher.exe /w:j:
+0x408cf4	0x40ecdc	string	0x408c70	cmd.exe /c cipher.exe /w:k:
+0x408cfe	0x40ed14	string	0x408c70	cmd.exe /c cipher.exe /w:l:
+0x408d08	0x40ed4c	string	0x408c70	cmd.exe /c cipher.exe /w:m:
+0x408d12	0x40ed84	string	0x408c70	cmd.exe /c cipher.exe /w:n:
+0x408d1c	0x40edbc	string	0x408c70	cmd.exe /c cipher.exe /w:o:
+0x408d26	0x40edf4	string	0x408c70	cmd.exe /c cipher.exe /w:p:
+0x408d30	0x40ee2c	string	0x408c70	cmd.exe /c cipher.exe /w:q:
+0x408d3a	0x40ee64	string	0x408c70	cmd.exe /c cipher.exe /w:r:
+0x408d44	0x40ee9c	string	0x408c70	cmd.exe /c cipher.exe /w:s:
+0x408d4e	0x40eed4	string	0x408c70	cmd.exe /c cipher.exe /w:t:
+0x408d58	0x40ef0c	string	0x408c70	cmd.exe /c cipher.exe /w:u:
+0x408d62	0x40ef44	string	0x408c70	cmd.exe /c cipher.exe /w:v:
+0x408d6c	0x40ef7c	string	0x408c70	cmd.exe /c cipher.exe /w:w:
+0x408d76	0x40efb4	string	0x408c70	cmd.exe /c cipher.exe /w:x:
+0x408d80	0x40efec	string	0x408c70	cmd.exe /c cipher.exe /w:y:
+0x408d8a	0x40f024	string	0x408c70	cmd.exe /c cipher.exe /w:z:
+0x408da0	0x40c0bc	import	0x408c70	KERNEL32.dll.Wow64RevertWow64FsRedirection
+0x408dc0	0x40c22c	import	0x408db0	SHELL32.dll.SHEmptyRecycleBinW
+0x408dca	0x40f068	string	0x408db0	Helper.ERB -> Recycle Bin Emptied!
+0x408df0	0x40c2c8	import	0x408de0	ntdll.dll.RtlGetVersion
+0x408e72	0x40c15c	import	0x408e70	KERNEL32.dll.ExitProcess
+0x408e9f	0x40c1f4	import	0x408e80	NETAPI32.dll.NetGetDCName
+0x408eb8	0x40c0cc	import	0x408e80	KERNEL32.dll.GetComputerNameW
+0x408ecc	0x40c1d4	import	0x408e80	KERNEL32.dll.lstrcmpiW
+0x408ee0	0x40c138	import	0x408e80	KERNEL32.dll.GetCurrentProcess
+0x408ee7	0x40c02c	import	0x408e80	ADVAPI32.dll.OpenProcessToken
+0x408f02	0x40c040	import	0x408e80	ADVAPI32.dll.GetTokenInformation
+0x408f16	0x40c114	import	0x408e80	KERNEL32.dll.HeapAlloc
+0x408f35	0x40c1dc	import	0x408e80	KERNEL32.dll.Sleep
+0x408f5c	0x40c040	import	0x408e80	ADVAPI32.dll.GetTokenInformation
+0x408f82	0x40c1dc	import	0x408e80	KERNEL32.dll.Sleep
+0x408fa4	0x40c01c	import	0x408e80	ADVAPI32.dll.GetWindowsAccountDomainSid
+0x408fbb	0x40c020	import	0x408e80	ADVAPI32.dll.CreateWellKnownSid
+0x408fe5	0x40c1dc	import	0x408e80	KERNEL32.dll.Sleep
+0x40900d	0x40c020	import	0x408e80	ADVAPI32.dll.CreateWellKnownSid
+0x409021	0x40c030	import	0x408e80	ADVAPI32.dll.CheckTokenMembership
+0x409028	0x40c110	import	0x408e80	KERNEL32.dll.HeapFree
+0x40903a	0x40c110	import	0x408e80	KERNEL32.dll.HeapFree
+0x409054	0x40c110	import	0x408e80	KERNEL32.dll.HeapFree
+0x409060	0x40c17c	import	0x408e80	KERNEL32.dll.CloseHandle
+0x409069	0x40c1f8	import	0x408e80	NETAPI32.dll.NetApiBufferFree
+0x4090af	0x40c0dc	import	0x409080	KERNEL32.dll.GetSystemInfo
+0x4090d1	0x40c138	import	0x409080	KERNEL32.dll.GetCurrentProcess
+0x4090df	0x40c0e4	import	0x409080	KERNEL32.dll.IsWow64Process
+0x4090f0	0x40c0e0	import	0x409080	KERNEL32.dll.GlobalMemoryStatusEx
+0x409157	0x40c0c8	import	0x409080	KERNEL32.dll.VerSetConditionMask
+0x40916b	0x40c0d8	import	0x409080	KERNEL32.dll.VerifyVersionInfoW
+0x40918a	0x40c02c	import	0x409080	ADVAPI32.dll.OpenProcessToken
+0x4091a3	0x40c040	import	0x409080	ADVAPI32.dll.GetTokenInformation
+0x4091ac	0x40c17c	import	0x409080	KERNEL32.dll.CloseHandle
+0x4091ba	0x40c154	import	0x409080	KERNEL32.dll.GetCurrentProcessId
+0x4091d8	0x40c1fc	import	0x409080	NETAPI32.dll.NetGetJoinInformation
+0x4091ec	0x40c1f8	import	0x409080	NETAPI32.dll.NetApiBufferFree
+0x409219	0x40c0cc	import	0x409080	KERNEL32.dll.GetComputerNameW
+0x409239	0x40c03c	import	0x409080	ADVAPI32.dll.GetUserNameW
+0x409247	0x40c114	import	0x409080	KERNEL32.dll.HeapAlloc
+0x40925c	0x40c1dc	import	0x409080	KERNEL32.dll.Sleep
+0x4092ac	0x40c264	import	0x409080	USER32.dll.wsprintfA
+0x4092c9	0x40f0c0	string	0x409080	%02X
+0x4092e3	0x40f0c8	string	0x409080	Decfile@cyberfear.com
+0x4092e8	0x40f0e0	string	0x409080	DecFile@tutanota.com
+0x4092ed	0x40f0f8	string	0x409080	[~] Vohuk Ransomware V1.51\r\n\r\n>>> What's happened?\r\n\tALL YOUR FILES ARE STOLEN AND ENCRYPTED.\r\n\tTo recovery your data and not to allow data leakage, it is possible only through purchase of a private key from us.\r\n\r\n>>> What guarantees?\r\n\tBefore paying you can send us up to 2 files for free decryption.\r\n\tThe total size of files must be less than 2MB(non archived).\r\n\tfiles should not contain valuable information. (databases, backups, large excel sheets, etc.)\r\n\r\n>>> CONTACT US:\r\n\tPlease write an email to both: %s & %s\r\n\tWrite this Unique-ID in the title of your message: %s\r\n\r\n>>> ATTENTION!\r\n\tDo not rename or modify encrypted files.\r\n\tDo not try to decrypt using third party software, it may cause permanent data loss.\r\n\tDecryption of your files with the help of third parties may cause increased price(they add their fee to our).\r\n\tWe use strong encryption, nobody can restore your files except us.\r\n\tThe price depends on how fast you contact with us.\r\n\tremember to hurry up, as your email address may not be available for very long.\r\n\tAll your stolen data will be loaded into cybercriminal forums/blogs if you do not pay ransom.\r\n\tIf you do not pay the ransom we will attack your company repeatedly again.
+0x4092fd	0x40c244	import	0x409080	SHLWAPI.dll.wnsprintfA
+0x409347	0x40c2c4	import	0x409320	ntdll.dll.NtQuerySystemInformation
+0x409350	0x40c114	import	0x409320	KERNEL32.dll.HeapAlloc
+0x40936b	0x40c1dc	import	0x409320	KERNEL32.dll.Sleep
+0x40938f	0x40c2c4	import	0x409320	ntdll.dll.NtQuerySystemInformation
+0x4093b9	0x40c240	import	0x409320	SHLWAPI.dll.StrStrIW
+0x4093e9	0x40c110	import	0x409320	KERNEL32.dll.HeapFree
+0x40943b	0x40c0ec	import	0x409430	KERNEL32.dll.GetTickCount
+0x409460	0x40c000	import	0x409430	ADVAPI32.dll.OpenSCManagerW
+0x40947c	0x40c010	import	0x409430	ADVAPI32.dll.OpenServiceW
+0x40949a	0x40c014	import	0x409430	ADVAPI32.dll.QueryServiceStatusEx
+0x4094a8	0x40c1dc	import	0x409430	KERNEL32.dll.Sleep
+0x4094fa	0x40c014	import	0x409430	ADVAPI32.dll.QueryServiceStatusEx
+0x409540	0x40c00c	import	0x409430	ADVAPI32.dll.EnumDependentServicesW
+0x40954e	0x40c188	import	0x409430	KERNEL32.dll.GetLastError
+0x40956e	0x40c114	import	0x409430	KERNEL32.dll.HeapAlloc
+0x40958d	0x40c114	import	0x409430	KERNEL32.dll.HeapAlloc
+0x4095b0	0x40c00c	import	0x409430	ADVAPI32.dll.EnumDependentServicesW
+0x4095ea	0x40c010	import	0x409430	ADVAPI32.dll.OpenServiceW
+0x409601	0x40c008	import	0x409430	ADVAPI32.dll.ControlService
+0x409639	0x40c1dc	import	0x409430	KERNEL32.dll.Sleep
+0x40964c	0x40c014	import	0x409430	ADVAPI32.dll.QueryServiceStatusEx
+0x40965c	0x40c0ec	import	0x409430	KERNEL32.dll.GetTickCount
+0x409677	0x40c06c	import	0x409430	ADVAPI32.dll.CloseServiceHandle
+0x409693	0x40c1dc	import	0x409430	KERNEL32.dll.Sleep
+0x4096a4	0x40c110	import	0x409430	KERNEL32.dll.HeapFree
+0x4096aa	0x40c0ec	import	0x409430	KERNEL32.dll.GetTickCount
+0x4096b9	0x40c008	import	0x409430	ADVAPI32.dll.ControlService
+0x4096cc	0x40c004	import	0x409430	ADVAPI32.dll.DeleteService
+0x4096d9	0x40f828	string	0x409430	Kill.Service -> Service Killed: %ls
+0x4096e3	0x40f870	string	0x409430	Kill.Service -> Cannot Kill: %ls
+0x4096f5	0x40f8e0	string	0x409430	Kill.Service -> Cannot Kill: %ls
+0x409703	0x40c06c	import	0x409430	ADVAPI32.dll.CloseServiceHandle
+0x409714	0x40c110	import	0x409430	KERNEL32.dll.HeapFree
+0x40971f	0x40c004	import	0x409430	ADVAPI32.dll.DeleteService
+0x409743	0x40c06c	import	0x409430	ADVAPI32.dll.CloseServiceHandle
+0x40974a	0x40c06c	import	0x409430	ADVAPI32.dll.CloseServiceHandle
+0x409775	0x40c0e8	import	0x409760	KERNEL32.dll.OpenProcess
+0x409789	0x40c2cc	import	0x409760	ntdll.dll.NtTerminateProcess
+0x409795	0x40f938	string	0x409760	Kill.Process -> Process Killed: %u (%s)
+0x4097a7	0x40c17c	import	0x409760	KERNEL32.dll.CloseHandle
+0x4097bb	0x409811	string	0x409760	PWVh
+0x4097c5	0x40c0b8	import	0x409760	KERNEL32.dll.WaitForSingleObject
+0x4097d1	0x40f988	string	0x409760	Kill.Process -> Process Killed: %u (%s)
+0x4097e3	0x40c17c	import	0x409760	KERNEL32.dll.CloseHandle
+0x4097f2	0x40f9d8	string	0x409760	Kill.Process -> Cannot Kill Process: %u (%s) - Time-Out Interval Elapsed
+0x409802	0x40c17c	import	0x409760	KERNEL32.dll.CloseHandle
+0x409814	0x40faa0	string	0x409760	Kill.Process -> Cannot Kill Process: %u (%s) - %ld
+0x409824	0x40c17c	import	0x409760	KERNEL32.dll.CloseHandle
+0x409833	0x40c188	import	0x409760	KERNEL32.dll.GetLastError
+0x40983c	0x40fb08	string	0x409760	Kill.Process -> Cannot Open Process: %u (%s) - %lu
+0x40986e	0x40c0fc	import	0x409860	KERNEL32.dll.GetCurrentThread
+0x409875	0x40c0f4	import	0x409860	KERNEL32.dll.SetThreadPriority
+0x40987b	0x40c188	import	0x409860	KERNEL32.dll.GetLastError
+0x409881	0x40c110	import	0x409860	KERNEL32.dll.HeapFree
+0x409887	0x40c190	import	0x409860	KERNEL32.dll.PostQueuedCompletionStatus
+0x4098af	0x40c0f8	import	0x409860	KERNEL32.dll.GetQueuedCompletionStatus
+0x409910	0x40c0f0	import	0x409860	KERNEL32.dll.ReadFile
+0x409958	0x40fbc8	string	0x409860	IOCP.IO -> Cannot Read From: %llu
+0x4099eb	0x40c1ac	import	0x409860	KERNEL32.dll.WriteFile
+0x4099f1	0x40c190	import	0x409860	KERNEL32.dll.PostQueuedCompletionStatus
+0x409a10	0x40fc18	string	0x409860	IOCP.IO -> Cannot Write To: %llu
+0x409a5e	0x40c1ac	import	0x409860	KERNEL32.dll.WriteFile
+0x409a7d	0x40fc70	string	0x409860	IOCP.IO -> Cannot Write Footer To: %llu
+0x409a96	0x40fcc0	string	0x409860	IOCP.Encryption -> File Encrypted: %llu
+0x409ab6	0x40c17c	import	0x409860	KERNEL32.dll.CloseHandle
+0x409b19	0x40fd10	string	0x409860	Queue.IOCP -> Failed I/O Operation -> ID: %llu - ERR: %lu
+0x409b30	0x40c17c	import	0x409860	KERNEL32.dll.CloseHandle
+0x409b69	0x40fd98	string	0x409860	Queue.IOCP -> Dequeue Undefined ERR: %u
+0x409b93	0x40fde8	string	0x409b90	Locker.MT -> enc start
+0x409bac	0x40c148	import	0x409b90	KERNEL32.dll.CreateIoCompletionPort
+0x409bd8	0x40c114	import	0x409b90	KERNEL32.dll.HeapAlloc
+0x409bde	0x40c1dc	import	0x409b90	KERNEL32.dll.Sleep
+0x409bfd	0x40c114	import	0x409b90	KERNEL32.dll.HeapAlloc
+0x409c23	0x40c170	import	0x409b90	KERNEL32.dll.CreateThread
+0x409c37	0x40fe18	string	0x409b90	Locker.MT -> %u I/O Workers Created
+0x409c4d	0x40c1c8	import	0x409b90	KERNEL32.dll.InitializeCriticalSection
+0x409c6f	0x40fe60	string	0x409b90	Locker.MT -> Waiting For I/O Workers
+0x409c9f	0x40c100	import	0x409b90	KERNEL32.dll.TerminateThread
+0x409cbc	0x40c1a8	import	0x409b90	KERNEL32.dll.WaitForMultipleObjects
+0x409cc2	0x40c17c	import	0x409b90	KERNEL32.dll.CloseHandle
+0x409ce9	0x40c110	import	0x409b90	KERNEL32.dll.HeapFree
+0x409cf8	0x40c1c4	import	0x409b90	KERNEL32.dll.DeleteCriticalSection
+0x409d08	0x40f8b4	string	0x409b90	Locker.MT -> enc stop
+0x409d20	0x40feac	string	0x409d20	The End :L
+0x409d32	0x40c1c4	import	0x409d20	KERNEL32.dll.DeleteCriticalSection
+0x409d3e	0x40c17c	import	0x409d20	KERNEL32.dll.CloseHandle
+0x409d5c	0x40c114	import	0x409d50	KERNEL32.dll.HeapAlloc
+0x409d77	0x40c1dc	import	0x409d50	KERNEL32.dll.Sleep
+0x409da6	0x40c24c	import	0x409d50	SHLWAPI.dll.wvnsprintfW
+0x409dba	0x40c108	import	0x409d50	KERNEL32.dll.GetLocalTime
+0x409de4	0x40fecc	string	0x409d50	[%hu-%hu-%hu %hu:%hu:%hu]
+0x409dea	0x40c268	import	0x409d50	USER32.dll.wsprintfW
+0x409dfa	0x40c1d0	import	0x409d50	KERNEL32.dll.EnterCriticalSection
+0x409e09	0x40c1ac	import	0x409d50	KERNEL32.dll.WriteFile
+0x409e4c	0x40c1cc	import	0x409d50	KERNEL32.dll.LeaveCriticalSection
+0x409e5b	0x40c110	import	0x409d50	KERNEL32.dll.HeapFree
+0x409e79	0x40c110	import	0x409e70	KERNEL32.dll.HeapFree
+0x409e89	0x40c114	import	0x409e80	KERNEL32.dll.HeapAlloc
+0x409ea6	0x40c1dc	import	0x409e80	KERNEL32.dll.Sleep
+0x409edf	0x409ef7	string	0x409e80	h@wA
+0x409ef1	0x40c288	import	0x409e80	WS2_32.dll.WSAAddressToStringW
+0x409efc	0x40c1d0	import	0x409e80	KERNEL32.dll.EnterCriticalSection
+0x409f1d	0x40c1cc	import	0x409e80	KERNEL32.dll.LeaveCriticalSection
+0x409f38	0x40c1cc	import	0x409f30	KERNEL32.dll.LeaveCriticalSection
+0x409f45	0x40c1d0	import	0x409f30	KERNEL32.dll.EnterCriticalSection
+0x409f91	0x40c110	import	0x409f30	KERNEL32.dll.HeapFree
+0x409f99	0x40c1dc	import	0x409f30	KERNEL32.dll.Sleep
+0x409fb4	0x40c128	import	0x409f30	KERNEL32.dll.ExitThread
+0x409fd7	0x40c284	import	0x409fd0	WS2_32.dll.getsockopt
+0x409fdf	0x40c278	import	0x409fd0	WS2_32.dll.setsockopt
+0x409ff9	0x40c0f8	import	0x409fd0	KERNEL32.dll.GetQueuedCompletionStatus
+0x40a081	0x40c124	import	0x409fd0	KERNEL32.dll.DeleteTimerQueueEx
+0x40a093	0x40c11c	import	0x409fd0	KERNEL32.dll.CancelIo
+0x40a099	0x40c29c	import	0x409fd0	WS2_32.dll.shutdown
+0x40a0c7	0x40c2a4	import	0x409fd0	WS2_32.dll.closesocket
+0x40a0e5	0x40c110	import	0x409fd0	KERNEL32.dll.HeapFree
+0x40a11c	0x40c190	import	0x409fd0	KERNEL32.dll.PostQueuedCompletionStatus
+0x40a148	0x40c294	import	0x40a130	WS2_32.dll.WSAStartup
+0x40a153	0x40c1c8	import	0x40a130	KERNEL32.dll.InitializeCriticalSection
+0x40a187	0x40c28c	import	0x40a130	WS2_32.dll.socket
+0x40a1cb	0x40c2ac	import	0x40a130	WS2_32.dll.WSAIoctl
+0x40a1d6	0x40c2a4	import	0x40a130	WS2_32.dll.closesocket
+0x40a1dc	0x40c12c	import	0x40a130	KERNEL32.dll.CreateTimerQueue
+0x40a1ef	0x40c148	import	0x40a130	KERNEL32.dll.CreateIoCompletionPort
+0x40a1f5	0x40c0a8	import	0x40a130	IPHLPAPI.DLL.GetAdaptersInfo
+0x40a208	0x40c114	import	0x40a130	KERNEL32.dll.HeapAlloc
+0x40a232	0x40c1dc	import	0x40a130	KERNEL32.dll.Sleep
+0x40a24c	0x40c0a8	import	0x40a130	IPHLPAPI.DLL.GetAdaptersInfo
+0x40a278	0x40c290	import	0x40a130	WS2_32.dll.inet_addr
+0x40a28a	0x40c290	import	0x40a130	WS2_32.dll.inet_addr
+0x40a2a7	0x40c2a0	import	0x40a130	WS2_32.dll.ntohl
+0x40a2b5	0x40c2a0	import	0x40a130	WS2_32.dll.ntohl
+0x40a2c7	0x40c280	import	0x40a130	WS2_32.dll.htonl
+0x40a2f2	0x40c1dc	import	0x40a130	KERNEL32.dll.Sleep
+0x40a316	0x40c298	import	0x40a130	WS2_32.dll.WSASocketW
+0x40a34e	0x40c2a8	import	0x40a130	WS2_32.dll.bind
+0x40a367	0x40c148	import	0x40a130	KERNEL32.dll.CreateIoCompletionPort
+0x40a399	0x40c27c	import	0x40a130	WS2_32.dll.htons
+0x40a3ef	0x40c274	import	0x40a130	WS2_32.dll.WSAGetLastError
+0x40a42c	0x40c110	import	0x40a130	KERNEL32.dll.HeapFree
+0x40a432	0x40c170	import	0x40a130	KERNEL32.dll.CreateThread
+0x40a47a	0x40c120	import	0x40a130	KERNEL32.dll.CreateTimerQueueTimer
+0x40a485	0x40c0b8	import	0x40a130	KERNEL32.dll.WaitForSingleObject
+0x40a49b	0x40a4ba	string	0x40a130	h@wA
+0x40a4a2	0x40c1dc	import	0x40a130	KERNEL32.dll.Sleep
+0x40a4c6	0x40c1d0	import	0x40a130	KERNEL32.dll.EnterCriticalSection
+0x40a4e7	0x40c1cc	import	0x40a130	KERNEL32.dll.LeaveCriticalSection
+0x40a4f0	0x40c0b8	import	0x40a130	KERNEL32.dll.WaitForSingleObject
+0x40a4f9	0x40c17c	import	0x40a130	KERNEL32.dll.CloseHandle
+0x40a511	0x40c1c4	import	0x40a130	KERNEL32.dll.DeleteCriticalSection
+0x40a517	0x40c270	import	0x40a130	WS2_32.dll.WSACleanup
+0x40a556	0x40c268	import	0x40a530	USER32.dll.wsprintfW
+0x40a582	0x40c1e4	import	0x40a530	MPR.dll.WNetAddConnection2W
+0x40a597	0x40c114	import	0x40a530	KERNEL32.dll.HeapAlloc
+0x40a5b9	0x40c1dc	import	0x40a530	KERNEL32.dll.Sleep
+0x40a610	0x40c1d4	import	0x40a530	KERNEL32.dll.lstrcmpiW
+0x40a660	0x40c1f0	import	0x40a530	NETAPI32.dll.NetShareEnum
+0x40a6b0	0x40fc0c	string	0x40a530	IPC$
+0x40a6c5	0x40ff48	string	0x40a530	ADMIN$
+0x40a6ea	0x40fc5c	string	0x40a530	\\%ls\%ls
+0x40a6f0	0x40c268	import	0x40a530	USER32.dll.wsprintfW
+0x40a700	0x40c198	import	0x40a530	KERNEL32.dll.GetFileAttributesW
+0x40a718	0x40c18c	import	0x40a530	KERNEL32.dll.SetFileAttributesW
+0x40a742	0x40c1dc	import	0x40a530	KERNEL32.dll.Sleep
+0x40a763	0x40fd84	string	0x40a530	\\?\UNC\
+0x40a76c	0x40c1d8	import	0x40a530	KERNEL32.dll.lstrcpyW
+0x40a77a	0x40c184	import	0x40a530	KERNEL32.dll.lstrcatW
+0x40a786	0x40c184	import	0x40a530	KERNEL32.dll.lstrcatW
+0x40a793	0x40c184	import	0x40a530	KERNEL32.dll.lstrcatW
+0x40a7a7	0x40ff58	string	0x40a530	NetScanner.NSH -> Found Remote Share: %ls
+0x40a7c5	0x40c170	import	0x40a530	KERNEL32.dll.CreateThread
+0x40a7df	0x40c058	import	0x40a530	ADVAPI32.dll.SetThreadToken
+0x40a7e9	0x40c194	import	0x40a530	KERNEL32.dll.ResumeThread
+0x40a816	0x40c1a8	import	0x40a530	KERNEL32.dll.WaitForMultipleObjects
+0x40a82a	0x40c17c	import	0x40a530	KERNEL32.dll.CloseHandle
+0x40a836	0x40c114	import	0x40a530	KERNEL32.dll.HeapAlloc
+0x40a83c	0x40c1d4	import	0x40a530	KERNEL32.dll.lstrcmpiW
+0x40a85d	0x40c1f8	import	0x40a530	NETAPI32.dll.NetApiBufferFree
+0x40a876	0x40c044	import	0x40a530	ADVAPI32.dll.RevertToSelf
+0x40a895	0x40c058	import	0x40a530	ADVAPI32.dll.SetThreadToken
+0x40a8cc	0x40c1a8	import	0x40a530	KERNEL32.dll.WaitForMultipleObjects
+0x40a8e3	0x40c17c	import	0x40a530	KERNEL32.dll.CloseHandle
+0x40a8f1	0x40c110	import	0x40a530	KERNEL32.dll.HeapFree
+0x40a956	0x40c048	import	0x40a920	ADVAPI32.dll.AllocateAndInitializeSid
+0x40a96f	0x40c0e8	import	0x40a920	KERNEL32.dll.OpenProcess
+0x40a98c	0x40c02c	import	0x40a920	ADVAPI32.dll.OpenProcessToken
+0x40a9aa	0x40c040	import	0x40a920	ADVAPI32.dll.GetTokenInformation
+0x40a9c2	0x40c114	import	0x40a920	KERNEL32.dll.HeapAlloc
+0x40a9ce	0x40c1dc	import	0x40a920	KERNEL32.dll.Sleep
+0x40a9e4	0x40c114	import	0x40a920	KERNEL32.dll.HeapAlloc
+0x40aa00	0x40c040	import	0x40a920	ADVAPI32.dll.GetTokenInformation
+0x40aa13	0x40c064	import	0x40a920	ADVAPI32.dll.EqualSid
+0x40aa29	0x40c110	import	0x40a920	KERNEL32.dll.HeapFree
+0x40aa32	0x40c17c	import	0x40a920	KERNEL32.dll.CloseHandle
+0x40aa4e	0x40c054	import	0x40a920	ADVAPI32.dll.FreeSid
+0x40aa84	0x40c2c4	import	0x40aa60	ntdll.dll.NtQuerySystemInformation
+0x40aa99	0x40c114	import	0x40aa60	KERNEL32.dll.HeapAlloc
+0x40aaa5	0x40c1dc	import	0x40aa60	KERNEL32.dll.Sleep
+0x40aabd	0x40c114	import	0x40aa60	KERNEL32.dll.HeapAlloc
+0x40aad1	0x40c2c4	import	0x40aa60	ntdll.dll.NtQuerySystemInformation
+0x40aaea	0x40c1d4	import	0x40aa60	KERNEL32.dll.lstrcmpiW
+0x40ab10	0x40c110	import	0x40aa60	KERNEL32.dll.HeapFree
+0x40ab3e	0x40c2c4	import	0x40ab20	ntdll.dll.NtQuerySystemInformation
+0x40ab47	0x40c114	import	0x40ab20	KERNEL32.dll.HeapAlloc
+0x40ab63	0x40c1dc	import	0x40ab20	KERNEL32.dll.Sleep
+0x40ab82	0x40c2c4	import	0x40ab20	ntdll.dll.NtQuerySystemInformation
+0x40aba6	0x40c0e8	import	0x40ab20	KERNEL32.dll.OpenProcess
+0x40abb9	0x40c02c	import	0x40ab20	ADVAPI32.dll.OpenProcessToken
+0x40abd2	0x40c040	import	0x40ab20	ADVAPI32.dll.GetTokenInformation
+0x40abf5	0x40c068	import	0x40ab20	ADVAPI32.dll.DuplicateToken
+0x40ac02	0x40c17c	import	0x40ab20	KERNEL32.dll.CloseHandle
+0x40ac09	0x40c17c	import	0x40ab20	KERNEL32.dll.CloseHandle
+0x40ac33	0x40c1dc	import	0x40ab20	KERNEL32.dll.Sleep
+0x40ac6d	0x40ffd0	string	0x40ab20	Privilege.TI -> %ls Token Duplicated!
+0x40ac77	0x40c17c	import	0x40ab20	KERNEL32.dll.CloseHandle
+0x40ac95	0x40c110	import	0x40ab20	KERNEL32.dll.HeapFree
+0x40acc8	0x40c138	import	0x40acc0	KERNEL32.dll.GetCurrentProcess
+0x40acf2	0x40c02c	import	0x40acc0	ADVAPI32.dll.OpenProcessToken
+0x40ad03	0x40ffac	string	0x40acc0	SeDebugPrivilege
+0x40ad0a	0x40c05c	import	0x40acc0	ADVAPI32.dll.LookupPrivilegeValueW
+0x40ad3d	0x40c060	import	0x40acc0	ADVAPI32.dll.AdjustTokenPrivileges
+0x40ad47	0x40c188	import	0x40acc0	KERNEL32.dll.GetLastError
+0x40ad50	0x40c17c	import	0x40acc0	KERNEL32.dll.CloseHandle
+0x40ad82	0x40c040	import	0x40acc0	ADVAPI32.dll.GetTokenInformation
+0x40ad91	0x410038	string	0x40acc0	Process Launched With Elevated Rights!
+0x40ad98	0x410088	string	0x40acc0	Process Launched Without Elevated Rights!
+0x40adb0	0x41001c	string	0x40acc0	explorer.exe
+0x40adba	0x40c114	import	0x40acc0	KERNEL32.dll.HeapAlloc
+0x40adc0	0x40c1dc	import	0x40acc0	KERNEL32.dll.Sleep
+0x40add8	0x40c0e8	import	0x40acc0	KERNEL32.dll.OpenProcess
+0x40adf0	0x40c02c	import	0x40acc0	ADVAPI32.dll.OpenProcessToken
+0x40ae03	0x40c068	import	0x40acc0	ADVAPI32.dll.DuplicateToken
+0x40ae4a	0x4100f8	string	0x40acc0	Privilege.TI -> explorer.exe Token Duplicated!
+0x40ae70	0x40c138	import	0x40acc0	KERNEL32.dll.GetCurrentProcess
+0x40ae76	0x40c02c	import	0x40acc0	ADVAPI32.dll.OpenProcessToken
+0x40ae92	0x40c040	import	0x40acc0	ADVAPI32.dll.GetTokenInformation
+0x40aeb1	0x40c040	import	0x40acc0	ADVAPI32.dll.GetTokenInformation
+0x40aeca	0x40c040	import	0x40acc0	ADVAPI32.dll.GetTokenInformation
+0x40aefa	0x4100dc	string	0x40acc0	winlogon.exe
+0x40af16	0x40c0e8	import	0x40acc0	KERNEL32.dll.OpenProcess
+0x40af41	0x40c068	import	0x40acc0	ADVAPI32.dll.DuplicateToken
+0x40af54	0x40c058	import	0x40acc0	ADVAPI32.dll.SetThreadToken
+0x40af70	0x40c2bc	import	0x40acc0	WTSAPI32.dll.WTSEnumerateSessionsW
+0x40af9a	0x40c2b4	import	0x40acc0	WTSAPI32.dll.WTSQueryUserToken
+0x40afad	0x40c068	import	0x40acc0	ADVAPI32.dll.DuplicateToken
+0x40afd2	0x40c1dc	import	0x40acc0	KERNEL32.dll.Sleep
+0x40b00d	0x410158	string	0x40acc0	Privilege.TI -> %ls Token Duplicated!
+0x40b01d	0x40c17c	import	0x40acc0	KERNEL32.dll.CloseHandle
+0x40b030	0x40c17c	import	0x40acc0	KERNEL32.dll.CloseHandle
+0x40b039	0x40c2b8	import	0x40acc0	WTSAPI32.dll.WTSFreeMemory
+0x40b03f	0x40c044	import	0x40acc0	ADVAPI32.dll.RevertToSelf

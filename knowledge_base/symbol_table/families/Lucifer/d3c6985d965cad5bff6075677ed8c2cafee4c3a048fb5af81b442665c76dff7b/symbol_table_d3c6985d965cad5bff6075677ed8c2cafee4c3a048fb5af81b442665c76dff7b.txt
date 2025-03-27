@@ -1,0 +1,2003 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x10001016	0x10029410	string	0x10001000	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0x10001207	0x10029464	string	0x10001129	%c%c%c%c
+0x1000123b	0x1002945c	string	0x10001129	%c%c%c=
+0x10001264	0x10029454	string	0x10001129	%c%c==
+0x1000144e	0x10029540	string	0x10001388	Local Interface %s is ip %s using address family %i\n
+0x100014d7	0x10029510	string	0x10001388	Name '%s' family %i resolved to '%s' family %i\n
+0x10001513	0x100294f8	string	0x10001388	Couldn't bind to '%s'
+0x10001539	0x100292a8	import	0x10001388	WS2_32.dll.htons
+0x1000154a	0x100292ac	import	0x10001388	WS2_32.dll.bind
+0x10001564	0x100294cc	string	0x10001388	Bind to local port %hu failed, trying next\n
+0x1000157f	0x100292b0	import	0x10001388	WS2_32.dll.ntohs
+0x100015c1	0x100292b4	import	0x10001388	WS2_32.dll.getsockname
+0x100015cb	0x10029274	import	0x10001388	WS2_32.dll.WSAGetLastError
+0x100015db	0x1001dd44	string	0x10001388	QSUVW
+0x100015e2	0x100294a4	string	0x10001388	getsockname() failed with errno %d: %s
+0x100015ee	0x10029490	string	0x10001388	Local port: %hu\n
+0x1000160b	0x10029274	import	0x10001388	WS2_32.dll.WSAGetLastError
+0x1000161b	0x1001dd44	string	0x10001388	QSUVW
+0x10001622	0x10029470	string	0x10001388	bind failed with errno %d: %s
+0x1000163d	0x10026c4e	string	0x10001388	;\rt
+0x1000165e	0x1002907c	import	0x1000164a	KERNEL32.dll.SleepEx
+0x10001679	0x100292a4	import	0x1000164a	WS2_32.dll.getsockopt
+0x10001683	0x10029274	import	0x1000164a	WS2_32.dll.WSAGetLastError
+0x1000171d	0x100292b0	import	0x100016fc	WS2_32.dll.ntohs
+0x10001784	0x100292a0	import	0x10001735	WS2_32.dll.getpeername
+0x1000178e	0x10029274	import	0x10001735	WS2_32.dll.WSAGetLastError
+0x10001798	0x1001dd44	string	0x10001735	QSUVW
+0x1000179f	0x100295d0	string	0x10001735	getpeername() failed with errno %d: %s
+0x100017c3	0x100292b4	import	0x10001735	WS2_32.dll.getsockname
+0x100017cd	0x10029274	import	0x10001735	WS2_32.dll.WSAGetLastError
+0x100017d7	0x1001dd44	string	0x10001735	QSUVW
+0x100017de	0x100294a4	string	0x10001735	getsockname() failed with errno %d: %s
+0x100017fd	0x10029078	import	0x10001735	KERNEL32.dll.GetLastError
+0x10001809	0x1001dd44	string	0x10001735	QSUVW
+0x10001810	0x100295a4	string	0x10001735	ssrem inet_ntop() failed with errno %d: %s
+0x10001835	0x10029078	import	0x10001735	KERNEL32.dll.GetLastError
+0x10001841	0x1001dd44	string	0x10001735	QSUVW
+0x10001848	0x10029578	string	0x10001735	ssloc inet_ntop() failed with errno %d: %s
+0x10001864	0x10026c4e	string	0x10001735	;\rt
+0x1000188e	0x1002929c	import	0x10001871	WS2_32.dll.setsockopt
+0x10001898	0x10029274	import	0x10001871	WS2_32.dll.WSAGetLastError
+0x100018a0	0x1001dd44	string	0x10001871	QSUVW
+0x100018a6	0x1002960c	string	0x10001871	Could not set TCP_NODELAY: %s\n
+0x100018b6	0x100295f8	string	0x10001871	TCP_NODELAY set\n
+0x100018f7	0x100292a4	import	0x100018c6	WS2_32.dll.getsockopt
+0x10001914	0x1002929c	import	0x100018c6	WS2_32.dll.setsockopt
+0x100019bc	0x10029294	import	0x1000191e	WS2_32.dll.socket
+0x100019d4	0x10026c4e	string	0x1000191e	;\rt
+0x10001c33	0x100296d8	string	0x10001bf8	Connection time-out
+0x10001cdc	0x100296bc	string	0x10001bf8	couldn't connect to host
+0x10001cee	0x100296a4	string	0x10001bf8	connect() timed out!
+0x10001d9e	0x100292b8	import	0x10001d79	WS2_32.dll.closesocket
+0x10001e46	0x100296d8	string	0x10001de7	Connection time-out
+0x10001e91	0x10029720	string	0x10001de7	After %ldms connect time, move on!\n
+0x10001ef8	0x1001dd44	string	0x10001de7	QSUVW
+0x10001f10	0x1002970c	string	0x10001de7	Connection failed\n
+0x10001f30	0x1002928c	import	0x10001de7	WS2_32.dll.WSASetLastError
+0x10001f49	0x10029274	import	0x10001de7	WS2_32.dll.WSAGetLastError
+0x10001f5a	0x1001dd44	string	0x10001de7	QSUVW
+0x10001f69	0x100296ec	string	0x10001de7	Failed connect to %s:%ld; %s
+0x10001f8c	0x100297a4	string	0x10001f7e	Error while processing content unencoding: %s
+0x10001f9c	0x10029748	string	0x10001f7e	Error while processing content unencoding: Unknown failure within decompression software.
+0x10002048	0x100297d4	string	0x10001fc3	1.2.5
+0x1000213d	0x100297d4	string	0x10002125	1.2.5
+0x10002272	0x100297dc	string	0x10002257	1.2.0.4
+0x10002294	0x100297d4	string	0x10002257	1.2.5
+0x100022b5	0x10002436	string	0x10002257	Y_^[]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10002571	0x100293a0	import	0x10002523	msvcrt.dll.time
+0x1000259a	0x100029b7	string	0x10002523	j\nhH
+0x100025ba	0x100293a4	import	0x10002523	msvcrt.dll.strchr
+0x100025df	0x100293a4	import	0x10002523	msvcrt.dll.strchr
+0x10002603	0x10029900	string	0x10002523	%1023[^;=]=%4999[^;\r\n]
+0x10002610	0x100293a8	import	0x10002523	msvcrt.dll.sscanf
+0x1000265b	0x100298f8	string	0x10002523	path
+0x10002677	0x100298f0	string	0x10002523	domain
+0x1000269f	0x100293a4	import	0x10002523	msvcrt.dll.strchr
+0x100026be	0x100298bc	string	0x10002523	skipped cookie with illegal dotcount domain: %s\n
+0x100026f6	0x1002988c	string	0x10002523	skipped cookie with bad tailmatch domain: %s\n
+0x10002726	0x10029884	string	0x10002523	version
+0x1000277c	0x1002987c	string	0x10002523	max-age
+0x100027a9	0x100293ac	import	0x10002523	msvcrt.dll.strtol
+0x100027c5	0x10029874	string	0x10002523	expires
+0x100028aa	0x100293a4	import	0x10002523	msvcrt.dll.strchr
+0x100028bd	0x100293b0	import	0x10002523	msvcrt.dll.strrchr
+0x100028cb	0x10029868	string	0x10002523	%4999[^;\r\n]
+0x100028d1	0x100293a8	import	0x10002523	msvcrt.dll.sscanf
+0x100028df	0x10029860	string	0x10002523	secure
+0x100028f9	0x10029854	string	0x10002523	httponly
+0x10002944	0x100293a4	import	0x10002523	msvcrt.dll.strchr
+0x100029b9	0x10029848	string	0x10002523	#HttpOnly_
+0x100029c2	0x100293b4	import	0x10002523	msvcrt.dll.strncmp
+0x100029e2	0x100293a4	import	0x10002523	msvcrt.dll.strchr
+0x10002a32	0x1002983c	string	0x10002523	TRUE
+0x10002ab0	0x10029834	string	0x10002523	FALSE
+0x10002cc8	0x10029824	string	0x10002523	Replaced
+0x10002cd2	0x1002981c	string	0x10002523	Added
+0x10002cea	0x100297e4	string	0x10002523	%s cookie %s="%s" for domain %s, path %s, expire %lld\n
+0x10002d4a	0x10026c4e	string	0x10002523	;\rt
+0x10002d92	0x1002992c	string	0x10002d57	none
+0x10002dd8	0x10029394	import	0x10002d57	msvcrt.dll.fopen
+0x10002e0d	0x10029398	import	0x10002d57	msvcrt.dll.fgets
+0x10002e1c	0x10029918	string	0x10002d57	Set-Cookie:
+0x10002e28	0x10029918	string	0x10002d57	Set-Cookie:
+0x10002e89	0x1002939c	import	0x10002d57	msvcrt.dll.fclose
+0x10002eeb	0x100293a0	import	0x10002ee0	msvcrt.dll.time
+0x10002f87	0x100293b4	import	0x10002ee0	msvcrt.dll.strncmp
+0x1000312b	0x1002983c	string	0x1000310d	TRUE
+0x10003130	0x10029834	string	0x1000310d	FALSE
+0x10003162	0x10029954	string	0x1000310d	unknown
+0x10003182	0x10029848	string	0x1000310d	#HttpOnly_
+0x100031a4	0x10029934	string	0x1000310d	%s%s%s\t%s\t%s\t%s\t%lld\t%s\t%s
+0x100031e9	0x10029390	import	0x100031b6	msvcrt.dll._iob
+0x100031fa	0x10029980	string	0x100031b6	# Netscape HTTP Cookie File\n# http://curl.haxx.se/rfc/cookie_spec.html\n# This file was generated by libcurl! Edit at your own risk.\n\n
+0x100031ff	0x10029388	import	0x100031b6	msvcrt.dll.fputs
+0x10003211	0x10029394	import	0x100031b6	msvcrt.dll.fopen
+0x10003253	0x1002939c	import	0x100031b6	msvcrt.dll.fclose
+0x100032d1	0x100032dc	string	0x1000327e	_^][
+0x10003379	0x10029384	import	0x1000335e	msvcrt.dll.calloc
+0x100033c0	0x10029288	import	0x1000339b	WS2_32.dll.inet_addr
+0x100033da	0x10029384	import	0x100033d8	msvcrt.dll.calloc
+0x100033ff	0x10029380	import	0x100033d8	msvcrt.dll.free
+0x10003457	0x10029240	import	0x10003442	WS2_32.dll.gethostbyname
+0x100034b1	0x100034de	string	0x10003442	_^[]
+0x100034b6	0x100034de	string	0x10003442	_^[]
+0x100034b8	0x10029274	import	0x10003442	WS2_32.dll.WSAGetLastError
+0x100034c7	0x100034de	string	0x10003442	_^[]
+0x100034d0	0x100034de	string	0x10003442	_^[]
+0x100034d7	0x100034de	string	0x10003442	_^[]
+0x10003611	0x10026c4e	string	0x100034e5	;\rt
+0x1000366d	0x10029380	import	0x10003660	msvcrt.dll.free
+0x10003760	0x1000384a	string	0x1000369c	9}\bt<
+0x1000376f	0x1002937c	import	0x1000369c	msvcrt.dll.strtoul
+0x10003787	0x100292a8	import	0x1000369c	WS2_32.dll.htons
+0x1000379b	0x1000384a	string	0x1000369c	9}\bt<
+0x100037a7	0x1000384a	string	0x1000369c	9}\bt<
+0x100037b8	0x1002924c	import	0x1000369c	WS2_32.dll.getservbyname
+0x100038a2	0x10029248	import	0x1000369c	WS2_32.dll.htonl
+0x100038da	0x10029244	import	0x1000369c	WS2_32.dll.inet_ntoa
+0x10003943	0x10029a14	string	0x10003927	65535
+0x100039d3	0x10029254	import	0x10003927	WS2_32.dll.getservbyport
+0x100039e8	0x100292b0	import	0x10003927	WS2_32.dll.ntohs
+0x10003a4e	0x10029250	import	0x10003927	WS2_32.dll.gethostbyaddr
+0x10003a69	0x100293a4	import	0x10003927	msvcrt.dll.strchr
+0x10003a80	0x10029274	import	0x10003927	WS2_32.dll.WSAGetLastError
+0x10003aa4	0x10026c4e	string	0x10003927	;\rt
+0x10003b07	0x10029a48	string	0x10003ae5	getaddrinfo
+0x10003b15	0x10029a3c	string	0x10003ae5	getnameinfo
+0x10003b23	0x10029a2c	string	0x10003ae5	freeaddrinfo
+0x10003b40	0x10029068	import	0x10003ae5	KERNEL32.dll.GetSystemDirectoryA
+0x10003b67	0x10029a24	string	0x10003ae5	\ws2_32
+0x10003b79	0x1002906c	import	0x10003ae5	KERNEL32.dll.LoadLibraryA
+0x10003b91	0x10029a48	string	0x10003ae5	getaddrinfo
+0x10003b97	0x10029070	import	0x10003ae5	KERNEL32.dll.GetProcAddress
+0x10003ba2	0x10029074	import	0x10003ae5	KERNEL32.dll.FreeLibrary
+0x10003bbf	0x10029a1c	string	0x10003ae5	\wship6
+0x10003be3	0x10029a48	string	0x10003ae5	getaddrinfo
+0x10003be9	0x10029070	import	0x10003ae5	KERNEL32.dll.GetProcAddress
+0x10003bf4	0x10029074	import	0x10003ae5	KERNEL32.dll.FreeLibrary
+0x10003c07	0x10029070	import	0x10003ae5	KERNEL32.dll.GetProcAddress
+0x10003c1e	0x10029074	import	0x10003ae5	KERNEL32.dll.FreeLibrary
+0x10003c61	0x10026c4e	string	0x10003ae5	;\rt
+0x10003c9a	0x1002928c	import	0x10003c70	WS2_32.dll.WSASetLastError
+0x10003e44	0x1002928c	import	0x10003cf9	WS2_32.dll.WSASetLastError
+0x10003f10	0x100292a8	import	0x10003e59	WS2_32.dll.htons
+0x1000408a	0x10029374	import	0x1000402e	msvcrt.dll.isalpha
+0x10004098	0x10029378	import	0x1000402e	msvcrt.dll.islower
+0x100040cd	0x10029a9c	string	0x1000402e	digit
+0x100040ef	0x10029a94	string	0x1000402e	alnum
+0x1000410f	0x10029a8c	string	0x1000402e	alpha
+0x1000412f	0x10029a84	string	0x1000402e	xdigit
+0x1000414f	0x10029a7c	string	0x1000402e	print
+0x1000416f	0x10029a74	string	0x1000402e	graph
+0x1000418c	0x10029a6c	string	0x1000402e	space
+0x100041a9	0x10029a64	string	0x1000402e	blank
+0x100041c6	0x10029a5c	string	0x1000402e	upper
+0x100041e3	0x10029a54	string	0x1000402e	lower
+0x10004208	0x10026c4e	string	0x1000402e	;\rt
+0x10004291	0x10029368	import	0x1000420f	msvcrt.dll.isprint
+0x100042bd	0x10029368	import	0x1000420f	msvcrt.dll.isprint
+0x100042e4	0x10029368	import	0x1000420f	msvcrt.dll.isprint
+0x1000430c	0x10029378	import	0x1000420f	msvcrt.dll.islower
+0x1000431d	0x10029378	import	0x1000420f	msvcrt.dll.islower
+0x10004329	0x1002936c	import	0x1000420f	msvcrt.dll.isdigit
+0x1000433a	0x1002936c	import	0x1000420f	msvcrt.dll.isdigit
+0x10004346	0x100293d8	import	0x1000420f	msvcrt.dll.isupper
+0x100043cd	0x10029370	import	0x1000420f	msvcrt.dll.isalnum
+0x100043ed	0x10029368	import	0x1000420f	msvcrt.dll.isprint
+0x10004409	0x10029370	import	0x1000420f	msvcrt.dll.isalnum
+0x100044b4	0x10029368	import	0x1000420f	msvcrt.dll.isprint
+0x10004575	0x10029368	import	0x1000451f	msvcrt.dll.isprint
+0x100045a6	0x10029368	import	0x1000451f	msvcrt.dll.isprint
+0x10004646	0x10029370	import	0x1000451f	msvcrt.dll.isalnum
+0x1000465b	0x10029374	import	0x1000451f	msvcrt.dll.isalpha
+0x10004670	0x1002936c	import	0x1000451f	msvcrt.dll.isdigit
+0x10004685	0x1002935c	import	0x1000451f	msvcrt.dll.isxdigit
+0x10004697	0x10029368	import	0x1000451f	msvcrt.dll.isprint
+0x100046a9	0x10029360	import	0x1000451f	msvcrt.dll.isspace
+0x100046bb	0x100293d8	import	0x1000451f	msvcrt.dll.isupper
+0x100046cd	0x10029378	import	0x1000451f	msvcrt.dll.islower
+0x100046fb	0x10029364	import	0x1000451f	msvcrt.dll.isgraph
+0x1000474c	0x10026c4e	string	0x1000451f	;\rt
+0x1000479f	0x10029258	import	0x10004797	WS2_32.dll.gethostname
+0x100047df	0x100293a0	import	0x100047dd	msvcrt.dll.time
+0x1000480a	0x10029358	import	0x100047fa	msvcrt.dll._beginthreadex
+0x10004823	0x10029064	import	0x1000481f	KERNEL32.dll.CloseHandle
+0x10004834	0x10029060	import	0x1000482a	KERNEL32.dll.WaitForSingleObject
+0x1000487f	0x10029354	import	0x10004851	msvcrt.dll.malloc
+0x100048ba	0x10029380	import	0x10004851	msvcrt.dll.free
+0x100048f0	0x10029bcc	string	0x100048c8	/MATCH:
+0x10004930	0x10029bc0	string	0x100048c8	/FIND:
+0x10004948	0x10029bb4	string	0x100048c8	/DEFINE:
+0x10004974	0x10029ba4	string	0x100048c8	/LOOKUP:
+0x10004989	0x100293a4	import	0x100048c8	msvcrt.dll.strchr
+0x100049ae	0x10029b80	string	0x100048c8	CLIENT libcurl 7.21.4\r\n%s\r\nQUIT\r\n
+0x100049cb	0x10029b64	string	0x100048c8	Failed sending DICT request
+0x100049e2	0x100293a4	import	0x100048c8	msvcrt.dll.strchr
+0x10004a1c	0x10029b4c	string	0x100048c8	lookup word is missing
+0x10004a2b	0x10029b44	string	0x100048c8	default
+0x10004a58	0x10029b14	string	0x100048c8	CLIENT libcurl 7.21.4\r\nDEFINE %s %s\r\nQUIT\r\n
+0x10004a6b	0x10029380	import	0x100048c8	msvcrt.dll.free
+0x10004a7c	0x100293a4	import	0x100048c8	msvcrt.dll.strchr
+0x10004aca	0x10029b4c	string	0x100048c8	lookup word is missing
+0x10004ad9	0x10029b44	string	0x100048c8	default
+0x10004b1c	0x10029ae4	string	0x100048c8	CLIENT libcurl 7.21.4\r\nMATCH %s %s %s\r\nQUIT\r\n
+0x10004b2f	0x10029380	import	0x100048c8	msvcrt.dll.free
+0x10004b3c	0x10029b64	string	0x100048c8	Failed sending DICT request
+0x10004b6d	0x1002925c	import	0x10004b6d	WS2_32.dll.WSACleanup
+0x10004b92	0x10029260	import	0x10004b6d	WS2_32.dll.WSAStartup
+0x10004bb1	0x1002925c	import	0x10004b6d	WS2_32.dll.WSACleanup
+0x10004bbf	0x10026c4e	string	0x10004b6d	;\rt
+0x10004dcb	0x10004dd2	string	0x10004ce3	ËL$\b blocks=Latin-1 Supplement,Basic Latin
+0x1000513a	0x10029bf0	string	0x10005129	CONNECT_ONLY is required!
+0x10005162	0x10029bd4	string	0x10005129	Failed to get recent socket
+0x100052c6	0x10029c0c	string	0x1000524c	%%%02X
+0x1000533d	0x1002935c	import	0x100052fa	msvcrt.dll.isxdigit
+0x1000534f	0x1002935c	import	0x100052fa	msvcrt.dll.isxdigit
+0x10005373	0x1002937c	import	0x100052fa	msvcrt.dll.strtoul
+0x10005474	0x10029360	import	0x1000542e	msvcrt.dll.isspace
+0x1000553f	0x100293cc	import	0x10005520	msvcrt.dll._close
+0x1000555e	0x100293a4	import	0x1000554a	msvcrt.dll.strchr
+0x100055dd	0x100293d0	import	0x1000554a	msvcrt.dll._open
+0x100055ec	0x10029c74	string	0x1000554a	Can't open %s for writing
+0x100055ff	0x100293cc	import	0x1000554a	msvcrt.dll._close
+0x1000560e	0x10029394	import	0x1000554a	msvcrt.dll.fopen
+0x10005658	0x1002931c	import	0x1000554a	msvcrt.dll._fileno
+0x10005660	0x10029348	import	0x1000554a	msvcrt.dll._fstati64
+0x1000566f	0x1002939c	import	0x1000554a	msvcrt.dll.fclose
+0x10005677	0x10029c54	string	0x1000554a	Can't get the size of %s
+0x10005721	0x1002934c	import	0x1000554a	msvcrt.dll.fwrite
+0x10005781	0x1002939c	import	0x1000554a	msvcrt.dll.fclose
+0x100057fd	0x10029348	import	0x1000578e	msvcrt.dll._fstati64
+0x1000587f	0x10029d20	string	0x1000578e	Content-Length: %lld\r\n
+0x100058a7	0x10029d08	string	0x1000578e	Accept-ranges: bytes\r\n
+0x1000590b	0x10029cd4	string	0x1000578e	Last-Modified: %s, %02d %s %4d %02d:%02d:%02d GMT\r\n
+0x10005962	0x10029cb8	string	0x1000578e	Can't get the size of file.
+0x100059fc	0x10029344	import	0x1000578e	msvcrt.dll._lseeki64
+0x10005a50	0x10029318	import	0x1000578e	msvcrt.dll._read
+0x10005ae9	0x10029c94	string	0x1000578e	failed to resume file:// transfer
+0x10005b72	0x100293cc	import	0x10005afe	msvcrt.dll._close
+0x10005bc6	0x100293d0	import	0x10005afe	msvcrt.dll._open
+0x10005bed	0x10029d38	string	0x10005afe	Couldn't open file %s
+0x10005c3d	0x10005c4f	string	0x10005c1e	3\tF\b
+0x10005cfa	0x10005d03	string	0x10005ced	9u\btbW
+0x10005cfc	0x10029dec	string	0x10005ced	application/octet-stream
+0x10005d09	0x10029d90	string	0x10005ced	.gif
+0x1000620b	0x10006215	string	0x10005dc9	9w$u\f
+0x1000642f	0x10029340	import	0x1000637d	msvcrt.dll._stati64
+0x10006494	0x10026c4e	string	0x1000644c	;\rt
+0x10006544	0x100293b0	import	0x10006541	msvcrt.dll.strrchr
+0x10006600	0x10029394	import	0x100065ce	msvcrt.dll.fopen
+0x1000661f	0x1002933c	import	0x100065ce	msvcrt.dll.fread
+0x1000663a	0x1002939c	import	0x100065ce	msvcrt.dll.fclose
+0x10006666	0x100066cc	string	0x10006650	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10006684	0x100066cc	string	0x10006650	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1000672d	0x10029e0c	string	0x1000671a	----------------------------
+0x100067db	0x100067e2	string	0x10006765	PVh4
+0x100067dd	0x10029f48	string	0x10006765	Content-Type: multipart/form-data
+0x100067e4	0x10029f34	string	0x10006765	%s; boundary=%s\r\n
+0x1000683c	0x10029f28	string	0x10006765	--%s\r\n
+0x10006855	0x10029f00	string	0x10006765	Content-Disposition: form-data; name="
+0x100068ad	0x10029ecc	string	0x10006765	\r\nContent-Type: multipart/mixed, boundary=%s\r\n
+0x100068ff	0x10029e94	string	0x10006765	\r\n--%s\r\nContent-Disposition: attachment; filename="%s"
+0x10006939	0x10029e84	string	0x10006765	; filename="%s"
+0x10006970	0x10029e70	string	0x10006765	\r\nContent-Type: %s
+0x10006999	0x10029e68	string	0x10006765	\r\n%s
+0x100069c1	0x10029e60	string	0x10006765	\r\n\r\n
+0x10006a43	0x10029394	import	0x10006765	msvcrt.dll.fopen
+0x10006a53	0x10029390	import	0x10006765	msvcrt.dll._iob
+0x10006a5b	0x1002939c	import	0x10006765	msvcrt.dll.fclose
+0x10006aa2	0x1002933c	import	0x10006765	msvcrt.dll.fread
+0x10006aba	0x10029e44	string	0x10006765	couldn't open file "%s"\n
+0x10006afd	0x10029e38	string	0x10006765	\r\n--%s--
+0x10006b55	0x10029e2c	string	0x10006765	\r\n--%s--\r\n
+0x10006b97	0x10026c4e	string	0x10006765	;\rt
+0x10006c6e	0x1002939c	import	0x10006765	msvcrt.dll.fclose
+0x10006c8d	0x10026c4e	string	0x10006765	;\rt
+0x10006e6d	0x10006e73	string	0x10006e05	3\tF,
+0x10006ead	0x10029f6c	string	0x10006e05	->
+0x10006eb3	0x10029334	import	0x10006e05	msvcrt.dll.strstr
+0x10006f24	0x10006f2d	string	0x10006e05	S9/u ;
+0x1000703e	0x10007881	string	0x10006e05	[_^]
+0x100070d1	0x10029fa4	string	0x10006e05	<DIR>
+0x10007138	0x10029330	import	0x10006e05	msvcrt.dll._errno
+0x10007198	0x10029f94	string	0x10006e05	APM0123456789:
+0x100071a3	0x10029360	import	0x10006e05	msvcrt.dll.isspace
+0x100071c6	0x10029f88	string	0x10006e05	0123456789-
+0x100071cb	0x100293a4	import	0x10006e05	msvcrt.dll.strchr
+0x10007241	0x10029f80	string	0x10006e05	total
+0x10007246	0x100293b4	import	0x10006e05	msvcrt.dll.strncmp
+0x10007264	0x10029360	import	0x10006e05	msvcrt.dll.isspace
+0x10007347	0x10029f74	string	0x10006e05	rwx-tTsS
+0x100073d9	0x100293ac	import	0x10006e05	msvcrt.dll.strtol
+0x10007546	0x1002936c	import	0x10006e05	msvcrt.dll.isdigit
+0x100075ca	0x10029370	import	0x10006e05	msvcrt.dll.isalnum
+0x100075fa	0x10029370	import	0x10006e05	msvcrt.dll.isalnum
+0x10007639	0x10029370	import	0x10006e05	msvcrt.dll.isalnum
+0x1000766c	0x10029370	import	0x10006e05	msvcrt.dll.isalnum
+0x10007696	0x10029370	import	0x10006e05	msvcrt.dll.isalnum
+0x1000796b	0x100293a4	import	0x1000796a	msvcrt.dll.strchr
+0x100079f0	0x1002a128	string	0x10007994	Timeout while waiting for server connect
+0x10007a0a	0x100292b4	import	0x10007994	WS2_32.dll.getsockname
+0x10007a24	0x10029264	import	0x10007994	WS2_32.dll.accept
+0x10007a2e	0x100292b8	import	0x10007994	WS2_32.dll.closesocket
+0x10007a3c	0x1002a104	string	0x10007994	Error accept()ing server connect
+0x10007a43	0x1002a0e0	string	0x10007994	Connection accepted from server\n
+0x10007a63	0x1002a0b8	string	0x10007994	Error while waiting for server connect
+0x10007a7a	0x10026c4e	string	0x10007994	;\rt
+0x10007a93	0x1002936c	import	0x10007994	msvcrt.dll.isdigit
+0x10007ac4	0x100293ac	import	0x10007994	msvcrt.dll.strtol
+0x10007be5	0x1002a188	string	0x10007b20	FTP response timeout
+0x10007bfd	0x10029274	import	0x10007b20	WS2_32.dll.WSAGetLastError
+0x10007c04	0x1002a154	string	0x10007b20	FTP response aborted due to select/poll error: %d
+0x10007c47	0x1002a1a0	string	0x10007c2c	USER %s
+0x10007d3f	0x100293a4	import	0x10007c96	msvcrt.dll.strchr
+0x10007d61	0x1002932c	import	0x10007c96	msvcrt.dll.strncpy
+0x10007d8d	0x1002937c	import	0x10007c96	msvcrt.dll.strtoul
+0x10007e32	0x100292b4	import	0x10007c96	WS2_32.dll.getsockname
+0x10007e3c	0x10029274	import	0x10007c96	WS2_32.dll.WSAGetLastError
+0x10007e44	0x1001dd44	string	0x10007c96	QSUVW
+0x10007e4a	0x1002a248	string	0x10007c96	getsockname() failed: %s
+0x10007eda	0x1002a220	string	0x10007c96	Curl_resolv failed, we can not recover!
+0x10007f04	0x10029294	import	0x10007c96	WS2_32.dll.socket
+0x10007f12	0x10029274	import	0x10007c96	WS2_32.dll.WSAGetLastError
+0x10007f2a	0x1001dd44	string	0x10007c96	QSUVW
+0x10007f30	0x1002a20c	string	0x10007c96	socket failure: %s
+0x10007f78	0x100292a8	import	0x10007c96	WS2_32.dll.htons
+0x10007f8c	0x100292ac	import	0x10007c96	WS2_32.dll.bind
+0x10007f96	0x10029274	import	0x10007c96	WS2_32.dll.WSAGetLastError
+0x10007fa7	0x1001dd44	string	0x10007c96	QSUVW
+0x10007fb2	0x1002a1f0	string	0x10007c96	bind(port=%hu) failed: %s
+0x10007fd5	0x100292b4	import	0x10007c96	WS2_32.dll.getsockname
+0x1000800e	0x1002a1cc	string	0x10007c96	bind() failed, we ran out of ports!
+0x1000801d	0x10029274	import	0x10007c96	WS2_32.dll.WSAGetLastError
+0x10008025	0x1001dd44	string	0x10007c96	QSUVW
+0x1000802b	0x1002a248	string	0x10007c96	getsockname() failed: %s
+0x1000803c	0x100292b8	import	0x10007c96	WS2_32.dll.closesocket
+0x10008049	0x1001dd44	string	0x10007c96	QSUVW
+0x10008054	0x1002a1f0	string	0x10007c96	bind(port=%hu) failed: %s
+0x10008076	0x100292b4	import	0x10007c96	WS2_32.dll.getsockname
+0x10008085	0x10029268	import	0x10007c96	WS2_32.dll.listen
+0x1000808f	0x10029274	import	0x10007c96	WS2_32.dll.WSAGetLastError
+0x10008097	0x1001dd44	string	0x10007c96	QSUVW
+0x1000809d	0x1002a20c	string	0x10007c96	socket failure: %s
+0x100080ea	0x100292b0	import	0x10007c96	WS2_32.dll.ntohs
+0x10008131	0x100292b8	import	0x10007c96	WS2_32.dll.closesocket
+0x1000815d	0x10026c4e	string	0x10007c96	;\rt
+0x10008231	0x1002a0a4	string	0x10008203	EPSV
+0x10008256	0x1002a264	string	0x10008203	Connect data stream passively\n
+0x100082c9	0x1002a2b8	string	0x10008269	NLST
+0x100082d6	0x1002a2b0	string	0x10008269	LIST
+0x100082e2	0x1002a2a8	string	0x10008269	PRET %s
+0x10008311	0x1002a298	string	0x10008269	PRET STOR %s
+0x10008327	0x1002a288	string	0x10008269	PRET RETR %s
+0x10008359	0x1002a2c0	string	0x1000833a	REST %d
+0x100083a4	0x1002a2c8	string	0x10008385	SIZE %s
+0x100083fc	0x100293a4	import	0x100083cf	msvcrt.dll.strchr
+0x1000841e	0x100084ce	string	0x100083cf	_^][
+0x10008434	0x100293b0	import	0x100083cf	msvcrt.dll.strrchr
+0x1000845d	0x10008471	string	0x100083cf	RQPhТ blocks=Basic Latin,Cyrillic
+0x10008465	0x1002a2b8	string	0x100083cf	NLST
+0x1000846a	0x10008471	string	0x100083cf	RQPhТ blocks=Basic Latin,Cyrillic
+0x1000846c	0x1002a2b0	string	0x100083cf	LIST
+0x10008474	0x1002a2d0	string	0x100083cf	%s%s%s
+0x100084ac	0x100084ce	string	0x100083cf	_^][
+0x10008550	0x1002a2c8	string	0x100084f5	SIZE %s
+0x100085a0	0x1002a324	string	0x100084f5	Could not seek stream
+0x1000866b	0x1002a300	string	0x100084f5	File already completely uploaded\n
+0x10008697	0x1002a2ec	string	0x100084f5	Failed to read data
+0x100086a1	0x1002a2e4	string	0x100084f5	APPE %s
+0x100086ae	0x1002a2dc	string	0x100084f5	STOR %s
+0x100086fc	0x1002a370	string	0x100086da	disabling EPRT usage\n
+0x10008715	0x1002a35c	string	0x100086da	Failed to do PORT
+0x10008737	0x1002a33c	string	0x100086da	Connect data stream actively\n
+0x1000876a	0x1002a3c0	string	0x10008755	Couldn't set desired mode
+0x1000878a	0x1002a388	string	0x10008755	Got a %03d response code instead of the assumed 200\n
+0x1000880a	0x1002a494	string	0x100087d7	Maximum file size exceeded
+0x1000881a	0x10008974	string	0x100087d7	_^[]
+0x10008842	0x1002a470	string	0x100087d7	ftp server doesn't support SIZE\n
+0x10008885	0x1002a444	string	0x100087d7	Offset (%lld) was beyond file size (%lld)
+0x100088ec	0x1002a420	string	0x100087d7	File already completely downloaded\n
+0x10008914	0x1002a3f0	string	0x100087d7	Instructs server to resume from offset %lld\n
+0x10008934	0x1002a3e4	string	0x100087d7	REST %lld
+0x10008944	0x10008974	string	0x100087d7	_^[]
+0x10008956	0x1002a3dc	string	0x100087d7	RETR %s
+0x10008966	0x10008974	string	0x100087d7	_^[]
+0x100089c1	0x10029d20	string	0x10008979	Content-Length: %lld\r\n
+0x10008a75	0x10029d08	string	0x10008a4b	Accept-ranges: bytes\r\n
+0x10008ab2	0x1002a4b0	string	0x10008a4b	Couldn't use REST
+0x10008ac8	0x1002a3dc	string	0x10008a4b	RETR %s
+0x10008aed	0x10026c4e	string	0x10008a4b	;\rt
+0x10008b15	0x1002a4f4	string	0x10008af4	Failed FTP upload: %0d
+0x10008b49	0x1002a4c4	string	0x10008af4	Doing the SSL/TLS handshake on the data stream\n
+0x10008c08	0x1002a548	string	0x10008bbc	RETR response: %03d
+0x10008c64	0x1002a540	string	0x10008bbc	bytes
+0x10008c6a	0x10029334	import	0x10008bbc	msvcrt.dll.strstr
+0x10008c8f	0x1002936c	import	0x10008bbc	msvcrt.dll.isdigit
+0x10008ce6	0x1002a4c4	string	0x10008bbc	Doing the SSL/TLS handshake on the data stream\n
+0x10008d35	0x10008d71	string	0x10008bbc	QPh,
+0x10008d5e	0x10008d71	string	0x10008bbc	QPh,
+0x10008d67	0x10008d71	string	0x10008bbc	QPh,
+0x10008d73	0x1002a52c	string	0x10008bbc	Maxdownload = %lld\n
+0x10008d8d	0x1002a50c	string	0x10008bbc	Getting file with size: %lld\n
+0x10008de6	0x1002a55c	string	0x10008dd2	PBSZ %d
+0x10008df8	0x10008e0f	string	0x10008dd2	^Á|$ blocks=Basic Latin,Latin-1 Supplement
+0x10008e3d	0x1002a5a4	string	0x10008e11	PASS %s
+0x10008e98	0x1002a59c	string	0x10008e11	ACCT %s
+0x10008eaa	0x10008f18	string	0x10008e11	_Á|$ blocks=Basic Latin,Latin-1 Supplement
+0x10008eb0	0x1002a578	string	0x10008e11	ACCT requested but none available
+0x10008ee5	0x10008f18	string	0x10008e11	_Á|$ blocks=Basic Latin,Latin-1 Supplement
+0x10008f05	0x1002a564	string	0x10008e11	Access denied: %03d
+0x10008f28	0x1002a5ac	string	0x10008f1a	ACCT rejected by server: %03d
+0x10008f4c	0x10015683	string	0x10008f40	SUVW
+0x10008f70	0x10008f82	string	0x10008f62	^Ë\aV blocks=Basic Latin,Latin-1 Supplement
+0x10008f73	0x10015705	string	0x10008f62	SUVW
+0x10008f7b	0x10008f82	string	0x10008f62	^Ë\aV blocks=Basic Latin,Latin-1 Supplement
+0x10009066	0x1002a5cc	string	0x10009029	TYPE %c
+0x100090bf	0x1002a5d4	string	0x1000908c	Connecting to %s (%s) port %d\n
+0x100090d3	0x10026c4e	string	0x1000908c	;\rt
+0x10009123	0x10029360	import	0x100090da	msvcrt.dll.isspace
+0x100091ec	0x10009218	string	0x100091d4	9G\ft
+0x10009209	0x10009232	string	0x100091d4	_^][ÃO blocks=Basic Latin,Latin-1 Supplement
+0x10009252	0x1000926f	string	0x100091d4	9o\fu
+0x1000925a	0x1000926f	string	0x100091d4	9o\fu
+0x1000926d	0x10009207	string	0x100091d4	YYu'
+0x10009358	0x10026c4e	string	0x10009293	;\rt
+0x10009376	0x1002a5f4	string	0x10009365	QUIT
+0x10009531	0x100293a4	import	0x10009410	msvcrt.dll.strchr
+0x1000954b	0x1002a650	string	0x10009410	no memory
+0x1000958c	0x100293b0	import	0x10009410	msvcrt.dll.strrchr
+0x10009636	0x100096ab	string	0x10009410	3ɉNH blocks=Basic Latin,Latin Extended-B
+0x1000963a	0x100096ab	string	0x10009410	3ɉNH blocks=Basic Latin,Latin Extended-B
+0x1000963f	0x100096ab	string	0x10009410	3ɉNH blocks=Basic Latin,Latin Extended-B
+0x1000965f	0x1002a650	string	0x10009410	no memory
+0x10009697	0x1002a628	string	0x10009410	Uploading to a URL without a file name!
+0x10009712	0x1002a5fc	string	0x10009410	Request has same path as previous transfer\n
+0x10009769	0x100292b8	import	0x10009735	WS2_32.dll.closesocket
+0x1000980d	0x10029334	import	0x10009735	msvcrt.dll.strstr
+0x1000981d	0x1002a65c	string	0x10009735	;type=
+0x10009840	0x10009878	string	0x10009735	_^]3
+0x10009868	0x10009878	string	0x10009735	_^]3
+0x10009870	0x10009878	string	0x10009735	_^]3
+0x100098f4	0x1002a664	string	0x100098cf	MDTM %s
+0x1000996b	0x100293a4	import	0x1000991f	msvcrt.dll.strchr
+0x10009992	0x1002a7e8	string	0x1000991f	%c%c%c%u%c
+0x10009998	0x100293a8	import	0x1000991f	msvcrt.dll.sscanf
+0x10009a12	0x1002a7c8	string	0x1000991f	Weirdly formatted EPSV reply
+0x10009a56	0x1002a7b4	string	0x1000991f	%d,%d,%d,%d,%d,%d
+0x10009a5c	0x100293a8	import	0x1000991f	msvcrt.dll.sscanf
+0x10009a75	0x1002a790	string	0x1000991f	Couldn't interpret the 227-response
+0x10009aa2	0x1002a758	string	0x1000991f	Skips %d.%d.%d.%d for data connection, uses %s instead\n
+0x10009afd	0x1002a74c	string	0x1000991f	%d.%d.%d.%d
+0x10009b6c	0x1002a72c	string	0x1000991f	Can't resolve proxy host %s:%hu
+0x10009bbc	0x1002a70c	string	0x1000991f	Can't resolve new host %s:%hu
+0x10009c0b	0x1002a6cc	string	0x1000991f	got positive EPSV response, but can't connect. Disabling EPSV\n
+0x10009c19	0x1002a6c4	string	0x1000991f	PASV
+0x10009c93	0x1002a6a4	string	0x1000991f	unknown proxytype option given
+0x10009d5d	0x1002a68c	string	0x1000991f	disabling EPSV usage\n
+0x10009d73	0x1002a6c4	string	0x1000991f	PASV
+0x10009d8f	0x1002a66c	string	0x1000991f	Bad PASV/EPSV response: %03d
+0x10009da8	0x10026c4e	string	0x1000991f	;\rt
+0x10009ddd	0x1002a8c0	string	0x10009daf	unsupported MDTM reply format\n
+0x10009def	0x1002a8a4	string	0x10009daf	Given file does not exist
+0x10009e29	0x1002a888	string	0x10009daf	%04d%02d%02d%02d%02d%02d
+0x10009e2f	0x100293a8	import	0x10009daf	msvcrt.dll.sscanf
+0x10009e3e	0x100293a0	import	0x10009daf	msvcrt.dll.time
+0x10009e59	0x1002a868	string	0x10009daf	%04d%02d%02d %02d:%02d:%02d GMT
+0x10009ef1	0x10029cd4	string	0x10009daf	Last-Modified: %s, %02d %s %4d %02d:%02d:%02d GMT\r\n
+0x10009f40	0x1002a83c	string	0x10009daf	The requested document is not new enough\n
+0x10009f6d	0x1002a810	string	0x10009daf	The requested document is not old enough\n
+0x10009f74	0x1002a7f4	string	0x10009daf	Skipping time comparison\n
+0x1000a033	0x100293b0	import	0x1000a025	msvcrt.dll.strrchr
+0x1000a123	0x1002a900	string	0x1000a025	Wildcard - Parsing started\n
+0x1000a132	0x1000a144	string	0x1000a025	Y_][
+0x1000a234	0x1002a940	string	0x1000a149	Wildcard - START of "%s"\n
+0x1000a273	0x1002a91c	string	0x1000a149	Wildcard - "%s" skipped by user\n
+0x1000a342	0x1000a394	string	0x1000a149	_^][Y
+0x1000a368	0x1000a394	string	0x1000a149	_^][Y
+0x1000a3c2	0x1000a3d1	string	0x1000a39a	9x@t,
+0x1000a3c9	0x1000a3d1	string	0x1000a39a	9x@t,
+0x1000a3e2	0x1002a95c	string	0x1000a39a	CWD %s
+0x1000a444	0x1000a454	string	0x1000a40f	9U\ft
+0x1000a44c	0x1000a454	string	0x1000a40f	9U\ft
+0x1000a50a	0x1002a2c8	string	0x1000a40f	SIZE %s
+0x1000a5a6	0x1002aab8	string	0x1000a531	Got a %03d ftp-server response when 220 was expected
+0x1000a603	0x1002aab0	string	0x1000a531	AUTH %s
+0x1000a624	0x1002aa80	string	0x1000a531	unsupported parameter to CURLOPT_FTPSSLAUTH: %d
+0x1000a675	0x1002aab0	string	0x1000a531	AUTH %s
+0x1000a6f2	0x1002aa78	string	0x1000a531	PROT %c
+0x1000a795	0x1002aa48	string	0x1000a531	Failed to clear the command channel (CCC)
+0x1000a804	0x1000a7ef	string	0x1000a531	<"u\tA8
+0x1000a81e	0x1002aa34	string	0x1000a531	Entry path is '%s'\n
+0x1000a848	0x1002aa2c	string	0x1000a531	SYST
+0x1000a86a	0x1002aa10	string	0x1000a531	Failed to figure out path\n
+0x1000a8c8	0x1002aa08	string	0x1000a531	OS/400
+0x1000a8e1	0x1002a9f8	string	0x1000a531	SITE NAMEFMT 1
+0x1000a927	0x1002a9d8	string	0x1000a531	QUOT command failed with %03d
+0x1000a984	0x1002a9d0	string	0x1000a531	MKD %s
+0x1000a9a3	0x1002a99c	string	0x1000a531	Server denied you to change to the given directory
+0x1000a9ed	0x1002a984	string	0x1000a531	Failed to MKD dir: %03d
+0x1000aa17	0x1002a95c	string	0x1000a531	CWD %s
+0x1000aa76	0x1002a964	string	0x1000a531	PRET command not accepted: %03d
+0x1000ad8e	0x1002abe4	string	0x1000ac4b	Remembering we are in dir "%s"\n
+0x1000add3	0x1002abdc	string	0x1000ac4b	ABOR
+0x1000ae03	0x100292b8	import	0x1000ac4b	WS2_32.dll.closesocket
+0x1000ae7c	0x1002abbc	string	0x1000ac4b	control connection looks dead
+0x1000aeb8	0x1002ab8c	string	0x1000ac4b	partial download completed, closing connection\n
+0x1000aef0	0x1002ab68	string	0x1000ac4b	server did not report OK, got %d
+0x1000af73	0x1002ab30	string	0x1000ac4b	Uploaded unaligned file size (%lld out of %lld bytes)
+0x1000afa9	0x1000afb2	string	0x1000ac4b	PQh\b
+0x1000afb4	0x1002ab08	string	0x1000ac4b	Received only partial file: %lld bytes
+0x1000afe8	0x1002aaf0	string	0x1000ac4b	No data was received!
+0x1000b143	0x1000a149	string	0x1000b08d	QSUV3
+0x1000b18e	0x100292c0	import	0x1000b177	msvcrt.dll.getenv
+0x1000b1ad	0x1002905c	import	0x1000b177	KERNEL32.dll.ExpandEnvironmentStringsA
+0x1000b1d3	0x10026c4e	string	0x1000b177	;\rt
+0x1000b6df	0x1002ac50	string	0x1000b267	Failed sending Gopher request
+0x1000b729	0x1002ac50	string	0x1000b267	Failed sending Gopher request
+0x1000b941	0x1000b957	string	0x1000b8c4	_^[]
+0x1000bbb6	0x1002ac6e	string	0x1000bb00	6\%d
+0x1000bd5a	0x1002ac74	string	0x1000bd52	%s:%d
+0x1000bdd0	0x100293a0	import	0x1000bda4	msvcrt.dll.time
+0x1000be1c	0x100293a0	import	0x1000bdfc	msvcrt.dll.time
+0x1000c12d	0x10029058	import	0x1000c126	KERNEL32.dll.DeleteCriticalSection
+0x1000c18d	0x10029054	import	0x1000c167	KERNEL32.dll.InitializeCriticalSection
+0x1000c21d	0x10029274	import	0x1000c1db	WS2_32.dll.WSAGetLastError
+0x1000c233	0x1002904c	import	0x1000c1db	KERNEL32.dll.EnterCriticalSection
+0x1000c242	0x10029050	import	0x1000c1db	KERNEL32.dll.LeaveCriticalSection
+0x1000c250	0x10026c4e	string	0x1000c1db	;\rt
+0x1000c27d	0x100292b8	import	0x1000c259	WS2_32.dll.closesocket
+0x1000c32f	0x10029294	import	0x1000c2ab	WS2_32.dll.socket
+0x1000c353	0x10029330	import	0x1000c2ab	msvcrt.dll._errno
+0x1000c36e	0x10029048	import	0x1000c2ab	KERNEL32.dll.SetLastError
+0x1000c3db	0x1001dd44	string	0x1000c380	QSUVW
+0x1000c3e7	0x1002ac9c	string	0x1000c380	Could not resolve proxy: %s; %s
+0x1000c3fb	0x1001dd44	string	0x1000c380	QSUVW
+0x1000c407	0x1002ac7c	string	0x1000c380	Could not resolve host: %s; %s
+0x1000c45e	0x1000c522	string	0x1000c440	_^[]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1000c466	0x1002904c	import	0x1000c440	KERNEL32.dll.EnterCriticalSection
+0x1000c475	0x10029050	import	0x1000c440	KERNEL32.dll.LeaveCriticalSection
+0x1000c4a6	0x1001dd44	string	0x1000c440	QSUVW
+0x1000c4af	0x1002ac7c	string	0x1000c440	Could not resolve host: %s; %s
+0x1000c5be	0x10029078	import	0x1000c551	KERNEL32.dll.GetLastError
+0x1000c5c6	0x1001dd44	string	0x1000c551	QSUVW
+0x1000c5cd	0x1002ace0	string	0x1000c551	init_resolve_thread() failed for %s; %s\n
+0x1000c5f3	0x10029274	import	0x1000c551	WS2_32.dll.WSAGetLastError
+0x1000c5fb	0x1001dd44	string	0x1000c551	QSUVW
+0x1000c605	0x1002acbc	string	0x1000c551	getaddrinfo() failed for %s:%d; %s\n
+0x1000c622	0x10026c4e	string	0x1000c551	;\rt
+0x1000c710	0x1002937c	import	0x1000c65a	msvcrt.dll.strtoul
+0x1000cac6	0x1002ad7c	string	0x1000cab7	%02x
+0x1000cbae	0x1002aec4	string	0x1000cae1	%06ld
+0x1000cbf7	0x1002aeb8	string	0x1000cae1	%s:%s:%s
+0x1000cc97	0x100293a4	import	0x1000cae1	msvcrt.dll.strchr
+0x1000ccad	0x1002aeb0	string	0x1000cae1	%s:%.*s
+0x1000ccc2	0x1002aea8	string	0x1000cae1	%s:%s
+0x1000ccef	0x1002ae9c	string	0x1000cae1	auth-int
+0x1000cd37	0x1002ae88	string	0x1000cae1	%s:%s:%08x:%s:%s:%s
+0x1000cd97	0x1002ae80	string	0x1000cae1	Proxy-
+0x1000cdba	0x1002ae08	string	0x1000cae1	%sAuthorization: Digest username="%s", realm="%s", nonce="%s", uri="%s", cnonce="%s", nc=%08x, qop="%s", response="%s"
+0x1000cdc6	0x1002ae00	string	0x1000cae1	auth
+0x1000cde3	0x1002ae80	string	0x1000cae1	Proxy-
+0x1000cdff	0x1002ada8	string	0x1000cae1	%sAuthorization: Digest username="%s", realm="%s", nonce="%s", uri="%s", response="%s"
+0x1000ce21	0x1002ad98	string	0x1000cae1	%s, opaque="%s"
+0x1000ce4d	0x1002ad84	string	0x1000cae1	%s, algorithm="%s"
+0x1000cea8	0x10026c4e	string	0x1000cae1	;\rt
+0x1000cf9f	0x10029360	import	0x1000cf4e	msvcrt.dll.isspace
+0x1000cfb1	0x1002af18	string	0x1000cf4e	Digest
+0x1000cff4	0x10029360	import	0x1000cf4e	msvcrt.dll.isspace
+0x1000d02c	0x1002af10	string	0x1000cf4e	nonce
+0x1000d054	0x1002af08	string	0x1000cf4e	stale
+0x1000d068	0x1002af00	string	0x1000cf4e	true
+0x1000d091	0x1002aef8	string	0x1000cf4e	realm
+0x1000d0ba	0x1002aef0	string	0x1000cf4e	opaque
+0x1000d119	0x1002ae00	string	0x1000cf4e	auth
+0x1000d133	0x1002ae9c	string	0x1000cf4e	auth-int
+0x1000d171	0x1002ae00	string	0x1000cf4e	auth
+0x1000d17e	0x1002ae9c	string	0x1000cf4e	auth-int
+0x1000d19f	0x1002aedc	string	0x1000cf4e	algorithm
+0x1000d1c5	0x1002aed0	string	0x1000cf4e	MD5-sess
+0x1000d200	0x10029360	import	0x1000cf4e	msvcrt.dll.isspace
+0x1000d254	0x10026c4e	string	0x1000cf4e	;\rt
+0x1000d2a6	0x10029360	import	0x1000d280	msvcrt.dll.isspace
+0x1000d2b8	0x1002af34	string	0x1000d280	NTLM
+0x1000d2ed	0x10029360	import	0x1000d280	msvcrt.dll.isspace
+0x1000d442	0x10026c4e	string	0x1000d3a9	;\rt
+0x1000d4c1	0x10026c4e	string	0x1000d449	;\rt
+0x1000d52e	0x1002af24	string	0x1000d4cb	KGS!@#$%NTLMSSP
+0x1000d56c	0x10026c4e	string	0x1000d4cb	;\rt
+0x1000d6c9	0x1000d6d2	string	0x1000d606	9]\fu\a
+0x1000d730	0x1002b024	string	0x1000d606	NTLMSSP%c
+0x1000d77b	0x1002ae80	string	0x1000d606	Proxy-
+0x1000d791	0x1002b008	string	0x1000d606	%sAuthorization: NTLM %s\r\n
+0x1000d7d5	0x100293a4	import	0x1000d606	msvcrt.dll.strchr
+0x1000d7e9	0x100293a4	import	0x1000d606	msvcrt.dll.strchr
+0x1000d832	0x1002afdc	string	0x1000d606	gethostname() failed, continuing without!
+0x1000d84a	0x100293a4	import	0x1000d606	msvcrt.dll.strchr
+0x1000da51	0x1002af60	string	0x1000d606	NTLMSSP%c
+0x1000dacc	0x1002af3c	string	0x1000d606	user + domain + host name too big
+0x1000dae8	0x10026c4e	string	0x1000d606	;\rt
+0x1000dbf9	0x1000dbf0	string	0x1000dbe0	<:t\aG
+0x1000dc03	0x10029360	import	0x1000dbe0	msvcrt.dll.isspace
+0x1000dc13	0x100293a4	import	0x1000dbe0	msvcrt.dll.strchr
+0x1000dc41	0x1000dc7b	string	0x1000dbe0	_^][
+0x1000dc47	0x10029360	import	0x1000dbe0	msvcrt.dll.isspace
+0x1000dcb7	0x1002aea8	string	0x1000dc80	%s:%s
+0x1000dce8	0x1000dd32	string	0x1000dc80	j\eX_^[
+0x1000dcfc	0x1002ae80	string	0x1000dc80	Proxy-
+0x1000de8a	0x1002b100	string	0x1000dd75	NTLM send, close instead of sending %lld bytes\n
+0x1000def1	0x1002af34	string	0x1000ded7	NTLM
+0x1000df0f	0x1002af18	string	0x1000ded7	Digest
+0x1000df3b	0x1002b17c	string	0x1000ded7	Proxy-authorization:
+0x1000df51	0x1002b174	string	0x1000ded7	Basic
+0x1000df85	0x1002b164	string	0x1000ded7	Authorization:
+0x1000df9f	0x1002b15c	string	0x1000ded7	Proxy
+0x1000dfa4	0x1000dfab	string	0x1000ded7	VSPh0
+0x1000dfa6	0x1002b154	string	0x1000ded7	Server
+0x1000dfae	0x1002b130	string	0x1000ded7	%s auth using %s with user '%s'\n
+0x1000e0e2	0x1002b1f8	string	0x1000e0ca	Proxy-authenticate:
+0x1000e0ff	0x1002b1e4	string	0x1000e0ca	WWW-Authenticate:
+0x1000e121	0x10029360	import	0x1000e0ca	msvcrt.dll.isspace
+0x1000e133	0x1002af34	string	0x1000e0ca	NTLM
+0x1000e13f	0x1002af34	string	0x1000e0ca	NTLM
+0x1000e194	0x1002af18	string	0x1000e0ca	Digest
+0x1000e1a0	0x1002af18	string	0x1000e0ca	Digest
+0x1000e1b7	0x1002b1bc	string	0x1000e0ca	Ignoring duplicate digest auth header.\n
+0x1000e1c4	0x1000e24a	string	0x1000e0ca	YY_^3
+0x1000e1f1	0x1002b194	string	0x1000e0ca	Authentication problem. Ignoring this.\n
+0x1000e206	0x1000e24a	string	0x1000e0ca	YY_^3
+0x1000e208	0x1002b174	string	0x1000e0ca	Basic
+0x1000e214	0x1002b174	string	0x1000e0ca	Basic
+0x1000e239	0x1002b194	string	0x1000e0ca	Authentication problem. Ignoring this.\n
+0x1000e2de	0x1000e2ed	string	0x1000e2c2	3Ƀ~X blocks=Basic Latin,Latin Extended-B
+0x1000e2e4	0x1000e2ed	string	0x1000e2c2	3Ƀ~X blocks=Basic Latin,Latin Extended-B
+0x1000e2e8	0x1000e380	string	0x1000e2c2	_^[]
+0x1000e357	0x1000e380	string	0x1000e2c2	_^[]
+0x1000e361	0x1000e380	string	0x1000e2c2	_^[]
+0x1000e5f9	0x10029360	import	0x1000e5ce	msvcrt.dll.isspace
+0x1000e60b	0x100293a4	import	0x1000e5ce	msvcrt.dll.strchr
+0x1000e678	0x1000e684	string	0x1000e662	^ËL$ blocks=Basic Latin,Latin-1 Supplement
+0x1000e75e	0x1002939c	import	0x1000e6c1	msvcrt.dll.fclose
+0x1000e787	0x1000e7ca	string	0x1000e6c1	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1000e7b6	0x1002b20c	string	0x1000e6c1	Empty reply from server
+0x1000e7c6	0x1000e7ca	string	0x1000e6c1	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1000e830	0x1002b224	string	0x1000e803	HTTP/
+0x1000e856	0x1002b22c	string	0x1000e855	RTSP/
+0x1000e8b7	0x1002b25c	string	0x1000e896	Avoided giant realloc for header (max is %d)!
+0x1000e8f6	0x1002b234	string	0x1000e896	Failed to alloc memory for big header!
+0x1000eac3	0x1002b28c	string	0x1000e93c	The requested URL returned error: %d
+0x1000eb55	0x1002b2dc	string	0x1000eb39	Expect:
+0x1000eb67	0x1002b2cc	string	0x1000eb39	100-continue
+0x1000eb7e	0x1002b2b4	string	0x1000eb39	Expect: 100-continue\r\n
+0x1000ebbb	0x100293a4	import	0x1000eba3	msvcrt.dll.strchr
+0x1000ebdc	0x10029360	import	0x1000eba3	msvcrt.dll.isspace
+0x1000ec00	0x1002b30c	string	0x1000eba3	Host:
+0x1000ec26	0x1002b2fc	string	0x1000eba3	Content-Type:
+0x1000ec4a	0x1002b2ec	string	0x1000eba3	Content-Length
+0x1000ec67	0x1002b2e4	string	0x1000eba3	%s\r\n
+0x1000ecb6	0x1002b380	string	0x1000ec8d	Invalid TIMEVALUE\n
+0x1000ecfb	0x1002b35c	string	0x1000ec8d	%s, %02d %s %4d %02d:%02d:%02d GMT
+0x1000ed1c	0x1002b344	string	0x1000ec8d	If-Modified-Since: %s\r\n
+0x1000ed23	0x1002b330	string	0x1000ec8d	Last-Modified: %s\r\n
+0x1000ed2a	0x1002b314	string	0x1000ec8d	If-Unmodified-Since: %s\r\n
+0x1000ee41	0x1002b760	string	0x1000ed3f	HEAD
+0x1000ee53	0x1002b754	string	0x1000ed3f	POST
+0x1000ee63	0x1002b744	string	0x1000ed3f	User-Agent:
+0x1000eeea	0x1002b738	string	0x1000ed3f	Referer:
+0x1000ef01	0x1002b728	string	0x1000ed3f	Referer: %s\r\n
+0x1000ef26	0x1002b720	string	0x1000ed3f	Cookie:
+0x1000ef3c	0x1002b70c	string	0x1000ed3f	Accept-Encoding:
+0x1000ef68	0x1002b6f4	string	0x1000ed3f	Accept-Encoding: %s\r\n
+0x1000ef7f	0x1002b6e0	string	0x1000ed3f	Transfer-Encoding:
+0x1000ef93	0x1002b6d8	string	0x1000ed3f	chunked
+0x1000efec	0x1002b6ac	string	0x1000ed3f	Chunky upload is not supported by HTTP 1.0
+0x1000f00e	0x1002b68c	string	0x1000ed3f	Transfer-Encoding: chunked\r\n
+0x1000f020	0x1002b30c	string	0x1000ed3f	Host:
+0x1000f053	0x1000dbe0	string	0x1000ed3f	SUVW
+0x1000f075	0x100293a4	import	0x1000ed3f	msvcrt.dll.strchr
+0x1000f0e2	0x1002b678	string	0x1000ed3f	Host: %s%s%s\r\n
+0x1000f11f	0x1002b660	string	0x1000ed3f	Host: %s%s%s:%hu\r\n
+0x1000f16e	0x10029334	import	0x1000ed3f	msvcrt.dll.strstr
+0x1000f242	0x1002b658	string	0x1000ed3f	ftp://
+0x1000f272	0x1002a65c	string	0x1000ed3f	;type=
+0x1000f27a	0x10029334	import	0x1000ed3f	msvcrt.dll.strstr
+0x1000f2ea	0x1002b64c	string	0x1000ed3f	;type=%c
+0x1000f320	0x1002b2fc	string	0x1000ed3f	Content-Type:
+0x1000f346	0x1002b644	string	0x1000ed3f	Accept:
+0x1000f35c	0x1002b634	string	0x1000ed3f	Accept: */*\r\n
+0x1000f3f3	0x1002a324	string	0x1000ed3f	Could not seek stream
+0x1000f4c0	0x1002b610	string	0x1000ed3f	File already completely uploaded
+0x1000f4d8	0x1002b5e4	string	0x1000ed3f	Could only read %lld bytes from the input
+0x1000f505	0x1002b5dc	string	0x1000ed3f	Range:
+0x1000f52e	0x1002b5c8	string	0x1000ed3f	Range: bytes=%s\r\n
+0x1000f54f	0x1002b5b8	string	0x1000ed3f	Content-Range:
+0x1000f59d	0x1002b594	string	0x1000ed3f	Content-Range: bytes 0-%lld/%lld\r\n
+0x1000f5dd	0x1002b570	string	0x1000ed3f	Content-Range: bytes %s%lld/%lld\r\n
+0x1000f5fe	0x1002b550	string	0x1000ed3f	Content-Range: bytes %s/%lld\r\n
+0x1000f679	0x1002b534	string	0x1000ed3f	ftp://%s:%s@%s
+0x1000f6b8	0x1002b520	string	0x1000ed3f	Proxy-Connection:
+0x1000f6c9	0x1002b500	string	0x1000ed3f	Proxy-Connection: Keep-Alive\r\n
+0x1000f7a4	0x1002b4dc	string	0x1000ed3f	%s HTTP/%s\r\n%s%s%s%s%s%s%s%s%s%s
+0x1000f84e	0x1002b4d0	string	0x1000ed3f	Cookie:
+0x1000f870	0x1002b4c8	string	0x1000ed3f	%s%s=%s
+0x1000f8b2	0x1002b4d0	string	0x1000ed3f	Cookie:
+0x1000f8d4	0x1002b4c0	string	0x1000ed3f	%s%s
+0x1000f9a2	0x1002b4a4	string	0x1000ed3f	Failed sending HTTP request
+0x1000fa2b	0x10029d20	string	0x1000ed3f	Content-Length: %lld\r\n
+0x1000fa9d	0x1002b484	string	0x1000ed3f	Failed sending PUT request
+0x1000fb19	0x1002b468	string	0x1000ed3f	Internal HTTP POST error!
+0x1000fb5d	0x10029d20	string	0x1000ed3f	Content-Length: %lld\r\n
+0x1000fba3	0x1002b440	string	0x1000ed3f	Could not get Content-Type header line!
+0x1000fc08	0x1002b424	string	0x1000ed3f	Failed sending POST request
+0x1000fc4a	0x1002b40c	string	0x1000ed3f	Content-Length: 0\r\n\r\n
+0x1000fc7d	0x1002b424	string	0x1000ed3f	Failed sending POST request
+0x1000fced	0x1002b3fc	string	0x1000ed3f	Content-Length:
+0x1000fd04	0x10029d20	string	0x1000ed3f	Content-Length: %lld\r\n
+0x1000fd1c	0x1002b2fc	string	0x1000ed3f	Content-Type:
+0x1000fd2d	0x1002b3c8	string	0x1000ed3f	Content-Type: application/x-www-form-urlencoded\r\n
+0x1000fd44	0x1002b2dc	string	0x1000ed3f	Expect:
+0x1000fd56	0x1002b2cc	string	0x1000ed3f	100-continue
+0x1000fe12	0x1002b3c0	string	0x1000ed3f	%x\r\n
+0x1000fe40	0x1002b3b8	string	0x1000ed3f	\r\n0\r\n\r\n
+0x1000ff01	0x1002b3b8	string	0x1000ed3f	\r\n0\r\n\r\n
+0x1000ff76	0x1002b394	string	0x1000ed3f	Failed sending HTTP POST request
+0x1000ffef	0x10026c4e	string	0x1000ed3f	;\rt
+0x10010017	0x100292c8	import	0x1000fff6	msvcrt.dll.memchr
+0x1001004e	0x10010b33	string	0x1000fff6	_^][
+0x100100cc	0x1002b950	string	0x1000fff6	HTTP/%d.%d %3d
+0x100100d2	0x100293a8	import	0x1000fff6	msvcrt.dll.sscanf
+0x100100f3	0x1002b944	string	0x1000fff6	HTTP %3d
+0x100100fb	0x100293a8	import	0x1000fff6	msvcrt.dll.sscanf
+0x1001015f	0x1002b934	string	0x1000fff6	RTSP/%d.%d %3d
+0x10010165	0x100293a8	import	0x1000fff6	msvcrt.dll.sscanf
+0x10010232	0x1002b910	string	0x1000fff6	HTTP 1.0, assume close after body\n
+0x100102b6	0x1002b3fc	string	0x1000fff6	Content-Length:
+0x1001030e	0x10010331	string	0x1000fff6	RPhظ blocks=Basic Latin,Arabic
+0x10010314	0x10010331	string	0x1000fff6	RPhظ blocks=Basic Latin,Arabic
+0x10010333	0x1002b8d8	string	0x1000fff6	Negative content-length: %lld, closing after transfer\n
+0x10010350	0x1002b2fc	string	0x1000fff6	Content-Type:
+0x1001036f	0x1000dbe0	string	0x1000fff6	SUVW
+0x100103bd	0x1002b8cc	string	0x1000fff6	keep-alive
+0x100103c2	0x1002b520	string	0x1000fff6	Proxy-Connection:
+0x100103d6	0x1002b89c	string	0x1000fff6	HTTP/1.0 proxy connection set to keep alive!\n
+0x100103ef	0x1002b894	string	0x1000fff6	close
+0x100103f4	0x1002b520	string	0x1000fff6	Proxy-Connection:
+0x10010412	0x1002b86c	string	0x1000fff6	HTTP/1.1 proxy connection set close!\n
+0x10010422	0x1002b8cc	string	0x1000fff6	keep-alive
+0x10010427	0x1002b860	string	0x1000fff6	Connection:
+0x1001043b	0x1002b838	string	0x1000fff6	HTTP/1.0 connection set to keep alive!\n
+0x10010450	0x1002b894	string	0x1000fff6	close
+0x10010455	0x1002b860	string	0x1000fff6	Connection:
+0x10010478	0x1002b6d8	string	0x1000fff6	chunked
+0x1001047d	0x1002b6e0	string	0x1000fff6	Transfer-Encoding:
+0x100104b0	0x1002b824	string	0x1000fff6	Content-Encoding:
+0x100104e9	0x10029360	import	0x1000fff6	msvcrt.dll.isspace
+0x100104fb	0x1002b818	string	0x1000fff6	identity
+0x10010507	0x1002b818	string	0x1000fff6	identity
+0x10010524	0x1002b810	string	0x1000fff6	deflate
+0x10010530	0x1002b810	string	0x1000fff6	deflate
+0x10010550	0x1002b808	string	0x1000fff6	gzip
+0x1001055c	0x1002b808	string	0x1000fff6	gzip
+0x1001056d	0x1002b800	string	0x1000fff6	x-gzip
+0x10010579	0x1002b800	string	0x1000fff6	x-gzip
+0x1001058a	0x1002b7f4	string	0x1000fff6	compress
+0x10010596	0x1002b7f4	string	0x1000fff6	compress
+0x100105a7	0x1002b7e8	string	0x1000fff6	x-compress
+0x100105b3	0x1002b7e8	string	0x1000fff6	x-compress
+0x100105e6	0x1002b5b8	string	0x1000fff6	Content-Range:
+0x1001060e	0x1002936c	import	0x1000fff6	msvcrt.dll.isdigit
+0x10010666	0x10029918	string	0x1000fff6	Set-Cookie:
+0x100106c8	0x1002b7d8	string	0x1000fff6	Last-Modified:
+0x100106f7	0x100293a0	import	0x1000fff6	msvcrt.dll.time
+0x10010737	0x1002b1e4	string	0x1000fff6	WWW-Authenticate:
+0x1001075d	0x1002b1f8	string	0x1000fff6	Proxy-authenticate:
+0x100107a6	0x1002b7cc	string	0x1000fff6	Location:
+0x100107ce	0x1000dbe0	string	0x1000fff6	SUVW
+0x10010828	0x10010b33	string	0x1000fff6	_^][
+0x1001086a	0x10010b33	string	0x1000fff6	_^][
+0x10010900	0x1002b790	string	0x1000fff6	no chunk, no close, no size. Assume close to signal end\n
+0x10010967	0x10010b33	string	0x1000fff6	_^][
+0x1001097f	0x10010988	string	0x1000fff6	3ɋD$, blocks=Basic Latin,Latin Extended-B
+0x1001099f	0x10010b33	string	0x1000fff6	_^][
+0x100109af	0x1002b768	string	0x1000fff6	Keep sending data to get tossed away!\n
+0x10010a06	0x10010b33	string	0x1000fff6	_^][
+0x10010a78	0x1002a494	string	0x1000fff6	Maximum file size exceeded
+0x10010a90	0x1002b28c	string	0x1000fff6	The requested URL returned error: %d
+0x10010aa1	0x10010b33	string	0x1000fff6	_^][
+0x10010b9d	0x1002bb2c	string	0x10010b3b	Establish HTTP proxy tunnel to %s:%hu\n
+0x10010bd6	0x1002bb24	string	0x10010b3b	%s:%hu
+0x10010bf4	0x1002bb1c	string	0x10010b3b	CONNECT
+0x10010c32	0x1002b30c	string	0x10010b3b	Host:
+0x10010c46	0x1002bb10	string	0x10010b3b	Host: %s\r\n
+0x10010c5c	0x1002b520	string	0x10010b3b	Proxy-Connection:
+0x10010c6d	0x1002b500	string	0x10010b3b	Proxy-Connection: Keep-Alive\r\n
+0x10010c74	0x1002b744	string	0x10010b3b	User-Agent:
+0x10010cbb	0x1002baec	string	0x10010b3b	CONNECT %s:%hu HTTP/%s\r\n%s%s%s%s
+0x10010d2d	0x1002bacc	string	0x10010b3b	Failed sending CONNECT to proxy
+0x10010e80	0x1002bab4	string	0x10010b3b	Proxy CONNECT aborted
+0x10010ee5	0x1002baa0	string	0x10010b3b	chunk reading DONE\n
+0x10010efb	0x1002ba7c	string	0x10010b3b	Read %zd bytes of chunk, continue\n
+0x10010f88	0x1002b1e4	string	0x10010b3b	WWW-Authenticate:
+0x10010f9c	0x1002b1e4	string	0x10010b3b	WWW-Authenticate:
+0x10010fba	0x1002b1f8	string	0x10010b3b	Proxy-authenticate:
+0x10010fc8	0x1002b1f8	string	0x10010b3b	Proxy-authenticate:
+0x10011000	0x1002b3fc	string	0x10010b3b	Content-Length:
+0x1001100e	0x1002b3fc	string	0x10010b3b	Content-Length:
+0x10011023	0x1002b3fc	string	0x10010b3b	Content-Length:
+0x10011046	0x1002b894	string	0x10010b3b	close
+0x1001104b	0x1002b860	string	0x10010b3b	Connection:
+0x1001105f	0x1002b6d8	string	0x10010b3b	chunked
+0x10011064	0x1002b6e0	string	0x10010b3b	Transfer-Encoding:
+0x10011078	0x1002ba60	string	0x10010b3b	CONNECT responded chunked\n
+0x10011095	0x1002b894	string	0x10010b3b	close
+0x1001109a	0x1002b520	string	0x10010b3b	Proxy-Connection:
+0x100110c2	0x1002ba50	string	0x10010b3b	HTTP/1.%d %d
+0x100110ca	0x100293a8	import	0x10010b3b	msvcrt.dll.sscanf
+0x10011149	0x1002ba2c	string	0x10010b3b	Ignore %lld bytes of response-body\n
+0x1001117c	0x1002ba10	string	0x10010b3b	%zd bytes of chunk left\n
+0x100111c3	0x1002b9e0	string	0x10010b3b	Proxy CONNECT aborted due to select/poll error
+0x100111e0	0x10011298	string	0x10010b3b	j*뽋E blocks=Basic Latin,Hangul Syllables
+0x100111f5	0x1002b9b8	string	0x10010b3b	Proxy CONNECT aborted due to timeout
+0x10011287	0x1002b9b8	string	0x10010b3b	Proxy CONNECT aborted due to timeout
+0x100112a1	0x100292b8	import	0x10010b3b	WS2_32.dll.closesocket
+0x100112bb	0x1002b988	string	0x10010b3b	Received HTTP code %d from proxy after CONNECT
+0x100112f2	0x1002b960	string	0x10010b3b	Proxy replied OK to CONNECT request\n
+0x10011486	0x1002bc68	string	0x1001145a	%s LOGIN %s %s
+0x100114b5	0x1002bc78	string	0x100114a7	STARTTLS denied. %c
+0x10011501	0x1002bc8c	string	0x100114f4	Access denied. %c
+0x10011697	0x1002bcd8	string	0x1001167d	%s SELECT %s
+0x100116c1	0x1002bce8	string	0x100116b7	%s FETCH 1 BODY[TEXT]
+0x100116ea	0x1002bd00	string	0x100116e0	Select failed
+0x10011793	0x100114f4	string	0x10011704	3҃|$ blocks=Basic Latin,Cyrillic
+0x100117a0	0x1002bd1c	string	0x10011704	Got unexpected imap-server response
+0x100117ce	0x1002bd10	string	0x10011704	%s STARTTLS
+0x100117ff	0x10015683	string	0x100117f3	SUVW
+0x10011826	0x10015705	string	0x10011815	SUVW
+0x10011945	0x10011948	string	0x10011837	9D$\bt
+0x100119c2	0x1002bd44	string	0x100119b6	%s LOGOUT
+0x100119d3	0x100119e6	string	0x100119b6	Ã|$\b blocks=Latin-1 Supplement,Basic Latin
+0x10011a28	0x1002bd50	string	0x10011a1a	INBOX
+0x10011b94	0x1002a74c	string	0x10011b6e	%d.%d.%d.%d
+0x10011bcf	0x10029048	import	0x10011b6e	KERNEL32.dll.SetLastError
+0x10011bdc	0x10026c4e	string	0x10011b6e	;\rt
+0x10011bf0	0x10029048	import	0x10011be3	KERNEL32.dll.SetLastError
+0x10011c35	0x1002bd58	string	0x10011c0f	0123456789
+0x10011c3f	0x100293a4	import	0x10011c0f	msvcrt.dll.strchr
+0x10011cd6	0x10029048	import	0x10011cc9	KERNEL32.dll.SetLastError
+0x10011ee7	0x1002936c	import	0x10011edf	msvcrt.dll.isdigit
+0x100120b5	0x100293ac	import	0x10011f79	msvcrt.dll.strtol
+0x100120d2	0x10012105	string	0x10011f79	j\nPR
+0x1001210f	0x100293ac	import	0x10011f79	msvcrt.dll.strtol
+0x10012571	0x1002bd7c	string	0x10012522	0123456789abcdefghijklmnopqrstuvwxyz
+0x100127b9	0x1002bddc	string	0x10012522	.%ld
+0x10012818	0x100292d0	import	0x10012522	msvcrt.dll.sprintf
+0x10012955	0x1002bda4	string	0x10012522	0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0x100129a7	0x1002bda4	string	0x10012522	0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0x10012a3f	0x10012a4f	string	0x10012522	9U\t\n
+0x10012a52	0x10012a5e	string	0x10012522	9U`u
+0x10012a58	0x10012a5e	string	0x10012522	9U`u
+0x10012be9	0x1002bdd4	string	0x10012522	(nil)
+0x10012c61	0x1002bdcc	string	0x10012522	(nil)
+0x10012d3e	0x1002bd7c	string	0x10012522	0123456789abcdefghijklmnopqrstuvwxyz
+0x10012d5d	0x10026c4e	string	0x10012522	;\rt
+0x10012e72	0x100292d4	import	0x10012dd6	msvcrt.dll.fputc
+0x10012e8e	0x100292d4	import	0x10012e85	msvcrt.dll.fputc
+0x10012ed3	0x100292d4	import	0x10012e85	msvcrt.dll.fputc
+0x10012eeb	0x100292d4	import	0x10012e85	msvcrt.dll.fputc
+0x10013222	0x10013218	string	0x100131ab	9>t\bA
+0x100137af	0x1002be24	string	0x10013757	Internal error clearing splay node = %d\n
+0x10013867	0x1002bdf8	string	0x10013757	Internal error removing splay node = %d\n
+0x1001393e	0x1002be50	string	0x100138d7	Delayed kill of easy handle %p\n
+0x10013fdb	0x100149a9	string	0x10013fb1	X_^[
+0x10013ff2	0x1002bf18	string	0x10013fb1	Pipe broke: handle 0x%p, url = %s\n
+0x10014099	0x1002beec	string	0x10013fb1	Resolving timed out after %ld milliseconds
+0x100140bd	0x1002bec0	string	0x10013fb1	Connection timed out after %ld milliseconds
+0x100140eb	0x1002be70	string	0x10013fb1	Operation timed out after %ld milliseconds with %lld out of %lld bytes received
+0x10014f4b	0x1002bf68	string	0x10014ee4	HOME
+0x10014f5d	0x1002bf60	string	0x10014ee4	_netrc
+0x10014f68	0x1002a2d0	string	0x10014ee4	%s%s%s
+0x10014f99	0x10029394	import	0x10014ee4	msvcrt.dll.fopen
+0x10014fb8	0x10029398	import	0x10014ee4	msvcrt.dll.fgets
+0x10015033	0x1002932c	import	0x10014ee4	msvcrt.dll.strncpy
+0x1001505b	0x1002932c	import	0x10014ee4	msvcrt.dll.strncpy
+0x1001506b	0x1002bf50	string	0x10014ee4	login
+0x10015082	0x1002bf44	string	0x10014ee4	password
+0x10015099	0x1002bf3c	string	0x10014ee4	machine
+0x100150d2	0x1002bf3c	string	0x10014ee4	machine
+0x100150fc	0x1002939c	import	0x10014ee4	msvcrt.dll.fclose
+0x1001512f	0x10026c4e	string	0x10014ee4	;\rt
+0x10015151	0x1002926c	import	0x1001513c	WS2_32.dll.ioctlsocket
+0x100151f7	0x10029370	import	0x100151ef	msvcrt.dll.isalnum
+0x1001532a	0x10029374	import	0x100152bf	msvcrt.dll.isalpha
+0x1001534e	0x1002c3e4	string	0x100152bf	%31[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]
+0x10015354	0x100293a8	import	0x100152bf	msvcrt.dll.sscanf
+0x100153bf	0x1002936c	import	0x100152bf	msvcrt.dll.isdigit
+0x100153d3	0x100293a8	import	0x100152bf	msvcrt.dll.sscanf
+0x100153e5	0x1002c3d4	string	0x100152bf	%02d:%02d:%02d
+0x1001540a	0x1002c3c8	string	0x100152bf	%02d:%02d
+0x1001542d	0x100293ac	import	0x100152bf	msvcrt.dll.strtol
+0x100155cf	0x10026c4e	string	0x100152bf	;\rt
+0x100155fc	0x100292d8	import	0x100155f7	msvcrt.dll.gmtime
+0x10015605	0x10015619	string	0x100155f7	j+XËD$ blocks=Basic Latin,Latin-1 Supplement
+0x100156a6	0x1002c434	string	0x10015683	server response timeout
+0x100156b6	0x10015700	string	0x10015683	_^][
+0x100156de	0x1002c420	string	0x10015683	select/poll error
+0x10015723	0x1002c434	string	0x10015705	server response timeout
+0x1001578b	0x1002c420	string	0x10015705	select/poll error
+0x100158ab	0x1002c44c	string	0x100157d4	out of memory
+0x100158dc	0x10026c4e	string	0x100157d4	;\rt
+0x10015c08	0x1002c5b0	string	0x10015bc1	-ERR
+0x10015c4f	0x1002a1a0	string	0x10015c34	USER %s
+0x10015c7c	0x1002bc78	string	0x10015c6e	STARTTLS denied. %c
+0x10015cce	0x1002bc8c	string	0x10015cbb	Access denied. %c
+0x10015cf3	0x1002a5a4	string	0x10015cbb	PASS %s
+0x10015d1f	0x1002bc8c	string	0x10015d12	Access denied. %c
+0x10015d49	0x1002a3dc	string	0x10015d3d	RETR %s
+0x10015d74	0x1002c5bc	string	0x10015d68	LIST %s
+0x10015d9f	0x10015683	string	0x10015d93	SUVW
+0x10015dc6	0x10015705	string	0x10015db5	SUVW
+0x10015e8e	0x1002a5f4	string	0x10015e86	QUIT
+0x10015e9e	0x10015eb1	string	0x10015e86	Ã|$\b blocks=Latin-1 Supplement,Basic Latin
+0x10015fa0	0x10015faf	string	0x10015f56	_^[]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10015fa8	0x10015faf	string	0x10015f56	_^[]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10016031	0x1002c5c4	string	0x10015ff8	\r\n.\r\n
+0x100161a1	0x10015d12	string	0x10016111	3҃|$ blocks=Basic Latin,Cyrillic
+0x100161b6	0x1002c5d8	string	0x10016111	Got unexpected pop3-server response
+0x100161db	0x1002c5cc	string	0x10016111	STARTTLS
+0x10016340	0x1002c628	string	0x10016329	--:--:--
+0x1001635f	0x10026db0	string	0x10016329	WVS3
+0x1001638e	0x10026db0	string	0x10016329	WVS3
+0x100163c9	0x1002c614	string	0x10016329	%2lld:%02lld:%02lld
+0x100163e6	0x10026db0	string	0x10016329	WVS3
+0x10016415	0x10026db0	string	0x10016329	WVS3
+0x10016422	0x1002c604	string	0x10016329	%3lldd %02lldh
+0x10016438	0x1002c5fc	string	0x10016329	%7lldd
+0x1001646d	0x1002c67c	string	0x1001644f	%5lld
+0x1001648d	0x10026db0	string	0x1001644f	WVS3
+0x10016494	0x1002c674	string	0x1001644f	%4lldk
+0x100164c1	0x10026db0	string	0x1001644f	WVS3
+0x100164d0	0x10026db0	string	0x1001644f	WVS3
+0x100164d7	0x1002c664	string	0x1001644f	%2lld.%0lldM
+0x100164f5	0x10026db0	string	0x1001644f	WVS3
+0x100164fc	0x1002c65c	string	0x1001644f	%4lldM
+0x10016526	0x10026db0	string	0x1001644f	WVS3
+0x10016535	0x10026db0	string	0x1001644f	WVS3
+0x1001653c	0x1002c64c	string	0x1001644f	%2lld.%0lldG
+0x10016566	0x10026db0	string	0x1001644f	WVS3
+0x1001656d	0x1002c644	string	0x1001644f	%4lldG
+0x1001658a	0x10026db0	string	0x1001644f	WVS3
+0x10016591	0x1002c63c	string	0x1001644f	%4lldT
+0x100165a0	0x10026db0	string	0x1001644f	WVS3
+0x100165a7	0x1002c634	string	0x1001644f	%4lldP
+0x100169cb	0x10026db0	string	0x100167b7	WVS3
+0x10016a5a	0x1002c78c	string	0x100167b7	Callback aborted
+0x10016a8f	0x1002c75c	string	0x100167b7	** Resuming transfer from byte position %lld\n
+0x10016aa2	0x1002c6b8	string	0x100167b7	%% Total %% Received %% Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n
+0x10016af9	0x10026db0	string	0x100167b7	WVS3
+0x10016b08	0x10016b16	string	0x100167b7	WjdS
+0x10016b20	0x10026db0	string	0x100167b7	WVS3
+0x10016b5e	0x10026db0	string	0x100167b7	WVS3
+0x10016ba4	0x10026db0	string	0x100167b7	WVS3
+0x10016bb3	0x10016bc1	string	0x100167b7	WjdS
+0x10016bcb	0x10026db0	string	0x100167b7	WVS3
+0x10016c09	0x10026db0	string	0x100167b7	WVS3
+0x10016cf1	0x10026db0	string	0x100167b7	WVS3
+0x10016d19	0x10026db0	string	0x100167b7	WVS3
+0x10016dd0	0x1002c684	string	0x100167b7	\r%3lld %s %3lld %s %3lld %s %s %s %s %s %s %s
+0x10016de6	0x100292dc	import	0x100167b7	msvcrt.dll.fflush
+0x10016df9	0x10026c4e	string	0x100167b7	;\rt
+0x10016f87	0x10016fa9	string	0x10016f44	^[]Ã|$\f blocks=Basic Latin,Latin-1 Supplement
+0x1001708b	0x1002c818	string	0x1001703d	The CSeq of this request %ld did not match the response %ld
+0x100170ad	0x1002c7f0	string	0x1001703d	Got an RTP Receive with a CSeq of %ld\n
+0x1001715c	0x1002cab0	string	0x100170c3	Got invalid RTSP request: RTSPREQ_NONE
+0x1001716d	0x1002caa8	string	0x100170c3	OPTIONS
+0x1001719e	0x1002ca68	string	0x100170c3	Refusing to issue an RTSP request [%s] without a session ID.
+0x100171ae	0x1002ca5c	string	0x100170c3	DESCRIBE
+0x100171bd	0x1002ca50	string	0x100170c3	ANNOUNCE
+0x100171c6	0x1002ca48	string	0x100170c3	SETUP
+0x100171cf	0x1002ca40	string	0x100170c3	PLAY
+0x100171d8	0x1002ca38	string	0x100170c3	PAUSE
+0x100171e1	0x1002ca2c	string	0x100170c3	TEARDOWN
+0x100171ea	0x1002ca1c	string	0x100170c3	GET_PARAMETER
+0x100171f3	0x1002ca0c	string	0x100170c3	SET_PARAMETER
+0x100171ff	0x1002ca04	string	0x100170c3	RECORD
+0x10017213	0x1002c9dc	string	0x100170c3	Got invalid RTSP request: RTSPREQ_LAST
+0x10017259	0x1002c9d0	string	0x100170c3	Transport:
+0x10017292	0x1002c9c0	string	0x100170c3	Transport: %s\r\n
+0x100172ae	0x1002c980	string	0x100170c3	Refusing to issue an RTSP SETUP without a Transport: header.
+0x100172be	0x1002b644	string	0x100170c3	Accept:
+0x100172cf	0x1002c964	string	0x100170c3	Accept: application/sdp\r\n
+0x100172d4	0x1002b70c	string	0x100170c3	Accept-Encoding:
+0x10017305	0x1002b6f4	string	0x100170c3	Accept-Encoding: %s\r\n
+0x10017322	0x1002b744	string	0x100170c3	User-Agent:
+0x1001734b	0x1002b744	string	0x100170c3	User-Agent:
+0x10017384	0x1002b738	string	0x100170c3	Referer:
+0x10017397	0x1002b728	string	0x100170c3	Referer: %s\r\n
+0x100173ca	0x1002b5dc	string	0x100170c3	Range:
+0x100173f7	0x1002c958	string	0x100170c3	Range: %s\r\n
+0x10017409	0x1002c950	string	0x100170c3	CSeq:
+0x1001741a	0x1002c928	string	0x100170c3	CSeq cannot be set as a custom header.
+0x1001742e	0x1002c91c	string	0x100170c3	Session:
+0x1001743f	0x1002c8ec	string	0x100170c3	Session ID cannot be set as a custom header.
+0x10017473	0x1002c8d0	string	0x100170c3	%s %s RTSP/1.0\r\nCSeq: %ld\r\n
+0x10017491	0x1002c8c0	string	0x100170c3	Session: %s\r\n
+0x100174e9	0x1002c8b0	string	0x100170c3	%s%s%s%s%s%s
+0x100175f1	0x1002b3fc	string	0x100170c3	Content-Length:
+0x10017610	0x10017617	string	0x100170c3	QPh
+0x10017619	0x10029d20	string	0x100170c3	Content-Length: %lld\r\n
+0x10017635	0x1002b2fc	string	0x100170c3	Content-Type:
+0x1001764f	0x1002c890	string	0x100170c3	Content-Type: text/parameters\r\n
+0x10017679	0x1002c870	string	0x100170c3	Content-Type: application/sdp\r\n
+0x10017704	0x1002c854	string	0x100170c3	Failed sending RTSP request
+0x10017827	0x1002c950	string	0x10017817	CSeq:
+0x10017867	0x1002cb9c	string	0x10017817	CSEQ: %ld
+0x1001786d	0x100293a8	import	0x10017817	msvcrt.dll.sscanf
+0x100178a1	0x1002cb74	string	0x10017817	Unable to read the CSeq header: [%s]
+0x100178b3	0x1002c91c	string	0x10017817	Session:
+0x100178de	0x10029360	import	0x10017817	msvcrt.dll.isspace
+0x100178f5	0x1002cb5c	string	0x10017817	Got a blank Session ID
+0x1001791f	0x100293b4	import	0x10017817	msvcrt.dll.strncmp
+0x10017937	0x1002cb28	string	0x10017817	Got RTSP Session ID Line [%s], but wanted ID [%s]
+0x10017952	0x10029370	import	0x10017817	msvcrt.dll.isalnum
+0x10017b7e	0x1002928c	import	0x10017b73	WS2_32.dll.WSASetLastError
+0x10017b89	0x10029044	import	0x10017b73	KERNEL32.dll.Sleep
+0x10017bb3	0x10017bc6	string	0x10017b92	9U|~
+0x10017bb7	0x10017bc6	string	0x10017b92	9U|~
+0x10017c14	0x10017c62	string	0x10017b92	9U|}
+0x10017c5e	0x10017c62	string	0x10017b92	9U|}
+0x10017cac	0x10029278	import	0x10017b92	WS2_32.dll.select
+0x10017cb7	0x10029274	import	0x10017b92	WS2_32.dll.WSAGetLastError
+0x10017de4	0x10017eb9	string	0x10017d6b	F;ux
+0x10017df0	0x10017eb9	string	0x10017d6b	F;ux
+0x10017e7d	0x10017eb9	string	0x10017d6b	F;ux
+0x10017ea1	0x10017eb9	string	0x10017d6b	F;ux
+0x10017eaa	0x10017eb9	string	0x10017d6b	F;ux
+0x10017f0a	0x10029278	import	0x10017d6b	WS2_32.dll.select
+0x10017f15	0x10029274	import	0x10017d6b	WS2_32.dll.WSAGetLastError
+0x10018070	0x10029290	import	0x10018062	WS2_32.dll.recv
+0x1001807b	0x10029274	import	0x10018062	WS2_32.dll.WSAGetLastError
+0x100181e5	0x1002934c	import	0x100181b2	msvcrt.dll.fwrite
+0x1001824b	0x1002cc04	string	0x10018210	Data
+0x1001825d	0x1002cbfc	string	0x10018210	Header
+0x10018267	0x10018273	string	0x10018210	PQRh
+0x10018269	0x1002cbfc	string	0x10018210	Header
+0x1001826e	0x1002cbf0	string	0x10018210	from
+0x10018276	0x1002cbe4	string	0x10018210	[%s %s %s]
+0x100182ba	0x10026c4e	string	0x10018210	;\rt
+0x10018327	0x10026c4e	string	0x100182c4	;\rt
+0x1001847c	0x1002927c	import	0x10018461	WS2_32.dll.send
+0x10018491	0x10029274	import	0x10018461	WS2_32.dll.WSAGetLastError
+0x100184af	0x1001dd44	string	0x10018461	QSUVW
+0x100184b5	0x1002cc0c	string	0x10018461	Send failure: %s
+0x10018527	0x10029290	import	0x1001850c	WS2_32.dll.recv
+0x1001853c	0x10029274	import	0x1001850c	WS2_32.dll.WSAGetLastError
+0x10018556	0x1001dd44	string	0x1001850c	QSUVW
+0x1001855c	0x1002cc20	string	0x1001850c	Recv failure: %s
+0x100185b8	0x10018600	string	0x10018581	_^[]
+0x1001863e	0x10018600	string	0x10018581	_^[]
+0x10018646	0x1002cc4c	string	0x10018581	Failed writing body (%zu != %zu)
+0x100186a1	0x1002cc34	string	0x10018581	Failed writing header
+0x100186d5	0x100186f1	string	0x100186c4	^]ËE blocks=Basic Latin,Latin-1 Supplement
+0x1001875f	0x100186f1	string	0x100186c4	^]ËE blocks=Basic Latin,Latin-1 Supplement
+0x100187dc	0x100187a8	string	0x100186c4	X^ËF\b blocks=Basic Latin,Latin-1 Supplement
+0x1001896d	0x1002936c	import	0x10018945	msvcrt.dll.isdigit
+0x100189b4	0x100293ac	import	0x10018945	msvcrt.dll.strtol
+0x100189e6	0x1002cd9c	string	0x10018945	AUTH
+0x10018a52	0x1002cd94	string	0x10018945	LOGIN
+0x10018a6c	0x1002cd8c	string	0x10018945	PLAIN
+0x10018a91	0x1002cd80	string	0x10018945	CRAM-MD5
+0x10018aa1	0x10018afa	string	0x10018945	j\bh`
+0x10018ab2	0x1002cd74	string	0x10018945	DIGEST-MD5
+0x10018adb	0x1002cd6c	string	0x10018945	GSSAPI
+0x10018afc	0x1002cd60	string	0x10018945	EXTERNAL
+0x10018b3b	0x1002cda4	string	0x10018b2e	EHLO %s
+0x10018b63	0x1002cdac	string	0x10018b5a	HELO %s
+0x10018c36	0x10026c4e	string	0x10018b82	;\rt
+0x10018cab	0x1002cd80	string	0x10018c7e	CRAM-MD5
+0x10018cc6	0x1002aab0	string	0x10018c7e	AUTH %s
+0x10018cf3	0x1002cd8c	string	0x10018c7e	PLAIN
+0x10018d1e	0x1002cd94	string	0x10018c7e	LOGIN
+0x10018d38	0x1002cdc4	string	0x10018c7e	No known auth mechanisms supported!\n
+0x10018d72	0x1002cdb8	string	0x10018c7e	AUTH %s %s
+0x10018dd2	0x1002bc78	string	0x10018db6	STARTTLS denied. %c
+0x10018e44	0x1002cdec	string	0x10018e09	Access denied: %d
+0x10018e6f	0x1002c5cc	string	0x10018e09	STARTTLS
+0x10018eaf	0x1002cdec	string	0x10018e98	Access denied: %d
+0x10018ee2	0x1002cdec	string	0x10018ecf	Access denied: %d
+0x10018f51	0x1002cdec	string	0x10018f3e	Access denied: %d
+0x10018fc0	0x1002cdec	string	0x10018fab	Access denied: %d
+0x10019074	0x1002cdec	string	0x1001904c	Access denied: %d
+0x100191ce	0x1002ce00	string	0x1001904c	%s %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
+0x10019246	0x10026c4e	string	0x1001904c	;\rt
+0x1001925d	0x1002ce44	string	0x1001924d	Authentication failed: %d
+0x1001928f	0x1002ce70	string	0x1001927b	MAIL FROM:%s
+0x10019296	0x1002ce60	string	0x1001927b	MAIL FROM:<%s>
+0x100192cc	0x1002ce90	string	0x100192b5	RCPT TO:%s
+0x100192d3	0x1002ce80	string	0x100192b5	RCPT TO:<%s>
+0x1001930d	0x1002cdec	string	0x100192f4	Access denied: %d
+0x10019358	0x1002cdec	string	0x10019341	Access denied: %d
+0x10019388	0x100193ae	string	0x10019341	_^Á|$ blocks=Basic Latin,Latin-1 Supplement
+0x1001938d	0x100193ae	string	0x10019341	_^Á|$ blocks=Basic Latin,Latin-1 Supplement
+0x1001938f	0x1002ce9c	string	0x10019341	DATA
+0x100193a0	0x100193ae	string	0x10019341	_^Á|$ blocks=Basic Latin,Latin-1 Supplement
+0x1001947e	0x1002cea4	string	0x10019405	Got unexpected smtp-server response: %d
+0x100194f4	0x1001924d	string	0x10019405	3ҁ|$ blocks=Basic Latin,Cyrillic
+0x1001951a	0x100193ec	string	0x10019405	3ҁ|$ blocks=Basic Latin,Cyrillic
+0x10019575	0x10015683	string	0x10019569	SUVW
+0x1001959c	0x10015705	string	0x1001958b	SUVW
+0x100196e1	0x1002cecc	string	0x1001958b	localhost
+0x10019747	0x10026c4e	string	0x1001958b	;\rt
+0x10019787	0x1002c5c4	string	0x10019754	\r\n.\r\n
+0x10019826	0x1002a5f4	string	0x10019820	QUIT
+0x10019835	0x10019848	string	0x10019820	Ã|$\b blocks=Latin-1 Supplement,Basic Latin
+0x100199ad	0x1002cee0	string	0x10019981	Failed to alloc scratch buffer!
+0x10019a14	0x1002ced8	string	0x10019981	\r\n..
+0x10019b1f	0x10019b65	string	0x10019ad5	_^[]
+0x10019b58	0x10019b65	string	0x10019ad5	_^[]
+0x10019b60	0x10019b65	string	0x10019ad5	_^[]
+0x10019bc9	0x100296d8	string	0x10019b6a	Connection time-out
+0x10019bf5	0x100292a8	import	0x10019b6a	WS2_32.dll.htons
+0x10019c77	0x1002d1a8	string	0x10019b6a	%hu.%hu.%hu.%hu
+0x10019c7d	0x100293a8	import	0x10019b6a	msvcrt.dll.sscanf
+0x10019cc5	0x1002d17c	string	0x10019b6a	Failed to resolve "%s" for SOCKS4 connect.
+0x10019ddd	0x1002d144	string	0x10019b6a	SOCKS4 reply has wrong version, version should be 4.
+0x10019e07	0x100292b0	import	0x10019b6a	WS2_32.dll.ntohs
+0x10019e25	0x1002d100	string	0x10019b6a	Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), Unknown.
+0x10019e3f	0x100292b0	import	0x10019b6a	WS2_32.dll.ntohs
+0x10019e5d	0x1002d070	string	0x10019b6a	Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because the client program and identd report different user-ids.
+0x10019e69	0x100292b0	import	0x10019b6a	WS2_32.dll.ntohs
+0x10019e87	0x1002cfe8	string	0x10019b6a	Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected because SOCKS server cannot connect to identd on the client.
+0x10019e93	0x100292b0	import	0x10019b6a	WS2_32.dll.ntohs
+0x10019eb1	0x1002cf90	string	0x10019b6a	Can't complete SOCKS4 connection to %d.%d.%d.%d:%d. (%d), request rejected or failed.
+0x10019ec4	0x1002cf74	string	0x10019b6a	SOCKS4a request granted.\n
+0x10019ecb	0x1002cf58	string	0x10019b6a	SOCKS4 request granted.\n
+0x10019eea	0x1002cf28	string	0x10019b6a	Failed to receive SOCKS4 connect request ack.
+0x10019ef1	0x1002cf00	string	0x10019b6a	Failed to send SOCKS4 connect request.
+0x10019f0e	0x10026c4e	string	0x10019b6a	;\rt
+0x10019f99	0x1002d5c8	string	0x10019f1b	SOCKS5: server resolving disabled for hostnames of length > 255 [actual len=%zu]\n
+0x10019fc3	0x100296d8	string	0x10019f1b	Connection time-out
+0x10019ff2	0x1002d5ac	string	0x10019f1b	SOCKS5: no connection here
+0x1001a002	0x1002d590	string	0x10019f1b	SOCKS5: connection timeout
+0x1001a00f	0x1002d568	string	0x10019f1b	SOCKS5: error occured during connection
+0x1001a081	0x1002d550	string	0x10019f1b	SOCKS5 nothing to read
+0x1001a08f	0x1002d53c	string	0x10019f1b	SOCKS5 read timeout
+0x1001a09d	0x1002d520	string	0x10019f1b	SOCKS5 read error occured
+0x1001a0e9	0x1002d4e8	string	0x10019f1b	Received invalid version in initial SOCKS5 response.
+0x1001a1da	0x1002d4b8	string	0x10019f1b	User was rejected by the SOCKS5 server (%d %d).
+0x1001a22d	0x100292a8	import	0x10019f1b	WS2_32.dll.htons
+0x1001a2c2	0x1002d1a8	string	0x10019f1b	%hu.%hu.%hu.%hu
+0x1001a2c8	0x100293a8	import	0x10019f1b	msvcrt.dll.sscanf
+0x1001a315	0x1002d48c	string	0x10019f1b	Failed to resolve "%s" for SOCKS5 connect.
+0x1001a32e	0x100292a8	import	0x10019f1b	WS2_32.dll.htons
+0x1001a38e	0x1002d454	string	0x10019f1b	SOCKS5 reply has wrong version, version should be 5.
+0x1001a3a9	0x100292b0	import	0x10019f1b	WS2_32.dll.ntohs
+0x1001a3c7	0x1002d418	string	0x10019f1b	Can't complete SOCKS5 connection to %d.%d.%d.%d:%d. (%d)
+0x1001a41b	0x1002d3e8	string	0x10019f1b	Failed to receive SOCKS5 connect request ack.
+0x1001a433	0x1002d3c0	string	0x10019f1b	Failed to send SOCKS5 connect request.
+0x1001a43d	0x1002d38c	string	0x10019f1b	Unable to receive SOCKS5 sub-negotiation response.
+0x1001a447	0x1002d35c	string	0x10019f1b	Failed to send SOCKS5 sub-negotiation request.
+0x1001a455	0x1002d320	string	0x10019f1b	SOCKS5 GSSAPI per-message authentication is not supported.
+0x1001a46c	0x1002d2f4	string	0x10019f1b	No authentication method was acceptable.
+0x1001a473	0x1002d248	string	0x10019f1b	No authentication method was acceptable. (It is quite likely that the SOCKS5 server wanted a username/password, since none was supplied to the server on this connection.)
+0x1001a47a	0x1002d20c	string	0x10019f1b	Undocumented SOCKS5 mode attempted to be used by server.
+0x1001a481	0x1002d1e0	string	0x10019f1b	Unable to receive initial SOCKS5 response.
+0x1001a488	0x1002d1b8	string	0x10019f1b	Unable to send initial SOCKS5 request.
+0x1001a4a3	0x10026c4e	string	0x10019f1b	;\rt
+0x1001a562	0x1002d620	string	0x1001a4c7	Operation too slow. Less than %ld bytes/sec transfered the last %ld seconds
+0x1001a903	0x1001a91f	string	0x1001a8fb	9E\fu
+0x1001aab0	0x1001aabe	string	0x1001aaa9	ËD$\bk blocks=Latin-1 Supplement,Basic Latin
+0x1001af44	0x1002d66c	string	0x1001aed6	libcurl is now using a weak random seed!\n
+0x1001b03f	0x1002d85c	string	0x1001afe8	not supported file type '%s' for certificate
+0x1001b04f	0x1002d830	string	0x1001afe8	file type P12 for certificate not supported
+0x1001b056	0x1002d800	string	0x1001afe8	file type ENG for certificate not implemented
+0x1001b07d	0x1002d7b8	string	0x1001afe8	unable to use client certificate (no key found or wrong pass phrase?)
+0x1001b0a9	0x1002d78c	string	0x1001afe8	not supported file type for private key
+0x1001b0b0	0x1002d760	string	0x1001afe8	file type P12 for private key not supported
+0x1001b0b7	0x1002d734	string	0x1001afe8	file type ENG for private key not supported
+0x1001b0ea	0x1002d704	string	0x1001afe8	unable to set private key file: '%s' type %s
+0x1001b109	0x1002d6e0	string	0x1001afe8	unable to create an SSL structure
+0x1001b150	0x1002d6a8	string	0x1001afe8	Private key does not match the certificate public key
+0x1001b21a	0x10026c4e	string	0x1001b1da	;\rt
+0x1001b28a	0x1002d88c	string	0x1001b261	SSL Engine not supported
+0x1001b38e	0x1002d918	string	0x1001b2ec	SSL_ERROR_WANT_READ\n
+0x1001b3af	0x10029274	import	0x1001b2ec	WS2_32.dll.WSAGetLastError
+0x1001b3c3	0x1002d900	string	0x1001b2ec	SSL read: %s, errno %d
+0x1001b3d6	0x10029274	import	0x1001b2ec	WS2_32.dll.WSAGetLastError
+0x1001b3dd	0x1002d8d8	string	0x1001b2ec	select/poll on SSL socket, errno: %d
+0x1001b3f1	0x1002d8c0	string	0x1001b2ec	SSL_ERROR_WANT_WRITE\n
+0x1001b3fe	0x1002d8a8	string	0x1001b2ec	SSL shutdown timeout
+0x1001b429	0x10026c4e	string	0x1001b2ec	;\rt
+0x1001b532	0x1001b539	string	0x1001b440	QPSWV
+0x1001b548	0x1002d930	string	0x1001b440	%04d-%02d-%02d %02d:%02d:%02d %s
+0x1001b5a4	0x1001b5c6	string	0x1001b567	_^[]Å blocks=Basic Latin,Latin-1 Supplement
+0x1001b5ae	0x1001b5c6	string	0x1001b567	_^[]Å blocks=Basic Latin,Latin-1 Supplement
+0x1001b632	0x1001b642	string	0x1001b601	WWjU
+0x1001b6e6	0x1002da7c	string	0x1001b601	\t subjectAltName: %s matched\n
+0x1001b728	0x1002da58	string	0x1001b601	\t subjectAltName does not match %s\n
+0x1001b783	0x1001b773	string	0x1001b601	Pj\rV
+0x1001b7c8	0x1002da48	string	0x1001b601	lib/ssluse.c
+0x1001b81a	0x1002da28	string	0x1001b601	SSL: illegal cert name field
+0x1001b84a	0x1002d9f0	string	0x1001b601	SSL: unable to obtain common name from peer certificate
+0x1001b883	0x1002d9a8	string	0x1001b601	SSL: certificate subject name '%s' does not match target host name '%s'
+0x1001b893	0x1002d978	string	0x1001b601	\t common name: %s (does not match '%s')\n
+0x1001b8a6	0x1002d958	string	0x1001b601	\t common name: %s (matched)\n
+0x1001b8e3	0x1002db74	string	0x1001b8cc	Error
+0x1001b8e9	0x1002db64	string	0x1001b8cc	Client hello
+0x1001b8ef	0x1002db58	string	0x1001b8cc	Client key
+0x1001b8f5	0x1002db48	string	0x1001b8cc	Client finished
+0x1001b8fb	0x1002db38	string	0x1001b8cc	Server hello
+0x1001b901	0x1002db28	string	0x1001b8cc	Server verify
+0x1001b907	0x1002db18	string	0x1001b8cc	Server finished
+0x1001b90d	0x1002db08	string	0x1001b8cc	Request CERT
+0x1001b913	0x1002dafc	string	0x1001b8cc	Client CERT
+0x1001b93a	0x1002dae8	string	0x1001b8cc	Server key exchange
+0x1001b940	0x1002dae0	string	0x1001b8cc	CERT
+0x1001b946	0x1002dad0	string	0x1001b8cc	Hello request
+0x1001b95c	0x1002dac4	string	0x1001b8cc	Finished
+0x1001b962	0x1002dab0	string	0x1001b8cc	Client key exchange
+0x1001b968	0x1002daa4	string	0x1001b8cc	CERT verify
+0x1001b96e	0x1002da9c	string	0x1001b8cc	Unknown
+0x1001ba40	0x1002dbcc	string	0x1001b9c9	SSLv%c, %s%s (%d):\n
+0x1001ba82	0x10026c4e	string	0x1001b9c9	;\rt
+0x1001bb4c	0x1002de5c	string	0x1001babe	SSL: couldn't create a context: %s
+0x1001bb86	0x1002de3c	string	0x1001babe	SSL: couldn't set callback!\n
+0x1001bba2	0x1002de14	string	0x1001babe	SSL: couldn't set callback argument!\n
+0x1001bc33	0x1002ddf8	string	0x1001babe	failed setting cipher list
+0x1001bc4d	0x1002992c	string	0x1001babe	none
+0x1001bc86	0x1002992c	string	0x1001babe	none
+0x1001bc9f	0x1002ddb0	string	0x1001babe	error setting certificate verify locations:\n CAfile: %s\n CApath: %s\n
+0x1001bcb4	0x1002dd70	string	0x1001babe	error setting certificate verify locations, continuing anyway:\n
+0x1001bcbb	0x1002dd3c	string	0x1001babe	successfully set certificate verify locations:\n
+0x1001bcde	0x1001bce2	string	0x1001babe	QPh
+0x1001bce4	0x1002dd20	string	0x1001babe	CAfile: %s\n CApath: %s\n
+0x1001bd2f	0x1002dd00	string	0x1001babe	successfully load CRL file:\n
+0x1001bd57	0x1002dcf0	string	0x1001babe	CRLfile: %s\n
+0x1001bda0	0x1002dccc	string	0x1001babe	error signaled by ssl ctx callback
+0x1001bdba	0x1002dcb0	string	0x1001babe	error loading CRL file: %s\n
+0x1001bded	0x1002dc84	string	0x1001babe	SSL: couldn't create a context (handle)!
+0x1001be3b	0x1002dc38	string	0x1001babe	WARNING: failed to configure server name indication (SNI) TLS extension\n
+0x1001be79	0x1002dc18	string	0x1001babe	SSL: SSL_set_session failed: %s
+0x1001be8e	0x1002dbfc	string	0x1001babe	SSL re-using session ID\n
+0x1001beb9	0x1002dbe0	string	0x1001babe	SSL: SSL_set_fd failed: %s
+0x1001bf65	0x1002dee4	string	0x1001bece	Unknown SSL protocol error in connection to %s:%ld
+0x1001bf7b	0x1002dea0	string	0x1001bece	SSL certificate problem, verify that the CA cert is OK. Details:\n
+0x1001bfa6	0x1002b4c0	string	0x1001bece	%s%s
+0x1001bfc3	0x1002de80	string	0x1001bece	SSL connection using %s\n
+0x1001bfde	0x10026c4e	string	0x1001bece	;\rt
+0x1001c109	0x1002df30	string	0x1001c0ce	%s(%s)
+0x1001c128	0x1002df28	string	0x1001c0ce	%02x:
+0x1001c14e	0x1002df1c	string	0x1001c0ce	%s: %s\n
+0x1001c17c	0x10026c4e	string	0x1001c0ce	;\rt
+0x1001c221	0x1002df54	string	0x1001c183	(critical)
+0x1001c235	0x1002df4c	string	0x1001c183	%s: %s\n
+0x1001c2ad	0x1002df40	string	0x1001c183	%s%c
+0x1001c2d2	0x1002df38	string	0x1001c183	%s\n
+0x1001c320	0x10026c4e	string	0x1001c183	;\rt
+0x1001c367	0x1002df28	string	0x1001c332	%02x:
+0x1001c386	0x1002df6c	string	0x1001c332	Signature: %s\n
+0x1001c39d	0x1002df60	string	0x1001c332	Signature
+0x1001c3ba	0x10026c4e	string	0x1001c332	;\rt
+0x1001c405	0x1002df7c	string	0x1001c3c1	Cert
+0x1001cde6	0x1002e360	string	0x1001cd88	SSL: couldn't get peer certificate!
+0x1001cdfb	0x1002e348	string	0x1001cd88	Server certificate:\n
+0x1001ce31	0x1002e328	string	0x1001cd88	SSL: couldn't get X509-subject!
+0x1001ce55	0x1002e318	string	0x1001cd88	\t subject: %s\n
+0x1001ce78	0x1002e304	string	0x1001cd88	\t start date: %s\n
+0x1001ce9c	0x1002e2f0	string	0x1001cd88	\t expire date: %s\n
+0x1001cef6	0x1002e2cc	string	0x1001cd88	SSL: couldn't get X509-issuer name!
+0x1001cf13	0x1002e2bc	string	0x1001cd88	\t issuer: %s\n
+0x1001cf35	0x10029394	import	0x1001cd88	msvcrt.dll.fopen
+0x1001cf43	0x1001cf68	string	0x1001cd88	PPPS襛 blocks=Basic Latin,CJK Unified Ideographs
+0x1001cf53	0x1002e294	string	0x1001cd88	SSL: Unable to open issuer cert (%s)\n
+0x1001cf89	0x1002e26c	string	0x1001cd88	SSL: Unable to read issuer cert (%s)\n
+0x1001cfa7	0x1002939c	import	0x1001cd88	msvcrt.dll.fclose
+0x1001cfb8	0x1002939c	import	0x1001cd88	msvcrt.dll.fclose
+0x1001cfdf	0x1002e240	string	0x1001cd88	SSL: Certificate issuer check failed (%s)\n
+0x1001d00d	0x1002e218	string	0x1001cd88	\t SSL certificate issuer check ok (%s)\n
+0x1001d051	0x1002e1f0	string	0x1001cd88	SSL certificate verify result: %s (%ld)
+0x1001d071	0x1002e1b0	string	0x1001cd88	\t SSL certificate verify result: %s (%ld), continuing anyway.\n
+0x1001d081	0x1002e190	string	0x1001cd88	\t SSL certificate verify ok.\n
+0x1001d0af	0x10026c4e	string	0x1001cd88	;\rt
+0x1001d101	0x1002e3a0	string	0x1001d0bc	old SSL session ID is stale, removing\n
+0x1001d133	0x1002e384	string	0x1001d0bc	failed to store ssl session
+0x1001d212	0x10029274	import	0x1001d1a5	WS2_32.dll.WSAGetLastError
+0x1001d219	0x1002e3fc	string	0x1001d1a5	SSL_write() returned SYSCALL, errno = %d
+0x1001d233	0x1002e3e0	string	0x1001d1a5	SSL_write() return error %d
+0x1001d24a	0x1002e3c8	string	0x1001d1a5	SSL_write() error: %s
+0x1001d26a	0x10026c4e	string	0x1001d1a5	;\rt
+0x1001d2e7	0x10029274	import	0x1001d271	WS2_32.dll.WSAGetLastError
+0x1001d2fb	0x1002d900	string	0x1001d271	SSL read: %s, errno %d
+0x1001d32d	0x10026c4e	string	0x1001d271	;\rt
+0x1001d36e	0x1002e428	string	0x1001d334	OpenSSL/%lx.%lx.%lx%s
+0x1001d4ff	0x10029274	import	0x1001d397	WS2_32.dll.WSAGetLastError
+0x1001d506	0x1002d8d8	string	0x1001d397	select/poll on SSL socket, errno: %d
+0x1001d52b	0x1002e440	string	0x1001d397	SSL connection timeout
+0x1001d57c	0x100293d4	import	0x1001d574	msvcrt.dll._stricmp
+0x1001d596	0x100293dc	import	0x1001d58a	msvcrt.dll._strnicmp
+0x1001d5dc	0x1001d5fd	string	0x1001d5a5	_^[ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001d615	0x1002ee74	string	0x1001d601	No error
+0x1001d61b	0x1002ee5c	string	0x1001d601	Unsupported protocol
+0x1001d621	0x1002ee44	string	0x1001d601	Failed initialization
+0x1001d627	0x1002ee18	string	0x1001d601	URL using bad/illegal format or missing URL
+0x1001d62d	0x1002edfc	string	0x1001d601	Couldn't resolve proxy name
+0x1001d633	0x1002ede0	string	0x1001d601	Couldn't resolve host name
+0x1001d639	0x1002edc4	string	0x1001d601	Couldn't connect to server
+0x1001d63f	0x1002edac	string	0x1001d601	FTP: weird server reply
+0x1001d645	0x1002ed88	string	0x1001d601	Access denied to remote resource
+0x1001d64b	0x1002ed54	string	0x1001d601	FTP: The server did not accept the PRET command.
+0x1001d651	0x1002ed3c	string	0x1001d601	FTP: unknown PASS reply
+0x1001d657	0x1002ed24	string	0x1001d601	FTP: unknown PASV reply
+0x1001d65d	0x1002ed00	string	0x1001d601	FTP: unknown 227 response format
+0x1001d663	0x1002eccc	string	0x1001d601	FTP: can't figure out the host in the PASV response
+0x1001d669	0x1002ecb0	string	0x1001d601	FTP: couldn't set file type
+0x1001d66f	0x1002ec94	string	0x1001d601	Transferred a partial file
+0x1001d675	0x1002ec5c	string	0x1001d601	FTP: couldn't retrieve (RETR failed) the specified file
+0x1001d67b	0x1002ec3c	string	0x1001d601	Quote command returned error
+0x1001d681	0x1002ec1c	string	0x1001d601	HTTP response code said error
+0x1001d687	0x1002ebe8	string	0x1001d601	Failed writing received data to disk/application
+0x1001d68d	0x1002ebbc	string	0x1001d601	Upload failed (at start/before it took off)
+0x1001d693	0x1002eb84	string	0x1001d601	Failed to open/read local data from file/application
+0x1001d699	0x1002eb74	string	0x1001d601	Out of memory
+0x1001d69f	0x1002eb60	string	0x1001d601	Timeout was reached
+0x1001d6a5	0x1002eb44	string	0x1001d601	FTP: command PORT failed
+0x1001d6ab	0x1002eb28	string	0x1001d601	FTP: command REST failed
+0x1001d6b1	0x1002eaf8	string	0x1001d601	Requested range was not delivered by the server
+0x1001d6b7	0x1002ead0	string	0x1001d601	Internal problem setting up the POST
+0x1001d6bd	0x1002eabc	string	0x1001d601	SSL connect error
+0x1001d6c3	0x1002eaa0	string	0x1001d601	Couldn't resume download
+0x1001d6c9	0x1002ea80	string	0x1001d601	Couldn't read a file:// file
+0x1001d6cf	0x1002ea6c	string	0x1001d601	LDAP: cannot bind
+0x1001d6d5	0x1002ea58	string	0x1001d601	LDAP: search failed
+0x1001d6db	0x1002ea24	string	0x1001d601	A required function in the library was not found
+0x1001d6e1	0x1002e9f0	string	0x1001d601	Operation was aborted by an application callback
+0x1001d6e7	0x1002e9c4	string	0x1001d601	A libcurl function was given a bad argument
+0x1001d6ed	0x1002e9a0	string	0x1001d601	Failed binding local connection end
+0x1001d6f3	0x1002e978	string	0x1001d601	Number of redirects hit maximum amount
+0x1001d6f9	0x1002e950	string	0x1001d601	User specified an unknown telnet option
+0x1001d6ff	0x1002e938	string	0x1001d601	Malformed telnet option
+0x1001d705	0x1002e904	string	0x1001d601	SSL peer certificate or SSH remote key was not OK
+0x1001d70b	0x1002e8d4	string	0x1001d601	Server returned nothing (no headers, no data)
+0x1001d711	0x1002e8b8	string	0x1001d601	SSL crypto engine not found
+0x1001d717	0x1002e88c	string	0x1001d601	Can not set SSL crypto engine as default
+0x1001d71d	0x1002e864	string	0x1001d601	Failed to initialise SSL crypto engine
+0x1001d723	0x1002e844	string	0x1001d601	Failed sending data to the peer
+0x1001d729	0x1002e818	string	0x1001d601	Failure when receiving data from the peer
+0x1001d72f	0x1002e7f0	string	0x1001d601	Problem with the local SSL certificate
+0x1001d735	0x1002e7cc	string	0x1001d601	Couldn't use specified SSL cipher
+0x1001d73b	0x1002e788	string	0x1001d601	Peer certificate cannot be authenticated with known CA certificates
+0x1001d741	0x1002e754	string	0x1001d601	Problem with the SSL CA cert (path? access rights?)
+0x1001d747	0x1002e730	string	0x1001d601	Unrecognized HTTP Content-Encoding
+0x1001d74d	0x1002e71c	string	0x1001d601	Invalid LDAP URL
+0x1001d753	0x1002a494	string	0x1001d601	Maximum file size exceeded
+0x1001d759	0x1002e700	string	0x1001d601	Requested SSL level failed
+0x1001d75f	0x1002e6d8	string	0x1001d601	Failed to shut down the SSL connection
+0x1001d765	0x1002e6a0	string	0x1001d601	Failed to load CRL file (path? access rights?, format?)
+0x1001d76b	0x1002e670	string	0x1001d601	Issuer check against peer certificate failed
+0x1001d771	0x1002e638	string	0x1001d601	Send failed since rewinding of the data stream failed
+0x1001d777	0x1002e628	string	0x1001d601	Login denied
+0x1001d77d	0x1002e610	string	0x1001d601	TFTP: File Not Found
+0x1001d783	0x1002e5f8	string	0x1001d601	TFTP: Access Violation
+0x1001d789	0x1002e5d4	string	0x1001d601	Disk full or allocation exceeded
+0x1001d78f	0x1002e5bc	string	0x1001d601	TFTP: Illegal operation
+0x1001d795	0x1002e5a0	string	0x1001d601	TFTP: Unknown transfer ID
+0x1001d79b	0x1002e584	string	0x1001d601	Remote file already exists
+0x1001d7a1	0x1002e570	string	0x1001d601	TFTP: No such user
+0x1001d7a7	0x1002e55c	string	0x1001d601	Conversion failed
+0x1001d7ad	0x1002e528	string	0x1001d601	Caller must register CURLOPT_CONV_ callback options
+0x1001d7b3	0x1002e510	string	0x1001d601	Remote file not found
+0x1001d7b9	0x1002e4f8	string	0x1001d601	Error in the SSH layer
+0x1001d7bf	0x1002e4d8	string	0x1001d601	Socket not ready for send/recv
+0x1001d7c5	0x1002e4b4	string	0x1001d601	RTSP CSeq mismatch or invalid CSeq
+0x1001d7cb	0x1002e4a0	string	0x1001d601	RTSP session error
+0x1001d7d1	0x1002e480	string	0x1001d601	Unable to parse FTP file list
+0x1001d7d7	0x1002e468	string	0x1001d601	Chunk callback failed
+0x1001d7dd	0x1002e458	string	0x1001d601	Unknown error
+0x1001d95a	0x1002eee4	string	0x1001d601	Please call curl_multi_perform() soon
+0x1001d960	0x1002ee74	string	0x1001d601	No error
+0x1001d966	0x1002eecc	string	0x1001d601	Invalid multi handle
+0x1001d96c	0x1002eeb8	string	0x1001d601	Invalid easy handle
+0x1001d972	0x1002eb74	string	0x1001d601	Out of memory
+0x1001d978	0x1002eea8	string	0x1001d601	Internal error
+0x1001d97e	0x1002ee90	string	0x1001d601	Invalid socket argument
+0x1001d984	0x1002ee80	string	0x1001d601	Unknown option
+0x1001d98a	0x1002e458	string	0x1001d601	Unknown error
+0x1001d9c6	0x1002ef54	string	0x1001d601	CURLSHcode unknown
+0x1001d9cc	0x1002eb74	string	0x1001d601	Out of memory
+0x1001d9d2	0x1002ef3c	string	0x1001d601	Invalid share handle
+0x1001d9d8	0x1002ef24	string	0x1001d601	Share currently in use
+0x1001d9de	0x1002ef0c	string	0x1001d601	Unknown share option
+0x1001d9e4	0x1002ee74	string	0x1001d601	No error
+0x1001da19	0x1002f3a8	string	0x1001d9ea	Call interrupted
+0x1001da23	0x1002f39c	string	0x1001d9ea	Bad file
+0x1001da2d	0x1002f390	string	0x1001d9ea	Bad access
+0x1001da37	0x1002f380	string	0x1001d9ea	Bad argument
+0x1001da41	0x1002f36c	string	0x1001d9ea	Invalid arguments
+0x1001da4b	0x1002f354	string	0x1001d9ea	Out of file descriptors
+0x1001da55	0x1002f340	string	0x1001d9ea	Call would block
+0x1001da5f	0x1002f324	string	0x1001d9ea	Blocking call in progress
+0x1001da69	0x1002f308	string	0x1001d9ea	Descriptor is not a socket
+0x1001da73	0x1002f2ec	string	0x1001d9ea	Need destination address
+0x1001da7d	0x1002f2d8	string	0x1001d9ea	Bad message size
+0x1001da87	0x1002f2c8	string	0x1001d9ea	Bad protocol
+0x1001da91	0x1002f2a8	string	0x1001d9ea	Protocol option is unsupported
+0x1001da9b	0x1002f290	string	0x1001d9ea	Protocol is unsupported
+0x1001daa5	0x1002f278	string	0x1001d9ea	Socket is unsupported
+0x1001daaf	0x1002f260	string	0x1001d9ea	Operation not supported
+0x1001dab9	0x1002f240	string	0x1001d9ea	Address family not supported
+0x1001dac3	0x1002f220	string	0x1001d9ea	Protocol family not supported
+0x1001dacd	0x1002f208	string	0x1001d9ea	Address already in use
+0x1001dad7	0x1002f1f0	string	0x1001d9ea	Address not available
+0x1001dae1	0x1002f1e0	string	0x1001d9ea	Network down
+0x1001daeb	0x1002f1cc	string	0x1001d9ea	Network unreachable
+0x1001daf5	0x1002f1b4	string	0x1001d9ea	Network has been reset
+0x1001daff	0x1002f19c	string	0x1001d9ea	Connection was aborted
+0x1001db09	0x1002f184	string	0x1001d9ea	Connection was reset
+0x1001db13	0x1002f174	string	0x1001d9ea	No buffer space
+0x1001db4c	0x1002f158	string	0x1001d9ea	Socket is already connected
+0x1001db56	0x1002f140	string	0x1001d9ea	Socket is not connected
+0x1001db60	0x1002f124	string	0x1001d9ea	Socket has been shut down
+0x1001db6a	0x1002f110	string	0x1001d9ea	Too many references
+0x1001db74	0x1002f104	string	0x1001d9ea	Timed out
+0x1001db7e	0x1002f0f0	string	0x1001d9ea	Connection refused
+0x1001db88	0x1002f0e8	string	0x1001d9ea	Loop??
+0x1001db92	0x1002f0d8	string	0x1001d9ea	Name too long
+0x1001db9c	0x1002f0cc	string	0x1001d9ea	Host down
+0x1001dba3	0x1002f0b8	string	0x1001d9ea	Host unreachable
+0x1001dbaa	0x1002f0ac	string	0x1001d9ea	Not empty
+0x1001dbb1	0x1002f094	string	0x1001d9ea	Process limit reached
+0x1001dbb8	0x1002f084	string	0x1001d9ea	Too many users
+0x1001dbbf	0x1002f078	string	0x1001d9ea	Bad quota
+0x1001dbc6	0x1002f064	string	0x1001d9ea	Something is stale
+0x1001dbcd	0x1002f054	string	0x1001d9ea	Remote error
+0x1001dbd4	0x1002f034	string	0x1001d9ea	Winsock library is not ready
+0x1001dbdb	0x1002f014	string	0x1001d9ea	Winsock library not initialised
+0x1001dbe2	0x1002eff4	string	0x1001d9ea	Winsock version not supported
+0x1001dbe9	0x1002efe4	string	0x1001d9ea	Disconnected
+0x1001dc03	0x1002efc0	string	0x1001d9ea	No data record of requested type
+0x1001dc0a	0x1002ef94	string	0x1001d9ea	Unrecoverable error in call to nameserver
+0x1001dc11	0x1002ef78	string	0x1001d9ea	Host not found, try again
+0x1001dc18	0x1002ef68	string	0x1001d9ea	Host not found
+0x1001dc20	0x1002932c	import	0x1001d9ea	msvcrt.dll.strncpy
+0x1001dd49	0x10029078	import	0x1001dd44	KERNEL32.dll.GetLastError
+0x1001dd78	0x100292e0	import	0x1001dd44	msvcrt.dll.strerror
+0x1001dd81	0x1002932c	import	0x1001dd44	msvcrt.dll.strncpy
+0x1001dda7	0x10029040	import	0x1001dd44	KERNEL32.dll.FormatMessageA
+0x1001ddb3	0x1002f3bc	string	0x1001dd44	Unknown error %d (%#x)
+0x1001ddc2	0x100293b0	import	0x1001dd44	msvcrt.dll.strrchr
+0x1001ddfa	0x10029078	import	0x1001dd44	KERNEL32.dll.GetLastError
+0x1001de0a	0x10029048	import	0x1001dd44	KERNEL32.dll.SetLastError
+0x1001de2f	0x100293a4	import	0x1001de18	msvcrt.dll.strchr
+0x1001dea5	0x10029260	import	0x1001de89	WS2_32.dll.WSAStartup
+0x1001deb0	0x1002f740	string	0x1001de89	WSAStartup failed (%d)
+0x1001dec0	0x1002925c	import	0x1001de89	WS2_32.dll.WSACleanup
+0x1001dedb	0x1002f710	string	0x1001de89	insufficient winsock version to support telnet
+0x1001def0	0x10026c4e	string	0x1001de89	;\rt
+0x1001df77	0x1002f790	string	0x1001df4d	%s IAC %s\n
+0x1001df80	0x1002f784	string	0x1001df4d	%s IAC %d\n
+0x1001df98	0x1002f3f4	string	0x1001df4d	WILL
+0x1001dfa7	0x1002f3ec	string	0x1001df4d	WONT
+0x1001dfca	0x1002f3e0	string	0x1001df4d	DONT
+0x1001dfe3	0x1002f77c	string	0x1001df4d	EXOPL
+0x1001dfee	0x1001dffa	string	0x1001df4d	QPShd
+0x1001dff3	0x1002f770	string	0x1001df4d	%s %s %s\n
+0x1001dffd	0x1002f764	string	0x1001df4d	%s %s %d\n
+0x1001e007	0x1002f758	string	0x1001df4d	%s %d %d\n
+0x1001e03f	0x1002927c	import	0x1001e017	WS2_32.dll.send
+0x1001e049	0x10029274	import	0x1001e017	WS2_32.dll.WSAGetLastError
+0x1001e050	0x1002f7a4	string	0x1001e017	Sending data failed (%d)
+0x1001e065	0x1002f79c	string	0x1001e017	SENT
+0x1001e37a	0x1002f864	string	0x1001e354	RCVD
+0x1001e381	0x1002f79c	string	0x1001e354	SENT
+0x1001e387	0x1002f858	string	0x1001e354	%s IAC SB
+0x1001e3bf	0x1002f848	string	0x1001e354	(terminated by
+0x1001e43e	0x1002f834	string	0x1001e354	, not IAC SE!)
+0x1001e45a	0x1002f820	string	0x1001e354	(Empty suboption?)
+0x1001e480	0x1002f80c	string	0x1001e354	%s (unsupported)
+0x1001e49d	0x1002f7fc	string	0x1001e354	%d (unknown)
+0x1001e4bd	0x1002f7f4	string	0x1001e354	NAME
+0x1001e4c4	0x1002f7e8	string	0x1001e354	INFO/REPLY
+0x1001e4cb	0x1002f7e0	string	0x1001e354	SEND
+0x1001e506	0x1002f7d4	string	0x1001e354	%.2x
+0x1001e57d	0x1002f7c4	string	0x1001e354	"%s"
+0x1001e5e7	0x1002f8d4	string	0x1001e5a3	USER,%s
+0x1001e630	0x10026c4e	string	0x1001e5a3	;\rt
+0x1001e7f0	0x10029464	string	0x1001e769	%c%c%c%c
+0x1001e834	0x1002f900	string	0x1001e769	%127[^,],%127s
+0x1001e83b	0x100293a8	import	0x1001e769	msvcrt.dll.sscanf
+0x1001e85a	0x1002f8f4	string	0x1001e769	%c%s%c%s
+0x1001e884	0x1002f8ec	string	0x1001e769	%c%c
+0x1001e8a8	0x1002927c	import	0x1001e769	WS2_32.dll.send
+0x1001e8b2	0x10029274	import	0x1001e769	WS2_32.dll.WSAGetLastError
+0x1001e8b9	0x1002f7a4	string	0x1001e769	Sending data failed (%d)
+0x1001e918	0x1002f8dc	string	0x1001e769	%c%c%c%c%s%c%c
+0x1001e940	0x1002927c	import	0x1001e769	WS2_32.dll.send
+0x1001e94a	0x10029274	import	0x1001e769	WS2_32.dll.WSAGetLastError
+0x1001e951	0x1002f7a4	string	0x1001e769	Sending data failed (%d)
+0x1001e980	0x10026c4e	string	0x1001e769	;\rt
+0x1001ea5c	0x1002f864	string	0x1001e98d	RCVD
+0x1001ea87	0x1002f864	string	0x1001e98d	RCVD
+0x1001eab2	0x1002f864	string	0x1001e98d	RCVD
+0x1001eadd	0x1002f864	string	0x1001e98d	RCVD
+0x1001eb70	0x1002f910	string	0x1001e98d	In SUBOPTION processing, RCVD
+0x1001ebb6	0x1002f864	string	0x1001e98d	RCVD
+0x1001ed1b	0x1001ed4b	string	0x1001ecc9	j7X^[
+0x1001ee32	0x1002fad8	string	0x1001edcb	WS2_32.DLL
+0x1001ee37	0x1002906c	import	0x1001edcb	KERNEL32.dll.LoadLibraryA
+0x1001ee46	0x10029078	import	0x1001edcb	KERNEL32.dll.GetLastError
+0x1001ee4d	0x1002fab8	string	0x1001edcb	failed to load WS2_32.DLL (%d)
+0x1001ee65	0x10029070	import	0x1001edcb	KERNEL32.dll.GetProcAddress
+0x1001ee6b	0x1002faa8	string	0x1001edcb	WSACreateEvent
+0x1001ee7a	0x10029078	import	0x1001edcb	KERNEL32.dll.GetLastError
+0x1001ee81	0x1002fa7c	string	0x1001edcb	failed to find WSACreateEvent function (%d)
+0x1001ee92	0x10029074	import	0x1001edcb	KERNEL32.dll.FreeLibrary
+0x1001ee9a	0x1002fa6c	string	0x1001edcb	WSACloseEvent
+0x1001eea9	0x10029078	import	0x1001edcb	KERNEL32.dll.GetLastError
+0x1001eeb0	0x1002fa40	string	0x1001edcb	failed to find WSACloseEvent function (%d)
+0x1001eeb7	0x1002fa30	string	0x1001edcb	WSAEventSelect
+0x1001eec5	0x10029078	import	0x1001edcb	KERNEL32.dll.GetLastError
+0x1001eecc	0x1002fa04	string	0x1001edcb	failed to find WSAEventSelect function (%d)
+0x1001eee1	0x1002f9ec	string	0x1001edcb	WSAEnumNetworkEvents
+0x1001eef2	0x10029078	import	0x1001edcb	KERNEL32.dll.GetLastError
+0x1001eef9	0x1002f9b8	string	0x1001edcb	failed to find WSAEnumNetworkEvents function (%d)
+0x1001ef0c	0x10029274	import	0x1001edcb	WS2_32.dll.WSAGetLastError
+0x1001ef13	0x1002f99c	string	0x1001edcb	WSACreateEvent failed (%d)
+0x1001ef29	0x10029074	import	0x1001edcb	KERNEL32.dll.FreeLibrary
+0x1001ef38	0x1002902c	import	0x1001edcb	KERNEL32.dll.GetStdHandle
+0x1001ef5d	0x10029030	import	0x1001edcb	KERNEL32.dll.GetFileType
+0x1001ef86	0x10029034	import	0x1001edcb	KERNEL32.dll.ReadFile
+0x1001ef9c	0x10029038	import	0x1001edcb	KERNEL32.dll.WaitForMultipleObjects
+0x1001efff	0x1002903c	import	0x1001edcb	KERNEL32.dll.PeekNamedPipe
+0x1001f055	0x10029274	import	0x1001edcb	WS2_32.dll.WSAGetLastError
+0x1001f067	0x1002f978	string	0x1001edcb	WSAEnumNetworkEvents failed (%d)
+0x1001f11c	0x1002f96c	string	0x1001edcb	Time-out
+0x1001f146	0x10029274	import	0x1001edcb	WS2_32.dll.WSAGetLastError
+0x1001f14d	0x1002f950	string	0x1001edcb	WSACloseEvent failed (%d)
+0x1001f15e	0x10029074	import	0x1001edcb	KERNEL32.dll.FreeLibrary
+0x1001f168	0x10029078	import	0x1001edcb	KERNEL32.dll.GetLastError
+0x1001f16f	0x1002f930	string	0x1001edcb	FreeLibrary(wsock2) failed (%d)
+0x1001f1af	0x100293a0	import	0x1001f19a	msvcrt.dll.time
+0x1001f1cc	0x100296d8	string	0x1001f19a	Connection time-out
+0x1001f291	0x1002fb24	string	0x1001f19a	set timeouts for state %d; Total %ld, retry %d maxtry %d\n
+0x1001f2a1	0x100293a0	import	0x1001f19a	msvcrt.dll.time
+0x1001f2fd	0x100292c8	import	0x1001f2f3	msvcrt.dll.memchr
+0x1001f3c0	0x1002fcd8	string	0x1001f362	got option=(%s) value=(%s)\n
+0x1001f3d2	0x1002fcd0	string	0x1001f362	blksize
+0x1001f3e9	0x100293ac	import	0x1001f362	msvcrt.dll.strtol
+0x1001f422	0x1002fcc4	string	0x1001f362	requested
+0x1001f428	0x1002fca8	string	0x1001f362	blksize parsed from OACK
+0x1001f42d	0x1002fc94	string	0x1001f362	%s (%d) %s (%d)\n
+0x1001f44a	0x1002fc8c	string	0x1001f362	tsize
+0x1001f461	0x100293ac	import	0x1001f362	msvcrt.dll.strtol
+0x1001f46a	0x1002fc74	string	0x1001f362	tsize parsed from OACK
+0x1001f46f	0x1002fc68	string	0x1001f362	%s (%ld)\n
+0x1001f563	0x1002fd7c	string	0x1001f53c	tftp_rx: internal error
+0x1001f583	0x1002fd48	string	0x1001f53c	Timeout waiting for block %d ACK. Retries = %d\n
+0x1001f5c1	0x10029280	import	0x1001f53c	WS2_32.dll.sendto
+0x1001f60e	0x10029280	import	0x1001f53c	WS2_32.dll.sendto
+0x1001f658	0x10029280	import	0x1001f53c	WS2_32.dll.sendto
+0x1001f688	0x1002fd1c	string	0x1001f53c	Received unexpected DATA packet block %d\n
+0x1001f6ad	0x1002fcf4	string	0x1001f53c	tftp_rx: giving up waiting for block %d
+0x1001f6fc	0x10029280	import	0x1001f53c	WS2_32.dll.sendto
+0x1001f706	0x10029274	import	0x1001f53c	WS2_32.dll.WSAGetLastError
+0x1001f710	0x1001dd44	string	0x1001f53c	QSUVW
+0x1001f746	0x100293a0	import	0x1001f53c	msvcrt.dll.time
+0x1001f784	0x1002fdec	string	0x1001f753	tftp_tx: internal error, event: %i
+0x1001f7a5	0x1002fd48	string	0x1001f753	Timeout waiting for block %d ACK. Retries = %d\n
+0x1001f7ee	0x10029280	import	0x1001f753	WS2_32.dll.sendto
+0x1001f837	0x10029280	import	0x1001f753	WS2_32.dll.sendto
+0x1001f87c	0x1002fdc0	string	0x1001f753	Received ACK for block %d, expecting %d\n
+0x1001f89a	0x1002fd94	string	0x1001f753	tftp_tx: giving up waiting for block %d ack
+0x1001f8cc	0x10029280	import	0x1001f753	WS2_32.dll.sendto
+0x1001f8d6	0x10029274	import	0x1001f753	WS2_32.dll.WSAGetLastError
+0x1001f8e0	0x1001dd44	string	0x1001f753	QSUVW
+0x1001f907	0x100293a0	import	0x1001f753	msvcrt.dll.time
+0x1001f991	0x10029280	import	0x1001f753	WS2_32.dll.sendto
+0x1001f99b	0x10029274	import	0x1001f753	WS2_32.dll.WSAGetLastError
+0x1001f9a5	0x1001dd44	string	0x1001f753	QSUVW
+0x1001fa9e	0x1001fba7	string	0x1001fa6c	_^[ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001fb5b	0x100292ac	import	0x1001fa6c	WS2_32.dll.bind
+0x1001fb65	0x10029274	import	0x1001fa6c	WS2_32.dll.WSAGetLastError
+0x1001fb6d	0x1001dd44	string	0x1001fa6c	QSUVW
+0x1001fb73	0x1002fe10	string	0x1001fa6c	bind() failed; %s
+0x1001fbf7	0x100293a0	import	0x1001fbe4	msvcrt.dll.time
+0x1001fc42	0x10029334	import	0x1001fbe4	msvcrt.dll.strstr
+0x1001fc51	0x1002fe24	string	0x1001fbe4	;mode=
+0x1001fc76	0x1001fca1	string	0x1001fbe4	_^]3
+0x1001fc95	0x1001fca1	string	0x1001fbe4	_^]3
+0x1001fcae	0x1002fe2c	string	0x1001fca8	Connected for transmit
+0x1001fce2	0x1002fe44	string	0x1001fcdf	Connected for receive
+0x1001fd2b	0x1002fea8	string	0x1001fd0f	octet
+0x1001fd40	0x1002fe9c	string	0x1001fd0f	netascii
+0x1001fd61	0x1002fe7c	string	0x1001fd0f	tftp_send_first: internal error
+0x1001fe41	0x1002fe70	string	0x1001fd0f	%s%c%s%c
+0x1001fe8d	0x1002fe68	string	0x1001fd0f	%lld
+0x1001feb4	0x1002fc8c	string	0x1001fd0f	tsize
+0x1001feef	0x1002fcd0	string	0x1001fd0f	blksize
+0x1001ff2a	0x1002fe5c	string	0x1001fd0f	timeout
+0x1001ff64	0x10029280	import	0x1001fd0f	WS2_32.dll.sendto
+0x1001ff6e	0x10029274	import	0x1001fd0f	WS2_32.dll.WSAGetLastError
+0x1001ff78	0x1001dd44	string	0x1001fd0f	QSUVW
+0x1001ffa2	0x10026c4e	string	0x1001fd0f	;\rt
+0x1001ffc0	0x1002fec0	string	0x1001ffa9	Internal state machine error
+0x1001ffd8	0x1002feb0	string	0x1001ffa9	TFTP finished
+0x10020063	0x10029284	import	0x10020017	WS2_32.dll.recvfrom
+0x100200a2	0x1002ff04	string	0x10020017	Received too short packet
+0x100200c0	0x10026c4e	string	0x10020017	;\rt
+0x10020328	0x10029274	import	0x100201c0	WS2_32.dll.WSAGetLastError
+0x10020332	0x1001dd44	string	0x100201c0	QSUVW
+0x10020443	0x1002ff20	string	0x10020419	TFTP response timeout
+0x10020478	0x10029274	import	0x10020419	WS2_32.dll.WSAGetLastError
+0x10020480	0x1001dd44	string	0x10020419	QSUVW
+0x10020587	0x10029028	import	0x10020587	KERNEL32.dll.GetTickCount
+0x1002063a	0x1002ff64	string	0x100205e4	operation aborted by callback
+0x10020681	0x1002ff40	string	0x100205e4	read function returned funny value
+0x100206b7	0x100206be	string	0x100205e4	PSh8
+0x100206c0	0x1002ff38	string	0x100205e4	%x%s
+0x10020738	0x10026c4e	string	0x100205e4	;\rt
+0x1002078d	0x1002fff0	string	0x1002073f	seek callback returned error %d
+0x100207b8	0x1002ffd0	string	0x1002073f	the ioctl callback returned %d\n
+0x100207cb	0x1002ffac	string	0x1002073f	ioctl callback returned error %d
+0x100207d8	0x1002933c	import	0x1002073f	msvcrt.dll.fread
+0x100207e8	0x100292e8	import	0x1002073f	msvcrt.dll.fseek
+0x100207f6	0x1002ff84	string	0x1002073f	necessary data rewind wasn't possible
+0x10020853	0x10020876	string	0x10020835	9L$\f|\ah
+0x1002085b	0x1002a83c	string	0x10020835	The requested document is not new enough\n
+0x1002087c	0x1002a810	string	0x10020835	The requested document is not old enough\n
+0x10020a81	0x100301e0	string	0x10020888	Ignoring the response-body\n
+0x10020b63	0x100301bc	string	0x10020888	Leftovers after chunking: %zu bytes
+0x10020b87	0x100301a4	string	0x10020888	Rewinding %zu bytes\n
+0x10020c31	0x10030138	string	0x10020888	Rewinding stream by : %zu bytes on url %s (size = %lld, maxdownload = %lld, bytecount = %lld, nread = %zd)\n
+0x10020c5f	0x100300d0	string	0x10020888	Excess found in a non pipelined read: excess = %zu, size = %lld, maxdownload = %lld, bytecount = %lld\n
+0x10020cb4	0x10020cc4	string	0x10020888	9FLtN
+0x10020d41	0x1002ad10	string	0x10020888	Unrecognized content encoding type. libcurl understands `identity', `deflate' and `gzip' content encodings.
+0x10020e0e	0x10030090	string	0x10020888	we are done reading and this is set to close, stop send\n
+0x10021036	0x1002cee0	string	0x10020ebe	Failed to alloc scratch buffer!
+0x100211b9	0x100302cc	string	0x10021153	select/poll returned error
+0x1002129c	0x100302ac	string	0x10021153	Done waiting for 100-continue\n
+0x10021321	0x1002be70	string	0x10021153	Operation timed out after %ld milliseconds with %lld out of %lld bytes received
+0x10021351	0x10030268	string	0x10021153	Operation timed out after %ld milliseconds with %lld bytes received
+0x10021399	0x10030234	string	0x10021153	transfer closed with %lld bytes remaining to read
+0x100213c9	0x100301fc	string	0x10021153	transfer closed with outstanding read data remaining
+0x10021521	0x10026db0	string	0x1002149d	WVS3
+0x10021644	0x1002164b	string	0x10021552	PRQS
+0x100216ef	0x100216f6	string	0x10021552	PRQWS
+0x10021797	0x10029274	import	0x10021552	WS2_32.dll.WSAGetLastError
+0x10021806	0x10030324	string	0x100217bc	%255[^:]:%d:%255s
+0x1002180c	0x100293a8	import	0x100217bc	msvcrt.dll.sscanf
+0x10021833	0x10030308	string	0x100217bc	Resolve %s found illegal!\n
+0x10021851	0x100302e8	string	0x100217bc	Added %s:%d:%s to DNS cache\n
+0x100218b6	0x10026c4e	string	0x100217bc	;\rt
+0x100218d8	0x10030338	string	0x100218c8	No URL set!
+0x10021900	0x100219b6	string	0x100218c8	]^[ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10021a68	0x10030344	string	0x10021a4d	%15[^?&/:]://%c
+0x10021a6e	0x100293a8	import	0x10021a4d	msvcrt.dll.sscanf
+0x10021a83	0x10026c4e	string	0x10021a4d	;\rt
+0x10021c2b	0x10030414	string	0x10021c01	Maximum (%ld) redirects followed
+0x10021cce	0x100293a4	import	0x10021c01	msvcrt.dll.strchr
+0x10021d3d	0x100303e8	string	0x10021c01	Issue another request to this URL: '%s'\n
+0x10021d77	0x1002b760	string	0x10021c01	HEAD
+0x10021d84	0x100303c8	string	0x10021c01	Disables POST, goes with %s\n
+0x10021dad	0x10030390	string	0x10021c01	Violate RFC 2616/10.3.3 and switch from POST to GET\n
+0x10021dcd	0x10030358	string	0x10021c01	Violate RFC 2616/10.3.2 and switch from POST to GET\n
+0x10021e6f	0x10030438	string	0x10021e5d	Re-used connection seems dead, get a new one\n
+0x10021f33	0x10030468	string	0x10021ee2	Connection died, retrying a fresh connect\n
+0x100220a3	0x100292b8	import	0x10021f70	WS2_32.dll.closesocket
+0x10022178	0x10030494	string	0x10021f70	unspecified error %d
+0x10022287	0x100222f3	string	0x10022200	_^[]
+0x100222a2	0x100222f3	string	0x10022200	_^[]
+0x100222e1	0x100222f3	string	0x10022200	_^[]
+0x10022374	0x100293a4	import	0x10022348	msvcrt.dll.strchr
+0x1002241c	0x1002242a	string	0x100223d3	_^[]Ã blocks=Basic Latin,Latin-1 Supplement
+0x10022470	0x1003053c	string	0x1002242f	WARNING: failed to save cookies in %s\n
+0x10022545	0x10029390	import	0x10022536	msvcrt.dll._iob
+0x1002254e	0x10029390	import	0x10022536	msvcrt.dll._iob
+0x10022559	0x1002934c	import	0x10022536	msvcrt.dll.fwrite
+0x10022564	0x1002933c	import	0x10022536	msvcrt.dll.fread
+0x1002273a	0x100292b8	import	0x10022719	WS2_32.dll.closesocket
+0x10022ad9	0x10030590	string	0x10022abe	proxy
+0x10022af0	0x10030564	string	0x10022abe	About to connect() to %s%s port %ld (#%ld)\n
+0x10022b64	0x10030598	string	0x10022b33	Connected to %s (%s) port %ld (#%ld)\n
+0x10022cf3	0x100305c0	string	0x10022ce4	IDN support not present, can't parse Unicode (UTF-8) domains
+0x10022e96	0x10022ede	string	0x10022d04	_^][á blocks=Basic Latin,Latin-1 Supplement
+0x10022f13	0x10030600	string	0x10022ee3	Protocol %s not supported or disabled in libcurl
+0x10022f72	0x100293a8	import	0x10022f57	msvcrt.dll.sscanf
+0x10022f89	0x100306cc	string	0x10022f57	%15[^:]:%[^\n]
+0x10022fa1	0x100306c4	string	0x10022f57	file
+0x10022fca	0x100292cc	import	0x10022f57	msvcrt.dll.memmove
+0x10022fdb	0x100293a4	import	0x10022f57	msvcrt.dll.strchr
+0x10023003	0x100292cc	import	0x10022f57	msvcrt.dll.memmove
+0x1002300c	0x100306c4	string	0x10022f57	file
+0x10023026	0x100306ac	string	0x10022f57	%15[^\n:]://%[^\n/?]%[^\n]
+0x10023046	0x1003069c	string	0x10022f57	%[^\n/?]%[^\n]
+0x1002305b	0x1003068c	string	0x10022f57	<url> malformed
+0x10023070	0x10030684	string	0x10022f57	FTP.
+0x10023081	0x10030684	string	0x10022f57	FTP.
+0x1002309b	0x10030678	string	0x10022f57	DICT.
+0x100230a9	0x10030678	string	0x10022f57	DICT.
+0x100230ba	0x10029aa4	string	0x10022f57	DICT
+0x100230c3	0x10030670	string	0x10022f57	LDAP.
+0x100230d1	0x10030670	string	0x10022f57	LDAP.
+0x100230e2	0x10030668	string	0x10022f57	LDAP
+0x100230eb	0x10030660	string	0x10022f57	IMAP.
+0x100230f9	0x10030660	string	0x10022f57	IMAP.
+0x10023106	0x1002bb6c	string	0x10022f57	IMAP
+0x10023111	0x10030658	string	0x10022f57	http
+0x10023131	0x100293a4	import	0x10022f57	msvcrt.dll.strchr
+0x10023146	0x100293a4	import	0x10022f57	msvcrt.dll.strchr
+0x1002316e	0x100292cc	import	0x10022f57	msvcrt.dll.memmove
+0x100231b0	0x100292cc	import	0x10022f57	msvcrt.dll.memmove
+0x100231cd	0x10029334	import	0x10022f57	msvcrt.dll.strstr
+0x100231e5	0x1002937c	import	0x10022f57	msvcrt.dll.strtoul
+0x10023205	0x100292cc	import	0x10022f57	msvcrt.dll.memmove
+0x10023222	0x10030634	string	0x10022f57	Invalid IPv6 address format\n
+0x10023242	0x100293a4	import	0x10022f57	msvcrt.dll.strchr
+0x10023267	0x10026c4e	string	0x10022f57	;\rt
+0x100232ce	0x100306dc	string	0x1002326e	%llu-
+0x1002339a	0x100293a4	import	0x10023358	msvcrt.dll.strchr
+0x100233cd	0x100293a4	import	0x10023358	msvcrt.dll.strchr
+0x100233f2	0x100293a4	import	0x10023358	msvcrt.dll.strchr
+0x10023477	0x1003071c	string	0x10023461	no_proxy
+0x1002348c	0x10030710	string	0x10023461	NO_PROXY
+0x100234be	0x100292ec	import	0x10023461	msvcrt.dll.tolower
+0x100234cf	0x10030708	string	0x10023461	_proxy
+0x100234f4	0x100306fc	string	0x10023461	http_proxy
+0x1002352e	0x100306f0	string	0x10023461	all_proxy
+0x1002353f	0x100306e4	string	0x10023461	ALL_PROXY
+0x10023562	0x10026c4e	string	0x10023461	;\rt
+0x1002359a	0x10029334	import	0x10023569	msvcrt.dll.strstr
+0x100235ac	0x100293a4	import	0x10023569	msvcrt.dll.strchr
+0x100235c9	0x10030728	string	0x10023569	%255[^:@]:%255[^@]
+0x100235d6	0x100293a8	import	0x10023569	msvcrt.dll.sscanf
+0x10023672	0x1002935c	import	0x10023569	msvcrt.dll.isxdigit
+0x100236ae	0x10030634	string	0x10023569	Invalid IPv6 address format\n
+0x100236c0	0x100293a4	import	0x10023569	msvcrt.dll.strchr
+0x100236d7	0x100293ac	import	0x10023569	msvcrt.dll.strtol
+0x10023739	0x10026c4e	string	0x10023569	;\rt
+0x1002379b	0x1002932c	import	0x10023746	msvcrt.dll.strncpy
+0x1002382c	0x10026c4e	string	0x10023746	;\rt
+0x10023848	0x100293a4	import	0x10023839	msvcrt.dll.strchr
+0x10023890	0x10030728	string	0x10023839	%255[^:@]:%255[^@]
+0x10023896	0x100293a8	import	0x10023839	msvcrt.dll.sscanf
+0x100238a1	0x10030740	string	0x10023839	:%255[^@]
+0x100238a7	0x100293a8	import	0x10023839	msvcrt.dll.sscanf
+0x100238cb	0x10023928	string	0x10023839	_^[]
+0x10023945	0x10030780	string	0x1002392d	[%*45[0123456789abcdefABCDEF:.]%c
+0x1002394d	0x100293a8	import	0x1002392d	msvcrt.dll.sscanf
+0x10023972	0x100293a4	import	0x1002392d	msvcrt.dll.strchr
+0x10023992	0x100293b0	import	0x1002392d	msvcrt.dll.strrchr
+0x10023a08	0x1002b64c	string	0x1002392d	;type=%c
+0x10023a68	0x10030768	string	0x1002392d	%s://%s%s%s:%hu%s%s%s
+0x10023ab7	0x1002937c	import	0x1002392d	msvcrt.dll.strtoul
+0x10023ad7	0x1003074c	string	0x1002392d	Port number too large: %lu
+0x10023b0a	0x10026c4e	string	0x1002392d	;\rt
+0x10023b1c	0x1002932c	import	0x10023b11	msvcrt.dll.strncpy
+0x10023b8c	0x100307a4	string	0x10023b11	Couldn't find host %s in the _netrc file; using defaults\n
+0x10023bc3	0x100307f0	string	0x10023baf	anonymous
+0x10023bd9	0x100307e0	string	0x10023baf	ftp@example.com
+0x10023c14	0x10023c22	string	0x10023baf	j\eX_
+0x10023c1c	0x10023c22	string	0x10023baf	j\eX_
+0x10023cd6	0x10030818	string	0x10023c27	Couldn't resolve proxy '%s'
+0x10023d22	0x100307fc	string	0x10023c27	Couldn't resolve host '%s'
+0x10023f01	0x10030834	string	0x10023ea8	User-Agent: %s\r\n
+0x100240f8	0x1002412e	string	0x100240b1	_^[]
+0x10024289	0x10030848	string	0x100241c7	Closing connection #%ld\n
+0x1002438b	0x100308d0	string	0x10024308	Connection #%ld seems to be dead!\n
+0x10024405	0x10030894	string	0x10024308	Connection #%ld hasn't finished name resolve, can't reuse\n
+0x10024614	0x10030864	string	0x10024308	Connection #%ld isn't open enough, can't reuse\n
+0x10024714	0x1003092c	string	0x100246d8	Connection (#%ld) was killed to make room (holds %ld)\n
+0x10024724	0x100308f4	string	0x100246d8	This connection did not fit in the connection cache\n
+0x1002479f	0x10022d04	string	0x10024752	SUVW3
+0x10024844	0x100309a8	string	0x10024752	%s://%s
+0x100248b9	0x10030998	string	0x10024752	memory shortage
+0x10024b62	0x10030964	string	0x10024752	Re-using existing connection! (#%ld) with host %s\n
+0x10024bce	0x10026c4e	string	0x10024752	;\rt
+0x10024db0	0x100309b0	string	0x10024c88	Connection #%ld to host %s left intact\n
+0x10025a11	0x10025a48	string	0x1002500e	3\vM\b
+0x10025b9a	0x100309ec	string	0x1002500e	deflate, gzip
+0x10025d0b	0x100309e0	string	0x1002500e	SESS
+0x10025d2c	0x100309d8	string	0x1002500e	FLUSH
+0x10025d80	0x10029918	string	0x1002500e	Set-Cookie:
+0x10025d8c	0x10029918	string	0x1002500e	Set-Cookie:
+0x10025eaa	0x10029390	import	0x1002500e	msvcrt.dll._iob
+0x100262f8	0x1002934c	import	0x1002500e	msvcrt.dll.fwrite
+0x100263c8	0x1002933c	import	0x1002500e	msvcrt.dll.fread
+0x1002674e	0x100267b0	string	0x1002500e	+++++
+0x10026879	0x10030ad0	string	0x1002500e	libcurl/7.21.4
+0x100268c5	0x10030ac4	string	0x1002500e	zlib/%s
+0x10026996	0x10029270	import	0x10026996	WS2_32.dll.__WSAFDIsSet
+0x1002699c	0x10029184	import	0x1002699c	LIBEAY32.dll.Ordinal_808
+0x100269a2	0x10029180	import	0x100269a2	LIBEAY32.dll.Ordinal_809
+0x100269a8	0x1002917c	import	0x100269a8	LIBEAY32.dll.Ordinal_784
+0x100269ae	0x10029178	import	0x100269ae	LIBEAY32.dll.Ordinal_2435
+0x100269b4	0x10029174	import	0x100269b4	LIBEAY32.dll.Ordinal_2436
+0x100269ba	0x10029170	import	0x100269ba	LIBEAY32.dll.Ordinal_2437
+0x100269c0	0x1002916c	import	0x100269c0	LIBEAY32.dll.Ordinal_340
+0x100269c6	0x10029168	import	0x100269c6	LIBEAY32.dll.Ordinal_342
+0x100269cc	0x10029164	import	0x100269cc	LIBEAY32.dll.Ordinal_341
+0x100269d2	0x10029160	import	0x100269d2	LIBEAY32.dll.Ordinal_464
+0x100269d8	0x1002915c	import	0x100269d8	LIBEAY32.dll.Ordinal_2254
+0x100269de	0x10029158	import	0x100269de	LIBEAY32.dll.Ordinal_466
+0x100269e4	0x10029190	import	0x100269e4	LIBEAY32.dll.Ordinal_467
+0x100269ea	0x10029188	import	0x100269ea	LIBEAY32.dll.Ordinal_281
+0x100269f0	0x1002918c	import	0x100269f0	LIBEAY32.dll.Ordinal_280
+0x100269f6	0x1002908c	import	0x100269f6	LIBEAY32.dll.Ordinal_654
+0x100269fc	0x10029090	import	0x100269fc	LIBEAY32.dll.Ordinal_66
+0x10026a02	0x10029094	import	0x10026a02	LIBEAY32.dll.Ordinal_52
+0x10026a08	0x10029098	import	0x10026a08	LIBEAY32.dll.Ordinal_2431
+0x10026a0e	0x1002909c	import	0x10026a0e	SSLEAY32.dll.Ordinal_78
+0x10026a14	0x100290a0	import	0x10026a14	LIBEAY32.dll.Ordinal_95
+0x10026a1a	0x100290a4	import	0x10026a1a	LIBEAY32.dll.Ordinal_657
+0x10026a20	0x100290a8	import	0x10026a20	LIBEAY32.dll.Ordinal_1015
+0x10026a26	0x100290ac	import	0x10026a26	LIBEAY32.dll.Ordinal_2291
+0x10026a2c	0x100290b0	import	0x10026a2c	LIBEAY32.dll.Ordinal_3212
+0x10026a32	0x100290b4	import	0x10026a2c	LIBEAY32.dll.Ordinal_2604
+0x10026a38	0x100290b8	import	0x10026a38	LIBEAY32.dll.Ordinal_298
+0x10026a3e	0x100290bc	import	0x10026a3e	LIBEAY32.dll.Ordinal_224
+0x10026a44	0x100290c0	import	0x10026a44	LIBEAY32.dll.Ordinal_223
+0x10026a4a	0x100290c4	import	0x10026a4a	LIBEAY32.dll.Ordinal_227
+0x10026a50	0x100290c8	import	0x10026a50	SSLEAY32.dll.Ordinal_222
+0x10026a56	0x100290cc	import	0x10026a56	LIBEAY32.dll.Ordinal_254
+0x10026a5c	0x100290d0	import	0x10026a5c	LIBEAY32.dll.Ordinal_181
+0x10026a62	0x100290d4	import	0x10026a62	LIBEAY32.dll.Ordinal_2442
+0x10026a68	0x100290d8	import	0x10026a68	LIBEAY32.dll.Ordinal_188
+0x10026a6e	0x100290dc	import	0x10026a6e	LIBEAY32.dll.Ordinal_1951
+0x10026a74	0x100290e0	import	0x10026a74	LIBEAY32.dll.Ordinal_566
+0x10026a7a	0x100290e4	import	0x10026a7a	LIBEAY32.dll.Ordinal_578
+0x10026a80	0x100290e8	import	0x10026a80	LIBEAY32.dll.Ordinal_579
+0x10026a86	0x100290ec	import	0x10026a86	LIBEAY32.dll.Ordinal_1216
+0x10026a8c	0x100290f0	import	0x10026a8c	LIBEAY32.dll.Ordinal_2023
+0x10026a92	0x100290f4	import	0x10026a92	LIBEAY32.dll.Ordinal_2075
+0x10026a98	0x100290f8	import	0x10026a98	LIBEAY32.dll.Ordinal_1653
+0x10026a9e	0x100290fc	import	0x10026a9e	LIBEAY32.dll.Ordinal_1654
+0x10026aa4	0x10029100	import	0x10026aa4	LIBEAY32.dll.Ordinal_1958
+0x10026aaa	0x10029104	import	0x10026aaa	LIBEAY32.dll.Ordinal_2596
+0x10026ab0	0x10029108	import	0x10026ab0	LIBEAY32.dll.Ordinal_958
+0x10026ab6	0x1002910c	import	0x10026ab6	LIBEAY32.dll.Ordinal_625
+0x10026abc	0x10029110	import	0x10026abc	LIBEAY32.dll.Ordinal_556
+0x10026ac2	0x10029114	import	0x10026ac2	LIBEAY32.dll.Ordinal_248
+0x10026ac8	0x10029118	import	0x10026ac8	LIBEAY32.dll.Ordinal_979
+0x10026ace	0x1002911c	import	0x10026ace	LIBEAY32.dll.Ordinal_18
+0x10026ad4	0x10029120	import	0x10026ad4	LIBEAY32.dll.Ordinal_1180
+0x10026ada	0x10029124	import	0x10026ada	LIBEAY32.dll.Ordinal_542
+0x10026ae0	0x10029128	import	0x10026ae0	LIBEAY32.dll.Ordinal_544
+0x10026ae6	0x1002912c	import	0x10026ae6	LIBEAY32.dll.Ordinal_421
+0x10026aec	0x10029130	import	0x10026aec	LIBEAY32.dll.Ordinal_120
+0x10026af2	0x10029134	import	0x10026af2	LIBEAY32.dll.Ordinal_151
+0x10026af8	0x10029138	import	0x10026af8	LIBEAY32.dll.Ordinal_656
+0x10026afe	0x1002913c	import	0x10026afe	LIBEAY32.dll.Ordinal_7
+0x10026b04	0x10029140	import	0x10026b04	LIBEAY32.dll.Ordinal_653
+0x10026b0a	0x10029144	import	0x10026b0a	LIBEAY32.dll.Ordinal_680
+0x10026b10	0x10029148	import	0x10026b10	LIBEAY32.dll.Ordinal_2454
+0x10026b16	0x1002914c	import	0x10026b16	LIBEAY32.dll.Ordinal_391
+0x10026b1c	0x10029150	import	0x10026b1c	LIBEAY32.dll.Ordinal_641
+0x10026b22	0x10029154	import	0x10026b22	LIBEAY32.dll.Ordinal_1
+0x10026b28	0x10029200	import	0x10026b28	SSLEAY32.dll.Ordinal_5
+0x10026b2e	0x10029204	import	0x10026b2e	SSLEAY32.dll.Ordinal_48
+0x10026b34	0x10029208	import	0x10026b34	SSLEAY32.dll.Ordinal_126
+0x10026b3a	0x1002920c	import	0x10026b3a	SSLEAY32.dll.Ordinal_49
+0x10026b40	0x10029218	import	0x10026b40	SSLEAY32.dll.Ordinal_75
+0x10026b46	0x1002921c	import	0x10026b46	SSLEAY32.dll.Ordinal_24
+0x10026b52	0x10029224	import	0x10026b52	SSLEAY32.dll.Ordinal_30
+0x10026b58	0x1002922c	import	0x10026b58	SSLEAY32.dll.Ordinal_17
+0x10026b5e	0x10029230	import	0x10026b5e	SSLEAY32.dll.Ordinal_235
+0x10026b64	0x10029234	import	0x10026b64	SSLEAY32.dll.Ordinal_183
+0x10026b6a	0x10029238	import	0x10026b6a	SSLEAY32.dll.Ordinal_74
+0x10026b70	0x10029214	import	0x10026b70	SSLEAY32.dll.Ordinal_76
+0x10026b76	0x10029210	import	0x10026b76	SSLEAY32.dll.Ordinal_8
+0x10026b7c	0x100291a4	import	0x10026b7c	SSLEAY32.dll.Ordinal_86
+0x10026b82	0x10029198	import	0x10026b82	SSLEAY32.dll.Ordinal_96
+0x10026b88	0x1002919c	import	0x10026b88	SSLEAY32.dll.Ordinal_58
+0x10026b94	0x10029228	import	0x10026b94	SSLEAY32.dll.Ordinal_31
+0x10026b9a	0x100291a8	import	0x10026b9a	SSLEAY32.dll.Ordinal_87
+0x10026ba0	0x100291ac	import	0x10026ba0	SSLEAY32.dll.Ordinal_90
+0x10026ba6	0x100291b0	import	0x10026ba6	SSLEAY32.dll.Ordinal_45
+0x10026bac	0x100291b4	import	0x10026bac	SSLEAY32.dll.Ordinal_21
+0x10026bb2	0x100291b8	import	0x10026bb2	SSLEAY32.dll.Ordinal_141
+0x10026bb8	0x100291bc	import	0x10026bb8	SSLEAY32.dll.Ordinal_15
+0x10026bbe	0x100291c0	import	0x10026bbe	SSLEAY32.dll.Ordinal_6
+0x10026bc4	0x100291c4	import	0x10026bc4	SSLEAY32.dll.Ordinal_243
+0x10026bca	0x100291c8	import	0x10026bca	SSLEAY32.dll.Ordinal_12
+0x10026bd0	0x100291cc	import	0x10026bd0	SSLEAY32.dll.Ordinal_172
+0x10026bd6	0x100291d0	import	0x10026bd6	SSLEAY32.dll.Ordinal_113
+0x10026bdc	0x100291d4	import	0x10026bdc	SSLEAY32.dll.Ordinal_116
+0x10026be2	0x100291d8	import	0x10026be2	SSLEAY32.dll.Ordinal_110
+0x10026be8	0x100291dc	import	0x10026be8	SSLEAY32.dll.Ordinal_130
+0x10026bee	0x100291e0	import	0x10026bee	SSLEAY32.dll.Ordinal_127
+0x10026bf4	0x100291e4	import	0x10026bf4	SSLEAY32.dll.Ordinal_43
+0x10026bfa	0x100291e8	import	0x10026bfa	SSLEAY32.dll.Ordinal_60
+0x10026c00	0x100291ec	import	0x10026c00	SSLEAY32.dll.Ordinal_157
+0x10026c06	0x100291f0	import	0x10026c06	SSLEAY32.dll.Ordinal_61
+0x10026c0c	0x100291f4	import	0x10026c0c	SSLEAY32.dll.Ordinal_242
+0x10026c12	0x100291f8	import	0x10026c12	SSLEAY32.dll.Ordinal_77
+0x10026c18	0x100291fc	import	0x10026c18	SSLEAY32.dll.Ordinal_108
+0x10026c1e	0x100293f0	import	0x10026c1e	zlib1.dll.inflateEnd
+0x10026c24	0x100293ec	import	0x10026c24	zlib1.dll.inflateInit2_
+0x10026c2a	0x100293e8	import	0x10026c2a	zlib1.dll.inflate
+0x10026c30	0x100293e4	import	0x10026c30	zlib1.dll.inflateInit_
+0x10026c36	0x100293f4	import	0x10026c36	zlib1.dll.zlibVersion
+0x10026c3c	0x100293c4	import	0x10026c3c	msvcrt.dll.memcpy
+0x10026c42	0x100293c0	import	0x10026c42	msvcrt.dll.strlen
+0x10026c48	0x100293bc	import	0x10026c48	msvcrt.dll.memset
+0x10026c5e	0x100293b8	import	0x10026c5e	msvcrt.dll.strcmp
+0x10026c64	0x10029384	import	0x10026c5e	msvcrt.dll.calloc
+0x10026c6a	0x10029380	import	0x10026c5e	msvcrt.dll.free
+0x10026c70	0x10029354	import	0x10026c5e	msvcrt.dll.malloc
+0x10026c76	0x10029350	import	0x10026c5e	msvcrt.dll.realloc
+0x10026cac	0x10029338	import	0x10026cac	msvcrt.dll.strcpy
+0x10026cb2	0x10029330	import	0x10026cb2	msvcrt.dll._errno
+0x10026cb8	0x10029328	import	0x10026cb8	msvcrt.dll.strcat
+0x10026cc0	0x100292c4	import	0x10026cc0	msvcrt.dll.memcmp
+0x10026cff	0x10026d48	string	0x10026cd0	+D$\b\eT$\f
+0x10026eeb	0x10026efb	string	0x10026e60	+D$\f\eT$
+0x10026ef1	0x10026efb	string	0x10026e60	+D$\f\eT$
+0x10026fca	0x10030ae0	string	0x10026f43	Invalid parameter passed to C runtime function.\n
+0x10026fd5	0x10029024	import	0x10026f43	KERNEL32.dll.OutputDebugStringA
+0x10026fe0	0x10026c4e	string	0x10026f43	;\rt
+0x10027007	0x10029330	import	0x10026ff2	msvcrt.dll._errno
+0x100270a4	0x100270e2	string	0x10027073	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10027118	0x1002714a	string	0x100270e7	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100272af	0x10026c4e	string	0x10027204	;\rt
+0x10027330	0x1002733b	string	0x10027326	_^[]
+0x100273e9	0x100272f6	string	0x10027360	UVWS
+0x10027572	0x10029330	import	0x10027557	msvcrt.dll._errno
+0x100275a8	0x10029360	import	0x10027557	msvcrt.dll.isspace
+0x10027760	0x10029330	import	0x10027557	msvcrt.dll._errno
+0x10027807	0x10027818	string	0x100277fc	;u\fr
+0x10027825	0x10029354	import	0x100277fc	msvcrt.dll.malloc
+0x10027860	0x100292fc	import	0x10027842	msvcrt.dll._adjust_fdiv
+0x10027881	0x10029018	import	0x10027842	KERNEL32.dll.InterlockedCompareExchange
+0x100278a2	0x10029044	import	0x10027842	KERNEL32.dll.Sleep
+0x10027916	0x1002901c	import	0x10027842	KERNEL32.dll.InterlockedExchange
+0x10027929	0x10028ba6	string	0x10027842	j\bhx\f
+0x10027954	0x10029018	import	0x10027842	KERNEL32.dll.InterlockedCompareExchange
+0x10027967	0x10029044	import	0x10027842	KERNEL32.dll.Sleep
+0x100279b1	0x10029380	import	0x10027842	msvcrt.dll.free
+0x100279d3	0x1002901c	import	0x10027842	KERNEL32.dll.InterlockedExchange
+0x10027ae6	0x10027b88	string	0x10027842	9u\ft
+0x10027aef	0x10027b88	string	0x10027842	9u\ft
+0x10027b5a	0x10027b88	string	0x10027842	9u\ft
+0x10027d05	0x10029008	import	0x10027c4a	KERNEL32.dll.SetUnhandledExceptionFilter
+0x10027d10	0x1002900c	import	0x10027c4a	KERNEL32.dll.UnhandledExceptionFilter
+0x10027d1b	0x10029010	import	0x10027c4a	KERNEL32.dll.GetCurrentProcess
+0x10027d22	0x10029014	import	0x10027c4a	KERNEL32.dll.TerminateProcess
+0x10027d9f	0x10027dcd	string	0x10027d83	^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10027db3	0x10029330	import	0x10027d83	msvcrt.dll._errno
+0x10027dbc	0x10027dcd	string	0x10027d83	^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10027e1a	0x10029308	import	0x10027dd1	msvcrt.dll._itoa
+0x10027e58	0x10029304	import	0x10027dd1	msvcrt.dll._snprintf
+0x10027e7b	0x10026c4e	string	0x10027dd1	;\rt
+0x10027ec7	0x10029330	import	0x10027e82	msvcrt.dll._errno
+0x10027eec	0x1002930c	import	0x10027e82	msvcrt.dll.wctomb
+0x10027f0e	0x10029330	import	0x10027e82	msvcrt.dll._errno
+0x10027f3e	0x10029330	import	0x10027e82	msvcrt.dll._errno
+0x10027f46	0x10027ecf	string	0x10027e82	YSSSSS
+0x10027f64	0x10026c4e	string	0x10027e82	;\rt
+0x10027fc8	0x10029330	import	0x10027f6b	msvcrt.dll._errno
+0x1002826b	0x10029300	import	0x10027f6b	msvcrt.dll.isleadbyte
+0x10028592	0x10029354	import	0x10027f6b	msvcrt.dll.malloc
+0x100289a8	0x10029380	import	0x10027f6b	msvcrt.dll.free
+0x100289d7	0x10029330	import	0x10027f6b	msvcrt.dll._errno
+0x100289ef	0x10029330	import	0x10027f6b	msvcrt.dll._errno
+0x10028a22	0x10026c4e	string	0x10027f6b	;\rt
+0x10028a6d	0x10029330	import	0x10028a4b	msvcrt.dll._errno
+0x10028b93	0x10028ba1	string	0x10028b60	_^[]
+0x10028c12	0x100292f0	import	0x10028c12	msvcrt.dll._XcptFilter
+0x10028c18	0x100292f4	import	0x10028c18	msvcrt.dll._initterm
+0x10028c1e	0x100292f8	import	0x10028c1e	msvcrt.dll._amsg_exit
+0x10028c96	0x10026c4e	string	0x10028c87	;\rt
+0x10028cde	0x10029080	import	0x10028caa	KERNEL32.dll.GetSystemTimeAsFileTime
+0x10028cea	0x10029084	import	0x10028caa	KERNEL32.dll.GetCurrentProcessId
+0x10028cf2	0x10029000	import	0x10028caa	KERNEL32.dll.GetCurrentThreadId
+0x10028cfa	0x10029028	import	0x10028caa	KERNEL32.dll.GetTickCount
+0x10028d06	0x10029004	import	0x10028caa	KERNEL32.dll.QueryPerformanceCounter
+0x10028d3a	0x1002931c	import	0x10028d2f	msvcrt.dll._fileno
+0x10028d4b	0x10029330	import	0x10028d2f	msvcrt.dll._errno
+0x10028d67	0x10029330	import	0x10028d2f	msvcrt.dll._errno
+0x10028dbc	0x10029324	import	0x10028d2f	msvcrt.dll._isatty
+0x10028dc7	0x10029330	import	0x10028d2f	msvcrt.dll._errno
+0x10028e15	0x10029320	import	0x10028d2f	msvcrt.dll._write
+0x10028e30	0x10029314	import	0x10028d2f	msvcrt.dll.__pioinfo
+0x10028e58	0x10029344	import	0x10028d2f	msvcrt.dll._lseeki64
+0x10028e7d	0x10029320	import	0x10028d2f	msvcrt.dll._write
+0x10028ea4	0x10029020	import	0x10028ea4	KERNEL32.dll.RtlUnwind

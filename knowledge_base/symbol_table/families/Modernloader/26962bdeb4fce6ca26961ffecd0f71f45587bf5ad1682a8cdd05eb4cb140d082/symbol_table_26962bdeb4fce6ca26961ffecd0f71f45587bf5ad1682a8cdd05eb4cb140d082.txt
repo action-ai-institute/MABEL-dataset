@@ -1,0 +1,623 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x140001676	0x14000c508	string	0x140001630	@USWH
+0x1400017c0	0x14002bae8	string	0x1400017c0	bad array new length
+0x140001894	0x14002bb00	string	0x140001890	string too long
+0x140001936	0x14002bb10	string	0x1400018b0	SYSTEM\CurrentControlSet\Services\TermService
+0x140001940	0x140023020	import	0x1400018b0	ADVAPI32.dll.RegOpenKeyExW
+0x14000195a	0x14002bb90	string	0x1400018b0	ImagePath
+0x140001965	0x140003fd0	string	0x1400018b0	@SUVWAVH
+0x14000196e	0x14002bba8	string	0x1400018b0	[-] read error (code %d).\n
+0x140001975	0x140023100	import	0x1400018b0	KERNEL32.dll.GetLastError
+0x14000198d	0x140023018	import	0x1400018b0	ADVAPI32.dll.RegCloseKey
+0x1400019c0	0x14002bbc8	string	0x1400018b0	svchost.exe
+0x140001a41	0x14002bbe0	string	0x1400018b0	svchost -k
+0x140001ab4	0x14002bc00	string	0x1400018b0	[-] TermService is hosted in a custom application (BeTwin, etc.) - unsupported.\n
+0x140001ace	0x14002bc58	string	0x1400018b0	[*] ImagePath: %ws\n
+0x140001b02	0x14002bc70	string	0x1400018b0	SYSTEM\CurrentControlSet\Services\TermService\Parameters
+0x140001b0c	0x140023020	import	0x1400018b0	ADVAPI32.dll.RegOpenKeyExW
+0x140001b2c	0x14002bce8	string	0x1400018b0	ServiceDll
+0x140001b37	0x140003fd0	string	0x1400018b0	@SUVWAVH
+0x140001b83	0x14002bd18	string	0x1400018b0	rdpwrap.dll
+0x140001b9b	0x14002bd00	string	0x1400018b0	termsrv.dll
+0x140001c84	0x14002bc00	string	0x1400018b0	[-] TermService is hosted in a custom application (BeTwin, etc.) - unsupported.\n
+0x140001ca3	0x14002bc58	string	0x1400018b0	[*] ImagePath: %ws\n
+0x140001d54	0x14002bd30	string	0x1400018b0	Yes!
+0x140001d66	0x14002bd40	string	0x1400018b0	[*] SuperRDP already installed? ?%s?\n
+0x140001d7a	0x14002bb70	string	0x1400018b0	[-] Open error (code %d).\n
+0x140001d81	0x140023100	import	0x1400018b0	KERNEL32.dll.GetLastError
+0x140001d9b	0x140023018	import	0x1400018b0	ADVAPI32.dll.RegCloseKey
+0x140001e98	0x1400230c8	import	0x140001e20	KERNEL32.dll.CreateFileW
+0x140001eb6	0x1400230d0	import	0x140001e20	KERNEL32.dll.GetFileSize
+0x140001ee5	0x1400230d8	import	0x140001e20	KERNEL32.dll.ReadFile
+0x140001fa4	0x140023120	import	0x140001e20	KERNEL32.dll.GetSystemDirectoryW
+0x140001faa	0x14002bd00	string	0x140001e20	termsrv.dll
+0x140001fb9	0x1400233a8	import	0x140001e20	SHLWAPI.dll.PathAppendW
+0x140001fcd	0x140023108	import	0x140001e20	KERNEL32.dll.LoadLibraryExW
+0x140001feb	0x140023110	import	0x140001e20	KERNEL32.dll.FindResourceW
+0x140002000	0x140023118	import	0x140001e20	KERNEL32.dll.LoadResource
+0x14000203f	0x14002bd90	string	0x140001e20	%d.%d.%d.%d
+0x14000204b	0x1400233b8	import	0x140001e20	USER32.dll.wsprintfA
+0x140002056	0x14002bda0	string	0x140001e20	[+] termsrv.dll %s\n
+0x1400020c5	0x14002bdc0	string	0x140001e20	[-] Not support the version of termsrv, please contact author to update.\n
+0x1400020da	0x14002bd68	string	0x140001e20	[-] Failed to get termsrv.dll version\r\n
+0x14000214a	0x14002bef0	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server
+0x14000218f	0x140023020	import	0x140002120	ADVAPI32.dll.RegOpenKeyExW
+0x1400021b3	0x14002bf70	string	0x140002120	fDenyTSConnections
+0x1400021cc	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x1400021d6	0x14002bf98	string	0x140002120	[-] writekey error\n
+0x1400021ea	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x14000220c	0x14002bfb0	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server\Licensing Core
+0x140002242	0x140023028	import	0x140002120	ADVAPI32.dll.RegCreateKeyExW
+0x140002248	0x14002bf58	string	0x140002120	[-] OpenKey error\n
+0x14000224f	0x14002bf98	string	0x140002120	[-] writekey error\n
+0x140002282	0x14002c030	string	0x140002120	EnableConcurrentSessions
+0x140002289	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x1400022a3	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x1400022c3	0x14002c070	string	0x140002120	SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+0x1400022fc	0x140023028	import	0x140002120	ADVAPI32.dll.RegCreateKeyExW
+0x14000232e	0x14002c0e0	string	0x140002120	AllowMultipleTSSessions
+0x140002335	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x14000234f	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x140002379	0x14002c110	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server\AddIns
+0x14000238d	0x140023020	import	0x140002120	ADVAPI32.dll.RegOpenKeyExW
+0x1400023bb	0x14002c110	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server\AddIns
+0x1400023f4	0x140023028	import	0x140002120	ADVAPI32.dll.RegCreateKeyExW
+0x14000240b	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x140002421	0x14002c180	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server\AddIns\Clip Redirector
+0x140002457	0x140023028	import	0x140002120	ADVAPI32.dll.RegCreateKeyExW
+0x140002469	0x14002c210	string	0x140002120	RDPClip
+0x140002489	0x14002c220	string	0x140002120	Name
+0x140002490	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x1400024bf	0x14002c230	string	0x140002120	Type
+0x1400024c9	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x1400024df	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x1400024f5	0x14002c240	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server\AddIns\DND Redirector
+0x14000252e	0x140023028	import	0x140002120	ADVAPI32.dll.RegCreateKeyExW
+0x140002540	0x14002c2d0	string	0x140002120	RDPDND
+0x140002560	0x14002c220	string	0x140002120	Name
+0x140002567	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x140002596	0x14002c230	string	0x140002120	Type
+0x1400025a0	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x1400025b6	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x1400025cc	0x14002c2e0	string	0x140002120	SYSTEM\CurrentControlSet\Control\Terminal Server\AddIns\Dynamic VC
+0x140002605	0x140023028	import	0x140002120	ADVAPI32.dll.RegCreateKeyExW
+0x140002637	0x14002c230	string	0x140002120	Type
+0x14000263e	0x140023010	import	0x140002120	ADVAPI32.dll.RegSetValueExW
+0x14000264b	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x140002660	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x140002679	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x140002681	0x14002bf58	string	0x140002120	[-] OpenKey error\n
+0x1400026bf	0x140023018	import	0x140002120	ADVAPI32.dll.RegCloseKey
+0x1400026f0	0x14002c368	string	0x1400026e0	[*] Starting %ws\n
+0x140002702	0x14002c380	string	0x1400026e0	ServicesActive
+0x14000270b	0x140023050	import	0x1400026e0	ADVAPI32.dll.OpenSCManagerW
+0x140002719	0x140023100	import	0x1400026e0	KERNEL32.dll.GetLastError
+0x140002721	0x14002c3a0	string	0x1400026e0	OpenSCManager error : %d\n
+0x140002746	0x140023000	import	0x1400026e0	ADVAPI32.dll.OpenServiceW
+0x140002754	0x140023100	import	0x1400026e0	KERNEL32.dll.GetLastError
+0x14000275c	0x14002c3c0	string	0x1400026e0	OpenService error : %d\n
+0x14000276b	0x140023068	import	0x1400026e0	ADVAPI32.dll.CloseServiceHandle
+0x14000278b	0x140023060	import	0x1400026e0	ADVAPI32.dll.StartServiceW
+0x140002795	0x140023100	import	0x1400026e0	KERNEL32.dll.GetLastError
+0x1400027a7	0x140023138	import	0x1400026e0	KERNEL32.dll.Sleep
+0x1400027b5	0x140023060	import	0x1400026e0	ADVAPI32.dll.StartServiceW
+0x1400027c2	0x140023068	import	0x1400026e0	ADVAPI32.dll.CloseServiceHandle
+0x1400027cf	0x14002c3d8	string	0x1400026e0	[*] Start service faild.%d\n
+0x1400027db	0x14002c3f8	string	0x1400026e0	[*] Start service success.\n
+0x1400027ed	0x140023068	import	0x1400026e0	ADVAPI32.dll.CloseServiceHandle
+0x1400027f6	0x140023068	import	0x1400026e0	ADVAPI32.dll.CloseServiceHandle
+0x140002824	0x14002c380	string	0x140002810	ServicesActive
+0x140002833	0x140023050	import	0x140002810	ADVAPI32.dll.OpenSCManagerW
+0x140002841	0x140023100	import	0x140002810	KERNEL32.dll.GetLastError
+0x140002849	0x14002c3a0	string	0x140002810	OpenSCManager error : %d\n
+0x140002870	0x140023000	import	0x140002810	ADVAPI32.dll.OpenServiceW
+0x14000287e	0x140023100	import	0x140002810	KERNEL32.dll.GetLastError
+0x140002886	0x14002c3c0	string	0x140002810	OpenService error : %d\n
+0x1400028cb	0x140023058	import	0x140002810	ADVAPI32.dll.ChangeServiceConfigW
+0x1400028d5	0x140023100	import	0x140002810	KERNEL32.dll.GetLastError
+0x1400028dd	0x14002c418	string	0x140002810	[-] ChangeServiceConfig error: %d
+0x1400028ec	0x140023068	import	0x140002810	ADVAPI32.dll.CloseServiceHandle
+0x140002904	0x140023068	import	0x140002810	ADVAPI32.dll.CloseServiceHandle
+0x140002935	0x14002c380	string	0x140002910	ServicesActive
+0x14000294b	0x140023050	import	0x140002910	ADVAPI32.dll.OpenSCManagerW
+0x140002959	0x140023100	import	0x140002910	KERNEL32.dll.GetLastError
+0x140002961	0x14002c3a0	string	0x140002910	OpenSCManager error : %d\n
+0x14000297e	0x140023000	import	0x140002910	ADVAPI32.dll.OpenServiceW
+0x14000298c	0x140023100	import	0x140002910	KERNEL32.dll.GetLastError
+0x140002994	0x14002c3c0	string	0x140002910	OpenService error : %d\n
+0x1400029a3	0x140023068	import	0x140002910	ADVAPI32.dll.CloseServiceHandle
+0x1400029bb	0x140023070	import	0x140002910	ADVAPI32.dll.QueryServiceConfigW
+0x1400029c5	0x140023100	import	0x140002910	KERNEL32.dll.GetLastError
+0x1400029d0	0x140023100	import	0x140002910	KERNEL32.dll.GetLastError
+0x1400029d8	0x14002c440	string	0x140002910	QueryServiceConfig error : %d\n
+0x140002a08	0x140023070	import	0x140002910	ADVAPI32.dll.QueryServiceConfigW
+0x140002a12	0x140023100	import	0x140002910	KERNEL32.dll.GetLastError
+0x140002a1a	0x14002c440	string	0x140002910	QueryServiceConfig error : %d\n
+0x140002a2e	0x140023068	import	0x140002910	ADVAPI32.dll.CloseServiceHandle
+0x140002a37	0x140023068	import	0x140002910	ADVAPI32.dll.CloseServiceHandle
+0x140002ac6	0x14002c380	string	0x140002a70	ServicesActive
+0x140002acf	0x140023050	import	0x140002a70	ADVAPI32.dll.OpenSCManagerW
+0x140002add	0x140023100	import	0x140002a70	KERNEL32.dll.GetLastError
+0x140002ae5	0x14002c3a0	string	0x140002a70	OpenSCManager error : %d\n
+0x140002b3b	0x140023030	import	0x140002a70	ADVAPI32.dll.EnumServicesStatusExW
+0x140002b49	0x140023100	import	0x140002a70	KERNEL32.dll.GetLastError
+0x140002b56	0x140023100	import	0x140002a70	KERNEL32.dll.GetLastError
+0x140002b5e	0x14002c460	string	0x140002a70	EnumServicesStatusEx error : %d\n
+0x140002bbc	0x140023030	import	0x140002a70	ADVAPI32.dll.EnumServicesStatusExW
+0x140002bc6	0x140023100	import	0x140002a70	KERNEL32.dll.GetLastError
+0x140002bce	0x14002c460	string	0x140002a70	EnumServicesStatusEx error : %d\n
+0x140002bf3	0x140030a40	string	0x140002a70	TermService
+0x140002c17	0x14002c488	string	0x140002a70	[-] TermService not found.\n
+0x140002c37	0x140023378	import	0x140002a70	SHLWAPI.dll.StrCpyW
+0x140002c5a	0x14002c4a8	string	0x140002a70	[+] TermService found pid: %d\n
+0x140002c8b	0x140030a40	string	0x140002a70	TermService
+0x140002cc3	0x140023378	import	0x140002a70	SHLWAPI.dll.StrCpyW
+0x140002ccc	0x14002c530	string	0x140002a70	[*] Shared services found: %ws\n
+0x140002ce6	0x14002c518	string	0x140002a70	ShareSvcCount = %d\n
+0x140002cf9	0x14002c4c8	string	0x140002a70	Failed to set up TermService. Unknown error.\n
+0x140002d14	0x140030a40	string	0x140002a70	TermService
+0x140002d20	0x140030a40	string	0x140002a70	TermService
+0x140002d35	0x14002c4f8	string	0x140002a70	Start TermService failed!\n
+0x140002d5b	0x140023068	import	0x140002a70	ADVAPI32.dll.CloseServiceHandle
+0x140002db8	0x140023140	import	0x140002da0	KERNEL32.dll.OpenProcess
+0x140002dcb	0x140023148	import	0x140002da0	KERNEL32.dll.TerminateProcess
+0x140002dd5	0x140023100	import	0x140002da0	KERNEL32.dll.GetLastError
+0x140002ddd	0x14002c598	string	0x140002da0	[-] TerminateProcess error (code %d).\n
+0x140002dec	0x140023130	import	0x140002da0	KERNEL32.dll.CloseHandle
+0x140002e05	0x140023130	import	0x140002da0	KERNEL32.dll.CloseHandle
+0x140002e19	0x140023100	import	0x140002da0	KERNEL32.dll.GetLastError
+0x140002e21	0x14002c5c0	string	0x140002da0	[-] OpenProcess error (code %d).\n
+0x140002ea9	0x14002c5e8	string	0x140002e40	[*] RDP Wrapper Library is already installed.\n
+0x140002eca	0x1400230f0	import	0x140002e40	KERNEL32.dll.Wow64DisableWow64FsRedirection
+0x140002ed3	0x140023380	import	0x140002e40	SHLWAPI.dll.PathFileExistsW
+0x140002edd	0x14002c618	string	0x140002e40	[*] RDP Wrapper Library not exists.\n
+0x140002ef8	0x140023378	import	0x140002e40	SHLWAPI.dll.StrCpyW
+0x140002f1c	0x140023378	import	0x140002e40	SHLWAPI.dll.StrCpyW
+0x140002f29	0x140023388	import	0x140002e40	SHLWAPI.dll.PathRemoveExtensionW
+0x140002f2f	0x14002c640	string	0x140002e40	.ini
+0x140002f3d	0x1400233a0	import	0x140002e40	SHLWAPI.dll.StrCatW
+0x140002f4a	0x140023380	import	0x140002e40	SHLWAPI.dll.PathFileExistsW
+0x140002f54	0x14002c650	string	0x140002e40	[*] RDP Wrapper Library or config file not found.\n
+0x140002f65	0x14002c688	string	0x140002e40	[*] Installing...\n
+0x140002f93	0x14002c6a0	string	0x140002e40	[*] Get TermService PID failed\n
+0x140002fac	0x14002c6c0	string	0x140002e40	[*] Configuring service library...\n
+0x140002fda	0x140023120	import	0x140002e40	KERNEL32.dll.GetSystemDirectoryW
+0x14000300c	0x14002bd18	string	0x140002e40	rdpwrap.dll
+0x14000301a	0x1400233a8	import	0x140002e40	SHLWAPI.dll.PathAppendW
+0x140003020	0x14002c6e8	string	0x140002e40	rdpwrap.ini
+0x14000302e	0x1400233a8	import	0x140002e40	SHLWAPI.dll.PathAppendW
+0x140003034	0x14002c700	string	0x140002e40	rfxvmt.dll
+0x140003040	0x1400233a8	import	0x140002e40	SHLWAPI.dll.PathAppendW
+0x14000304b	0x140023380	import	0x140002e40	SHLWAPI.dll.PathFileExistsW
+0x140003067	0x140023110	import	0x140002e40	KERNEL32.dll.FindResourceW
+0x14000307a	0x140023118	import	0x140002e40	KERNEL32.dll.LoadResource
+0x14000308d	0x140023150	import	0x140002e40	KERNEL32.dll.SizeofResource
+0x14000309f	0x14002c720	string	0x140002e40	[-] Install rfxvmt failed: %d\n
+0x1400030d8	0x1400230c8	import	0x140002e40	KERNEL32.dll.CreateFileW
+0x1400030e7	0x140023100	import	0x140002e40	KERNEL32.dll.GetLastError
+0x1400030f3	0x14002c720	string	0x140002e40	[-] Install rfxvmt failed: %d\n
+0x14000311b	0x140023158	import	0x140002e40	KERNEL32.dll.WriteFile
+0x140003124	0x140023130	import	0x140002e40	KERNEL32.dll.CloseHandle
+0x140003137	0x140023160	import	0x140002e40	KERNEL32.dll.CopyFileW
+0x140003141	0x140023100	import	0x140002e40	KERNEL32.dll.GetLastError
+0x140003149	0x14002c720	string	0x140002e40	[-] Install rfxvmt failed: %d\n
+0x14000316b	0x140023160	import	0x140002e40	KERNEL32.dll.CopyFileW
+0x140003175	0x140023100	import	0x140002e40	KERNEL32.dll.GetLastError
+0x14000317d	0x14002c720	string	0x140002e40	[-] Install rfxvmt failed: %d\n
+0x140003195	0x14002bc70	string	0x140002e40	SYSTEM\CurrentControlSet\Services\TermService\Parameters
+0x1400031c3	0x140023020	import	0x140002e40	ADVAPI32.dll.RegOpenKeyExW
+0x1400031e9	0x1400031e0	string	0x140002e40	f9\A
+0x1400031fc	0x14002bce8	string	0x140002e40	ServiceDll
+0x140003215	0x140023010	import	0x140002e40	ADVAPI32.dll.RegSetValueExW
+0x140003225	0x140023100	import	0x140002e40	KERNEL32.dll.GetLastError
+0x14000322d	0x14002c550	string	0x140002e40	[-] OpenKey error: %d\n
+0x140003240	0x140023018	import	0x140002e40	ADVAPI32.dll.RegCloseKey
+0x140003246	0x14002c740	string	0x140002e40	[*] Checking dependencies...\n
+0x140003252	0x14002c568	string	0x140002e40	CertPropSvc
+0x140003266	0x14002c568	string	0x140002e40	CertPropSvc
+0x140003272	0x14002c580	string	0x140002e40	SessionEnv
+0x140003286	0x14002c580	string	0x140002e40	SessionEnv
+0x140003292	0x14002c760	string	0x140002e40	[*] Terminating service...\n
+0x14000329e	0x140023128	import	0x140002e40	KERNEL32.dll.GetCurrentProcess
+0x1400032b1	0x140023038	import	0x140002e40	ADVAPI32.dll.OpenProcessToken
+0x1400032c2	0x14002bec8	string	0x140002e40	SeDebugPrivilege
+0x1400032c9	0x140023040	import	0x140002e40	ADVAPI32.dll.LookupPrivilegeValueW
+0x140003305	0x140023048	import	0x140002e40	ADVAPI32.dll.AdjustTokenPrivileges
+0x140003310	0x140023130	import	0x140002e40	KERNEL32.dll.CloseHandle
+0x140003328	0x140023138	import	0x140002e40	KERNEL32.dll.Sleep
+0x140003361	0x140023138	import	0x140002e40	KERNEL32.dll.Sleep
+0x140003367	0x140030a40	string	0x140002e40	TermService
+0x140003378	0x140023138	import	0x140002e40	KERNEL32.dll.Sleep
+0x14000337e	0x14002c780	string	0x140002e40	[*] Configuring registry...\n
+0x140003391	0x14002c7a0	string	0x140002e40	[*] Configuring firewall...\n
+0x14000339d	0x14002be10	string	0x140002e40	netsh advfirewall firewall add rule name="Remote Desktop" dir=in protocol=tcp localport=3389 profile=any action=allow
+0x1400033a9	0x14002c7c0	string	0x140002e40	[+] Successfully installed.\n
+0x1400033e5	0x1400230f8	import	0x140002e40	KERNEL32.dll.Wow64RevertWow64FsRedirection
+0x140003437	0x140023128	import	0x140003410	KERNEL32.dll.GetCurrentProcess
+0x140003448	0x140023038	import	0x140003410	ADVAPI32.dll.OpenProcessToken
+0x140003452	0x140023100	import	0x140003410	KERNEL32.dll.GetLastError
+0x14000345a	0x14002c7e0	string	0x140003410	[-] OpenProcessToken error (code %d).\n
+0x140003472	0x14002bec8	string	0x140003410	SeDebugPrivilege
+0x140003479	0x140023040	import	0x140003410	ADVAPI32.dll.LookupPrivilegeValueW
+0x140003483	0x140023100	import	0x140003410	KERNEL32.dll.GetLastError
+0x14000348b	0x14002c7e0	string	0x140003410	[-] OpenProcessToken error (code %d).\n
+0x1400034cf	0x140023048	import	0x140003410	ADVAPI32.dll.AdjustTokenPrivileges
+0x1400034d9	0x140023100	import	0x140003410	KERNEL32.dll.GetLastError
+0x1400034e1	0x14002c808	string	0x140003410	[-] AdjustTokenPrivileges error (code %d).\n
+0x1400034f9	0x140023130	import	0x140003410	KERNEL32.dll.CloseHandle
+0x140003588	0x140023168	import	0x140003520	KERNEL32.dll.ExpandEnvironmentStringsW
+0x1400035ea	0x140003dd0	string	0x140003520	@SVAVAWH
+0x14000363a	0x140023398	import	0x140003520	SHLWAPI.dll.PathRemoveFileSpecW
+0x140003651	0x140023390	import	0x140003520	SHLWAPI.dll.PathFindFileNameW
+0x140003672	0x140023388	import	0x140003520	SHLWAPI.dll.PathRemoveExtensionW
+0x1400036a4	0x14002c640	string	0x140003520	.ini
+0x1400036c8	0x1400233a8	import	0x140003520	SHLWAPI.dll.PathAppendW
+0x1400036d3	0x140023170	import	0x140003520	KERNEL32.dll.DeleteFileW
+0x1400036e2	0x14002c838	string	0x140003520	[+] Removed file: %ws\n
+0x1400036f0	0x140023100	import	0x140003520	KERNEL32.dll.GetLastError
+0x1400036f8	0x14002c850	string	0x140003520	[-] DeleteFile error (code %d).\n
+0x140003715	0x140023170	import	0x140003520	KERNEL32.dll.DeleteFileW
+0x14000372a	0x14002c838	string	0x140003520	[+] Removed file: %ws\n
+0x14000373e	0x140023100	import	0x140003520	KERNEL32.dll.GetLastError
+0x140003746	0x14002c850	string	0x140003520	[-] DeleteFile error (code %d).\n
+0x140003808	0x14002c878	string	0x1400037c0	[*] RDP Wrapper Library is not installed.\n
+0x140003814	0x14002c8a8	string	0x1400037c0	[*] Uninstalling...\n
+0x140003830	0x1400230f0	import	0x1400037c0	KERNEL32.dll.Wow64DisableWow64FsRedirection
+0x14000383b	0x14002c8c0	string	0x1400037c0	[*] Resetting service library...\n
+0x14000386e	0x14002bc70	string	0x1400037c0	SYSTEM\CurrentControlSet\Services\TermService\Parameters
+0x140003878	0x140023020	import	0x1400037c0	ADVAPI32.dll.RegOpenKeyExW
+0x140003899	0x140023100	import	0x1400037c0	KERNEL32.dll.GetLastError
+0x1400038a1	0x14002bb70	string	0x1400037c0	[-] Open error (code %d).\n
+0x1400038ba	0x14002c8f0	string	0x1400037c0	%SystemRoot%\System32\termsrv.dll
+0x1400038cf	0x14002bce8	string	0x1400037c0	ServiceDll
+0x1400038d9	0x140023010	import	0x1400037c0	ADVAPI32.dll.RegSetValueExW
+0x1400038e3	0x140023100	import	0x1400037c0	KERNEL32.dll.GetLastError
+0x1400038eb	0x14002bba8	string	0x1400037c0	[-] read error (code %d).\n
+0x1400038fc	0x14002c760	string	0x1400037c0	[*] Terminating service...\n
+0x14000391f	0x140023138	import	0x1400037c0	KERNEL32.dll.Sleep
+0x140003925	0x14002c938	string	0x1400037c0	[*] Removing files...\n
+0x140003971	0x140023138	import	0x1400037c0	KERNEL32.dll.Sleep
+0x140003977	0x140030a40	string	0x1400037c0	TermService
+0x140003988	0x140023138	import	0x1400037c0	KERNEL32.dll.Sleep
+0x14000398e	0x14002c780	string	0x1400037c0	[*] Configuring registry...\n
+0x1400039a1	0x14002c7a0	string	0x1400037c0	[*] Configuring firewall...\n
+0x1400039ad	0x14002be88	string	0x1400037c0	netsh advfirewall firewall delete rule name="Remote Desktop"
+0x1400039c3	0x140023018	import	0x1400037c0	ADVAPI32.dll.RegCloseKey
+0x1400039db	0x1400230f8	import	0x1400037c0	KERNEL32.dll.Wow64RevertWow64FsRedirection
+0x1400039ec	0x14002c950	string	0x1400037c0	[+] Successfully uninstalled.\n
+0x1400039f5	0x14002c970	string	0x1400037c0	[+] Uninstall failed.\n
+0x140003a0a	0x140023018	import	0x1400037c0	ADVAPI32.dll.RegCloseKey
+0x140003a85	0x14002c9d0	string	0x140003a30	update
+0x140003a9f	0x14002c9e0	string	0x140003a30	[+] SuperRDP initialize...\n\n
+0x140003ab0	0x1400230e8	import	0x140003a30	KERNEL32.dll.GetNativeSystemInfo
+0x140003adf	0x14002ca40	string	0x140003a30	[-] No term service\n
+0x140003af0	0x14002ca58	string	0x140003a30	\n[+] SuperRDP initialize success...\n
+0x140003afc	0x14002ca80	string	0x140003a30	--------------------------------------------------------\n
+0x140003b11	0x14002cac0	string	0x140003a30	[+] checked update option, SupreRDP will automatically update.\n
+0x140003b26	0x14002cb00	string	0x140003a30	[+] do option 2, uninstall...\n
+0x140003b37	0x14002cb20	string	0x140003a30	[+] do option 1, install...\n
+0x140003b50	0x140023178	import	0x140003a30	KERNEL32.dll.GetModuleFileNameW
+0x140003b5b	0x140023398	import	0x140003a30	SHLWAPI.dll.PathRemoveFileSpecW
+0x140003b61	0x14002bd18	string	0x140003a30	rdpwrap.dll
+0x140003b6d	0x1400233a8	import	0x140003a30	SHLWAPI.dll.PathAppendW
+0x140003b78	0x140023380	import	0x140003a30	SHLWAPI.dll.PathFileExistsW
+0x140003b8b	0x140002e40	string	0x140003a30	@UVH
+0x140003b90	0x14002cba0	string	0x140003a30	[+] done.\n
+0x140003bdc	0x14002cbb8	string	0x140003a30	[+] Select option 1, install...\n
+0x140003bf5	0x140023178	import	0x140003a30	KERNEL32.dll.GetModuleFileNameW
+0x140003c00	0x140023398	import	0x140003a30	SHLWAPI.dll.PathRemoveFileSpecW
+0x140003c06	0x14002bd18	string	0x140003a30	rdpwrap.dll
+0x140003c12	0x1400233a8	import	0x140003a30	SHLWAPI.dll.PathAppendW
+0x140003c1d	0x140023380	import	0x140003a30	SHLWAPI.dll.PathFileExistsW
+0x140003c27	0x14002cb40	string	0x140003a30	[-] Can't found rdpwrap.dll, please download the file from https://github.com/anhkgg/SuperRDP\n
+0x140003c3d	0x140002e40	string	0x140003a30	@UVH
+0x140003c4b	0x14002cbe0	string	0x140003a30	[+] Select option 2, uninstall...\n
+0x140003c69	0x14002cc08	string	0x140003a30	[+] Select option 3, force restart services...\n
+0x140003c75	0x14002c988	string	0x140003a30	[*] Restarting...\n
+0x140003c86	0x14002c9a0	string	0x140003a30	'[*] Terminating service...\n
+0x140003ca1	0x140023138	import	0x140003a30	KERNEL32.dll.Sleep
+0x140003ce1	0x140023138	import	0x140003a30	KERNEL32.dll.Sleep
+0x140003ce7	0x140030a40	string	0x140003a30	TermService
+0x140003cf3	0x14002c9c0	string	0x140003a30	[+] Done.\n
+0x140003d01	0x14002cc38	string	0x140003a30	Invalid option.\n
+0x140003d22	0x14002ca00	string	0x140003a30	[-] Unsupported processor architecture. Only for Arch (%d)\n
+0x140003f62	0x140023018	import	0x140003dd0	ADVAPI32.dll.RegCloseKey
+0x14000401b	0x140023008	import	0x140003fd0	ADVAPI32.dll.RegQueryValueExW
+0x140004077	0x140003dd0	string	0x140003fd0	@SVAVAWH
+0x1400040d5	0x140003dd0	string	0x140003fd0	@SVAVAWH
+0x140004453	0x1400231a0	import	0x140004448	KERNEL32.dll.SetUnhandledExceptionFilter
+0x14000445c	0x140023198	import	0x140004448	KERNEL32.dll.UnhandledExceptionFilter
+0x140004462	0x140023128	import	0x140004448	KERNEL32.dll.GetCurrentProcess
+0x140004475	0x140023148	import	0x140004448	KERNEL32.dll.TerminateProcess
+0x14000448a	0x1400231a8	import	0x140004448	KERNEL32.dll.IsProcessorFeaturePresent
+0x1400044a2	0x140004550	string	0x140004448	@SVWH
+0x14000455b	0x140023180	import	0x140004550	KERNEL32.dll.RtlCaptureContext
+0x140004575	0x140023188	import	0x140004550	KERNEL32.dll.RtlLookupFunctionEntry
+0x1400045ac	0x140023190	import	0x140004550	KERNEL32.dll.RtlVirtualUnwind
+0x140004845	0x1400234f0	string	0x140004840	bad allocation
+0x140004a5c	0x1400231a8	import	0x140004a40	KERNEL32.dll.IsProcessorFeaturePresent
+0x140004a89	0x140023180	import	0x140004a40	KERNEL32.dll.RtlCaptureContext
+0x140004aa3	0x140023188	import	0x140004a40	KERNEL32.dll.RtlLookupFunctionEntry
+0x140004ae4	0x140023190	import	0x140004a40	KERNEL32.dll.RtlVirtualUnwind
+0x140004b38	0x1400231b0	import	0x140004a40	KERNEL32.dll.IsDebuggerPresent
+0x140004b59	0x1400231a0	import	0x140004a40	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140004b64	0x140023198	import	0x140004a40	KERNEL32.dll.UnhandledExceptionFilter
+0x140004b9e	0x1400231c0	import	0x140004b98	KERNEL32.dll.GetModuleHandleW
+0x140004bf3	0x1400231a0	import	0x140004bec	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140004c88	0x1400231e0	import	0x140004c5c	KERNEL32.dll.GetSystemTimeAsFileTime
+0x140004c96	0x1400231d8	import	0x140004c5c	KERNEL32.dll.GetCurrentThreadId
+0x140004ca2	0x1400231d0	import	0x140004c5c	KERNEL32.dll.GetCurrentProcessId
+0x140004cb2	0x1400231c8	import	0x140004c5c	KERNEL32.dll.QueryPerformanceCounter
+0x140004d17	0x1400231e8	import	0x140004d10	KERNEL32.dll.InitializeSListHead
+0x140005225	0x140023188	import	0x1400051c0	KERNEL32.dll.RtlLookupFunctionEntry
+0x1400055e5	0x1400084d4	string	0x14000555c	@SVWATAUAVAWH
+0x140005644	0x1400230c0	import	0x14000555c	KERNEL32.dll.RtlUnwindEx
+0x140005764	0x1400230c0	import	0x140005660	KERNEL32.dll.RtlUnwindEx
+0x140005ee3	0x1400230c0	import	0x140005dd4	KERNEL32.dll.RtlUnwindEx
+0x140006010	0x1400231f8	import	0x140005fcc	KERNEL32.dll.RtlPcToFileHeader
+0x140006056	0x140023200	import	0x140005fcc	KERNEL32.dll.RaiseException
+0x1400062b3	0x140023100	import	0x140006294	KERNEL32.dll.GetLastError
+0x14000633a	0x1400230e0	import	0x140006294	KERNEL32.dll.SetLastError
+0x140006635	0x14000663f	string	0x1400065c4	9;|\nHcC\bH
+0x14000764e	0x1400078e4	string	0x1400071cc	@USVWATAUAVAWH
+0x140007714	0x140023208	import	0x1400076c8	KERNEL32.dll.EncodePointer
+0x140007954	0x140023208	import	0x1400078e4	KERNEL32.dll.EncodePointer
+0x140008064	0x140006cf4	string	0x140007e58	@USVWATAUAVAWH
+0x1400080ea	0x1400080fc	string	0x140008090	D9\vt\t
+0x1400082f7	0x1400071cc	string	0x140008090	@USVWATAUAVAWH
+0x1400084b9	0x1400236c8	string	0x1400084b4	bad exception
+0x1400094af	0x140023220	import	0x140009490	KERNEL32.dll.DeleteCriticalSection
+0x1400095d1	0x140023108	import	0x14000954c	KERNEL32.dll.LoadLibraryExW
+0x1400095df	0x140023100	import	0x14000954c	KERNEL32.dll.GetLastError
+0x1400095f1	0x140024568	string	0x14000954c	api-ms-
+0x140009609	0x140023108	import	0x14000954c	KERNEL32.dll.LoadLibraryExW
+0x14000964f	0x140023250	import	0x14000954c	KERNEL32.dll.FreeLibrary
+0x14000965b	0x140023258	import	0x14000954c	KERNEL32.dll.GetProcAddress
+0x1400096a5	0x140024580	string	0x14000969c	FlsAlloc
+0x1400096b5	0x140024580	string	0x14000969c	FlsAlloc
+0x1400096da	0x140023230	import	0x14000969c	KERNEL32.dll.TlsAlloc
+0x1400096ec	0x140024598	string	0x1400096e4	FlsFree
+0x1400096ff	0x140024598	string	0x1400096e4	FlsFree
+0x140009723	0x140023248	import	0x1400096e4	KERNEL32.dll.TlsFree
+0x140009734	0x1400245a8	string	0x14000972c	FlsGetValue
+0x140009747	0x1400245a8	string	0x14000972c	FlsGetValue
+0x14000976b	0x140023238	import	0x14000972c	KERNEL32.dll.TlsGetValue
+0x140009781	0x1400245c0	string	0x140009774	FlsSetValue
+0x14000978a	0x1400245c0	string	0x140009774	FlsSetValue
+0x1400097b4	0x140023240	import	0x140009774	KERNEL32.dll.TlsSetValue
+0x1400097da	0x1400245d8	string	0x1400097c8	InitializeCriticalSectionEx
+0x1400097ed	0x1400245d8	string	0x1400097c8	InitializeCriticalSectionEx
+0x140009813	0x140023228	import	0x1400097c8	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x14000a314	0x140023100	import	0x14000a300	KERNEL32.dll.GetLastError
+0x14000a348	0x1400230e0	import	0x14000a300	KERNEL32.dll.SetLastError
+0x14000a6a8	0x140023210	import	0x14000a6a4	KERNEL32.dll.EnterCriticalSection
+0x14000a6b4	0x140023218	import	0x14000a6b0	KERNEL32.dll.LeaveCriticalSection
+0x14000aada	0x14000abba	string	0x14000aa54	HcS0
+0x14000acc2	0x14000ada2	string	0x14000ac3c	HcS0
+0x14000aeaa	0x14000af8a	string	0x14000ae24	HcS0
+0x14000b04f	0x14000b075	string	0x14000b00c	A+P@H
+0x14000b0ce	0x14000b11e	string	0x14000b088	E+A@H
+0x14000b172	0x14000b1ac	string	0x14000b130	D+A@H
+0x14000b1ff	0x14000b225	string	0x14000b1bc	A+P@H
+0x14000b27e	0x14000b2d4	string	0x14000b238	E+A@H
+0x14000b326	0x14000b360	string	0x14000b2e4	D+A@H
+0x14000b91d	0x14000b935	string	0x14000b914	<NuA
+0x14000ba5b	0x14000ba74	string	0x14000b914	,X< w
+0x14000bf2a	0x140024710	string	0x14000becc	(null)
+0x14000c13a	0x14000c149	string	0x14000bf44	,I<%w
+0x14000c2b0	0x14000c2e9	string	0x14000c254	HcC H
+0x14000c2d3	0x14000c2e9	string	0x14000c254	HcC H
+0x14000c2d8	0x14000c2e9	string	0x14000c254	HcC H
+0x14000c2dd	0x14000c2e9	string	0x14000c254	HcC H
+0x14000c363	0x140024700	string	0x14000c308	(null)
+0x14000c381	0x140024710	string	0x14000c308	(null)
+0x14000c8cd	0x14000c8e7	string	0x14000c7bc	2҈UP blocks=Basic Latin,Cyrillic
+0x14000c8df	0x14000c8e7	string	0x14000c7bc	2҈UP blocks=Basic Latin,Cyrillic
+0x14000c967	0x14000c97f	string	0x14000c7bc	2\nЈEPH blocks=Basic Latin,Cyrillic
+0x14000c977	0x14000c97f	string	0x14000c7bc	2\nЈEPH blocks=Basic Latin,Cyrillic
+0x14000c9fc	0x14000ca1d	string	0x14000c7bc	2҈UPD blocks=Basic Latin,Cyrillic
+0x14000ca0c	0x14000ca1d	string	0x14000c7bc	2҈UPD blocks=Basic Latin,Cyrillic
+0x14000ca93	0x14000caab	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000caa3	0x14000caab	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000cbb9	0x14000cbd1	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000cbc9	0x14000cbd1	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000cd1e	0x14000cd38	string	0x14000c7bc	2҈UP blocks=Basic Latin,Cyrillic
+0x14000cd30	0x14000cd38	string	0x14000c7bc	2҈UP blocks=Basic Latin,Cyrillic
+0x14000cdf7	0x14000ce0f	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000ce07	0x14000ce0f	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000ce6b	0x14000ce83	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000ce7b	0x14000ce83	string	0x14000c7bc	2\nЈEP blocks=Basic Latin,Cyrillic
+0x14000cec2	0x14000ceda	string	0x14000c7bc	2\bEP
+0x14000ced2	0x14000ceda	string	0x14000c7bc	2\bEP
+0x14000d9a5	0x14000d9aa	string	0x14000d8d8	A8m(u=I
+0x1400109bb	0x1400109c1	string	0x14000ec38	3ɋt$P; blocks=Basic Latin,Latin Extended-B
+0x1400109c9	0x1400109ed	string	0x14000ec38	E3ۍG blocks=Basic Latin,Arabic
+0x140010c10	0x140010c45	string	0x140010b50	E3ɉl$PL blocks=Basic Latin,Latin Extended-B
+0x14001133c	0x140011342	string	0x1400112c0	@8{2t
+0x14001185c	0x14001186f	string	0x14001175c	,X< w\eI
+0x140011c6c	0x140023100	import	0x140011c50	KERNEL32.dll.GetLastError
+0x140011ca1	0x1400230e0	import	0x140011c50	KERNEL32.dll.SetLastError
+0x140011cd8	0x140023100	import	0x140011cbc	KERNEL32.dll.GetLastError
+0x140011ce8	0x1400230e0	import	0x140011cbc	KERNEL32.dll.SetLastError
+0x140011d81	0x140023180	import	0x140011d08	KERNEL32.dll.RtlCaptureContext
+0x140011d99	0x140023188	import	0x140011d08	KERNEL32.dll.RtlLookupFunctionEntry
+0x140011dd4	0x140023190	import	0x140011d08	KERNEL32.dll.RtlVirtualUnwind
+0x140011e0d	0x1400231b0	import	0x140011d08	KERNEL32.dll.IsDebuggerPresent
+0x140011e17	0x1400231a0	import	0x140011d08	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140011e22	0x140023198	import	0x140011d08	KERNEL32.dll.UnhandledExceptionFilter
+0x140012031	0x1400231a8	import	0x140012028	KERNEL32.dll.IsProcessorFeaturePresent
+0x140012056	0x140023128	import	0x140012028	KERNEL32.dll.GetCurrentProcess
+0x140012068	0x140023148	import	0x140012028	KERNEL32.dll.TerminateProcess
+0x1400124b0	0x140012288	string	0x140012480	@UAVAWH
+0x1400125c1	0x140025318	string	0x1400124de	cmd.exe
+0x140012f2f	0x1400231c0	import	0x140012f11	KERNEL32.dll.GetModuleHandleW
+0x140012fe1	0x140023128	import	0x140012fd0	KERNEL32.dll.GetCurrentProcess
+0x140012fec	0x140023148	import	0x140012fd0	KERNEL32.dll.TerminateProcess
+0x140012ffb	0x140023260	import	0x140012fd0	KERNEL32.dll.ExitProcess
+0x140013050	0x140025458	string	0x140013034	mscoree.dll
+0x140013059	0x140023268	import	0x140013034	KERNEL32.dll.GetModuleHandleExW
+0x140013068	0x140025470	string	0x140013034	CorExitProcess
+0x14001306f	0x140023258	import	0x140013034	KERNEL32.dll.GetProcAddress
+0x140013096	0x140023250	import	0x140013034	KERNEL32.dll.FreeLibrary
+0x140013378	0x140023178	import	0x140013328	KERNEL32.dll.GetModuleFileNameW
+0x1400143c2	0x1400231a8	import	0x14001439c	KERNEL32.dll.IsProcessorFeaturePresent
+0x1400145fc	0x14001ba40	string	0x14001455b	@UATAUAVAWH
+0x140014ba7	0x140023100	import	0x140014b98	KERNEL32.dll.GetLastError
+0x140014c47	0x1400230e0	import	0x140014b98	KERNEL32.dll.SetLastError
+0x140014d1f	0x140023100	import	0x140014d10	KERNEL32.dll.GetLastError
+0x140014dbf	0x1400230e0	import	0x140014d10	KERNEL32.dll.SetLastError
+0x140014f9e	0x140023288	import	0x140014ef8	KERNEL32.dll.WideCharToMultiByte
+0x140014ffd	0x140023290	import	0x140014fa8	KERNEL32.dll.HeapAlloc
+0x140015036	0x140023298	import	0x140015020	KERNEL32.dll.HeapFree
+0x140015040	0x140023100	import	0x140015020	KERNEL32.dll.GetLastError
+0x1400150ff	0x140023108	import	0x14001505c	KERNEL32.dll.LoadLibraryExW
+0x140015111	0x140023100	import	0x14001505c	KERNEL32.dll.GetLastError
+0x140015125	0x140024568	string	0x14001505c	api-ms-
+0x140015138	0x140026ac8	string	0x14001505c	ext-ms-
+0x140015153	0x140023108	import	0x14001505c	KERNEL32.dll.LoadLibraryExW
+0x140015225	0x140026b48	string	0x14001521c	AppPolicyGetProcessTerminationMethod
+0x140015238	0x140026b48	string	0x14001521c	AppPolicyGetProcessTerminationMethod
+0x140015288	0x140026ae0	string	0x140015274	AreFileApisANSI
+0x1400152d4	0x140026af8	string	0x1400152b8	CompareStringEx
+0x1400152e5	0x140026af8	string	0x1400152b8	CompareStringEx
+0x140015389	0x1400232c0	import	0x1400152b8	KERNEL32.dll.CompareStringW
+0x1400153a4	0x1400232a0	import	0x1400153a4	KERNEL32.dll.FlsAlloc
+0x1400153ac	0x1400232b8	import	0x1400153ac	KERNEL32.dll.FlsFree
+0x1400153b4	0x1400232a8	import	0x1400153b4	KERNEL32.dll.FlsGetValue
+0x1400153bc	0x1400232b0	import	0x1400153bc	KERNEL32.dll.FlsSetValue
+0x1400153e9	0x1400245d8	string	0x1400153c4	InitializeCriticalSectionEx
+0x14001541e	0x140023228	import	0x1400153c4	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x140015450	0x140026b18	string	0x140015434	LCMapStringEx
+0x140015461	0x140026b18	string	0x140015434	LCMapStringEx
+0x140015505	0x1400232c8	import	0x140015434	KERNEL32.dll.LCMapStringW
+0x14001552c	0x140026b30	string	0x140015520	LocaleNameToLCID
+0x140015536	0x140026b30	string	0x140015520	LocaleNameToLCID
+0x14001565a	0x140023220	import	0x1400155e8	KERNEL32.dll.DeleteCriticalSection
+0x1400156fc	0x1400231b8	import	0x1400156dc	KERNEL32.dll.GetStartupInfoW
+0x140015767	0x1400232d0	import	0x1400156dc	KERNEL32.dll.GetFileType
+0x140015845	0x140023270	import	0x1400157cc	KERNEL32.dll.GetStdHandle
+0x14001585b	0x1400232d0	import	0x1400157cc	KERNEL32.dll.GetFileType
+0x14001598e	0x140023290	import	0x140015950	KERNEL32.dll.HeapAlloc
+0x140015b7c	0x140015b70	string	0x140015b00	f9\nt\tH
+0x140015c51	0x140015c45	string	0x140015b00	f9\nt\tH
+0x140015ca9	0x140015c98	string	0x140015b00	fA9\t
+0x140015cca	0x140015cbe	string	0x140015b00	f9\nt\tH
+0x1400160d2	0x14001c470	string	0x14001608c	@USVWATAVAWH
+0x1400163b1	0x14001c470	string	0x14001636c	@USVWATAVAWH
+0x1400165e4	0x14001c470	string	0x14001659c	@USVWATAVAWH
+0x140016b44	0x140016b50	string	0x140016af0	8_(u
+0x140016cdd	0x140016cf1	string	0x140016ca0	E8q(u\bH
+0x140017952	0x1400232d8	import	0x1400177ec	KERNEL32.dll.WaitForSingleObject
+0x140017960	0x1400232e0	import	0x1400177ec	KERNEL32.dll.GetExitCodeProcess
+0x140017976	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x140017984	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x140017992	0x140023100	import	0x1400177ec	KERNEL32.dll.GetLastError
+0x1400179a7	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x1400179b9	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x1400179d2	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x1400179e0	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x1400179f6	0x140023130	import	0x1400177ec	KERNEL32.dll.CloseHandle
+0x140017cde	0x140017cf9	string	0x140017c98	D8:t
+0x140017d56	0x140017fa4	string	0x140017c98	D9?u
+0x140017d6c	0x140017fa4	string	0x140017c98	D9?u
+0x140017d80	0x140017fa4	string	0x140017c98	D9?u
+0x140017d8c	0x140017fa4	string	0x140017c98	D9?u
+0x140017ffc	0x140017ca0	string	0x140017ffc	@USVWATAUAVAWH
+0x14001804c	0x1400232f0	import	0x140018004	KERNEL32.dll.GetFileAttributesExW
+0x140018056	0x140023100	import	0x140018004	KERNEL32.dll.GetLastError
+0x1400180d8	0x1400180fe	string	0x1400180b0	D81uUL9r
+0x14001817b	0x140023100	import	0x1400180b0	KERNEL32.dll.GetLastError
+0x1400184e2	0x140023210	import	0x1400184d0	KERNEL32.dll.EnterCriticalSection
+0x14001850b	0x140023220	import	0x1400184ec	KERNEL32.dll.DeleteCriticalSection
+0x140018536	0x140023218	import	0x140018524	KERNEL32.dll.LeaveCriticalSection
+0x14001858e	0x1400232f8	import	0x140018540	KERNEL32.dll.FlushFileBuffers
+0x14001859a	0x140023100	import	0x140018540	KERNEL32.dll.GetLastError
+0x1400186e7	0x140023300	import	0x140018660	KERNEL32.dll.GetConsoleOutputCP
+0x14001877a	0x140018769	string	0x140018660	@88t
+0x1400189ae	0x140023158	import	0x140018660	KERNEL32.dll.WriteFile
+0x1400189f7	0x140023158	import	0x140018660	KERNEL32.dll.WriteFile
+0x140018ab8	0x140023100	import	0x140018660	KERNEL32.dll.GetLastError
+0x140018b9f	0x140023158	import	0x140018aec	KERNEL32.dll.WriteFile
+0x140018bbb	0x140023100	import	0x140018aec	KERNEL32.dll.GetLastError
+0x140018cba	0x140023158	import	0x140018bf0	KERNEL32.dll.WriteFile
+0x140018cd6	0x140023100	import	0x140018bf0	KERNEL32.dll.GetLastError
+0x140018e23	0x140023158	import	0x140018d0c	KERNEL32.dll.WriteFile
+0x140018e45	0x140023100	import	0x140018d0c	KERNEL32.dll.GetLastError
+0x140018f3f	0x140018fa4	string	0x140018e7c	@USVWATAUAVAWH
+0x1400190c7	0x140023308	import	0x140018fa4	KERNEL32.dll.GetConsoleMode
+0x140019151	0x140023100	import	0x140018fa4	KERNEL32.dll.GetLastError
+0x140019206	0x140023158	import	0x140018fa4	KERNEL32.dll.WriteFile
+0x140019210	0x140023100	import	0x140018fa4	KERNEL32.dll.GetLastError
+0x140019a82	0x140023338	import	0x140019a58	KERNEL32.dll.GetOEMCP
+0x140019a99	0x140023330	import	0x140019a58	KERNEL32.dll.GetACP
+0x140019bb2	0x140023340	import	0x140019b70	KERNEL32.dll.GetCPInfo
+0x140019c32	0x14001ba40	string	0x140019b70	@UATAUAVAWH
+0x14001a169	0x140023328	import	0x14001a0fc	KERNEL32.dll.IsValidCodePage
+0x14001a1b5	0x140023340	import	0x14001a0fc	KERNEL32.dll.GetCPInfo
+0x14001a40f	0x140023348	import	0x14001a3bc	KERNEL32.dll.MultiByteToWideChar
+0x14001a431	0x140023350	import	0x14001a418	KERNEL32.dll.GetEnvironmentStringsW
+0x14001a4a3	0x140023358	import	0x14001a418	KERNEL32.dll.FreeEnvironmentStringsW
+0x14001a502	0x140023358	import	0x14001a418	KERNEL32.dll.FreeEnvironmentStringsW
+0x14001a53c	0x140023350	import	0x14001a528	KERNEL32.dll.GetEnvironmentStringsW
+0x14001a5a6	0x140023358	import	0x14001a528	KERNEL32.dll.FreeEnvironmentStringsW
+0x14001a7be	0x14001a82c	string	0x14001a528	9t$x
+0x14001a7c7	0x14001a82c	string	0x14001a528	9t$x
+0x14001abf7	0x140023360	import	0x14001a528	KERNEL32.dll.SetEnvironmentVariableW
+0x14001b4e9	0x140023220	import	0x14001b4c0	KERNEL32.dll.DeleteCriticalSection
+0x14001b5d8	0x140023210	import	0x14001b5b8	KERNEL32.dll.EnterCriticalSection
+0x14001b600	0x140023218	import	0x14001b5e0	KERNEL32.dll.LeaveCriticalSection
+0x14001b682	0x140023080	import	0x14001b608	KERNEL32.dll.SetStdHandle
+0x14001ba37	0x14001ba0f	string	0x14001ba0c	fD9\tt(L
+0x14001bb79	0x140023088	import	0x14001ba40	KERNEL32.dll.GetStringTypeW
+0x14001c5af	0x14002a000	string	0x14001c470	1#IND
+0x14001c5d2	0x140029ff8	string	0x14001c470	1#SNAN
+0x14001c5db	0x140029ff0	string	0x14001c470	1#QNAN
+0x14001c5eb	0x140029fe8	string	0x14001c470	1#INF
+0x14001d6c8	0x140020b0c	string	0x14001d6b0	@SUVWATAVAWH
+0x14001d771	0x140020b0c	string	0x14001d6f4	@SUVWATAVAWH
+0x14001d7db	0x14001d739	string	0x14001d6f4	8\au\bA
+0x14001d84c	0x140020b0c	string	0x14001d6f4	@SUVWATAVAWH
+0x14001d86d	0x14001d817	string	0x14001d6f4	8\au\bA
+0x14001d9d6	0x140023098	import	0x14001d990	KERNEL32.dll.SetFilePointerEx
+0x14001d9e8	0x140023090	import	0x14001d990	KERNEL32.dll.GetFileSizeEx
+0x14001dd9a	0x14001dda0	string	0x14001dce4	fA\vˋ blocks=Basic Latin,Spacing Modifier Letters
+0x14001ddb6	0x14001ddbc	string	0x14001dce4	fA\vʋ blocks=Basic Latin,IPA Extensions
+0x14001e67c	0x14001e699	string	0x14001e5c4	D8l$pt\fH
+0x14001e6fd	0x14001e71a	string	0x14001e5c4	D8l$pt\fH
+0x14001e78b	0x14001e7a7	string	0x14001e5c4	D8l$pt\fH
+0x14001e81f	0x1400232e8	import	0x14001e5c4	KERNEL32.dll.CreateProcessW
+0x14001ea32	0x1400230d8	import	0x14001e940	KERNEL32.dll.ReadFile
+0x14001ebe7	0x1400230d8	import	0x14001eb18	KERNEL32.dll.ReadFile
+0x14001ed9e	0x140023100	import	0x14001eb18	KERNEL32.dll.GetLastError
+0x14001f16b	0x140023308	import	0x14001ef08	KERNEL32.dll.GetConsoleMode
+0x14001f19a	0x1400230a0	import	0x14001ef08	KERNEL32.dll.ReadConsoleW
+0x14001f1a4	0x140023100	import	0x14001ef08	KERNEL32.dll.GetLastError
+0x14001f1ed	0x1400230d8	import	0x14001ef08	KERNEL32.dll.ReadFile
+0x14001f2e3	0x14001e940	string	0x14001ef08	@SUVWATAUAVH
+0x14001f2ed	0x140023100	import	0x14001ef08	KERNEL32.dll.GetLastError
+0x14001f4c8	0x140023098	import	0x14001f47c	KERNEL32.dll.SetFilePointerEx
+0x14001f4d2	0x140023100	import	0x14001f47c	KERNEL32.dll.GetLastError
+0x14001fe4c	0x14001fac0	string	0x14001fde0	@UATAUAVAWH
+0x14001ffe6	0x140023360	import	0x14001fe90	KERNEL32.dll.SetEnvironmentVariableW
+0x14001fff7	0x140020001	string	0x14001fe90	D8}?t\tH
+0x1400202fa	0x140023130	import	0x14002028c	KERNEL32.dll.CloseHandle
+0x140020304	0x140023100	import	0x14002028c	KERNEL32.dll.GetLastError
+0x140020645	0x14002a190	string	0x140020560	UUUUUU
+0x14002064d	0x14002a160	string	0x140020560	UUUUUU
+0x14002091f	0x14002a190	string	0x140020560	UUUUUU
+0x140020927	0x14002a160	string	0x140020560	UUUUUU
+0x140020b6e	0x140020b7c	string	0x140020b0c	fE9Z
+0x140020fbb	0x140023340	import	0x140020ef4	KERNEL32.dll.GetCPInfo
+0x1400212d5	0x140020ef4	string	0x140021274	@USVWATAUAVAWH
+0x140021322	0x14002a270	string	0x140021300	CONOUT$
+0x140021336	0x1400230c8	import	0x140021300	KERNEL32.dll.CreateFileW
+0x1400213a1	0x1400230b8	import	0x140021370	KERNEL32.dll.WriteConsoleW
+0x1400213ad	0x140023100	import	0x140021370	KERNEL32.dll.GetLastError
+0x1400213c5	0x140023130	import	0x140021370	KERNEL32.dll.CloseHandle
+0x1400213d1	0x14002a270	string	0x140021370	CONOUT$
+0x1400213f0	0x1400230c8	import	0x140021370	KERNEL32.dll.CreateFileW
+0x14002140f	0x1400230b8	import	0x140021370	KERNEL32.dll.WriteConsoleW
+0x140021a64	0x14002bab0	string	0x140021a60	log10
+0x140021e08	0x140023200	import	0x140021bbb	KERNEL32.dll.RaiseException
+0x1400220b9	0x140022040	string	0x140022090	LcA<E3
+0x14002229e	0x1400231f0	import	0x140022280	KERNEL32.dll.RtlUnwind

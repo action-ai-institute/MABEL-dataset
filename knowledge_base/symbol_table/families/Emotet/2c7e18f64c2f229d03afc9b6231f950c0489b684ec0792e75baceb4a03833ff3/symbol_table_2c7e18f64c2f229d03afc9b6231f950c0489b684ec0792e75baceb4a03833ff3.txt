@@ -1,0 +1,647 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x18000104d	0x180018060	import	0x180001000	ADVAPI32.dll.GetAclInformation
+0x180001057	0x180018180	import	0x180001000	KERNEL32.dll.GetLastError
+0x18000108f	0x180018058	import	0x180001000	ADVAPI32.dll.GetAce
+0x180001099	0x180018180	import	0x180001000	KERNEL32.dll.GetLastError
+0x1800010cd	0x180018050	import	0x180001000	ADVAPI32.dll.AddAce
+0x1800010d7	0x180018180	import	0x180001000	KERNEL32.dll.GetLastError
+0x1800011a0	0x180018060	import	0x1800010f0	ADVAPI32.dll.GetAclInformation
+0x1800011aa	0x180018180	import	0x1800010f0	KERNEL32.dll.GetLastError
+0x1800011c7	0x180018078	import	0x1800010f0	ADVAPI32.dll.GetLengthSid
+0x18000120d	0x180018070	import	0x1800010f0	ADVAPI32.dll.InitializeAcl
+0x180001217	0x180018180	import	0x1800010f0	KERNEL32.dll.GetLastError
+0x180001239	0x180018068	import	0x1800010f0	ADVAPI32.dll.AddAccessDeniedAce
+0x180001243	0x180018180	import	0x1800010f0	KERNEL32.dll.GetLastError
+0x180001350	0x180018060	import	0x1800012a0	ADVAPI32.dll.GetAclInformation
+0x18000135a	0x180018180	import	0x1800012a0	KERNEL32.dll.GetLastError
+0x180001377	0x180018078	import	0x1800012a0	ADVAPI32.dll.GetLengthSid
+0x1800013bd	0x180018070	import	0x1800012a0	ADVAPI32.dll.InitializeAcl
+0x1800013c7	0x180018180	import	0x1800012a0	KERNEL32.dll.GetLastError
+0x180001407	0x180018080	import	0x1800012a0	ADVAPI32.dll.AddAccessAllowedAce
+0x180001411	0x180018180	import	0x1800012a0	KERNEL32.dll.GetLastError
+0x180001525	0x180018060	import	0x180001470	ADVAPI32.dll.GetAclInformation
+0x18000152f	0x180018180	import	0x180001470	KERNEL32.dll.GetLastError
+0x180001577	0x180018058	import	0x180001470	ADVAPI32.dll.GetAce
+0x180001581	0x180018180	import	0x180001470	KERNEL32.dll.GetLastError
+0x1800015df	0x180018090	import	0x180001470	ADVAPI32.dll.EqualSid
+0x180001664	0x180018088	import	0x180001470	ADVAPI32.dll.DeleteAce
+0x1800016d3	0x180018090	import	0x180001470	ADVAPI32.dll.EqualSid
+0x180001758	0x180018088	import	0x180001470	ADVAPI32.dll.DeleteAce
+0x1800017c7	0x180018090	import	0x180001470	ADVAPI32.dll.EqualSid
+0x18000184c	0x180018088	import	0x180001470	ADVAPI32.dll.DeleteAce
+0x180001960	0x180018060	import	0x1800018b0	ADVAPI32.dll.GetAclInformation
+0x18000196a	0x180018180	import	0x1800018b0	KERNEL32.dll.GetLastError
+0x1800019b2	0x180018058	import	0x1800018b0	ADVAPI32.dll.GetAce
+0x1800019bc	0x180018180	import	0x1800018b0	KERNEL32.dll.GetLastError
+0x180001a12	0x180018090	import	0x1800018b0	ADVAPI32.dll.EqualSid
+0x180001a39	0x180018088	import	0x1800018b0	ADVAPI32.dll.DeleteAce
+0x180001a85	0x180018090	import	0x1800018b0	ADVAPI32.dll.EqualSid
+0x180001aac	0x180018088	import	0x1800018b0	ADVAPI32.dll.DeleteAce
+0x180001af5	0x180018090	import	0x1800018b0	ADVAPI32.dll.EqualSid
+0x180001b1c	0x180018088	import	0x1800018b0	ADVAPI32.dll.DeleteAce
+0x180001b83	0x180018458	string	0x180001b60	Syntax: dcomperm <option> [...]\n\n
+0x180001b8f	0x180018480	string	0x180001b60	Options:\n
+0x180001ba2	0x180018490	string	0x180001b60	-ma <"set" or "remove"> <Principal Name> ["permit" or "deny"] ["level:l,r"]\n
+0x180001bae	0x1800184e0	string	0x180001b60	-ma list\n
+0x180001bba	0x1800184f0	string	0x180001b60	Modify or list the machine access permission list\n\n
+0x180001bc6	0x180018530	string	0x180001b60	-ml <"set" or "remove"> <Principal Name> ["permit" or "deny"] ["level:l,r,ll,la,rl,ra"]\n
+0x180001bd2	0x180018590	string	0x180001b60	-ml list\n
+0x180001bde	0x1800185a0	string	0x180001b60	Modify or list the machine launch permission list\n\n
+0x180001bea	0x1800185e0	string	0x180001b60	-da <"set" or "remove"> <Principal Name> ["permit" or "deny"]
+0x180001bfd	0x180018628	string	0x180001b60	["level:l,r"]\n
+0x180001c17	0x180018638	string	0x180001b60	-da list\n
+0x180001c23	0x180018648	string	0x180001b60	Modify or list the default access permission list\n\n
+0x180001c2f	0x180018690	string	0x180001b60	-dl <"set" or "remove"> <Principal Name> ["permit" or "deny"]
+0x180001c42	0x1800186d8	string	0x180001b60	["level:l,r,ll,la,rl,ra"]\n
+0x180001c5c	0x1800186f8	string	0x180001b60	-dl list\n
+0x180001c68	0x180018708	string	0x180001b60	Modify or list the default launch permission list\n\n
+0x180001c74	0x180018750	string	0x180001b60	-aa <AppID> <"set" or "remove"> <Principal Name> ["permit" or "deny"]
+0x180001c87	0x1800187a0	string	0x180001b60	["level:l,r"]\n
+0x180001ca1	0x1800187b8	string	0x180001b60	-aa <AppID> default\n
+0x180001cad	0x1800187d0	string	0x180001b60	-aa <AppID> list\n
+0x180001cb9	0x1800187f0	string	0x180001b60	Modify or list the access permission list for a specific AppID\n\n
+0x180001cc5	0x180018840	string	0x180001b60	-al <AppID> <"set" or "remove"> <Principal Name> ["permit" or "deny"]
+0x180001cd8	0x180018890	string	0x180001b60	["level:l,r,ll,la,rl,ra"]\n
+0x180001cf2	0x1800188b0	string	0x180001b60	-al <AppID> default\n
+0x180001cfe	0x1800188c8	string	0x180001b60	-al <AppID> list\n
+0x180001d0a	0x1800188e0	string	0x180001b60	Modify or list the launch permission list for a specific AppID\n\n
+0x180001d1d	0x180018928	string	0x180001b60	level: \n
+0x180001d29	0x180018938	string	0x180001b60	\tll - local launch (only applies to {ml, dl, al} options) \n
+0x180001d35	0x180018978	string	0x180001b60	\trl - remote launch (only applies to {ml, dl, al} options) \n
+0x180001d41	0x1800189b8	string	0x180001b60	\tla - local activate (only applies to {ml, dl, al} options) \n
+0x180001d4d	0x180018a00	string	0x180001b60	\tra - remote activate (only applies to {ml, dl, al} options) \n
+0x180001d59	0x180018a40	string	0x180001b60	\tl - local (local access - means launch and activate when used with {ml, dl, al} options) \n
+0x180001d65	0x180018aa0	string	0x180001b60	\tr - remote (remote access - means launch and activate when used with {ml, dl, al} options) \n\n
+0x180001d71	0x180018b08	string	0x180001b60	Press any key to continue. . .
+0x180001d82	0x180018b28	string	0x180001b60	\r \r
+0x180001d8e	0x180018b50	string	0x180001b60	-runas <AppID> <Principal Name> <Password>\n
+0x180001d9a	0x180018b80	string	0x180001b60	-runas <AppID> "Interactive User"\n
+0x180001da6	0x180018ba8	string	0x180001b60	-runas <AppID> "Launching User"\n
+0x180001db2	0x180018bd0	string	0x180001b60	Set the RunAs information for a specific AppID\n\n
+0x180001dbe	0x180018c08	string	0x180001b60	Examples:\n
+0x180001dca	0x180018c18	string	0x180001b60	dcomperm -da set redmond\t-miken permit
+0x180001ddd	0x180018c48	string	0x180001b60	level:r\n
+0x180001df7	0x180018c58	string	0x180001b60	dcomperm -dl set redmond\jdoe deny
+0x180001e0a	0x180018c80	string	0x180001b60	level:rl,ra\n
+0x180001e24	0x180018c98	string	0x180001b60	dcomperm -aa {12345678-1234-1234-1234-00aa00bbf7c7} list\n
+0x180001e30	0x180018ce0	string	0x180001b60	dcomperm -al {12345678-1234-1234-1234-00aa00bbf7c7} remove redmond\t-miken\n
+0x180001e3c	0x180018d30	string	0x180001b60	dcomperm -runas {12345678-1234-1234-1234-00aa00bbf7c7} redmond\jdoe password\n
+0x180001eb8	0x180018d84	string	0x180001e60	%s\n%s
+0x180001f43	0x180018d90	string	0x180001ef0	LEVEL
+0x180001f58	0x180018d98	string	0x180001ef0	Invalid LEVEL argument
+0x180001f84	0x180018db8	string	0x180001ef0	Invalid LEVEL argument
+0x180001fef	0x180018dd8	string	0x180001ef0	Invalid LEVEL argument
+0x180002119	0x180018e10	string	0x180001ef0	Invalid LEVEL argument
+0x180002184	0x180018e30	string	0x180002160	Invalid number of arguments.
+0x180002190	0x180018e50	string	0x180002160	LIST
+0x1800021a9	0x180018e58	string	0x180002160	Machine access permission list:\n\n
+0x1800021c9	0x180018e80	string	0x180002160	ERROR: Cannot list default access permission list.
+0x1800021e1	0x180018eb8	string	0x180002160	Invalid number of arguments.
+0x180002211	0x180018ee0	string	0x180002160	Invalid number of arguments.
+0x180002248	0x180018f00	string	0x180002160	WARNING: Default access flags designated on a system with an enhanced security model.\n
+0x180002254	0x180018f58	string	0x180002160	PERMIT
+0x180002291	0x180018f60	string	0x180002160	DENY
+0x1800022cb	0x180018f68	string	0x180002160	You can only set a user's permissions to "permit" or "deny".\n\n
+0x1800022e2	0x180018fa8	string	0x180002160	ERROR: Cannot add user to machine access ACL.
+0x1800022f0	0x180018fd8	string	0x180002160	REMOVE
+0x180002330	0x180018fe0	string	0x180002160	ERROR: Cannot remove user from machine access ACL.
+0x18000233e	0x180019018	string	0x180002160	You can only "set" or "remove" a user.
+0x18000234a	0x180019040	string	0x180002160	Successfully set the Machine Access ACL.\n
+0x180002394	0x180019070	string	0x180002370	Invalid number of arguments.
+0x1800023a0	0x180019090	string	0x180002370	LIST
+0x1800023b9	0x180019098	string	0x180002370	Machine launch permission list:\n\n
+0x1800023d9	0x1800190c0	string	0x180002370	ERROR: Cannot list default launch ACL.
+0x1800023f1	0x1800190e8	string	0x180002370	Invalid number of arguments.
+0x180002421	0x180019108	string	0x180002370	Invalid number of arguments.
+0x180002458	0x180019130	string	0x180002370	WARNING: Default access flags designated on a system with an enhanced security model.\n
+0x180002464	0x180019188	string	0x180002370	PERMIT
+0x1800024a1	0x180019190	string	0x180002370	DENY
+0x1800024db	0x180019198	string	0x180002370	You can only set a user's permissions to "permit" or "deny".\n\n
+0x1800024f2	0x1800191d8	string	0x180002370	ERROR: Cannot add user to machine launch ACL.
+0x180002500	0x180019208	string	0x180002370	REMOVE
+0x180002540	0x180019210	string	0x180002370	ERROR: Cannot remove user from machine launch ACL.
+0x18000254e	0x180019248	string	0x180002370	You can only "set" or "remove" a user.
+0x18000255a	0x180019270	string	0x180002370	Successfully set the Machine Launch ACL.\n
+0x1800025a4	0x1800192a0	string	0x180002580	Invalid number of arguments.
+0x1800025b0	0x1800192c0	string	0x180002580	LIST
+0x1800025c9	0x1800192c8	string	0x180002580	Default access permission list:\n\n
+0x1800025e9	0x1800192f0	string	0x180002580	ERROR: Cannot list default access permission list.
+0x180002601	0x180019328	string	0x180002580	Invalid number of arguments.
+0x180002631	0x180019350	string	0x180002580	Invalid number of arguments.
+0x180002668	0x180019370	string	0x180002580	WARNING: Default access flags designated on a system with an enhanced security model.\n
+0x180002674	0x1800193c8	string	0x180002580	PERMIT
+0x1800026b1	0x1800193d0	string	0x180002580	DENY
+0x1800026eb	0x1800193d8	string	0x180002580	You can only set a user's permissions to "permit" or "deny".\n\n
+0x180002702	0x180019418	string	0x180002580	ERROR: Cannot add user to default access ACL.
+0x180002710	0x180019448	string	0x180002580	REMOVE
+0x180002750	0x180019450	string	0x180002580	ERROR: Cannot remove user from default access ACL.
+0x18000275e	0x180019488	string	0x180002580	You can only "set" or "remove" a user.
+0x18000276a	0x1800194b0	string	0x180002580	Successfully set the Default Access ACL.\n
+0x1800027b4	0x1800194e0	string	0x180002790	Invalid number of arguments.
+0x1800027c0	0x180019500	string	0x180002790	LIST
+0x1800027d9	0x180019508	string	0x180002790	Default launch permission list:\n\n
+0x1800027f9	0x180019530	string	0x180002790	ERROR: Cannot list default launch ACL.
+0x180002811	0x180019558	string	0x180002790	Invalid number of arguments.
+0x180002841	0x180019578	string	0x180002790	Invalid number of arguments.
+0x180002878	0x1800195a0	string	0x180002790	WARNING: Default access flags designated on a system with an enhanced security model.\n
+0x180002884	0x1800195f8	string	0x180002790	PERMIT
+0x1800028c1	0x180019600	string	0x180002790	DENY
+0x1800028fb	0x180019608	string	0x180002790	You can only set a user's permissions to "permit" or "deny".\n\n
+0x180002912	0x180019648	string	0x180002790	ERROR: Cannot add user to default launch ACL.
+0x180002920	0x180019678	string	0x180002790	REMOVE
+0x180002960	0x180019680	string	0x180002790	ERROR: Cannot remove user from default launch ACL.
+0x18000296e	0x1800196b8	string	0x180002790	You can only "set" or "remove" a user.
+0x18000297a	0x1800196e0	string	0x180002790	Successfully set the Default Launch ACL.\n
+0x180002a15	0x180019710	string	0x1800029a0	Invalid number of arguments.
+0x180002a21	0x180019730	string	0x1800029a0	LIST
+0x180002a47	0x180019738	string	0x1800029a0	Invalid number of arguments.
+0x180002a5f	0x180019758	string	0x1800029a0	Access permission list for AppID %s:\n\n
+0x180002a81	0x180019780	string	0x1800029a0	DEFAULT
+0x180002ac6	0x18001978c	string	0x1800029a0	{%s}
+0x180002b03	0x180019798	string	0x1800029a0	APPID\%s
+0x180002b38	0x1800180a8	import	0x1800029a0	ADVAPI32.dll.RegOpenKeyExA
+0x180002b54	0x1800197a8	string	0x1800029a0	ERROR: Cannot open AppID registry key.
+0x180002b60	0x1800197d0	string	0x1800029a0	AccessPermission
+0x180002b6c	0x1800180a0	import	0x1800029a0	ADVAPI32.dll.RegDeleteValueA
+0x180002b88	0x1800197e8	string	0x1800029a0	ERROR: Cannot delete AccessPermission value.
+0x180002ba1	0x180018098	import	0x1800029a0	ADVAPI32.dll.RegCloseKey
+0x180002ba7	0x180019820	string	0x1800029a0	Successfully set the Application Access to the machine default.\n
+0x180002bc2	0x180019868	string	0x1800029a0	Invalid number of arguments.
+0x180002bf8	0x180019890	string	0x1800029a0	Invalid number of arguments.
+0x180002c38	0x1800198b0	string	0x1800029a0	WARNING: Default access flags designated on a system with an enhanced security model.\n
+0x180002c44	0x180019908	string	0x1800029a0	PERMIT
+0x180002c9a	0x180019910	string	0x1800029a0	DENY
+0x180002ced	0x180019918	string	0x1800029a0	You can only set a user's permissions to "permit" or "deny".\n\n
+0x180002d04	0x180019958	string	0x1800029a0	ERROR: Cannot add user to application access ACL.
+0x180002d12	0x18001998c	string	0x1800029a0	REMOVE
+0x180002d6b	0x180019998	string	0x1800029a0	ERROR: Cannot remove user from application access ACL.
+0x180002d79	0x1800199d0	string	0x1800029a0	You can only "set" or "remove" a user.
+0x180002d85	0x1800199f8	string	0x1800029a0	Successfully set the Application Access ACL.\n
+0x180002e45	0x180019a28	string	0x180002dd0	Invalid number of arguments.
+0x180002e51	0x180019a48	string	0x180002dd0	LIST
+0x180002e77	0x180019a50	string	0x180002dd0	Invalid number of arguments.\n
+0x180002e8f	0x180019a70	string	0x180002dd0	Launch permission list for AppID %s:\n\n
+0x180002eb1	0x180019a98	string	0x180002dd0	DEFAULT
+0x180002ef6	0x180019aa0	string	0x180002dd0	{%s}
+0x180002f33	0x180019aa8	string	0x180002dd0	APPID\%s
+0x180002f68	0x1800180a8	import	0x180002dd0	ADVAPI32.dll.RegOpenKeyExA
+0x180002f84	0x180019ab8	string	0x180002dd0	ERROR: Cannot open AppID registry key.
+0x180002f90	0x180019ae0	string	0x180002dd0	LaunchPermission
+0x180002f9c	0x1800180a0	import	0x180002dd0	ADVAPI32.dll.RegDeleteValueA
+0x180002fb8	0x180019af8	string	0x180002dd0	ERROR: Cannot delete LaunchPermission value.
+0x180002fd1	0x180018098	import	0x180002dd0	ADVAPI32.dll.RegCloseKey
+0x180002fd7	0x180019b30	string	0x180002dd0	Successfully set the Application Launch to the machine default.\n
+0x180002ff2	0x180019b78	string	0x180002dd0	Invalid number of arguments.
+0x180003028	0x180019ba0	string	0x180002dd0	Invalid number of arguments.
+0x180003068	0x180019bc0	string	0x180002dd0	WARNING: Default access flags designated on a system with an enhanced security model.\n
+0x180003074	0x180019c18	string	0x180002dd0	PERMIT
+0x1800030ca	0x180019c20	string	0x180002dd0	DENY
+0x18000311d	0x180019c28	string	0x180002dd0	You can only set a user's permissions to "permit" or "deny".\n\n
+0x180003134	0x180019c68	string	0x180002dd0	ERROR: Cannot add user to application launch ACL.
+0x180003142	0x180019c9c	string	0x180002dd0	REMOVE
+0x18000319b	0x180019ca8	string	0x180002dd0	ERROR: Cannot remove user from application launch ACL.
+0x1800031a9	0x180019ce0	string	0x180002dd0	You can only "set" or "remove" a user.
+0x1800031b5	0x180019d08	string	0x180002dd0	Successfully set the Application Launch ACL.\n
+0x18000326a	0x180019d38	string	0x180003200	Invalid number of arguments.
+0x18000329b	0x180019d58	string	0x180003200	{%s}
+0x1800032d8	0x180019d60	string	0x180003200	APPID\%s
+0x18000330d	0x1800180a8	import	0x180003200	ADVAPI32.dll.RegOpenKeyExA
+0x180003322	0x180019d70	string	0x180003200	ERROR: Cannot open AppID registry key.
+0x18000332e	0x180019d98	string	0x180003200	LAUNCHING USER
+0x18000334a	0x180019da8	string	0x180003200	RunAs
+0x180003356	0x1800180a0	import	0x180003200	ADVAPI32.dll.RegDeleteValueA
+0x18000337c	0x180019db0	string	0x180003200	ERROR: Cannot remove RunAs registry value.
+0x18000338d	0x180019de0	string	0x180003200	INTERACTIVE USER
+0x1800033b3	0x180019df8	string	0x180003200	Invalid number of arguments.
+0x1800033f7	0x180019e18	string	0x180003200	ERROR: Cannot set RunAs password.
+0x180003432	0x180019e3c	string	0x180003200	RunAs
+0x18000343e	0x1800180b0	import	0x180003200	ADVAPI32.dll.RegSetValueExA
+0x180003453	0x180019e48	string	0x180003200	ERROR: Cannot set RunAs registry value.
+0x18000346c	0x180018098	import	0x180003200	ADVAPI32.dll.RegCloseKey
+0x180009501	0x180019e70	string	0x180003840	667363522
+0x18000951e	0x1800183d8	import	0x180003840	ole32.dll.CoInitialize
+0x180009541	0x1800183d0	import	0x180003840	ole32.dll.CoTaskMemAlloc
+0x1800095ce	0x1800183c8	import	0x180003840	ole32.dll.CoTaskMemFree
+0x180009644	0x180018178	import	0x180003840	KERNEL32.dll.VirtualAlloc
+0x180009666	0x180019e80	string	0x180003840	j?a(hf6ytJR(Z4$9A#izS%rU3IzsSIE4?BNBHPWJSD$<@kkikvW_#pOJKK5uC&w
+0x1800098a6	0x180019ec0	string	0x180003840	No option specified.
+0x1800099ea	0x180019ef0	string	0x180003840	-RUNAS
+0x180009a1c	0x180019ef8	string	0x180003840	Invalid option specified.
+0x180009a2e	0x180019f18	string	0x180003840	WmTAyDBrkoSS!
+0x180009a37	0x1800183b8	import	0x180003840	USER32.dll.MessageBoxA
+0x180009b8b	0x180019f70	string	0x180009b20	SOFTWARE\Policies\Microsoft\Windows NT\DCOM
+0x180009b99	0x1800180a8	import	0x180009b20	ADVAPI32.dll.RegOpenKeyExA
+0x180009bd1	0x180019fa0	string	0x180009b20	MachineAccessRestriction
+0x180009be0	0x1800180b8	import	0x180009b20	ADVAPI32.dll.RegQueryValueExA
+0x180009bf1	0x180019fc0	string	0x180009b20	WARNING: Machine-wide Access Group Policy may override these settings! \n
+0x180009c27	0x18001a010	string	0x180009b20	MachineLaunchRestriction
+0x180009c36	0x1800180b8	import	0x180009b20	ADVAPI32.dll.RegQueryValueExA
+0x180009c47	0x18001a030	string	0x180009b20	WARNING: Machine-wide Launch/Activate Group Policy may override these settings! \n
+0x180009c5b	0x180018098	import	0x180009b20	ADVAPI32.dll.RegCloseKey
+0x180009d75	0x18001a088	string	0x180009c80	Access %s to %s\%s.\n
+0x180009da9	0x18001a0a0	string	0x180009c80	Remote and Local
+0x180009db7	0x18001a0b4	string	0x180009c80	Local
+0x180009dcf	0x18001a0bc	string	0x180009c80	Remote
+0x180009dfd	0x18001a0c8	string	0x180009c80	%s access %s to %s\%s.\n
+0x180009f4b	0x18001a0e0	string	0x180009c80	Launch %s to %s\%s.\n
+0x180009f83	0x18001a0f8	string	0x180009c80	Remote and Local
+0x180009f91	0x18001a10c	string	0x180009c80	Local
+0x180009fac	0x18001a114	string	0x180009c80	Remote
+0x180009fe0	0x18001a120	string	0x180009c80	%s launch %s to %s\%s.\n
+0x18000a017	0x18001a138	string	0x180009c80	Remote and Local
+0x18000a028	0x18001a14c	string	0x180009c80	Local
+0x18000a049	0x18001a154	string	0x180009c80	Remote
+0x18000a07d	0x18001a160	string	0x180009c80	%s activation %s to %s\%s.\n
+0x18000a161	0x180018060	import	0x18000a0a0	ADVAPI32.dll.GetAclInformation
+0x18000a16b	0x18001a180	string	0x18000a0a0	Could not get AclSizeInformation
+0x18000a198	0x180018060	import	0x18000a0a0	ADVAPI32.dll.GetAclInformation
+0x18000a1a2	0x18001a1a8	string	0x18000a0a0	Could not get AclRevisionInformation
+0x18000a1e7	0x180018058	import	0x18000a0a0	ADVAPI32.dll.GetAce
+0x18000a26a	0x1800180c0	import	0x18000a0a0	ADVAPI32.dll.LookupAccountSidA
+0x18000a285	0x18001a1d0	string	0x18000a0a0	permitted
+0x18000a30a	0x1800180c0	import	0x18000a0a0	ADVAPI32.dll.LookupAccountSidA
+0x18000a325	0x18001a1dc	string	0x18000a0a0	denied
+0x18000a45f	0x1800180e8	import	0x18000a360	ADVAPI32.dll.AllocateAndInitializeSid
+0x18000a469	0x180018180	import	0x18000a360	KERNEL32.dll.GetLastError
+0x18000a482	0x180018078	import	0x18000a360	ADVAPI32.dll.GetLengthSid
+0x18000a526	0x1800180e0	import	0x18000a360	ADVAPI32.dll.InitializeSecurityDescriptor
+0x18000a530	0x180018180	import	0x18000a360	KERNEL32.dll.GetLastError
+0x18000a55f	0x180018070	import	0x18000a360	ADVAPI32.dll.InitializeAcl
+0x18000a569	0x180018180	import	0x18000a360	KERNEL32.dll.GetLastError
+0x18000a598	0x1800180d8	import	0x18000a360	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x18000a5a2	0x180018180	import	0x18000a360	KERNEL32.dll.GetLastError
+0x18000a5e0	0x1800180d0	import	0x18000a360	ADVAPI32.dll.SetSecurityDescriptorGroup
+0x18000a5ea	0x180018180	import	0x18000a360	KERNEL32.dll.GetLastError
+0x18000a628	0x180018000	import	0x18000a360	ADVAPI32.dll.SetSecurityDescriptorOwner
+0x18000a632	0x180018180	import	0x18000a360	KERNEL32.dll.GetLastError
+0x18000a66e	0x1800180c8	import	0x18000a360	ADVAPI32.dll.FreeSid
+0x18000a6f4	0x1800180f0	import	0x18000a6a0	ADVAPI32.dll.GetSecurityDescriptorDacl
+0x18000a705	0x180018180	import	0x18000a6a0	KERNEL32.dll.GetLastError
+0x18000a9d2	0x18001a278	string	0x18000a980	Administrators
+0x18000a9fd	0x18001a288	string	0x18000a980	Offer Remote Assistance Helpers
+0x18000aa28	0x18001a2a8	string	0x18000a980	Everyone
+0x18000aa58	0x18001a2b8	string	0x18000a980	Everyone
+0x18000aa83	0x18001a2c8	string	0x18000a980	Everyone
+0x18000aab3	0x18001a2d4	string	0x18000a980	SYSTEM
+0x18000aade	0x18001a2e0	string	0x18000a980	Administrators
+0x18000ab06	0x18001a2f0	string	0x18000a980	Interactive
+0x18000ab2d	0x18001a2fc	string	0x18000a980	SYSTEM
+0x18000ab52	0x18001a304	string	0x18000a980	SELF
+0x18000ab79	0x18001a310	string	0x18000a980	WARNING: SetAclDefaults- Invalid security descriptor type.\n
+0x18000ac80	0x180018110	import	0x18000abd0	ADVAPI32.dll.GetSecurityDescriptorSacl
+0x18000ac8a	0x180018180	import	0x18000abd0	KERNEL32.dll.GetLastError
+0x18000ace0	0x1800180f0	import	0x18000abd0	ADVAPI32.dll.GetSecurityDescriptorDacl
+0x18000acea	0x180018180	import	0x18000abd0	KERNEL32.dll.GetLastError
+0x18000ad3b	0x180018108	import	0x18000abd0	ADVAPI32.dll.GetSecurityDescriptorOwner
+0x18000ad45	0x180018180	import	0x18000abd0	KERNEL32.dll.GetLastError
+0x18000ad61	0x180018078	import	0x18000abd0	ADVAPI32.dll.GetLengthSid
+0x18000ad80	0x180018100	import	0x18000abd0	ADVAPI32.dll.GetSecurityDescriptorGroup
+0x18000ad8a	0x180018180	import	0x18000abd0	KERNEL32.dll.GetLastError
+0x18000ada3	0x180018078	import	0x18000abd0	ADVAPI32.dll.GetLengthSid
+0x18000ae24	0x1800180f8	import	0x18000abd0	ADVAPI32.dll.MakeAbsoluteSD
+0x18000ae79	0x1800180e0	import	0x18000abd0	ADVAPI32.dll.InitializeSecurityDescriptor
+0x18000ae83	0x180018180	import	0x18000abd0	KERNEL32.dll.GetLastError
+0x18000af06	0x1800180f8	import	0x18000abd0	ADVAPI32.dll.MakeAbsoluteSD
+0x18000af10	0x180018180	import	0x18000abd0	KERNEL32.dll.GetLastError
+0x18000afe2	0x180018120	import	0x18000af70	ADVAPI32.dll.RegCreateKeyExA
+0x18000afff	0x180018118	import	0x18000af70	ADVAPI32.dll.GetSecurityDescriptorLength
+0x18000b02c	0x1800180b0	import	0x18000af70	ADVAPI32.dll.RegSetValueExA
+0x18000b043	0x180018098	import	0x18000af70	ADVAPI32.dll.RegCloseKey
+0x18000b0ed	0x1800180a8	import	0x18000b060	ADVAPI32.dll.RegOpenKeyExA
+0x18000b13d	0x1800180b8	import	0x18000b060	ADVAPI32.dll.RegQueryValueExA
+0x18000b196	0x1800180b8	import	0x18000b060	ADVAPI32.dll.RegQueryValueExA
+0x18000b206	0x180018098	import	0x18000b060	ADVAPI32.dll.RegCloseKey
+0x18000b28f	0x18001a350	string	0x18000b220	<Using Default Permissions>\n
+0x18000b2b3	0x1800180f0	import	0x18000b220	ADVAPI32.dll.GetSecurityDescriptorDacl
+0x18000b2bd	0x180018180	import	0x18000b220	KERNEL32.dll.GetLastError
+0x18000b2d2	0x18001a370	string	0x18000b220	<Access is denied to everyone>\n
+0x18000b3d9	0x1800180f0	import	0x18000b320	ADVAPI32.dll.GetSecurityDescriptorDacl
+0x18000b3e3	0x180018180	import	0x18000b320	KERNEL32.dll.GetLastError
+0x18000b4c4	0x1800180d8	import	0x18000b320	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x18000b4ce	0x180018180	import	0x18000b320	KERNEL32.dll.GetLastError
+0x18000b518	0x180018128	import	0x18000b320	ADVAPI32.dll.MakeSelfRelativeSD
+0x18000b54f	0x180018128	import	0x18000b320	ADVAPI32.dll.MakeSelfRelativeSD
+0x18000b559	0x180018180	import	0x18000b320	KERNEL32.dll.GetLastError
+0x18000b6a9	0x1800180f0	import	0x18000b5e0	ADVAPI32.dll.GetSecurityDescriptorDacl
+0x18000b6b3	0x180018180	import	0x18000b5e0	KERNEL32.dll.GetLastError
+0x18000b71a	0x180018180	import	0x18000b5e0	KERNEL32.dll.GetLastError
+0x18000b764	0x1800180d8	import	0x18000b5e0	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x18000b76e	0x180018180	import	0x18000b5e0	KERNEL32.dll.GetLastError
+0x18000b7b2	0x180018128	import	0x18000b5e0	ADVAPI32.dll.MakeSelfRelativeSD
+0x18000b7d5	0x180018128	import	0x18000b5e0	ADVAPI32.dll.MakeSelfRelativeSD
+0x18000b7df	0x180018180	import	0x18000b5e0	KERNEL32.dll.GetLastError
+0x18000b91f	0x1800180f0	import	0x18000b860	ADVAPI32.dll.GetSecurityDescriptorDacl
+0x18000b929	0x180018180	import	0x18000b860	KERNEL32.dll.GetLastError
+0x18000b97d	0x180018180	import	0x18000b860	KERNEL32.dll.GetLastError
+0x18000b9c7	0x1800180d8	import	0x18000b860	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x18000b9d1	0x180018180	import	0x18000b860	KERNEL32.dll.GetLastError
+0x18000b9f6	0x180018128	import	0x18000b860	ADVAPI32.dll.MakeSelfRelativeSD
+0x18000ba19	0x180018128	import	0x18000b860	ADVAPI32.dll.MakeSelfRelativeSD
+0x18000ba23	0x180018180	import	0x18000b860	KERNEL32.dll.GetLastError
+0x18000c037	0x18001a3a8	string	0x18000bf00	SCM:
+0x18000c13d	0x18001a3b8	string	0x18000bf00	SeBatchLogonRight
+0x18000c660	0x18001a3d0	string	0x18000c5d0	Administrators
+0x18000c685	0x18001a3e0	string	0x18000c5d0	Power Users
+0x18000c6aa	0x18001a3f0	string	0x18000c5d0	Everyone
+0x18000c6da	0x18001a3fc	string	0x18000c5d0	System
+0x18000c6fc	0x18001a404	string	0x18000c5d0	Self
+0x18000c71e	0x18001a410	string	0x18000c5d0	Anonymous
+0x18000c740	0x18001a420	string	0x18000c5d0	Interactive
+0x18000c7cc	0x1800180e8	import	0x18000c5d0	ADVAPI32.dll.AllocateAndInitializeSid
+0x18000c85a	0x1800180e8	import	0x18000c5d0	ADVAPI32.dll.AllocateAndInitializeSid
+0x18000c873	0x180018010	import	0x18000c5d0	ADVAPI32.dll.IsValidSid
+0x18000c889	0x180018078	import	0x18000c5d0	ADVAPI32.dll.GetLengthSid
+0x18000c8d5	0x180018018	import	0x18000c5d0	ADVAPI32.dll.CopySid
+0x18000c910	0x1800180c8	import	0x18000c5d0	ADVAPI32.dll.FreeSid
+0x18000ca0f	0x180018008	import	0x18000c940	ADVAPI32.dll.LookupAccountNameA
+0x18000ca15	0x180018180	import	0x18000c940	KERNEL32.dll.GetLastError
+0x18000cac1	0x180018008	import	0x18000c940	ADVAPI32.dll.LookupAccountNameA
+0x18000cacb	0x180018180	import	0x18000c940	KERNEL32.dll.GetLastError
+0x18000cb48	0x180018158	import	0x18000cb00	KERNEL32.dll.FormatMessageA
+0x18000cb5f	0x18001a430	string	0x18000cb00	%s(%lx)\n
+0x18000cb75	0x180018160	import	0x18000cb00	KERNEL32.dll.LocalFree
+0x18000cbce	0x180018150	import	0x18000cb90	KERNEL32.dll.GetVersionExA
+0x18000cc6a	0x18001a440	string	0x18000cc60	MachineAccessRestriction
+0x18000cc71	0x18001a460	string	0x18000cc60	Software\Microsoft\Ole
+0x18000cc9a	0x18001a478	string	0x18000cc90	MachineLaunchRestriction
+0x18000cca1	0x18001a498	string	0x18000cc90	Software\Microsoft\Ole
+0x18000ccca	0x18001a4b0	string	0x18000ccc0	DefaultAccessPermission
+0x18000ccd1	0x18001a4c8	string	0x18000ccc0	Software\Microsoft\Ole
+0x18000ccfa	0x18001a4e0	string	0x18000ccf0	DefaultLaunchPermission
+0x18000cd01	0x18001a4f8	string	0x18000ccf0	Software\Microsoft\Ole
+0x18000cd62	0x18001a510	string	0x18000cd20	APPID\%s
+0x18000cd73	0x18001a520	string	0x18000cd20	APPID\{%s}
+0x18000cda7	0x18001a530	string	0x18000cd20	AccessPermission
+0x18000ce22	0x18001a548	string	0x18000cde0	APPID\%s
+0x18000ce33	0x18001a558	string	0x18000cde0	APPID\{%s}
+0x18000ce67	0x18001a568	string	0x18000cde0	LaunchPermission
+0x18000cef0	0x18001a580	string	0x18000cea0	MachineAccessRestriction
+0x18000cef7	0x18001a5a0	string	0x18000cea0	Software\Microsoft\Ole
+0x18000cf54	0x18001a5b8	string	0x18000cea0	MachineAccessRestriction
+0x18000cf5b	0x18001a5d8	string	0x18000cea0	Software\Microsoft\Ole
+0x18000cf9c	0x18001a5f0	string	0x18000cea0	MachineAccessRestriction
+0x18000cfa3	0x18001a610	string	0x18000cea0	Software\Microsoft\Ole
+0x18000cfc9	0x18001a628	string	0x18000cea0	MachineAccessRestriction
+0x18000cfd0	0x18001a648	string	0x18000cea0	Software\Microsoft\Ole
+0x18000d050	0x18001a660	string	0x18000d000	MachineLaunchRestriction
+0x18000d057	0x18001a680	string	0x18000d000	Software\Microsoft\Ole
+0x18000d0b4	0x18001a698	string	0x18000d000	MachineLaunchRestriction
+0x18000d0bb	0x18001a6b8	string	0x18000d000	Software\Microsoft\Ole
+0x18000d0fc	0x18001a6d0	string	0x18000d000	MachineLaunchRestriction
+0x18000d103	0x18001a6f0	string	0x18000d000	Software\Microsoft\Ole
+0x18000d129	0x18001a708	string	0x18000d000	MachineLaunchRestriction
+0x18000d130	0x18001a728	string	0x18000d000	Software\Microsoft\Ole
+0x18000d1b0	0x18001a740	string	0x18000d160	DefaultAccessPermission
+0x18000d1b7	0x18001a758	string	0x18000d160	Software\Microsoft\Ole
+0x18000d214	0x18001a770	string	0x18000d160	DefaultAccessPermission
+0x18000d21b	0x18001a788	string	0x18000d160	Software\Microsoft\Ole
+0x18000d25c	0x18001a7a0	string	0x18000d160	DefaultAccessPermission
+0x18000d263	0x18001a7b8	string	0x18000d160	Software\Microsoft\Ole
+0x18000d289	0x18001a7d0	string	0x18000d160	DefaultAccessPermission
+0x18000d290	0x18001a7e8	string	0x18000d160	Software\Microsoft\Ole
+0x18000d310	0x18001a800	string	0x18000d2c0	DefaultLaunchPermission
+0x18000d317	0x18001a818	string	0x18000d2c0	Software\Microsoft\Ole
+0x18000d374	0x18001a830	string	0x18000d2c0	DefaultLaunchPermission
+0x18000d37b	0x18001a848	string	0x18000d2c0	Software\Microsoft\Ole
+0x18000d3bc	0x18001a860	string	0x18000d2c0	DefaultLaunchPermission
+0x18000d3c3	0x18001a878	string	0x18000d2c0	Software\Microsoft\Ole
+0x18000d3e9	0x18001a890	string	0x18000d2c0	DefaultLaunchPermission
+0x18000d3f0	0x18001a8a8	string	0x18000d2c0	Software\Microsoft\Ole
+0x18000d479	0x18001a8c0	string	0x18000d420	APPID\%s
+0x18000d48a	0x18001a8d0	string	0x18000d420	APPID\{%s}
+0x18000d4fb	0x18001a8e0	string	0x18000d420	AccessPermission
+0x18000d56f	0x18001a8f8	string	0x18000d420	AccessPermission
+0x18000d5be	0x18001a910	string	0x18000d420	AccessPermission
+0x18000d5ec	0x18001a928	string	0x18000d420	AccessPermission
+0x18000d689	0x18001a940	string	0x18000d630	APPID\%s
+0x18000d69a	0x18001a950	string	0x18000d630	APPID\{%s}
+0x18000d70b	0x18001a960	string	0x18000d630	LaunchPermission
+0x18000d77f	0x18001a978	string	0x18000d630	LaunchPermission
+0x18000d7ce	0x18001a990	string	0x18000d630	LaunchPermission
+0x18000d7fc	0x18001a9a8	string	0x18000d630	LaunchPermission
+0x18000d836	0x180018130	import	0x18000d836	ADVAPI32.dll.LsaFreeMemory
+0x18000d83c	0x180018138	import	0x18000d83c	ADVAPI32.dll.LsaClose
+0x18000d842	0x180018140	import	0x18000d842	ADVAPI32.dll.LsaRetrievePrivateData
+0x18000d848	0x180018048	import	0x18000d848	ADVAPI32.dll.LsaNtStatusToWinError
+0x18000d84e	0x180018040	import	0x18000d84e	ADVAPI32.dll.LsaOpenPolicy
+0x18000d854	0x180018038	import	0x18000d854	ADVAPI32.dll.LsaStorePrivateData
+0x18000d85a	0x180018030	import	0x18000d85a	ADVAPI32.dll.LsaAddAccountRights
+0x18000d876	0x1800181a0	import	0x18000d860	KERNEL32.dll.HeapFree
+0x18000d888	0x180018180	import	0x18000d860	KERNEL32.dll.GetLastError
+0x18000d8f5	0x1800181a8	import	0x18000d8a0	KERNEL32.dll.HeapAlloc
+0x18000d990	0x18001a9d0	string	0x18000d988	mscoree.dll
+0x18000d997	0x1800181b0	import	0x18000d988	KERNEL32.dll.GetModuleHandleW
+0x18000d9a2	0x18001a9c0	string	0x18000d988	CorExitProcess
+0x18000d9ac	0x1800181c0	import	0x18000d988	KERNEL32.dll.GetProcAddress
+0x18000d9d3	0x1800181c8	import	0x18000d9c4	KERNEL32.dll.ExitProcess
+0x18000dd5e	0x18000dd4f	string	0x18000dd30	fD9\tt\r
+0x18000de2f	0x1800181e0	import	0x18000dde0	KERNEL32.dll.GetConsoleMode
+0x18000de3e	0x1800181d8	import	0x18000dde0	KERNEL32.dll.SetConsoleMode
+0x18000de5d	0x1800181d0	import	0x18000dde0	KERNEL32.dll.ReadConsoleInputA
+0x18000deb1	0x1800181d8	import	0x18000dde0	KERNEL32.dll.SetConsoleMode
+0x18000e3ec	0x18000e583	string	0x18000e358	@8l$ht\fH
+0x18000e577	0x18000e3b0	string	0x18000e358	@8l$ht\fH
+0x18000ec4b	0x18000eef9	string	0x18000ebb4	D8t$`t\fH
+0x18000ec6c	0x18000ec7b	string	0x18000ebb4	D8t$`
+0x18000ec76	0x18000eef9	string	0x18000ebb4	D8t$`t\fH
+0x18000ece5	0x18000ecd7	string	0x18000ebb4	fD90t\nH
+0x18000ed22	0x1800181e8	import	0x18000ebb4	KERNEL32.dll.WideCharToMultiByte
+0x18000ed43	0x18000ed48	string	0x18000ebb4	D8t$`
+0x18000ed8c	0x1800181e8	import	0x18000ebb4	KERNEL32.dll.WideCharToMultiByte
+0x18000ed98	0x18000edab	string	0x18000ebb4	D9t$@
+0x18000eda9	0x18000ed48	string	0x18000ebb4	D8t$`
+0x18000edb6	0x180018180	import	0x18000ebb4	KERNEL32.dll.GetLastError
+0x18000edc8	0x18000ee7d	string	0x18000ebb4	D8t$`t
+0x18000ee01	0x1800181e8	import	0x18000ebb4	KERNEL32.dll.WideCharToMultiByte
+0x18000ee37	0x18000ee7d	string	0x18000ebb4	D8t$`t
+0x18000ee4c	0x18000ee62	string	0x18000ebb4	D8t$`t\fH
+0x18000eea5	0x18000ed48	string	0x18000ebb4	D8t$`
+0x18000eed2	0x1800181e8	import	0x18000ebb4	KERNEL32.dll.WideCharToMultiByte
+0x18000eee9	0x18000ed48	string	0x18000ebb4	D8t$`
+0x18000ef8e	0x18000ebb4	string	0x18000ef30	@SUVWATAUAVH
+0x18000effa	0x18000efb9	string	0x18000ef30	L!d$ E3
+0x18000f0fc	0x18000f118	string	0x18000f068	D8t$Ht!H
+0x18000f10a	0x18000f12d	string	0x18000f068	D8t$Ht\fH
+0x18000f161	0x1800181f0	import	0x18000f068	KERNEL32.dll.MultiByteToWideChar
+0x18000f172	0x180018180	import	0x18000f068	KERNEL32.dll.GetLastError
+0x18000f18c	0x18000f118	string	0x18000f068	D8t$Ht!H
+0x18000f1e5	0x1800181f0	import	0x18000f068	KERNEL32.dll.MultiByteToWideChar
+0x18000f1f0	0x18000f23e	string	0x18000f068	D8t$Ht\fH
+0x18000f202	0x18000f23e	string	0x18000f068	D8t$Ht\fH
+0x18000f21e	0x1800181f0	import	0x18000f068	KERNEL32.dll.MultiByteToWideChar
+0x18000f236	0x18000f118	string	0x18000f068	D8t$Ht!H
+0x18000f3e8	0x18000f3ed	string	0x18000f270	D8t$Ht\fH
+0x18000f471	0x180018208	import	0x18000f43c	KERNEL32.dll.GetCommandLineA
+0x18000f534	0x180018200	import	0x18000f43c	KERNEL32.dll.FlsSetValue
+0x18000f548	0x1800181f8	import	0x18000f43c	KERNEL32.dll.GetCurrentThreadId
+0x18000f7b2	0x180018218	import	0x18000f7a0	KERNEL32.dll.HeapCreate
+0x18000f7dc	0x180018210	import	0x18000f7a0	KERNEL32.dll.HeapSetInformation
+0x18000f7f7	0x180018220	import	0x18000f7ec	KERNEL32.dll.HeapDestroy
+0x18000f83c	0x18000f82f	string	0x18000f80c	;\bt\v
+0x18000f88e	0x18001b310	string	0x18000f80c	Runtime Error!\n\nProgram:
+0x18000f8cf	0x180018238	import	0x18000f80c	KERNEL32.dll.GetModuleFileNameA
+0x18000f8d9	0x18001b2f8	string	0x18000f80c	<program name unknown>
+0x18000f9bf	0x18001b2c8	string	0x18000f80c	Microsoft Visual C++ Runtime Library
+0x18000f9db	0x180018230	import	0x18000f80c	KERNEL32.dll.GetStdHandle
+0x18000fa15	0x180018228	import	0x18000f80c	KERNEL32.dll.WriteFile
+0x18000fab4	0x180018240	import	0x18000fab4	KERNEL32.dll.EncodePointer
+0x18000fabe	0x180018240	import	0x18000fabc	KERNEL32.dll.EncodePointer
+0x18000fac8	0x180018248	import	0x18000fac8	KERNEL32.dll.DecodePointer
+0x18000fae3	0x180018258	import	0x18000fad4	KERNEL32.dll.FlsFree
+0x18000fbba	0x180018180	import	0x18000fbb0	KERNEL32.dll.GetLastError
+0x18000fbc8	0x180018250	import	0x18000fbb0	KERNEL32.dll.FlsGetValue
+0x18000fbf4	0x180018200	import	0x18000fbb0	KERNEL32.dll.FlsSetValue
+0x18000fc08	0x1800181f8	import	0x18000fbb0	KERNEL32.dll.GetCurrentThreadId
+0x18000fc20	0x180018260	import	0x18000fbb0	KERNEL32.dll.SetLastError
+0x18000fda9	0x180018250	import	0x18000fd90	KERNEL32.dll.FlsGetValue
+0x18000fdba	0x180018200	import	0x18000fd90	KERNEL32.dll.FlsSetValue
+0x18000fdeb	0x180018268	import	0x18000fdd0	KERNEL32.dll.FlsAlloc
+0x18000fe1c	0x180018200	import	0x18000fdd0	KERNEL32.dll.FlsSetValue
+0x18000fe30	0x1800181f8	import	0x18000fdd0	KERNEL32.dll.GetCurrentThreadId
+0x18000ff16	0x180018270	import	0x18000fe54	KERNEL32.dll.DeleteCriticalSection
+0x18000ff3f	0x180018270	import	0x18000fe54	KERNEL32.dll.DeleteCriticalSection
+0x18000ff75	0x180018278	import	0x18000ff64	KERNEL32.dll.LeaveCriticalSection
+0x180010046	0x180018278	import	0x18000ff7c	KERNEL32.dll.LeaveCriticalSection
+0x1800100a1	0x180018280	import	0x180010064	KERNEL32.dll.EnterCriticalSection
+0x1800100ef	0x1800182b8	import	0x1800100b0	KERNEL32.dll.RtlCaptureContext
+0x18001018d	0x1800182a0	import	0x1800100b0	KERNEL32.dll.IsDebuggerPresent
+0x180010197	0x180018298	import	0x1800100b0	KERNEL32.dll.SetUnhandledExceptionFilter
+0x1800101a2	0x180018290	import	0x1800100b0	KERNEL32.dll.UnhandledExceptionFilter
+0x1800101b8	0x180018168	import	0x1800100b0	KERNEL32.dll.GetCurrentProcess
+0x1800101c6	0x180018288	import	0x1800100b0	KERNEL32.dll.TerminateProcess
+0x18001047b	0x180010480	string	0x180010470	HcH<H
+0x180010513	0x1800104a0	string	0x1800104f0	LcA<E3
+0x180010bc8	0x1800182d0	import	0x180010bc4	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x180010be3	0x180018260	import	0x180010bc4	KERNEL32.dll.SetLastError
+0x180010c11	0x18001b3d0	string	0x180010bfc	CONIN$
+0x180010c25	0x1800182d8	import	0x180010bfc	KERNEL32.dll.CreateFileA
+0x180010c4d	0x18001b3d8	string	0x180010c38	CONOUT$
+0x180010c61	0x1800182d8	import	0x180010c38	KERNEL32.dll.CreateFileA
+0x180010cd2	0x180010cd9	string	0x180010cb0	HcȺ\b blocks=Basic Latin,Latin Extended-B
+0x180010e17	0x180018280	import	0x180010dc4	KERNEL32.dll.EnterCriticalSection
+0x180010e45	0x180018280	import	0x180010e24	KERNEL32.dll.EnterCriticalSection
+0x180010e9f	0x180018278	import	0x180010e54	KERNEL32.dll.LeaveCriticalSection
+0x180010ec8	0x180018278	import	0x180010eac	KERNEL32.dll.LeaveCriticalSection
+0x180011548	0x180011552	string	0x1800110fc	+ˉL$D blocks=Basic Latin,Spacing Modifier Letters
+0x180011bf7	0x1800182b8	import	0x1800110fc	KERNEL32.dll.RtlCaptureContext
+0x180011cd4	0x1800182a0	import	0x1800110fc	KERNEL32.dll.IsDebuggerPresent
+0x180011cec	0x180018298	import	0x1800110fc	KERNEL32.dll.SetUnhandledExceptionFilter
+0x180011cf9	0x180018290	import	0x1800110fc	KERNEL32.dll.UnhandledExceptionFilter
+0x180011d12	0x180018168	import	0x1800110fc	KERNEL32.dll.GetCurrentProcess
+0x180011d20	0x180018288	import	0x1800110fc	KERNEL32.dll.TerminateProcess
+0x180011df3	0x1800182e0	import	0x180011dc4	KERNEL32.dll.GetCPInfo
+0x18001208e	0x1800182f0	import	0x180012064	KERNEL32.dll.GetOEMCP
+0x1800120b8	0x1800182e8	import	0x180012064	KERNEL32.dll.GetACP
+0x180012177	0x1800182f8	import	0x1800120f4	KERNEL32.dll.IsValidCodePage
+0x18001218c	0x1800182e0	import	0x1800120f4	KERNEL32.dll.GetCPInfo
+0x180012a8a	0x180012aab	string	0x1800129c0	A8:u
+0x180012b52	0x180018308	import	0x180012ae0	KERNEL32.dll.LCMapStringW
+0x180012b68	0x180018180	import	0x180012ae0	KERNEL32.dll.GetLastError
+0x180012c12	0x1800181f0	import	0x180012ae0	KERNEL32.dll.MultiByteToWideChar
+0x180012cba	0x1800181f0	import	0x180012ae0	KERNEL32.dll.MultiByteToWideChar
+0x180012cdf	0x180018308	import	0x180012ae0	KERNEL32.dll.LCMapStringW
+0x180012d2f	0x180018308	import	0x180012ae0	KERNEL32.dll.LCMapStringW
+0x180012dbc	0x180018308	import	0x180012ae0	KERNEL32.dll.LCMapStringW
+0x180012dff	0x1800181e8	import	0x180012ae0	KERNEL32.dll.WideCharToMultiByte
+0x180012e8a	0x18001637c	string	0x180012ae0	@USVWATAUAVAWH
+0x180012ead	0x180018300	import	0x180012ae0	KERNEL32.dll.LCMapStringA
+0x180012f64	0x180018300	import	0x180012ae0	KERNEL32.dll.LCMapStringA
+0x180012f90	0x18001637c	string	0x180012ae0	@USVWATAUAVAWH
+0x180012fcc	0x180018300	import	0x180012ae0	KERNEL32.dll.LCMapStringA
+0x18001308c	0x180012ae0	string	0x180013020	@UATAUAVAWH
+0x180013408	0x18001342f	string	0x180013368	9\$8
+0x180013429	0x18001342f	string	0x180013368	9\$8
+0x18001371c	0x180013722	string	0x1800134d4	@8|$Ht\fH
+0x18001384e	0x1800181b8	import	0x180013818	KERNEL32.dll.Sleep
+0x1800138c9	0x1800181b8	import	0x180013884	KERNEL32.dll.Sleep
+0x18001394f	0x1800181b8	import	0x180013908	KERNEL32.dll.Sleep
+0x1800139b5	0x180018320	import	0x180013990	KERNEL32.dll.GetStartupInfoA
+0x1800139f9	0x180013a3e	string	0x180013990	fD9|$b
+0x180013b32	0x180018318	import	0x180013990	KERNEL32.dll.GetFileType
+0x180013bd4	0x180018230	import	0x180013990	KERNEL32.dll.GetStdHandle
+0x180013beb	0x180018318	import	0x180013990	KERNEL32.dll.GetFileType
+0x180013c4e	0x180018310	import	0x180013990	KERNEL32.dll.SetHandleCount
+0x180013cac	0x180018270	import	0x180013c80	KERNEL32.dll.DeleteCriticalSection
+0x180014022	0x180018238	import	0x180013fec	KERNEL32.dll.GetModuleFileNameA
+0x180014113	0x180018340	import	0x1800140e4	KERNEL32.dll.GetEnvironmentStringsW
+0x18001412d	0x180018180	import	0x1800140e4	KERNEL32.dll.GetLastError
+0x180014153	0x180018340	import	0x1800140e4	KERNEL32.dll.GetEnvironmentStringsW
+0x1800141a8	0x1800181e8	import	0x1800140e4	KERNEL32.dll.WideCharToMultiByte
+0x1800141e4	0x1800181e8	import	0x1800140e4	KERNEL32.dll.WideCharToMultiByte
+0x1800141fd	0x180018338	import	0x1800140e4	KERNEL32.dll.FreeEnvironmentStringsW
+0x180014215	0x180018330	import	0x1800140e4	KERNEL32.dll.GetEnvironmentStrings
+0x180014256	0x180018328	import	0x1800140e4	KERNEL32.dll.FreeEnvironmentStringsA
+0x180014272	0x180018328	import	0x1800140e4	KERNEL32.dll.FreeEnvironmentStringsA
+0x1800142cf	0x180018360	import	0x180014298	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1800142da	0x180018358	import	0x180014298	KERNEL32.dll.GetCurrentProcessId
+0x1800142e6	0x1800181f8	import	0x180014298	KERNEL32.dll.GetCurrentThreadId
+0x1800142f2	0x180018350	import	0x180014298	KERNEL32.dll.GetTickCount
+0x180014303	0x180018348	import	0x180014298	KERNEL32.dll.QueryPerformanceCounter
+0x180014382	0x18001b568	string	0x18001434c	USER32.DLL
+0x180014389	0x1800182c8	import	0x18001434c	KERNEL32.dll.LoadLibraryA
+0x18001439b	0x18001b558	string	0x18001434c	MessageBoxA
+0x1800143a5	0x1800181c0	import	0x18001434c	KERNEL32.dll.GetProcAddress
+0x1800143bc	0x18001b548	string	0x18001434c	GetActiveWindow
+0x1800143cd	0x1800181c0	import	0x18001434c	KERNEL32.dll.GetProcAddress
+0x1800143db	0x18001b530	string	0x18001434c	GetLastActivePopup
+0x1800143ec	0x1800181c0	import	0x18001434c	KERNEL32.dll.GetProcAddress
+0x1800143fa	0x18001b510	string	0x18001434c	GetUserObjectInformationA
+0x18001440b	0x1800181c0	import	0x18001434c	KERNEL32.dll.GetProcAddress
+0x180014428	0x18001b4f8	string	0x18001434c	GetProcessWindowStation
+0x180014432	0x1800181c0	import	0x18001434c	KERNEL32.dll.GetProcAddress
+0x1800147ab	0x180018368	import	0x180014770	KERNEL32.dll.HeapSize
+0x180014883	0x1800182b8	import	0x180014844	KERNEL32.dll.RtlCaptureContext
+0x1800148c9	0x180018298	import	0x180014844	KERNEL32.dll.SetUnhandledExceptionFilter
+0x1800148d4	0x180018290	import	0x180014844	KERNEL32.dll.UnhandledExceptionFilter
+0x180014942	0x180018388	import	0x1800148e8	KERNEL32.dll.WriteConsoleW
+0x18001495d	0x180018180	import	0x1800148e8	KERNEL32.dll.GetLastError
+0x18001496f	0x180018380	import	0x1800148e8	KERNEL32.dll.GetConsoleOutputCP
+0x1800149a2	0x1800181e8	import	0x1800148e8	KERNEL32.dll.WideCharToMultiByte
+0x1800149c8	0x180018378	import	0x1800148e8	KERNEL32.dll.WriteConsoleA
+0x180014be1	0x180018270	import	0x180014b78	KERNEL32.dll.DeleteCriticalSection
+0x180015510	0x18001551a	string	0x1800150a4	+ˉL$D blocks=Basic Latin,Spacing Modifier Letters
+0x180015c1c	0x180018398	import	0x180015bbc	KERNEL32.dll.GetStringTypeW
+0x180015c2e	0x180018180	import	0x180015bbc	KERNEL32.dll.GetLastError
+0x180015c8e	0x1800181f0	import	0x180015bbc	KERNEL32.dll.MultiByteToWideChar
+0x180015d44	0x1800181f0	import	0x180015bbc	KERNEL32.dll.MultiByteToWideChar
+0x180015d5b	0x180018398	import	0x180015bbc	KERNEL32.dll.GetStringTypeW
+0x180015dc3	0x18001637c	string	0x180015bbc	@USVWATAUAVAWH
+0x180015de9	0x180018390	import	0x180015bbc	KERNEL32.dll.GetStringTypeA
+0x180016350	0x180018370	import	0x180016328	KERNEL32.dll.GetLocaleInfoA
+0x1800163d2	0x1800182e0	import	0x18001637c	KERNEL32.dll.GetCPInfo
+0x1800163f1	0x1800182e0	import	0x18001637c	KERNEL32.dll.GetCPInfo
+0x180016496	0x1800181f0	import	0x18001637c	KERNEL32.dll.MultiByteToWideChar
+0x1800164f5	0x1800181f0	import	0x18001637c	KERNEL32.dll.MultiByteToWideChar
+0x180016530	0x1800181e8	import	0x18001637c	KERNEL32.dll.WideCharToMultiByte
+0x18001656c	0x1800181e8	import	0x18001637c	KERNEL32.dll.WideCharToMultiByte
+0x1800165ac	0x1800181e8	import	0x18001637c	KERNEL32.dll.WideCharToMultiByte
+0x1800167b6	0x1800183a0	import	0x180016774	KERNEL32.dll.SetFilePointer
+0x1800167c5	0x180018180	import	0x180016774	KERNEL32.dll.GetLastError
+0x180016a68	0x1800181e0	import	0x180016944	KERNEL32.dll.GetConsoleMode
+0x180016a83	0x1800183a8	import	0x180016944	KERNEL32.dll.GetConsoleCP
+0x180016b83	0x1800181e8	import	0x180016944	KERNEL32.dll.WideCharToMultiByte
+0x180016bba	0x180018228	import	0x180016944	KERNEL32.dll.WriteFile
+0x180016c16	0x180018228	import	0x180016944	KERNEL32.dll.WriteFile
+0x180016d0a	0x180018180	import	0x180016944	KERNEL32.dll.GetLastError
+0x180016d62	0x180016d8a	string	0x180016944	H!\$ H
+0x180016dc3	0x180018228	import	0x180016944	KERNEL32.dll.WriteFile
+0x180016e02	0x180018180	import	0x180016944	KERNEL32.dll.GetLastError
+0x180016e3e	0x180016e71	string	0x180016944	H!\$ H
+0x180016eaa	0x180018228	import	0x180016944	KERNEL32.dll.WriteFile
+0x180016f79	0x1800181e8	import	0x180016944	KERNEL32.dll.WideCharToMultiByte
+0x180016fbc	0x180018228	import	0x180016944	KERNEL32.dll.WriteFile
+0x180016fd1	0x180018180	import	0x180016944	KERNEL32.dll.GetLastError
+0x18001700f	0x180018228	import	0x180016944	KERNEL32.dll.WriteFile
+0x180017024	0x180018180	import	0x180016944	KERNEL32.dll.GetLastError
+0x1800173a4	0x1800181a8	import	0x180017338	KERNEL32.dll.HeapAlloc
+0x180017439	0x180018198	import	0x1800173e8	KERNEL32.dll.HeapReAlloc
+0x180017668	0x180018190	import	0x1800175c0	KERNEL32.dll.FlushFileBuffers
+0x180017672	0x180018180	import	0x1800175c0	KERNEL32.dll.GetLastError
+0x180017746	0x180018188	import	0x1800176d4	KERNEL32.dll.SetStdHandle
+0x180017887	0x180018280	import	0x180017804	KERNEL32.dll.EnterCriticalSection
+0x1800178cd	0x180018278	import	0x1800178ac	KERNEL32.dll.LeaveCriticalSection
+0x180017933	0x180018170	import	0x1800178d4	KERNEL32.dll.CloseHandle
+0x18001793d	0x180018180	import	0x1800178d4	KERNEL32.dll.GetLastError
+0x180017ae0	0x1800182a8	import	0x180017ae0	KERNEL32.dll.RtlVirtualUnwind
+0x180017ae6	0x1800182b0	import	0x180017ae6	KERNEL32.dll.RtlLookupFunctionEntry
+0x180017aec	0x1800182c0	import	0x180017aec	KERNEL32.dll.RtlUnwindEx

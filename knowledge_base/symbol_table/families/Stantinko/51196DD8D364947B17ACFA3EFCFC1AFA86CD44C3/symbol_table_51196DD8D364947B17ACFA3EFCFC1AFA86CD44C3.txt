@@ -1,0 +1,726 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x1000127d	0x10001295	string	0x10001260	3ۋ~\b blocks=Basic Latin,Arabic
+0x10001562	0x10022860	string	0x10001520	user32.dll
+0x10001569	0x10020014	import	0x10001520	KERNEL32.dll.LoadLibraryA
+0x1000156f	0x1002286c	string	0x10001520	wsprintfA
+0x10001575	0x10020010	import	0x10001520	KERNEL32.dll.GetProcAddress
+0x10001586	0x10022878	string	0x10001520	%d:%d:%d
+0x10005a0c	0x10026788	string	0x100059f0	4KB pages
+0x10005a13	0x10026794	string	0x100059f0	2MB pages
+0x10005a1a	0x100267a0	string	0x100059f0	4MB pages
+0x10005a21	0x100267ac	string	0x100059f0	4KB or 4MB pages
+0x10005a28	0x100267c0	string	0x100059f0	2MB or 4MB pages
+0x10005a2f	0x100267d4	string	0x100059f0	4KB, 2MB, or 4MB pages
+0x10005afd	0x10026828	string	0x10005ae0	%d-way set associative
+0x10005b10	0x10026814	string	0x10005ae0	fully associative
+0x10005b17	0x10026804	string	0x10005ae0	direct-mapped
+0x10005b1e	0x100267ec	string	0x10005ae0	unknown associativity
+0x10005b3f	0x10005b58	string	0x10005b30	PhHh
+0x10005b45	0x10026840	string	0x10005b30	%dMB
+0x10005b59	0x10026848	string	0x10005b30	%dKB
+0x10005c48	0x100268a4	string	0x10005b70	trace cache:
+0x10005c74	0x100268b4	string	0x10005b70	%dK-uops
+0x10005cca	0x100268c0	string	0x10005b70	Data TLB:
+0x10005d08	0x100268cc	string	0x10005b70	Code TLB:
+0x10005d48	0x100268d8	string	0x10005b70	shared TLB:
+0x10005d7f	0x100268e8	string	0x10005b70	code cache:
+0x10005df0	0x100268f8	string	0x10005b70	data cache:
+0x10005e5e	0x10026908	string	0x10005b70	cache:
+0x10005f6d	0x10026914	string	0x10005b70	, sectored cache
+0x10005fbb	0x10026928	string	0x10005b70	, %d byte line size
+0x10005ff1	0x1002693c	string	0x10005b70	, %d entries
+0x10006048	0x1002694c	string	0x10005b70	, ECC
+0x1000606f	0x10026954	string	0x10005b70	(undocumented)
+0x100060a6	0x10026880	string	0x10005b70	64-byte prefetching
+0x100060b4	0x10026880	string	0x10005b70	64-byte prefetching
+0x100060c2	0x10026850	string	0x10005b70	No L2 cache, or if L2 cache exists, no L3 cache
+0x10006139	0x10026964	string	0x10006130	prefetch
+0x10006159	0x10026964	string	0x10006130	prefetch
+0x10006287	0x10026970	string	0x100061b0	Unknown cache descriptor (0x%02x)\n
+0x100062e1	0x10026998	string	0x100061b0	%s\n
+0x1000652f	0x10006535	string	0x10006510	SVWP
+0x10006568	0x100269a4	string	0x10006510	CPU
+0x10006584	0x100269ac	string	0x10006510	CPU %u:
+0x100065ac	0x100269b4	string	0x10006510	CPUID
+0x100065c6	0x100269bc	string	0x10006510	0x
+0x10006608	0x1000f301	string	0x10006510	j\fhh
+0x10006680	0x1000e23f	string	0x10006510	j\bh@
+0x100066cc	0x100269a4	string	0x10006510	CPU
+0x100066e8	0x100269ac	string	0x10006510	CPU %u:
+0x1000671f	0x100269b4	string	0x10006510	CPUID
+0x10006752	0x100269c8	string	0x10006510	CPUID %08x, results = %08x %08x %08x %08x
+0x10006783	0x100269f4	string	0x10006510	CPUID %08x, index %x = %08x %08x %08x %08x
+0x100067b4	0x10026a20	string	0x10006510	CPUID %08x:%02x = %08x %08x %08x %08x
+0x100067fe	0x100269bc	string	0x10006510	0x
+0x10006831	0x10026a48	string	0x10006510	0x%08x 0x%02x: eax=0x%08x ebx=0x%08x ecx=0x%08x edx=0x%08x
+0x100068a5	0x1000f301	string	0x10006510	j\fhh
+0x100069da	0x10026a88	string	0x10006980	CPUID %08x:%02x = %08x %08x %08x %08x | %s\n
+0x10006ac6	0x10026ab4	string	0x100069f0	'0x%08x:eax=%s,ebx=%s,ecx=%s,edx=%s',\n
+0x10006af5	0x10026ae0	string	0x100069f0	'0x%08x,%d:eax=%s,ebx=%s,ecx=%s,edx=%s',\n
+0x10006be6	0x10026b10	string	0x10006b10	(0x%08x ((eax %s)\n (ebx %s)\n (ecx %s)\n (edx %s)))\n
+0x10006c15	0x10026b70	string	0x10006b10	(0x%08x,%d ((eax %s)\n (ebx %s)\n (ecx %s)\n (edx %s)))\n
+0x10006c50	0x10026bd0	string	0x10006c30	0x%08x 0x%02x: eax=0x%08x ebx=0x%08x ecx=0x%08x edx=0x%08x\n
+0x10006cbb	0x10026c10	string	0x10006c60	cpuid.%x.eax = "%s"\n
+0x10006cfb	0x10026c28	string	0x10006c60	cpuid.%x.ebx = "%s"\n
+0x10006d3b	0x10026c40	string	0x10006c60	cpuid.%x.ecx = "%s"\n
+0x10006d7b	0x10026c58	string	0x10006c60	cpuid.%x.edx = "%s"\n
+0x10006dae	0x10026c70	string	0x10006d90	Intel
+0x10006e38	0x10026c7c	string	0x10006d90	Transmeta
+0x10006e89	0x10026cac	string	0x10006e60	Extended features:\n
+0x10006eda	0x10026c98	string	0x10006e60	Hyper-V features:\n
+0x10006ee1	0x10026c88	string	0x10006e60	Base features:\n
+0x10006f44	0x10026cc0	string	0x10006e60	%s (%s)
+0x10006f53	0x10026cc8	string	0x10006e60	%-38s
+0x10006f9a	0x10026cd4	string	0x10006e60	%-14s
+0x10007016	0x10026ce0	string	0x10006e60	Unaccounted for in 0x%08x:0x%08x:\n eax: 0x%08x ebx:0x%08x ecx:0x%08x edx:0x%08x\n
+0x100070f8	0x100070e0	string	0x10007070	;M\f|
+0x10007143	0x1000e550	string	0x10007120	3\nD$\bS
+0x10007206	0x10026600	string	0x10007120	option doesn't take an argument -- %.*s
+0x10007248	0x100265e4	string	0x10007120	ambiguous option -- %.*s
+0x100072c8	0x100265c0	string	0x10007120	option requires an argument -- %s
+0x10007356	0x10026640	string	0x10007120	unknown option -- %s
+0x10007456	0x1000e550	string	0x10007380	3\nD$\bS
+0x100075fb	0x1000e550	string	0x10007380	3\nD$\bS
+0x10007663	0x1000e550	string	0x10007380	3\nD$\bS
+0x100076bc	0x1002659c	string	0x10007380	option requires an argument -- %c
+0x10007781	0x1002659c	string	0x10007380	option requires an argument -- %c
+0x1000780e	0x10026628	string	0x10007380	unknown option -- %c
+0x10007901	0x10026d34	string	0x100078f0	Maximum basic CPUID leaf: 0x%08x\n\n
+0x10007927	0x10026d58	string	0x100078f0	GenuineIntel
+0x10007966	0x10026d68	string	0x100078f0	AuthenticAMD
+0x100079a6	0x10026d78	string	0x100078f0	GenuineTMx86
+0x100079e6	0x10026d88	string	0x100078f0	CyrixInstead
+0x10007aaa	0x10026d98	string	0x10007a40	Signature: 0x%08x\n Family: 0x%02x (%d)\n Model: 0x%02x (%d)\n Stepping: 0x%02x (%d)\n\n
+0x10007ace	0x10026df8	string	0x10007a40	Local APIC: %d\nLogical processor count: %d\nCLFLUSH size: %d\nBrand ID: %d\n\n
+0x10007bcc	0x10026e44	string	0x10007b20	Cache descriptors:\n
+0x10007c59	0x10026e58	string	0x10007c20	Processor serial number: disabled (or not supported)\n\n
+0x10007c97	0x10026e90	string	0x10007c20	Processor serial number (Transmeta encoding): %08X-%08X-%08X-%08X\n\n
+0x10007ce3	0x10026ed8	string	0x10007c20	Processor serial number (Intel encoding): %04X-%04X-%04X-%04X-%04X-%04X\n\n
+0x10007d09	0x10026f24	string	0x10007d00	null
+0x10007d10	0x10026f2c	string	0x10007d00	data
+0x10007d17	0x10026f34	string	0x10007d00	code
+0x10007d1e	0x10026f3c	string	0x10007d00	unified
+0x10007d29	0x10026f44	string	0x10007d00	unknown
+0x10007d57	0x10026f4c	string	0x10007d40	Write-back invalidate acts upon lower levels
+0x10007d65	0x10026f7c	string	0x10007d40	Inclusive of lower cache levels
+0x10007d73	0x10026f9c	string	0x10007d40	Complex indexing
+0x10007d8a	0x10026fb0	string	0x10007d40	Deterministic Cache Parameters:\n
+0x10007e13	0x10026f24	string	0x10007d40	null
+0x10007e1a	0x10026f2c	string	0x10007d40	data
+0x10007e21	0x10026f34	string	0x10007d40	code
+0x10007e28	0x10026f3c	string	0x10007d40	unified
+0x10007e34	0x10026f44	string	0x10007d40	unknown
+0x10007e5b	0x10026fd4	string	0x10007d40	%3u%cB L%d %s cache\n
+0x10007e70	0x10026fec	string	0x10007d40	Self-initializing\n
+0x10007e85	0x10027008	string	0x10007d40	Fully associative\n
+0x10007e9c	0x10027024	string	0x10007d40	%d-way set associative\n
+0x10007eac	0x10026f4c	string	0x10007d40	Write-back invalidate acts upon lower levels
+0x10007eb9	0x10027044	string	0x10007d40	%s\n
+0x10007f00	0x10027050	string	0x10007d40	%d byte line size\n %d partitions\n %d sets\n shared by max %d threads\n maximum %d APIC IDs for cores in package\n
+0x10007f65	0x10007f91	string	0x10007f30	_^[]
+0x10007fc4	0x100270e4	string	0x10007fa0	MONITOR/MWAIT features:\n
+0x10007fd2	0x10027100	string	0x10007fa0	Smallest monitor-line size: %d bytes\n
+0x10007fe1	0x10027128	string	0x10007fa0	Largest monitor-line size: %d bytes\n
+0x10007ff9	0x10027150	string	0x10007fa0	Interrupts as break-event for MWAIT, even when interrupts off\n
+0x1000802d	0x10027194	string	0x10007fa0	C%d sub C-states supported by MWAIT: %d\n
+0x10008089	0x100271c0	string	0x10008060	Intel Thermal and Power Management Features:\n
+0x1000809b	0x100271f0	string	0x10008060	Digital temperature sensor\n
+0x100080ad	0x10027210	string	0x10008060	Intel Turbo Boost Technology\n
+0x100080bf	0x10027230	string	0x10008060	APIC timer always running\n
+0x100080d1	0x10027250	string	0x10008060	Power limit notification controls\n
+0x100080e3	0x10027278	string	0x10008060	Clock modulation duty cycle extension\n
+0x100080f5	0x100272a4	string	0x10008060	Package thermal management\n
+0x10008107	0x100272c4	string	0x10008060	Hardware Managed Performance States\n
+0x1000811d	0x100272ec	string	0x10008060	Interrupt thresholds in DTS: %d\n
+0x10008130	0x10027310	string	0x10008060	Hardware Coordination Feedback Capability\n
+0x10008143	0x10027340	string	0x10008060	Performance-energy bias preference\n
+0x10008186	0x1000819b	string	0x10008160	Shhs
+0x1000818b	0x1000819b	string	0x10008160	Shhs
+0x10008190	0x1000819b	string	0x10008160	Shhs
+0x1000819c	0x10027368	string	0x10008160	Structured Extended Feature Flags:\n
+0x100081f1	0x10026cac	string	0x10008160	Extended features:\n
+0x100081fd	0x10026c98	string	0x10008160	Hyper-V features:\n
+0x10008209	0x10026c88	string	0x10008160	Base features:\n
+0x100082a4	0x10026cc0	string	0x10008160	%s (%s)
+0x100082b3	0x10026cc8	string	0x10008160	%-38s
+0x100082df	0x10026cd4	string	0x10008160	%-14s
+0x10008355	0x10026ce0	string	0x10008160	Unaccounted for in 0x%08x:0x%08x:\n eax: 0x%08x ebx:0x%08x ecx:0x%08x edx:0x%08x\n
+0x10008408	0x1002738c	string	0x100083f0	Core cycles
+0x10008416	0x10027398	string	0x100083f0	Instructions retired
+0x10008424	0x100273b0	string	0x100083f0	Reference cycles
+0x10008432	0x100273c4	string	0x100083f0	Last-level cache reference
+0x10008440	0x100273e0	string	0x100083f0	Last-level cache miss
+0x1000844e	0x100273f8	string	0x100083f0	Branches retired
+0x1000845c	0x1002740c	string	0x100083f0	Branches mispredicted
+0x10008481	0x10027424	string	0x100083f0	Architectural Performance Monitoring\n
+0x1000848f	0x1002744c	string	0x100083f0	Version: %u\n
+0x1000849e	0x1002745c	string	0x100083f0	Counters per logical processor: %u\n
+0x100084ad	0x10027484	string	0x100083f0	Counter bit width: %u\n
+0x100084be	0x100274a0	string	0x100083f0	Number of fixed-function counters: %u\n
+0x100084d5	0x100274cc	string	0x100083f0	Bit width of fixed-function counters: %u\n
+0x100084df	0x100274f8	string	0x100083f0	Supported performance counters:\n
+0x10008509	0x1002751c	string	0x100083f0	%s\n
+0x10008579	0x10027524	string	0x10008540	x2APIC Processor Topology:\n
+0x100086d8	0x10027540	string	0x10008540	Inferred information:\n
+0x100086fa	0x10008701	string	0x10008540	QPhdu
+0x100086fc	0x1002755c	string	0x10008540	(?)
+0x10008703	0x10027564	string	0x10008540	Logical total: %u%s\n
+0x1000870e	0x10027584	string	0x10008540	Logical per socket: %u\n
+0x1000871d	0x100275a4	string	0x10008540	Cores per socket: %u\n
+0x1000872c	0x100275c4	string	0x10008540	Threads per core: %u\n\n
+0x10008755	0x100275e4	string	0x10008540	x2APIC ID %d (socket %d, core %d, thread %d)\n\n
+0x100087ad	0x100087b2	string	0x10008770	_^[]
+0x100087c9	0x10027618	string	0x100087c0	Legacy x87
+0x100087d0	0x10027624	string	0x100087c0	128-bit SSE
+0x100087d7	0x10027630	string	0x100087c0	256-bit AVX YMM_Hi128
+0x100087de	0x10027648	string	0x100087c0	MPX bound registers
+0x100087e5	0x1002765c	string	0x100087c0	MPX bound configuration
+0x100087ec	0x10027674	string	0x100087c0	512-bit AVX OpMask
+0x100087f3	0x10027688	string	0x100087c0	512-bit AVX ZMM_Hi256
+0x100087fa	0x100276a0	string	0x100087c0	512-bit AVX ZMM_Hi16
+0x10008829	0x100276b8	string	0x10008820	XSAVEOPT
+0x10008830	0x100276c4	string	0x10008820	XSAVEC and compacted XRSTOR
+0x10008837	0x100276e0	string	0x10008820	XGETBV with ECX=1
+0x1000883e	0x100276f4	string	0x10008820	XSAVES/XRSTORS and IA32_XSS
+0x10008886	0x10027710	string	0x10008860	Extended State Enumeration\n
+0x100088be	0x10027618	string	0x10008860	Legacy x87
+0x100088c5	0x10027624	string	0x10008860	128-bit SSE
+0x100088cc	0x10027630	string	0x10008860	256-bit AVX YMM_Hi128
+0x100088d3	0x10027648	string	0x10008860	MPX bound registers
+0x100088da	0x1002765c	string	0x10008860	MPX bound configuration
+0x100088e1	0x10027674	string	0x10008860	512-bit AVX OpMask
+0x100088e8	0x10027688	string	0x10008860	512-bit AVX ZMM_Hi256
+0x100088ef	0x100276a0	string	0x10008860	512-bit AVX ZMM_Hi16
+0x1000890b	0x1002772c	string	0x10008860	Extended state for %s requires %d bytes, offset %d\n
+0x10008928	0x10027764	string	0x10008860	Features available:\n
+0x10008944	0x100276b8	string	0x10008860	XSAVEOPT
+0x1000894b	0x100276c4	string	0x10008860	XSAVEC and compacted XRSTOR
+0x10008952	0x100276e0	string	0x10008860	XGETBV with ECX=1
+0x10008959	0x100276f4	string	0x10008860	XSAVES/XRSTORS and IA32_XSS
+0x1000896d	0x1002777c	string	0x10008860	Unknown
+0x10008974	0x10027784	string	0x10008860	%d - %s\n
+0x1000899e	0x10027794	string	0x10008860	Valid bit fields for lower 32 bits of XCR0:\n
+0x100089c1	0x1002777c	string	0x10008860	Unknown
+0x100089c8	0x10027784	string	0x10008860	%d - %s\n
+0x100089e7	0x100277c4	string	0x10008860	Valid bit fields for upper 32-bits of XCR0:\n
+0x100089f5	0x100277f4	string	0x10008860	0x%08X\n
+0x10008a0d	0x10027800	string	0x10008860	Maximum size required for all enabled features: %3d bytes\n\n
+0x10008a1b	0x10027840	string	0x10008860	Maximum size required for all supported features: %3d bytes\n
+0x10008ad5	0x10008aee	string	0x10008a90	_^[]
+0x10008add	0x10008aee	string	0x10008a90	_^[]
+0x10008b0c	0x10027880	string	0x10008b00	Maximum extended CPUID leaf: 0x%08x\n\n
+0x10008b78	0x100278a8	string	0x10008b20	Processor Name: %s\n\n
+0x10008bad	0x100278dc	string	0x10008b90	%d-way associative
+0x10008bc0	0x10026814	string	0x10008b90	fully associative
+0x10008bc7	0x100278cc	string	0x10008b90	direct mapped
+0x10008bce	0x100278c0	string	0x10008b90	Reserved
+0x10008bf4	0x100278f0	string	0x10008be0	L1 TLBs:\n
+0x10008c23	0x100278dc	string	0x10008be0	%d-way associative
+0x10008c36	0x10026814	string	0x10008be0	fully associative
+0x10008c3d	0x100278cc	string	0x10008be0	direct mapped
+0x10008c44	0x100278c0	string	0x10008be0	Reserved
+0x10008c4f	0x100278fc	string	0x10008be0	Data TLB (2MB and 4MB pages): %d entries, %s\n
+0x10008c7a	0x100278dc	string	0x10008be0	%d-way associative
+0x10008c8d	0x10026814	string	0x10008be0	fully associative
+0x10008c94	0x100278cc	string	0x10008be0	direct mapped
+0x10008c9b	0x100278c0	string	0x10008be0	Reserved
+0x10008ca5	0x1002792c	string	0x10008be0	Instruction TLB (2MB and 4MB pages): %d entries, %s\n
+0x10008cd1	0x100278dc	string	0x10008be0	%d-way associative
+0x10008ce4	0x10026814	string	0x10008be0	fully associative
+0x10008ceb	0x100278cc	string	0x10008be0	direct mapped
+0x10008cf2	0x100278c0	string	0x10008be0	Reserved
+0x10008cfd	0x10027964	string	0x10008be0	Data TLB (4KB pages): %d entries, %s\n
+0x10008d29	0x100278dc	string	0x10008be0	%d-way associative
+0x10008d3c	0x10026814	string	0x10008be0	fully associative
+0x10008d43	0x100278cc	string	0x10008be0	direct mapped
+0x10008d4a	0x100278c0	string	0x10008be0	Reserved
+0x10008d55	0x1002798c	string	0x10008be0	Instruction TLB (4KB pages): %d entries, %s\n
+0x10008d8e	0x100278dc	string	0x10008be0	%d-way associative
+0x10008da1	0x10026814	string	0x10008be0	fully associative
+0x10008da8	0x100278cc	string	0x10008be0	direct mapped
+0x10008daf	0x100278c0	string	0x10008be0	Reserved
+0x10008dc4	0x100279c0	string	0x10008be0	L1 caches:\n Data: %dKB, %s, %d lines per tag, %d byte line size\n
+0x10008df0	0x100278dc	string	0x10008be0	%d-way associative
+0x10008e03	0x10026814	string	0x10008be0	fully associative
+0x10008e0a	0x100278cc	string	0x10008be0	direct mapped
+0x10008e11	0x100278c0	string	0x10008be0	Reserved
+0x10008e26	0x10027a04	string	0x10008be0	Instruction: %dKB, %s, %d lines per tag, %d byte line size\n
+0x10008e65	0x10027a44	string	0x10008e50	L2 TLBs:\n
+0x10008e9b	0x100278dc	string	0x10008e50	%d-way associative
+0x10008eae	0x10026814	string	0x10008e50	fully associative
+0x10008eb5	0x100278cc	string	0x10008e50	direct mapped
+0x10008ebc	0x100278c0	string	0x10008e50	Reserved
+0x10008ecd	0x100278fc	string	0x10008e50	Data TLB (2MB and 4MB pages): %d entries, %s\n
+0x10008f00	0x100278dc	string	0x10008e50	%d-way associative
+0x10008f13	0x10026814	string	0x10008e50	fully associative
+0x10008f1a	0x100278cc	string	0x10008e50	direct mapped
+0x10008f21	0x100278c0	string	0x10008e50	Reserved
+0x10008f30	0x1002792c	string	0x10008e50	Instruction TLB (2MB and 4MB pages): %d entries, %s\n
+0x10008f64	0x100278dc	string	0x10008e50	%d-way associative
+0x10008f77	0x10026814	string	0x10008e50	fully associative
+0x10008f7e	0x100278cc	string	0x10008e50	direct mapped
+0x10008f85	0x100278c0	string	0x10008e50	Reserved
+0x10008f95	0x10027964	string	0x10008e50	Data TLB (4KB pages): %d entries, %s\n
+0x10008fc9	0x100278dc	string	0x10008e50	%d-way associative
+0x10008fdc	0x10026814	string	0x10008e50	fully associative
+0x10008fe3	0x100278cc	string	0x10008e50	direct mapped
+0x10008fea	0x100278c0	string	0x10008e50	Reserved
+0x10008ffa	0x1002798c	string	0x10008e50	Instruction TLB (4KB pages): %d entries, %s\n
+0x10009035	0x100267ec	string	0x10008e50	unknown associativity
+0x10009068	0x10027a50	string	0x10008e50	L2 cache: %d%cB, %s, %d lines per tag, %d byte line size\n
+0x1000909a	0x100267ec	string	0x10008e50	unknown associativity
+0x100090c9	0x10027a8c	string	0x10008e50	L3 cache: %u%cB, %s, %d lines per tag, %d byte line size\n
+0x10009119	0x10027ad0	string	0x100090f0	Invariant TSC available: %s\n\n
+0x10009134	0x10027be0	string	0x100090f0	AMD Advanced Power Management features:\n
+0x10009140	0x10027af0	string	0x100090f0	Temperature Sensor
+0x1000914a	0x10027b04	string	0x100090f0	Frequency ID Control
+0x10009158	0x10027b1c	string	0x100090f0	Voltage ID Control
+0x10009166	0x10027b30	string	0x100090f0	THERMTRIP
+0x10009174	0x10027b3c	string	0x100090f0	Hardware thermal control
+0x10009182	0x10027b58	string	0x100090f0	100 MHz multiplier control
+0x10009190	0x10027b74	string	0x100090f0	Hardware P-state control
+0x1000919a	0x10027b90	string	0x100090f0	Invariant TSC
+0x100091a8	0x10027ba0	string	0x100090f0	Core performance boost
+0x100091b6	0x10027bb8	string	0x100090f0	Read-only effective frequency interface
+0x100091ee	0x10026998	string	0x100090f0	%s\n
+0x10009210	0x10027c0c	string	0x100090f0	Undocumented feature bits: 0x%08x\n
+0x10009245	0x10027c34	string	0x10009230	Physical address size: %d bits\n
+0x10009254	0x10027c54	string	0x10009230	Linear address size: %d bits\n
+0x10009289	0x1000928d	string	0x10009230	Rht|
+0x1000928e	0x10027c74	string	0x10009230	Core count: %u\n
+0x10009299	0x10027c84	string	0x10009230	Maximum core count: %u\n
+0x100092de	0x10027c9c	string	0x100092c0	Nested paging
+0x100092e8	0x10027cac	string	0x100092c0	LBR virtualization
+0x100092f2	0x10027cc0	string	0x100092c0	SVM lock
+0x10009300	0x10027ccc	string	0x100092c0	NRIP save
+0x1000930e	0x10027cd8	string	0x100092c0	MSR-based TSC rate control
+0x1000931c	0x10027cf4	string	0x100092c0	VMCB clean bits
+0x1000932a	0x10027d04	string	0x100092c0	Flush by ASID
+0x10009338	0x10027d14	string	0x100092c0	Decode assists
+0x10009346	0x10027d24	string	0x100092c0	Pause intercept filter
+0x10009354	0x10027d3c	string	0x100092c0	PAUSE filter threshold
+0x10009396	0x10027d54	string	0x100092c0	SVM Features and Revision Information:\n
+0x100093a7	0x10027d7c	string	0x100092c0	Revision: %u\n
+0x100093b5	0x10027d8c	string	0x100092c0	NASID: %u\n
+0x100093bf	0x10027d9c	string	0x100092c0	Features:\n
+0x100093df	0x1002751c	string	0x100092c0	%s\n
+0x100093ff	0x10027c0c	string	0x100092c0	Undocumented feature bits: 0x%08x\n
+0x100094ef	0x10027dac	string	0x100094d0	WBINVD not guaranteed
+0x100094fb	0x10027dc4	string	0x100094d0	cache inclusive
+0x1000957a	0x10027de0	string	0x100094d0	AMD Extended Cache Topology:\n
+0x1000959b	0x10027e10	string	0x100094d0	unknown
+0x100095af	0x10027e08	string	0x100094d0	code
+0x100095b9	0x10027e00	string	0x100094d0	data
+0x100095cd	0x10026814	string	0x100094d0	fully associative
+0x100095e9	0x10026828	string	0x100094d0	%d-way set associative
+0x10009645	0x10027e1c	string	0x100094d0	, needs soft-init
+0x1000966d	0x10027e30	string	0x100094d0	%2d%s L%d%s cache, %s%s, %d cores sharing
+0x1000968c	0x10027e5c	string	0x100094d0	, %s
+0x10009742	0x10027e64	string	0x10009700	AMD Extended Topology:\n
+0x1000974f	0x10027e7c	string	0x10009700	Extended APIC ID: 0x%08x\n
+0x1000975f	0x10027e98	string	0x10009700	Compute unit ID: %d\n
+0x10009773	0x10027eb0	string	0x10009700	Cores per unit: %d\n
+0x10009782	0x10027ec8	string	0x10009700	Node ID: %d\n
+0x1000979f	0x10027ed8	string	0x10009700	Nodes per processor: %d\n
+0x100097b2	0x10027ef4	string	0x10009700	Nodes per processor: UNKNOWN (0x%02x)\n
+0x100097e1	0x10027f20	string	0x100097d0	Maximum hypervisor CPUID leaf: 0x%08x\n\n
+0x10009807	0x10027f48	string	0x100097d0	XenVMMXenVMM
+0x10009839	0x10027f58	string	0x100097d0	Xen hypervisor detected\n\n
+0x10009853	0x10027f74	string	0x100097d0	VMwareVMware
+0x10009889	0x10027f84	string	0x100097d0	VMware hypervisor detected\n\n
+0x100098a3	0x10027fa4	string	0x100097d0	KVMKVMKVM
+0x100098d9	0x10027fb0	string	0x100097d0	KVM hypervisor detected\n\n
+0x100098f3	0x10027fcc	string	0x100097d0	Microsoft Hv
+0x10009929	0x10027fdc	string	0x100097d0	Hyper-V detected\n\n
+0x10009969	0x10027ff0	string	0x10009950	Xen version: %d.%d\n\n
+0x10009996	0x10028008	string	0x10009980	Xen features:\n Hypercall transfer pages: %d\n MSR base address: 0x%08x\n\n
+0x100099cb	0x10028054	string	0x100099b0	Host CPU clock frequency: %dMHz\n\n
+0x10009a43	0x10028078	string	0x10009a00	TSC frequency: %4.2fMHz\nBus (local APIC timer) frequency: %4.2fMHz\n\n
+0x10009c67	0x100280c0	string	0x10009c60	usage: %s [--help] [--dump] [--ignore-vendor] [--parse <filename>]\n\n
+0x10009c71	0x10028108	string	0x10009c60	Print this list of options
+0x10009c76	0x10028124	string	0x10009c60	-h, --help
+0x10009c7b	0x10028130	string	0x10009c60	%-18s %s\n
+0x10009c85	0x1002813c	string	0x10009c60	Index (starting at 0) of CPU to get info from
+0x10009c8a	0x1002816c	string	0x10009c60	-c, --cpu
+0x10009c8f	0x10028130	string	0x10009c60	%-18s %s\n
+0x10009c99	0x10028178	string	0x10009c60	Dump a raw CPUID table
+0x10009c9e	0x10028190	string	0x10009c60	-d, --dump
+0x10009ca3	0x10028130	string	0x10009c60	%-18s %s\n
+0x10009cad	0x1002819c	string	0x10009c60	Show feature flags from all vendors
+0x10009cb2	0x100281c0	string	0x10009c60	--ignore-vendor
+0x10009cb7	0x10028130	string	0x10009c60	%-18s %s\n
+0x10009cc1	0x100281d0	string	0x10009c60	Read and decode a raw cpuid table from the file specified
+0x10009cc6	0x1002820c	string	0x10009c60	-f, --parse
+0x10009ccb	0x10028130	string	0x10009c60	%-18s %s\n
+0x10009cd8	0x10028218	string	0x10009c60	Do a sanity check of the CPUID data
+0x10009cdd	0x1002823c	string	0x10009c60	--sanity
+0x10009ce2	0x10028130	string	0x10009c60	%-18s %s\n
+0x10009d15	0x10028248	string	0x10009d10	cpuid version %s\n\n
+0x10009d1f	0x10028464	string	0x10009d10	78weyghdte63ee
+0x10009d24	0x1000f145	string	0x10009d10	j\fhH
+0x10009d5e	0x1002825c	string	0x10009d40	c:hdvo:f:
+0x10009db1	0x10028268	string	0x10009d40	0x%x
+0x10009e43	0x100282ac	string	0x10009d40	Option --cpu= requires a value >= -1.\n
+0x10009f02	0x1002825c	string	0x10009d40	c:hdvo:f:
+0x10009f7b	0x100282f0	string	0x10009d40	cpuid = [\n
+0x1000a01b	0x10028300	string	0x10009d40	CPU %d doesn't seem to exist.\n
+0x1000a04e	0x10028320	string	0x10009d40	CPU %d:\n
+0x1000a0b3	0x10020140	import	0x10009d40	WINMM.dll.timeGetDevCaps
+0x1000a0be	0x10020138	import	0x10009d40	WINMM.dll.timeBeginPeriod
+0x1000a0f5	0x1002013c	import	0x10009d40	WINMM.dll.timeEndPeriod
+0x1000a2aa	0x10020020	import	0x1000a290	KERNEL32.dll.SetThreadAffinityMask
+0x1000a2c3	0x10020008	import	0x1000a290	KERNEL32.dll.GetCurrentThread
+0x1000a2ce	0x1002000c	import	0x1000a290	KERNEL32.dll.Sleep
+0x1000a30c	0x10020008	import	0x1000a2f0	KERNEL32.dll.GetCurrentThread
+0x1000a313	0x10020020	import	0x1000a2f0	KERNEL32.dll.SetThreadAffinityMask
+0x1000a31f	0x1002000c	import	0x1000a2f0	KERNEL32.dll.Sleep
+0x1000a3d3	0x10020008	import	0x1000a3a0	KERNEL32.dll.GetCurrentThread
+0x1000a3de	0x10020020	import	0x1000a3a0	KERNEL32.dll.SetThreadAffinityMask
+0x1000a3ea	0x10020020	import	0x1000a3a0	KERNEL32.dll.SetThreadAffinityMask
+0x1000a3f0	0x10028334	string	0x1000a3a0	Verifying APIC ID sanity
+0x1000a4e4	0x10020028	import	0x1000a3a0	KERNEL32.dll.CreateThread
+0x1000a569	0x10020028	import	0x1000a3a0	KERNEL32.dll.CreateThread
+0x1000a59c	0x1002001c	import	0x1000a3a0	KERNEL32.dll.QueryPerformanceFrequency
+0x1000a5a7	0x10020000	import	0x1000a3a0	KERNEL32.dll.QueryPerformanceCounter
+0x1000a5f5	0x1002001c	import	0x1000a3a0	KERNEL32.dll.QueryPerformanceFrequency
+0x1000a600	0x10020000	import	0x1000a3a0	KERNEL32.dll.QueryPerformanceCounter
+0x1000a657	0x10028350	string	0x1000a3a0	fail (duplicate APIC IDs)\n
+0x1000a66e	0x1002000c	import	0x1000a3a0	KERNEL32.dll.Sleep
+0x1000a69d	0x10028398	string	0x1000a3a0	ok\n
+0x1000a6bd	0x10020018	import	0x1000a3a0	KERNEL32.dll.WaitForMultipleObjects
+0x1000a6d8	0x10020024	import	0x1000a3a0	KERNEL32.dll.CloseHandle
+0x1000a6fe	0x10020018	import	0x1000a3a0	KERNEL32.dll.WaitForMultipleObjects
+0x1000a714	0x10020024	import	0x1000a3a0	KERNEL32.dll.CloseHandle
+0x1000a74f	0x10020008	import	0x1000a3a0	KERNEL32.dll.GetCurrentThread
+0x1000a75b	0x10020020	import	0x1000a3a0	KERNEL32.dll.SetThreadAffinityMask
+0x1000a79b	0x100283a0	string	0x1000a790	Verifying L3 thread sharing sanity...
+0x1000a845	0x100283c8	string	0x1000a790	fail (L3 cache shared by too few threads)\n
+0x1000a874	0x100283f8	string	0x1000a860	Measuring performance of leaf 0x%08x:%d...
+0x1000a91e	0x100283f8	string	0x1000a8d0	Measuring performance of leaf 0x%08x:%d...
+0x1000a996	0x10020140	import	0x1000a980	WINMM.dll.timeGetDevCaps
+0x1000a9a0	0x10020138	import	0x1000a980	WINMM.dll.timeBeginPeriod
+0x1000a9d3	0x1002013c	import	0x1000a980	WINMM.dll.timeEndPeriod
+0x1000a9fc	0x10020008	import	0x1000a9f0	KERNEL32.dll.GetCurrentThread
+0x1000aa04	0x10020020	import	0x1000a9f0	KERNEL32.dll.SetThreadAffinityMask
+0x1000aa13	0x10028424	string	0x1000a9f0	ERROR: thread_bind() doesn't appear to be working correctly.\n
+0x1000aa21	0x1000ed1c	string	0x1000a9f0	j\fh(
+0x1000aab3	0x10020008	import	0x1000aab0	KERNEL32.dll.GetCurrentThread
+0x1000aabe	0x10020020	import	0x1000aab0	KERNEL32.dll.SetThreadAffinityMask
+0x1000aad3	0x10020008	import	0x1000aad0	KERNEL32.dll.GetCurrentThread
+0x1000aaf1	0x10020020	import	0x1000aad0	KERNEL32.dll.SetThreadAffinityMask
+0x1000abda	0x1002001c	import	0x1000abd0	KERNEL32.dll.QueryPerformanceFrequency
+0x1000abe4	0x10020000	import	0x1000abd0	KERNEL32.dll.QueryPerformanceCounter
+0x1000b5f2	0x100284a0	string	0x1000b4b0	unknown compression method
+0x1000b657	0x100284bc	string	0x1000b4b0	invalid window size
+0x1000b666	0x10028488	string	0x1000b4b0	incorrect header check
+0x1000b6ad	0x100284a0	string	0x1000b4b0	unknown compression method
+0x1000b6c4	0x100284d0	string	0x1000b4b0	unknown header flags set
+0x1000bacf	0x100284ec	string	0x1000b4b0	header crc mismatch
+0x1000bc50	0x10028500	string	0x1000b4b0	invalid block type
+0x1000bca8	0x1000bcb9	string	0x1000b4b0	3ۉF@3 blocks=Basic Latin,Arabic
+0x1000bcad	0x10028514	string	0x1000b4b0	invalid stored block lengths
+0x1000be66	0x10028558	string	0x1000b4b0	invalid code lengths set
+0x1000be75	0x10028534	string	0x1000b4b0	too many length or distance symbols
+0x1000c099	0x10028590	string	0x1000b4b0	invalid code -- missing end-of-block
+0x1000c0a8	0x10028574	string	0x1000b4b0	invalid bit length repeat
+0x1000c0b7	0x10028574	string	0x1000b4b0	invalid bit length repeat
+0x1000c100	0x100285b8	string	0x1000b4b0	invalid literal/lengths set
+0x1000c148	0x100285d4	string	0x1000b4b0	invalid distances set
+0x1000c353	0x100285ec	string	0x1000b4b0	invalid literal/length code
+0x1000c503	0x10028608	string	0x1000b4b0	invalid distance code
+0x1000c5a0	0x10028620	string	0x1000b4b0	invalid distance too far back
+0x1000c71d	0x10028640	string	0x1000b4b0	incorrect data check
+0x1000c77a	0x10028658	string	0x1000b4b0	incorrect length check
+0x1000cfc4	0x10028620	string	0x1000cc50	invalid distance too far back
+0x1000cfd0	0x10028608	string	0x1000cc50	invalid distance code
+0x1000cfec	0x100285ec	string	0x1000cc50	invalid literal/length code
+0x1000d95b	0x1000d972	string	0x1000d941	9E\ft
+0x1000dbf8	0x10012bbe	string	0x1000dbbd	j\fhH
+0x1000dc18	0x1001243d	string	0x1000dbbd	j\fh\b
+0x1000de5d	0x10020040	import	0x1000de47	KERNEL32.dll.HeapFree
+0x1000de6f	0x1002003c	import	0x1000de47	KERNEL32.dll.GetLastError
+0x1000e1f0	0x10020044	import	0x1000e1ab	KERNEL32.dll.HeapAlloc
+0x1000e329	0x1000e338	string	0x1000e300	^[_3
+0x1000e495	0x10020048	import	0x1000e45d	KERNEL32.dll.EnterCriticalSection
+0x1000e4c8	0x10020048	import	0x1000e49e	KERNEL32.dll.EnterCriticalSection
+0x1000e504	0x1002004c	import	0x1000e4d0	KERNEL32.dll.LeaveCriticalSection
+0x1000e533	0x1002004c	import	0x1000e50c	KERNEL32.dll.LeaveCriticalSection
+0x1000e5ba	0x1000e5c4	string	0x1000e550	^_[3
+0x1000e5d3	0x1000e5c4	string	0x1000e550	^_[3
+0x1000e5db	0x1000e5c4	string	0x1000e550	^_[3
+0x1000e5e6	0x1000e5c4	string	0x1000e550	^_[3
+0x1000e5ee	0x1000e5c4	string	0x1000e550	^_[3
+0x1000e724	0x1000e737	string	0x1000e6be	9}\bu
+0x1000e7fc	0x10020054	import	0x1000e7f4	KERNEL32.dll.DecodePointer
+0x1000e87b	0x10020050	import	0x1000e7f4	KERNEL32.dll.EncodePointer
+0x1000e889	0x10020050	import	0x1000e7f4	KERNEL32.dll.EncodePointer
+0x1000e8bb	0x10020050	import	0x1000e7f4	KERNEL32.dll.EncodePointer
+0x1000ed12	0x1000ec49	string	0x1000ed05	j\fh\b
+0x1000f380	0x10020058	import	0x1000f375	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000f3cb	0x10020208	string	0x1000f3c6	mscoree.dll
+0x1000f3d0	0x1002005c	import	0x1000f3c6	KERNEL32.dll.GetModuleHandleW
+0x1000f3da	0x100201f8	string	0x1000f3c6	CorExitProcess
+0x1000f3e0	0x10020010	import	0x1000f3c6	KERNEL32.dll.GetProcAddress
+0x1000f402	0x10020060	import	0x1000f3f1	KERNEL32.dll.ExitProcess
+0x1000f459	0x1000f46a	string	0x1000f44e	;u\fr
+0x1000f54d	0x10020054	import	0x1000f509	KERNEL32.dll.DecodePointer
+0x1000f6db	0x10020068	import	0x1000f6a2	KERNEL32.dll.GetCommandLineA
+0x1000f7c0	0x10020054	import	0x1000f77b	KERNEL32.dll.DecodePointer
+0x1000f7ce	0x10012cba	string	0x1000f77b	j\bhh
+0x1000f7d5	0x10020064	import	0x1000f77b	KERNEL32.dll.GetCurrentThreadId
+0x1000f915	0x1000f806	string	0x1000f8fe	j\fhȊ blocks=Basic Latin,Latin Extended-B
+0x1000f952	0x10020230	string	0x1000f92e	Unknown exception
+0x1000fa72	0x100166ee	string	0x1000fa69	j\fhX
+0x1000fad4	0x10020054	import	0x1000fac9	KERNEL32.dll.DecodePointer
+0x1000fb33	0x1002006c	import	0x1000faf1	KERNEL32.dll.RaiseException
+0x1000fc36	0x10020078	import	0x1000fb4c	KERNEL32.dll.IsDebuggerPresent
+0x1000fc40	0x10020074	import	0x1000fb4c	KERNEL32.dll.SetUnhandledExceptionFilter
+0x1000fc4d	0x10020070	import	0x1000fb4c	KERNEL32.dll.UnhandledExceptionFilter
+0x1000fc8b	0x10020080	import	0x1000fc75	KERNEL32.dll.GetCurrentProcess
+0x1000fc92	0x1002007c	import	0x1000fc75	KERNEL32.dll.TerminateProcess
+0x1000fca5	0x10020054	import	0x1000fc9a	KERNEL32.dll.DecodePointer
+0x1000fd32	0x10020054	import	0x1000fd2c	KERNEL32.dll.DecodePointer
+0x1000fdeb	0x10020054	import	0x1000fd39	KERNEL32.dll.DecodePointer
+0x100107e0	0x10020054	import	0x100100e7	KERNEL32.dll.DecodePointer
+0x1001161a	0x10020054	import	0x10010e64	KERNEL32.dll.DecodePointer
+0x100118cd	0x10011836	string	0x10010e64	F<-uq
+0x10011e84	0x10020054	import	0x10011e66	KERNEL32.dll.DecodePointer
+0x10011f75	0x100203a4	string	0x10011e66	log10
+0x10011f99	0x100203a4	string	0x10011e66	log10
+0x10011fe5	0x10020398	string	0x10011e66	asin
+0x10012038	0x1002037c	string	0x10011e66	exp10
+0x10012063	0x100203a4	string	0x10011e66	log10
+0x10012075	0x10020374	string	0x10011e66	atan
+0x1001207e	0x1002036c	string	0x10011e66	ceil
+0x1001208a	0x10020364	string	0x10011e66	floor
+0x10012096	0x1002035c	string	0x10011e66	modf
+0x10012134	0x10020084	import	0x10011e66	KERNEL32.dll.IsProcessorFeaturePresent
+0x100122ce	0x10020088	import	0x100122ad	KERNEL32.dll.GetCPInfo
+0x1001250a	0x10020098	import	0x100124e1	KERNEL32.dll.GetOEMCP
+0x1001252d	0x10020094	import	0x100124e1	KERNEL32.dll.GetACP
+0x100125d0	0x1002009c	import	0x1001255d	KERNEL32.dll.IsValidCodePage
+0x100125e3	0x10020088	import	0x1001255d	KERNEL32.dll.GetCPInfo
+0x10012760	0x1001243d	string	0x10012746	j\fh\b
+0x100127bc	0x10020090	import	0x10012746	KERNEL32.dll.InterlockedDecrement
+0x100127db	0x1002008c	import	0x10012746	KERNEL32.dll.InterlockedIncrement
+0x10012873	0x10020090	import	0x10012746	KERNEL32.dll.InterlockedDecrement
+0x10012905	0x1002008c	import	0x100128fe	KERNEL32.dll.InterlockedIncrement
+0x100129a0	0x10020090	import	0x1001298d	KERNEL32.dll.InterlockedDecrement
+0x10012c39	0x10020050	import	0x10012c37	KERNEL32.dll.EncodePointer
+0x10012c40	0x100200a0	import	0x10012c37	KERNEL32.dll.TlsAlloc
+0x10012c52	0x100200a4	import	0x10012c49	KERNEL32.dll.TlsGetValue
+0x10012c64	0x10020054	import	0x10012c49	KERNEL32.dll.DecodePointer
+0x10012c73	0x100200a8	import	0x10012c49	KERNEL32.dll.TlsSetValue
+0x10012c8e	0x10020054	import	0x10012c7d	KERNEL32.dll.DecodePointer
+0x10012ca8	0x100200ac	import	0x10012c7d	KERNEL32.dll.TlsFree
+0x10012ccb	0x1002005c	import	0x10012cba	KERNEL32.dll.GetModuleHandleW
+0x10012d0c	0x1002008c	import	0x10012cba	KERNEL32.dll.InterlockedIncrement
+0x10012d72	0x1002003c	import	0x10012d6e	KERNEL32.dll.GetLastError
+0x10012dae	0x10020054	import	0x10012d6e	KERNEL32.dll.DecodePointer
+0x10012dbd	0x10012cba	string	0x10012d6e	j\bhh
+0x10012dc4	0x10020064	import	0x10012d6e	KERNEL32.dll.GetCurrentThreadId
+0x10012ddc	0x100200b0	import	0x10012d6e	KERNEL32.dll.SetLastError
+0x10012e9f	0x10020090	import	0x10012e01	KERNEL32.dll.InterlockedDecrement
+0x10012f4b	0x100200a4	import	0x10012f30	KERNEL32.dll.TlsGetValue
+0x10012f79	0x10020054	import	0x10012f30	KERNEL32.dll.DecodePointer
+0x10012f96	0x100200a8	import	0x10012f30	KERNEL32.dll.TlsSetValue
+0x10012fa7	0x1002005c	import	0x10012f9f	KERNEL32.dll.GetModuleHandleW
+0x10012fbd	0x10020010	import	0x10012f9f	KERNEL32.dll.GetProcAddress
+0x10012fc3	0x10020740	string	0x10012f9f	FlsAlloc
+0x10012fcb	0x10020734	string	0x10012f9f	FlsGetValue
+0x10012fd8	0x10020728	string	0x10012f9f	FlsSetValue
+0x10012fe5	0x10020720	string	0x10012f9f	FlsFree
+0x10012ff9	0x100200a8	import	0x10012f9f	KERNEL32.dll.TlsSetValue
+0x10013040	0x100200a0	import	0x10012f9f	KERNEL32.dll.TlsAlloc
+0x10013070	0x10020050	import	0x10012f9f	KERNEL32.dll.EncodePointer
+0x100130ad	0x10020054	import	0x10012f9f	KERNEL32.dll.DecodePointer
+0x100130f8	0x10012cba	string	0x10012f9f	j\bhh
+0x100130ff	0x10020064	import	0x10012f9f	KERNEL32.dll.GetCurrentThreadId
+0x100131db	0x100200b4	import	0x100131d2	KERNEL32.dll.HeapCreate
+0x100131f6	0x100200b8	import	0x100131f0	KERNEL32.dll.HeapDestroy
+0x10013294	0x10021194	string	0x1001322a	Runtime Error!\n\nProgram:
+0x100132c6	0x100200c4	import	0x1001322a	KERNEL32.dll.GetModuleFileNameW
+0x100132d5	0x10021164	string	0x1001322a	<program name unknown>
+0x1001335c	0x10021108	string	0x1001322a	Microsoft Visual C++ Runtime Library
+0x10013378	0x100200c0	import	0x1001322a	KERNEL32.dll.GetStdHandle
+0x100133c4	0x100200bc	import	0x1001322a	KERNEL32.dll.WriteFile
+0x10013441	0x100200c8	import	0x10013412	KERNEL32.dll.SetFilePointer
+0x1001344e	0x1002003c	import	0x10013412	KERNEL32.dll.GetLastError
+0x10013568	0x100200d8	import	0x1001355b	KERNEL32.dll.GetStartupInfoW
+0x1001359c	0x100135d4	string	0x1001355b	SWf9M
+0x1001366c	0x10013610	string	0x1001355b	j@j
+0x1001369b	0x100200d4	import	0x1001355b	KERNEL32.dll.GetFileType
+0x100136d1	0x100200d0	import	0x1001355b	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10013725	0x100200c0	import	0x1001355b	KERNEL32.dll.GetStdHandle
+0x10013737	0x100200d4	import	0x1001355b	KERNEL32.dll.GetFileType
+0x10013765	0x100200d0	import	0x1001355b	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x1001378e	0x100200cc	import	0x1001355b	KERNEL32.dll.SetHandleCount
+0x100137c3	0x100200dc	import	0x100137a0	KERNEL32.dll.DeleteCriticalSection
+0x10013909	0x10014d22	string	0x10013882	UVWS
+0x10013a30	0x1002000c	import	0x10013a0f	KERNEL32.dll.Sleep
+0x10013a7c	0x1002000c	import	0x10013a54	KERNEL32.dll.Sleep
+0x10013aca	0x1002000c	import	0x10013aa0	KERNEL32.dll.Sleep
+0x10013b1c	0x1002000c	import	0x10013aee	KERNEL32.dll.Sleep
+0x10013b80	0x1000f301	string	0x10013b40	j\fhh
+0x10013b9f	0x100200dc	import	0x10013b40	KERNEL32.dll.DeleteCriticalSection
+0x10013c04	0x100200d0	import	0x10013bdc	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10013c29	0x100200dc	import	0x10013bdc	KERNEL32.dll.DeleteCriticalSection
+0x10013c8c	0x1002004c	import	0x10013c7d	KERNEL32.dll.LeaveCriticalSection
+0x10013d0c	0x100200d0	import	0x10013c94	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10013d80	0x10020048	import	0x10013d56	KERNEL32.dll.EnterCriticalSection
+0x10013e99	0x100200e8	import	0x10013d89	KERNEL32.dll.GetConsoleMode
+0x10013eb9	0x100200e4	import	0x10013d89	KERNEL32.dll.GetConsoleCP
+0x10013fa9	0x100200e0	import	0x10013d89	KERNEL32.dll.WideCharToMultiByte
+0x10013fd2	0x100200bc	import	0x10013d89	KERNEL32.dll.WriteFile
+0x1001402b	0x100200bc	import	0x10013d89	KERNEL32.dll.WriteFile
+0x10014199	0x100200bc	import	0x10013d89	KERNEL32.dll.WriteFile
+0x10014273	0x100200bc	import	0x10013d89	KERNEL32.dll.WriteFile
+0x10014343	0x100200e0	import	0x10013d89	KERNEL32.dll.WideCharToMultiByte
+0x10014374	0x100200bc	import	0x10013d89	KERNEL32.dll.WriteFile
+0x1001438a	0x1002003c	import	0x10013d89	KERNEL32.dll.GetLastError
+0x100143cb	0x100200bc	import	0x10013d89	KERNEL32.dll.WriteFile
+0x100143ea	0x1002003c	import	0x10013d89	KERNEL32.dll.GetLastError
+0x100145db	0x100200ec	import	0x1001455a	KERNEL32.dll.FlushFileBuffers
+0x100145e5	0x1002003c	import	0x1001455a	KERNEL32.dll.GetLastError
+0x1001465e	0x100200f0	import	0x10014633	KERNEL32.dll.HeapSize
+0x10014a30	0x100211cc	string	0x10014858	UTF-8
+0x10014a4f	0x100211d4	string	0x10014858	UTF-16LE
+0x10014a6e	0x100211e0	string	0x10014858	UNICODE
+0x10014bab	0x100200d0	import	0x10014aef	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10014bd4	0x10020048	import	0x10014aef	KERNEL32.dll.EnterCriticalSection
+0x10014d5b	0x10014d66	string	0x10014d52	_^[]
+0x10014dc1	0x10014e86	string	0x10014d82	SSSSS
+0x10014dd3	0x10014e86	string	0x10014d82	SSSSS
+0x10014de5	0x10014e86	string	0x10014d82	SSSSS
+0x10014eab	0x100200f8	import	0x10014d82	KERNEL32.dll.GetTimeZoneInformation
+0x10014f23	0x100200e0	import	0x10014d82	KERNEL32.dll.WideCharToMultiByte
+0x10014fc9	0x10014e86	string	0x10014d82	SSSSS
+0x10015071	0x10014e86	string	0x10015005	SSSSS
+0x100152a6	0x10015458	string	0x1001528c	VVVVV
+0x100152c2	0x100152d0	string	0x1001528c	95,t\a
+0x100153a7	0x100153bc	string	0x1001528c	VVVVVQRSSj
+0x1001548c	0x10014d82	string	0x10015463	j,hx
+0x10015574	0x10015850	string	0x100154f3	WVS3
+0x1001567a	0x10015850	string	0x100154f3	WVS3
+0x100156d3	0x10015850	string	0x100154f3	WVS3
+0x100156f0	0x10015850	string	0x100154f3	WVS3
+0x10015713	0x10015850	string	0x100154f3	WVS3
+0x1001598b	0x1001599b	string	0x10015900	+D$\f\eT$
+0x10015991	0x1001599b	string	0x10015900	+D$\f\eT$
+0x10015b92	0x10020024	import	0x10015b40	KERNEL32.dll.CloseHandle
+0x10015b9c	0x1002003c	import	0x10015b40	KERNEL32.dll.GetLastError
+0x10015da6	0x10020054	import	0x10015d94	KERNEL32.dll.DecodePointer
+0x10015dd1	0x10020050	import	0x10015dcc	KERNEL32.dll.EncodePointer
+0x10015e53	0x10020050	import	0x10015e47	KERNEL32.dll.EncodePointer
+0x10015ee3	0x10015eef	string	0x10015eb0	_^[]
+0x1001625e	0x10020100	import	0x10016232	KERNEL32.dll.GetModuleFileNameA
+0x100162f7	0x10020108	import	0x100162ed	KERNEL32.dll.GetEnvironmentStringsW
+0x1001631f	0x100200e0	import	0x100162ed	KERNEL32.dll.WideCharToMultiByte
+0x1001636b	0x10020104	import	0x100162ed	KERNEL32.dll.FreeEnvironmentStringsW
+0x10016377	0x10020104	import	0x100162ed	KERNEL32.dll.FreeEnvironmentStringsW
+0x100163d0	0x100164ca	string	0x10016384	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100163e1	0x100164ca	string	0x10016384	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10016525	0x10020058	import	0x100164ee	KERNEL32.dll.GetSystemTimeAsFileTime
+0x10016531	0x1002010c	import	0x100164ee	KERNEL32.dll.GetCurrentProcessId
+0x10016539	0x10020064	import	0x100164ee	KERNEL32.dll.GetCurrentThreadId
+0x10016541	0x10020004	import	0x100164ee	KERNEL32.dll.GetTickCount
+0x1001654d	0x10020000	import	0x100164ee	KERNEL32.dll.QueryPerformanceCounter
+0x10016644	0x10020078	import	0x1001658b	KERNEL32.dll.IsDebuggerPresent
+0x10016659	0x10020074	import	0x1001658b	KERNEL32.dll.SetUnhandledExceptionFilter
+0x10016664	0x10020070	import	0x1001658b	KERNEL32.dll.UnhandledExceptionFilter
+0x10016680	0x10020080	import	0x1001658b	KERNEL32.dll.GetCurrentProcess
+0x10016687	0x1002007c	import	0x1001658b	KERNEL32.dll.TerminateProcess
+0x10016b93	0x100200c8	import	0x10016b51	KERNEL32.dll.SetFilePointer
+0x10016ba0	0x1002003c	import	0x10016b51	KERNEL32.dll.GetLastError
+0x10016f4f	0x10016f98	string	0x10016f20	+D$\b\eT$\f
+0x10017282	0x10020084	import	0x10017269	KERNEL32.dll.IsProcessorFeaturePresent
+0x100174b4	0x1002006c	import	0x10017290	KERNEL32.dll.RaiseException
+0x1001753a	0x10017556	string	0x10017290	9] t\a
+0x1001753e	0x10017556	string	0x10017290	9] t\a
+0x10017560	0x10017567	string	0x10017290	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10017c60	0x10020110	import	0x10017c10	KERNEL32.dll.MultiByteToWideChar
+0x10017cf9	0x10020114	import	0x10017c10	KERNEL32.dll.LCMapStringW
+0x10017dc9	0x100200e0	import	0x10017c10	KERNEL32.dll.WideCharToMultiByte
+0x10017e66	0x10020110	import	0x10017e3d	KERNEL32.dll.MultiByteToWideChar
+0x10017eff	0x10020118	import	0x10017e3d	KERNEL32.dll.GetStringTypeW
+0x1001845f	0x10012bbe	string	0x10018442	j\fhH
+0x10018596	0x10021c24	string	0x10018560	USER32.DLL
+0x1001859b	0x100200fc	import	0x10018560	KERNEL32.dll.LoadLibraryW
+0x100185ab	0x10020010	import	0x10018560	KERNEL32.dll.GetProcAddress
+0x100185b1	0x10021c18	string	0x10018560	MessageBoxW
+0x100185c1	0x10020050	import	0x10018560	KERNEL32.dll.EncodePointer
+0x100185ca	0x10021c08	string	0x10018560	GetActiveWindow
+0x100185da	0x10021bf4	string	0x10018560	GetLastActivePopup
+0x100185ea	0x10021bd8	string	0x10018560	GetUserObjectInformationW
+0x10018603	0x10021bc0	string	0x10018560	GetProcessWindowStation
+0x1001861b	0x10020054	import	0x10018560	KERNEL32.dll.DecodePointer
+0x10018922	0x1002011c	import	0x100188cb	KERNEL32.dll.SetStdHandle
+0x10018930	0x10018948	string	0x100188cb	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100189a8	0x1002011c	import	0x1001894c	KERNEL32.dll.SetStdHandle
+0x100189b6	0x100189cd	string	0x1001894c	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10018a85	0x100200d0	import	0x10018a3b	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10018abd	0x10020048	import	0x10018a3b	KERNEL32.dll.EnterCriticalSection
+0x10018af9	0x1002004c	import	0x10018ada	KERNEL32.dll.LeaveCriticalSection
+0x10018b4a	0x10018c09	string	0x10018b01	j@j
+0x10018b90	0x100200d0	import	0x10018b01	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10018bb5	0x10020048	import	0x10018b01	KERNEL32.dll.EnterCriticalSection
+0x10018bc2	0x1002004c	import	0x10018b01	KERNEL32.dll.LeaveCriticalSection
+0x10018cdd	0x10020044	import	0x10018c9a	KERNEL32.dll.HeapAlloc
+0x10018d5b	0x10020120	import	0x10018d1c	KERNEL32.dll.HeapReAlloc
+0x10018e69	0x10020124	import	0x10018e37	KERNEL32.dll.WriteConsoleW
+0x1001909f	0x10020128	import	0x10018eab	KERNEL32.dll.ReadFile
+0x10019155	0x10020128	import	0x10018eab	KERNEL32.dll.ReadFile
+0x1001915f	0x1002003c	import	0x10018eab	KERNEL32.dll.GetLastError
+0x10019299	0x10020110	import	0x10018eab	KERNEL32.dll.MultiByteToWideChar
+0x100192a6	0x1002003c	import	0x10018eab	KERNEL32.dll.GetLastError
+0x1001937b	0x10020128	import	0x10018eab	KERNEL32.dll.ReadFile
+0x10019385	0x1002003c	import	0x10018eab	KERNEL32.dll.GetLastError
+0x10019425	0x1002003c	import	0x10018eab	KERNEL32.dll.GetLastError
+0x1001959e	0x10019c81	string	0x10019558	SSSSS
+0x10019da4	0x10019dcc	string	0x10019d70	9]\bu&
+0x1001a10b	0x1001a118	string	0x1001a100	]_^[
+0x1001a2d2	0x1001a2c8	string	0x1001a24d	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1001a481	0x1001a4cc	string	0x1001a3ea	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x1001a4a6	0x1001a4cc	string	0x1001a3ea	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x1001a4c1	0x1001a4cc	string	0x1001a3ea	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x1001a929	0x1001a94d	string	0x1001a90e	9M\bv
+0x1001adac	0x1001adb4	string	0x1001ab56	;E\ft
+0x1001ae48	0x1001ae4e	string	0x1001ab56	SQRP
+0x1001ae52	0x1001c040	string	0x1001ab56	WVU3
+0x1001ae78	0x1001c040	string	0x1001ab56	WVU3
+0x1001ae9e	0x1001c040	string	0x1001ab56	WVU3
+0x1001b370	0x1001b389	string	0x1001b35e	9E\ft
+0x1001b3bf	0x1002236c	string	0x1001b3b1	CONOUT$
+0x1001b3c4	0x10020038	import	0x1001b3b1	KERNEL32.dll.CreateFileW
+0x1001b3e0	0x10020024	import	0x1001b3b1	KERNEL32.dll.CloseHandle
+0x1001b450	0x10020030	import	0x1001b3e7	KERNEL32.dll.GetProcessHeap
+0x1001b457	0x10020044	import	0x1001b3e7	KERNEL32.dll.HeapAlloc
+0x1001b6a0	0x1001b6b5	string	0x1001b685	9]\bu&
+0x1001b6b8	0x1001b6e0	string	0x1001b685	9]\ft
+0x1001b798	0x100200e0	import	0x1001b77d	KERNEL32.dll.WideCharToMultiByte
+0x1001b7fb	0x1001b79e	string	0x1001b77d	VVVVj
+0x1001be55	0x1001be6d	string	0x1001be41	9E\fv
+0x1001be79	0x1001be7d	string	0x1001be41	@9E\fw
+0x1001c2bf	0x10020088	import	0x1001c201	KERNEL32.dll.GetCPInfo
+0x1001c332	0x10020110	import	0x1001c201	KERNEL32.dll.MultiByteToWideChar
+0x1001c441	0x1002002c	import	0x1001c201	KERNEL32.dll.CompareStringW
+0x1001c4cc	0x1001c4e1	string	0x1001c4b1	9]\bu&
+0x1001c4e4	0x1001c50c	string	0x1001c4b1	9]\ft
+0x1001c919	0x1002b178	string	0x1001c88f	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x1001ca15	0x1002b178	string	0x1001c88f	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x1001cac6	0x1002b178	string	0x1001c88f	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x1001cb63	0x1001cb84	string	0x1001c88f	HyދMԃ blocks=Basic Latin,Thaana,Cyrillic Supplement
+0x1001d0b4	0x1001d0d5	string	0x1001cde0	HyދMԃ blocks=Basic Latin,Thaana,Cyrillic Supplement
+0x1001d42d	0x1001d433	string	0x1001d331	<+t"<-t
+0x1001d435	0x1001d459	string	0x1001d331	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x1001d439	0x1001d459	string	0x1001d331	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x1001d4c9	0x1001d459	string	0x1001d331	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x1001d4cd	0x1001d459	string	0x1001d331	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x1001e784	0x1001e792	string	0x1001e745	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1001e7e1	0x1000e550	string	0x1001e797	3\nD$\bS
+0x1001e880	0x1001e9cb	string	0x1001e85e	9X\bu*
+0x1001ea42	0x100200f4	import	0x1001ea42	KERNEL32.dll.RtlUnwind
+0x1001ece5	0x1001ecf2	string	0x1001ec84	jjjjj
+0x1001f5e2	0x1001f1dc	string	0x1001f589	j,h`
+0x1001f7b3	0x1001f7ba	string	0x1001f6fe	9>u&
+0x1001f856	0x10028730	string	0x1001f6fe	bad exception

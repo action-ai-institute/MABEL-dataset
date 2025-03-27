@@ -1,0 +1,716 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x7ff7bed71270	0x7ff7bedd8118	import	0x7ff7bed71200	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed7127f	0x7ff7bedd8118	import	0x7ff7bed71200	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed7128e	0x7ff7bedd8118	import	0x7ff7bed71200	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed712b7	0x7ff7bedd8048	import	0x7ff7bed71200	KERNEL32.dll.VerifyVersionInfoW
+0x7ff7bed712e1	0x7ff7bedd83f0	import	0x7ff7bed71200	USER32.dll.RegisterPowerSettingNotification
+0x7ff7bed712ef	0x7ff7bedd8108	import	0x7ff7bed71200	KERNEL32.dll.GetLastError
+0x7ff7bed712f5	0x7ff7bedd92c8	string	0x7ff7bed71200	Unable to register power setting notifications: %u\n
+0x7ff7bed713ce	0x7ff7bedd9020	string	0x7ff7bed71330	Escape call to get requested topology failed: 0x%08x\n
+0x7ff7bed713ea	0x7ff7bedd9058	string	0x7ff7bed71330	Setting driver-requested topology\n
+0x7ff7bed7148a	0x7ff7bedd90a0	string	0x7ff7bed71330	Skipping topology set (topology already matches).\n
+0x7ff7bed714a6	0x7ff7bedd90d8	string	0x7ff7bed71330	Topology already set (forcing reset due to config).\n
+0x7ff7bed714d7	0x7ff7bedd8368	import	0x7ff7bed71330	SHELL32.dll.SHGetFolderPathW
+0x7ff7bed714ed	0x7ff7bedd8e78	string	0x7ff7bed71330	LoadDevApi
+0x7ff7bed714f4	0x7ff7bedd8e88	string	0x7ff7bed71330	%s: SHGetFolderPath failed: 0x%08x\n
+0x7ff7bed7152b	0x7ff7bedd8eb0	string	0x7ff7bed71330	\vm3ddevapi64.dll
+0x7ff7bed7154a	0x7ff7bedd8098	import	0x7ff7bed71330	KERNEL32.dll.LoadLibraryW
+0x7ff7bed7155a	0x7ff7bedd8108	import	0x7ff7bed71330	KERNEL32.dll.GetLastError
+0x7ff7bed71560	0x7ff7bedd8e78	string	0x7ff7bed71330	LoadDevApi
+0x7ff7bed7156c	0x7ff7bedd8f48	string	0x7ff7bed71330	%s: LoadLibrary failed to load vm3ddevapi: %u\n
+0x7ff7bed7157d	0x7ff7bedd8f78	string	0x7ff7bed71330	VM3DDevApiInit
+0x7ff7bed71587	0x7ff7bedd80f8	import	0x7ff7bed71330	KERNEL32.dll.GetProcAddress
+0x7ff7bed71592	0x7ff7bedd8f88	string	0x7ff7bed71330	VM3DDevApiCleanup
+0x7ff7bed7159e	0x7ff7bedd80f8	import	0x7ff7bed71330	KERNEL32.dll.GetProcAddress
+0x7ff7bed715d1	0x7ff7bedd8e78	string	0x7ff7bed71330	LoadDevApi
+0x7ff7bed715dc	0x7ff7bedd8fd0	string	0x7ff7bed71330	%s: devapi module loaded successfully.\n
+0x7ff7bed715f2	0x7ff7bedd8ff8	string	0x7ff7bed71330	%s: devapi init failed: 0x%08x.\n
+0x7ff7bed71602	0x7ff7bedd8e78	string	0x7ff7bed71330	LoadDevApi
+0x7ff7bed7160b	0x7ff7bedd8fa0	string	0x7ff7bed71330	%s: Unable to find init/cleanup routines.\n
+0x7ff7bed716b5	0x7ff7bedd9110	string	0x7ff7bed71330	Devapi topology change succeeded.\n
+0x7ff7bed716ce	0x7ff7bedd9138	string	0x7ff7bed71330	Devapi topology change failed: 0x%08x.\n
+0x7ff7bed716e2	0x7ff7bedd9160	string	0x7ff7bed71330	DevApi topology failed validation\n
+0x7ff7bed716fa	0x7ff7bedd9188	string	0x7ff7bed71330	Unable to allocate Devapi displays.\n
+0x7ff7bed7172f	0x7ff7bedd8058	import	0x7ff7bed71330	KERNEL32.dll.FreeLibrary
+0x7ff7bed7175d	0x7ff7bedd9080	string	0x7ff7bed71330	No driver-requested topology\n
+0x7ff7bed71776	0x7ff7bedd8ee0	string	0x7ff7bed71330	d:\build\ob\bora-16233244\bora-vmsoft\build\release-x64\svga\wddm\src\service\service.c
+0x7ff7bed7177d	0x7ff7bedd8f38	string	0x7ff7bed71330	VERIFY %s:%d\n
+0x7ff7bed717c7	0x7ff7bedd93a0	string	0x7ff7bed71330	unsupported dwCtrl PAUSE or CONTINUE or INTERROGATE.\n
+0x7ff7bed717e8	0x7ff7bedd93d8	string	0x7ff7bed71330	unknown dwCtrl.\n
+0x7ff7bed71827	0x7ff7bedd8000	import	0x7ff7bed71330	ADVAPI32.dll.SetServiceStatus
+0x7ff7bed7186d	0x7ff7bedd9428	string	0x7ff7bed71840	_service
+0x7ff7bed718a1	0x7ff7bedd8388	import	0x7ff7bed71840	USER32.dll.EnumDisplayDevicesW
+0x7ff7bed718c6	0x7ff7bedd8388	import	0x7ff7bed71840	USER32.dll.EnumDisplayDevicesW
+0x7ff7bed718d0	0x7ff7bedd9438	string	0x7ff7bed71840	Unable to acquire primary display.\n
+0x7ff7bed7190e	0x7ff7bedd8038	import	0x7ff7bed71840	GDI32.dll.CreateDCW
+0x7ff7bed7191e	0x7ff7bedd9460	string	0x7ff7bed71840	Unable to create device context.\n
+0x7ff7bed71958	0x7ff7bedd94b0	string	0x7ff7bed71840	Unable to open adapter.\n
+0x7ff7bed719f6	0x7ff7bedd9640	string	0x7ff7bed71840	LogInit
+0x7ff7bed719fd	0x7ff7bedd9648	string	0x7ff7bed71840	%s service logging initialized (%u)\n
+0x7ff7bed71a12	0x7ff7bedd9488	string	0x7ff7bed71840	Failed to load kernel interface\n
+0x7ff7bed71a6c	0x7ff7bedd9608	string	0x7ff7bed71840	ServiceExit
+0x7ff7bed71a73	0x7ff7bedd9618	string	0x7ff7bed71840	%s: CloseAdapter failed: 0x%08x\n
+0x7ff7bed71a9a	0x7ff7bedd83e8	import	0x7ff7bed71840	USER32.dll.UnregisterPowerSettingNotification
+0x7ff7bed71ab2	0x7ff7bedd8058	import	0x7ff7bed71840	KERNEL32.dll.FreeLibrary
+0x7ff7bed71b3c	0x7ff7bedd8050	import	0x7ff7bed71af0	KERNEL32.dll.GetModuleHandleW
+0x7ff7bed71b51	0x7ff7bedd8390	import	0x7ff7bed71af0	USER32.dll.LoadCursorW
+0x7ff7bed71b66	0x7ff7bedd94d0	string	0x7ff7bed71af0	VM3DService Hidden window
+0x7ff7bed71b76	0x7ff7bedd83c8	import	0x7ff7bed71af0	USER32.dll.RegisterClassExW
+0x7ff7bed71b97	0x7ff7bedd8398	import	0x7ff7bed71af0	USER32.dll.SetRect
+0x7ff7bed71bad	0x7ff7bedd83a0	import	0x7ff7bed71af0	USER32.dll.AdjustWindowRectEx
+0x7ff7bed71bb3	0x7ff7bedd9510	string	0x7ff7bed71af0	VMdesktopEventsVM3DServiceShutdownMsg
+0x7ff7bed71bba	0x7ff7bedd8378	import	0x7ff7bed71af0	USER32.dll.RegisterWindowMessageW
+0x7ff7bed71bd5	0x7ff7bedd9560	string	0x7ff7bed71af0	ServiceInit
+0x7ff7bed71bdc	0x7ff7bedd9570	string	0x7ff7bed71af0	%s: Unable to register shutdown message.\n
+0x7ff7bed71c38	0x7ff7bedd83c0	import	0x7ff7bed71af0	USER32.dll.CreateWindowExW
+0x7ff7bed71c4e	0x7ff7bedd83d0	import	0x7ff7bed71af0	USER32.dll.UnregisterClassW
+0x7ff7bed71c6b	0x7ff7bedd83a8	import	0x7ff7bed71af0	USER32.dll.GetClientRect
+0x7ff7bed71c81	0x7ff7bedd83b8	import	0x7ff7bed71af0	USER32.dll.ShowWindow
+0x7ff7bed71c8a	0x7ff7bedd83b0	import	0x7ff7bed71af0	USER32.dll.UpdateWindow
+0x7ff7bed71c95	0x7ff7bedd91b0	string	0x7ff7bed71af0	powrprof.dll
+0x7ff7bed71c9c	0x7ff7bedd8098	import	0x7ff7bed71af0	KERNEL32.dll.LoadLibraryW
+0x7ff7bed71caa	0x7ff7bedd8108	import	0x7ff7bed71af0	KERNEL32.dll.GetLastError
+0x7ff7bed71cb0	0x7ff7bedd91d0	string	0x7ff7bed71af0	Unable to load powrprof.dll: %u\n
+0x7ff7bed71cc3	0x7ff7bedd91f8	string	0x7ff7bed71af0	GetCurrentPowerPolicies
+0x7ff7bed71ccd	0x7ff7bedd80f8	import	0x7ff7bed71af0	KERNEL32.dll.GetProcAddress
+0x7ff7bed71cd8	0x7ff7bedd8108	import	0x7ff7bed71af0	KERNEL32.dll.GetLastError
+0x7ff7bed71cde	0x7ff7bedd9210	string	0x7ff7bed71af0	Unable to lookup GetCurrentPowerPolicies: %u\n
+0x7ff7bed71d01	0x7ff7bedd9240	string	0x7ff7bed71af0	Windows Power Sleep timeout: %lu seconds\n
+0x7ff7bed71d13	0x7ff7bedd9270	string	0x7ff7bed71af0	Windows Display Sleep timeout: %lu seconds\n
+0x7ff7bed71d1c	0x7ff7bedd8108	import	0x7ff7bed71af0	KERNEL32.dll.GetLastError
+0x7ff7bed71d22	0x7ff7bedd92a0	string	0x7ff7bed71af0	Unable to retrieve Power Policy: %u\n
+0x7ff7bed71d36	0x7ff7bedd8058	import	0x7ff7bed71af0	KERNEL32.dll.FreeLibrary
+0x7ff7bed71d3c	0x7ff7bedd8100	import	0x7ff7bed71af0	KERNEL32.dll.GetCurrentProcessId
+0x7ff7bed71d4b	0x7ff7bedd8088	import	0x7ff7bed71af0	KERNEL32.dll.ProcessIdToSessionId
+0x7ff7bed71d64	0x7ff7bedd95a0	string	0x7ff7bed71af0	Current Session ID = %lu\n
+0x7ff7bed71d74	0x7ff7bedd9560	string	0x7ff7bed71af0	ServiceInit
+0x7ff7bed71df7	0x7ff7bedd9378	string	0x7ff7bed71af0	Unable to query service config: 0x%08x\n
+0x7ff7bed71e1d	0x7ff7bedd95c0	string	0x7ff7bed71af0	VM3DService requestTopo=%u\n
+0x7ff7bed71e3a	0x7ff7bedd95e0	string	0x7ff7bed71af0	VM3DService forceSetSameTopo=%u\n
+0x7ff7bed7200d	0x7ff7bedd9300	string	0x7ff7bed72000	Current Display is On\n
+0x7ff7bed7201d	0x7ff7bedd9338	string	0x7ff7bed72000	Current Display is Off\n
+0x7ff7bed72024	0x7ff7bedd9318	string	0x7ff7bed72000	Current Display is Dimmed\n
+0x7ff7bed72036	0x7ff7bedd9350	string	0x7ff7bed72000	Invalid power setting notifications\n
+0x7ff7bed72070	0x7ff7bedd8380	import	0x7ff7bed72050	USER32.dll.GetMessageW
+0x7ff7bed72085	0x7ff7bedd8408	import	0x7ff7bed72050	USER32.dll.TranslateMessage
+0x7ff7bed72090	0x7ff7bedd8418	import	0x7ff7bed72050	USER32.dll.DispatchMessageW
+0x7ff7bed720a3	0x7ff7bedd8380	import	0x7ff7bed72050	USER32.dll.GetMessageW
+0x7ff7bed7213f	0x7ff7bedd8118	import	0x7ff7bed720c0	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed7214e	0x7ff7bedd8118	import	0x7ff7bed720c0	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed7215d	0x7ff7bedd8118	import	0x7ff7bed720c0	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed72182	0x7ff7bedd8048	import	0x7ff7bed720c0	KERNEL32.dll.VerifyVersionInfoW
+0x7ff7bed72195	0x7ff7bedd84a0	import	0x7ff7bed720c0	dwmapi.dll.DwmIsCompositionEnabled
+0x7ff7bed721b0	0x7ff7bedd8e08	string	0x7ff7bed720c0	Aero %sabled\n
+0x7ff7bed72232	0x7ff7bedd8e18	string	0x7ff7bed720c0	Unable to send composition state: 0x%08x\n
+0x7ff7bed7223b	0x7ff7bedd8e48	string	0x7ff7bed720c0	Unable to query composition state: 0x%08x\n
+0x7ff7bed722a7	0x7ff7bedd8758	string	0x7ff7bed72270	gdi32.dll
+0x7ff7bed722ae	0x7ff7bedd8098	import	0x7ff7bed72270	KERNEL32.dll.LoadLibraryW
+0x7ff7bed722c0	0x7ff7bedd8770	string	0x7ff7bed72270	D3DKMTCreateAllocation
+0x7ff7bed722ca	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed722d0	0x7ff7bedd8788	string	0x7ff7bed72270	D3DKMTDestroyAllocation
+0x7ff7bed722df	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed722e5	0x7ff7bedd87a0	string	0x7ff7bed72270	D3DKMTSetAllocationPriority
+0x7ff7bed722f4	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed722fa	0x7ff7bedd87c0	string	0x7ff7bed72270	D3DKMTQueryAllocationResidency
+0x7ff7bed72309	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7230f	0x7ff7bedd87e0	string	0x7ff7bed72270	D3DKMTQueryResourceInfo
+0x7ff7bed7231e	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72324	0x7ff7bedd87f8	string	0x7ff7bed72270	D3DKMTOpenResource
+0x7ff7bed72333	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72339	0x7ff7bedd8810	string	0x7ff7bed72270	D3DKMTCreateDevice
+0x7ff7bed72348	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7234e	0x7ff7bedd8828	string	0x7ff7bed72270	D3DKMTDestroyDevice
+0x7ff7bed7235d	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72363	0x7ff7bedd8840	string	0x7ff7bed72270	D3DKMTQueryAdapterInfo
+0x7ff7bed72372	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72378	0x7ff7bedd8858	string	0x7ff7bed72270	D3DKMTLock
+0x7ff7bed72387	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7238d	0x7ff7bedd8868	string	0x7ff7bed72270	D3DKMTUnlock
+0x7ff7bed7239c	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed723a2	0x7ff7bedd8878	string	0x7ff7bed72270	D3DKMTGetDisplayModeList
+0x7ff7bed723b1	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed723b7	0x7ff7bedd8898	string	0x7ff7bed72270	D3DKMTSetDisplayMode
+0x7ff7bed723c6	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed723cc	0x7ff7bedd88b0	string	0x7ff7bed72270	D3DKMTGetMultisampleMethodList
+0x7ff7bed723da	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed723e0	0x7ff7bedd88d0	string	0x7ff7bed72270	D3DKMTPresent
+0x7ff7bed723ee	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed723f4	0x7ff7bedd88e0	string	0x7ff7bed72270	D3DKMTRender
+0x7ff7bed72402	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72408	0x7ff7bedd88f0	string	0x7ff7bed72270	D3DKMTOpenAdapterFromHdc
+0x7ff7bed72416	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7241c	0x7ff7bedd8910	string	0x7ff7bed72270	D3DKMTOpenAdapterFromDeviceName
+0x7ff7bed7242a	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72430	0x7ff7bedd8930	string	0x7ff7bed72270	D3DKMTCloseAdapter
+0x7ff7bed7243e	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72444	0x7ff7bedd8948	string	0x7ff7bed72270	D3DKMTGetSharedPrimaryHandle
+0x7ff7bed72452	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7245c	0x7ff7bedd8968	string	0x7ff7bed72270	D3DKMTEscape
+0x7ff7bed72466	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7246c	0x7ff7bedd8978	string	0x7ff7bed72270	D3DKMTSetVidPnSourceOwner
+0x7ff7bed7247a	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72480	0x7ff7bedd8998	string	0x7ff7bed72270	D3DKMTCreateOverlay
+0x7ff7bed7248e	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72494	0x7ff7bedd89b0	string	0x7ff7bed72270	D3DKMTUpdateOverlay
+0x7ff7bed724a2	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed724a8	0x7ff7bedd89c8	string	0x7ff7bed72270	D3DKMTFlipOverlay
+0x7ff7bed724b6	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed724bc	0x7ff7bedd89e0	string	0x7ff7bed72270	D3DKMTDestroyOverlay
+0x7ff7bed724ca	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed724d0	0x7ff7bedd89f8	string	0x7ff7bed72270	D3DKMTWaitForVerticalBlankEvent
+0x7ff7bed724de	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed724e4	0x7ff7bedd8a18	string	0x7ff7bed72270	D3DKMTSetGammaRamp
+0x7ff7bed724f2	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed724f8	0x7ff7bedd8a30	string	0x7ff7bed72270	D3DKMTGetDeviceState
+0x7ff7bed72506	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7250c	0x7ff7bedd8a48	string	0x7ff7bed72270	D3DKMTCreateDCFromMemory
+0x7ff7bed7251a	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72520	0x7ff7bedd8a68	string	0x7ff7bed72270	D3DKMTDestroyDCFromMemory
+0x7ff7bed7252e	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72534	0x7ff7bedd8a88	string	0x7ff7bed72270	D3DKMTSetContextSchedulingPriority
+0x7ff7bed72542	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72548	0x7ff7bedd8ab0	string	0x7ff7bed72270	D3DKMTGetContextSchedulingPriority
+0x7ff7bed72556	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7255c	0x7ff7bedd8ad8	string	0x7ff7bed72270	D3DKMTSetProcessSchedulingPriorityClass
+0x7ff7bed7256a	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72570	0x7ff7bedd8b00	string	0x7ff7bed72270	D3DKMTGetProcessSchedulingPriorityClass
+0x7ff7bed7257e	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72584	0x7ff7bedd8b28	string	0x7ff7bed72270	D3DKMTReleaseProcessVidPnSourceOwners
+0x7ff7bed72592	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72598	0x7ff7bedd8b50	string	0x7ff7bed72270	D3DKMTGetScanLine
+0x7ff7bed725a6	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed725ac	0x7ff7bedd8b68	string	0x7ff7bed72270	D3DKMTPollDisplayChildren
+0x7ff7bed725ba	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed725c0	0x7ff7bedd8b88	string	0x7ff7bed72270	D3DKMTSetQueuedLimit
+0x7ff7bed725ce	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed725d4	0x7ff7bedd8ba0	string	0x7ff7bed72270	D3DKMTInvalidateActiveVidPn
+0x7ff7bed725e2	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed725ec	0x7ff7bedd8bc0	string	0x7ff7bed72270	D3DKMTCheckOcclusion
+0x7ff7bed725f6	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed725fc	0x7ff7bedd8bd8	string	0x7ff7bed72270	D3DKMTCreateContext
+0x7ff7bed7260a	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72610	0x7ff7bedd8bf0	string	0x7ff7bed72270	D3DKMTDestroyContext
+0x7ff7bed7261e	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72624	0x7ff7bedd8c08	string	0x7ff7bed72270	D3DKMTCreateSynchronizationObject
+0x7ff7bed72632	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72638	0x7ff7bedd8c30	string	0x7ff7bed72270	D3DKMTDestroySynchronizationObject
+0x7ff7bed72646	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7264c	0x7ff7bedd8c58	string	0x7ff7bed72270	D3DKMTWaitForSynchronizationObject
+0x7ff7bed7265d	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72663	0x7ff7bedd8c80	string	0x7ff7bed72270	D3DKMTSignalSynchronizationObject
+0x7ff7bed72674	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed7267a	0x7ff7bedd8ca8	string	0x7ff7bed72270	D3DKMTCheckMonitorPowerState
+0x7ff7bed7268b	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72691	0x7ff7bedd8cc8	string	0x7ff7bed72270	D3DKMTOpenAdapterFromGdiDisplayName
+0x7ff7bed726a2	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed726a8	0x7ff7bedd8cf0	string	0x7ff7bed72270	D3DKMTCheckExclusiveOwnership
+0x7ff7bed726b9	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed726bf	0x7ff7bedd8d10	string	0x7ff7bed72270	D3DKMTSetDisplayPrivateDriverFormat
+0x7ff7bed726d0	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed726d6	0x7ff7bedd8d38	string	0x7ff7bed72270	D3DKMTSharedPrimaryLockNotification
+0x7ff7bed726e7	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed726ed	0x7ff7bedd8d60	string	0x7ff7bed72270	D3DKMTSharedPrimaryUnLockNotification
+0x7ff7bed726fe	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed72704	0x7ff7bedd8d88	string	0x7ff7bed72270	D3DKMTQueryStatistics
+0x7ff7bed72715	0x7ff7bedd80f8	import	0x7ff7bed72270	KERNEL32.dll.GetProcAddress
+0x7ff7bed728b0	0x7ff7bedd96f8	string	0x7ff7bed72830	--debug
+0x7ff7bed728bb	0x7ff7bedd9704	string	0x7ff7bed72830	--user
+0x7ff7bed728ec	0x7ff7bed728f6	string	0x7ff7bed72830	@8*u
+0x7ff7bed72982	0x7ff7bedd8028	import	0x7ff7bed72830	ADVAPI32.dll.StartServiceCtrlDispatcherW
+0x7ff7bed729b2	0x7ff7bedd9710	string	0x7ff7bed72830	VM3DService user mode started.\n
+0x7ff7bed729c5	0x7ff7bedd9730	string	0x7ff7bed72830	VM3DService user mode window creation failed.\n
+0x7ff7bed729e1	0x7ff7bedd9760	string	0x7ff7bed72830	This should run as a Windows service.\n
+0x7ff7bed72a06	0x7ff7bedd9788	string	0x7ff7bed72830	VM3DService debug console mode started.\n
+0x7ff7bed72a19	0x7ff7bedd97b8	string	0x7ff7bed72830	VM3DService debug mode window creation failed.\n
+0x7ff7bed72a5b	0x7ff7bedd9608	string	0x7ff7bed72830	ServiceExit
+0x7ff7bed72a62	0x7ff7bedd9618	string	0x7ff7bed72830	%s: CloseAdapter failed: 0x%08x\n
+0x7ff7bed72a81	0x7ff7bedd83e8	import	0x7ff7bed72830	USER32.dll.UnregisterPowerSettingNotification
+0x7ff7bed72a95	0x7ff7bedd8058	import	0x7ff7bed72830	KERNEL32.dll.FreeLibrary
+0x7ff7bed72abb	0x7ff7bedd97e8	string	0x7ff7bed72830	VM3DService terminated.
+0x7ff7bed72ae0	0x7ff7bedd8118	import	0x7ff7bed72830	KERNEL32.dll.VerSetConditionMask
+0x7ff7bed72ae6	0x7ff7bedd8108	import	0x7ff7bed72830	KERNEL32.dll.GetLastError
+0x7ff7bed72aec	0x7ff7bedd8100	import	0x7ff7bed72830	KERNEL32.dll.GetCurrentProcessId
+0x7ff7bed72af2	0x7ff7bedd8088	import	0x7ff7bed72830	KERNEL32.dll.ProcessIdToSessionId
+0x7ff7bed72af8	0x7ff7bedd8060	import	0x7ff7bed72830	KERNEL32.dll.GetTickCount64
+0x7ff7bed72afe	0x7ff7bedd8058	import	0x7ff7bed72830	KERNEL32.dll.FreeLibrary
+0x7ff7bed72b04	0x7ff7bedd8050	import	0x7ff7bed72830	KERNEL32.dll.GetModuleHandleW
+0x7ff7bed72b0a	0x7ff7bedd80f8	import	0x7ff7bed72830	KERNEL32.dll.GetProcAddress
+0x7ff7bed72b10	0x7ff7bedd8098	import	0x7ff7bed72830	KERNEL32.dll.LoadLibraryW
+0x7ff7bed72b16	0x7ff7bedd8048	import	0x7ff7bed72830	KERNEL32.dll.VerifyVersionInfoW
+0x7ff7bed72b1c	0x7ff7bedd8378	import	0x7ff7bed72830	USER32.dll.RegisterWindowMessageW
+0x7ff7bed72b22	0x7ff7bedd8380	import	0x7ff7bed72830	USER32.dll.GetMessageW
+0x7ff7bed72b28	0x7ff7bedd8408	import	0x7ff7bed72830	USER32.dll.TranslateMessage
+0x7ff7bed72b2e	0x7ff7bedd8418	import	0x7ff7bed72830	USER32.dll.DispatchMessageW
+0x7ff7bed72b34	0x7ff7bedd83f0	import	0x7ff7bed72830	USER32.dll.RegisterPowerSettingNotification
+0x7ff7bed72b3a	0x7ff7bedd83e8	import	0x7ff7bed72830	USER32.dll.UnregisterPowerSettingNotification
+0x7ff7bed72b40	0x7ff7bedd83e0	import	0x7ff7bed72830	USER32.dll.DefWindowProcW
+0x7ff7bed72b46	0x7ff7bedd83d8	import	0x7ff7bed72830	USER32.dll.PostQuitMessage
+0x7ff7bed72b4c	0x7ff7bedd83d0	import	0x7ff7bed72830	USER32.dll.UnregisterClassW
+0x7ff7bed72b52	0x7ff7bedd83c8	import	0x7ff7bed72830	USER32.dll.RegisterClassExW
+0x7ff7bed72b58	0x7ff7bedd83c0	import	0x7ff7bed72830	USER32.dll.CreateWindowExW
+0x7ff7bed72b5e	0x7ff7bedd83b8	import	0x7ff7bed72830	USER32.dll.ShowWindow
+0x7ff7bed72b64	0x7ff7bedd83b0	import	0x7ff7bed72830	USER32.dll.UpdateWindow
+0x7ff7bed72b6a	0x7ff7bedd83a8	import	0x7ff7bed72830	USER32.dll.GetClientRect
+0x7ff7bed72b70	0x7ff7bedd83a0	import	0x7ff7bed72830	USER32.dll.AdjustWindowRectEx
+0x7ff7bed72b76	0x7ff7bedd8398	import	0x7ff7bed72830	USER32.dll.SetRect
+0x7ff7bed72b7c	0x7ff7bedd8390	import	0x7ff7bed72830	USER32.dll.LoadCursorW
+0x7ff7bed72b82	0x7ff7bedd8388	import	0x7ff7bed72830	USER32.dll.EnumDisplayDevicesW
+0x7ff7bed72b88	0x7ff7bedd8038	import	0x7ff7bed72830	GDI32.dll.CreateDCW
+0x7ff7bed72b8e	0x7ff7bedd8008	import	0x7ff7bed72830	ADVAPI32.dll.RegisterServiceCtrlHandlerExA
+0x7ff7bed72b94	0x7ff7bedd8000	import	0x7ff7bed72830	ADVAPI32.dll.SetServiceStatus
+0x7ff7bed72b9a	0x7ff7bedd8028	import	0x7ff7bed72830	ADVAPI32.dll.StartServiceCtrlDispatcherW
+0x7ff7bed72ba0	0x7ff7bedd8368	import	0x7ff7bed72830	SHELL32.dll.SHGetFolderPathW
+0x7ff7bed72ba6	0x7ff7bedd84a0	import	0x7ff7bed72830	dwmapi.dll.DwmIsCompositionEnabled
+0x7ff7bed72be3	0x7ff7bedd8160	import	0x7ff7bed72830	KERNEL32.dll.GetLocalTime
+0x7ff7bed72be9	0x7ff7bedd8158	import	0x7ff7bed72830	KERNEL32.dll.GetCurrentThreadId
+0x7ff7bed72c2a	0x7ff7bedda858	string	0x7ff7bed72830	%.4d-%.2d-%.2dT%.2d:%.2d:%.2d.%.4d| Thread ID: %d |%s
+0x7ff7bed72cc2	0x7ff7bed72ce0	string	0x7ff7bed72ca0	@UWAUAVAW
+0x7ff7bed72d9d	0x7ff7bedd8160	import	0x7ff7bed72ce0	KERNEL32.dll.GetLocalTime
+0x7ff7bed72da3	0x7ff7bedd8158	import	0x7ff7bed72ce0	KERNEL32.dll.GetCurrentThreadId
+0x7ff7bed72df1	0x7ff7bedda858	string	0x7ff7bed72ce0	%.4d-%.2d-%.2dT%.2d:%.2d:%.2d.%.4d| Thread ID: %d |%s
+0x7ff7bed72f78	0x7ff7bed73d20	string	0x7ff7bed72ce0	@USWATAUH
+0x7ff7bed73040	0x7ff7bedda838	string	0x7ff7bed72fc0	C:\vm3dum_log\vm3dum*.log
+0x7ff7bed73047	0x7ff7bedd8148	import	0x7ff7bed72fc0	KERNEL32.dll.FindFirstFileA
+0x7ff7bed7306b	0x7ff7bedd8150	import	0x7ff7bed72fc0	KERNEL32.dll.FindNextFileA
+0x7ff7bed73087	0x7ff7bedd8150	import	0x7ff7bed72fc0	KERNEL32.dll.FindNextFileA
+0x7ff7bed73094	0x7ff7bedd8140	import	0x7ff7bed72fc0	KERNEL32.dll.FindClose
+0x7ff7bed7315f	0x7ff7bedd8430	import	0x7ff7bed73150	WINMM.dll.timeGetTime
+0x7ff7bed73192	0x7ff7bedda898	string	0x7ff7bed73150	DXUM%s:
+0x7ff7bed73344	0x7ff7bed72ce0	string	0x7ff7bed73310	@UWAUAVAW
+0x7ff7bed73372	0x7ff7bed72ce0	string	0x7ff7bed73350	@UWAUAVAW
+0x7ff7bed736ed	0x7ff7bedd8388	import	0x7ff7bed73690	USER32.dll.EnumDisplayDevicesW
+0x7ff7bed73721	0x7ff7bedda8a8	string	0x7ff7bed73690	\\.\DISPLAY%d
+0x7ff7bed7374a	0x7ff7bedda8c8	string	0x7ff7bed73690	UMResSet_GetPrimaryDisplayDeviceInfo
+0x7ff7bed73751	0x7ff7bedda8f0	string	0x7ff7bed73690	%s Failed parsing displayId for device %s\n
+0x7ff7bed73768	0x7ff7beddab00	string	0x7ff7bed73690	UMResSet_GetDisplayTopology
+0x7ff7bed7376f	0x7ff7beddab20	string	0x7ff7bed73690	%s Failed to get primary display device name\n
+0x7ff7bed737a3	0x7ff7bedd83f8	import	0x7ff7bed73690	USER32.dll.GetSystemMetrics
+0x7ff7bed737b1	0x7ff7bedd83f8	import	0x7ff7bed73690	USER32.dll.GetSystemMetrics
+0x7ff7bed737bf	0x7ff7bedd83f8	import	0x7ff7bed73690	USER32.dll.GetSystemMetrics
+0x7ff7bed737cd	0x7ff7bedd83f8	import	0x7ff7bed73690	USER32.dll.GetSystemMetrics
+0x7ff7bed737ea	0x7ff7bedd8410	import	0x7ff7bed73690	USER32.dll.EnumDisplayMonitors
+0x7ff7bed737f4	0x7ff7beddab50	string	0x7ff7bed73690	Unable to enumerate system monitors.\n
+0x7ff7bed73819	0x7ff7beddab00	string	0x7ff7bed73690	UMResSet_GetDisplayTopology
+0x7ff7bed73820	0x7ff7beddab78	string	0x7ff7bed73690	%s Got %u monitors\n
+0x7ff7bed73883	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed7388a	0x7ff7bedda9d0	string	0x7ff7bed73690	%s Max monitors exceeded\n
+0x7ff7bed738b2	0x7ff7bedd8420	import	0x7ff7bed73690	USER32.dll.GetMonitorInfoW
+0x7ff7bed738f9	0x7ff7bedd8400	import	0x7ff7bed73690	USER32.dll.EnumDisplaySettingsW
+0x7ff7bed73941	0x7ff7bedda8a8	string	0x7ff7bed73690	\\.\DISPLAY%d
+0x7ff7bed73968	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed7396f	0x7ff7beddaa18	string	0x7ff7bed73690	%s monitor=%ls\n
+0x7ff7bed73996	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed7399d	0x7ff7beddaa28	string	0x7ff7bed73690	%s Failed parsing monitorId for monitor %ls\n
+0x7ff7bed739ed	0x7ff7bedd8388	import	0x7ff7bed73690	USER32.dll.EnumDisplayDevicesW
+0x7ff7bed73a70	0x7ff7bedda920	string	0x7ff7bed73690	UMResSet_FindMatchingDisplayDevice
+0x7ff7bed73a7e	0x7ff7bedda970	string	0x7ff7bed73690	%s name='%ls' string='%ls' id='%ls' flags=0x%x key='%ls'\n
+0x7ff7bed73ab1	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed73add	0x7ff7beddaa80	string	0x7ff7bed73690	%s mon %u monId=%u %ux%u+%u+%u active=%u devStateFlags=0x%x bpp=%u freq=%u\n
+0x7ff7bed73b15	0x7ff7bedd8108	import	0x7ff7bed73690	KERNEL32.dll.GetLastError
+0x7ff7bed73b1e	0x7ff7bedda920	string	0x7ff7bed73690	UMResSet_FindMatchingDisplayDevice
+0x7ff7bed73b25	0x7ff7bedda948	string	0x7ff7bed73690	%s EnumDisplayDevices failed: 0x%x\n
+0x7ff7bed73b43	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed73b4a	0x7ff7beddaa58	string	0x7ff7bed73690	%s Failed to find display matching %ls\n
+0x7ff7bed73b65	0x7ff7bedd8108	import	0x7ff7bed73690	KERNEL32.dll.GetLastError
+0x7ff7bed73b6e	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed73b75	0x7ff7bedda9f0	string	0x7ff7bed73690	%s EnumDisplaySettings failed: 0x%x\n
+0x7ff7bed73b94	0x7ff7bedda9b0	string	0x7ff7bed73690	UMResSet_GetMonitorsEnumProc
+0x7ff7bed73b9b	0x7ff7beddaad0	string	0x7ff7bed73690	%s GetMonitorInfo failed for monitor=%u\n
+0x7ff7bed73d79	0x7ff7beddabf4	string	0x7ff7bed73d20	log
+0x7ff7bed7407f	0x7ff7bedd8168	import	0x7ff7bed74040	KERNEL32.dll.FatalExit
+0x7ff7bed74085	0x7ff7beddac80	string	0x7ff7bed74040	Panic Loop.\n
+0x7ff7bed74098	0x7ff7beddac78	string	0x7ff7bed74040	Panic:
+0x7ff7bed7410a	0x7ff7beddac90	string	0x7ff7bed74040	16233244
+0x7ff7bed74111	0x7ff7beddaca0	string	0x7ff7bed74040	8.16.07.0008
+0x7ff7bed74118	0x7ff7beddacb0	string	0x7ff7bed74040	Panic: SVGA WDDM Usermode Driver. Version %s. Build %s.\n
+0x7ff7bed7414b	0x7ff7bedd8168	import	0x7ff7bed74040	KERNEL32.dll.FatalExit
+0x7ff7bed743c6	0x7ff7beddaff8	string	0x7ff7bed74390	CoreDump_CoreDump
+0x7ff7bed743cd	0x7ff7beddb010	string	0x7ff7bed74390	%s: faking exception to get context\n
+0x7ff7bed743e6	0x7ff7bedd81a0	import	0x7ff7bed74390	KERNEL32.dll.RaiseException
+0x7ff7bed743f6	0x7ff7bedd8170	import	0x7ff7bed74390	KERNEL32.dll.RtlCaptureContext
+0x7ff7bed7442f	0x7ff7bedd8158	import	0x7ff7bed74390	KERNEL32.dll.GetCurrentThreadId
+0x7ff7bed7444b	0x7ff7bedd8100	import	0x7ff7bed74390	KERNEL32.dll.GetCurrentProcessId
+0x7ff7bed74453	0x7ff7bedd81a8	import	0x7ff7bed74390	KERNEL32.dll.GetCurrentProcess
+0x7ff7bed7448d	0x7ff7beddafc8	string	0x7ff7bed74390	WDDMCoreDump: MiniDumpWriteDump() failed.\n
+0x7ff7bed7449c	0x7ff7bedd8198	import	0x7ff7bed74390	KERNEL32.dll.CloseHandle
+0x7ff7bed7451d	0x7ff7bedd8190	import	0x7ff7bed744d0	KERNEL32.dll.GetTempPathW
+0x7ff7bed74527	0x7ff7beddae98	string	0x7ff7bed744d0	WDDMCoreDump: GetTempPath() failed.\n
+0x7ff7bed74533	0x7ff7beddae68	string	0x7ff7bed744d0	VM3D
+0x7ff7bed7453d	0x7ff7beddade0	string	0x7ff7bed744d0	%s%s
+0x7ff7bed7455b	0x7ff7bedd8178	import	0x7ff7bed744d0	KERNEL32.dll.CreateDirectoryW
+0x7ff7bed74565	0x7ff7bedd8108	import	0x7ff7bed744d0	KERNEL32.dll.GetLastError
+0x7ff7bed74575	0x7ff7beddaec0	string	0x7ff7bed744d0	WDDMCoreDump: CreateDirectory() for %S failed.\n
+0x7ff7bed7458b	0x7ff7beddaef0	string	0x7ff7bed744d0	%s%s\%s.dmp
+0x7ff7bed745ce	0x7ff7bedd8180	import	0x7ff7bed744d0	KERNEL32.dll.CreateFileW
+0x7ff7bed745e1	0x7ff7bedd8108	import	0x7ff7bed744d0	KERNEL32.dll.GetLastError
+0x7ff7bed7460b	0x7ff7beddaf08	string	0x7ff7bed744d0	%s%s\%s
+0x7ff7bed7462f	0x7ff7beddaf18	string	0x7ff7bed744d0	WDDMCoreDump: Minidump file %S exists. Rotating ...\n
+0x7ff7bed74671	0x7ff7beddaf50	string	0x7ff7bed744d0	.dmp
+0x7ff7bed7468f	0x7ff7beddade0	string	0x7ff7bed744d0	%s%s
+0x7ff7bed746aa	0x7ff7beddadf0	string	0x7ff7bed744d0	%s-%d%s
+0x7ff7bed746bf	0x7ff7beddadf0	string	0x7ff7bed744d0	%s-%d%s
+0x7ff7bed746e2	0x7ff7bedd8188	import	0x7ff7bed744d0	KERNEL32.dll.DeleteFileW
+0x7ff7bed746ec	0x7ff7bedd8108	import	0x7ff7bed744d0	KERNEL32.dll.GetLastError
+0x7ff7bed746fa	0x7ff7beddae00	string	0x7ff7bed744d0	FileRotateWDDM
+0x7ff7bed74701	0x7ff7beddae10	string	0x7ff7bed744d0	%s: failed to remove %S\n
+0x7ff7bed74712	0x7ff7bedd81b0	import	0x7ff7bed744d0	KERNEL32.dll.MoveFileW
+0x7ff7bed7471c	0x7ff7bedd8108	import	0x7ff7bed744d0	KERNEL32.dll.GetLastError
+0x7ff7bed7472a	0x7ff7beddae00	string	0x7ff7bed744d0	FileRotateWDDM
+0x7ff7bed74734	0x7ff7beddae30	string	0x7ff7bed744d0	%s: failed to rename %S -> %S\n
+0x7ff7bed74750	0x7ff7beddae00	string	0x7ff7bed744d0	FileRotateWDDM
+0x7ff7bed74757	0x7ff7beddae50	string	0x7ff7bed744d0	%s: failed to malloc\n
+0x7ff7bed747a2	0x7ff7bedd8180	import	0x7ff7bed744d0	KERNEL32.dll.CreateFileW
+0x7ff7bed747b9	0x7ff7beddaf60	string	0x7ff7bed744d0	WDDMCoreDump: Cannot rotate/open minidump file %S.\n
+0x7ff7bed747ca	0x7ff7beddaf98	string	0x7ff7bed744d0	WDDMCoreDump: Cannot open minidump file %S.\n
+0x7ff7bed747d8	0x7ff7beddae78	string	0x7ff7bed744d0	WDDMCoreDump: malloc() failed.\n
+0x7ff7bed74d77	0x7ff7bedd81d0	import	0x7ff7bed74d6c	KERNEL32.dll.SetUnhandledExceptionFilter
+0x7ff7bed74d80	0x7ff7bedd81c8	import	0x7ff7bed74d6c	KERNEL32.dll.UnhandledExceptionFilter
+0x7ff7bed74d86	0x7ff7bedd81a8	import	0x7ff7bed74d6c	KERNEL32.dll.GetCurrentProcess
+0x7ff7bed74d99	0x7ff7bedd81d8	import	0x7ff7bed74d6c	KERNEL32.dll.TerminateProcess
+0x7ff7bed74dc5	0x7ff7bed750a4	string	0x7ff7bed74d6c	@SVWH
+0x7ff7bed75041	0x7ff7bedd8170	import	0x7ff7bed75034	KERNEL32.dll.RtlCaptureContext
+0x7ff7bed75059	0x7ff7bedd81b8	import	0x7ff7bed75034	KERNEL32.dll.RtlLookupFunctionEntry
+0x7ff7bed75090	0x7ff7bedd81c0	import	0x7ff7bed75034	KERNEL32.dll.RtlVirtualUnwind
+0x7ff7bed750af	0x7ff7bedd8170	import	0x7ff7bed750a4	KERNEL32.dll.RtlCaptureContext
+0x7ff7bed750c9	0x7ff7bedd81b8	import	0x7ff7bed750a4	KERNEL32.dll.RtlLookupFunctionEntry
+0x7ff7bed75100	0x7ff7bedd81c0	import	0x7ff7bed750a4	KERNEL32.dll.RtlVirtualUnwind
+0x7ff7bed755e0	0x7ff7bedd81f0	import	0x7ff7bed755b4	KERNEL32.dll.GetSystemTimeAsFileTime
+0x7ff7bed755ee	0x7ff7bedd8158	import	0x7ff7bed755b4	KERNEL32.dll.GetCurrentThreadId
+0x7ff7bed755fa	0x7ff7bedd8100	import	0x7ff7bed755b4	KERNEL32.dll.GetCurrentProcessId
+0x7ff7bed7560a	0x7ff7bedd81e8	import	0x7ff7bed755b4	KERNEL32.dll.QueryPerformanceCounter
+0x7ff7bed75687	0x7ff7bedd81f8	import	0x7ff7bed75680	KERNEL32.dll.InitializeSListHead
+0x7ff7bed75730	0x7ff7bedd8170	import	0x7ff7bed756e8	KERNEL32.dll.RtlCaptureContext
+0x7ff7bed7574a	0x7ff7bedd81b8	import	0x7ff7bed756e8	KERNEL32.dll.RtlLookupFunctionEntry
+0x7ff7bed7578b	0x7ff7bedd81c0	import	0x7ff7bed756e8	KERNEL32.dll.RtlVirtualUnwind
+0x7ff7bed757df	0x7ff7bedd8200	import	0x7ff7bed756e8	KERNEL32.dll.IsDebuggerPresent
+0x7ff7bed75800	0x7ff7bedd81d0	import	0x7ff7bed756e8	KERNEL32.dll.SetUnhandledExceptionFilter
+0x7ff7bed7580b	0x7ff7bedd81c8	import	0x7ff7bed756e8	KERNEL32.dll.UnhandledExceptionFilter
+0x7ff7bed75850	0x7ff7bedd8208	import	0x7ff7bed75834	KERNEL32.dll.GetStartupInfoW
+0x7ff7bed75882	0x7ff7bedd8050	import	0x7ff7bed7587c	KERNEL32.dll.GetModuleHandleW
+0x7ff7bed758d7	0x7ff7bedd81d0	import	0x7ff7bed758d0	KERNEL32.dll.SetUnhandledExceptionFilter
+0x7ff7bed75e66	0x7ff7bedd8210	import	0x7ff7bed75d50	KERNEL32.dll.RtlUnwindEx
+0x7ff7bed7681b	0x7ff7bedd8108	import	0x7ff7bed767fc	KERNEL32.dll.GetLastError
+0x7ff7bed768a2	0x7ff7bedd8228	import	0x7ff7bed767fc	KERNEL32.dll.SetLastError
+0x7ff7bed769be	0x7ff7bedd8230	import	0x7ff7bed769ac	KERNEL32.dll.EnterCriticalSection
+0x7ff7bed769e7	0x7ff7bedd8240	import	0x7ff7bed769c8	KERNEL32.dll.DeleteCriticalSection
+0x7ff7bed76a12	0x7ff7bedd8238	import	0x7ff7bed76a00	KERNEL32.dll.LeaveCriticalSection
+0x7ff7bed7e45c	0x7ff7beddbe50	string	0x7ff7bed7e422	CV:
+0x7ff7bed7eb2e	0x7ff7bedd8270	import	0x7ff7bed7eaa8	KERNEL32.dll.LoadLibraryExW
+0x7ff7bed7eb3c	0x7ff7bedd8108	import	0x7ff7bed7eaa8	KERNEL32.dll.GetLastError
+0x7ff7bed7eb4e	0x7ff7beddc5b0	string	0x7ff7bed7eaa8	api-ms-
+0x7ff7bed7eb66	0x7ff7bedd8270	import	0x7ff7bed7eaa8	KERNEL32.dll.LoadLibraryExW
+0x7ff7bed7eb9f	0x7ff7bedd8058	import	0x7ff7bed7eaa8	KERNEL32.dll.FreeLibrary
+0x7ff7bed7ebc4	0x7ff7bedd80f8	import	0x7ff7bed7eaa8	KERNEL32.dll.GetProcAddress
+0x7ff7bed7ee71	0x7ff7beddc5c8	string	0x7ff7bed7ee68	FlsAlloc
+0x7ff7bed7ee81	0x7ff7beddc5c8	string	0x7ff7bed7ee68	FlsAlloc
+0x7ff7bed7eea6	0x7ff7bedd8250	import	0x7ff7bed7ee68	KERNEL32.dll.TlsAlloc
+0x7ff7bed7eeb8	0x7ff7beddc5e0	string	0x7ff7bed7eeb0	FlsFree
+0x7ff7bed7eecb	0x7ff7beddc5e0	string	0x7ff7bed7eeb0	FlsFree
+0x7ff7bed7eeef	0x7ff7bedd8268	import	0x7ff7bed7eeb0	KERNEL32.dll.TlsFree
+0x7ff7bed7ef00	0x7ff7beddc5f0	string	0x7ff7bed7eef8	FlsGetValue
+0x7ff7bed7ef13	0x7ff7beddc5f0	string	0x7ff7bed7eef8	FlsGetValue
+0x7ff7bed7ef37	0x7ff7bedd8258	import	0x7ff7bed7eef8	KERNEL32.dll.TlsGetValue
+0x7ff7bed7ef4d	0x7ff7beddc608	string	0x7ff7bed7ef40	FlsSetValue
+0x7ff7bed7ef56	0x7ff7beddc608	string	0x7ff7bed7ef40	FlsSetValue
+0x7ff7bed7ef80	0x7ff7bedd8260	import	0x7ff7bed7ef40	KERNEL32.dll.TlsSetValue
+0x7ff7bed7efa6	0x7ff7beddc620	string	0x7ff7bed7ef94	InitializeCriticalSectionEx
+0x7ff7bed7efb9	0x7ff7beddc620	string	0x7ff7bed7ef94	InitializeCriticalSectionEx
+0x7ff7bed7efdf	0x7ff7bedd8248	import	0x7ff7bed7ef94	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x7ff7bed806f1	0x7ff7bed806fb	string	0x7ff7bed80680	9;|\nHcC\bH
+0x7ff7bed85160	0x7ff7bed85186	string	0x7ff7bed85060	D81uUL9r
+0x7ff7bed85203	0x7ff7bedd8108	import	0x7ff7bed85060	KERNEL32.dll.GetLastError
+0x7ff7bed8537a	0x7ff7bedd8108	import	0x7ff7bed852b4	KERNEL32.dll.GetLastError
+0x7ff7bed8e8ee	0x7ff7bed8ea4a	string	0x7ff7bed8e87c	9s,t
+0x7ff7bed8ec1e	0x7ff7bed8ec2d	string	0x7ff7bed8ea94	9.}H
+0x7ff7bed92733	0x7ff7bed9278b	string	0x7ff7bed92704	<g~{<itd<ntY<ot7<pt\e<st
+0x7ff7bed929b7	0x7ff7bed92a0f	string	0x7ff7bed92988	<g~{<itd<ntY<ot7<pt\e<st
+0x7ff7bed92c53	0x7ff7bed92cab	string	0x7ff7bed92c24	<g~{<itd<ntY<ot7<pt\e<st
+0x7ff7bed92ed7	0x7ff7bed92f2f	string	0x7ff7bed92ea8	<g~{<itd<ntY<ot7<pt\e<st
+0x7ff7bed9313f	0x7ff7bed93197	string	0x7ff7bed93110	<g~{<itd<ntY<ot7<pt\e<st
+0x7ff7bed933bb	0x7ff7bed93413	string	0x7ff7bed9338c	<g~{<itd<ntY<ot7<pt\e<st
+0x7ff7bed99e22	0x7ff7beddc8b0	string	0x7ff7bed99dc8	(null)
+0x7ff7bed99e40	0x7ff7beddc8c0	string	0x7ff7bed99dc8	(null)
+0x7ff7bed99ed3	0x7ff7beddc8b0	string	0x7ff7bed99e60	(null)
+0x7ff7bed99ef3	0x7ff7beddc8c0	string	0x7ff7bed99e60	(null)
+0x7ff7bed99f72	0x7ff7beddc8b0	string	0x7ff7bed99f18	(null)
+0x7ff7bed99f90	0x7ff7beddc8c0	string	0x7ff7bed99f18	(null)
+0x7ff7bed9a00a	0x7ff7beddc8b0	string	0x7ff7bed99fb0	(null)
+0x7ff7bed9a028	0x7ff7beddc8c0	string	0x7ff7bed99fb0	(null)
+0x7ff7bed9a0bb	0x7ff7beddc8b0	string	0x7ff7bed9a048	(null)
+0x7ff7bed9a0db	0x7ff7beddc8c0	string	0x7ff7bed9a048	(null)
+0x7ff7bed9a15a	0x7ff7beddc8b0	string	0x7ff7bed9a100	(null)
+0x7ff7bed9a178	0x7ff7beddc8c0	string	0x7ff7bed9a100	(null)
+0x7ff7bed9a1e2	0x7ff7beddc8b0	string	0x7ff7bed9a198	(null)
+0x7ff7bed9a203	0x7ff7beddc8c0	string	0x7ff7bed9a198	(null)
+0x7ff7bed9a2cb	0x7ff7beddc8b0	string	0x7ff7bed9a260	(null)
+0x7ff7bed9a2eb	0x7ff7beddc8c0	string	0x7ff7bed9a260	(null)
+0x7ff7bed9a396	0x7ff7beddc8b0	string	0x7ff7bed9a34c	(null)
+0x7ff7bed9a3b7	0x7ff7beddc8c0	string	0x7ff7bed9a34c	(null)
+0x7ff7bed9a45e	0x7ff7beddc8b0	string	0x7ff7bed9a414	(null)
+0x7ff7bed9a47f	0x7ff7beddc8c0	string	0x7ff7bed9a414	(null)
+0x7ff7bed9d591	0x7ff7bed8660c	string	0x7ff7bed9d4e8	@USVWATAVAWH
+0x7ff7bed9d5b9	0x7ff7bed8660c	string	0x7ff7bed9d4e8	@USVWATAVAWH
+0x7ff7bed9d6cc	0x7ff7bed867d8	string	0x7ff7bed9d4e8	@USVWATAVAWH
+0x7ff7bed9d6f4	0x7ff7bed867d8	string	0x7ff7bed9d4e8	@USVWATAVAWH
+0x7ff7bed9d79c	0x7ff7bed8660c	string	0x7ff7bed9d770	@USVWATAVAWH
+0x7ff7bed9d816	0x7ff7bed867d8	string	0x7ff7bed9d7e4	@USVWATAVAWH
+0x7ff7bedaf7e6	0x7ff7bedaf7d8	string	0x7ff7bedaf6b8	fD98t\nH
+0x7ff7bedaf88e	0x7ff7bedd8108	import	0x7ff7bedaf6b8	KERNEL32.dll.GetLastError
+0x7ff7bedaf8a0	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf917	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf92f	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf94f	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf970	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf98b	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf99c	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedaf9db	0x7ff7bedaf9eb	string	0x7ff7bedaf6b8	D8}\at\vH
+0x7ff7bedafabe	0x7ff7bedaf6b8	string	0x7ff7bedafa60	@USVWATAVAWH
+0x7ff7bedafe48	0x7ff7bedd8230	import	0x7ff7bedafe44	KERNEL32.dll.EnterCriticalSection
+0x7ff7bedafe54	0x7ff7bedd8238	import	0x7ff7bedafe50	KERNEL32.dll.LeaveCriticalSection
+0x7ff7bedb0067	0x7ff7bedd8288	import	0x7ff7bedb0044	KERNEL32.dll.GetStdHandle
+0x7ff7bedb00cc	0x7ff7bedd8290	import	0x7ff7bedb0044	KERNEL32.dll.WriteFile
+0x7ff7bedb08d7	0x7ff7bedb089e	string	0x7ff7bedb0860	fD9!u
+0x7ff7bedb08e3	0x7ff7bedb089e	string	0x7ff7bedb0860	fD9!u
+0x7ff7bedb19fb	0x7ff7bedb1a06	string	0x7ff7bedb19c0	<"u\a@
+0x7ff7bedb1a04	0x7ff7bedb1a25	string	0x7ff7bedb19c0	< w\tH
+0x7ff7bedb1a30	0x7ff7bedb1a25	string	0x7ff7bedb19c0	< w\tH
+0x7ff7bedb1af7	0x7ff7bedb1b02	string	0x7ff7bedb1acc	<"u\a@
+0x7ff7bedb1b00	0x7ff7bedb1b21	string	0x7ff7bedb1acc	< w\tH
+0x7ff7bedb1b2c	0x7ff7bedb1b21	string	0x7ff7bedb1acc	< w\tH
+0x7ff7bedb1e6f	0x7ff7bedd8050	import	0x7ff7bedb1e5e	KERNEL32.dll.GetModuleHandleW
+0x7ff7bedb1f35	0x7ff7bedd81a8	import	0x7ff7bedb1f0c	KERNEL32.dll.GetCurrentProcess
+0x7ff7bedb1f40	0x7ff7bedd81d8	import	0x7ff7bedb1f0c	KERNEL32.dll.TerminateProcess
+0x7ff7bedb1f4f	0x7ff7bedd82a0	import	0x7ff7bedb1f0c	KERNEL32.dll.ExitProcess
+0x7ff7bedb1ffb	0x7ff7beddd7f8	string	0x7ff7bedb1fe8	mscoree.dll
+0x7ff7bedb2004	0x7ff7bedd82a8	import	0x7ff7bedb1fe8	KERNEL32.dll.GetModuleHandleExW
+0x7ff7bedb2013	0x7ff7beddd810	string	0x7ff7bedb1fe8	CorExitProcess
+0x7ff7bedb201a	0x7ff7bedd80f8	import	0x7ff7bedb1fe8	KERNEL32.dll.GetProcAddress
+0x7ff7bedb2037	0x7ff7bedd8058	import	0x7ff7bedb1fe8	KERNEL32.dll.FreeLibrary
+0x7ff7bedb5166	0x7ff7bedd81e0	import	0x7ff7bedb5140	KERNEL32.dll.IsProcessorFeaturePresent
+0x7ff7bedb5b2d	0x7ff7bedb5afe	string	0x7ff7bedb54f4	D8d$8t\fH
+0x7ff7bedb5b31	0x7ff7bedb5afe	string	0x7ff7bedb54f4	D8d$8t\fH
+0x7ff7bedb6051	0x7ff7bedb61d0	string	0x7ff7bedb5e8c	f;\$t
+0x7ff7bedb62bc	0x7ff7bedb6430	string	0x7ff7bedb5e8c	f;\$ts\b
+0x7ff7bedb6bed	0x7ff7bedd8170	import	0x7ff7bedb6b74	KERNEL32.dll.RtlCaptureContext
+0x7ff7bedb6c05	0x7ff7bedd81b8	import	0x7ff7bedb6b74	KERNEL32.dll.RtlLookupFunctionEntry
+0x7ff7bedb6c40	0x7ff7bedd81c0	import	0x7ff7bedb6b74	KERNEL32.dll.RtlVirtualUnwind
+0x7ff7bedb6c79	0x7ff7bedd8200	import	0x7ff7bedb6b74	KERNEL32.dll.IsDebuggerPresent
+0x7ff7bedb6c83	0x7ff7bedd81d0	import	0x7ff7bedb6b74	KERNEL32.dll.SetUnhandledExceptionFilter
+0x7ff7bedb6c8e	0x7ff7bedd81c8	import	0x7ff7bedb6b74	KERNEL32.dll.UnhandledExceptionFilter
+0x7ff7bedb6e15	0x7ff7bedd81e0	import	0x7ff7bedb6e0c	KERNEL32.dll.IsProcessorFeaturePresent
+0x7ff7bedb6e3a	0x7ff7bedd81a8	import	0x7ff7bedb6e0c	KERNEL32.dll.GetCurrentProcess
+0x7ff7bedb6e4c	0x7ff7bedd81d8	import	0x7ff7bedb6e0c	KERNEL32.dll.TerminateProcess
+0x7ff7bedb76e0	0x7ff7bedd8208	import	0x7ff7bedb76c0	KERNEL32.dll.GetStartupInfoW
+0x7ff7bedb774b	0x7ff7bedd82b0	import	0x7ff7bedb76c0	KERNEL32.dll.GetFileType
+0x7ff7bedb7829	0x7ff7bedd8288	import	0x7ff7bedb77b0	KERNEL32.dll.GetStdHandle
+0x7ff7bedb783f	0x7ff7bedd82b0	import	0x7ff7bedb77b0	KERNEL32.dll.GetFileType
+0x7ff7bedb795e	0x7ff7bedd82b8	import	0x7ff7bedb7948	KERNEL32.dll.HeapFree
+0x7ff7bedb7970	0x7ff7bedd8108	import	0x7ff7bedb7948	KERNEL32.dll.GetLastError
+0x7ff7bedb79c6	0x7ff7bedd82c0	import	0x7ff7bedb7988	KERNEL32.dll.HeapAlloc
+0x7ff7bedb7c82	0x7ff7bedd8198	import	0x7ff7bedb7c1c	KERNEL32.dll.CloseHandle
+0x7ff7bedb7c8c	0x7ff7bedd8108	import	0x7ff7bedb7c1c	KERNEL32.dll.GetLastError
+0x7ff7bedb7f7a	0x7ff7bedd8230	import	0x7ff7bedb7f68	KERNEL32.dll.EnterCriticalSection
+0x7ff7bedb7faf	0x7ff7bedd8240	import	0x7ff7bedb7f90	KERNEL32.dll.DeleteCriticalSection
+0x7ff7bedb7fda	0x7ff7bedd8238	import	0x7ff7bedb7fc8	KERNEL32.dll.LeaveCriticalSection
+0x7ff7bedb7ff8	0x7ff7bedd8230	import	0x7ff7bedb7fc8	KERNEL32.dll.EnterCriticalSection
+0x7ff7bedb9466	0x7ff7bedb946c	string	0x7ff7bedb9278	fD97t
+0x7ff7bedb94d3	0x7ff7bedddc80	string	0x7ff7bedb9278	UTF-8
+0x7ff7bedb94f2	0x7ff7bedddc90	string	0x7ff7bedb9278	UTF-16LEUNICODE
+0x7ff7bedb9a23	0x7ff7bedd82e0	import	0x7ff7bedb99d0	KERNEL32.dll.MultiByteToWideChar
+0x7ff7bedba397	0x7ff7bedd8108	import	0x7ff7bedba388	KERNEL32.dll.GetLastError
+0x7ff7bedba435	0x7ff7bedd8228	import	0x7ff7bedba388	KERNEL32.dll.SetLastError
+0x7ff7bedba513	0x7ff7bedd8108	import	0x7ff7bedba504	KERNEL32.dll.GetLastError
+0x7ff7bedba5b1	0x7ff7bedd8228	import	0x7ff7bedba504	KERNEL32.dll.SetLastError
+0x7ff7bedba6cf	0x7ff7bedd8328	import	0x7ff7bedba680	KERNEL32.dll.EnumSystemLocalesW
+0x7ff7bedbae73	0x7ff7bedd8270	import	0x7ff7bedbadd0	KERNEL32.dll.LoadLibraryExW
+0x7ff7bedbae81	0x7ff7bedd8108	import	0x7ff7bedbadd0	KERNEL32.dll.GetLastError
+0x7ff7bedbae95	0x7ff7beddc5b0	string	0x7ff7bedbadd0	api-ms-
+0x7ff7bedbaea8	0x7ff7bedde1a8	string	0x7ff7bedbadd0	ext-ms-
+0x7ff7bedbaec3	0x7ff7bedd8270	import	0x7ff7bedbadd0	KERNEL32.dll.LoadLibraryExW
+0x7ff7bedbaefc	0x7ff7bedd8058	import	0x7ff7bedbadd0	KERNEL32.dll.FreeLibrary
+0x7ff7bedbaf28	0x7ff7bedd80f8	import	0x7ff7bedbadd0	KERNEL32.dll.GetProcAddress
+0x7ff7bedbb278	0x7ff7bedde488	string	0x7ff7bedbb25c	AppPolicyGetProcessTerminationMethod
+0x7ff7bedbb2c8	0x7ff7bedde4e8	string	0x7ff7bedbb2ac	AppPolicyGetShowDeveloperDiagnostic
+0x7ff7bedbb318	0x7ff7bedde4b8	string	0x7ff7bedbb2fc	AppPolicyGetThreadInitializationType
+0x7ff7bedbb355	0x7ff7bedde510	string	0x7ff7bedbb34c	AppPolicyGetWindowingModel
+0x7ff7bedbb368	0x7ff7bedde510	string	0x7ff7bedbb34c	AppPolicyGetWindowingModel
+0x7ff7bedbb3b0	0x7ff7bedde1c0	string	0x7ff7bedbb39c	AreFileApisANSI
+0x7ff7bedbb3f4	0x7ff7bedde1d8	string	0x7ff7bedbb3d8	CompareStringEx
+0x7ff7bedbb405	0x7ff7bedde1d8	string	0x7ff7bedbb3d8	CompareStringEx
+0x7ff7bedbb499	0x7ff7bedd8300	import	0x7ff7bedbb3d8	KERNEL32.dll.CompareStringW
+0x7ff7bedbb4d0	0x7ff7bedde1f0	string	0x7ff7bedbb4b4	EnumSystemLocalesEx
+0x7ff7bedbb4e3	0x7ff7bedde1f0	string	0x7ff7bedbb4b4	EnumSystemLocalesEx
+0x7ff7bedbb568	0x7ff7beddc5c8	string	0x7ff7bedbb54c	FlsAlloc
+0x7ff7bedbb58d	0x7ff7bedd8250	import	0x7ff7bedbb54c	KERNEL32.dll.TlsAlloc
+0x7ff7bedbb5af	0x7ff7beddc5e0	string	0x7ff7bedbb594	FlsFree
+0x7ff7bedbb5d3	0x7ff7bedd8268	import	0x7ff7bedbb594	KERNEL32.dll.TlsFree
+0x7ff7bedbb5f7	0x7ff7beddc5f0	string	0x7ff7bedbb5dc	FlsGetValue
+0x7ff7bedbb61b	0x7ff7bedd8258	import	0x7ff7bedbb5dc	KERNEL32.dll.TlsGetValue
+0x7ff7bedbb63a	0x7ff7beddc608	string	0x7ff7bedbb624	FlsSetValue
+0x7ff7bedbb664	0x7ff7bedd8260	import	0x7ff7bedbb624	KERNEL32.dll.TlsSetValue
+0x7ff7bedbb788	0x7ff7bedde2a8	string	0x7ff7bedbb76c	GetLocaleInfoEx
+0x7ff7bedbb799	0x7ff7bedde2a8	string	0x7ff7bedbb76c	GetLocaleInfoEx
+0x7ff7bedbb7d3	0x7ff7bedd8310	import	0x7ff7bedbb76c	KERNEL32.dll.GetLocaleInfoW
+0x7ff7bedbb8f0	0x7ff7bedde320	string	0x7ff7bedbb8e4	GetUserDefaultLocaleName
+0x7ff7bedbb8fa	0x7ff7bedde320	string	0x7ff7bedbb8e4	GetUserDefaultLocaleName
+0x7ff7bedbb924	0x7ff7bedd8320	import	0x7ff7bedbb8e4	KERNEL32.dll.GetUserDefaultLCID
+0x7ff7bedbb9c1	0x7ff7beddc620	string	0x7ff7bedbb99c	InitializeCriticalSectionEx
+0x7ff7bedbb9e7	0x7ff7bedd8248	import	0x7ff7bedbb99c	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x7ff7bedbba75	0x7ff7bedde3d0	string	0x7ff7bedbba58	LCIDToLocaleName
+0x7ff7bedbba85	0x7ff7bedde3d0	string	0x7ff7bedbba58	LCIDToLocaleName
+0x7ff7bedbbae4	0x7ff7bedde3b8	string	0x7ff7bedbbac8	LCMapStringEx
+0x7ff7bedbbaf5	0x7ff7bedde3b8	string	0x7ff7bedbbac8	LCMapStringEx
+0x7ff7bedbbb89	0x7ff7bedd8308	import	0x7ff7bedbbac8	KERNEL32.dll.LCMapStringW
+0x7ff7bedbbbb0	0x7ff7bedde3f0	string	0x7ff7bedbbba4	LocaleNameToLCID
+0x7ff7bedbbbba	0x7ff7bedde3f0	string	0x7ff7bedbbba4	LocaleNameToLCID
+0x7ff7bedbbc71	0x7ff7bedde430	string	0x7ff7bedbbc54	MessageBoxA
+0x7ff7bedbbc82	0x7ff7bedde430	string	0x7ff7bedbbc54	MessageBoxA
+0x7ff7bedbbce5	0x7ff7bedde448	string	0x7ff7bedbbcc8	MessageBoxW
+0x7ff7bedbbcf6	0x7ff7bedde448	string	0x7ff7bedbbcc8	MessageBoxW
+0x7ff7bedbbd44	0x7ff7bedde458	string	0x7ff7bedbbcc8	RoInitialize
+0x7ff7bedbbd57	0x7ff7bedde458	string	0x7ff7bedbbcc8	RoInitialize
+0x7ff7bedbbd93	0x7ff7bedde470	string	0x7ff7bedbbcc8	RoUninitialize
+0x7ff7bedbbe5c	0x7ff7bedde430	string	0x7ff7bedbbe44	MessageBoxA
+0x7ff7bedbbe6a	0x7ff7bedde430	string	0x7ff7bedbbe44	MessageBoxA
+0x7ff7bedbbe7e	0x7ff7bedde448	string	0x7ff7bedbbe44	MessageBoxW
+0x7ff7bedbbe8c	0x7ff7bedde448	string	0x7ff7bedbbe44	MessageBoxW
+0x7ff7bedbbf28	0x7ff7bedde1c0	string	0x7ff7bedbbf14	AreFileApisANSI
+0x7ff7bedbbf34	0x7ff7bedde1d8	string	0x7ff7bedbbf14	CompareStringEx
+0x7ff7bedbbf47	0x7ff7bedde1d8	string	0x7ff7bedbbf14	CompareStringEx
+0x7ff7bedbbf53	0x7ff7bedde1f0	string	0x7ff7bedbbf14	EnumSystemLocalesEx
+0x7ff7bedbbf66	0x7ff7bedde1f0	string	0x7ff7bedbbf14	EnumSystemLocalesEx
+0x7ff7bedbbf72	0x7ff7bedde248	string	0x7ff7bedbbf14	GetDateFormatEx
+0x7ff7bedbbf85	0x7ff7bedde248	string	0x7ff7bedbbf14	GetDateFormatEx
+0x7ff7bedbbf91	0x7ff7bedde2a8	string	0x7ff7bedbbf14	GetLocaleInfoEx
+0x7ff7bedbbfa4	0x7ff7bedde2a8	string	0x7ff7bedbbf14	GetLocaleInfoEx
+0x7ff7bedbbfb0	0x7ff7bedde308	string	0x7ff7bedbbf14	GetTimeFormatEx
+0x7ff7bedbbfc3	0x7ff7bedde308	string	0x7ff7bedbbf14	GetTimeFormatEx
+0x7ff7bedbbfcf	0x7ff7bedde320	string	0x7ff7bedbbf14	GetUserDefaultLocaleName
+0x7ff7bedbbfe2	0x7ff7bedde320	string	0x7ff7bedbbf14	GetUserDefaultLocaleName
+0x7ff7bedbbfee	0x7ff7bedde398	string	0x7ff7bedbbf14	IsValidLocaleName
+0x7ff7bedbc001	0x7ff7bedde398	string	0x7ff7bedbbf14	IsValidLocaleName
+0x7ff7bedbc00d	0x7ff7bedde3b8	string	0x7ff7bedbbf14	LCMapStringEx
+0x7ff7bedbc020	0x7ff7bedde3b8	string	0x7ff7bedbbf14	LCMapStringEx
+0x7ff7bedbc02c	0x7ff7bedde3d0	string	0x7ff7bedbbf14	LCIDToLocaleName
+0x7ff7bedbc03f	0x7ff7bedde3d0	string	0x7ff7bedbbf14	LCIDToLocaleName
+0x7ff7bedbc04b	0x7ff7bedde3f0	string	0x7ff7bedbbf14	LocaleNameToLCID
+0x7ff7bedbc05e	0x7ff7bedde3f0	string	0x7ff7bedbbf14	LocaleNameToLCID
+0x7ff7bedbc076	0x7ff7bedde230	string	0x7ff7bedbc070	GetActiveWindow
+0x7ff7bedbc089	0x7ff7bedde230	string	0x7ff7bedbc070	GetActiveWindow
+0x7ff7bedbc0a8	0x7ff7bedde288	string	0x7ff7bedbc070	GetLastActivePopup
+0x7ff7bedbc0bb	0x7ff7bedde288	string	0x7ff7bedbc070	GetLastActivePopup
+0x7ff7bedbc13d	0x7ff7bedde2c0	string	0x7ff7bedbc124	GetProcessWindowStation
+0x7ff7bedbc150	0x7ff7bedde2c0	string	0x7ff7bedbc124	GetProcessWindowStation
+0x7ff7bedbc164	0x7ff7bedde348	string	0x7ff7bedbc124	GetUserObjectInformationW
+0x7ff7bedbc177	0x7ff7bedde348	string	0x7ff7bedbc124	GetUserObjectInformationW
+0x7ff7bedbc2a4	0x7ff7bedd8188	import	0x7ff7bedbc2a0	KERNEL32.dll.DeleteFileW
+0x7ff7bedbc2ae	0x7ff7bedd8108	import	0x7ff7bedbc2a0	KERNEL32.dll.GetLastError
+0x7ff7bedbcaea	0x7ff7bedbcb05	string	0x7ff7bedbca68	@8l$Ht\fH
+0x7ff7bedbcb3d	0x7ff7bedbcb6e	string	0x7ff7bedbca68	HcA\bH;
+0x7ff7bedbcb42	0x7ff7bedbcb6e	string	0x7ff7bedbca68	HcA\bH;
+0x7ff7bedbcb80	0x7ff7bedbcb05	string	0x7ff7bedbca68	@8l$Ht\fH
+0x7ff7bedbcbc3	0x7ff7bedbcb05	string	0x7ff7bedbca68	@8l$Ht\fH
+0x7ff7bedbcdc4	0x7ff7bedd8108	import	0x7ff7bedbcc64	KERNEL32.dll.GetLastError
+0x7ff7bedbce8f	0x7ff7bedbce85	string	0x7ff7bedbce50	fD9\ntsH
+0x7ff7bedbcec8	0x7ff7bedbcebb	string	0x7ff7bedbce50	fD9\nt\tH
+0x7ff7bedbceea	0x7ff7bedbcef2	string	0x7ff7bedbce50	fD9\nt
+0x7ff7bedbcefc	0x7ff7bedbcef2	string	0x7ff7bedbce50	fD9\nt
+0x7ff7bedbcf24	0x7ff7bedbcf1a	string	0x7ff7bedbce50	fD9\ttvH
+0x7ff7bedbcf60	0x7ff7bedbcf53	string	0x7ff7bedbce50	fD9\tt\tH
+0x7ff7bedbcf82	0x7ff7bedbcf8a	string	0x7ff7bedbce50	fD9\tt
+0x7ff7bedbcf94	0x7ff7bedbcf8a	string	0x7ff7bedbce50	fD9\tt
+0x7ff7bedbcfb0	0x7ff7bedbcfa6	string	0x7ff7bedbce50	fD9\bt
+0x7ff7bedbd91e	0x7ff7bedbd912	string	0x7ff7bedbd774	f9\nt\tH
+0x7ff7bedbd971	0x7ff7bedbd968	string	0x7ff7bedbd774	f9\ntvH
+0x7ff7bedbd9a1	0x7ff7bedbd995	string	0x7ff7bedbd774	f9\nt\tH
+0x7ff7bedbd9c3	0x7ff7bedbd9cb	string	0x7ff7bedbd774	f9\nt
+0x7ff7bedbd9d4	0x7ff7bedbd9cb	string	0x7ff7bedbd774	f9\nt
+0x7ff7bedbd9e1	0x7ff7bedbd9d8	string	0x7ff7bedbd774	f9\nt
+0x7ff7bedbda6c	0x7ff7bedbda60	string	0x7ff7bedbd9f0	f9\nt\tH
+0x7ff7bedbdb41	0x7ff7bedbdb35	string	0x7ff7bedbd9f0	f9\nt\tH
+0x7ff7bedbdb99	0x7ff7bedbdb88	string	0x7ff7bedbd9f0	fA9\t
+0x7ff7bedbdbba	0x7ff7bedbdbae	string	0x7ff7bedbd9f0	f9\nt\tH
+0x7ff7bedbf755	0x7ff7bedd82c0	import	0x7ff7bedbf700	KERNEL32.dll.HeapAlloc
+0x7ff7bedc0123	0x7ff7bedd8330	import	0x7ff7bedc0094	KERNEL32.dll.WideCharToMultiByte
+0x7ff7bedc0519	0x7ff7bedc0425	string	0x7ff7bedc0388	Hc@\bH
+0x7ff7bedc086a	0x7ff7bedd8240	import	0x7ff7bedc07f8	KERNEL32.dll.DeleteCriticalSection
+0x7ff7bedc0b9d	0x7ff7bedd8200	import	0x7ff7bedc0a9c	KERNEL32.dll.IsDebuggerPresent
+0x7ff7bedc0ded	0x7ff7bedd8200	import	0x7ff7bedc0dd0	KERNEL32.dll.IsDebuggerPresent
+0x7ff7bedc0e05	0x7ff7bedd8338	import	0x7ff7bedc0dd0	KERNEL32.dll.OutputDebugStringW
+0x7ff7bedc29aa	0x7ff7bedc29c7	string	0x7ff7bedc2980	f9)u4H9j
+0x7ff7bedc2a2a	0x7ff7bedd8108	import	0x7ff7bedc2980	KERNEL32.dll.GetLastError
+0x7ff7bedc2b40	0x7ff7bedd8108	import	0x7ff7bedc2aa4	KERNEL32.dll.GetLastError
+0x7ff7bedc2ce0	0x7ff7bedd8298	import	0x7ff7bedc2ca4	KERNEL32.dll.GetModuleFileNameW
+0x7ff7bedc2cea	0x7ff7bedd8108	import	0x7ff7bedc2ca4	KERNEL32.dll.GetLastError
+0x7ff7bedc31ea	0x7ff7bedd8138	import	0x7ff7bedc31c0	KERNEL32.dll.GetOEMCP
+0x7ff7bedc3201	0x7ff7bedd8358	import	0x7ff7bedc31c0	KERNEL32.dll.GetACP
+0x7ff7bedc333a	0x7ff7bedd8130	import	0x7ff7bedc32f8	KERNEL32.dll.GetCPInfo
+0x7ff7bedc33bc	0x7ff7bedc7130	string	0x7ff7bedc32f8	@UATAUAVAWH
+0x7ff7bedc38bb	0x7ff7bedd8350	import	0x7ff7bedc3850	KERNEL32.dll.IsValidCodePage
+0x7ff7bedc3907	0x7ff7bedd8130	import	0x7ff7bedc3850	KERNEL32.dll.GetCPInfo
+0x7ff7bedc3e94	0x7ff7bedd8128	import	0x7ff7bedc3dd8	KERNEL32.dll.GetCommandLineA
+0x7ff7bedc3ea1	0x7ff7bedd8120	import	0x7ff7bedc3dd8	KERNEL32.dll.GetCommandLineW
+0x7ff7bedc4025	0x7ff7bedd80e8	import	0x7ff7bedc400c	KERNEL32.dll.GetEnvironmentStringsW
+0x7ff7bedc40e9	0x7ff7bedd80e0	import	0x7ff7bedc400c	KERNEL32.dll.FreeEnvironmentStringsW
+0x7ff7bedc4124	0x7ff7bedd80e8	import	0x7ff7bedc4110	KERNEL32.dll.GetEnvironmentStringsW
+0x7ff7bedc4191	0x7ff7bedd80e0	import	0x7ff7bedc4110	KERNEL32.dll.FreeEnvironmentStringsW
+0x7ff7bedc507d	0x7ff7bedd8240	import	0x7ff7bedc5054	KERNEL32.dll.DeleteCriticalSection
+0x7ff7bedc516c	0x7ff7bedd8230	import	0x7ff7bedc514c	KERNEL32.dll.EnterCriticalSection
+0x7ff7bedc51ef	0x7ff7bedd80d0	import	0x7ff7bedc5174	KERNEL32.dll.SetStdHandle
+0x7ff7bedc5254	0x7ff7bedd8238	import	0x7ff7bedc5234	KERNEL32.dll.LeaveCriticalSection
+0x7ff7bedc5301	0x7ff7bedd8230	import	0x7ff7bedc525c	KERNEL32.dll.EnterCriticalSection
+0x7ff7bedc5310	0x7ff7bedd8238	import	0x7ff7bedc525c	KERNEL32.dll.LeaveCriticalSection
+0x7ff7bedc5416	0x7ff7bedd80d0	import	0x7ff7bedc539c	KERNEL32.dll.SetStdHandle
+0x7ff7bedc7262	0x7ff7bedd80c8	import	0x7ff7bedc7130	KERNEL32.dll.GetStringTypeW
+0x7ff7bedc77e3	0x7ff7bedc781b	string	0x7ff7bedc7790	E3ɉK blocks=Basic Latin,Latin Extended-B
+0x7ff7bedc77ef	0x7ff7bedc781b	string	0x7ff7bedc7790	E3ɉK blocks=Basic Latin,Latin Extended-B
+0x7ff7bedc7893	0x7ff7bedc78cb	string	0x7ff7bedc7860	E3ɉK blocks=Basic Latin,Latin Extended-B
+0x7ff7bedc789f	0x7ff7bedc78cb	string	0x7ff7bedc7860	E3ɉK blocks=Basic Latin,Latin Extended-B
+0x7ff7bedc83ca	0x7ff7bedd8328	import	0x7ff7bedc832c	KERNEL32.dll.EnumSystemLocalesW
+0x7ff7bedc847a	0x7ff7bedd8328	import	0x7ff7bedc83fc	KERNEL32.dll.EnumSystemLocalesW
+0x7ff7bedc88bd	0x7ff7bedd8310	import	0x7ff7bedc8868	KERNEL32.dll.GetLocaleInfoW
+0x7ff7bedc88ea	0x7ff7bedd8310	import	0x7ff7bedc8868	KERNEL32.dll.GetLocaleInfoW
+0x7ff7bedc8900	0x7ff7bedd8358	import	0x7ff7bedc8868	KERNEL32.dll.GetACP
+0x7ff7bedc8973	0x7ff7bedd8310	import	0x7ff7bedc893c	KERNEL32.dll.GetLocaleInfoW
+0x7ff7bedc8bbf	0x7ff7bedd8328	import	0x7ff7bedc89e8	KERNEL32.dll.EnumSystemLocalesW
+0x7ff7bedc8bd8	0x7ff7bedd8320	import	0x7ff7bedc89e8	KERNEL32.dll.GetUserDefaultLCID
+0x7ff7bedc8c14	0x7ff7bedd8350	import	0x7ff7bedc89e8	KERNEL32.dll.IsValidCodePage
+0x7ff7bedc8c2a	0x7ff7bedd8318	import	0x7ff7bedc89e8	KERNEL32.dll.IsValidLocale
+0x7ff7bedc8c86	0x7ff7bedd8310	import	0x7ff7bedc89e8	KERNEL32.dll.GetLocaleInfoW
+0x7ff7bedc8ca2	0x7ff7bedd8310	import	0x7ff7bedc89e8	KERNEL32.dll.GetLocaleInfoW
+0x7ff7bedc95b1	0x7ff7bedd80b8	import	0x7ff7bedc92d8	KERNEL32.dll.SetConsoleCtrlHandler
+0x7ff7bedc95cc	0x7ff7bedd8108	import	0x7ff7bedc92d8	KERNEL32.dll.GetLastError
+0x7ff7bedc9b06	0x7ff7bedd80a8	import	0x7ff7bedc9ac0	KERNEL32.dll.SetFilePointerEx
+0x7ff7bedc9b18	0x7ff7bedd80b0	import	0x7ff7bedc9ac0	KERNEL32.dll.GetFileSizeEx
+0x7ff7bedc9f9e	0x7ff7bedd80a8	import	0x7ff7bedc9f50	KERNEL32.dll.SetFilePointerEx
+0x7ff7bedc9fa8	0x7ff7bedd8108	import	0x7ff7bedc9f50	KERNEL32.dll.GetLastError
+0x7ff7bedc9fcc	0x7ff7bedd80a8	import	0x7ff7bedc9f50	KERNEL32.dll.SetFilePointerEx
+0x7ff7bedc9ff1	0x7ff7bedd80a8	import	0x7ff7bedc9f50	KERNEL32.dll.SetFilePointerEx
+0x7ff7bedd1728	0x7ff7bedd13a4	string	0x7ff7bedd16bc	@UATAUAVAWH
+0x7ff7bedd19f8	0x7ff7bedd1a1e	string	0x7ff7bedd18b8	D81uUL9r
+0x7ff7bedd1a9b	0x7ff7bedd8108	import	0x7ff7bedd18b8	KERNEL32.dll.GetLastError
+0x7ff7bedd1cc2	0x7ff7bedd80d8	import	0x7ff7bedd1b74	KERNEL32.dll.SetEnvironmentVariableW
+0x7ff7bedd1cd3	0x7ff7bedd1cdd	string	0x7ff7bedd1b74	D8}?t\tH
+0x7ff7bedd1ede	0x7ff7bedd1d0c	string	0x7ff7bedd1e88	@UAVAWH
+0x7ff7bedd1f2d	0x7ff7bedd8108	import	0x7ff7bedd1e88	KERNEL32.dll.GetLastError
+0x7ff7bedd1f4c	0x7ff7bedd1d0c	string	0x7ff7bedd1e88	@UAVAWH
+0x7ff7bedd1f82	0x7ff7bedd1d0c	string	0x7ff7bedd1e88	@UAVAWH
+0x7ff7bedd298b	0x7ff7bedd2911	string	0x7ff7bedd284c	fD93s
+0x7ff7bedd2aa5	0x7ff7bedd8110	import	0x7ff7bedd2a38	KERNEL32.dll.HeapReAlloc
+0x7ff7bedd2b0f	0x7ff7bedd2b1d	string	0x7ff7bedd2a38	fE9S
+0x7ff7bedd2cbd	0x7ff7bedd8080	import	0x7ff7bedd2a38	KERNEL32.dll.WriteConsoleW
+0x7ff7bedd2cc9	0x7ff7bedd8108	import	0x7ff7bedd2a38	KERNEL32.dll.GetLastError
+0x7ff7bedd2ce1	0x7ff7bedd8198	import	0x7ff7bedd2a38	KERNEL32.dll.CloseHandle
+0x7ff7bedd2d0c	0x7ff7bedd8180	import	0x7ff7bedd2a38	KERNEL32.dll.CreateFileW
+0x7ff7bedd2d2d	0x7ff7bedd8080	import	0x7ff7bedd2a38	KERNEL32.dll.WriteConsoleW
+0x7ff7bedd31c1	0x7ff7bedd3253	string	0x7ff7bedd3160	yIE3
+0x7ff7bedd3272	0x7ff7bedd8078	import	0x7ff7bedd3160	KERNEL32.dll.SetEndOfFile
+0x7ff7bedd328f	0x7ff7bedd8108	import	0x7ff7bedd3160	KERNEL32.dll.GetLastError
+0x7ff7bedd3c1c	0x7ff7bedd8108	import	0x7ff7bedd3b1c	KERNEL32.dll.GetLastError
+0x7ff7bedd3de1	0x7ff7bedd3e28	string	0x7ff7bedd3d24	D8d$8t\fH
+0x7ff7bedd3e10	0x7ff7bedd3e28	string	0x7ff7bedd3d24	D8d$8t\fH
+0x7ff7bedd3e23	0x7ff7bedd3e28	string	0x7ff7bedd3d24	D8d$8t\fH
+0x7ff7bedd402f	0x7ff7bedd8130	import	0x7ff7bedd3f6c	KERNEL32.dll.GetCPInfo
+0x7ff7bedd432d	0x7ff7bedd3f6c	string	0x7ff7bedd42cc	@USVWATAUAVAWH
+0x7ff7bedd4df4	0x7ff7bede53c4	string	0x7ff7bedd4df0	log10
+0x7ff7bedd4e14	0x7ff7bede53b8	string	0x7ff7bedd4df0	log10f

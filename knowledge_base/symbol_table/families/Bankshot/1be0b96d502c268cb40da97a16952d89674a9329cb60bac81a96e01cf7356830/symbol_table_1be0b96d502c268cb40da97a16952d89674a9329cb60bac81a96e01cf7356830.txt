@@ -1,0 +1,431 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x10001016	0x1000c010	string	0x10001000	c.wnry
+0x1000101b	0x10007150	import	0x10001000	MSVCRT.dll.fopen
+0x1000103b	0x10007188	import	0x10001000	MSVCRT.dll.fread
+0x10001048	0x100071d0	import	0x10001000	MSVCRT.dll.fwrite
+0x10001056	0x100071d4	import	0x10001000	MSVCRT.dll.fclose
+0x10001064	0x100071d4	import	0x10001000	MSVCRT.dll.fclose
+0x100010d3	0x10007110	import	0x10001080	KERNEL32.dll.CreateProcessA
+0x100010eb	0x10007114	import	0x10001080	KERNEL32.dll.WaitForSingleObject
+0x100010fc	0x10007118	import	0x10001080	KERNEL32.dll.TerminateProcess
+0x10001110	0x1000711c	import	0x10001080	KERNEL32.dll.GetExitCodeProcess
+0x1000111a	0x100070f8	import	0x10001080	KERNEL32.dll.CloseHandle
+0x10001147	0x1000710c	import	0x10001140	KERNEL32.dll.GetTickCount
+0x1000114e	0x10007164	import	0x10001140	MSVCRT.dll.srand
+0x10001156	0x10007160	import	0x10001140	MSVCRT.dll.time
+0x10001160	0x1000715c	import	0x10001140	MSVCRT.dll.rand
+0x1000116b	0x1000c034	string	0x10001140	%d%d.bat
+0x10001171	0x10007158	import	0x10001140	MSVCRT.dll.sprintf
+0x10001181	0x10007150	import	0x10001140	MSVCRT.dll.fopen
+0x100011a0	0x1000c020	string	0x10001140	%s\ndel /a %%0\n
+0x100011a6	0x10007154	import	0x10001140	MSVCRT.dll.fprintf
+0x100011ad	0x100071d4	import	0x10001140	MSVCRT.dll.fclose
+0x100011e4	0x100070f0	import	0x100011d0	KERNEL32.dll.GetCurrentProcess
+0x100011eb	0x10007024	import	0x100011d0	ADVAPI32.dll.OpenProcessToken
+0x10001203	0x10007028	import	0x100011d0	ADVAPI32.dll.GetTokenInformation
+0x1000121a	0x100070f4	import	0x100011d0	KERNEL32.dll.GetLastError
+0x10001234	0x100070fc	import	0x100011d0	KERNEL32.dll.GlobalAlloc
+0x1000125a	0x1000c058	string	0x100011d0	advapi32.dll
+0x1000125f	0x10007100	import	0x100011d0	KERNEL32.dll.LoadLibraryA
+0x1000126f	0x1000c040	string	0x100011d0	ConvertSidToStringSidW
+0x10001275	0x10007104	import	0x100011d0	KERNEL32.dll.GetProcAddress
+0x100012ab	0x10007168	import	0x100011d0	MSVCRT.dll.wcscpy
+0x100012b9	0x10007108	import	0x100011d0	KERNEL32.dll.GlobalFree
+0x10001308	0x1000c078	string	0x100012d0	S-1-5-18
+0x10001321	0x10007020	import	0x100012d0	ADVAPI32.dll.GetUserNameW
+0x1000132b	0x1000c068	string	0x100012d0	SYSTEM
+0x10001331	0x100071d8	import	0x100012d0	MSVCRT.dll._wcsicmp
+0x1000139c	0x10007000	import	0x10001360	ADVAPI32.dll.AllocateAndInitializeSid
+0x100013b6	0x10007018	import	0x10001360	ADVAPI32.dll.CheckTokenMembership
+0x100013c9	0x1000701c	import	0x10001360	ADVAPI32.dll.FreeSid
+0x1000140a	0x1000700c	import	0x100013e0	ADVAPI32.dll.GetSecurityInfo
+0x10001456	0x1000c08c	string	0x100013e0	EVERYONE
+0x1000145e	0x10007010	import	0x100013e0	ADVAPI32.dll.SetEntriesInAclA
+0x10001471	0x10007014	import	0x100013e0	ADVAPI32.dll.SetSecurityInfo
+0x1000147b	0x100070ec	import	0x100013e0	KERNEL32.dll.LocalFree
+0x100014d6	0x100070e4	import	0x100014a0	KERNEL32.dll.GetComputerNameW
+0x100014dc	0x10007170	import	0x100014a0	MSVCRT.dll.wcslen
+0x10001515	0x100014fb	string	0x100014a0	3ɍD$ blocks=Basic Latin,Latin Extended-B
+0x10001518	0x10007164	import	0x100014a0	MSVCRT.dll.srand
+0x1000151e	0x1000715c	import	0x100014a0	MSVCRT.dll.rand
+0x100016dd	0x10007144	import	0x10001680	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Tidy(bool)
+0x1000177a	0x10007108	import	0x10001760	KERNEL32.dll.GlobalFree
+0x100017e3	0x10007114	import	0x10001760	KERNEL32.dll.WaitForSingleObject
+0x10001807	0x100070e0	import	0x10001760	KERNEL32.dll.DeleteCriticalSection
+0x10001814	0x10007170	import	0x10001760	MSVCRT.dll.wcslen
+0x1000185c	0x100070fc	import	0x10001830	KERNEL32.dll.GlobalAlloc
+0x10001899	0x10007038	import	0x10001830	KERNEL32.dll.InitializeCriticalSection
+0x100018ad	0x1000708c	import	0x10001830	KERNEL32.dll.CreateThread
+0x100018cd	0x1000710c	import	0x10001830	KERNEL32.dll.GetTickCount
+0x100018d4	0x10007164	import	0x10001830	MSVCRT.dll.srand
+0x10001920	0x10007168	import	0x10001910	MSVCRT.dll.wcscpy
+0x10001938	0x1000cbc8	string	0x10001910	.WNCRYT
+0x10001945	0x1000cbb8	string	0x10001910	%s\%d%s
+0x1000194b	0x10007180	import	0x10001910	MSVCRT.dll.swprintf
+0x10001a7c	0x1000704c	import	0x10001960	KERNEL32.dll.GetFileSizeEx
+0x10001aa7	0x10007048	import	0x10001960	KERNEL32.dll.GetFileTime
+0x10001ad3	0x1000cbe8	string	0x10001960	WANACRY!
+0x10001ba5	0x10007044	import	0x10001960	KERNEL32.dll.SetFilePointer
+0x10001bc0	0x1000cbd8	string	0x10001960	%s%s
+0x10001bcc	0x10007180	import	0x10001960	MSVCRT.dll.swprintf
+0x10001cdf	0x10007044	import	0x10001960	KERNEL32.dll.SetFilePointer
+0x10001d20	0x10007044	import	0x10001960	KERNEL32.dll.SetFilePointer
+0x10001d54	0x1000715c	import	0x10001960	MSVCRT.dll.rand
+0x10001e1c	0x1000cbe8	string	0x10001960	WANACRY!
+0x10001eef	0x10007044	import	0x10001960	KERNEL32.dll.SetFilePointer
+0x10001f84	0x10007044	import	0x10001960	KERNEL32.dll.SetFilePointer
+0x100020cd	0x10007040	import	0x10001960	KERNEL32.dll.SetFileTime
+0x10002119	0x1000703c	import	0x10001960	KERNEL32.dll.SetFileAttributesW
+0x100021db	0x10007170	import	0x10001960	MSVCRT.dll.wcslen
+0x10002221	0x10007168	import	0x10002200	MSVCRT.dll.wcscpy
+0x10002236	0x1000718c	import	0x10002200	MSVCRT.dll.wcsrchr
+0x10002245	0x1000cc04	string	0x10002200	.WNCYR
+0x1000224b	0x100071d8	import	0x10002200	MSVCRT.dll._wcsicmp
+0x10002256	0x1000cbf4	string	0x10002200	.WNCRY
+0x10002269	0x1000cbf4	string	0x10002200	.WNCRY
+0x1000226f	0x1000716c	import	0x10002200	MSVCRT.dll.wcscat
+0x10002281	0x1000cc04	string	0x10002200	.WNCYR
+0x1000228b	0x1000cbd8	string	0x10002200	%s%s
+0x10002291	0x10007180	import	0x10002200	MSVCRT.dll.swprintf
+0x1000229f	0x10007054	import	0x10002200	KERNEL32.dll.GetFileAttributesW
+0x10002388	0x10007180	import	0x10002300	MSVCRT.dll.swprintf
+0x1000239e	0x10007060	import	0x10002300	KERNEL32.dll.FindFirstFileW
+0x10002419	0x10007194	import	0x10002300	MSVCRT.dll.wcscmp
+0x1000247a	0x1000cca0	string	0x10002300	%s\%s
+0x10002480	0x10007180	import	0x10002300	MSVCRT.dll.swprintf
+0x1000248f	0x10002521	string	0x10002300	9t$8
+0x100024be	0x10007144	import	0x10002300	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Tidy(bool)
+0x100024cc	0x10007170	import	0x10002300	MSVCRT.dll.wcslen
+0x100024e2	0x10007148	import	0x10002300	MSVCP60.dll.sym_imp_public: class std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>> & __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::assign(unsigned short int const *, unsigned int)
+0x10002503	0x100035c0	string	0x10002300	SUVW
+0x10002516	0x10007144	import	0x10002300	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Tidy(bool)
+0x1000252f	0x1000cc74	string	0x10002300	@Please_Read_Me@.txt
+0x10002546	0x1000cc44	string	0x10002300	@WanaDecryptor@.exe.lnk
+0x1000255d	0x1000cc1c	string	0x10002300	@WanaDecryptor@.bmp
+0x100025bf	0x10007190	import	0x10002300	MSVCRT.dll.wcsncpy
+0x10002634	0x1000705c	import	0x10002300	KERNEL32.dll.FindNextFileW
+0x10002643	0x10007058	import	0x10002300	KERNEL32.dll.FindClose
+0x100026a7	0x10007198	import	0x10002300	MSVCRT.dll._wcsnicmp
+0x10002981	0x1000716c	import	0x10002940	MSVCRT.dll.wcscat
+0x10002987	0x1000cc04	string	0x10002940	.WNCYR
+0x10002995	0x1000cc04	string	0x10002940	.WNCYR
+0x10002a17	0x10007070	import	0x100029f0	KERNEL32.dll.Sleep
+0x10002a36	0x1000706c	import	0x100029f0	KERNEL32.dll.EnterCriticalSection
+0x10002a54	0x1000712c	import	0x100029f0	MSVCP60.dll.sym_imp_unsigned short int const `private: static unsigned short int const * __cdecl std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Nullstr(void)'::`2'::_C
+0x10002a69	0x10007170	import	0x100029f0	MSVCRT.dll.wcslen
+0x10002a85	0x10007054	import	0x100029f0	KERNEL32.dll.GetFileAttributesW
+0x10002a91	0x10007054	import	0x100029f0	KERNEL32.dll.GetFileAttributesW
+0x10002a9b	0x1000703c	import	0x100029f0	KERNEL32.dll.SetFileAttributesW
+0x10002ab1	0x1000cbc8	string	0x100029f0	.WNCRYT
+0x10002ac1	0x1000cbb8	string	0x100029f0	%s\%d%s
+0x10002acd	0x10007180	import	0x100029f0	MSVCRT.dll.swprintf
+0x10002af0	0x10007054	import	0x100029f0	KERNEL32.dll.GetFileAttributesW
+0x10002afa	0x1000703c	import	0x100029f0	KERNEL32.dll.SetFileAttributesW
+0x10002b76	0x10007068	import	0x100029f0	KERNEL32.dll.LeaveCriticalSection
+0x10002b89	0x10007064	import	0x100029f0	KERNEL32.dll.ExitThread
+0x10002bd2	0x10007170	import	0x10002ba0	MSVCRT.dll.wcslen
+0x10002bfa	0x1000706c	import	0x10002ba0	KERNEL32.dll.EnterCriticalSection
+0x10002c23	0x10007128	import	0x10002ba0	MSVCP60.dll.sym_imp_private: bool __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Grow(unsigned int, bool)
+0x10002cb8	0x10007068	import	0x10002ba0	KERNEL32.dll.LeaveCriticalSection
+0x10002ce3	0x10007068	import	0x10002ba0	KERNEL32.dll.LeaveCriticalSection
+0x10002d04	0x10007170	import	0x10002ba0	MSVCRT.dll.wcslen
+0x10002d6a	0x1000718c	import	0x10002d60	MSVCRT.dll.wcsrchr
+0x10002d7f	0x100071d8	import	0x10002d60	MSVCRT.dll._wcsicmp
+0x10002d85	0x1000ccd0	string	0x10002d60	.exe
+0x10002d98	0x1000ccc4	string	0x10002d60	.dll
+0x10002dab	0x1000cbf4	string	0x10002d60	.WNCRY
+0x10002e27	0x1000cbc8	string	0x10002d60	.WNCRYT
+0x10002e41	0x1000cc04	string	0x10002d60	.WNCYR
+0x10002fa1	0x10007074	import	0x10002f70	KERNEL32.dll.GetTempFileNameW
+0x10003025	0x10007054	import	0x10003010	KERNEL32.dll.GetFileAttributesW
+0x10003044	0x1000703c	import	0x10003010	KERNEL32.dll.SetFileAttributesW
+0x100030aa	0x1000704c	import	0x10003010	KERNEL32.dll.GetFileSizeEx
+0x1000312e	0x10007044	import	0x10003010	KERNEL32.dll.SetFilePointer
+0x10003176	0x10007078	import	0x10003010	KERNEL32.dll.FlushFileBuffers
+0x1000320e	0x1000cc74	string	0x10003200	@Please_Read_Me@.txt
+0x10003214	0x1000cca0	string	0x10003200	%s\%s
+0x1000321a	0x10007180	import	0x10003200	MSVCRT.dll.swprintf
+0x1000322a	0x1000cc74	string	0x10003200	@Please_Read_Me@.txt
+0x1000322f	0x1000707c	import	0x10003200	KERNEL32.dll.CopyFileW
+0x1000324e	0x1000cc44	string	0x10003240	@WanaDecryptor@.exe.lnk
+0x10003254	0x1000cca0	string	0x10003240	%s\%s
+0x1000325a	0x10007180	import	0x10003240	MSVCRT.dll.swprintf
+0x1000326a	0x1000cc44	string	0x10003240	@WanaDecryptor@.exe.lnk
+0x1000326f	0x1000707c	import	0x10003240	KERNEL32.dll.CopyFileW
+0x1000328e	0x1000cce4	string	0x10003280	@WanaDecryptor@.exe
+0x10003294	0x1000cca0	string	0x10003280	%s\%s
+0x1000329a	0x10007180	import	0x10003280	MSVCRT.dll.swprintf
+0x100032aa	0x1000cce4	string	0x10003280	@WanaDecryptor@.exe
+0x100032af	0x1000707c	import	0x10003280	KERNEL32.dll.CopyFileW
+0x100032cf	0x10007198	import	0x100032c0	MSVCRT.dll._wcsnicmp
+0x100032d5	0x100071e0	import	0x100032c0	MSVCRT.dll.wcsstr
+0x100032f2	0x100071d8	import	0x100032c0	MSVCRT.dll._wcsicmp
+0x10003303	0x1000cec4	string	0x100032c0	\Intel
+0x1000331d	0x1000cea8	string	0x100032c0	\ProgramData
+0x10003337	0x1000ce94	string	0x100032c0	\WINDOWS
+0x10003351	0x1000ce74	string	0x100032c0	\Program Files
+0x1000336b	0x1000ce48	string	0x100032c0	\Program Files (x86)
+0x10003385	0x1000ce20	string	0x100032c0	\AppData\Local\Temp
+0x1000339f	0x1000cdf4	string	0x100032c0	\Local Settings\Temp
+0x100033bd	0x1000cd58	string	0x100032c0	This folder protects against ransomware. Modifying it will reduce protection
+0x100033d7	0x1000cd24	string	0x100032c0	Temporary Internet Files
+0x100033f1	0x1000cd0c	string	0x100032c0	Content.IE5
+0x1000342e	0x1000cf30	string	0x10003410	kernel32.dll
+0x10003433	0x10007100	import	0x10003410	KERNEL32.dll.LoadLibraryA
+0x10003444	0x10007104	import	0x10003410	KERNEL32.dll.GetProcAddress
+0x1000344a	0x1000cf24	string	0x10003410	CreateFileW
+0x10003452	0x1000cf18	string	0x10003410	WriteFile
+0x1000345f	0x1000cf0c	string	0x10003410	ReadFile
+0x1000346c	0x1000cf00	string	0x10003410	MoveFileW
+0x10003479	0x1000cef4	string	0x10003410	MoveFileExW
+0x10003486	0x1000cee8	string	0x10003410	DeleteFileW
+0x10003493	0x1000cedc	string	0x10003410	CloseHandle
+0x10003528	0x10007144	import	0x10003410	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Tidy(bool)
+0x10003851	0x10007130	import	0x10003810	MSVCP60.dll.sym_imp_unsigned int const std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::npos
+0x1000386e	0x10007134	import	0x10003810	MSVCP60.dll.sym_imp_void __cdecl std::_Xran(void)
+0x10003876	0x10007138	import	0x10003810	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Split(void)
+0x100038ad	0x10007128	import	0x10003810	MSVCP60.dll.sym_imp_private: bool __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Grow(unsigned int, bool)
+0x100038ba	0x1000713c	import	0x10003810	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Eos(unsigned int)
+0x100038c2	0x10007138	import	0x10003810	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Split(void)
+0x100038f9	0x10007144	import	0x10003810	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Tidy(bool)
+0x1000393a	0x10007128	import	0x10003810	MSVCP60.dll.sym_imp_private: bool __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Grow(unsigned int, bool)
+0x1000394b	0x1000712c	import	0x10003810	MSVCP60.dll.sym_imp_unsigned short int const `private: static unsigned short int const * __cdecl std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::_Nullstr(void)'::`2'::_C
+0x10003a28	0x10007038	import	0x10003a10	KERNEL32.dll.InitializeCriticalSection
+0x10003a6a	0x100070e0	import	0x10003a60	KERNEL32.dll.DeleteCriticalSection
+0x10003a94	0x1000d168	string	0x10003a80	Microsoft Enhanced RSA and AES Cryptographic Provider
+0x10003be7	0x10007008	import	0x10003bb0	ADVAPI32.dll.CryptReleaseContext
+0x10003ca3	0x10007084	import	0x10003c40	KERNEL32.dll.CreateFileA
+0x10003cb8	0x10007044	import	0x10003c40	KERNEL32.dll.SetFilePointer
+0x10003cbe	0x10007080	import	0x10003c40	KERNEL32.dll.WriteFile
+0x10003ce7	0x10007108	import	0x10003c40	KERNEL32.dll.GlobalFree
+0x10003ea1	0x1000719c	import	0x10003d10	MSVCRT.dll.strncmp
+0x10003f45	0x10007084	import	0x10003f00	KERNEL32.dll.CreateFileA
+0x10003f5b	0x10007120	import	0x10003f00	KERNEL32.dll.GetFileSize
+0x10003f8a	0x100070fc	import	0x10003f00	KERNEL32.dll.GlobalAlloc
+0x10003fa2	0x10007088	import	0x10003f00	KERNEL32.dll.ReadFile
+0x10003ffb	0x10007108	import	0x10003f00	KERNEL32.dll.GlobalFree
+0x1000400a	0x100070f8	import	0x10003f00	KERNEL32.dll.CloseHandle
+0x10004087	0x10007004	import	0x10004040	ADVAPI32.dll.CryptExportKey
+0x1000409e	0x100070fc	import	0x10004040	KERNEL32.dll.GlobalAlloc
+0x100040c0	0x10007004	import	0x10004040	ADVAPI32.dll.CryptExportKey
+0x10004101	0x10007084	import	0x10004040	KERNEL32.dll.CreateFileA
+0x10004122	0x10007080	import	0x10004040	KERNEL32.dll.WriteFile
+0x10004158	0x10007108	import	0x10004040	KERNEL32.dll.GlobalFree
+0x10004167	0x100070f8	import	0x10004040	KERNEL32.dll.CloseHandle
+0x100041ad	0x10007004	import	0x10004170	ADVAPI32.dll.CryptExportKey
+0x100041df	0x10007030	import	0x10004170	ADVAPI32.dll.CryptGetKeyParam
+0x10004229	0x100070fc	import	0x10004170	KERNEL32.dll.GlobalAlloc
+0x10004235	0x10004254	string	0x10004170	;߉D$ blocks=Basic Latin,NKo
+0x10004320	0x10007108	import	0x10004170	KERNEL32.dll.GlobalFree
+0x100043ca	0x1000706c	import	0x10004370	KERNEL32.dll.EnterCriticalSection
+0x100043f2	0x10007068	import	0x10004370	KERNEL32.dll.LeaveCriticalSection
+0x10004401	0x10007068	import	0x10004370	KERNEL32.dll.LeaveCriticalSection
+0x1000442e	0x1000702c	import	0x10004420	ADVAPI32.dll.CryptGenRandom
+0x10004451	0x1000c058	string	0x10004440	advapi32.dll
+0x10004456	0x10007100	import	0x10004440	KERNEL32.dll.LoadLibraryA
+0x10004467	0x10007104	import	0x10004440	KERNEL32.dll.GetProcAddress
+0x1000446d	0x1000d1f8	string	0x10004440	CryptAcquireContextA
+0x10004475	0x1000d1e8	string	0x10004440	CryptImportKey
+0x10004482	0x1000d1d8	string	0x10004440	CryptDestroyKey
+0x1000448f	0x1000d1c8	string	0x10004440	CryptEncrypt
+0x1000449c	0x1000d1b8	string	0x10004440	CryptDecrypt
+0x100044a9	0x1000d1ac	string	0x10004440	CryptGenKey
+0x10004522	0x1000d4e8	string	0x10004500	%08X.dky
+0x10004528	0x10007158	import	0x10004500	MSVCRT.dll.sprintf
+0x1000452e	0x10007090	import	0x10004500	KERNEL32.dll.GetFileAttributesA
+0x10004604	0x1000d520	string	0x10004600	Global\MsWinZonesCacheCounterMutexW
+0x10004610	0x10007098	import	0x10004600	KERNEL32.dll.OpenMutexA
+0x1000461b	0x100070f8	import	0x10004600	KERNEL32.dll.CloseHandle
+0x10004634	0x1000d4fc	string	0x10004600	Global\MsWinZonesCacheCounterMutexA
+0x10004639	0x1000d4f4	string	0x10004600	%s%d
+0x1000463f	0x10007158	import	0x10004600	MSVCRT.dll.sprintf
+0x10004651	0x10007094	import	0x10004600	KERNEL32.dll.CreateMutexA
+0x1000465d	0x100070f4	import	0x10004600	KERNEL32.dll.GetLastError
+0x1000466b	0x100070f8	import	0x10004600	KERNEL32.dll.CloseHandle
+0x1000469a	0x10007094	import	0x10004690	KERNEL32.dll.CreateMutexA
+0x100046a6	0x100070f4	import	0x10004690	KERNEL32.dll.GetLastError
+0x100046b4	0x100070f8	import	0x10004690	KERNEL32.dll.CloseHandle
+0x100046e6	0x10007084	import	0x100046d0	KERNEL32.dll.CreateFileA
+0x10004712	0x10007088	import	0x100046d0	KERNEL32.dll.ReadFile
+0x10004719	0x100070f8	import	0x100046d0	KERNEL32.dll.CloseHandle
+0x10004749	0x10007084	import	0x10004730	KERNEL32.dll.CreateFileA
+0x10004775	0x10007080	import	0x10004730	KERNEL32.dll.WriteFile
+0x1000477c	0x100070f8	import	0x10004730	KERNEL32.dll.CloseHandle
+0x100047fd	0x1000d57c	string	0x100047f0	HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+0x1000485d	0x1000d544	string	0x100047f0	cmd.exe /c reg add %s /v "%s" /t REG_SZ /d "\"%s\"" /f
+0x10004863	0x10007158	import	0x100047f0	MSVCRT.dll.sprintf
+0x100048cd	0x1000d5c4	string	0x10004890	@WanaDecryptor@.exe
+0x100048d3	0x1000709c	import	0x10004890	KERNEL32.dll.GetFullPathNameA
+0x100048e5	0x1000d5b8	string	0x10004890	taskse.exe
+0x100048ea	0x1000d5b0	string	0x10004890	%s %s
+0x100048f0	0x10007158	import	0x10004890	MSVCRT.dll.sprintf
+0x10004946	0x1000d5c4	string	0x10004890	@WanaDecryptor@.exe
+0x1000495f	0x10007110	import	0x10004890	KERNEL32.dll.CreateProcessA
+0x1000496e	0x100070f8	import	0x10004890	KERNEL32.dll.CloseHandle
+0x10004a7b	0x100071e8	import	0x10004a40	SHELL32.dll.SHGetFolderPathW
+0x10004a9e	0x10007170	import	0x10004a40	MSVCRT.dll.wcslen
+0x10004ac0	0x1000718c	import	0x10004a40	MSVCRT.dll.wcsrchr
+0x10004ae9	0x100071a0	import	0x10004a40	MSVCRT.dll.wcschr
+0x10004b25	0x10007170	import	0x10004a40	MSVCRT.dll.wcslen
+0x10004b3d	0x1000718c	import	0x10004a40	MSVCRT.dll.wcsrchr
+0x10004b81	0x1000d5fc	string	0x10004a40	%s\*.*
+0x10004b87	0x10007180	import	0x10004a40	MSVCRT.dll.swprintf
+0x10004ba0	0x10007060	import	0x10004a40	KERNEL32.dll.FindFirstFileW
+0x10004bd7	0x10007194	import	0x10004a40	MSVCRT.dll.wcscmp
+0x10004bf5	0x10007194	import	0x10004a40	MSVCRT.dll.wcscmp
+0x10004c29	0x1000d5e8	string	0x10004a40	%s\%s\%s
+0x10004c2f	0x10007180	import	0x10004a40	MSVCRT.dll.swprintf
+0x10004c51	0x10007194	import	0x10004a40	MSVCRT.dll.wcscmp
+0x10004c73	0x1000d5e8	string	0x10004a40	%s\%s\%s
+0x10004c79	0x10007180	import	0x10004a40	MSVCRT.dll.swprintf
+0x10004ca2	0x1000705c	import	0x10004a40	KERNEL32.dll.FindNextFileW
+0x10004cb5	0x10007058	import	0x10004a40	KERNEL32.dll.FindClose
+0x10004cd7	0x10007054	import	0x10004cd0	KERNEL32.dll.GetFileAttributesW
+0x10004cdd	0x1000cce4	string	0x10004cd0	@WanaDecryptor@.exe
+0x10004ceb	0x1000d5c4	string	0x10004cd0	@WanaDecryptor@.exe
+0x10004cf0	0x1000d704	string	0x10004cd0	u.wnry
+0x10004cf5	0x100070a0	import	0x10004cd0	KERNEL32.dll.CopyFileA
+0x10004cfb	0x1000cc44	string	0x10004cd0	@WanaDecryptor@.exe.lnk
+0x10004d11	0x1000d628	string	0x10004cd0	@echo off\r\necho SET ow = WScript.CreateObject("WScript.Shell")> m.vbs\r\necho SET om = ow.CreateShortcut("%s%s")>> m.vbs\r\necho om.TargetPath = "%s%s">> m.vbs\r\necho om.Save>> m.vbs\r\ncscript.exe //nologo m.vbs\r\ndel m.vbs\r\n
+0x10004d45	0x100070e8	import	0x10004cd0	KERNEL32.dll.GetCurrentDirectoryA
+0x10004da2	0x1000d5c4	string	0x10004cd0	@WanaDecryptor@.exe
+0x10004dac	0x1000d60c	string	0x10004cd0	@WanaDecryptor@.exe.lnk
+0x10004dc2	0x10007158	import	0x10004cd0	MSVCRT.dll.sprintf
+0x10004dfd	0x1000cc74	string	0x10004df0	@Please_Read_Me@.txt
+0x10004e02	0x10007054	import	0x10004df0	KERNEL32.dll.GetFileAttributesW
+0x10004e16	0x1000d738	string	0x10004df0	r.wnry
+0x10004e1b	0x10007150	import	0x10004df0	MSVCRT.dll.fopen
+0x10004e50	0x10007188	import	0x10004df0	MSVCRT.dll.fread
+0x10004e56	0x100071d4	import	0x10004df0	MSVCRT.dll.fclose
+0x10004e64	0x1000cc74	string	0x10004df0	@Please_Read_Me@.txt
+0x10004e69	0x100071a4	import	0x10004df0	MSVCRT.dll._wfopen
+0x10004e90	0x10007158	import	0x10004df0	MSVCRT.dll.sprintf
+0x10004e9b	0x1000d718	string	0x10004df0	$%d worth of bitcoin
+0x10004eae	0x10007158	import	0x10004df0	MSVCRT.dll.sprintf
+0x10004ebe	0x1000d70c	string	0x10004df0	%.1f BTC
+0x10004ec9	0x1000d5c4	string	0x10004df0	@WanaDecryptor@.exe
+0x10004f03	0x100071d0	import	0x10004df0	MSVCRT.dll.fwrite
+0x10004f64	0x10007180	import	0x10004df0	MSVCRT.dll.swprintf
+0x10004f6a	0x1000cc1c	string	0x10004df0	@WanaDecryptor@.bmp
+0x10004f76	0x1000cca0	string	0x10004df0	%s\%s
+0x10004f90	0x1000d740	string	0x10004df0	b.wnry
+0x10004f99	0x10007050	import	0x10004df0	KERNEL32.dll.MultiByteToWideChar
+0x10004f9f	0x1000707c	import	0x10004df0	KERNEL32.dll.CopyFileW
+0x10004ff0	0x10007020	import	0x10004df0	ADVAPI32.dll.GetUserNameW
+0x10005006	0x100071d8	import	0x10004df0	MSVCRT.dll._wcsicmp
+0x1000501e	0x100071f0	import	0x10004df0	USER32.dll.SystemParametersInfoW
+0x10005024	0x1000cce4	string	0x10004df0	@WanaDecryptor@.exe
+0x1000502e	0x1000cca0	string	0x10004df0	%s\%s
+0x10005040	0x1000cce4	string	0x10004df0	@WanaDecryptor@.exe
+0x10005075	0x100070ac	import	0x10005060	KERNEL32.dll.GetWindowsDirectoryW
+0x10005094	0x100070a8	import	0x10005060	KERNEL32.dll.GetTempPathW
+0x1000509a	0x10007170	import	0x10005060	MSVCRT.dll.wcslen
+0x100050d0	0x1000d778	string	0x10005060	$RECYCLE
+0x100050d6	0x1000d768	string	0x10005060	%C:\%s
+0x100050dc	0x10007180	import	0x10005060	MSVCRT.dll.swprintf
+0x100050e8	0x100070a4	import	0x10005060	KERNEL32.dll.CreateDirectoryW
+0x100050ee	0x1000d75c	string	0x10005060	$RECYCLE
+0x100050f8	0x1000d748	string	0x10005060	attrib +h +s %C:\%s
+0x100050fe	0x10007158	import	0x10005060	MSVCRT.dll.sprintf
+0x1000515e	0x1000cbc8	string	0x10005120	.WNCRYT
+0x10005164	0x1000d78c	string	0x10005120	%s\hibsys%s
+0x1000516a	0x10007180	import	0x10005120	MSVCRT.dll.swprintf
+0x10005174	0x100070b0	import	0x10005120	KERNEL32.dll.DeleteFileW
+0x100051c0	0x100070c0	import	0x10005190	KERNEL32.dll.GetDriveTypeW
+0x100051d6	0x100070fc	import	0x10005190	KERNEL32.dll.GlobalAlloc
+0x1000522c	0x100070bc	import	0x10005190	KERNEL32.dll.CreateFileW
+0x1000523a	0x10007108	import	0x10005190	KERNEL32.dll.GlobalFree
+0x10005254	0x100070b8	import	0x10005190	KERNEL32.dll.MoveFileExW
+0x10005263	0x10007070	import	0x10005190	KERNEL32.dll.Sleep
+0x1000527d	0x100070b4	import	0x10005190	KERNEL32.dll.GetDiskFreeSpaceExW
+0x100052a9	0x10007080	import	0x10005190	KERNEL32.dll.WriteFile
+0x100052ce	0x10007108	import	0x10005190	KERNEL32.dll.GlobalFree
+0x100052d5	0x10007078	import	0x10005190	KERNEL32.dll.FlushFileBuffers
+0x100052dc	0x100070f8	import	0x10005190	KERNEL32.dll.CloseHandle
+0x100052e7	0x100070b0	import	0x10005190	KERNEL32.dll.DeleteFileW
+0x1000530a	0x10007070	import	0x10005190	KERNEL32.dll.Sleep
+0x10005314	0x1000d7ac	string	0x10005190	taskdl.exe
+0x1000538b	0x1000d7bc	string	0x10005190	f.wnry
+0x10005390	0x10007150	import	0x10005190	MSVCRT.dll.fopen
+0x100053bb	0x100070c4	import	0x10005190	KERNEL32.dll.WideCharToMultiByte
+0x100053cc	0x10007154	import	0x10005190	MSVCRT.dll.fprintf
+0x100053d3	0x100071d4	import	0x10005190	MSVCRT.dll.fclose
+0x10005423	0x10007020	import	0x10005190	ADVAPI32.dll.GetUserNameW
+0x10005436	0x100071d8	import	0x10005190	MSVCRT.dll._wcsicmp
+0x100054a1	0x100071e8	import	0x10005480	SHELL32.dll.SHGetFolderPathW
+0x100054b8	0x10007170	import	0x10005480	MSVCRT.dll.wcslen
+0x1000557e	0x100070cc	import	0x10005540	KERNEL32.dll.InterlockedExchangeAdd
+0x10005586	0x10005668	string	0x10005540	_^][
+0x1000558c	0x100070b4	import	0x10005540	KERNEL32.dll.GetDiskFreeSpaceExW
+0x10005592	0x10007070	import	0x10005540	KERNEL32.dll.Sleep
+0x100055de	0x100070c0	import	0x10005540	KERNEL32.dll.GetDriveTypeW
+0x100055ee	0x10005668	string	0x10005540	_^][
+0x100055f2	0x100070c0	import	0x10005540	KERNEL32.dll.GetDriveTypeW
+0x10005602	0x10005668	string	0x10005540	_^][
+0x1000560a	0x100070c8	import	0x10005540	KERNEL32.dll.InterlockedExchange
+0x10005814	0x1000d7bc	string	0x100057c0	f.wnry
+0x10005819	0x10007090	import	0x100057c0	KERNEL32.dll.GetFileAttributesA
+0x1000583d	0x10007160	import	0x100057c0	MSVCRT.dll.time
+0x10005850	0x1000d5c4	string	0x100057c0	@WanaDecryptor@.exe
+0x10005859	0x1000d8a0	string	0x100057c0	%s fi
+0x1000585f	0x10007158	import	0x100057c0	MSVCRT.dll.sprintf
+0x100058ad	0x100070c0	import	0x100057c0	KERNEL32.dll.GetDriveTypeW
+0x100058c1	0x100070c8	import	0x100057c0	KERNEL32.dll.InterlockedExchange
+0x100058d7	0x1000d874	string	0x100057c0	taskkill.exe /f /im Microsoft.Exchange.*
+0x100058e5	0x1000d854	string	0x100057c0	taskkill.exe /f /im MSExchange*
+0x100058f3	0x1000d830	string	0x100057c0	taskkill.exe /f /im sqlserver.exe
+0x10005901	0x1000d80c	string	0x100057c0	taskkill.exe /f /im sqlwriter.exe
+0x1000590f	0x1000d7ec	string	0x100057c0	taskkill.exe /f /im mysqld.exe
+0x1000591c	0x100070d0	import	0x100057c0	KERNEL32.dll.GetLogicalDrives
+0x100059a4	0x100070c8	import	0x100057c0	KERNEL32.dll.InterlockedExchange
+0x100059ce	0x1000d5c4	string	0x100057c0	@WanaDecryptor@.exe
+0x100059d7	0x1000d7e4	string	0x100057c0	%s co
+0x100059dd	0x10007158	import	0x100057c0	MSVCRT.dll.sprintf
+0x100059f6	0x10007160	import	0x100057c0	MSVCRT.dll.time
+0x10005a10	0x1000d5c4	string	0x100057c0	@WanaDecryptor@.exe
+0x10005a19	0x1000d7c8	string	0x100057c0	cmd.exe /c start /b %s vs
+0x10005a1f	0x10007158	import	0x100057c0	MSVCRT.dll.sprintf
+0x10005a98	0x10007070	import	0x100057c0	KERNEL32.dll.Sleep
+0x10005b45	0x100070dc	import	0x100057c0	KERNEL32.dll.GetModuleFileNameW
+0x10005b4b	0x1000718c	import	0x100057c0	MSVCRT.dll.wcsrchr
+0x10005b75	0x100070d8	import	0x100057c0	KERNEL32.dll.SetCurrentDirectoryW
+0x10005ba9	0x10007158	import	0x100057c0	MSVCRT.dll.sprintf
+0x10005bb0	0x1000d8c0	string	0x100057c0	%08X.res
+0x10005bc0	0x1000d8b4	string	0x100057c0	%08X.pky
+0x10005bd0	0x1000d8a8	string	0x100057c0	%08X.eky
+0x10005c66	0x100070d4	import	0x100057c0	KERNEL32.dll.DeleteFileA
+0x10005c9e	0x1000708c	import	0x100057c0	KERNEL32.dll.CreateThread
+0x10005cb0	0x100070f8	import	0x100057c0	KERNEL32.dll.CloseHandle
+0x10005cbd	0x10007070	import	0x100057c0	KERNEL32.dll.Sleep
+0x10005ce1	0x10005730	string	0x100057c0	SUVW
+0x10005d34	0x10007114	import	0x100057c0	KERNEL32.dll.WaitForSingleObject
+0x10005d4c	0x1000708c	import	0x100057c0	KERNEL32.dll.CreateThread
+0x10005d57	0x10007114	import	0x100057c0	KERNEL32.dll.WaitForSingleObject
+0x10005d5e	0x100070f8	import	0x100057c0	KERNEL32.dll.CloseHandle
+0x10005ddf	0x100071b4	import	0x10005dc0	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x10005e18	0x100071b4	import	0x10005dc0	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x10005e51	0x100071b4	import	0x10005dc0	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x1000629a	0x100071b4	import	0x10006280	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x10006659	0x100071b4	import	0x10006640	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x10006858	0x10006927	string	0x10006640	_^][
+0x10006959	0x100071b4	import	0x10006940	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x100069b9	0x10006a41	string	0x10006940	_^][
+0x10006a54	0x100071b4	import	0x10006940	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x10006a8a	0x10006a41	string	0x10006940	_^][
+0x10006b1f	0x100071b4	import	0x10006940	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(char const * const const &)
+0x10006b44	0x10006a41	string	0x10006940	_^][
+0x10006ba0	0x10007174	import	0x10006ba0	MSVCRT.dll.sym_imp_void * __cdecl operator new(unsigned int)
+0x10006ba6	0x10007178	import	0x10006ba0	MSVCRT.dll.__CxxFrameHandler
+0x10006bb0	0x1000717c	import	0x10006bb0	MSVCRT.dll.sym_imp_void __cdecl operator delete(void *)
+0x10006bb6	0x10007184	import	0x10006bb0	MSVCRT.dll._except_handler3
+0x10006bbc	0x100071dc	import	0x10006bbc	MSVCRT.dll._local_unwind2
+0x10006c00	0x100071a8	import	0x10006c00	MSVCRT.dll._ftol
+0x10006c06	0x100071ac	import	0x10006c00	MSVCRT.dll.sym_imp_public: void __thiscall exception::constructor(class exception const &)
+0x10006c2e	0x100071b8	import	0x10006c2e	MSVCRT.dll._CxxThrowException
+0x10006c4a	0x100071cc	import	0x10006c34	MSVCRT.dll._adjust_fdiv
+0x10006c62	0x100071c8	import	0x10006c34	MSVCRT.dll.malloc
+0x10006cca	0x100071c0	import	0x10006c34	MSVCRT.dll.free
+0x10006d7c	0x100071bc	import	0x10006d7c	MSVCRT.dll.sym_imp_public virtual: void __thiscall type_info::~destructor(void)
+0x10006d82	0x100071c4	import	0x10006d82	MSVCRT.dll._initterm
+0x10006e1c	0x10007140	import	0x10006d82	MSVCP60.dll.sym_imp_public: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::~destructor(void)
+0x10006e53	0x10007140	import	0x10006d82	MSVCP60.dll.sym_imp_public: void __thiscall std::basic_string<unsigned short int, struct std::char_traits<unsigned short int>, class std::allocator<unsigned short int>>::~destructor(void)

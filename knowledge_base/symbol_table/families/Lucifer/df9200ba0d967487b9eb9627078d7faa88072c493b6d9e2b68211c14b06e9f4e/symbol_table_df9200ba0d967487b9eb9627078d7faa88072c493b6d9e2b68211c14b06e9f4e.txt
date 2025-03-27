@@ -1,0 +1,135 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x10001031	0x1000616c	string	0x10001010	ConnectedTcp
+0x10001049	0x10006160	string	0x10001010	LPFilename
+0x1000105b	0x10006150	string	0x10001010	ImplantFilename
+0x10001070	0x10006144	string	0x10001010	LPEntryName
+0x10001088	0x1000613c	string	0x10001010	XorMask
+0x1000109d	0x1000612c	string	0x10001010	NetworkTimeout
+0x100010b2	0x10006114	string	0x10001010	TargetOsArchitecture
+0x100010c7	0x10006108	string	0x10001010	PCBehavior
+0x100010ed	0x10006058	import	0x10001010	msvcrt.dll.atoi
+0x1000131b	0x100062c4	string	0x100012f0	\t[-] Reading Implant Payload '%s' failed!\n
+0x1000133c	0x100062ac	string	0x100012f0	Loaded implant len %d\n
+0x10001382	0x10006288	string	0x100012f0	\t[-] Failed to Prepare Payload!\n
+0x100013da	0x10006260	string	0x100012f0	\t[-] Unsupported Target Architecture\n
+0x10001455	0x10006044	import	0x10001400	WS2_32.dll.select
+0x10001476	0x10006048	import	0x10001400	WS2_32.dll.recv
+0x1000148b	0x1000604c	import	0x10001400	WS2_32.dll.WSASetLastError
+0x100014ad	0x10006050	import	0x100014a0	WS2_32.dll.send
+0x100014fe	0x10006430	string	0x100014f0	\t[+] Payload Size : %d\n
+0x1000151b	0x10006414	string	0x100014f0	\t[+] Payload XOR Mask: %d\n
+0x1000152b	0x100063ec	string	0x100014f0	\t[+] Sending Implant Size To Target\n
+0x10001540	0x100063d0	string	0x100014f0	\t\t[+] Size: %d (0x%08x)\n
+0x10001561	0x10006050	import	0x100014f0	WS2_32.dll.send
+0x10001571	0x100063bc	string	0x100014f0	\t[-] Send Failed!\n
+0x10001589	0x1000639c	string	0x100014f0	\t\t[+] Checking Remote Status\n
+0x100015b9	0x1000637c	string	0x100014f0	\t\t[-] Recv Failed! Retval: %d\n
+0x100015e3	0x1000635c	string	0x100014f0	\t\t[-] Remote Status ERROR: %d!\n
+0x100015fd	0x10006340	string	0x100014f0	\t\t[+] Remote Status OKAY\n
+0x1000160e	0x10006064	import	0x100014f0	msvcrt.dll.malloc
+0x10001626	0x10006334	string	0x100014f0	Raw Payload
+0x10001644	0x10006324	string	0x100014f0	Encoded Payload
+0x10001657	0x10006304	string	0x100014f0	\t[+] Sending Implant To Target\n
+0x1000167c	0x100063bc	string	0x100014f0	\t[-] Send Failed!\n
+0x10001694	0x1000639c	string	0x100014f0	\t\t[+] Checking Remote Status\n
+0x100016c3	0x100062f0	string	0x100014f0	\t\t[-] Recv Failed!\n
+0x100016ea	0x1000635c	string	0x100014f0	\t\t[-] Remote Status ERROR: %d!\n
+0x100016ff	0x10006340	string	0x100014f0	\t\t[+] Remote Status OKAY\n
+0x10001716	0x10006060	import	0x100014f0	msvcrt.dll.free
+0x1000174d	0x100064dc	string	0x10001740	\t[+] LoadLibrary on %s\n
+0x10001763	0x10006008	import	0x10001740	KERNEL32.dll.LoadLibraryA
+0x10001775	0x100064bc	string	0x10001740	\t[-] LoadLibrary Failed on %s\n
+0x10001793	0x1000649c	string	0x10001740	\t[+] GetProcAddress for : %s\n
+0x100017a8	0x10006000	import	0x10001740	KERNEL32.dll.GetProcAddress
+0x100017b7	0x1000647c	string	0x10001740	\t[-] GetProcAddress Failed on \n
+0x100017c8	0x10006004	import	0x10001740	KERNEL32.dll.FreeLibrary
+0x100017d8	0x10006460	string	0x10001740	\t[+] Calling Entry point\n
+0x100017ee	0x10006448	string	0x10001740	[*] Payload Finished.\n
+0x10001801	0x10006004	import	0x10001740	KERNEL32.dll.FreeLibrary
+0x1000185a	0x10001d99	string	0x1000180e	_^[]æ blocks=Basic Latin,Latin-1 Supplement
+0x100018b3	0x10001d99	string	0x1000180e	_^[]æ blocks=Basic Latin,Latin-1 Supplement
+0x10001f24	0x10006060	import	0x10001f24	msvcrt.dll.free
+0x1000298e	0x1000606c	import	0x1000297a	msvcrt.dll.calloc
+0x1000299d	0x100029e3	string	0x1000297a	_^[]
+0x100029fc	0x1000606c	import	0x100029e8	msvcrt.dll.calloc
+0x10002a0b	0x10002a51	string	0x100029e8	_^[]
+0x10002a6a	0x1000606c	import	0x10002a56	msvcrt.dll.calloc
+0x10002a79	0x10002abf	string	0x10002a56	_^[]
+0x10002ad8	0x1000606c	import	0x10002ac4	msvcrt.dll.calloc
+0x10002ae7	0x10002b34	string	0x10002ac4	_^[]
+0x10002b4d	0x1000606c	import	0x10002b39	msvcrt.dll.calloc
+0x10002b5c	0x10002ba9	string	0x10002b39	_^[]
+0x10002bc2	0x1000606c	import	0x10002bae	msvcrt.dll.calloc
+0x10002bd1	0x10002c1e	string	0x10002bae	_^[]
+0x10002c37	0x1000606c	import	0x10002c23	msvcrt.dll.calloc
+0x10002c46	0x10002c87	string	0x10002c23	_^[]
+0x10002ca0	0x1000606c	import	0x10002c8c	msvcrt.dll.calloc
+0x10002caf	0x10002cf0	string	0x10002c8c	_^[]
+0x10002d09	0x1000606c	import	0x10002cf5	msvcrt.dll.calloc
+0x10002d18	0x10002d59	string	0x10002cf5	_^[]
+0x10002d72	0x1000606c	import	0x10002d5e	msvcrt.dll.calloc
+0x10002de1	0x1000606c	import	0x10002dcd	msvcrt.dll.calloc
+0x10002e50	0x1000606c	import	0x10002e3c	msvcrt.dll.calloc
+0x100043e1	0x1000606c	import	0x100043cd	msvcrt.dll.calloc
+0x100043f0	0x10004436	string	0x100043cd	_^[]
+0x1000444f	0x1000606c	import	0x1000443b	msvcrt.dll.calloc
+0x1000445e	0x1000449f	string	0x1000443b	_^[]
+0x100044b8	0x1000606c	import	0x100044a4	msvcrt.dll.calloc
+0x100044c7	0x10004514	string	0x100044a4	_^[]
+0x1000452d	0x1000606c	import	0x10004519	msvcrt.dll.calloc
+0x10004593	0x100045b2	string	0x10004588	]ËT$ blocks=Basic Latin,Latin-1 Supplement
+0x1000467c	0x10006084	import	0x1000467c	tibe-2.dll.TbWinsockCleanup
+0x10004682	0x10006088	import	0x10004682	tibe-2.dll.TbCloseSocket
+0x10004688	0x1000608c	import	0x10004688	tibe-2.dll.TbWinsockStartup
+0x1000468e	0x100060d8	import	0x1000468e	trfo-2.dll.TfStrICmp
+0x10004694	0x100060d4	import	0x10004694	trfo-2.dll.TfFree
+0x1000469a	0x100060d0	import	0x1000469a	trfo-2.dll.TfReadFileIntoBuffer
+0x100046a0	0x100060cc	import	0x100046a0	trfo-2.dll.TfXorBuffer
+0x100046a6	0x100060c8	import	0x100046a6	trfo-2.dll.TfFillRandom
+0x100046ac	0x100060c4	import	0x100046a6	trfo-2.dll.TfRandomByte
+0x100046b2	0x100060c0	import	0x100046b2	trfo-2.dll.TfNrvCompress
+0x100046b8	0x100060dc	import	0x100046b8	trfo-2.dll.TfNrvCalculateMaxExpansion
+0x100046be	0x100060b8	import	0x100046be	trch-1.dll.Paramchoice_hasValidValue
+0x100046c4	0x100060b4	import	0x100046c4	trch-1.dll.Paramchoice_getValue
+0x100046ca	0x100060b0	import	0x100046ca	trch-1.dll.Params_findParamchoice
+0x100046d0	0x100060ac	import	0x100046d0	trch-1.dll.Parameter_S16_getValue
+0x100046d6	0x100060a8	import	0x100046d6	trch-1.dll.Parameter_U8_getValue
+0x100046dc	0x100060a4	import	0x100046dc	trch-1.dll.Parameter_String_getValue
+0x100046e2	0x100060a0	import	0x100046e2	trch-1.dll.Parameter_LocalFile_getValue
+0x100046e8	0x1000609c	import	0x100046e8	trch-1.dll.Parameter_Socket_getValue
+0x100046ee	0x10006098	import	0x100046ee	trch-1.dll.Params_findParameter
+0x100046f4	0x10006094	import	0x100046f4	trch-1.dll.Parameter_markInvalidWithReason
+0x100046fa	0x100060e8	import	0x100046fa	tucl-1.dll.TcLog
+0x10004700	0x100060e4	import	0x10004700	tucl-1.dll.TcLogBuffer
+0x100048a8	0x100048b3	string	0x1000489e	_^[]
+0x10004959	0x1000486e	string	0x100048d0	UVWS
+0x10004a52	0x1000605c	import	0x10004a52	msvcrt.dll.memset
+0x10004a58	0x10006068	import	0x10004a58	msvcrt.dll.memcpy
+0x10004a89	0x10004a9a	string	0x10004a7e	;u\fr
+0x10004aa7	0x10006064	import	0x10004a7e	msvcrt.dll.malloc
+0x10004ae2	0x1000607c	import	0x10004ac4	msvcrt.dll._adjust_fdiv
+0x10004b03	0x1000602c	import	0x10004ac4	KERNEL32.dll.InterlockedCompareExchange
+0x10004b24	0x10006030	import	0x10004ac4	KERNEL32.dll.Sleep
+0x10004b98	0x10006034	import	0x10004ac4	KERNEL32.dll.InterlockedExchange
+0x10004bab	0x100050f6	string	0x10004ac4	j\bh8f
+0x10004bd6	0x1000602c	import	0x10004ac4	KERNEL32.dll.InterlockedCompareExchange
+0x10004be9	0x10006030	import	0x10004ac4	KERNEL32.dll.Sleep
+0x10004c33	0x10006060	import	0x10004ac4	msvcrt.dll.free
+0x10004c55	0x10006034	import	0x10004ac4	KERNEL32.dll.InterlockedExchange
+0x10004d68	0x10004e0a	string	0x10004ac4	9u\ft
+0x10004d71	0x10004e0a	string	0x10004ac4	9u\ft
+0x10004ddc	0x10004e0a	string	0x10004ac4	9u\ft
+0x10004f87	0x1000601c	import	0x10004ecc	KERNEL32.dll.SetUnhandledExceptionFilter
+0x10004f92	0x10006020	import	0x10004ecc	KERNEL32.dll.UnhandledExceptionFilter
+0x10004f9d	0x10006024	import	0x10004ecc	KERNEL32.dll.GetCurrentProcess
+0x10004fa4	0x10006028	import	0x10004ecc	KERNEL32.dll.TerminateProcess
+0x100050e3	0x100050f1	string	0x100050b0	_^[]
+0x100051a4	0x10006070	import	0x100051a4	msvcrt.dll._XcptFilter
+0x100051aa	0x10006074	import	0x100051aa	msvcrt.dll._initterm
+0x100051b0	0x10006078	import	0x100051b0	msvcrt.dll._amsg_exit
+0x1000526e	0x1000603c	import	0x1000523a	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000527a	0x1000600c	import	0x1000523a	KERNEL32.dll.GetCurrentProcessId
+0x10005282	0x10006010	import	0x1000523a	KERNEL32.dll.GetCurrentThreadId
+0x1000528a	0x10006014	import	0x1000523a	KERNEL32.dll.GetTickCount
+0x10005296	0x10006018	import	0x1000523a	KERNEL32.dll.QueryPerformanceCounter
+0x100052c0	0x10006038	import	0x100052c0	KERNEL32.dll.RtlUnwind

@@ -1,0 +1,564 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401015	0x4091cc	import	0x401000	KERNEL32.dll.VirtualAlloc
+0x4010e9	0x4091d0	import	0x401000	KERNEL32.dll.GetProcAddress
+0x4010fe	0x4091d4	import	0x401000	KERNEL32.dll.LoadLibraryA
+0x4012d6	0x409264	import	0x40124c	WS2_32.dll.inet_addr
+0x401309	0x4091c8	import	0x40124c	KERNEL32.dll.InitializeCriticalSection
+0x40131f	0x40926c	import	0x401313	msvcrt.dll._time64
+0x401334	0x4091bc	import	0x401313	KERNEL32.dll.EnterCriticalSection
+0x40135a	0x409270	import	0x401313	msvcrt.dll.free
+0x40136e	0x409274	import	0x401313	msvcrt.dll._wcsicmp
+0x40139e	0x4091c0	import	0x401313	KERNEL32.dll.LeaveCriticalSection
+0x4013b8	0x40926c	import	0x4013ac	msvcrt.dll._time64
+0x4013cb	0x4091bc	import	0x4013ac	KERNEL32.dll.EnterCriticalSection
+0x401405	0x409274	import	0x4013ac	msvcrt.dll._wcsicmp
+0x401447	0x409270	import	0x4013ac	msvcrt.dll.free
+0x401451	0x409278	import	0x4013ac	msvcrt.dll._wcsdup
+0x401481	0x4091c0	import	0x4013ac	KERNEL32.dll.LeaveCriticalSection
+0x401522	0x409274	import	0x40148c	msvcrt.dll._wcsicmp
+0x4015b8	0x409080	import	0x401596	ADVAPI32.dll.CryptCreateHash
+0x4015c3	0x409084	import	0x401596	ADVAPI32.dll.CryptHashData
+0x40160c	0x409088	import	0x401596	ADVAPI32.dll.CryptDeriveKey
+0x401627	0x40908c	import	0x401596	ADVAPI32.dll.CryptEncrypt
+0x401638	0x409090	import	0x401596	ADVAPI32.dll.CryptDestroyKey
+0x401646	0x409094	import	0x401596	ADVAPI32.dll.CryptDestroyHash
+0x401662	0x40907c	import	0x401652	ADVAPI32.dll.CryptAcquireContextW
+0x4016b2	0x40927c	import	0x401681	msvcrt.dll._vsnwprintf
+0x401700	0x409080	import	0x4016d9	ADVAPI32.dll.CryptCreateHash
+0x40170f	0x409084	import	0x4016d9	ADVAPI32.dll.CryptHashData
+0x401747	0x409074	import	0x4016d9	ADVAPI32.dll.CryptGetHashParam
+0x401763	0x4091b8	import	0x4016d9	KERNEL32.dll.GetTempPathW
+0x40178e	0x40baf0	string	0x4016d9	%s%08x-%04x-%04x-%04x-%08x%04x.tmp
+0x4017af	0x409094	import	0x4016d9	ADVAPI32.dll.CryptDestroyHash
+0x4017fc	0x409280	import	0x4017bc	msvcrt.dll.malloc
+0x40183c	0x4091a8	import	0x4017bc	KERNEL32.dll.CreateFileW
+0x401853	0x4091ac	import	0x4017bc	KERNEL32.dll.WriteFile
+0x401865	0x4091b0	import	0x4017bc	KERNEL32.dll.CloseHandle
+0x401877	0x4091b4	import	0x4017bc	KERNEL32.dll.DeleteFileW
+0x40187e	0x409270	import	0x4017bc	msvcrt.dll.free
+0x4018db	0x4091a8	import	0x40188d	KERNEL32.dll.CreateFileW
+0x4018f0	0x4091a0	import	0x40188d	KERNEL32.dll.GetFileSize
+0x401910	0x409280	import	0x40188d	msvcrt.dll.malloc
+0x40192b	0x4091a4	import	0x40188d	KERNEL32.dll.ReadFile
+0x40196e	0x409080	import	0x40188d	ADVAPI32.dll.CryptCreateHash
+0x401980	0x409084	import	0x40188d	ADVAPI32.dll.CryptHashData
+0x401998	0x409074	import	0x40188d	ADVAPI32.dll.CryptGetHashParam
+0x4019d0	0x4091b0	import	0x40188d	KERNEL32.dll.CloseHandle
+0x4019e1	0x409270	import	0x40188d	msvcrt.dll.free
+0x401a7b	0x40bb48	string	0x401a59	%TMP%
+0x401a83	0x409200	import	0x401a59	USERENV.dll.ExpandEnvironmentStringsForUserW
+0x401b46	0x40bb38	string	0x401a59	%s%x%x
+0x401ba3	0x409198	import	0x401b7f	KERNEL32.dll.GetLastError
+0x401ba9	0x4091b0	import	0x401b7f	KERNEL32.dll.CloseHandle
+0x401bf3	0x4091a8	import	0x401b7f	KERNEL32.dll.CreateFileW
+0x401c13	0x40bbe8	string	0x401b7f	CreateFile(%s) == %u
+0x401c27	0x4091ac	import	0x401b7f	KERNEL32.dll.WriteFile
+0x401c65	0x40bbc0	string	0x401b7f	WriteFile(%s) == %u
+0x401e03	0x409194	import	0x401dea	KERNEL32.dll.SystemTimeToTzSpecificLocalTime
+0x401e24	0x409190	import	0x401e0d	KERNEL32.dll.SystemTimeToFileTime
+0x401e46	0x409190	import	0x401e2e	KERNEL32.dll.SystemTimeToFileTime
+0x401ea1	0x409190	import	0x401e89	KERNEL32.dll.SystemTimeToFileTime
+0x401ef0	0x409290	import	0x401eec	msvcrt.dll._strnicmp
+0x401ef8	0x40bc88	string	0x401eec	kernel32
+0x401f09	0x40928c	import	0x401eec	msvcrt.dll._stricmp
+0x401f0f	0x40bc78	string	0x401eec	GetSystemTime
+0x401f27	0x40bc68	string	0x401eec	GetLocalTime
+0x401f3c	0x40bc50	string	0x401eec	GetSystemTimeAsFileTime
+0x401f51	0x40bc34	string	0x401eec	SetUnhandledExceptionFilter
+0x401f68	0x40bc2c	string	0x401eec	msvcr
+0x401f79	0x40928c	import	0x401eec	msvcrt.dll._stricmp
+0x401f7f	0x40bc24	string	0x401eec	time
+0x401f8d	0x40bc1c	string	0x401eec	_time32
+0x401f9b	0x40bc14	string	0x401eec	_time64
+0x401fc5	0x40918c	import	0x401fbc	KERNEL32.dll.GetCurrentThreadId
+0x401fed	0x40bd58	string	0x401fbc	loading
+0x401ff7	0x40bd44	string	0x401fbc	unloading
+0x401fff	0x40bd34	string	0x401fbc	in EP
+0x402010	0x40bcf0	string	0x401fbc	exception %08x %swhen %s at %p
+0x402017	0x40bd58	string	0x401fbc	loading
+0x402021	0x40bd44	string	0x401fbc	unloading
+0x402029	0x40bd34	string	0x401fbc	in EP
+0x40203a	0x40bc98	string	0x401fbc	unidentified exception %08x %swhen %s at %p
+0x4020db	0x40beb0	string	0x402057	can not run a 64 bit application on 32 bit machine
+0x402145	0x4091cc	import	0x402057	KERNEL32.dll.VirtualAlloc
+0x402154	0x409198	import	0x402057	KERNEL32.dll.GetLastError
+0x40215e	0x40be7c	string	0x402057	VirtualAlloc(%u) == %u
+0x4022bf	0x40be60	string	0x402057	too many DLLs
+0x4022e0	0x4091d4	import	0x402057	KERNEL32.dll.LoadLibraryA
+0x4022f5	0x40be30	string	0x402057	LoadLibrary(%S) == NULL
+0x402344	0x4091d0	import	0x402057	KERNEL32.dll.GetProcAddress
+0x402356	0x40bdf0	string	0x402057	GetProcAddress(%S, %d) == NULL
+0x402392	0x4091d0	import	0x402057	KERNEL32.dll.GetProcAddress
+0x40239e	0x40bdb0	string	0x402057	GetProcAddress(%S, %S) == NULL
+0x4023ef	0x40bd78	string	0x402057	EP returned 0 when loading
+0x4023fd	0x40bd68	string	0x402057	bad PE
+0x40244f	0x409188	import	0x402057	KERNEL32.dll.FreeLibrary
+0x402467	0x409170	import	0x402057	KERNEL32.dll.VirtualFree
+0x4024c5	0x40bf18	string	0x402479	EP returned 0 when unloading
+0x4024fb	0x409184	import	0x402479	KERNEL32.dll.GetModuleHandleA
+0x402506	0x409188	import	0x402479	KERNEL32.dll.FreeLibrary
+0x402519	0x409170	import	0x402479	KERNEL32.dll.VirtualFree
+0x40256c	0x409168	import	0x40254e	KERNEL32.dll.SetLastError
+0x402592	0x40916c	import	0x40254e	KERNEL32.dll.ReadProcessMemory
+0x40259c	0x409198	import	0x40254e	KERNEL32.dll.GetLastError
+0x40260f	0x409298	import	0x40254e	msvcrt.dll.memmove
+0x402654	0x409174	import	0x40254e	KERNEL32.dll.VirtualAllocEx
+0x402687	0x409178	import	0x40254e	KERNEL32.dll.VirtualProtect
+0x4026c8	0x40917c	import	0x40254e	KERNEL32.dll.WriteProcessMemory
+0x4026ed	0x409198	import	0x40254e	KERNEL32.dll.GetLastError
+0x4026fe	0x409180	import	0x40254e	KERNEL32.dll.VirtualFreeEx
+0x402728	0x409168	import	0x40254e	KERNEL32.dll.SetLastError
+0x40273f	0x40c00c	string	0x40273a	ntdll.dll
+0x402744	0x409164	import	0x40273a	KERNEL32.dll.GetModuleHandleW
+0x40277a	0x40c004	string	0x40273a	.text
+0x40277f	0x40928c	import	0x40273a	msvcrt.dll._stricmp
+0x402798	0x40bfec	string	0x40273a	ZwQueryVirtualMemory
+0x40279e	0x4091d0	import	0x40273a	KERNEL32.dll.GetProcAddress
+0x4027d4	0x40bfa8	string	0x40273a	ZwQueryVirtualMemory out of .text
+0x402807	0x402821	string	0x4027eb	j.Xjcf
+0x40281f	0x402809	string	0x4027eb	jzja
+0x4028d3	0x40c030	string	0x4028b6	microsoft.com
+0x4028da	0x40c020	string	0x4028b6	facebook.com
+0x402905	0x409258	import	0x4028b6	WS2_32.dll.getsockname
+0x402919	0x40925c	import	0x4028b6	WS2_32.dll.getpeername
+0x40292b	0x409260	import	0x4028b6	WS2_32.dll.closesocket
+0x402945	0x40915c	import	0x4028b6	KERNEL32.dll.CreateThread
+0x402958	0x40293b	string	0x4028b6	WWSh
+0x402963	0x409160	import	0x4028b6	KERNEL32.dll.WaitForMultipleObjects
+0x402972	0x4091b0	import	0x4028b6	KERNEL32.dll.CloseHandle
+0x402aa3	0x402ae5	string	0x402a08	j.Yj
+0x402c97	0x40929c	import	0x402c89	msvcrt.dll.calloc
+0x402d13	0x40915c	import	0x402c89	KERNEL32.dll.CreateThread
+0x402d39	0x409160	import	0x402c89	KERNEL32.dll.WaitForMultipleObjects
+0x402d49	0x4091b0	import	0x402c89	KERNEL32.dll.CloseHandle
+0x402d5a	0x409270	import	0x402c89	msvcrt.dll.free
+0x402da7	0x409064	import	0x402d6a	ADVAPI32.dll.AllocateAndInitializeSid
+0x402dd5	0x409000	import	0x402d6a	ADVAPI32.dll.SetEntriesInAclW
+0x402de4	0x409068	import	0x402d6a	ADVAPI32.dll.InitializeSecurityDescriptor
+0x402df7	0x40906c	import	0x402d6a	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x402e1a	0x409154	import	0x402d6a	KERNEL32.dll.CreateEventW
+0x402e2a	0x409158	import	0x402d6a	KERNEL32.dll.LocalFree
+0x402e38	0x409070	import	0x402d6a	ADVAPI32.dll.FreeSid
+0x402e7e	0x40c0bc	string	0x402d6a	exception %08x at %p
+0x402ea7	0x409150	import	0x402d6a	KERNEL32.dll.GetCurrentThread
+0x402ed8	0x40c084	string	0x402d6a	exception %08x in thread %p
+0x402ee0	0x409164	import	0x402d6a	KERNEL32.dll.GetModuleHandleW
+0x402f05	0x40c0bc	string	0x402d6a	exception %08x at %p
+0x402f1c	0x40c040	string	0x402d6a	unidentified exception %08x at %p
+0x402f98	0x40918c	import	0x402f87	KERNEL32.dll.GetCurrentThreadId
+0x402fb2	0x40915c	import	0x402f87	KERNEL32.dll.CreateThread
+0x402fbc	0x402e45	string	0x402f87	j\fh`
+0x402fc5	0x40914c	import	0x402f87	KERNEL32.dll.WaitForSingleObject
+0x402fdd	0x4091b0	import	0x402f87	KERNEL32.dll.CloseHandle
+0x402ff1	0x402f41	string	0x402f87	j\bhp
+0x403009	0x4091b0	import	0x402f87	KERNEL32.dll.CloseHandle
+0x403050	0x409144	import	0x40301e	KERNEL32.dll.GetVersionExW
+0x4030a7	0x409148	import	0x40301e	KERNEL32.dll.GetSystemDirectoryW
+0x4030ff	0x40c230	string	0x40301e	"%s\netsh.exe" advfirewall firewall set rule name="%s" dir=%s new action=allow enable=yes profile=any
+0x403122	0x40c168	string	0x40301e	"%s\netsh.exe" advfirewall firewall add rule name="%s" dir=%s action=allow enable=yes profile=any
+0x403163	0x40c168	string	0x40301e	"%s\netsh.exe" advfirewall firewall add rule name="%s" dir=%s action=allow enable=yes profile=any
+0x40317a	0x40c0e8	string	0x40301e	"%s\netsh.exe" firewall set opmode mode=DISABLE profile=ALL
+0x4031f6	0x40c00c	string	0x40318f	ntdll.dll
+0x4031fd	0x409164	import	0x40318f	KERNEL32.dll.GetModuleHandleW
+0x403207	0x40c3fc	string	0x40318f	ZwQueryInformationThread
+0x40320d	0x4091d0	import	0x40318f	KERNEL32.dll.GetProcAddress
+0x40321d	0x40913c	import	0x40318f	KERNEL32.dll.SetErrorMode
+0x403228	0x409140	import	0x40318f	KERNEL32.dll.SetUnhandledExceptionFilter
+0x40324a	0x4091e4	import	0x40318f	SHELL32.dll.IsUserAnAdmin
+0x403250	0x40915c	import	0x40318f	KERNEL32.dll.CreateThread
+0x40326b	0x4091b0	import	0x40318f	KERNEL32.dll.CloseHandle
+0x403271	0x40c3c0	string	0x40318f	SeAssignPrimaryTokenPrivilege
+0x40327b	0x40c38c	string	0x40318f	SeIncreaseQuotaPrivilege
+0x403287	0x40c364	string	0x40318f	SeShutdownPrivilege
+0x4032a0	0x409254	import	0x40318f	WS2_32.dll.WSAStartup
+0x4032cd	0x40c354	string	0x40318f	einit0
+0x4032e8	0x40c344	string	0x40318f	einit1
+0x4032fb	0x403304	string	0x40318f	WV9u\bt5VV
+0x4032fd	0x40c334	string	0x40318f	einit2
+0x40331b	0x409198	import	0x40318f	KERNEL32.dll.GetLastError
+0x403323	0x40c304	string	0x40318f	CreateThread(%p) == %u
+0x403338	0x4091b0	import	0x40318f	KERNEL32.dll.CloseHandle
+0x403358	0x409060	import	0x40318f	ADVAPI32.dll.SetServiceStatus
+0x403488	0x4090ac	import	0x403424	KERNEL32.dll.GetModuleFileNameW
+0x40349e	0x4090a8	import	0x403424	KERNEL32.dll.GetWindowsDirectoryW
+0x4034ac	0x40c510	string	0x403424	\Installer\{
+0x4034da	0x4092a8	import	0x403424	msvcrt.dll._wcsnicmp
+0x403508	0x4091e0	import	0x403424	SHELL32.dll.SHGetFolderPathW
+0x403569	0x4091e4	import	0x403424	SHELL32.dll.IsUserAnAdmin
+0x40358f	0x4090f0	import	0x403424	KERNEL32.dll.Sleep
+0x4035e9	0x40c4b8	string	0x403424	%s%0.8X-%0.4X-%0.4X-%0.4X-%0.8X%0.4X}\
+0x40360e	0x409134	import	0x403424	KERNEL32.dll.CreateDirectoryW
+0x403618	0x409198	import	0x403424	KERNEL32.dll.GetLastError
+0x403654	0x409138	import	0x403424	KERNEL32.dll.CopyFileW
+0x403669	0x40c490	string	0x403424	%s:Zone.Identifier
+0x403689	0x4091b4	import	0x403424	KERNEL32.dll.DeleteFileW
+0x40369f	0x409038	import	0x403424	ADVAPI32.dll.OpenSCManagerW
+0x4036b7	0x40c474	string	0x403424	"%s" /service
+0x4036ce	0x40903c	import	0x403424	ADVAPI32.dll.CreateServiceW
+0x4036fd	0x409198	import	0x403424	KERNEL32.dll.GetLastError
+0x403715	0x409040	import	0x403424	ADVAPI32.dll.OpenServiceW
+0x403720	0x403732	string	0x403424	VVVVV
+0x403723	0x409044	import	0x403424	ADVAPI32.dll.DeleteService
+0x40372c	0x409048	import	0x403424	ADVAPI32.dll.CloseServiceHandle
+0x40375d	0x40904c	import	0x403424	ADVAPI32.dll.StartServiceW
+0x40376d	0x409044	import	0x403424	ADVAPI32.dll.DeleteService
+0x403776	0x409048	import	0x403424	ADVAPI32.dll.CloseServiceHandle
+0x40377f	0x409048	import	0x403424	ADVAPI32.dll.CloseServiceHandle
+0x403792	0x40c418	string	0x403424	Software\Microsoft\Windows\CurrentVersion\Run
+0x40379c	0x409050	import	0x403424	ADVAPI32.dll.RegOpenKeyW
+0x4037aa	0x40c418	string	0x403424	Software\Microsoft\Windows\CurrentVersion\Run
+0x4037b4	0x409050	import	0x403424	ADVAPI32.dll.RegOpenKeyW
+0x4037ef	0x409054	import	0x403424	ADVAPI32.dll.RegSetValueExW
+0x4037f8	0x409058	import	0x403424	ADVAPI32.dll.RegFlushKey
+0x403801	0x40905c	import	0x403424	ADVAPI32.dll.RegCloseKey
+0x403833	0x40919c	import	0x403424	KERNEL32.dll.CreateProcessW
+0x403840	0x4091b0	import	0x403424	KERNEL32.dll.CloseHandle
+0x403863	0x409034	import	0x403854	ADVAPI32.dll.RegisterServiceCtrlHandlerW
+0x40389e	0x409060	import	0x403854	ADVAPI32.dll.SetServiceStatus
+0x4038d7	0x4090bc	import	0x4038cb	KERNEL32.dll.GetCommandLineW
+0x4038dd	0x4092a4	import	0x4038cb	msvcrt.dll.wcsstr
+0x4038e3	0x40c580	string	0x4038cb	/pid:
+0x4038fd	0x4092ac	import	0x4038cb	msvcrt.dll._wtoi
+0x403908	0x4090b8	import	0x4038cb	KERNEL32.dll.OpenProcess
+0x403917	0x40914c	import	0x4038cb	KERNEL32.dll.WaitForSingleObject
+0x40391e	0x4091b0	import	0x4038cb	KERNEL32.dll.CloseHandle
+0x403933	0x4090ac	import	0x4038cb	KERNEL32.dll.GetModuleFileNameW
+0x40394a	0x409164	import	0x4038cb	KERNEL32.dll.GetModuleHandleW
+0x403960	0x40c574	string	0x4038cb	.tmp
+0x4039ad	0x40c560	string	0x4038cb	Global\%s
+0x4039d1	0x40c54c	string	0x4038cb	Local\%s
+0x403a03	0x4090b4	import	0x4038cb	KERNEL32.dll.OpenEventW
+0x403a32	0x40c538	string	0x4038cb	/service
+0x403a5c	0x409030	import	0x4038cb	ADVAPI32.dll.StartServiceCtrlDispatcherW
+0x403a64	0x40c52c	string	0x4038cb	/sn:
+0x403a7c	0x4092a0	import	0x4038cb	msvcrt.dll.wcschr
+0x403ac0	0x4090b0	import	0x4038cb	KERNEL32.dll.ExitProcess
+0x403ad9	0x40926c	import	0x403ac7	msvcrt.dll._time64
+0x403b32	0x409144	import	0x403ac7	KERNEL32.dll.GetVersionExW
+0x403b3a	0x4091ec	import	0x403ac7	USER32.dll.GetSystemMetrics
+0x403b8f	0x4090c8	import	0x403ac7	KERNEL32.dll.GetSystemDefaultLangID
+0x403ba8	0x4090c4	import	0x403ac7	KERNEL32.dll.GetUserDefaultLangID
+0x403bbf	0x4090c0	import	0x403ac7	KERNEL32.dll.GetUserDefaultUILanguage
+0x403c75	0x409270	import	0x403ac7	msvcrt.dll.free
+0x403c82	0x409270	import	0x403ac7	msvcrt.dll.free
+0x403cef	0x409058	import	0x403ac7	ADVAPI32.dll.RegFlushKey
+0x403cf6	0x40905c	import	0x403ac7	ADVAPI32.dll.RegCloseKey
+0x403cfe	0x409270	import	0x403ac7	msvcrt.dll.free
+0x403d1f	0x4090f0	import	0x403ac7	KERNEL32.dll.Sleep
+0x403d64	0x40926c	import	0x403ac7	msvcrt.dll._time64
+0x403e35	0x4091e4	import	0x403ac7	SHELL32.dll.IsUserAnAdmin
+0x403f87	0x409270	import	0x403ac7	msvcrt.dll.free
+0x403fb7	0x409270	import	0x403ac7	msvcrt.dll.free
+0x403fc1	0x409058	import	0x403ac7	ADVAPI32.dll.RegFlushKey
+0x403fc8	0x40905c	import	0x403ac7	ADVAPI32.dll.RegCloseKey
+0x4040f5	0x409178	import	0x403ac7	KERNEL32.dll.VirtualProtect
+0x404120	0x404134	string	0x403ac7	hm˳ҍE blocks=Basic Latin,Spacing Modifier Letters,Cyrillic
+0x40414b	0x4090f0	import	0x403ac7	KERNEL32.dll.Sleep
+0x4041a3	0x40c6f8	string	0x404165	ZwQueryInformationProcess == %08x
+0x4041c6	0x40c6c4	string	0x404165	PebBaseAddress == NULL
+0x4041f5	0x40916c	import	0x404165	KERNEL32.dll.ReadProcessMemory
+0x404216	0x40c680	string	0x404165	ZwUnmapViewOfSection(%p) == %08x
+0x40423c	0x409174	import	0x404165	KERNEL32.dll.VirtualAllocEx
+0x404249	0x409198	import	0x404165	KERNEL32.dll.GetLastError
+0x404256	0x40c640	string	0x404165	VirtualAllocEx(%p, %u) == %u
+0x404284	0x40917c	import	0x404165	KERNEL32.dll.WriteProcessMemory
+0x4042a5	0x40917c	import	0x404165	KERNEL32.dll.WriteProcessMemory
+0x4042c0	0x40917c	import	0x404165	KERNEL32.dll.WriteProcessMemory
+0x40431f	0x40917c	import	0x404165	KERNEL32.dll.WriteProcessMemory
+0x404344	0x409198	import	0x404165	KERNEL32.dll.GetLastError
+0x404353	0x40c628	string	0x404165	EPA() == %u
+0x40437b	0x4090d4	import	0x404165	KERNEL32.dll.GetThreadContext
+0x404398	0x4090d0	import	0x404165	KERNEL32.dll.SetThreadContext
+0x4043a5	0x40c5f0	string	0x404165	Get/SetThreadContext == %u
+0x4043af	0x409198	import	0x404165	KERNEL32.dll.GetLastError
+0x4043b6	0x40c5b4	string	0x404165	Read/WriteProcessMemory == %u
+0x4043c2	0x40bd68	string	0x404165	bad PE
+0x4043df	0x4090cc	import	0x404165	KERNEL32.dll.ResumeThread
+0x4043ed	0x40c58c	string	0x404165	ResumeThread == %u
+0x4043ff	0x40c00c	string	0x4043fe	ntdll.dll
+0x404404	0x409164	import	0x4043fe	KERNEL32.dll.GetModuleHandleW
+0x404413	0x4091d0	import	0x4043fe	KERNEL32.dll.GetProcAddress
+0x404419	0x40c754	string	0x4043fe	ZwQueryInformationProcess
+0x40442a	0x40c73c	string	0x4043fe	ZwUnmapViewOfSection
+0x4044c3	0x40beb0	string	0x404443	can not run a 64 bit application on 32 bit machine
+0x404509	0x409148	import	0x404443	KERNEL32.dll.GetSystemDirectoryW
+0x404528	0x40c790	string	0x404443	"%s\svchost.exe" %s
+0x40454a	0x40c770	string	0x404443	%s\svchost.exe
+0x404567	0x409198	import	0x404443	KERNEL32.dll.GetLastError
+0x40456e	0x40bb54	string	0x404443	some stupid error %u
+0x4045a6	0x40919c	import	0x404443	KERNEL32.dll.CreateProcessW
+0x4045b0	0x409198	import	0x404443	KERNEL32.dll.GetLastError
+0x4045be	0x40bb80	string	0x404443	CreateProcess(%s) == %u
+0x404614	0x4090d8	import	0x404443	KERNEL32.dll.TerminateProcess
+0x40461d	0x4091b0	import	0x404443	KERNEL32.dll.CloseHandle
+0x40462f	0x4091b0	import	0x404443	KERNEL32.dll.CloseHandle
+0x40463a	0x40bd68	string	0x404443	bad PE
+0x4046e5	0x40c7d4	string	0x4046d4	IsWow64Process
+0x4046ea	0x40c7b8	string	0x4046d4	kernel32.dll
+0x4046ef	0x409164	import	0x4046d4	KERNEL32.dll.GetModuleHandleW
+0x4046f6	0x4091d0	import	0x4046d4	KERNEL32.dll.GetProcAddress
+0x404709	0x4090dc	import	0x4046d4	KERNEL32.dll.GetCurrentProcess
+0x40472d	0x4090dc	import	0x40471b	KERNEL32.dll.GetCurrentProcess
+0x404734	0x409024	import	0x40471b	ADVAPI32.dll.OpenProcessToken
+0x404751	0x409028	import	0x40471b	ADVAPI32.dll.LookupPrivilegeValueW
+0x404766	0x40902c	import	0x40471b	ADVAPI32.dll.AdjustTokenPrivileges
+0x404770	0x409198	import	0x40471b	KERNEL32.dll.GetLastError
+0x40477f	0x4091b0	import	0x40471b	KERNEL32.dll.CloseHandle
+0x4047bc	0x4090a8	import	0x40478b	KERNEL32.dll.GetWindowsDirectoryW
+0x4047e0	0x4090e0	import	0x40478b	KERNEL32.dll.GetVolumeInformationW
+0x404885	0x4091a8	import	0x40486e	KERNEL32.dll.CreateFileW
+0x404896	0x4091a0	import	0x40486e	KERNEL32.dll.GetFileSize
+0x4048b5	0x40929c	import	0x40486e	msvcrt.dll.calloc
+0x4048df	0x4091ac	import	0x40486e	KERNEL32.dll.WriteFile
+0x4048f1	0x4090e4	import	0x40486e	KERNEL32.dll.FlushFileBuffers
+0x4048fa	0x409270	import	0x40486e	msvcrt.dll.free
+0x404905	0x4091b0	import	0x40486e	KERNEL32.dll.CloseHandle
+0x40490f	0x4091b4	import	0x40486e	KERNEL32.dll.DeleteFileW
+0x404940	0x404980	string	0x404918	VWVW
+0x40497a	0x4090b0	import	0x404918	KERNEL32.dll.ExitProcess
+0x4049a6	0x40927c	import	0x404994	msvcrt.dll._vsnwprintf
+0x404a78	0x40919c	import	0x404a0e	KERNEL32.dll.CreateProcessW
+0x404a82	0x409198	import	0x404a0e	KERNEL32.dll.GetLastError
+0x404a95	0x40914c	import	0x404a0e	KERNEL32.dll.WaitForSingleObject
+0x404aa2	0x4090e8	import	0x404a0e	KERNEL32.dll.GetExitCodeProcess
+0x404ab6	0x4091b0	import	0x404a0e	KERNEL32.dll.CloseHandle
+0x404aef	0x4090ac	import	0x404ac9	KERNEL32.dll.GetModuleFileNameW
+0x404b09	0x4091d8	import	0x404ac9	KERNEL32.dll.SetFileAttributesW
+0x404b17	0x4091b8	import	0x404ac9	KERNEL32.dll.GetTempPathW
+0x404b2e	0x40c818	string	0x404ac9	%s%x.tmp
+0x404b40	0x4090ec	import	0x404ac9	KERNEL32.dll.MoveFileExW
+0x404b78	0x40c7e4	string	0x404ac9	cmd.exe /C del /Q /F "%s"
+0x404b8a	0x4091f0	import	0x404ac9	USER32.dll.ExitWindowsEx
+0x404b9f	0x4090b0	import	0x404ac9	KERNEL32.dll.ExitProcess
+0x404bd5	0x4090ac	import	0x404ba6	KERNEL32.dll.GetModuleFileNameW
+0x404be4	0x4090f4	import	0x404ba6	KERNEL32.dll.GetCurrentProcessId
+0x404bf2	0x40c82c	string	0x404ba6	"%s" /pid:%d
+0x404c19	0x40c52c	string	0x404ba6	/sn:
+0x404c60	0x40919c	import	0x404ba6	KERNEL32.dll.CreateProcessW
+0x404c6a	0x409198	import	0x404ba6	KERNEL32.dll.GetLastError
+0x404c78	0x40bb80	string	0x404ba6	CreateProcess(%s) == %u
+0x404cc7	0x4090ac	import	0x404ca9	KERNEL32.dll.GetModuleFileNameW
+0x404cdc	0x40c8cc	string	0x404ca9	%s.tmp
+0x404cff	0x4090ec	import	0x404ca9	KERNEL32.dll.MoveFileExW
+0x404d1b	0x409198	import	0x404ca9	KERNEL32.dll.GetLastError
+0x404d46	0x4091a8	import	0x404ca9	KERNEL32.dll.CreateFileW
+0x404d5f	0x4091ac	import	0x404ca9	KERNEL32.dll.WriteFile
+0x404d6a	0x4090e4	import	0x404ca9	KERNEL32.dll.FlushFileBuffers
+0x404d7d	0x409198	import	0x404ca9	KERNEL32.dll.GetLastError
+0x404d8b	0x40c880	string	0x404ca9	WriteFile/FlushFileBuffers(%s) == %u
+0x404d9c	0x4091b0	import	0x404ca9	KERNEL32.dll.CloseHandle
+0x404da4	0x409198	import	0x404ca9	KERNEL32.dll.GetLastError
+0x404db2	0x40bbe8	string	0x404ca9	CreateFile(%s) == %u
+0x404de2	0x409198	import	0x404ca9	KERNEL32.dll.GetLastError
+0x404df7	0x40c848	string	0x404ca9	MoveFileEx(%s, %s) == %u
+0x404e26	0x4091e4	import	0x404e11	SHELL32.dll.IsUserAnAdmin
+0x404e7f	0x40c958	string	0x404e11	SYSTEM\CurrentControlSet\services\%s
+0x404ea4	0x409050	import	0x404e11	ADVAPI32.dll.RegOpenKeyW
+0x404ebb	0x40c928	string	0x404e11	RegOpenKey(%s) == %u
+0x404ef2	0x40c90c	string	0x404e11	Software\%x%x
+0x404f17	0x409020	import	0x404e11	ADVAPI32.dll.RegCreateKeyW
+0x404f2a	0x40c8dc	string	0x404e11	RegCreateKey(%s) == %u
+0x404f9f	0x409280	import	0x404f49	msvcrt.dll.malloc
+0x404fae	0x409168	import	0x404f49	KERNEL32.dll.SetLastError
+0x405002	0x40c9d4	string	0x404f49	%x%x
+0x40502e	0x409054	import	0x404f49	ADVAPI32.dll.RegSetValueExW
+0x405041	0x409270	import	0x404f49	msvcrt.dll.free
+0x405054	0x40c9a4	string	0x404f49	RegSetValueEx(%s) == %u
+0x4050a6	0x40c9d4	string	0x405071	%x%x
+0x4050cd	0x409168	import	0x405071	KERNEL32.dll.SetLastError
+0x4050eb	0x40901c	import	0x405071	ADVAPI32.dll.RegQueryValueExW
+0x405102	0x409280	import	0x405071	msvcrt.dll.malloc
+0x405124	0x40901c	import	0x405071	ADVAPI32.dll.RegQueryValueExW
+0x405132	0x409270	import	0x405071	msvcrt.dll.free
+0x405149	0x40c9e0	string	0x405071	RegQueryValueEx(%s) == %u
+0x40519a	0x409270	import	0x405071	msvcrt.dll.free
+0x405205	0x409270	import	0x4051c6	msvcrt.dll.free
+0x405236	0x4091e4	import	0x405217	SHELL32.dll.IsUserAnAdmin
+0x405283	0x4090f8	import	0x405217	KERNEL32.dll.MultiByteToWideChar
+0x40528d	0x409198	import	0x405217	KERNEL32.dll.GetLastError
+0x405294	0x40ca14	string	0x405217	MBTT == %u
+0x4052ef	0x409198	import	0x405217	KERNEL32.dll.GetLastError
+0x4052f6	0x40c628	string	0x405217	EPA() == %u
+0x405375	0x409270	import	0x405217	msvcrt.dll.free
+0x405381	0x4091b0	import	0x405217	KERNEL32.dll.CloseHandle
+0x4053a1	0x4090d8	import	0x40538e	KERNEL32.dll.TerminateProcess
+0x4053a9	0x4091b0	import	0x40538e	KERNEL32.dll.CloseHandle
+0x4053f2	0x409270	import	0x4053e5	msvcrt.dll.free
+0x405412	0x409298	import	0x4053e5	msvcrt.dll.memmove
+0x40542c	0x4091bc	import	0x40541e	KERNEL32.dll.EnterCriticalSection
+0x405460	0x4090e8	import	0x40541e	KERNEL32.dll.GetExitCodeProcess
+0x405478	0x40ca2c	string	0x40541e	exited with code %08x
+0x4054b7	0x4091c0	import	0x40541e	KERNEL32.dll.LeaveCriticalSection
+0x4054cf	0x4090f0	import	0x40541e	KERNEL32.dll.Sleep
+0x405550	0x4091bc	import	0x4054da	KERNEL32.dll.EnterCriticalSection
+0x4056f8	0x40929c	import	0x4054da	msvcrt.dll.calloc
+0x405707	0x4092b4	import	0x4054da	msvcrt.dll._errno
+0x405714	0x40ca58	string	0x4054da	calloc(%u,%u) == %u
+0x40576f	0x409270	import	0x4054da	msvcrt.dll.free
+0x40579f	0x4091c0	import	0x4054da	KERNEL32.dll.LeaveCriticalSection
+0x4057c2	0x4090fc	import	0x4057ad	KERNEL32.dll.TryEnterCriticalSection
+0x4057d1	0x4090f0	import	0x4057ad	KERNEL32.dll.Sleep
+0x40582e	0x409270	import	0x4057ad	msvcrt.dll.free
+0x405859	0x4091c0	import	0x4057ad	KERNEL32.dll.LeaveCriticalSection
+0x405890	0x4090fc	import	0x405865	KERNEL32.dll.TryEnterCriticalSection
+0x40589f	0x4090f0	import	0x405865	KERNEL32.dll.Sleep
+0x40591d	0x4091c0	import	0x405865	KERNEL32.dll.LeaveCriticalSection
+0x405936	0x4091c8	import	0x40592f	KERNEL32.dll.InitializeCriticalSection
+0x405949	0x40915c	import	0x40592f	KERNEL32.dll.CreateThread
+0x405953	0x409198	import	0x40592f	KERNEL32.dll.GetLastError
+0x40595b	0x40c304	string	0x40592f	CreateThread(%p) == %u
+0x405970	0x4091b0	import	0x40592f	KERNEL32.dll.CloseHandle
+0x4059ec	0x4092b8	import	0x40597c	msvcrt.dll._itoa
+0x405a00	0x40923c	import	0x40597c	WS2_32.dll.getaddrinfo
+0x405a3c	0x409238	import	0x40597c	WS2_32.dll.socket
+0x405a50	0x40924c	import	0x40597c	WS2_32.dll.connect
+0x405a5c	0x409260	import	0x40597c	WS2_32.dll.closesocket
+0x405a68	0x409250	import	0x40597c	WS2_32.dll.freeaddrinfo
+0x405af4	0x40922c	import	0x405ad4	WININET.dll.HttpQueryInfoW
+0x405b20	0x409280	import	0x405ad4	msvcrt.dll.malloc
+0x405b44	0x409228	import	0x405ad4	WININET.dll.InternetReadFile
+0x405b68	0x409270	import	0x405ad4	msvcrt.dll.free
+0x405b9f	0x409274	import	0x405b8f	msvcrt.dll._wcsicmp
+0x405bba	0x409278	import	0x405b8f	msvcrt.dll._wcsdup
+0x405c8e	0x4091bc	import	0x405c77	KERNEL32.dll.EnterCriticalSection
+0x405ca8	0x409270	import	0x405c77	msvcrt.dll.free
+0x405cbe	0x4091bc	import	0x405c77	KERNEL32.dll.EnterCriticalSection
+0x405cd8	0x409270	import	0x405c77	msvcrt.dll.free
+0x405cf5	0x405d86	string	0x405c77	^9]\f_[t\ah0
+0x405cfb	0x40ca80	string	0x405c77	|,\r\n
+0x405d01	0x4092c0	import	0x405c77	msvcrt.dll.strcspn
+0x405d20	0x4090f8	import	0x405c77	KERNEL32.dll.MultiByteToWideChar
+0x405d9a	0x4091c0	import	0x405c77	KERNEL32.dll.LeaveCriticalSection
+0x405db2	0x4091bc	import	0x405da2	KERNEL32.dll.EnterCriticalSection
+0x405dfd	0x40929c	import	0x405da2	msvcrt.dll.calloc
+0x405e32	0x409100	import	0x405da2	KERNEL32.dll.WideCharToMultiByte
+0x405e5c	0x409270	import	0x405da2	msvcrt.dll.free
+0x405e6e	0x4091c0	import	0x405da2	KERNEL32.dll.LeaveCriticalSection
+0x405e7b	0x409270	import	0x405e7a	msvcrt.dll.free
+0x405ef8	0x409090	import	0x405e7a	ADVAPI32.dll.CryptDestroyKey
+0x405f09	0x409078	import	0x405e7a	ADVAPI32.dll.CryptReleaseContext
+0x405f19	0x409230	import	0x405e7a	WININET.dll.InternetCloseHandle
+0x405f1f	0x4091c4	import	0x405e7a	KERNEL32.dll.DeleteCriticalSection
+0x405f41	0x4091c8	import	0x405f36	KERNEL32.dll.InitializeCriticalSection
+0x405f5e	0x409220	import	0x405f36	WININET.dll.InternetOpenW
+0x405f71	0x40921c	import	0x405f36	WININET.dll.InternetSetOptionW
+0x405fc3	0x40907c	import	0x405f36	ADVAPI32.dll.CryptAcquireContextW
+0x405ff8	0x409018	import	0x405f36	ADVAPI32.dll.CryptImportKey
+0x4060ec	0x4092a4	import	0x4060bc	msvcrt.dll.wcsstr
+0x4060ff	0x40cb34	string	0x4060bc	http://%s
+0x406141	0x409214	import	0x4060bc	WININET.dll.InternetCrackUrlW
+0x4061c0	0x409298	import	0x4060bc	msvcrt.dll.memmove
+0x4061dc	0x4092bc	import	0x4060bc	msvcrt.dll.wcsrchr
+0x4061e8	0x40cb28	string	0x4060bc	.bit
+0x4061ee	0x409274	import	0x4060bc	msvcrt.dll._wcsicmp
+0x406229	0x40cb10	string	0x4060bc	%d.%d.%d.%d
+0x406285	0x409224	import	0x4060bc	WININET.dll.InternetConnectW
+0x4062a2	0x40cafc	string	0x4060bc	HTTP/1.1
+0x4062a8	0x40caf0	string	0x4060bc	POST
+0x4062ae	0x40920c	import	0x4060bc	WININET.dll.HttpOpenRequestW
+0x4062c1	0x40921c	import	0x4060bc	WININET.dll.InternetSetOptionW
+0x4062c7	0x4062f0	string	0x4060bc	WWjMS
+0x4062d4	0x409208	import	0x4060bc	WININET.dll.InternetQueryOptionW
+0x4062dc	0x4062f0	string	0x4060bc	WWjMS
+0x4062f7	0x409210	import	0x4060bc	WININET.dll.HttpAddRequestHeadersW
+0x406305	0x40caa0	string	0x4060bc	Content-Type: application/octet-stream
+0x40631d	0x40ca88	string	0x4060bc	Host: %s
+0x406356	0x409218	import	0x4060bc	WININET.dll.HttpSendRequestW
+0x40637c	0x409230	import	0x4060bc	WININET.dll.InternetCloseHandle
+0x406385	0x409230	import	0x4060bc	WININET.dll.InternetCloseHandle
+0x4063d4	0x409280	import	0x406393	msvcrt.dll.malloc
+0x4063f1	0x409010	import	0x406393	ADVAPI32.dll.CryptGenRandom
+0x40653a	0x409080	import	0x406393	ADVAPI32.dll.CryptCreateHash
+0x406552	0x409084	import	0x406393	ADVAPI32.dll.CryptHashData
+0x406577	0x409014	import	0x406393	ADVAPI32.dll.CryptVerifySignatureW
+0x40659b	0x409280	import	0x406393	msvcrt.dll.malloc
+0x4065da	0x409298	import	0x406393	msvcrt.dll.memmove
+0x406613	0x409094	import	0x406393	ADVAPI32.dll.CryptDestroyHash
+0x40661d	0x409270	import	0x406393	msvcrt.dll.free
+0x406672	0x409010	import	0x40665d	ADVAPI32.dll.CryptGenRandom
+0x4066c4	0x409270	import	0x40665d	msvcrt.dll.free
+0x4066d8	0x4091bc	import	0x40665d	KERNEL32.dll.EnterCriticalSection
+0x406721	0x4091c0	import	0x40665d	KERNEL32.dll.LeaveCriticalSection
+0x40674c	0x409270	import	0x40665d	msvcrt.dll.free
+0x406756	0x409278	import	0x40665d	msvcrt.dll._wcsdup
+0x40677f	0x4091bc	import	0x40676d	KERNEL32.dll.EnterCriticalSection
+0x406785	0x40926c	import	0x40676d	msvcrt.dll._time64
+0x4067c9	0x4090f0	import	0x40676d	KERNEL32.dll.Sleep
+0x40683c	0x4090f0	import	0x40676d	KERNEL32.dll.Sleep
+0x406847	0x4091c0	import	0x40676d	KERNEL32.dll.LeaveCriticalSection
+0x4068cf	0x4091bc	import	0x406893	KERNEL32.dll.EnterCriticalSection
+0x4068f5	0x4091c0	import	0x406893	KERNEL32.dll.LeaveCriticalSection
+0x4069ff	0x409100	import	0x4069b2	KERNEL32.dll.WideCharToMultiByte
+0x406a4f	0x4091bc	import	0x4069b2	KERNEL32.dll.EnterCriticalSection
+0x406a84	0x409270	import	0x4069b2	msvcrt.dll.free
+0x406a8c	0x4091c0	import	0x4069b2	KERNEL32.dll.LeaveCriticalSection
+0x406abb	0x4090f0	import	0x4069b2	KERNEL32.dll.Sleep
+0x406c53	0x4091a8	import	0x406c00	KERNEL32.dll.CreateFileW
+0x406c69	0x4091a0	import	0x406c00	KERNEL32.dll.GetFileSize
+0x406c7d	0x40910c	import	0x406c00	KERNEL32.dll.CreateFileMappingW
+0x406c90	0x409108	import	0x406c00	KERNEL32.dll.MapViewOfFile
+0x406cd2	0x409270	import	0x406c00	msvcrt.dll.free
+0x406ce2	0x409104	import	0x406c00	KERNEL32.dll.UnmapViewOfFile
+0x406ceb	0x4091b0	import	0x406c00	KERNEL32.dll.CloseHandle
+0x406cf4	0x4091b0	import	0x406c00	KERNEL32.dll.CloseHandle
+0x406d39	0x406d1c	string	0x406d16	;M\bu
+0x406e29	0x4090f8	import	0x406db7	KERNEL32.dll.MultiByteToWideChar
+0x406e7a	0x409100	import	0x406e3c	KERNEL32.dll.WideCharToMultiByte
+0x406ed8	0x4091b0	import	0x406e88	KERNEL32.dll.CloseHandle
+0x406eed	0x40cb50	string	0x406e88	explorer.exe
+0x406ef3	0x409274	import	0x406e88	msvcrt.dll._wcsicmp
+0x406f0b	0x4090b8	import	0x406e88	KERNEL32.dll.OpenProcess
+0x406f21	0x409024	import	0x406e88	ADVAPI32.dll.OpenProcessToken
+0x406f3c	0x40900c	import	0x406e88	ADVAPI32.dll.DuplicateTokenEx
+0x406f9f	0x409064	import	0x406f7a	ADVAPI32.dll.AllocateAndInitializeSid
+0x406fb1	0x409008	import	0x406f7a	ADVAPI32.dll.CheckTokenMembership
+0x406fc1	0x409070	import	0x406f7a	ADVAPI32.dll.FreeSid
+0x406ff5	0x40cba8	string	0x406fcd	WinSta0\Default
+0x40702c	0x409004	import	0x406fcd	ADVAPI32.dll.CreateProcessAsUserW
+0x407038	0x409198	import	0x406fcd	KERNEL32.dll.GetLastError
+0x407042	0x40cb6c	string	0x406fcd	CreateProcessAsUser(%s) == %u
+0x407072	0x40911c	import	0x407069	KERNEL32.dll.GetSystemTimeAsFileTime
+0x407127	0x409248	import	0x4070db	WS2_32.dll.setsockopt
+0x407157	0x4080e0	string	0x4070db	WVU3
+0x407188	0x409244	import	0x4070db	WS2_32.dll.send
+0x40719f	0x409240	import	0x4070db	WS2_32.dll.recv
+0x4071fc	0x4081c0	string	0x4070db	WVS3
+0x40720a	0x409260	import	0x4070db	WS2_32.dll.closesocket
+0x4073d3	0x4090f0	import	0x40721b	KERNEL32.dll.Sleep
+0x40742b	0x409120	import	0x40721b	KERNEL32.dll.GetTickCount
+0x407466	0x40915c	import	0x407450	KERNEL32.dll.CreateThread
+0x407472	0x4091b0	import	0x407450	KERNEL32.dll.CloseHandle
+0x40748e	0x409120	import	0x407479	KERNEL32.dll.GetTickCount
+0x407552	0x409128	import	0x407522	KERNEL32.dll.FileTimeToSystemTime
+0x40755f	0x409124	import	0x407522	KERNEL32.dll.GetSystemTime
+0x40776e	0x409150	import	0x40775f	KERNEL32.dll.GetCurrentThread
+0x407775	0x40912c	import	0x40775f	KERNEL32.dll.SetThreadAffinityMask
+0x407792	0x409150	import	0x40775f	KERNEL32.dll.GetCurrentThread
+0x407799	0x40912c	import	0x40775f	KERNEL32.dll.SetThreadAffinityMask
+0x4077f0	0x409150	import	0x40775f	KERNEL32.dll.GetCurrentThread
+0x4077f7	0x40912c	import	0x40775f	KERNEL32.dll.SetThreadAffinityMask
+0x40783c	0x4090f0	import	0x40775f	KERNEL32.dll.Sleep
+0x40784e	0x409150	import	0x40775f	KERNEL32.dll.GetCurrentThread
+0x407855	0x40912c	import	0x40775f	KERNEL32.dll.SetThreadAffinityMask
+0x4078e0	0x4090b8	import	0x4078c6	KERNEL32.dll.OpenProcess
+0x4078fc	0x409174	import	0x4078c6	KERNEL32.dll.VirtualAllocEx
+0x40790e	0x40917c	import	0x4078c6	KERNEL32.dll.WriteProcessMemory
+0x407923	0x4090f0	import	0x4078c6	KERNEL32.dll.Sleep
+0x407932	0x409130	import	0x4078c6	KERNEL32.dll.CreateRemoteThread
+0x407939	0x4091b0	import	0x4078c6	KERNEL32.dll.CloseHandle
+0x40798d	0x4090f4	import	0x407944	KERNEL32.dll.GetCurrentProcessId
+0x4079b9	0x4091b0	import	0x407944	KERNEL32.dll.CloseHandle
+0x4079d7	0x4090f0	import	0x407944	KERNEL32.dll.Sleep
+0x4079ea	0x409110	import	0x4079ea	KERNEL32.dll.Process32NextW
+0x4079f0	0x409114	import	0x4079f0	KERNEL32.dll.Process32FirstW
+0x4079f6	0x409118	import	0x4079f6	KERNEL32.dll.CreateToolhelp32Snapshot
+0x407a0b	0x4092c4	import	0x4079f6	msvcrt.dll.realloc
+0x407c38	0x4090a0	import	0x407c38	DNSAPI.dll.DnsFree
+0x407c3e	0x40909c	import	0x407c3e	DNSAPI.dll.DnsQuery_W
+0x407c44	0x4091fc	import	0x407c44	USERENV.dll.DestroyEnvironmentBlock
+0x407c4a	0x4091f8	import	0x407c4a	USERENV.dll.CreateEnvironmentBlock
+0x407f44	0x409284	import	0x407f44	msvcrt.dll.memcpy
+0x407f8e	0x409288	import	0x407f8e	msvcrt.dll.memset
+0x4080b2	0x4080c2	string	0x408060	+D$\b\eT$\f
+0x4080b8	0x4080c2	string	0x408060	+D$\b\eT$\f
+0x4080d6	0x4092b0	import	0x4080d6	msvcrt.dll._ftol

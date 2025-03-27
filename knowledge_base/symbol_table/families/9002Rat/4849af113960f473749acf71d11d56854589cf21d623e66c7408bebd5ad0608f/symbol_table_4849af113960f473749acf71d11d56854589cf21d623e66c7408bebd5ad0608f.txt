@@ -1,0 +1,61 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x4014ff	0x401068	import	0x4014f0	KERNEL32.dll.Sleep
+0x40153b	0x4011b8	string	0x4014f0	SBIE2399 Service '%s' fails with error %d. Last checkpoint was %d
+0x401541	0x40107c	import	0x4014f0	USER32.dll.wsprintfW
+0x40155b	0x401080	import	0x4014f0	USER32.dll.MessageBoxW
+0x401568	0x40117c	string	0x4014f0	SBIE_ServiceInitComplete_%s
+0x40156e	0x4010c0	import	0x4014f0	msvcrt.dll.swprintf
+0x401585	0x40105c	import	0x4014f0	KERNEL32.dll.OpenEventW
+0x40159c	0x401058	import	0x4014f0	KERNEL32.dll.CreateEventW
+0x4015a7	0x401054	import	0x4014f0	KERNEL32.dll.SetEvent
+0x40162e	0x401064	import	0x401610	KERNEL32.dll.LoadLibraryW
+0x40163e	0x401294	string	0x401610	Could not load service DLL -
+0x401644	0x4010d0	import	0x401610	msvcrt.dll.wcscpy
+0x401652	0x4010d4	import	0x401610	msvcrt.dll.wcscat
+0x40165f	0x401028	import	0x401610	KERNEL32.dll.GetProcAddress
+0x401672	0x401240	string	0x401610	Could not locate ServiceMain routine - %S
+0x401678	0x40107c	import	0x401610	USER32.dll.wsprintfW
+0x401693	0x401080	import	0x401610	USER32.dll.MessageBoxW
+0x4016b0	0x401050	import	0x401610	KERNEL32.dll.GetProcessHeap
+0x4016b7	0x40104c	import	0x401610	KERNEL32.dll.HeapAlloc
+0x4016d8	0x40102c	import	0x401610	KERNEL32.dll.CreateThread
+0x401701	0x401010	import	0x401610	ADVAPI32.dll.StartServiceCtrlDispatcherW
+0x401776	0x401374	string	0x401730	%s (%08X)
+0x40177c	0x4010c0	import	0x401730	msvcrt.dll.swprintf
+0x4017a9	0x4012d0	string	0x401730	SBIE2398 Service suffers exception %08X at address %08X. Last checkpoint was %d\n
+0x4017af	0x40107c	import	0x401730	USER32.dll.wsprintfW
+0x4017ca	0x401080	import	0x401730	USER32.dll.MessageBoxW
+0x4017fc	0x401020	import	0x4017f0	KERNEL32.dll.GetCurrentProcess
+0x401803	0x401000	import	0x4017f0	ADVAPI32.dll.OpenProcessToken
+0x40184a	0x401008	import	0x401820	ADVAPI32.dll.DuplicateTokenEx
+0x401850	0x401038	import	0x401820	KERNEL32.dll.CloseHandle
+0x401862	0x40100c	import	0x401820	ADVAPI32.dll.SetThreadToken
+0x4018bd	0x4013a4	string	0x4018b0	kernel32.dll
+0x4018c5	0x401060	import	0x4018b0	KERNEL32.dll.GetModuleHandleW
+0x4018cb	0x401028	import	0x4018b0	KERNEL32.dll.GetProcAddress
+0x4018d1	0x401388	string	0x4018b0	AddVectoredExceptionHandler
+0x4018ee	0x4010dc	import	0x4018b0	ole32.dll.CoImpersonateClient
+0x4018f8	0x4013f8	string	0x4018b0	CoImpersonateClient
+0x40190c	0x4013f8	string	0x4018b0	CoImpersonateClient
+0x40191e	0x401004	import	0x4018b0	ADVAPI32.dll.LogonUserW
+0x40192d	0x4013ec	string	0x4018b0	LogonUserW
+0x401941	0x4013ec	string	0x4018b0	LogonUserW
+0x401953	0x4013e0	string	0x4018b0	BITS
+0x401959	0x4010d0	import	0x4018b0	msvcrt.dll.wcscpy
+0x401964	0x4013d4	string	0x4018b0	ServiceMain
+0x401969	0x4013c0	string	0x4018b0	qmgr.dll
+0x4019ae	0x401034	import	0x401993	KERNEL32.dll.GetSystemTimeAsFileTime
+0x4019ba	0x401030	import	0x401993	KERNEL32.dll.GetCurrentProcessId
+0x4019c2	0x401024	import	0x401993	KERNEL32.dll.GetCurrentThreadId
+0x4019ca	0x401018	import	0x401993	KERNEL32.dll.GetTickCount
+0x4019d6	0x40101c	import	0x401993	KERNEL32.dll.QueryPerformanceCounter
+0x401ad3	0x401044	import	0x401a21	KERNEL32.dll.SetUnhandledExceptionFilter
+0x401ade	0x401040	import	0x401a21	KERNEL32.dll.UnhandledExceptionFilter
+0x401aef	0x401020	import	0x401a21	KERNEL32.dll.GetCurrentProcess
+0x401af6	0x40103c	import	0x401a21	KERNEL32.dll.TerminateProcess
+0x401cf6	0x4010b8	import	0x401cf6	msvcrt.dll._XcptFilter
+0x401d02	0x4010a4	import	0x401d02	msvcrt.dll._initterm
+0x401d8a	0x4010bc	import	0x401d8a	msvcrt.dll._controlfp
+0x401d96	0x401088	import	0x401d96	WTSAPI32.dll.WTSQueryUserToken
+0x401da2	0x401070	import	0x401da2	SbieDll.dll.SbieApi_Log
+0x401dae	0x401074	import	0x401dae	SbieDll.dll._SbieDll_Hook@12

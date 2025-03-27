@@ -1,0 +1,407 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401031	0x4061c4	import	0x40101f	OLEAUT32.dll.SysReAllocString
+0x401075	0x4061c8	import	0x40106b	OLEAUT32.dll.SysStringLen
+0x4010a3	0x406270	string	0x401091	_JAVA_VM_OPTIONS
+0x4010ab	0x4060d4	import	0x401091	KERNEL32.dll.GetEnvironmentVariableW
+0x401147	0x4061dc	import	0x401114	USER32.dll.LoadStringW
+0x40116b	0x4060d0	import	0x401114	KERNEL32.dll.FormatMessageW
+0x4011d8	0x4061e8	import	0x401114	USER32.dll.MessageBoxW
+0x401273	0x4061e0	import	0x4011ed	USER32.dll.wsprintfW
+0x4012ae	0x406194	import	0x4011ed	MSVCR100.dll.swprintf_s
+0x4012b4	0x4062d8	string	0x4011ed	%s\javaw.exe
+0x4012ee	0x4061a4	import	0x4011ed	MSVCR100.dll._stat64i32
+0x40131e	0x4062f4	string	0x4011ed	%s\deploy.dll
+0x401331	0x4060b8	import	0x4011ed	KERNEL32.dll.LoadLibraryW
+0x40133f	0x4060bc	import	0x4011ed	KERNEL32.dll.GetLastError
+0x401355	0x406310	string	0x4011ed	GetCurrentJavaHomeFromRegistry
+0x40135b	0x406000	import	0x4011ed	KERNEL32.dll.GetProcAddress
+0x401366	0x4060bc	import	0x4011ed	KERNEL32.dll.GetLastError
+0x40137a	0x4060c4	import	0x4011ed	KERNEL32.dll.FreeLibrary
+0x401396	0x4060c4	import	0x4011ed	KERNEL32.dll.FreeLibrary
+0x4013a3	0x406330	string	0x4011ed	%s\bin\javaw.exe
+0x4013ed	0x406358	string	0x4011ed	"%s" -Xbootclasspath/a:"%s\..\lib\deploy.jar" %s -Djava.locale.providers=HOST,JRE,SPI -Djdk.disableLastUsageTracking -Dsun.java2d.dpiaware=true -Duser.home="%s" %s com.sun.deploy.panel.ControlPanel %s
+0x4013f3	0x4061e0	import	0x4011ed	USER32.dll.wsprintfW
+0x40142f	0x4060bc	import	0x4011ed	KERNEL32.dll.GetLastError
+0x401445	0x4060c8	import	0x4011ed	KERNEL32.dll.CloseHandle
+0x4014f5	0x4060b0	import	0x401475	KERNEL32.dll.GetModuleFileNameW
+0x40150a	0x4060b4	import	0x401475	KERNEL32.dll.GetLongPathNameW
+0x40160f	0x4060cc	import	0x401607	KERNEL32.dll.InterlockedDecrement
+0x401650	0x407980	string	0x401645	Advapi32.dll
+0x401655	0x4060ac	import	0x401645	KERNEL32.dll.GetModuleHandleW
+0x40165f	0x407968	string	0x401645	RegOpenKeyTransactedW
+0x401665	0x406000	import	0x401645	KERNEL32.dll.GetProcAddress
+0x40168e	0x409080	import	0x401645	ADVAPI32.dll.RegOpenKeyExW
+0x4016a6	0x407980	string	0x40169c	Advapi32.dll
+0x4016ab	0x4060ac	import	0x40169c	KERNEL32.dll.GetModuleHandleW
+0x4016b5	0x40799c	string	0x40169c	RegDeleteKeyTransactedW
+0x4016bb	0x406000	import	0x40169c	KERNEL32.dll.GetProcAddress
+0x4016dd	0x409084	import	0x40169c	ADVAPI32.dll.RegDeleteKeyW
+0x40170b	0x407980	string	0x4016eb	Advapi32.dll
+0x401710	0x4060ac	import	0x4016eb	KERNEL32.dll.GetModuleHandleW
+0x40171a	0x4079b4	string	0x4016eb	RegDeleteKeyExW
+0x401720	0x406000	import	0x4016eb	KERNEL32.dll.GetProcAddress
+0x401750	0x409084	import	0x4016eb	ADVAPI32.dll.RegDeleteKeyW
+0x401766	0x409088	import	0x40175a	ADVAPI32.dll.RegCloseKey
+0x40179f	0x409080	import	0x401775	ADVAPI32.dll.RegOpenKeyExW
+0x4017e1	0x40908c	import	0x4017c4	ADVAPI32.dll.RegQueryValueExW
+0x401822	0x40908c	import	0x4017fc	ADVAPI32.dll.RegQueryValueExW
+0x4018a3	0x406640	string	0x401880	Load failed in %s at function %s
+0x4018aa	0x406698	string	0x401880	Load failed in %s at function order:%d
+0x4018f5	0x40618c	import	0x4018dd	MSVCR100.dll._wstat64i32
+0x401913	0x406720	string	0x4018dd	11.0.0
+0x401918	0x406684	string	0x4018dd	11.241.2
+0x401969	0x4060a4	import	0x4018dd	KERNEL32.dll.GlobalMemoryStatusEx
+0x4019c1	0x4060a0	import	0x4018dd	KERNEL32.dll.GetVersionExW
+0x401a30	0x4060a0	import	0x4018dd	KERNEL32.dll.GetVersionExW
+0x401ac0	0x406098	import	0x401a75	KERNEL32.dll.VerSetConditionMask
+0x401ae5	0x40609c	import	0x401a75	KERNEL32.dll.VerifyVersionInfoW
+0x401b5c	0x4060a0	import	0x401a75	KERNEL32.dll.GetVersionExW
+0x401be0	0x4060a0	import	0x401a75	KERNEL32.dll.GetVersionExW
+0x401c3c	0x406730	string	0x401c33	IsWow64Process
+0x401c41	0x406740	string	0x401c33	kernel32
+0x401c46	0x4060ac	import	0x401c33	KERNEL32.dll.GetModuleHandleW
+0x401c4d	0x406000	import	0x401c33	KERNEL32.dll.GetProcAddress
+0x401c5d	0x406094	import	0x401c33	KERNEL32.dll.GetCurrentProcess
+0x401c81	0x406090	import	0x401c6c	KERNEL32.dll.GetNativeSystemInfo
+0x401cb2	0x406094	import	0x401c94	KERNEL32.dll.GetCurrentProcess
+0x401cb9	0x409098	import	0x401c94	ADVAPI32.dll.OpenProcessToken
+0x401ccf	0x409094	import	0x401c94	ADVAPI32.dll.GetTokenInformation
+0x401ce0	0x4060bc	import	0x401c94	KERNEL32.dll.GetLastError
+0x401cf1	0x406084	import	0x401c94	KERNEL32.dll.GlobalAlloc
+0x401d23	0x4071c4	string	0x401c94	S-1-5-18
+0x401d2b	0x406188	import	0x401c94	MSVCR100.dll._wcsicmp
+0x401d44	0x406088	import	0x401c94	KERNEL32.dll.LocalFree
+0x401d4b	0x40608c	import	0x401c94	KERNEL32.dll.GlobalFree
+0x401d55	0x4060c8	import	0x401c94	KERNEL32.dll.CloseHandle
+0x401d80	0x406080	import	0x401c94	KERNEL32.dll.CreateFileW
+0x401d8b	0x4060bc	import	0x401c94	KERNEL32.dll.GetLastError
+0x401d9a	0x4060c8	import	0x401c94	KERNEL32.dll.CloseHandle
+0x401de9	0x40607c	import	0x401da4	KERNEL32.dll.GetSystemDirectoryW
+0x401e1c	0x407314	string	0x401da4	%s\%s
+0x401e22	0x4061e0	import	0x401da4	USER32.dll.wsprintfW
+0x401e32	0x4060b8	import	0x401da4	KERNEL32.dll.LoadLibraryW
+0x401e55	0x407320	string	0x401e4b	Kernel32.dll
+0x401e70	0x401e79	string	0x401e4b	h<s@
+0x401e79	0x40733c	string	0x401e4b	Wtsapi32.dll
+0x401e89	0x401e94	string	0x401e4b	ShXs@
+0x401e8c	0x4060c4	import	0x401e4b	KERNEL32.dll.FreeLibrary
+0x401e95	0x407358	string	0x401e4b	WTSGetActiveConsoleSessionId
+0x401e9b	0x406000	import	0x401e4b	KERNEL32.dll.GetProcAddress
+0x401ea3	0x407378	string	0x401e4b	WTSQuerySessionInformationA
+0x401eaf	0x407394	string	0x401e4b	WTSFreeMemory
+0x401f02	0x4060c4	import	0x401e4b	KERNEL32.dll.FreeLibrary
+0x401f17	0x4060c4	import	0x401e4b	KERNEL32.dll.FreeLibrary
+0x401f35	0x4061ec	import	0x401e4b	USER32.dll.OpenInputDesktop
+0x401f43	0x4061f0	import	0x401e4b	USER32.dll.CloseDesktop
+0x401f8b	0x406078	import	0x401f60	KERNEL32.dll.CreateProcessW
+0x401fc1	0x40909c	import	0x401f93	ADVAPI32.dll.CreateProcessAsUserW
+0x402007	0x406094	import	0x401fc9	KERNEL32.dll.GetCurrentProcess
+0x40200e	0x409098	import	0x401fc9	ADVAPI32.dll.OpenProcessToken
+0x402038	0x40909c	import	0x401fc9	ADVAPI32.dll.CreateProcessAsUserW
+0x40204c	0x406074	import	0x401fc9	KERNEL32.dll.WaitForSingleObject
+0x402055	0x4060c8	import	0x401fc9	KERNEL32.dll.CloseHandle
+0x4020aa	0x406194	import	0x401fc9	MSVCR100.dll.swprintf_s
+0x4020b1	0x4073b0	string	0x401fc9	SOFTWARE\JavaSoft\Java Runtime Environment
+0x4020b6	0x4073a4	string	0x401fc9	%s\%s
+0x4020de	0x409080	import	0x401fc9	ADVAPI32.dll.RegOpenKeyExW
+0x4020fb	0x407408	string	0x401fc9	JavaHome
+0x402106	0x40908c	import	0x401fc9	ADVAPI32.dll.RegQueryValueExW
+0x402112	0x409088	import	0x401fc9	ADVAPI32.dll.RegCloseKey
+0x402139	0x40741c	string	0x401fc9	bin\java.exe
+0x402145	0x407438	string	0x401fc9	%s\%s
+0x402154	0x4090d4	import	0x401fc9	SHLWAPI.dll.PathFileExistsW
+0x40216a	0x407444	string	0x401fc9	bin\client\jvm.dll
+0x402176	0x40746c	string	0x401fc9	%s\%s
+0x402194	0x407478	string	0x401fc9	bin\server\jvm.dll
+0x4021a0	0x4074a0	string	0x401fc9	%s\%s
+0x4021ea	0x4074ac	string	0x4021e7	-ABCDEFFEDCBA}
+0x4021fb	0x4074cc	string	0x4021e7	{CAFEEFAC-
+0x402200	0x4074e4	string	0x4021e7	%s%03d%1d-%04d-%04d%s
+0x40220b	0x406194	import	0x4021e7	MSVCR100.dll.swprintf_s
+0x402219	0x407510	string	0x402216	-ABCDEFFEDCBB}
+0x40222a	0x407530	string	0x402216	{CAFEEFAC-
+0x40222f	0x407548	string	0x402216	%s%03d%1d-%04d-%04d%s
+0x40223a	0x406194	import	0x402216	MSVCR100.dll.swprintf_s
+0x402248	0x407574	string	0x402245	-ABCDEFFEDCBC}
+0x402259	0x407594	string	0x402245	{CAFEEFAC-
+0x40225e	0x4075ac	string	0x402245	%s%03d%1d-%04d-%04d%s
+0x402269	0x406194	import	0x402245	MSVCR100.dll.swprintf_s
+0x4022bd	0x407628	string	0x402274	SOFTWARE\Classes\CLSID\%s\InprocServer32
+0x4022ce	0x406194	import	0x402274	MSVCR100.dll.swprintf_s
+0x4022f4	0x409080	import	0x402274	ADVAPI32.dll.RegOpenKeyExW
+0x402321	0x4090a0	import	0x402274	ADVAPI32.dll.RegQueryValueW
+0x40232e	0x409088	import	0x402274	ADVAPI32.dll.RegCloseKey
+0x402338	0x409088	import	0x402274	ADVAPI32.dll.RegCloseKey
+0x40240f	0x406070	import	0x402274	KERNEL32.dll.lstrlenW
+0x402419	0x406180	import	0x402274	MSVCR100.dll.wcscpy_s
+0x40241f	0x407680	string	0x402274	0000
+0x402486	0x406184	import	0x402274	MSVCR100.dll._wtoi
+0x4024d3	0x406184	import	0x402274	MSVCR100.dll._wtoi
+0x40252d	0x406184	import	0x402274	MSVCR100.dll._wtoi
+0x40256e	0x406184	import	0x402274	MSVCR100.dll._wtoi
+0x4025a5	0x4060d4	import	0x40258f	KERNEL32.dll.GetEnvironmentVariableW
+0x4025c4	0x407814	string	0x4025b4	USERPROFILE
+0x4025c9	0x4060d4	import	0x4025b4	KERNEL32.dll.GetEnvironmentVariableW
+0x4025d9	0x40606c	import	0x4025b4	KERNEL32.dll.GetWindowsDirectoryW
+0x4025f0	0x40617c	import	0x4025b4	MSVCR100.dll.fclose
+0x402607	0x406094	import	0x4025ff	KERNEL32.dll.GetCurrentProcess
+0x402614	0x409098	import	0x4025ff	ADVAPI32.dll.OpenProcessToken
+0x40261f	0x409094	import	0x4025ff	ADVAPI32.dll.GetTokenInformation
+0x402636	0x4060bc	import	0x4025ff	KERNEL32.dll.GetLastError
+0x402646	0x406068	import	0x4025ff	KERNEL32.dll.LocalAlloc
+0x402667	0x4090a8	import	0x4025ff	ADVAPI32.dll.GetSidSubAuthorityCount
+0x402677	0x4090a4	import	0x4025ff	ADVAPI32.dll.GetSidSubAuthority
+0x402687	0x406088	import	0x4025ff	KERNEL32.dll.LocalFree
+0x402691	0x4060c8	import	0x4025ff	KERNEL32.dll.CloseHandle
+0x40269f	0x406f2c	string	0x40269d	kernel32.dll
+0x4026b3	0x407098	string	0x40269d	WTSGetActiveConsoleSessionId
+0x4026b9	0x406000	import	0x40269d	KERNEL32.dll.GetProcAddress
+0x4026bf	0x0	import	0x40269d	KERNEL32.dll.WTSGetActiveConsoleSessionId
+0x4026cd	0x4060c4	import	0x40269d	KERNEL32.dll.FreeLibrary
+0x4026da	0x4070b8	string	0x4026d8	Wtsapi32.dll
+0x4026ed	0x4070d4	string	0x4026d8	WTSQueryUserToken
+0x4026f3	0x406000	import	0x4026d8	KERNEL32.dll.GetProcAddress
+0x40270a	0x4060c4	import	0x4026d8	KERNEL32.dll.FreeLibrary
+0x4027a5	0x4060ac	import	0x402715	KERNEL32.dll.GetModuleHandleW
+0x4027c7	0x4060b0	import	0x402715	KERNEL32.dll.GetModuleFileNameW
+0x4027de	0x406060	import	0x402715	KERNEL32.dll.GetShortPathNameW
+0x40280e	0x406178	import	0x402715	MSVCR100.dll._wsplitpath_s
+0x402856	0x406180	import	0x402715	MSVCR100.dll.wcscpy_s
+0x402865	0x406170	import	0x402715	MSVCR100.dll.wcscat_s
+0x402880	0x4060b4	import	0x402715	KERNEL32.dll.GetLongPathNameW
+0x4028b0	0x407238	string	0x402715	SOFTWARE
+0x4028ee	0x402929	string	0x402715	VhLr@
+0x402a49	0x4072a0	string	0x402a35	SOFTWARE
+0x402aae	0x4072b4	string	0x402a35	JavaSoft
+0x402ac3	0x4072c8	string	0x402a35	Java Plug-in
+0x402af5	0x4072e4	string	0x402a35	JavaHome
+0x402b0b	0x406060	import	0x402a35	KERNEL32.dll.GetShortPathNameW
+0x402b1e	0x4060b4	import	0x402a35	KERNEL32.dll.GetLongPathNameW
+0x402be6	0x4075d8	string	0x402b65	{E19F9331-3110-11D4-991C-005004D3B3DB}
+0x402d76	0x4076a4	string	0x402b65	Mozilla
+0x402d88	0x4076b4	string	0x402b65	Mozilla Firefox
+0x402dba	0x4076fc	string	0x402b65	CurrentVersion
+0x402df2	0x40771c	string	0x402b65	Main
+0x402e18	0x407728	string	0x402b65	Install Directory
+0x402e24	0x402e75	string	0x402b65	hLw@
+0x402e55	0x4076d4	string	0x402b65	mozilla.org
+0x402e6b	0x4076ec	string	0x402b65	Mozilla
+0x402e75	0x40774c	string	0x402b65	\plugins
+0x402e83	0x406170	import	0x402b65	MSVCR100.dll.wcscat_s
+0x402ed8	0x40606c	import	0x402b65	KERNEL32.dll.GetWindowsDirectoryW
+0x402f03	0x406754	string	0x402b65	\system32\javaws.exe
+0x402f28	0x4060ac	import	0x402b65	KERNEL32.dll.GetModuleHandleW
+0x402f2e	0x406780	string	0x402b65	Wow64DisableWow64FsRedirection
+0x402f33	0x4067a0	string	0x402b65	kernel32
+0x402f3a	0x406000	import	0x402b65	KERNEL32.dll.GetProcAddress
+0x402f43	0x4067b4	string	0x402b65	Wow64RevertWow64FsRedirection
+0x402f48	0x4067d4	string	0x402b65	kernel32
+0x402f82	0x40618c	import	0x402b65	MSVCR100.dll._wstat64i32
+0x402faf	0x4067e8	string	0x402b65	\sysWow64\javaws.exe
+0x402fe6	0x40618c	import	0x402b65	MSVCR100.dll._wstat64i32
+0x403054	0x4090cc	import	0x403017	SHELL32.dll.SHGetFolderPathW
+0x403061	0x406ba8	string	0x403017	Error:%08x in SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, szPath)
+0x403099	0x40616c	import	0x403017	MSVCR100.dll.wcsncpy_s
+0x4030c0	0x406b84	string	0x403017	COM Error:%08x %s
+0x40313f	0x4090cc	import	0x403102	SHELL32.dll.SHGetFolderPathW
+0x40314c	0x406c58	string	0x403102	Error:%08x in ::SHGetFolderPathW(0, CSIDL_COMMON_APPDATA, NULL, SHGFP_TYPE_CURRENT, szPath)
+0x403184	0x40616c	import	0x403102	MSVCR100.dll.wcsncpy_s
+0x4031ab	0x406c34	string	0x403102	COM Error:%08x %s
+0x403241	0x406d10	string	0x4031ed	%s\Oracle\Java\java.settings.cfg
+0x40324a	0x406194	import	0x4031ed	MSVCR100.dll.swprintf_s
+0x403273	0x4072f8	string	0x403263	CLSID
+0x4032cf	0x4061f8	import	0x403263	ole32.dll.StringFromCLSID
+0x4032e8	0x4061fc	import	0x403263	ole32.dll.CoTaskMemFree
+0x40330d	0x407304	string	0x403263	TreatAs
+0x4033a1	0x407760	string	0x403396	Software\Classes\CLSID
+0x4033cc	0x4060a8	import	0x403396	KERNEL32.dll.InterlockedIncrement
+0x403435	0x409080	import	0x403396	ADVAPI32.dll.RegOpenKeyExW
+0x40350d	0x40782c	string	0x4034e9	JAVA_REGDEPLOY_DEBUG
+0x40351a	0x406160	import	0x4034e9	MSVCR100.dll._wdupenv_s
+0x40352e	0x406164	import	0x4034e9	MSVCR100.dll.free
+0x403550	0x40605c	import	0x4034e9	KERNEL32.dll.GetTempPathW
+0x40356e	0x4078b4	string	0x4034e9	JavaDeployReg.log
+0x4035af	0x406168	import	0x4034e9	MSVCR100.dll._wfopen_s
+0x403625	0x406058	import	0x403600	KERNEL32.dll.GetLocalTime
+0x40364f	0x4078e0	string	0x403600	[%04u/%02u/%02u %02u:%02u:%02u.%03u] %s \n
+0x40365a	0x40615c	import	0x403600	MSVCR100.dll.fwprintf_s
+0x403675	0x407934	string	0x403670	JAVA_REGDEPLOY_DEBUG
+0x4036b6	0x406158	import	0x403670	MSVCR100.dll._wputenv
+0x4036f0	0x406094	import	0x4036cb	KERNEL32.dll.GetCurrentProcess
+0x4036f7	0x409098	import	0x4036cb	ADVAPI32.dll.OpenProcessToken
+0x403701	0x406d88	string	0x4036cb	GetCurrentUserHandle: OpenProcessToken failed.
+0x403718	0x406d54	string	0x4036cb	SeIncreaseQuotaPrivilege
+0x403725	0x4090bc	import	0x4036cb	ADVAPI32.dll.LookupPrivilegeValueW
+0x40373d	0x4090b8	import	0x4036cb	ADVAPI32.dll.AdjustTokenPrivileges
+0x403743	0x4060bc	import	0x4036cb	KERNEL32.dll.GetLastError
+0x40374c	0x4060c8	import	0x4036cb	KERNEL32.dll.CloseHandle
+0x40375c	0x406de8	string	0x4036cb	GetCurrentUserHandle: AdjustTokenPrivileges failed.
+0x403763	0x4061e4	import	0x4036cb	USER32.dll.GetShellWindow
+0x40376d	0x406e50	string	0x4036cb	GetCurrentUserHandle: No desktop shell is present.
+0x403779	0x4061d8	import	0x4036cb	USER32.dll.GetWindowThreadProcessId
+0x403784	0x406eb8	string	0x4036cb	GetCurrentUserHandle: Unable to get PID of desktop shell.
+0x403794	0x406054	import	0x4036cb	KERNEL32.dll.OpenProcess
+0x4037a1	0x406f48	string	0x4036cb	GetCurrentUserHandle: Can't open desktop shell process.
+0x4037b7	0x409098	import	0x4036cb	ADVAPI32.dll.OpenProcessToken
+0x4037c1	0x406fb8	string	0x4036cb	GetCurrentUserHandle: Can't get process token of desktop shell.
+0x4037de	0x4090b4	import	0x4036cb	ADVAPI32.dll.DuplicateTokenEx
+0x4037e8	0x407038	string	0x4036cb	GetCurrentUserHandle: Can't get primary token.
+0x40381e	0x40269d	string	0x403811	VWh,o@
+0x403828	0x4070e8	string	0x403811	GetCurrentUserHandle2: WTSGetActiveConsoleSessionId failed.
+0x403847	0x407160	string	0x403811	GetCurrentUserHandle2: WTSQueryUserToken failed.
+0x403860	0x4090b4	import	0x403811	ADVAPI32.dll.DuplicateTokenEx
+0x40386a	0x4071d8	string	0x403811	GetCurrentUserHandle2: DuplicateTokenEx failed.
+0x403878	0x4060c8	import	0x403811	KERNEL32.dll.CloseHandle
+0x403883	0x4060c8	import	0x403811	KERNEL32.dll.CloseHandle
+0x4038d5	0x4090c8	import	0x40389d	SHELL32.dll.SHGetFolderPathEx
+0x4038e2	0x406838	string	0x40389d	Error:%08x in SHGetFolderPathEx(FOLDERID_LocalAppDataLow, 0, hToken, pPath, MAX_PATH)
+0x403905	0x406814	string	0x40389d	COM Error:%08x %s
+0x403928	0x4060c8	import	0x40389d	KERNEL32.dll.CloseHandle
+0x403949	0x4090cc	import	0x40389d	SHELL32.dll.SHGetFolderPathW
+0x403956	0x406908	string	0x40389d	Error:%08x in SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, pPath)
+0x40396d	0x4068e4	string	0x40389d	COM Error:%08x %s
+0x4039a2	0x4090c4	import	0x40389d	SHELL32.dll.SHGetSpecialFolderPathW
+0x4039af	0x406990	string	0x40389d	Error:%08x in SHGetSpecialFolderPathW(NULL, pPath, CSIDL_APPDATA, TRUE)
+0x4039c9	0x406a20	string	0x40389d	COM Error:%08x %s
+0x403a2a	0x406a68	string	0x4039e7	Error:%08x in GetUserPathW(szPath)
+0x403a63	0x40616c	import	0x4039e7	MSVCR100.dll.wcsncpy_s
+0x403a8a	0x406a44	string	0x4039e7	COM Error:%08x %s
+0x403b20	0x4090c8	import	0x4039e7	SHELL32.dll.SHGetFolderPathEx
+0x403b2e	0x406ab0	string	0x4039e7	Error:%08x in SHGetFolderPathEx(FOLDERID_LocalAppDataLow, 0, hToken, szPath, MAX_PATH)
+0x403b49	0x4060c8	import	0x4039e7	KERNEL32.dll.CloseHandle
+0x403b70	0x40616c	import	0x4039e7	MSVCR100.dll.wcsncpy_s
+0x403bc0	0x406b60	string	0x4039e7	COM Error:%08x %s
+0x403c17	0x406194	import	0x403bd3	MSVCR100.dll.swprintf_s
+0x403c24	0x4077b8	string	0x403bd3	%s\Sun\Java\Deployment\deployment.properties
+0x403c50	0x407858	string	0x403bd3	%s\Sun\Java\Deployment\deployment.properties
+0x403d6a	0x4061cc	import	0x403d5d	OLEAUT32.dll.VariantInit
+0x403dd1	0x4061d0	import	0x403d74	OLEAUT32.dll.DllRegisterServer
+0x403dfa	0x406174	import	0x403d74	MSVCR100.dll.memcpy_s
+0x403e6b	0x4060d0	import	0x403e48	KERNEL32.dll.FormatMessageW
+0x403e78	0x406070	import	0x403e48	KERNEL32.dll.lstrlenW
+0x403eab	0x406068	import	0x403e48	KERNEL32.dll.LocalAlloc
+0x403ecc	0x4079f0	string	0x403e48	IDispatch error #%d
+0x403ed4	0x4079c4	string	0x403e48	Unknown error 0x%0lX
+0x403edc	0x406194	import	0x403e48	MSVCR100.dll.swprintf_s
+0x403f6c	0x406148	import	0x403f50	MSVCR100.dll._ftime64_s
+0x403f76	0x406154	import	0x403f50	MSVCR100.dll._localtime64
+0x403f7d	0x407b68	string	0x403f50	%b %d %H:%M:%S
+0x403f84	0x40614c	import	0x403f50	MSVCR100.dll.wcsftime
+0x403f9f	0x407b88	string	0x403f50	.%03d
+0x403fae	0x406150	import	0x403f50	MSVCR100.dll._snwprintf_s
+0x40401e	0x406144	import	0x403fd2	MSVCR100.dll._vsnwprintf_s
+0x40405c	0x406170	import	0x403fd2	MSVCR100.dll.wcscat_s
+0x4040ec	0x407ba8	string	0x403fd2	Error:
+0x404105	0x406048	import	0x403fd2	KERNEL32.dll.GetCurrentThreadId
+0x40410c	0x40604c	import	0x403fd2	KERNEL32.dll.GetCurrentProcessId
+0x404113	0x407bbc	string	0x403fd2	P:%04d T:%04d %s%s
+0x40412a	0x406150	import	0x403fd2	MSVCR100.dll._snwprintf_s
+0x404181	0x406050	import	0x403fd2	KERNEL32.dll.OutputDebugStringW
+0x4041ea	0x409090	import	0x4041ea	ADVAPI32.dll.ConvertSidToStringSidW
+0x4041f0	0x409094	import	0x4041ea	ADVAPI32.dll.GetTokenInformation
+0x4041f5	0x4041b1	string	0x4041ea	QRPh
+0x4041fa	0x409098	import	0x4041ea	ADVAPI32.dll.OpenProcessToken
+0x4041ff	0x4041b1	string	0x4041ea	QRPh
+0x404204	0x40909c	import	0x4041ea	ADVAPI32.dll.CreateProcessAsUserW
+0x404209	0x4041b1	string	0x4041ea	QRPh
+0x40420e	0x4090a0	import	0x4041ea	ADVAPI32.dll.RegQueryValueW
+0x404213	0x4041b1	string	0x4041ea	QRPh
+0x404218	0x4090a4	import	0x4041ea	ADVAPI32.dll.GetSidSubAuthority
+0x40421d	0x4041b1	string	0x4041ea	QRPh
+0x404222	0x4090a8	import	0x4041ea	ADVAPI32.dll.GetSidSubAuthorityCount
+0x404227	0x4041b1	string	0x4041ea	QRPh
+0x40422c	0x4090ac	import	0x4041ea	ADVAPI32.dll.RegEnumKeyExW
+0x404231	0x4041b1	string	0x4041ea	QRPh
+0x404236	0x4090b0	import	0x4041ea	ADVAPI32.dll.RegEnumKeyW
+0x40423b	0x4041b1	string	0x4041ea	QRPh
+0x404240	0x4090b4	import	0x4041ea	ADVAPI32.dll.DuplicateTokenEx
+0x404245	0x4041b1	string	0x4041ea	QRPh
+0x40424a	0x4090b8	import	0x4041ea	ADVAPI32.dll.AdjustTokenPrivileges
+0x40424f	0x4041b1	string	0x4041ea	QRPh
+0x404254	0x4090bc	import	0x4041ea	ADVAPI32.dll.LookupPrivilegeValueW
+0x404259	0x4041b1	string	0x4041ea	QRPh
+0x40425e	0x4061ac	import	0x40425e	MSVCR100.dll.sym_imp_void * __cdecl operator new(unsigned int)
+0x404264	0x4061a8	import	0x404264	MSVCR100.dll.sym_imp_void __cdecl operator delete[](void *)
+0x4042ac	0x4061a0	import	0x4042ac	MSVCR100.dll.sym_imp_void __cdecl operator delete(void *)
+0x4042b2	0x40619c	import	0x4042ac	MSVCR100.dll.__CxxFrameHandler3
+0x404336	0x406198	import	0x404336	MSVCR100.dll.sym_imp_void * __cdecl operator new[](unsigned int)
+0x40433c	0x406190	import	0x40433c	MSVCR100.dll.memset
+0x40435e	0x4043ec	string	0x404344	j\fhh
+0x404450	0x406164	import	0x404450	MSVCR100.dll.free
+0x404456	0x406140	import	0x404456	MSVCR100.dll.memcpy
+0x40448c	0x406134	import	0x404456	MSVCR100.dll.__getmainargs
+0x4044bc	0x406034	import	0x404456	KERNEL32.dll.GetStartupInfoW
+0x4044cf	0x406038	import	0x404456	KERNEL32.dll.HeapSetInformation
+0x4044ec	0x40603c	import	0x404456	KERNEL32.dll.InterlockedCompareExchange
+0x404507	0x406040	import	0x404456	KERNEL32.dll.Sleep
+0x40458b	0x406044	import	0x404456	KERNEL32.dll.InterlockedExchange
+0x4045c0	0x40460b	string	0x404456	<"u\v3
+0x4045c9	0x40460b	string	0x404456	<"u\v3
+0x4045df	0x4045e7	string	0x404456	j\nXPVSh
+0x404605	0x406120	import	0x404456	MSVCR100.dll.exit
+0x40461e	0x406124	import	0x404456	MSVCR100.dll._ismbblead
+0x40465a	0x40612c	import	0x404456	MSVCR100.dll._exit
+0x404668	0x406130	import	0x404456	MSVCR100.dll._cexit
+0x4046ce	0x406100	import	0x404456	MSVCR100.dll.__set_app_type
+0x4046d7	0x406030	import	0x404456	KERNEL32.dll.EncodePointer
+0x404719	0x40610c	import	0x404456	MSVCR100.dll.__setusermatherr
+0x404730	0x406110	import	0x404456	MSVCR100.dll._configthreadlocale
+0x4047ff	0x406020	import	0x404746	KERNEL32.dll.IsDebuggerPresent
+0x404814	0x406024	import	0x404746	KERNEL32.dll.SetUnhandledExceptionFilter
+0x40481f	0x406028	import	0x404746	KERNEL32.dll.UnhandledExceptionFilter
+0x40483b	0x406094	import	0x404746	KERNEL32.dll.GetCurrentProcess
+0x404842	0x40602c	import	0x404746	KERNEL32.dll.TerminateProcess
+0x40484a	0x40613c	import	0x40484a	MSVCR100.dll.sym_imp_void __cdecl terminate(void)
+0x404915	0x406024	import	0x4048d0	KERNEL32.dll.SetUnhandledExceptionFilter
+0x40491e	0x406138	import	0x40491e	MSVCR100.dll._amsg_exit
+0x404936	0x40601c	import	0x404924	KERNEL32.dll.DecodePointer
+0x404949	0x4060ec	import	0x404924	MSVCR100.dll._onexit
+0x40497f	0x406030	import	0x404924	KERNEL32.dll.EncodePointer
+0x404a28	0x406128	import	0x404a28	MSVCR100.dll._XcptFilter
+0x404aa3	0x404aaf	string	0x404a70	_^[]
+0x404b7c	0x406118	import	0x404b7c	MSVCR100.dll._initterm
+0x404b82	0x406114	import	0x404b82	MSVCR100.dll._initterm_e
+0x404bea	0x4060c0	import	0x404bb5	KERNEL32.dll.GetSystemTimeAsFileTime
+0x404bf6	0x40604c	import	0x404bb5	KERNEL32.dll.GetCurrentProcessId
+0x404bfe	0x406048	import	0x404bb5	KERNEL32.dll.GetCurrentThreadId
+0x404c06	0x4060d8	import	0x404bb5	KERNEL32.dll.GetTickCount
+0x404c12	0x406004	import	0x404bb5	KERNEL32.dll.QueryPerformanceCounter
+0x404c4e	0x4060fc	import	0x404c4e	MSVCR100.dll._crt_debugger_hook
+0x404c54	0x4060f8	import	0x404c54	MSVCR100.dll.sym_imp_public: void __thiscall type_info::_type_info_dtor_internal_method(void)
+0x404c5a	0x4061b4	import	0x404c5a	MSVCR100.dll._except_handler4_common
+0x404c60	0x4060e0	import	0x404c60	MSVCR100.dll._unlock
+0x404c66	0x4060e4	import	0x404c66	MSVCR100.dll.__dllonexit
+0x404c6c	0x4060e8	import	0x404c6c	MSVCR100.dll._lock
+0x404c72	0x4060f0	import	0x404c72	MSVCR100.dll._invoke_watson
+0x404c78	0x4060f4	import	0x404c78	MSVCR100.dll._controlfp_s
+0x404c7e	0x4090cc	import	0x404c78	SHELL32.dll.SHGetFolderPathW
+0x404c83	0x404c88	string	0x404c78	QRPh
+0x404c99	0x4090c4	import	0x404c78	SHELL32.dll.SHGetSpecialFolderPathW
+0x404c9e	0x404c88	string	0x404c78	QRPh
+0x404ca3	0x4090c8	import	0x404c78	SHELL32.dll.SHGetFolderPathEx
+0x404ca8	0x404c88	string	0x404c78	QRPh
+0x404cad	0x4090d4	import	0x404c78	SHLWAPI.dll.PathFileExistsW
+0x404cb2	0x404cb7	string	0x404c78	QRPhЁ@ blocks=Basic Latin,Cyrillic
+0x404d17	0x40600c	import	0x404cd0	KERNEL32.dll.lstrlenA
+0x404d2d	0x406008	import	0x404cd0	KERNEL32.dll.MultiByteToWideChar
+0x404d3c	0x4060bc	import	0x404cd0	KERNEL32.dll.GetLastError
+0x404dcb	0x406008	import	0x404cd0	KERNEL32.dll.MultiByteToWideChar
+0x404de6	0x4060bc	import	0x404cd0	KERNEL32.dll.GetLastError
+0x404e01	0x4061c4	import	0x404cd0	OLEAUT32.dll.SysReAllocString
+0x404ec0	0x406010	import	0x404e50	KERNEL32.dll.WideCharToMultiByte
+0x404ecc	0x4060bc	import	0x404e50	KERNEL32.dll.GetLastError
+0x404f29	0x406010	import	0x404e50	KERNEL32.dll.WideCharToMultiByte
+0x404f3c	0x4060bc	import	0x404e50	KERNEL32.dll.GetLastError
+0x405065	0x406088	import	0x405042	KERNEL32.dll.LocalFree
+0x4050fa	0x406014	import	0x405081	KERNEL32.dll.RaiseException
+0x405173	0x406018	import	0x405081	KERNEL32.dll.LoadLibraryA
+0x40517f	0x4060bc	import	0x405081	KERNEL32.dll.GetLastError
+0x4051b2	0x406014	import	0x405081	KERNEL32.dll.RaiseException
+0x4051c4	0x406044	import	0x405081	KERNEL32.dll.InterlockedExchange
+0x4051d8	0x406068	import	0x405081	KERNEL32.dll.LocalAlloc
+0x4051f5	0x4060c4	import	0x405081	KERNEL32.dll.FreeLibrary
+0x40524b	0x406000	import	0x405081	KERNEL32.dll.GetProcAddress
+0x405257	0x4060bc	import	0x405081	KERNEL32.dll.GetLastError
+0x40528a	0x406014	import	0x405081	KERNEL32.dll.RaiseException
+0x4052bc	0x4061b0	import	0x4052bc	MSVCR100.dll.malloc
+0x4052fc	0x4061b8	import	0x4052fc	MSVCR100.dll._CxxThrowException

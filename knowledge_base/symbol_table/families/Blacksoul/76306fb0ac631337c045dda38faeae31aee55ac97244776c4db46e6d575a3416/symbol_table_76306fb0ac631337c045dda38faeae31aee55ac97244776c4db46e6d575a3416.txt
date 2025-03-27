@@ -1,0 +1,1245 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x1000101a	0x1005f068	import	0x10001000	KERNEL32.dll.CreateMutexW
+0x100013ea	0x1006c0f0	string	0x100013e0	bad array new length
+0x100014e9	0x1006c120	string	0x100014e0	bad conversion
+0x10001bd3	0x1005f044	import	0x10001b60	KERNEL32.dll.MultiByteToWideChar
+0x10001cb2	0x10001d03	string	0x10001c90	[+u\f_
+0x10001cf8	0x10001d03	string	0x10001c90	[+u\f_
+0x1000261d	0x1000262f	string	0x10002590	3ɋE\b@ blocks=Basic Latin,Latin Extended-B
+0x100038b0	0x1006c130	string	0x100038b0	string too long
+0x10003b9e	0x1006c3b0	string	0x10003b80	Downloading %d bytes from 0x%08x (handle 0x%08x)
+0x10003bd3	0x1006c3e8	string	0x10003b80	Bad size %d passed.
+0x10003c4c	0x1006c41c	string	0x10003b80	Error - processed %d bytes, expected %d
+0x10003c6d	0x1005f08c	import	0x10003b80	KERNEL32.dll.Sleep
+0x10003d75	0x1006c444	string	0x10003b80	Error - read %d bytes, expected %d
+0x10003d93	0x1006c3fc	string	0x10003b80	Error from Endpoint0Transfer
+0x10003e0b	0x1006c468	string	0x10003e00	DFUUploadTransfer 0x%08x
+0x10003e75	0x1006c484	string	0x10003e00	DFUUploadTransfer failed
+0x10003eae	0x1006c4a0	string	0x10003e00	DFUUploadTransfer succeeded, lengths %d, %d
+0x10003f06	0x1006c4cc	string	0x10003ef0	DFUMakeDeviceIdle
+0x10003f67	0x1006c4e0	string	0x10003ef0	Done Getting Status
+0x10004020	0x1005f08c	import	0x10003ef0	KERNEL32.dll.Sleep
+0x100040b6	0x1006c4f4	string	0x100040a0	DFUDeviceReset
+0x100040e7	0x1006c504	string	0x100040a0	Device does not support Stellaris protocol.
+0x1000413c	0x1006c530	string	0x100040a0	Error %s (%d) attempting to get device into IDLE state.
+0x100041be	0x1006c574	string	0x100041a0	LMDFUDeviceOpen %d
+0x10004200	0x1006c954	string	0x100041a0	lmusb: InitializeDeviceByIndex
+0x1000422f	0x1005f1c0	import	0x100041a0	libusb-1.0.dll.libusb_init
+0x1000423a	0x1005f1a0	import	0x100041a0	libusb-1.0.dll.libusb_get_device_list
+0x10004247	0x1006c974	string	0x100041a0	lmusb: error reading USB device list: %d
+0x100042a2	0x1005f1bc	import	0x100041a0	libusb-1.0.dll.libusb_get_device_descriptor
+0x100042d5	0x1005f1b8	import	0x100041a0	libusb-1.0.dll.libusb_open
+0x100042e5	0x1006c9a0	string	0x100041a0	lmusb: DFU device opened successfully on High Sierra
+0x10004341	0x1006c588	string	0x100041a0	LMDFUDeviceOpen (Success) 0x%08x
+0x1000436f	0x1006c5ac	string	0x100041a0	Getting Service Descriptor.
+0x10004403	0x1006c5c8	string	0x100041a0	Getting Config Descriptor.
+0x10004550	0x1006c5e4	string	0x100041a0	Getting Interface Descriptor.
+0x1000460a	0x1006c604	string	0x100041a0	Getting DFU Descriptor.
+0x100046fc	0x1006c61c	string	0x100041a0	VID: 0x%08x PID: 0x%08x
+0x10004736	0x1006c634	string	0x100041a0	Device is in DFU mode
+0x10004766	0x1006c64c	string	0x100041a0	Checking Protocol
+0x10004814	0x1006c660	string	0x100041a0	Getting Part Number
+0x10004905	0x1005f1b0	import	0x100041a0	libusb-1.0.dll.libusb_error_name
+0x1000490d	0x1006c9d8	string	0x100041a0	lmusb: open failed: %d %s
+0x1000493d	0x1006c9f4	string	0x100041a0	lmusb: TerminateDevice
+0x10004969	0x1005f1b4	import	0x100041a0	libusb-1.0.dll.libusb_release_interface
+0x10004970	0x1005f1a8	import	0x100041a0	libusb-1.0.dll.libusb_close
+0x100049b8	0x1006c674	string	0x100049b0	LMDFUDeviceClose 0x%08x
+0x100049fc	0x1006c9f4	string	0x100049b0	lmusb: TerminateDevice
+0x10004a28	0x1005f1b4	import	0x100049b0	libusb-1.0.dll.libusb_release_interface
+0x10004a2f	0x1005f1a8	import	0x100049b0	libusb-1.0.dll.libusb_close
+0x10004a64	0x1006c6bc	string	0x10004a50	Don't verify
+0x10004a6c	0x1006c6cc	string	0x10004a50	LMDFUDownloadBin 0x%08x 0x%08x %d %s
+0x10004ab0	0x1006c6f4	string	0x10004a50	Target does not support Stellaris DFU protocol.
+0x10004af5	0x1006c724	string	0x10004a50	Image is located outside writeable area of flash.
+0x10004b41	0x1006c530	string	0x10004a50	Error %s (%d) attempting to get device into IDLE state.
+0x10004ba7	0x1006c758	string	0x10004a50	Error %s (%d) sending PROG command to device.
+0x10004c3c	0x1006c6b4	string	0x10004c20	Verify
+0x10004c46	0x1006c788	string	0x10004c20	LMDFUErase 0x%08x 0x%08x %d %s
+0x10004c8d	0x1006c504	string	0x10004c20	Device does not support Stellaris protocol.
+0x10004ce9	0x1006c7a8	string	0x10004c20	Erasing entire writeable region. %dKB from 0x%x
+0x10004d1c	0x1006c7d8	string	0x10004c20	Address is not a multiple of 1024
+0x10004d86	0x1006c530	string	0x10004c20	Error %s (%d) attempting to get device into IDLE state.
+0x10004e31	0x1006c7fc	string	0x10004c20	Size is not a multiple of 1024 or is zero.
+0x10004e7f	0x1006c828	string	0x10004e70	DFU_ERR_VERIFY_FAIL
+0x10004e85	0x1006c83c	string	0x10004e70	DFU_ERR_CANT_VERIFY
+0x10004e8b	0x1006c850	string	0x10004e70	DFU_ERR_DNLOAD_FAIL
+0x10004e91	0x1006c864	string	0x10004e70	DFU_ERR_STALL
+0x10004e97	0x1006c874	string	0x10004e70	DFU_ERR_TIMEOUT
+0x10004e9d	0x1006c884	string	0x10004e70	DFU_ERR_DISCONNECTED
+0x10004ea3	0x1006c89c	string	0x10004e70	DFU_ERR_INVALID_SIZE
+0x10004ea9	0x1006c8b4	string	0x10004e70	DFU_ERR_INVALID_ADDR
+0x10004eaf	0x1006c8cc	string	0x10004e70	DFU_ERR_INVALID_FORMAT
+0x10004eb5	0x1006c8e4	string	0x10004e70	DFU_ERR_UNSUPPORTED
+0x10004ebb	0x1006c8f8	string	0x10004e70	DFU_ERR_UNKNOWN
+0x10004ec1	0x1006c908	string	0x10004e70	DFU_ERR_MEMORY
+0x10004ec7	0x1006c918	string	0x10004e70	DFU_ERR_NOT_FOUND
+0x10004ecd	0x1006c92c	string	0x10004e70	DFU_ERR_HANDLE
+0x10004ed3	0x1006c93c	string	0x10004e70	DFU_OK
+0x10004ed9	0x1006c944	string	0x10004e70	*** Invalid ***
+0x10005073	0x1006c954	string	0x10005060	lmusb: InitializeDeviceByIndex
+0x100050a7	0x1005f1c0	import	0x10005060	libusb-1.0.dll.libusb_init
+0x100050b2	0x1005f1a0	import	0x10005060	libusb-1.0.dll.libusb_get_device_list
+0x100050bf	0x1006c974	string	0x10005060	lmusb: error reading USB device list: %d
+0x10005111	0x1005f1bc	import	0x10005060	libusb-1.0.dll.libusb_get_device_descriptor
+0x10005136	0x1005f1ac	import	0x10005060	libusb-1.0.dll.libusb_free_device_list
+0x10005157	0x1006ca0c	string	0x10005150	lmusb: Endpoint0Transfer
+0x100051ae	0x1005f1a4	import	0x10005150	libusb-1.0.dll.libusb_control_transfer
+0x100051bb	0x1006ca28	string	0x10005150	Endpoint0Transfer: Requested %d bytes transferred, actual %d
+0x100051f9	0x1006ca68	string	0x10005150	lmusb: control transfer failed: %d
+0x10005823	0x1006cb84	string	0x10005810	iostream stream error
+0x100058ba	0x1006cb9c	string	0x100058b0	bad cast
+0x10008890	0x1006cc24	string	0x10008890	invalid string position
+0x10008f87	0x1006cba8	string	0x10008e10	false
+0x10008f9a	0x1006cbb0	string	0x10008e10	true
+0x10009238	0x1006cba8	string	0x100091b0	false
+0x1000924b	0x1006cbb0	string	0x100091b0	true
+0x10009e0e	0x10009e3f	string	0x10009e00	3ۋU\b blocks=Basic Latin,Arabic
+0x10009e16	0x10009e3f	string	0x10009e00	3ۋU\b blocks=Basic Latin,Arabic
+0x10009e1e	0x10009e3f	string	0x10009e00	3ۋU\b blocks=Basic Latin,Arabic
+0x10009e31	0x10009e3f	string	0x10009e00	3ۋU\b blocks=Basic Latin,Arabic
+0x1000ce46	0x1005f190	import	0x1000ce30	SETUPAPI.dll.SetupDiClassGuidsFromNameW
+0x1000cef1	0x1005f184	import	0x1000ce30	SETUPAPI.dll.SetupDiGetClassDevsW
+0x1000cf43	0x1005f18c	import	0x1000ce30	SETUPAPI.dll.SetupDiEnumDeviceInfo
+0x1000cf66	0x1005f194	import	0x1000ce30	SETUPAPI.dll.SetupDiOpenDevRegKey
+0x1000cf9c	0x1006dc64	string	0x1000ce30	PortName
+0x1000cfa2	0x1005f000	import	0x1000ce30	ADVAPI32.dll.RegQueryValueExW
+0x1000cff5	0x1005f004	import	0x1000ce30	ADVAPI32.dll.RegCloseKey
+0x1000d041	0x1005f188	import	0x1000ce30	SETUPAPI.dll.SetupDiGetDeviceRegistryPropertyW
+0x1000d064	0x1006dc80	string	0x1000ce30	USB\VID_2888&PID_0002
+0x1000d07e	0x1006dcb0	string	0x1000ce30	USB\VID_2888&PID_0003&REV_0100&MI_00
+0x1000d159	0x1005f198	import	0x1000ce30	SETUPAPI.dll.SetupDiDestroyDeviceInfoList
+0x1000d31d	0x1006dcfc	string	0x1000d2e0	\\.\
+0x1000d3ab	0x1005f054	import	0x1000d2e0	KERNEL32.dll.CreateFileW
+0x1000d3e4	0x1005f05c	import	0x1000d2e0	KERNEL32.dll.SetCommTimeouts
+0x1000d5b2	0x1005b790	string	0x1000d590	WVU3
+0x1000d5d3	0x1005b6a0	string	0x1000d590	WVS3
+0x1000d798	0x1006dd78	string	0x1000d710	No Device found. Error Value: %d
+0x1000d8ba	0x1006dd60	string	0x1000d710	Found Device. Path:
+0x1000d9e0	0x1005f058	import	0x1000d9d0	KERNEL32.dll.CloseHandle
+0x1000d9f5	0x1005f058	import	0x1000d9d0	KERNEL32.dll.CloseHandle
+0x1000daff	0x1006dd9c	string	0x1000dab0	Command: %X returned waiting.
+0x1000db17	0x1006ddbc	string	0x1000dab0	Command: %X in progress. Progress: %d%%
+0x1000db4d	0x1006dde4	string	0x1000dab0	Command: %X returned failed response.
+0x1000dd3a	0x1000dd41	string	0x1000dab0	2\bGT
+0x1000dd49	0x1000dd50	string	0x1000dab0	2\bGU
+0x1000dd58	0x1000dd5f	string	0x1000dab0	2\bGV
+0x1000dd67	0x1000dd6e	string	0x1000dab0	2\bGW
+0x1000dd76	0x1000dd7d	string	0x1000dab0	2\bGX
+0x1000dd85	0x1000dd8c	string	0x1000dab0	2\bGY
+0x1000dd94	0x1000dd9b	string	0x1000dab0	2\bGZ
+0x1000dda3	0x1000ddb0	string	0x1000dab0	2\bG[
+0x1000def4	0x1000df01	string	0x1000dab0	2\bG&
+0x1000df7d	0x1006de0c	string	0x1000dab0	GET ROBOT NAME LEN: %d
+0x1000e156	0x1005f04c	import	0x1000e130	KERNEL32.dll.ReadFile
+0x1000e3ca	0x1006de24	string	0x1000e130	Timout waiting for commmand: %X
+0x1000e507	0x1006dd3c	string	0x1000e4f0	MyConn is NULL!
+0x1000e5a7	0x1006de44	string	0x1000e4f0	Sending Command: %X
+0x1000e680	0x1006dd4c	string	0x1000e4f0	MyConn is not open
+0x1000e6a9	0x1006de58	string	0x1000e4f0	COULD NOT SEND MSG. Another Command in Progress.
+0x1000e795	0x1006de8c	string	0x1000e6f0	Could not get Brain Software Version.
+0x1000e839	0x1006deb4	string	0x1000e6f0	Brain Software Version: %d.%d
+0x1000e892	0x1005f058	import	0x1000e6f0	KERNEL32.dll.CloseHandle
+0x1000e8a6	0x1005f058	import	0x1000e6f0	KERNEL32.dll.CloseHandle
+0x1000e9ab	0x1006ded4	string	0x1000e6f0	Brain System Version: %d.%d.%d b:%d
+0x1000ea35	0x1006def8	string	0x1000e9e0	Failed to get robot SSID. Cannot create QR code.
+0x1000ea9d	0x1006df30	string	0x1000e9e0	Failed to encode the input data: Input data too large
+0x1000eaa2	0x1006df68	string	0x1000e9e0	Failed to encode the input data
+0x1000ed33	0x1006df88	string	0x1000ed20	Getting SLOT
+0x1000ed5d	0x1006df98	string	0x1000ed20	Found SLOT %X
+0x1000ede2	0x1006dfa8	string	0x1000eda0	Getting Address for slot: %X = %u
+0x1000f0e9	0x1006dd4c	string	0x1000ee20	MyConn is not open
+0x1000f0f0	0x1006dd3c	string	0x1000ee20	MyConn is NULL!
+0x1000f3cf	0x1006dd3c	string	0x1000f3c0	MyConn is NULL!
+0x1000f527	0x1006dd4c	string	0x1000f3c0	MyConn is not open
+0x1000f5ab	0x1000f655	string	0x1000f560	2ۋU, blocks=Basic Latin,Arabic
+0x1000f5ec	0x1000f655	string	0x1000f560	2ۋU, blocks=Basic Latin,Arabic
+0x1000f73d	0x1000f967	string	0x1000f6f0	2ۋU( blocks=Basic Latin,Arabic
+0x1000f760	0x1000f967	string	0x1000f6f0	2ۋU( blocks=Basic Latin,Arabic
+0x1000f766	0x1006e084	string	0x1000f6f0	String Erase Complete
+0x1000f7cb	0x1006e09c	string	0x1000f6f0	Sending String Data: %d\n
+0x1000f930	0x1006dd4c	string	0x1000f6f0	MyConn is not open
+0x1000f937	0x1006dd3c	string	0x1000f6f0	MyConn is NULL!
+0x1000f99b	0x1006e0b8	string	0x1000f6f0	Sending String Data Validate
+0x1000fa6d	0x1000fc3b	string	0x1000fa20	2ۋU( blocks=Basic Latin,Arabic
+0x1000fa90	0x1000fc3b	string	0x1000fa20	2ۋU( blocks=Basic Latin,Arabic
+0x1000fc04	0x1006dd4c	string	0x1000fa20	MyConn is not open
+0x1000fc0b	0x1006dd3c	string	0x1000fa20	MyConn is NULL!
+0x1000fcfd	0x1000fee4	string	0x1000fcb0	2ۋU( blocks=Basic Latin,Arabic
+0x1000fd31	0x1000fee4	string	0x1000fcb0	2ۋU( blocks=Basic Latin,Arabic
+0x1000fead	0x1006dd4c	string	0x1000fcb0	MyConn is not open
+0x1000feb4	0x1006dd3c	string	0x1000fcb0	MyConn is NULL!
+0x1000ffcd	0x100101b7	string	0x1000ff80	2ۋU blocks=Basic Latin,Arabic
+0x10010001	0x100101b7	string	0x1000ff80	2ۋU blocks=Basic Latin,Arabic
+0x10010180	0x1006dd4c	string	0x1000ff80	MyConn is not open
+0x10010187	0x1006dd3c	string	0x1000ff80	MyConn is NULL!
+0x1001034c	0x1005f04c	import	0x100102e0	KERNEL32.dll.ReadFile
+0x10010396	0x1006de24	string	0x100102e0	Timout waiting for commmand: %X
+0x100103d0	0x1006e0d8	string	0x100102e0	ACK RECVD
+0x10010437	0x1006e0e8	string	0x100102e0	RCV MSG: %s
+0x1001062a	0x1006e100	string	0x100104c0	Downloading Device FILE: %s
+0x10010676	0x1006e11c	string	0x100104c0	Could not read firmware file. Aborting download.
+0x100106a5	0x1006e0f4	string	0x100104c0	Quit byte
+0x10010756	0x1006e150	string	0x100104c0	Sending Device Download Command: %X
+0x1001088a	0x1006e174	string	0x100104c0	Checking Device Version And Type
+0x100108f7	0x1006e174	string	0x100104c0	Checking Device Version And Type
+0x10010956	0x1006e198	string	0x100104c0	Updating bootloader Version: %d Read Device Type: %d Mode: %d
+0x100109a1	0x1006e204	string	0x100104c0	Bootloader device type is different from selected device type.
+0x100109ce	0x1006e244	string	0x100104c0	Selected: %d Found: %d
+0x100109f7	0x1006e0f4	string	0x100104c0	Quit byte
+0x10010ada	0x1006e1d8	string	0x100104c0	Could not get Device info. Just moving on.
+0x10010b06	0x1006e25c	string	0x100104c0	Clearing Memory
+0x10010b54	0x1006e26c	string	0x100104c0	Joystick Connection Error
+0x10010b5c	0x1006e288	string	0x100104c0	Device Communication Error
+0x10010b89	0x1006e0f4	string	0x100104c0	Quit byte
+0x10010fa4	0x1001122c	string	0x100104c0	<qtہ blocks=Basic Latin,Arabic
+0x10010fd0	0x1006e2a8	string	0x100104c0	start addr %x
+0x10011035	0x1006e2b8	string	0x100104c0	Device is in ROM mode and start address is too low. Aborting. Addr %x
+0x10011094	0x1006e348	string	0x100104c0	Sending flush
+0x100111cb	0x1006e380	string	0x100104c0	%x %x
+0x100111e2	0x1006e388	string	0x100104c0	boot addr %x %x
+0x1001125f	0x1006e380	string	0x100104c0	%x %x
+0x10011279	0x1006e388	string	0x100104c0	boot addr %x %x
+0x100113bb	0x1006e398	string	0x100104c0	%02d %02d %02d %04x Addr: %04X -> %s
+0x1001141d	0x1006e3c0	string	0x100104c0	Recvd NACK on Write. Aborting Download.
+0x10011456	0x1006e300	string	0x100104c0	Device is in RAM mode and start address is too High. Aborting. Addr %x
+0x10011460	0x1006e358	string	0x100104c0	Recvd NACK on Flush. Aborting Download.
+0x100114ae	0x1006e3e8	string	0x100104c0	Getting DEVICE CHECKSUM!
+0x1001155e	0x1006e404	string	0x100104c0	Failed Getting checksum.
+0x100115a0	0x1006e420	string	0x100104c0	Final Checksum %04x RXChecksum = %04x DevCheckSum = %04x Total Bytes %d
+0x100115e5	0x1006e468	string	0x100104c0	!!!!!!!!!!!!!!! CHECKSUM FAILED. RE-DOWNLOAD FIRMWARE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+0x1001162f	0x1006e4bc	string	0x100104c0	g%02x%02x
+0x10011702	0x1006e0f4	string	0x100104c0	Quit byte
+0x100118b7	0x1006e4c8	string	0x100104c0	Start address failed to validate.
+0x100118e0	0x1006e0f4	string	0x100104c0	Quit byte
+0x10011b6e	0x1006e4ec	string	0x10011b50	READING DEVICE BOOTLOADER DATA.
+0x10011c00	0x1006e50c	string	0x10011b50	Done READING BOOTLOADER DATA. Version: %d Type: %d Mode: %d
+0x10011c64	0x1006e548	string	0x10011c50	PREP DEVICE FOR DOWNLOAD.
+0x10011ce6	0x1006e150	string	0x10011c50	Sending Device Download Command: %X
+0x10011d42	0x1005f08c	import	0x10011c50	KERNEL32.dll.Sleep
+0x10011d76	0x1006e564	string	0x10011c50	Done PREP DEVICE FOR DOWNLOAD. Version: %d Type: %d
+0x10011f54	0x1006e150	string	0x10011dd0	Sending Device Download Command: %X
+0x10011fb4	0x1005f08c	import	0x10011dd0	KERNEL32.dll.Sleep
+0x10011fe4	0x1005f08c	import	0x10011dd0	KERNEL32.dll.Sleep
+0x100121ea	0x1006e0f4	string	0x10011dd0	Quit byte
+0x1001245a	0x1006e59c	string	0x100122e0	Could not open Smart Radio Firmware File:
+0x10012511	0x1006e5c8	string	0x100122e0	Failed to put SR in download Mode
+0x1001253a	0x1006e60c	string	0x100122e0	Smart Radio Download FAILED. Lost Connection.
+0x1001256f	0x1005f08c	import	0x100122e0	KERNEL32.dll.Sleep
+0x1001283c	0x1006e5ec	string	0x100122e0	Smart Radio Download Complete.
+0x100129af	0x1006dd3c	string	0x10012990	MyConn is NULL!
+0x10012a52	0x1006dd4c	string	0x10012990	MyConn is not open
+0x10012a7c	0x1006e63c	string	0x10012990	You must first open the port.
+0x10012bc4	0x1006e688	string	0x10012ac0	Smart Radio: Got Handshake
+0x10012c01	0x1006e6a4	string	0x10012ac0	Smart Radio: Image Enable Succeeded
+0x10012c19	0x1006e6c8	string	0x10012ac0	Smart Radio: Image Enable Failed. Reason: %d
+0x10012c5a	0x1006e65c	string	0x10012ac0	Smart Radio: Error writing. Download Abort.
+0x10012eef	0x1006dd0c	string	0x10012eb0	HH':'mm':'ss
+0x10012efd	0x1005f060	import	0x10012eb0	KERNEL32.dll.GetTimeFormatA
+0x10012f1f	0x1006dd1c	string	0x10012eb0	Error in NowTime()
+0x10012f45	0x1005f064	import	0x10012eb0	KERNEL32.dll.GetTickCount
+0x10012fa0	0x1006dd30	string	0x10012eb0	%s.%03ld
+0x10013360	0x1006ca90	string	0x10013360	vector<T> too long
+0x10013ccd	0x1006e7d4	string	0x10013bf0	GOT PROG UPDATE:
+0x10013ce3	0x1006e7b4	string	0x10013bf0	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+0x10013d4b	0x1006e800	string	0x10013d20	DFU Found Opening Device.
+0x10013d92	0x1006e81c	string	0x10013d20	DFU Device Opened.
+0x10013df6	0x1006e868	string	0x10013d20	Found wrong DFU vid: %X pid: %X closing
+0x10013e20	0x1006c674	string	0x10013d20	LMDFUDeviceClose 0x%08x
+0x10013e4e	0x1006c9f4	string	0x10013d20	lmusb: TerminateDevice
+0x10013e7a	0x1005f1b4	import	0x10013d20	libusb-1.0.dll.libusb_release_interface
+0x10013e81	0x1005f1a8	import	0x10013d20	libusb-1.0.dll.libusb_close
+0x10013ebb	0x1006e830	string	0x10013d20	Found DFU device partnumber: %lX Hardware Version: V%d
+0x10013eee	0x1006e7e8	string	0x10013d20	No dfu devices found.
+0x10013f35	0x1006c674	string	0x10013f20	LMDFUDeviceClose 0x%08x
+0x10013f63	0x1006c9f4	string	0x10013f20	lmusb: TerminateDevice
+0x10013f8f	0x1005f1b4	import	0x10013f20	libusb-1.0.dll.libusb_release_interface
+0x10013f96	0x1005f1a8	import	0x10013f20	libusb-1.0.dll.libusb_close
+0x100140f5	0x1006e890	string	0x10013fb0	Could not open specified file: %s
+0x10014129	0x1006e8b4	string	0x10013fb0	DFU Firmware File opened successfully
+0x1001419a	0x1006c568	string	0x10013fb0	LMDFUInit
+0x100141e2	0x1006c698	string	0x10013fb0	LMDFUDeviceParamsGet 0x%08x
+0x10014216	0x1006c68c	string	0x10013fb0	Bad handle.
+0x100142f5	0x1006c674	string	0x10013fb0	LMDFUDeviceClose 0x%08x
+0x10014327	0x1006c9f4	string	0x10013fb0	lmusb: TerminateDevice
+0x10014353	0x1005f1b4	import	0x10013fb0	libusb-1.0.dll.libusb_release_interface
+0x1001435a	0x1005f1a8	import	0x10013fb0	libusb-1.0.dll.libusb_close
+0x1001444b	0x1006dd3c	string	0x10014440	MyConn is NULL!
+0x10014463	0x1006dd4c	string	0x10014440	MyConn is not open
+0x1001448d	0x1006e8dc	string	0x10014440	Looking for IQ Serial.
+0x100144da	0x1006e8f4	string	0x10014440	No vex serial devices found.
+0x1001450d	0x1006e914	string	0x10014440	Found VEX serial Port. Connecting
+0x10014543	0x1006e938	string	0x10014440	Conneted to Device
+0x10014589	0x1006e94c	string	0x10014440	Found multiple com ports. Must unplug all but one.
+0x10014595	0x1006e980	string	0x10014440	Com port found but is unavailable. Try unpluging and pluggin in again.
+0x100145b4	0x1006e9c8	string	0x10014440	Found VEX CORTEX.
+0x100145d3	0x1006e9dc	string	0x10014440	Found VEX CORTEX Controller.
+0x100145f2	0x1006e9fc	string	0x10014440	Found VEXNET key.
+0x100145f9	0x1006ea10	string	0x10014440	No Device Found
+0x1001464b	0x1006dd3c	string	0x10014640	MyConn is NULL!
+0x1001465d	0x1006dd4c	string	0x10014640	MyConn is not open
+0x10014696	0x1006dd3c	string	0x10014640	MyConn is NULL!
+0x100146a8	0x1006ea20	string	0x10014640	Returning Found Device
+0x100146da	0x1006dd4c	string	0x10014640	MyConn is not open
+0x100147d4	0x1006dd3c	string	0x10014760	MyConn is NULL!
+0x100148d5	0x1006e064	string	0x10014760	Found Flash FW for: %d v%d.%d
+0x10014a4f	0x1006eabc	string	0x10014760	File:
+0x10014a73	0x1006eaa8	string	0x10014760	Download Complete.
+0x10014ad7	0x1006eac4	string	0x10014760	Failed to download firmware for deviceID: %d. Moving on.
+0x10014adf	0x1006eb00	string	0x10014760	Could not locate file for deviceID: %d. Moving on.
+0x10014b84	0x1006ea6c	string	0x10014760	Could not download V2 devices. Could not load system file.
+0x10014bb1	0x1006dd4c	string	0x10014760	MyConn is not open
+0x10014bda	0x1006ea38	string	0x10014760	Could not download V2 devices. No brain connection.
+0x10014dd8	0x1006eb34	string	0x10014d20	Could not get brain version information. Aborting.
+0x10014df0	0x1006dd3c	string	0x10014d20	MyConn is NULL!
+0x10014fc3	0x1006ebd8	string	0x10014d20	No V1 devices to update.
+0x10015003	0x1005f08c	import	0x10014d20	KERNEL32.dll.Sleep
+0x100151c0	0x1006eb00	string	0x10014d20	Could not locate file for deviceID: %d. Moving on.
+0x100152ea	0x1006ebf4	string	0x10014d20	Could not find firmware file device type: %d
+0x10015325	0x1006ec24	string	0x10014d20	Current Version > 2.0.1: Version: %d.%d.%d b:%d
+0x1001536e	0x1006ec88	string	0x10014d20	Checking bootloader version Current: %d, Newest: %d
+0x100153be	0x1006ecbc	string	0x10014d20	Updateing Device: %d On Port: %d
+0x10015404	0x1006ece0	string	0x10014d20	Could not put device in Port: %d into boot mode. Moving on.
+0x10015439	0x1006ed20	string	0x10014d20	Could not read boot loader info from device in port: %d. Moving on.
+0x10015465	0x1006e0f4	string	0x10014d20	Quit byte
+0x100154c3	0x1006ed68	string	0x10014d20	Requested device type and bl device type do not match going with bl type. Req: %d. bl: %d
+0x100155b1	0x1006eb00	string	0x10014d20	Could not locate file for deviceID: %d. Moving on.
+0x100155dd	0x1006e0f4	string	0x10014d20	Quit byte
+0x100157bd	0x1006edc4	string	0x10014d20	Found RAM BL. Pushing new BL.
+0x100158f3	0x1006ebf4	string	0x10014d20	Could not find firmware file device type: %d
+0x1001591f	0x1006e0f4	string	0x10014d20	Quit byte
+0x100159a4	0x1006e0f4	string	0x10014d20	Quit byte
+0x100159f1	0x1006ee1c	string	0x10014d20	Error downloading RAM bootloader. Please try again. RetVal: %d
+0x10015b16	0x1006ebf4	string	0x10014d20	Could not find firmware file device type: %d
+0x10015b42	0x1006e0f4	string	0x10014d20	Quit byte
+0x10015bcd	0x1006ee94	string	0x10014d20	Error downloading ROM bootloader. Please try again.
+0x10015c0c	0x1006ee5c	string	0x10014d20	Could not get ROM boot loader info for device Type: %d
+0x10015c42	0x1006e0f4	string	0x10014d20	Quit byte
+0x10015c7a	0x1006ede4	string	0x10014d20	Could not get RAM boot loader info for device Type: %d
+0x10015cb0	0x1006e0f4	string	0x10014d20	Quit byte
+0x10015cf0	0x1006ec54	string	0x10014d20	Current Version <= 2.0.1: Version: %d.%d.%d b:%d
+0x10015d36	0x1006eec8	string	0x10014d20	Found Device: %d CurrentVersion: %d beta: %d New V: %d beta: %d
+0x10015d67	0x1006ef08	string	0x10014d20	Raw Beta Version: %d
+0x10015dcc	0x1006ecbc	string	0x10014d20	Updateing Device: %d On Port: %d
+0x10015f6c	0x1006eb9c	string	0x10014d20	Could not download V1 devices. Could not load system file.
+0x10015f73	0x1006dd4c	string	0x10014d20	MyConn is not open
+0x10015fa1	0x1006eb68	string	0x10014d20	Could not download V1 devices. No brain connection.
+0x1001608c	0x1006ef2c	string	0x10016040	Brain
+0x10016096	0x1006ef20	string	0x10016040	Controller
+0x100160a5	0x1006ef34	string	0x10016040	Updating %s Smart Radio
+0x100160fe	0x1006dd3c	string	0x10016040	MyConn is NULL!
+0x10016165	0x1006eb34	string	0x10016040	Could not get brain version information. Aborting.
+0x1001617d	0x1006efc0	string	0x10016040	Could not update Smart Radio. Hardware wrong version.
+0x1001619d	0x1006eff8	string	0x10016040	Cannot update remote radio with firmware version < 2.0 (Curent Version: %d.%d
+0x10016205	0x1006f048	string	0x10016040	Controller not conected. Tether Controller and try again.
+0x10016234	0x1005f08c	import	0x10016040	KERNEL32.dll.Sleep
+0x100162e0	0x1005f08c	import	0x10016040	KERNEL32.dll.Sleep
+0x100162eb	0x1006f084	string	0x10016040	No Smart Radio to update.
+0x100163d2	0x1006f0a0	string	0x10016040	Could not find firmware file for Smart Radio
+0x1001640f	0x1006f0e8	string	0x10016040	Brain Smart Radio
+0x10016414	0x1006f0d0	string	0x10016040	Controller Smart Radio
+0x1001641d	0x1006f0fc	string	0x10016040	%s is up to date!
+0x1001647b	0x1006f110	string	0x10016040	Smart Radio Update Successfull!
+0x100164af	0x1005f08c	import	0x10016040	KERNEL32.dll.Sleep
+0x100164d0	0x1006f130	string	0x10016040	Smart Radio Update FAILED!
+0x1001650c	0x1006ef84	string	0x10016040	Could not download Smart Radio. Could not load system file.
+0x10016513	0x1006dd4c	string	0x10016040	MyConn is not open
+0x10016541	0x1006ef4c	string	0x10016040	Could not download Smart Radio. No brain connection.
+0x1001661b	0x1006f14c	string	0x100165d0	Updating V1 Controler.
+0x10016675	0x1006dd3c	string	0x100165d0	MyConn is NULL!
+0x100166d8	0x1006eb34	string	0x100165d0	Could not get brain version information. Aborting.
+0x100166ed	0x1006f1d4	string	0x100165d0	Could not update Contrller. Hardware wrong version.
+0x100167af	0x1006f208	string	0x100165d0	Trying to conenct to controller brain status: %X
+0x10016807	0x1005f08c	import	0x100165d0	KERNEL32.dll.Sleep
+0x10016834	0x1005f08c	import	0x100165d0	KERNEL32.dll.Sleep
+0x10016898	0x1006f240	string	0x100165d0	Could not get controller verion info. Tether Controller and try again.
+0x1001693d	0x1006f288	string	0x100165d0	Could not find firmware file for Controller
+0x1001695f	0x1006f2b4	string	0x100165d0	Controller is up to date!
+0x100169aa	0x1006f2d0	string	0x100165d0	Controller Update Successfull!
+0x100169e4	0x1006f2f0	string	0x100165d0	Got Controller Info. Status: %x
+0x10016a21	0x1006f310	string	0x100165d0	Controller Update FAILED!
+0x10016a5d	0x1006f048	string	0x100165d0	Controller not conected. Tether Controller and try again.
+0x10016a69	0x1006f198	string	0x100165d0	Could not download Controller. Could not load system file.
+0x10016a70	0x1006dd4c	string	0x100165d0	MyConn is not open
+0x10016a9e	0x1006f164	string	0x100165d0	Could not download Controller. No brain connection.
+0x10016bb5	0x1006f32c	string	0x10016b40	STARTING DEVICE DOWNLOAD PORT: %d TYPE: %d
+0x10016bfc	0x1006dd3c	string	0x10016b40	MyConn is NULL!
+0x10016c6c	0x1006eb34	string	0x10016b40	Could not get brain version information. Aborting.
+0x10016c84	0x1006f390	string	0x10016b40	Could not update Device. Hardware wrong version.
+0x10016d2f	0x1006f288	string	0x10016b40	Could not find firmware file for Controller
+0x10016d3f	0x1005f08c	import	0x10016b40	KERNEL32.dll.Sleep
+0x10016d99	0x1006f3c4	string	0x10016b40	Devices
+0x10016e4e	0x1006ecbc	string	0x10016b40	Updateing Device: %d On Port: %d
+0x10016e91	0x1006ece0	string	0x10016b40	Could not put device in Port: %d into boot mode. Moving on.
+0x10016ef3	0x1006ed20	string	0x10016b40	Could not read boot loader info from device in port: %d. Moving on.
+0x10016f10	0x1006ed68	string	0x10016b40	Requested device type and bl device type do not match going with bl type. Req: %d. bl: %d
+0x10016fdf	0x1006f288	string	0x10016b40	Could not find firmware file for Controller
+0x10017008	0x1006e0f4	string	0x10016b40	Quit byte
+0x10017068	0x1006edc4	string	0x10016b40	Found RAM BL. Pushing new BL.
+0x100170e4	0x1006f3cc	string	0x10016b40	Could not get boot loader info for device Type: %d
+0x100171be	0x1006ebf4	string	0x10016b40	Could not find firmware file device type: %d
+0x100171fd	0x1006ec88	string	0x10016b40	Checking bootloader version Current: %d, Newest: %d
+0x10017364	0x1006e0f4	string	0x10016b40	Quit byte
+0x100173b2	0x1006ee1c	string	0x10016b40	Error downloading RAM bootloader. Please try again. RetVal: %d
+0x100174e5	0x1006ee94	string	0x10016b40	Error downloading ROM bootloader. Please try again.
+0x10017521	0x1006ee5c	string	0x10016b40	Could not get ROM boot loader info for device Type: %d
+0x10017531	0x1006ede4	string	0x10016b40	Could not get RAM boot loader info for device Type: %d
+0x10017622	0x1006eb00	string	0x10016b40	Could not locate file for deviceID: %d. Moving on.
+0x100176d7	0x1006f400	string	0x10016b40	DONE WITH DEVICE DOWNLOAD PORT: %d TYPE: %d
+0x100176f3	0x1006f358	string	0x10016b40	Could not download Device. Could not load system file.
+0x100176fa	0x1006dd4c	string	0x10016b40	MyConn is not open
+0x10017728	0x1006f164	string	0x10016b40	Could not download Controller. No brain connection.
+0x10017885	0x1005f06c	import	0x10016b40	KERNEL32.dll.WaitForSingleObject
+0x100178bb	0x1005f070	import	0x10016b40	KERNEL32.dll.ReleaseMutex
+0x100178ee	0x1005f058	import	0x100178e0	KERNEL32.dll.CloseHandle
+0x10017903	0x1005f058	import	0x100178e0	KERNEL32.dll.CloseHandle
+0x100179ce	0x1005f06c	import	0x10017990	KERNEL32.dll.WaitForSingleObject
+0x10017a4c	0x1005f070	import	0x10017990	KERNEL32.dll.ReleaseMutex
+0x10017aef	0x1005f06c	import	0x10017a70	KERNEL32.dll.WaitForSingleObject
+0x10017b1f	0x1006f42c	string	0x10017a70	Could not load sytem file: %s
+0x10017ba3	0x1005f070	import	0x10017a70	KERNEL32.dll.ReleaseMutex
+0x10017d2f	0x1005f06c	import	0x10017cb0	KERNEL32.dll.WaitForSingleObject
+0x10017d6e	0x1006f42c	string	0x10017cb0	Could not load sytem file: %s
+0x10017e06	0x1005f070	import	0x10017cb0	KERNEL32.dll.ReleaseMutex
+0x10017e6b	0x1005f06c	import	0x10017e30	KERNEL32.dll.WaitForSingleObject
+0x10017e75	0x1006dfcc	string	0x10017e30	Validating User Prog Path: %s
+0x10017eb1	0x1006dfec	string	0x10017e30	Opened User Prog Path: %s Size: %ul
+0x10017f0e	0x1006e014	string	0x10017e30	User Prog Validation: %X, %X, %X, %X
+0x10017f59	0x1006f44c	string	0x10017e30	Could not download invalid user prog file: %s
+0x10017fd6	0x1005f070	import	0x10017e30	KERNEL32.dll.ReleaseMutex
+0x100180e7	0x1005f06c	import	0x10018000	KERNEL32.dll.WaitForSingleObject
+0x10018115	0x1006f42c	string	0x10018000	Could not load sytem file: %s
+0x1001814f	0x1006f47c	string	0x10018000	Loaded Sys File
+0x100181a6	0x1006f48c	string	0x10018000	Running Command: %d
+0x10018202	0x1006dd3c	string	0x10018000	MyConn is NULL!
+0x10018218	0x1006dd4c	string	0x10018000	MyConn is not open
+0x10018257	0x1006dd3c	string	0x10018000	MyConn is NULL!
+0x1001827a	0x1006dd4c	string	0x10018000	MyConn is not open
+0x100184cf	0x1006f4f8	string	0x10018000	Current Brain FW Version %d.%d.b%d isGUI: %X
+0x1001850c	0x1006f528	string	0x10018000	New Brain FW Version %d.%d.b%d
+0x10018577	0x1006f548	string	0x10018000	BrainFirmware up to date
+0x10018606	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x100186a7	0x100186c5	string	0x10018000	3\vΉD$ blocks=Basic Latin,Greek and Coptic
+0x100187ed	0x1006e040	string	0x10018000	Found Flash Data for: %d v%d.%d.%d
+0x100188cb	0x1006f564	string	0x10018000	V2 FontFile1 Download Complete. !!!!!!!!!!
+0x10018982	0x1006e040	string	0x10018000	Found Flash Data for: %d v%d.%d.%d
+0x10018a81	0x1006f590	string	0x10018000	V2 FontFile2 Download Complete.!!!!!!!!!!
+0x10018aac	0x1006f5bc	string	0x10018000	Could not locate V2 FontFile2. Moving on.
+0x10018b4c	0x1006f5e8	string	0x10018000	Could not download V2 FontFile1. Moving on.
+0x10018b53	0x1006f614	string	0x10018000	Could not locate V2 FontFile1. Moving on.
+0x10018d0b	0x1006e040	string	0x10018000	Found Flash Data for: %d v%d.%d.%d
+0x10018d79	0x1006f640	string	0x10018000	String table up to date. Moving on. Current: %d.%d.%d New: %d.%d.%d
+0x10018e2e	0x1006f684	string	0x10018000	String File Download Complete. !!!!!!!!!!
+0x10018e62	0x1006f6b0	string	0x10018000	Could not download V2 string file. Moving on.
+0x10018e6c	0x1006f6e0	string	0x10018000	Could not locate V2 string file. Moving on.
+0x10019013	0x1006e040	string	0x10018000	Found Flash Data for: %d v%d.%d.%d
+0x1001908b	0x1006f70c	string	0x10018000	Installing
+0x100190c5	0x1006f718	string	0x10018000	VEXos
+0x10019147	0x1006f720	string	0x10018000	Icon File Download Complte!!!
+0x1001917b	0x1006f740	string	0x10018000	Could not find icon file. Moving on.
+0x100192f7	0x1006f70c	string	0x10018000	Installing
+0x10019331	0x1006f718	string	0x10018000	VEXos
+0x100194ad	0x1006f784	string	0x10018000	RAM APP File:
+0x100194e1	0x1006f768	string	0x10018000	Download Complete!!!!!!
+0x10019625	0x1006f784	string	0x10018000	RAM APP File:
+0x10019659	0x1006f794	string	0x10018000	Download FAILED. Moving on.
+0x100197a2	0x1006f70c	string	0x10018000	Installing
+0x100197dc	0x1006f718	string	0x10018000	VEXos
+0x100198a4	0x1006f70c	string	0x10018000	Installing
+0x100198de	0x1006f718	string	0x10018000	VEXos
+0x10019a34	0x1006f7b4	string	0x10018000	Set sytem version: %d.%d.%d.b%d Hardware: %d Flags: %X
+0x10019b29	0x1006f848	string	0x10018000	Older version: %d_%d Not setting Sys Version.
+0x10019b66	0x1006f70c	string	0x10018000	Installing
+0x10019ba0	0x1006f718	string	0x10018000	VEXos
+0x10019ccb	0x1006f7b4	string	0x10018000	Set sytem version: %d.%d.%d.b%d Hardware: %d Flags: %X
+0x10019d13	0x1006f878	string	0x10018000	Catlog Cleared
+0x10019d18	0x1006f888	string	0x10018000	ERROR Clearing Catalog.
+0x10019ef6	0x1006f70c	string	0x10018000	Installing
+0x10019f30	0x1006f718	string	0x10018000	VEXos
+0x1001a03c	0x1006f70c	string	0x10018000	Installing
+0x1001a076	0x1006f718	string	0x10018000	VEXos
+0x1001a18a	0x1006f70c	string	0x10018000	Installing
+0x1001a1c4	0x1006f718	string	0x10018000	VEXos
+0x1001a282	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001a2b5	0x1006f4a0	string	0x10018000	Could not get brain version information. Makesure brain is plugged in and power is on.
+0x1001a32a	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001a36d	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001a45e	0x1006f8a0	string	0x10018000	Got Brain Info. DevUpdateTotal:
+0x1001a5a5	0x1006f8d8	string	0x10018000	Got Dev Update Stat. devices:
+0x1001a5bc	0x1006f8cc	string	0x10018000	device:
+0x1001a5d3	0x1006f8c4	string	0x10018000	Prog
+0x1001a6c5	0x1006f904	string	0x10018000	Updating deveice:
+0x1001a6dc	0x1006f8f8	string	0x10018000	Progress:
+0x1001a74c	0x1001a7a5	string	0x10018000	3\tD$
+0x1001a765	0x1006f918	string	0x10018000	No DFU. Retry Count = %d
+0x1001a97d	0x1006f964	string	0x10018000	Downloading Firmware file:
+0x1001a9b1	0x1006f958	string	0x10018000	to brain.
+0x1001aa38	0x1006f980	string	0x10018000	Brain Firmware Download Complte.
+0x1001aa8d	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001ab6e	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001ab9a	0x1006f9e0	string	0x10018000	Could not connect to device. Current Command: %d
+0x1001abd4	0x1005f070	import	0x10018000	KERNEL32.dll.ReleaseMutex
+0x1001ac44	0x1006f7f0	string	0x10018000	Could not set brain version information. Makesure brain is plugged in and power is on.
+0x1001ac91	0x1006f70c	string	0x10018000	Installing
+0x1001accb	0x1006f718	string	0x10018000	VEXos
+0x1001ad61	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001adae	0x1005f08c	import	0x10018000	KERNEL32.dll.Sleep
+0x1001addb	0x1005f070	import	0x10018000	KERNEL32.dll.ReleaseMutex
+0x1001ae14	0x1006f9a4	string	0x10018000	Could not find firmware file for brain in system folder.
+0x1001ae51	0x1006f934	string	0x10018000	Invalid DFU hardware ID. Aborting
+0x1001af8c	0x1005f06c	import	0x1001af50	KERNEL32.dll.WaitForSingleObject
+0x1001afe1	0x1005f070	import	0x1001af50	KERNEL32.dll.ReleaseMutex
+0x1001b042	0x1005f06c	import	0x1001b000	KERNEL32.dll.WaitForSingleObject
+0x1001b05d	0x1006fa14	string	0x1001b000	CheckForDevice returned %d
+0x1001b0f1	0x1006f4a0	string	0x1001b000	Could not get brain version information. Makesure brain is plugged in and power is on.
+0x1001b165	0x1006f4a0	string	0x1001b000	Could not get brain version information. Makesure brain is plugged in and power is on.
+0x1001b1be	0x1006fa30	string	0x1001b000	System version info. v%d.%d.%d.%d HW: %d Flags: %X
+0x1001b1ff	0x1005f070	import	0x1001b000	KERNEL32.dll.ReleaseMutex
+0x1001b258	0x1005f06c	import	0x1001b220	KERNEL32.dll.WaitForSingleObject
+0x1001b2b7	0x1005f070	import	0x1001b220	KERNEL32.dll.ReleaseMutex
+0x1001b318	0x1005f06c	import	0x1001b2e0	KERNEL32.dll.WaitForSingleObject
+0x1001b379	0x1005f070	import	0x1001b2e0	KERNEL32.dll.ReleaseMutex
+0x1001b3d8	0x1005f06c	import	0x1001b3a0	KERNEL32.dll.WaitForSingleObject
+0x1001b424	0x1005f070	import	0x1001b3a0	KERNEL32.dll.ReleaseMutex
+0x1001b48c	0x1005f06c	import	0x1001b450	KERNEL32.dll.WaitForSingleObject
+0x1001b4d5	0x1005f070	import	0x1001b450	KERNEL32.dll.ReleaseMutex
+0x1001b53f	0x1005f06c	import	0x1001b500	KERNEL32.dll.WaitForSingleObject
+0x1001b57f	0x1005f070	import	0x1001b500	KERNEL32.dll.ReleaseMutex
+0x1001b5d8	0x1005f06c	import	0x1001b5a0	KERNEL32.dll.WaitForSingleObject
+0x1001b624	0x1005f070	import	0x1001b5a0	KERNEL32.dll.ReleaseMutex
+0x1001b692	0x1005f06c	import	0x1001b650	KERNEL32.dll.WaitForSingleObject
+0x1001b6d5	0x1005f070	import	0x1001b650	KERNEL32.dll.ReleaseMutex
+0x1001b738	0x1005f06c	import	0x1001b700	KERNEL32.dll.WaitForSingleObject
+0x1001b784	0x1005f070	import	0x1001b700	KERNEL32.dll.ReleaseMutex
+0x1001b991	0x1005f06c	import	0x1001b8b0	KERNEL32.dll.WaitForSingleObject
+0x1001b9eb	0x1005f070	import	0x1001b8b0	KERNEL32.dll.ReleaseMutex
+0x1001babe	0x1005f06c	import	0x1001ba10	KERNEL32.dll.WaitForSingleObject
+0x1001bc14	0x1005f070	import	0x1001ba10	KERNEL32.dll.ReleaseMutex
+0x1001bc7d	0x1005f06c	import	0x1001bc40	KERNEL32.dll.WaitForSingleObject
+0x1001bd6c	0x1001bd76	string	0x1001bc40	2\b\aj
+0x1001bd70	0x1001bd76	string	0x1001bc40	2\b\aj
+0x1001bdaf	0x1001bdbb	string	0x1001bc40	2\vM\f
+0x1001bdb5	0x1001bdbb	string	0x1001bc40	2\vM\f
+0x1001bdc9	0x1005f070	import	0x1001bc40	KERNEL32.dll.ReleaseMutex
+0x1001be2e	0x1005f06c	import	0x1001bdf0	KERNEL32.dll.WaitForSingleObject
+0x1001bf50	0x1006fa6c	string	0x1001bdf0	DeviceNeeding Update Count: %d
+0x1001bf83	0x1005f070	import	0x1001bdf0	KERNEL32.dll.ReleaseMutex
+0x1001bff6	0x1006c954	string	0x1001bfe0	lmusb: InitializeDeviceByIndex
+0x1001c025	0x1005f1c0	import	0x1001bfe0	libusb-1.0.dll.libusb_init
+0x1001c031	0x1005f1a0	import	0x1001bfe0	libusb-1.0.dll.libusb_get_device_list
+0x1001c03e	0x1006c974	string	0x1001bfe0	lmusb: error reading USB device list: %d
+0x1001c07c	0x1005f1bc	import	0x1001bfe0	libusb-1.0.dll.libusb_get_device_descriptor
+0x1001c099	0x1005f1b8	import	0x1001bfe0	libusb-1.0.dll.libusb_open
+0x1001c0ad	0x1005f1c4	import	0x1001bfe0	libusb-1.0.dll.libusb_reset_device
+0x1001c0b6	0x1005f1a8	import	0x1001bfe0	libusb-1.0.dll.libusb_close
+0x1001c127	0x1005f06c	import	0x1001c0e0	KERNEL32.dll.WaitForSingleObject
+0x1001c174	0x1006eb34	string	0x1001c0e0	Could not get brain version information. Aborting.
+0x1001c1b4	0x1006fa90	string	0x1001c0e0	Cannot set robot name with firmware version < 2.0 (Curent Version: %d.%d)
+0x1001c20e	0x1001c242	string	0x1001c0e0	95И\a blocks=Basic Latin,Cyrillic
+0x1001c224	0x1001c242	string	0x1001c0e0	95И\a blocks=Basic Latin,Cyrillic
+0x1001c286	0x1006fae8	string	0x1001c0e0	Setting Robot Name to:
+0x1001c29d	0x1006fadc	string	0x1001c0e0	size =
+0x1001c30d	0x1005f070	import	0x1001c0e0	KERNEL32.dll.ReleaseMutex
+0x1001c37a	0x1005f06c	import	0x1001c330	KERNEL32.dll.WaitForSingleObject
+0x1001c3c7	0x1006eb34	string	0x1001c330	Could not get brain version information. Aborting.
+0x1001c407	0x1006fa90	string	0x1001c330	Cannot set robot name with firmware version < 2.0 (Curent Version: %d.%d)
+0x1001c4c7	0x1001c4fb	string	0x1001c330	9=И\a blocks=Basic Latin,Cyrillic
+0x1001c4dd	0x1001c4fb	string	0x1001c330	9=И\a blocks=Basic Latin,Cyrillic
+0x1001c540	0x1006fb08	string	0x1001c330	Got robot Name:
+0x1001c556	0x1006fb00	string	0x1001c330	Len:
+0x1001c585	0x1005f070	import	0x1001c330	KERNEL32.dll.ReleaseMutex
+0x1001c5f6	0x1005f06c	import	0x1001c5b0	KERNEL32.dll.WaitForSingleObject
+0x1001c643	0x1006eb34	string	0x1001c5b0	Could not get brain version information. Aborting.
+0x1001c683	0x1006fb20	string	0x1001c5b0	Cannot set robot QR code with firmware version < 2.0 (Curent Version: %d.%d)
+0x1001c6dd	0x1001c711	string	0x1001c5b0	9=И\a blocks=Basic Latin,Cyrillic
+0x1001c6f3	0x1001c711	string	0x1001c5b0	9=И\a blocks=Basic Latin,Cyrillic
+0x1001c751	0x1006fb70	string	0x1001c5b0	Setting Robot QR Code
+0x1001c77d	0x1005f070	import	0x1001c5b0	KERNEL32.dll.ReleaseMutex
+0x1001c7d4	0x1005f06c	import	0x1001c7a0	KERNEL32.dll.WaitForSingleObject
+0x1001c829	0x1005f070	import	0x1001c7a0	KERNEL32.dll.ReleaseMutex
+0x1001c887	0x1005f06c	import	0x1001c850	KERNEL32.dll.WaitForSingleObject
+0x1001c8d6	0x1005f070	import	0x1001c850	KERNEL32.dll.ReleaseMutex
+0x1001c954	0x1005f06c	import	0x1001c900	KERNEL32.dll.WaitForSingleObject
+0x1001c9b4	0x1005f070	import	0x1001c900	KERNEL32.dll.ReleaseMutex
+0x1001ca3e	0x1005f06c	import	0x1001c9e0	KERNEL32.dll.WaitForSingleObject
+0x1001cad7	0x1005f070	import	0x1001c9e0	KERNEL32.dll.ReleaseMutex
+0x1001cb32	0x1005f06c	import	0x1001cb00	KERNEL32.dll.WaitForSingleObject
+0x1001cb71	0x1005f070	import	0x1001cb00	KERNEL32.dll.ReleaseMutex
+0x1001ccba	0x1006f42c	string	0x1001cc30	Could not load sytem file: %s
+0x1001cde9	0x1006f42c	string	0x1001cd30	Could not load sytem file: %s
+0x1001d5fa	0x1006fb88	string	0x1001cd30	Could not find FW file for device: %d.
+0x1001d83f	0x1006fbbc	string	0x1001d810	z;/2.d89j4Zkdm34d#&owPH~
+0x1001d865	0x1006fbb0	string	0x1001d810	VEXAdmin
+0x1001de74	0x1005f07c	import	0x1001de20	KERNEL32.dll.Wow64DisableWow64FsRedirection
+0x1001de94	0x1005f074	import	0x1001de20	KERNEL32.dll.FindFirstFileW
+0x1001deac	0x1006fce4	string	0x1001de20	getdir(): Found First File. File: %ls
+0x1001dee0	0x1005f078	import	0x1001de20	KERNEL32.dll.FindNextFileW
+0x1001dfaf	0x1005f078	import	0x1001de20	KERNEL32.dll.FindNextFileW
+0x1001dfcb	0x1006fd0c	string	0x1001de20	getdir(): FindFirstFile returned INVALID_HANDLE. Dir: %ls
+0x1001dff8	0x1005f080	import	0x1001de20	KERNEL32.dll.FindClose
+0x1001e532	0x1006fd48	string	0x1001e320	1Found incorct format file name:
+0x1001ef17	0x1001ef51	string	0x1001e320	QhLl\a
+0x1001ef1e	0x1001ef51	string	0x1001e320	QhLl\a
+0x1001ef39	0x1001ef51	string	0x1001e320	QhLl\a
+0x1001f074	0x1006fd90	string	0x1001e320	3Found incorct format file name:
+0x1001f3e9	0x1006fdb4	string	0x1001e320	4Found incorct format file name:
+0x1001fa46	0x1006fdd8	string	0x1001e320	5Found incorct format file name:
+0x1001fc5c	0x1006fd6c	string	0x1001e320	2Found incorct format file name:
+0x1001fe76	0x1006fdfc	string	0x1001fe00	Loading Sys folder %ls
+0x1001fef2	0x1006fe14	string	0x1001fe00	Could not parse sys folder. Found parts count: %lu
+0x1001ff93	0x1006fe48	string	0x1001fe00	found parts count: %lu
+0x1001ffef	0x1006fe60	string	0x1001fe00	Major Version: %ls
+0x1002039b	0x1006feb0	string	0x1001fe00	Found File: %ls
+0x100203e1	0x1006fec0	string	0x1001fe00	ERROR Parseing sys folder. Found file count: %d
+0x10020741	0x10020745	string	0x1001fe00	VRPht
+0x10020748	0x1006fe74	string	0x1001fe00	Could not parse sys folder. Found parts: %ls, %ls, %ls
+0x1002137f	0x1006fef4	string	0x10021360	Loading folder: %s\n
+0x100214df	0x100214f6	string	0x10021460	+E\b^_
+0x100219d9	0x100219e6	string	0x10021940	=UUU
+0x10021fe9	0x1005f044	import	0x10021efd	KERNEL32.dll.MultiByteToWideChar
+0x10022004	0x1005f044	import	0x10021efd	KERNEL32.dll.MultiByteToWideChar
+0x10022134	0x1005f298	string	0x1002212a	bad allocation
+0x100227e3	0x1005f3f8	string	0x1002270e	0123456789-+Ee
+0x10022e35	0x1005f424	string	0x10022d83	0123456789ABCDEFabcdef-+XxPp
+0x1002347c	0x1005f408	string	0x1002340d	0123456789ABCDEFabcdef-+Xx
+0x10024a91	0x1005f094	import	0x10024a55	KERNEL32.dll.WideCharToMultiByte
+0x10024bc9	0x1005f968	string	0x10024bb7	address family not supported
+0x10024bd0	0x1005f478	string	0x10024bb7	unknown error
+0x10024e4c	0x1005f09c	import	0x10024e43	KERNEL32.dll.QueryPerformanceCounter
+0x10024e63	0x1005f0a0	import	0x10024e5a	KERNEL32.dll.QueryPerformanceFrequency
+0x10024e77	0x1005f0ac	import	0x10024e71	KERNEL32.dll.DeleteCriticalSection
+0x10024e9c	0x1005f0a4	import	0x10024e96	KERNEL32.dll.EnterCriticalSection
+0x10024eaa	0x1005f0a8	import	0x10024ea4	KERNEL32.dll.LeaveCriticalSection
+0x100253f9	0x100606e4	string	0x100253a8	:AM:am:PM:pm
+0x10025476	0x10025490	string	0x1002546c	;E\fu
+0x1002735a	0x1002735f	string	0x1002712c	WPRQ
+0x10027671	0x10027676	string	0x10027443	WPRQ
+0x1002834a	0x1005ff90	string	0x10028322	:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+0x1002843d	0x10060758	string	0x10028350	0123456789-+Ee
+0x10028af7	0x10060790	string	0x10028a0a	0123456789-+Ee
+0x10029185	0x100607c4	string	0x100290c4	0123456789ABCDEFabcdef-+XxPp
+0x100298bd	0x100607e4	string	0x100297fc	0123456789ABCDEFabcdef-+XxPp
+0x1002a25f	0x10060768	string	0x1002a1de	0123456789ABCDEFabcdef-+Xx
+0x1002a63c	0x100607a0	string	0x1002a5bb	0123456789ABCDEFabcdef-+Xx
+0x1002ac76	0x10060758	string	0x1002ab4d	0123456789-+Ee
+0x1002ac7b	0x1006074c	string	0x1002ab4d	0123456789-
+0x1002af2b	0x1002af30	string	0x1002ab4d	:\f0u
+0x1002af40	0x1002af45	string	0x1002ab4d	:\b|\t
+0x1002b419	0x1002b41e	string	0x1002ab4d	f;\bu<
+0x1002b455	0x1002b45a	string	0x1002ab4d	f;\bt\nj
+0x1002b714	0x10060790	string	0x1002b5eb	0123456789-+Ee
+0x1002b719	0x10060784	string	0x1002b5eb	0123456789-
+0x1002b9c9	0x1002b9ce	string	0x1002b5eb	:\f0u
+0x1002b9de	0x1002b9e3	string	0x1002b5eb	:\b|\t
+0x1002beb7	0x1002bebc	string	0x1002b5eb	f;\bu<
+0x1002bef3	0x1002bef8	string	0x1002b5eb	f;\bt\nj
+0x1002c0b1	0x1005ffe8	string	0x1002c089	:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+0x1002c3f8	0x1006cba8	string	0x1002c38d	false
+0x1002c40a	0x1006cbb0	string	0x1002c38d	true
+0x1002c4cf	0x1006cba8	string	0x1002c466	false
+0x1002c4e1	0x1006cbb0	string	0x1002c466	true
+0x1002c799	0x1002c79e	string	0x1002c5d0	WPRQ
+0x1002ca4b	0x1002ca50	string	0x1002c882	WPRQ
+0x1002d610	0x100607bc	string	0x1002d5df	$+xv
+0x1002e324	0x10060070	string	0x1002e2fc	:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+0x1002e352	0x10060120	string	0x1002e32a	:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+0x1002fbe9	0x100606bc	string	0x1002f6a8	%b %d %H : %M : %S %Y
+0x1002fc70	0x100606d4	string	0x1002f6a8	%m / %d / %y
+0x1002fd35	0x100606e4	string	0x1002f6a8	:AM:am:PM:pm
+0x1002fd6c	0x100606f4	string	0x1002f6a8	%I : %M : %S %p
+0x1002fd76	0x10060704	string	0x1002f6a8	%H : %M
+0x1002fd8d	0x1006070c	string	0x1002f6a8	%H : %M : %S
+0x1002fdb9	0x1006071c	string	0x1002f6a8	%d / %m / %y
+0x1002ff8e	0x100606bc	string	0x1002f6a8	%b %d %H : %M : %S %Y
+0x10030015	0x100606d4	string	0x1002f6a8	%m / %d / %y
+0x100300da	0x100606e4	string	0x1002f6a8	:AM:am:PM:pm
+0x10030111	0x100606f4	string	0x1002f6a8	%I : %M : %S %p
+0x1003011b	0x10060704	string	0x1002f6a8	%H : %M
+0x10030132	0x1006070c	string	0x1002f6a8	%H : %M : %S
+0x1003015e	0x1006071c	string	0x1002f6a8	%d / %m / %y
+0x100312f1	0x10060738	string	0x1003128e	%.0Lf
+0x100312f6	0x1006072c	string	0x1003128e	0123456789-
+0x10031445	0x10060738	string	0x1003128e	%.0Lf
+0x10031584	0x1006074c	string	0x1003128e	0123456789-
+0x10031589	0x10060740	string	0x1003128e	0123456789-
+0x100316d8	0x10060738	string	0x1003128e	%.0Lf
+0x10032cc1	0x100606e4	string	0x10032c70	:AM:am:PM:pm
+0x10033a92	0x10060a1c	string	0x1003396e	0123456789abcdefghijklmnopqrstuvwxyz
+0x10033a97	0x10060a10	string	0x1003396e	0123456789-
+0x10033d39	0x10033d3e	string	0x1003396e	:\f0u
+0x10033d4e	0x10033d53	string	0x1003396e	:\b|\t
+0x1003422e	0x10034233	string	0x1003396e	:\bu:
+0x10034268	0x1003426d	string	0x1003396e	:\bt\nj
+0x10034d95	0x10034d9a	string	0x10034884	W@PRQ
+0x100350c0	0x100606bc	string	0x10034e7b	%b %d %H : %M : %S %Y
+0x10035147	0x100606d4	string	0x10034e7b	%m / %d / %y
+0x1003520c	0x100606e4	string	0x10034e7b	:AM:am:PM:pm
+0x10035243	0x100606f4	string	0x10034e7b	%I : %M : %S %p
+0x1003524d	0x10060704	string	0x10034e7b	%H : %M
+0x10035264	0x1006070c	string	0x10034e7b	%H : %M : %S
+0x10035290	0x1006071c	string	0x10034e7b	%d / %m / %y
+0x10035b15	0x10060a10	string	0x10035ab2	0123456789-
+0x10035b1a	0x10060a04	string	0x10035ab2	0123456789-
+0x10035c76	0x10060738	string	0x10035ab2	%.0Lf
+0x10036028	0x10060a1c	string	0x10035f6b	0123456789abcdefghijklmnopqrstuvwxyz
+0x10036047	0x10060a1c	string	0x10035f6b	0123456789abcdefghijklmnopqrstuvwxyz
+0x10036275	0x10060a6c	string	0x100361af	0123456789abcdefghijklmnopqrstuvwxyz
+0x100362c7	0x10060a6c	string	0x100361af	0123456789abcdefghijklmnopqrstuvwxyz
+0x1003635f	0x10036367	string	0x100361af	<-u\a
+0x100363c7	0x1005f0b4	import	0x10036393	KERNEL32.dll.DecodePointer
+0x10036409	0x1005f0b0	import	0x100363f6	KERNEL32.dll.EncodePointer
+0x10036426	0x10060abc	string	0x100363f6	kernel32.dll
+0x1003642b	0x1005f0dc	import	0x100363f6	KERNEL32.dll.GetModuleHandleW
+0x10036433	0x10060ad8	string	0x100363f6	FlsAlloc
+0x10036439	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003643f	0x10060ae4	string	0x100363f6	FlsFree
+0x1003644a	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036450	0x10060aec	string	0x100363f6	FlsGetValue
+0x1003645b	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036461	0x10060af8	string	0x100363f6	FlsSetValue
+0x1003646c	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036472	0x10060b04	string	0x100363f6	InitializeCriticalSectionEx
+0x1003647d	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036483	0x10060b20	string	0x100363f6	InitOnceExecuteOnce
+0x1003648e	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036494	0x10060b34	string	0x100363f6	CreateEventExW
+0x1003649f	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100364a5	0x10060b44	string	0x100363f6	CreateSemaphoreW
+0x100364b0	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100364b6	0x10060b58	string	0x100363f6	CreateSemaphoreExW
+0x100364c1	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100364c7	0x10060b6c	string	0x100363f6	CreateThreadpoolTimer
+0x100364d2	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100364d8	0x10060b84	string	0x100363f6	SetThreadpoolTimer
+0x100364e3	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100364e9	0x10060b98	string	0x100363f6	WaitForThreadpoolTimerCallbacks
+0x100364f4	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100364fa	0x10060bb8	string	0x100363f6	CloseThreadpoolTimer
+0x10036505	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003650b	0x10060bd0	string	0x100363f6	CreateThreadpoolWait
+0x10036516	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003651c	0x10060be8	string	0x100363f6	SetThreadpoolWait
+0x10036527	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003652d	0x10060bfc	string	0x100363f6	CloseThreadpoolWait
+0x10036538	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003653e	0x10060c10	string	0x100363f6	FlushProcessWriteBuffers
+0x10036549	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003654f	0x10060c2c	string	0x100363f6	FreeLibraryWhenCallbackReturns
+0x1003655a	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036560	0x10060c4c	string	0x100363f6	GetCurrentProcessorNumber
+0x1003656b	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036576	0x10060c68	string	0x100363f6	CreateSymbolicLinkW
+0x1003657c	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036582	0x10060c7c	string	0x100363f6	GetCurrentPackageId
+0x1003658d	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036593	0x10060c90	string	0x100363f6	GetTickCount64
+0x1003659e	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100365a4	0x10060ca0	string	0x100363f6	GetFileInformationByHandleEx
+0x100365af	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100365b5	0x10060cc0	string	0x100363f6	SetFileInformationByHandle
+0x100365c0	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100365c6	0x10060cdc	string	0x100363f6	GetSystemTimePreciseAsFileTime
+0x100365d1	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100365d7	0x10060cfc	string	0x100363f6	InitializeConditionVariable
+0x100365e2	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100365e8	0x10060d18	string	0x100363f6	WakeConditionVariable
+0x100365f3	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100365f9	0x10060d30	string	0x100363f6	WakeAllConditionVariable
+0x10036604	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003660a	0x10060d4c	string	0x100363f6	SleepConditionVariableCS
+0x10036615	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003661b	0x10060d68	string	0x100363f6	InitializeSRWLock
+0x10036626	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003662c	0x10060d7c	string	0x100363f6	AcquireSRWLockExclusive
+0x10036637	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003663d	0x10060d94	string	0x100363f6	TryAcquireSRWLockExclusive
+0x10036648	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003664e	0x10060db0	string	0x100363f6	ReleaseSRWLockExclusive
+0x10036659	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x1003665f	0x10060dc8	string	0x100363f6	SleepConditionVariableSRW
+0x1003666a	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036670	0x10060de4	string	0x100363f6	CreateThreadpoolWork
+0x1003667b	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036681	0x10060dfc	string	0x100363f6	SubmitThreadpoolWork
+0x1003668c	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036692	0x10060e14	string	0x100363f6	CloseThreadpoolWork
+0x1003669d	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100366a3	0x10060e28	string	0x100363f6	CompareStringEx
+0x100366ae	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100366b4	0x10060e38	string	0x100363f6	GetLocaleInfoEx
+0x100366bf	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x100366c5	0x10060e48	string	0x100363f6	LCMapStringEx
+0x100366d0	0x1005f0e0	import	0x100363f6	KERNEL32.dll.GetProcAddress
+0x10036722	0x1005f0c4	import	0x100366df	KERNEL32.dll.SwitchToThread
+0x10036792	0x1005f0bc	import	0x10036769	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x100367ea	0x1005f044	import	0x1003679e	KERNEL32.dll.MultiByteToWideChar
+0x10036864	0x1005f044	import	0x1003679e	KERNEL32.dll.MultiByteToWideChar
+0x1003693f	0x1005f094	import	0x1003679e	KERNEL32.dll.WideCharToMultiByte
+0x10036a0d	0x10036a51	string	0x100369c3	_^[]
+0x10036a11	0x10036a51	string	0x100369c3	_^[]
+0x10036a1f	0x10036a51	string	0x100369c3	_^[]
+0x10036a4c	0x10036a51	string	0x100369c3	_^[]
+0x10036bff	0x1005f090	import	0x10036bef	KERNEL32.dll.GetStringTypeW
+0x10036c23	0x1005f090	import	0x10036c0f	KERNEL32.dll.GetStringTypeW
+0x10036de3	0x10036dec	string	0x10036da3	_^[]
+0x10036e3b	0x1005f0e4	import	0x10036df1	KERNEL32.dll.CompareStringW
+0x10036e9e	0x1005f0ec	import	0x10036e71	KERNEL32.dll.GetLocaleInfoW
+0x10036ef1	0x1005f0e8	import	0x10036ea7	KERNEL32.dll.LCMapStringW
+0x10036ff4	0x1005f0f0	import	0x10036f62	KERNEL32.dll.GetCPInfo
+0x10037083	0x1005f044	import	0x10036f62	KERNEL32.dll.MultiByteToWideChar
+0x10037101	0x1005f044	import	0x10036f62	KERNEL32.dll.MultiByteToWideChar
+0x10037118	0x1005f044	import	0x10036f62	KERNEL32.dll.MultiByteToWideChar
+0x1003717f	0x1005f044	import	0x10036f62	KERNEL32.dll.MultiByteToWideChar
+0x10037229	0x1003723f	string	0x100371db	_^[]
+0x10037327	0x1005f0bc	import	0x1003731b	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x1003732d	0x10062f10	string	0x1003731b	api-ms-win-core-synch-l1-2-0.dll
+0x10037332	0x1005f0dc	import	0x1003731b	KERNEL32.dll.GetModuleHandleW
+0x1003733e	0x10060abc	string	0x1003731b	kernel32.dll
+0x10037343	0x1005f0dc	import	0x1003731b	KERNEL32.dll.GetModuleHandleW
+0x1003734f	0x10060d4c	string	0x1003731b	SleepConditionVariableCS
+0x10037355	0x1005f0e0	import	0x1003731b	KERNEL32.dll.GetProcAddress
+0x1003735b	0x10060d30	string	0x1003731b	WakeAllConditionVariable
+0x10037363	0x1005f0e0	import	0x1003731b	KERNEL32.dll.GetProcAddress
+0x10037386	0x1005f0c0	import	0x1003731b	KERNEL32.dll.CreateEventW
+0x100373a2	0x1005f0ac	import	0x1003731b	KERNEL32.dll.DeleteCriticalSection
+0x100373b2	0x1005f058	import	0x1003731b	KERNEL32.dll.CloseHandle
+0x100373c3	0x1005f0a4	import	0x100373b9	KERNEL32.dll.EnterCriticalSection
+0x100373f6	0x1005f0a8	import	0x100373b9	KERNEL32.dll.LeaveCriticalSection
+0x1003740e	0x1005f0a4	import	0x10037403	KERNEL32.dll.EnterCriticalSection
+0x1003744b	0x1005f0a8	import	0x10037403	KERNEL32.dll.LeaveCriticalSection
+0x10037477	0x1005f0f4	import	0x10037403	KERNEL32.dll.SetEvent
+0x10037483	0x1005f0f8	import	0x10037403	KERNEL32.dll.ResetEvent
+0x100374b8	0x1005f0a8	import	0x1003748b	KERNEL32.dll.LeaveCriticalSection
+0x100374c9	0x1005f0fc	import	0x1003748b	KERNEL32.dll.WaitForSingleObjectEx
+0x100374d0	0x1005f0a4	import	0x1003748b	KERNEL32.dll.EnterCriticalSection
+0x100374e3	0x1005f104	import	0x100374d9	KERNEL32.dll.SetUnhandledExceptionFilter
+0x100374ec	0x1005f100	import	0x100374d9	KERNEL32.dll.UnhandledExceptionFilter
+0x100374f7	0x1005f108	import	0x100374d9	KERNEL32.dll.GetCurrentProcess
+0x100374fe	0x1005f10c	import	0x100374d9	KERNEL32.dll.TerminateProcess
+0x10037e3f	0x10037e88	string	0x10037e10	+D$\b\eT$\f
+0x10038068	0x1005f114	import	0x10037f91	KERNEL32.dll.IsDebuggerPresent
+0x10038088	0x1005f104	import	0x10037f91	KERNEL32.dll.SetUnhandledExceptionFilter
+0x10038092	0x1005f100	import	0x10037f91	KERNEL32.dll.UnhandledExceptionFilter
+0x100381e3	0x1003826c	string	0x100380b3	_^[3
+0x10038201	0x1003826c	string	0x100380b3	_^[3
+0x10038209	0x1003826c	string	0x100380b3	_^[3
+0x10038223	0x1003826c	string	0x100380b3	_^[3
+0x1003823f	0x1003826c	string	0x100380b3	_^[3
+0x1003825c	0x1003826c	string	0x100380b3	_^[3
+0x100382fd	0x1005f0d8	import	0x100382eb	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1003830c	0x1005f120	import	0x100382eb	KERNEL32.dll.GetCurrentThreadId
+0x10038315	0x1005f11c	import	0x100382eb	KERNEL32.dll.GetCurrentProcessId
+0x10038322	0x1005f09c	import	0x100382eb	KERNEL32.dll.QueryPerformanceCounter
+0x1003838e	0x1005f124	import	0x10038389	KERNEL32.dll.InitializeSListHead
+0x10038655	0x1005f128	import	0x10038631	KERNEL32.dll.RtlUnwind
+0x10038782	0x1003878f	string	0x10038721	jjjjj
+0x10038a9d	0x1005f12c	import	0x10038a3d	KERNEL32.dll.RaiseException
+0x10039e3f	0x1003a85d	string	0x100397ce	^[]Ð: blocks=Basic Latin,Latin-1 Supplement
+0x1003a805	0x1003a85d	string	0x100397ce	^[]Ð: blocks=Basic Latin,Latin-1 Supplement
+0x1003aa02	0x1003bc40	string	0x1003a980	UVWS
+0x1003ab23	0x1005f130	import	0x1003ab1d	KERNEL32.dll.InterlockedFlushSList
+0x1003abae	0x1005f098	import	0x1003aba0	KERNEL32.dll.GetLastError
+0x1003ac27	0x1005f0b8	import	0x1003aba0	KERNEL32.dll.SetLastError
+0x1003ac40	0x1005f098	import	0x1003ac32	KERNEL32.dll.GetLastError
+0x1003ac57	0x1005f0b8	import	0x1003ac32	KERNEL32.dll.SetLastError
+0x1003aea8	0x1003adf5	string	0x1003ae8e	j\bh E\a
+0x1003af00	0x1003af09	string	0x1003ae8e	_^[]
+0x1003b1df	0x10038891	string	0x1003af0e	j\bh8D\a
+0x1003b314	0x1005f0b0	import	0x1003b2ef	KERNEL32.dll.EncodePointer
+0x1003b504	0x1003b52c	string	0x1003b4b3	9q\fu
+0x1003b5da	0x10062f70	string	0x1003b5d0	bad exception
+0x1003b7c3	0x10038891	string	0x1003b74f	j\bh8D\a
+0x1003bb1b	0x1005f0ac	import	0x1003bb05	KERNEL32.dll.DeleteCriticalSection
+0x1003bc7d	0x1003bc89	string	0x1003bc74	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003bc83	0x1005f128	import	0x1003bc74	KERNEL32.dll.RtlUnwind
+0x1003bcde	0x1005f138	import	0x1003bca7	KERNEL32.dll.LoadLibraryExW
+0x1003bcea	0x1005f098	import	0x1003bca7	KERNEL32.dll.GetLastError
+0x1003bcf7	0x100639ac	string	0x1003bca7	api-ms-
+0x1003bd0c	0x1005f138	import	0x1003bca7	KERNEL32.dll.LoadLibraryExW
+0x1003bd32	0x1005f134	import	0x1003bca7	KERNEL32.dll.FreeLibrary
+0x1003bd84	0x1005f0e0	import	0x1003bd53	KERNEL32.dll.GetProcAddress
+0x1003bdaa	0x10060ad8	string	0x1003bd9c	FlsAlloc
+0x1003bde5	0x10060ae4	string	0x1003bdd7	FlsFree
+0x1003be09	0x1005f0d4	import	0x1003bdd7	KERNEL32.dll.TlsFree
+0x1003be20	0x10060aec	string	0x1003be12	FlsGetValue
+0x1003be44	0x1005f0cc	import	0x1003be12	KERNEL32.dll.TlsGetValue
+0x1003be5b	0x10060af8	string	0x1003be4d	FlsSetValue
+0x1003be82	0x1005f0d0	import	0x1003be4d	KERNEL32.dll.TlsSetValue
+0x1003be99	0x10060b04	string	0x1003be8b	InitializeCriticalSectionEx
+0x1003bec9	0x1005f0bc	import	0x1003be8b	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x1003bf2b	0x1003bf39	string	0x1003bf20	]_^[
+0x1003bf33	0x1005f128	import	0x1003bf20	KERNEL32.dll.RtlUnwind
+0x1003c171	0x1005f114	import	0x1003c079	KERNEL32.dll.IsDebuggerPresent
+0x1003c17b	0x1005f104	import	0x1003c079	KERNEL32.dll.SetUnhandledExceptionFilter
+0x1003c188	0x1005f100	import	0x1003c079	KERNEL32.dll.UnhandledExceptionFilter
+0x1003c254	0x1005f110	import	0x1003c252	KERNEL32.dll.IsProcessorFeaturePresent
+0x1003c277	0x1005f108	import	0x1003c252	KERNEL32.dll.GetCurrentProcess
+0x1003c27e	0x1005f10c	import	0x1003c252	KERNEL32.dll.TerminateProcess
+0x1003c392	0x1005f0ac	import	0x1003c359	KERNEL32.dll.DeleteCriticalSection
+0x1003c3c1	0x1005f0a4	import	0x1003c3b5	KERNEL32.dll.EnterCriticalSection
+0x1003c3d5	0x1005f0a8	import	0x1003c3c9	KERNEL32.dll.LeaveCriticalSection
+0x1003c9c0	0x1003c9c8	string	0x1003c991	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003c9ec	0x1003c9f4	string	0x1003c9cc	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003cc7e	0x1003cc92	string	0x1003cc69	3ɋE\f blocks=Basic Latin,Latin Extended-B
+0x1003d2dd	0x1003d2f9	string	0x1003d2d8	<Nu&
+0x1003d42b	0x1003d447	string	0x1003d426	<Nu&
+0x1003da9c	0x10063ab4	string	0x1003da57	(null)
+0x1003dbc7	0x1003dbd3	string	0x1003dab1	<it\f<It\b<nt
+0x1003de0c	0x1003de52	string	0x1003dde1	_^ËQ blocks=Basic Latin,Latin-1 Supplement
+0x1003dee3	0x10063ab4	string	0x1003de8c	(null)
+0x1003e377	0x1003c3dd	string	0x1003e2fb	j\fhxE\a
+0x1003e9aa	0x1003e9b5	string	0x1003e96b	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003e9ae	0x1003e9b5	string	0x1003e96b	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003ed1e	0x1005b6a0	string	0x1003ebb4	WVS3
+0x1003edd3	0x1005b6a0	string	0x1003ed38	WVS3
+0x1003eece	0x1005b6a0	string	0x1003ed38	WVS3
+0x1003eee3	0x1005b6a0	string	0x1003ed38	WVS3
+0x1003ef3e	0x1005b6a0	string	0x1003eef7	WVS3
+0x1003efbe	0x1005f04c	import	0x1003eef7	KERNEL32.dll.ReadFile
+0x1003f0cf	0x1003f109	string	0x1003f090	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003f2f6	0x1003f1b0	string	0x1003f2bc	j,h8F\a
+0x1003f3ae	0x1003f3c2	string	0x1003f361	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003f465	0x1003f25c	string	0x1003f417	j\fhXF\a
+0x1003f71f	0x1003f723	string	0x1003f64a	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1003f739	0x1003f4e6	string	0x1003f728	j\fhxF\a
+0x10040019	0x10040457	string	0x10040002	j\aX_^[
+0x10040250	0x10040457	string	0x10040002	j\aX_^[
+0x1004025a	0x10040457	string	0x10040002	j\aX_^[
+0x100403ac	0x10040457	string	0x10040002	j\aX_^[
+0x100405a3	0x10040633	string	0x1004051e	X_^[
+0x100405cb	0x10040633	string	0x1004051e	X_^[
+0x100405e6	0x10040633	string	0x1004051e	X_^[
+0x10040bd4	0x10040be0	string	0x1004093f	3\v}$
+0x10041472	0x100415a1	string	0x100412b3	X_^[
+0x10041813	0x10041817	string	0x100417c5	+ٍz\b blocks=Basic Latin,Arabic
+0x10042a5a	0x10042a5e	string	0x100417c5	j\n3҃ blocks=Basic Latin,Cyrillic
+0x10043a99	0x10043a9d	string	0x10043a68	^ËыJ\b;J blocks=Basic Latin,Latin-1 Supplement,Cyrillic
+0x10043bfd	0x10043ba1	string	0x10043b7b	_^[Ë blocks=Basic Latin,Latin-1 Supplement
+0x10043d96	0x10043d9a	string	0x10043d53	_^[]
+0x10044209	0x10044234	string	0x100441fb	Wj\b3\v
+0x100444b0	0x100444bd	string	0x1004448c	j?Xf
+0x10045223	0x1005f0a4	import	0x10045214	KERNEL32.dll.EnterCriticalSection
+0x10045243	0x1005f0ac	import	0x1004522b	KERNEL32.dll.DeleteCriticalSection
+0x1004526b	0x1005f0a8	import	0x1004525c	KERNEL32.dll.LeaveCriticalSection
+0x10045693	0x10045882	string	0x1004567c	j\aX_^[
+0x10045d93	0x10045e95	string	0x10045d3c	SSSSS
+0x10045d9c	0x10045e95	string	0x10045d3c	SSSSS
+0x10045edb	0x10045f30	string	0x10045ea0	WWWWW
+0x10045ee0	0x10045f30	string	0x10045ea0	WWWWW
+0x10045f0d	0x10045f30	string	0x10045ea0	WWWWW
+0x10045f12	0x10045f30	string	0x10045ea0	WWWWW
+0x1004636b	0x1005f0f0	import	0x10046261	KERNEL32.dll.GetCPInfo
+0x1004668d	0x10064950	string	0x10046261	((((( H
+0x100468b7	0x10046923	string	0x10046875	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100468d9	0x1005f098	import	0x10046875	KERNEL32.dll.GetLastError
+0x100468ed	0x10046923	string	0x10046875	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10046901	0x10046923	string	0x10046875	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10046987	0x1005f098	import	0x10046927	KERNEL32.dll.GetLastError
+0x100469b0	0x100469e9	string	0x10046927	_[^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100469cd	0x1005f098	import	0x10046927	KERNEL32.dll.GetLastError
+0x100469e1	0x100469e9	string	0x10046927	_[^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10046f2e	0x10046f44	string	0x10046eb4	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10046f3f	0x10046f44	string	0x10046eb4	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100470f2	0x10047104	string	0x10046f74	WShhP
+0x10047106	0x10065068	string	0x10046f74	\n:\t+%
+0x1004712c	0x10065068	string	0x10046f74	\n:\t+%
+0x10047152	0x10065068	string	0x10046f74	\n:\t+%
+0x1004717c	0x10065068	string	0x10046f74	\n:\t+%
+0x100471d0	0x10065068	string	0x10046f74	\n:\t+%
+0x1004737e	0x10065068	string	0x10046f74	\n:\t+%
+0x1004792f	0x1004795f	string	0x10046f74	VVVVV
+0x10047934	0x1004795f	string	0x10046f74	VVVVV
+0x10047a7c	0x10047a87	string	0x10047a20	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10047aa7	0x10047ab9	string	0x10047a8c	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10048254	0x100488b2	string	0x100481c1	WWWWW
+0x100482b0	0x100488b2	string	0x100481c1	WWWWW
+0x10048309	0x100488b2	string	0x100481c1	WWWWW
+0x10048362	0x100488b2	string	0x100481c1	WWWWW
+0x100483be	0x100488b2	string	0x100481c1	WWWWW
+0x10048414	0x100488b2	string	0x100481c1	WWWWW
+0x1004845b	0x100488b2	string	0x100481c1	WWWWW
+0x100484a2	0x100488b2	string	0x100481c1	WWWWW
+0x1004851d	0x100488b2	string	0x100481c1	WWWWW
+0x10048591	0x100488b2	string	0x100481c1	WWWWW
+0x100485ff	0x100488b2	string	0x100481c1	WWWWW
+0x1004866d	0x100488b2	string	0x100481c1	WWWWW
+0x100486db	0x100488b2	string	0x100481c1	WWWWW
+0x10048744	0x100488b2	string	0x100481c1	WWWWW
+0x100487a2	0x100488b2	string	0x100481c1	WWWWW
+0x10048800	0x100488b2	string	0x100481c1	WWWWW
+0x1004885e	0x100488b2	string	0x100481c1	WWWWW
+0x10048bb0	0x1005f110	import	0x10048b94	KERNEL32.dll.IsProcessorFeaturePresent
+0x10048e36	0x10048e2c	string	0x10048d7a	f9\at\a
+0x10048efa	0x10048ef0	string	0x10048d7a	f9\at\a
+0x100492c2	0x1004913a	string	0x10049274	j\bh8G\a
+0x100492fa	0x1005f108	import	0x100492d8	KERNEL32.dll.GetCurrentProcess
+0x10049301	0x1005f10c	import	0x100492d8	KERNEL32.dll.TerminateProcess
+0x10049313	0x1005f13c	import	0x100492d8	KERNEL32.dll.ExitProcess
+0x1004931c	0x1005f0dc	import	0x1004931a	KERNEL32.dll.GetModuleHandleW
+0x10049372	0x1005f140	import	0x1004935d	KERNEL32.dll.GetModuleHandleExW
+0x1004937d	0x10065134	string	0x1004935d	CorExitProcess
+0x10049385	0x1005f0e0	import	0x1004935d	KERNEL32.dll.GetProcAddress
+0x100493a8	0x1005f134	import	0x1004935d	KERNEL32.dll.FreeLibrary
+0x100498df	0x10049887	string	0x10049870	SSSSj
+0x100498e3	0x100498ef	string	0x10049870	_^[Ë blocks=Basic Latin,Latin-1 Supplement
+0x10049ca7	0x10049993	string	0x10049c81	j\fhxG\a
+0x10049d03	0x100499ee	string	0x10049cd7	j\fhXG\a
+0x10049ebb	0x10049ed4	string	0x10049eb1	;u\fu
+0x10049ecf	0x10049edb	string	0x10049eb1	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1004a048	0x1005f148	import	0x1004a032	KERNEL32.dll.HeapFree
+0x1004a05a	0x1005f098	import	0x1004a032	KERNEL32.dll.GetLastError
+0x1004a3db	0x1005f098	import	0x1004a3d6	KERNEL32.dll.GetLastError
+0x1004a479	0x1005f0b8	import	0x1004a3d6	KERNEL32.dll.SetLastError
+0x1004a532	0x1005f098	import	0x1004a52d	KERNEL32.dll.GetLastError
+0x1004a5d0	0x1005f0b8	import	0x1004a52d	KERNEL32.dll.SetLastError
+0x1004a65a	0x1005f14c	import	0x1004a628	KERNEL32.dll.HeapAlloc
+0x1004a6b7	0x1005f14c	import	0x1004a676	KERNEL32.dll.HeapAlloc
+0x1004a718	0x1005f160	import	0x1004a6e0	KERNEL32.dll.EnumSystemLocalesW
+0x1004a78b	0x10065644	string	0x1004a78b	AreFileApisANSI
+0x1004a795	0x10065644	string	0x1004a78b	AreFileApisANSI
+0x1004a7af	0x10060e28	string	0x1004a7a5	CompareStringEx
+0x1004a7bf	0x10065664	string	0x1004a7bf	EnumSystemLocalesEx
+0x1004a7c9	0x10065664	string	0x1004a7bf	EnumSystemLocalesEx
+0x1004a7d9	0x100656a0	string	0x1004a7d9	GetDateFormatEx
+0x1004a7e3	0x100656a0	string	0x1004a7d9	GetDateFormatEx
+0x1004a7fd	0x10060e38	string	0x1004a7f3	GetLocaleInfoEx
+0x1004a80d	0x100656c0	string	0x1004a80d	GetTimeFormatEx
+0x1004a817	0x100656c0	string	0x1004a80d	GetTimeFormatEx
+0x1004a827	0x100656d8	string	0x1004a827	GetUserDefaultLocaleName
+0x1004a831	0x100656d8	string	0x1004a827	GetUserDefaultLocaleName
+0x1004a841	0x10065704	string	0x1004a841	IsValidLocaleName
+0x1004a84b	0x10065704	string	0x1004a841	IsValidLocaleName
+0x1004a85b	0x10065728	string	0x1004a85b	LCIDToLocaleName
+0x1004a865	0x10065728	string	0x1004a85b	LCIDToLocaleName
+0x1004a87f	0x10060e48	string	0x1004a875	LCMapStringEx
+0x1004a88f	0x10065744	string	0x1004a88f	LocaleNameToLCID
+0x1004a899	0x10065744	string	0x1004a88f	LocaleNameToLCID
+0x1004a8e7	0x1005f138	import	0x1004a8a9	KERNEL32.dll.LoadLibraryExW
+0x1004a8f3	0x1005f098	import	0x1004a8a9	KERNEL32.dll.GetLastError
+0x1004a900	0x100639ac	string	0x1004a8a9	api-ms-
+0x1004a914	0x10065630	string	0x1004a8a9	ext-ms-
+0x1004a929	0x1005f138	import	0x1004a8a9	KERNEL32.dll.LoadLibraryExW
+0x1004a94f	0x1005f134	import	0x1004a8a9	KERNEL32.dll.FreeLibrary
+0x1004a9bc	0x1005f0e0	import	0x1004a970	KERNEL32.dll.GetProcAddress
+0x1004a9d3	0x1004a9ee	string	0x1004a970	^_[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1004a9f9	0x1006575c	string	0x1004a9f3	AppPolicyGetProcessTerminationMethod
+0x1004aa03	0x1006575c	string	0x1004a9f3	AppPolicyGetProcessTerminationMethod
+0x1004aaa4	0x1005f0e4	import	0x1004aa52	KERNEL32.dll.CompareStringW
+0x1004ab13	0x10060ad8	string	0x1004ab03	FlsAlloc
+0x1004ab37	0x1005f0c8	import	0x1004ab03	KERNEL32.dll.TlsAlloc
+0x1004ab52	0x10060ae4	string	0x1004ab42	FlsFree
+0x1004ab91	0x10060aec	string	0x1004ab81	FlsGetValue
+0x1004abd0	0x10060af8	string	0x1004abc0	FlsSetValue
+0x1004ac4e	0x1005f150	import	0x1004ac02	KERNEL32.dll.GetDateFormatW
+0x1004ac8d	0x1005f0ec	import	0x1004ac59	KERNEL32.dll.GetLocaleInfoW
+0x1004acd2	0x1005f154	import	0x1004ac98	KERNEL32.dll.GetTimeFormatW
+0x1004ad08	0x1005f15c	import	0x1004acdd	KERNEL32.dll.GetUserDefaultLCID
+0x1004ad29	0x10060b04	string	0x1004ad19	InitializeCriticalSectionEx
+0x1004ad59	0x1005f0bc	import	0x1004ad19	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x1004ad91	0x1005f158	import	0x1004ad64	KERNEL32.dll.IsValidLocale
+0x1004ae2d	0x1005f0e8	import	0x1004addb	KERNEL32.dll.LCMapStringW
+0x1004aef3	0x1005f134	import	0x1004aed8	KERNEL32.dll.FreeLibrary
+0x1004af6f	0x1005f0ac	import	0x1004af0c	KERNEL32.dll.DeleteCriticalSection
+0x1004b003	0x1005f118	import	0x1004aff7	KERNEL32.dll.GetStartupInfoW
+0x1004b06d	0x1005f168	import	0x1004aff7	KERNEL32.dll.GetFileType
+0x1004b0f9	0x1005f164	import	0x1004b0ad	KERNEL32.dll.GetStdHandle
+0x1004b10b	0x1005f168	import	0x1004b0ad	KERNEL32.dll.GetFileType
+0x1004b4e4	0x100547cb	string	0x1004b4c1	j\fh`J\a
+0x1004b54b	0x1004b579	string	0x1004b51b	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1004b567	0x1004b579	string	0x1004b51b	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1004b801	0x1004b807	string	0x1004b57d	SPSVQ
+0x1004b80c	0x1005b790	string	0x1004b57d	WVU3
+0x1004b826	0x1004b833	string	0x1004b57d	SPjdVQ
+0x1004b82c	0x1004b833	string	0x1004b57d	SPjdVQ
+0x1004b839	0x1005b790	string	0x1004b57d	WVU3
+0x1004b851	0x1004b85e	string	0x1004b57d	SPj\nVQ
+0x1004b857	0x1004b85e	string	0x1004b57d	SPj\nVQ
+0x1004b864	0x1005b790	string	0x1004b57d	WVU3
+0x1004bf99	0x1004bfb4	string	0x1004bf06	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1004c127	0x1004c132	string	0x1004c0f3	SSSSS
+0x1004c3d9	0x1004c085	string	0x1004c3bb	j\fhxH\a
+0x1004c3fd	0x1004c445	string	0x1004c3e0	VVVVV
+0x1004c477	0x1004c480	string	0x1004c450	j.Yf;
+0x1004c4a6	0x1004c595	string	0x1004c450	SSSSS
+0x1004c509	0x1004c554	string	0x1004c450	j,Yf;
+0x1004c9be	0x1004c9cb	string	0x1004c995	SSSSS
+0x1004ca0d	0x100547cb	string	0x1004c9d6	j\fh`J\a
+0x1004d379	0x1004d391	string	0x1004d2da	3\tEă blocks=Basic Latin,Latin Extended-A
+0x1004d383	0x1004d391	string	0x1004d2da	3\tEă blocks=Basic Latin,Latin Extended-A
+0x1004d543	0x1004d56a	string	0x1004d503	SSSSS
+0x1004d55e	0x1004d56a	string	0x1004d503	SSSSS
+0x1004d5e6	0x1004d623	string	0x1004d575	SSSSS
+0x1004d602	0x1004d623	string	0x1004d575	SSSSS
+0x1004d616	0x1004d623	string	0x1004d575	SSSSS
+0x1004d61a	0x1004d61e	string	0x1004d575	_^[]
+0x1004d672	0x1004d693	string	0x1004d62e	SSSSS
+0x1004d687	0x1004d693	string	0x1004d62e	SSSSS
+0x1004d9ed	0x10065e38	string	0x1004d841	UTF-8
+0x1004da0b	0x10065e40	string	0x1004d841	UTF-16LEUNICODE
+0x1004da1b	0x1004da25	string	0x1004d841	j\a[ShH^
+0x1004dd7c	0x1005f058	import	0x1004dd26	KERNEL32.dll.CloseHandle
+0x1004dd86	0x1005f098	import	0x1004dd26	KERNEL32.dll.GetLastError
+0x1004ddba	0x1004ddbe	string	0x1004dd26	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1004e3fe	0x1005f12c	import	0x1004e1d1	KERNEL32.dll.RaiseException
+0x1004e9e7	0x1005f170	import	0x1004e9ae	KERNEL32.dll.SetFilePointerEx
+0x1004e9f1	0x1005f098	import	0x1004e9ae	KERNEL32.dll.GetLastError
+0x1004eb15	0x1005f04c	import	0x1004ea60	KERNEL32.dll.ReadFile
+0x1004ec9f	0x1005f04c	import	0x1004ebc1	KERNEL32.dll.ReadFile
+0x1004ecc6	0x1004ed15	string	0x1004ebc1	j\nXf9E
+0x1004ed4a	0x1004ed4f	string	0x1004ebc1	j\rXf
+0x1004eeaf	0x1005f098	import	0x1004ed92	KERNEL32.dll.GetLastError
+0x1004f303	0x1005f174	import	0x1004f078	KERNEL32.dll.GetConsoleMode
+0x1004f325	0x1005f178	import	0x1004f078	KERNEL32.dll.ReadConsoleW
+0x1004f32f	0x1005f098	import	0x1004f078	KERNEL32.dll.GetLastError
+0x1004f36d	0x1005f04c	import	0x1004f078	KERNEL32.dll.ReadFile
+0x1004f3d1	0x1005f098	import	0x1004f078	KERNEL32.dll.GetLastError
+0x1004f471	0x1005f17c	import	0x1004f428	KERNEL32.dll.FlushFileBuffers
+0x1004f482	0x1005f098	import	0x1004f428	KERNEL32.dll.GetLastError
+0x1004f52a	0x1004f428	string	0x1004f4ca	j\fhXI\a
+0x1004f58f	0x1005f084	import	0x1004f547	KERNEL32.dll.GetConsoleCP
+0x1004f7d3	0x1005f050	import	0x1004f547	KERNEL32.dll.WriteFile
+0x1004f813	0x1005f050	import	0x1004f547	KERNEL32.dll.WriteFile
+0x1004f8bf	0x1005f098	import	0x1004f547	KERNEL32.dll.GetLastError
+0x1004f94a	0x1005f098	import	0x1004f8f1	KERNEL32.dll.GetLastError
+0x1004f9b6	0x1005f174	import	0x1004f959	KERNEL32.dll.GetConsoleMode
+0x1004fa66	0x1005f050	import	0x1004f9ca	KERNEL32.dll.WriteFile
+0x1004fa8c	0x1005f098	import	0x1004f9ca	KERNEL32.dll.GetLastError
+0x1004fb4f	0x1005f050	import	0x1004faa5	KERNEL32.dll.WriteFile
+0x1004fb75	0x1005f098	import	0x1004faa5	KERNEL32.dll.GetLastError
+0x1004fc77	0x1005f050	import	0x1004fb8e	KERNEL32.dll.WriteFile
+0x1004fca7	0x1005f098	import	0x1004fb8e	KERNEL32.dll.GetLastError
+0x1004ff03	0x1005f050	import	0x1004fdb2	KERNEL32.dll.WriteFile
+0x1004ff0d	0x1005f098	import	0x1004fdb2	KERNEL32.dll.GetLastError
+0x100500a0	0x100500a5	string	0x1004ff96	[_]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1005010a	0x10050171	string	0x100500a9	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10050159	0x10050171	string	0x100500a9	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100501c5	0x1005f170	import	0x10050175	KERNEL32.dll.SetFilePointerEx
+0x100501d4	0x1005f040	import	0x10050175	KERNEL32.dll.GetFileSizeEx
+0x1005036b	0x1005038b	string	0x10050207	[^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10050670	0x1005f098	import	0x100505a2	KERNEL32.dll.GetLastError
+0x1005092f	0x10050924	string	0x10050845	f90t\b
+0x100509b4	0x1005f098	import	0x10050845	KERNEL32.dll.GetLastError
+0x10050bbb	0x1005f110	import	0x10050aee	KERNEL32.dll.IsProcessorFeaturePresent
+0x10052077	0x10052183	string	0x10051fde	WWWWW
+0x10052084	0x1005f098	import	0x10051fde	KERNEL32.dll.GetLastError
+0x1005225e	0x1005f090	import	0x1005218e	KERNEL32.dll.GetStringTypeW
+0x10052534	0x1005f044	import	0x100524c4	KERNEL32.dll.MultiByteToWideChar
+0x100525e2	0x1005f094	import	0x10052540	KERNEL32.dll.WideCharToMultiByte
+0x10052620	0x10052626	string	0x100525ed	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100529f5	0x10052b1d	string	0x100529cd	SSSSS
+0x10052a07	0x10052b1d	string	0x100529cd	SSSSS
+0x10052a19	0x10052b1d	string	0x100529cd	SSSSS
+0x10052a37	0x1005f03c	import	0x100529cd	KERNEL32.dll.GetTimeZoneInformation
+0x1005302c	0x1005304e	string	0x10052ffd	SSSSj
+0x10053065	0x1005f098	import	0x10052ffd	KERNEL32.dll.GetLastError
+0x1005308e	0x100530c7	string	0x10052ffd	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100530ab	0x1005f098	import	0x10052ffd	KERNEL32.dll.GetLastError
+0x100530bf	0x100530c7	string	0x10052ffd	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1005323c	0x100532b0	string	0x100530ce	SSSSS蘏 blocks=Basic Latin,CJK Unified Ideographs
+0x1005345c	0x1005f038	import	0x1005336c	KERNEL32.dll.FindFirstFileExW
+0x1005353a	0x1005f078	import	0x1005336c	KERNEL32.dll.FindNextFileW
+0x10053597	0x1005f080	import	0x1005336c	KERNEL32.dll.FindClose
+0x100536f5	0x1005f144	import	0x100536d0	KERNEL32.dll.GetModuleFileNameW
+0x100536ff	0x1005f098	import	0x100536d0	KERNEL32.dll.GetLastError
+0x100538aa	0x1005f02c	import	0x1005387f	KERNEL32.dll.GetOEMCP
+0x100538c1	0x1005f030	import	0x1005387f	KERNEL32.dll.GetACP
+0x10053987	0x1005f0f0	import	0x10053955	KERNEL32.dll.GetCPInfo
+0x10053ae4	0x10053bef	string	0x10053ad6	j\fh J\a
+0x10053b00	0x10053b06	string	0x10053ad6	SVWh
+0x10053ce2	0x10053bef	string	0x10053cd7	j\fh J\a
+0x10053d48	0x1005f034	import	0x10053cea	KERNEL32.dll.IsValidCodePage
+0x10053d8a	0x1005f0f0	import	0x10053cea	KERNEL32.dll.GetCPInfo
+0x10053f4c	0x1005f028	import	0x10053f34	KERNEL32.dll.GetCommandLineA
+0x10053f57	0x1005f024	import	0x10053f34	KERNEL32.dll.GetCommandLineW
+0x10053fa5	0x1005f020	import	0x10053f9c	KERNEL32.dll.GetEnvironmentStringsW
+0x10054013	0x1005f01c	import	0x10053f9c	KERNEL32.dll.FreeEnvironmentStringsW
+0x1005402e	0x10054043	string	0x10054022	SWj=V
+0x1005415d	0x100541c1	string	0x10054022	9]\ft
+0x10054169	0x100541c1	string	0x10054022	9]\ft
+0x100541f9	0x10054253	string	0x10054022	SSSSS
+0x100543f5	0x1005f014	import	0x10054388	KERNEL32.dll.GetProcessHeap
+0x10054434	0x1005443e	string	0x10054410	;u\ft.;
+0x1005446f	0x10054473	string	0x10054410	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10054869	0x10054898	string	0x1005484c	_^]á blocks=Basic Latin,Latin-1 Supplement
+0x100548e5	0x100548ee	string	0x100548a3	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10054987	0x1005498b	string	0x100548f3	_^[]
+0x10054a60	0x1005f0ac	import	0x10054a44	KERNEL32.dll.DeleteCriticalSection
+0x10054b32	0x1005f0a4	import	0x10054b17	KERNEL32.dll.EnterCriticalSection
+0x10054b99	0x1005f010	import	0x10054b3a	KERNEL32.dll.SetStdHandle
+0x10054be7	0x1005f0a8	import	0x10054bcc	KERNEL32.dll.LeaveCriticalSection
+0x10054d62	0x1005f010	import	0x10054d02	KERNEL32.dll.SetStdHandle
+0x10054d76	0x10054d8e	string	0x10054d02	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1005506e	0x10055072	string	0x10055039	@9E\fw\t
+0x10056be7	0x10056bf9	string	0x10056bc6	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10056fad	0x10056fd3	string	0x10056f60	Y_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10057329	0x10057339	string	0x100572bd	WWWWW
+0x10057399	0x100573a5	string	0x10057344	3ۉ~\fSSj blocks=Basic Latin,Arabic
+0x10057594	0x1005773f	string	0x1005746c	SSSSS
+0x10057630	0x10057663	string	0x1005746c	9^\ty
+0x100577dc	0x100577fe	string	0x1005774c	SSSSS
+0x10057861	0x10067e84	string	0x10057809	utf8
+0x10057872	0x10067e98	string	0x10057809	utf-8
+0x10057a7a	0x1005f030	import	0x100579b9	KERNEL32.dll.GetACP
+0x10057aa5	0x1005f034	import	0x100579b9	KERNEL32.dll.IsValidCodePage
+0x10057b42	0x10057b52	string	0x100579b9	j@Sj\a
+0x10057b77	0x10067e84	string	0x100579b9	utf8
+0x10057c08	0x1005f0ec	import	0x10057bb6	KERNEL32.dll.GetLocaleInfoW
+0x10057c92	0x1005f160	import	0x10057c5b	KERNEL32.dll.EnumSystemLocalesW
+0x10057d18	0x1005f160	import	0x10057ca6	KERNEL32.dll.EnumSystemLocalesW
+0x10057d38	0x10057d3c	string	0x10057ca6	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10057d8b	0x1005f160	import	0x10057d41	KERNEL32.dll.EnumSystemLocalesW
+0x10057d97	0x10057d9b	string	0x10057d41	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10057e20	0x1005f0ec	import	0x10057dce	KERNEL32.dll.GetLocaleInfoW
+0x10057e2f	0x10058009	string	0x10057dce	3\t\a@
+0x10057e6a	0x1005f0ec	import	0x10057dce	KERNEL32.dll.GetLocaleInfoW
+0x10057e72	0x10058009	string	0x10057dce	3\t\a@
+0x10057f30	0x1005f0ec	import	0x10057dce	KERNEL32.dll.GetLocaleInfoW
+0x10057f38	0x10058009	string	0x10057dce	3\t\a@
+0x10057f60	0x10057f72	string	0x10057dce	9C\t
+0x10058073	0x1005f0ec	import	0x10058021	KERNEL32.dll.GetLocaleInfoW
+0x100581de	0x1005f0ec	import	0x10058145	KERNEL32.dll.GetLocaleInfoW
+0x10058207	0x1005f0ec	import	0x10058145	KERNEL32.dll.GetLocaleInfoW
+0x1005821c	0x1005f030	import	0x10058145	KERNEL32.dll.GetACP
+0x10058277	0x1005f0ec	import	0x1005824b	KERNEL32.dll.GetLocaleInfoW
+0x10058426	0x1005f15c	import	0x1005831a	KERNEL32.dll.GetUserDefaultLCID
+0x10058750	0x1005894e	string	0x10058706	SSSSS
+0x10058976	0x1005f054	import	0x10058959	KERNEL32.dll.CreateFileW
+0x10058db4	0x1005f098	import	0x10058ca0	KERNEL32.dll.GetLastError
+0x10058dc7	0x1005f168	import	0x10058ca0	KERNEL32.dll.GetFileType
+0x10058dd1	0x1005f098	import	0x10058ca0	KERNEL32.dll.GetLastError
+0x10058dfa	0x1005f058	import	0x10058ca0	KERNEL32.dll.CloseHandle
+0x10058f47	0x1005f058	import	0x10058ca0	KERNEL32.dll.CloseHandle
+0x10058f79	0x1005f098	import	0x10058ca0	KERNEL32.dll.GetLastError
+0x100590a4	0x1005f090	import	0x10059093	KERNEL32.dll.GetStringTypeW
+0x10059789	0x1005f0b4	import	0x10059770	KERNEL32.dll.DecodePointer
+0x100597cb	0x10065f44	string	0x10059770	log10
+0x100597da	0x10065f44	string	0x10059770	log10
+0x100598b6	0x10065f64	string	0x10059770	asin
+0x100598bf	0x10065f6c	string	0x10059770	acos
+0x100598c8	0x10065f84	string	0x10059770	sqrt
+0x100599a1	0x100599cc	string	0x10059964	j\b_Q
+0x100599b5	0x100599cc	string	0x10059964	j\b_Q
+0x1005a1cf	0x1005a1e3	string	0x1005a1a7	9u\br
+0x1005a211	0x1005a203	string	0x1005a1a7	J9U\bw\n
+0x1005a39f	0x1005f018	import	0x1005a334	KERNEL32.dll.SetEnvironmentVariableW
+0x1005a3f4	0x1005f00c	import	0x1005a3c9	KERNEL32.dll.HeapSize
+0x1005a98a	0x1005a99f	string	0x1005a940	SVRQ
+0x1005a99d	0x1005a9ae	string	0x1005a940	[^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1005acc5	0x1005f048	import	0x1005ab9a	KERNEL32.dll.SetEndOfFile
+0x1005ace1	0x1005f098	import	0x1005ab9a	KERNEL32.dll.GetLastError
+0x1005ad18	0x1006b798	string	0x1005ad0a	CONOUT$
+0x1005ad1d	0x1005f054	import	0x1005ad0a	KERNEL32.dll.CreateFileW
+0x1005ad58	0x1005f058	import	0x1005ad48	KERNEL32.dll.CloseHandle
+0x1005ad76	0x1005f088	import	0x1005ad5f	KERNEL32.dll.WriteConsoleW
+0x1005ad82	0x1005f098	import	0x1005ad5f	KERNEL32.dll.GetLastError
+0x1005ada7	0x1005f088	import	0x1005ad5f	KERNEL32.dll.WriteConsoleW
+0x1005aef1	0x1005f0f0	import	0x1005ae4e	KERNEL32.dll.GetCPInfo
+0x1005b4dc	0x1005b53f	string	0x1005b492	YY^[
+0x1005b545	0x1005f110	import	0x1005b545	KERNEL32.dll.IsProcessorFeaturePresent
+0x1005b582	0x1005b58e	string	0x1005b550	_^[]
+0x1005bc57	0x1005bcb8	string	0x1005bc50	3\nD$\bS
+0x1005bd22	0x1005bd2c	string	0x1005bc50	^_[3
+0x1005bd40	0x1005bd2c	string	0x1005bc50	^_[3
+0x1005bd48	0x1005bd2c	string	0x1005bc50	^_[3
+0x1005bd53	0x1005bd2c	string	0x1005bc50	^_[3
+0x1005bd5b	0x1005bd2c	string	0x1005bc50	^_[3

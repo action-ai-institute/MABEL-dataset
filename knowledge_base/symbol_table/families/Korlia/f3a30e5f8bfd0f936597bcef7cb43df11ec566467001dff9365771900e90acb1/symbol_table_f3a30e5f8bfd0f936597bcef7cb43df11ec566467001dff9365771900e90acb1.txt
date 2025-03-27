@@ -1,0 +1,65 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401050	0x406f30	string	0x401000	SOFTWARE\Microsoft\Windows NT\CurrentVersion\Svchost
+0x401062	0x40200c	import	0x401000	ADVAPI32.dll.RegOpenKeyExA
+0x401097	0x406f28	string	0x401000	netsvcs
+0x4010a4	0x402010	import	0x401000	ADVAPI32.dll.RegQueryValueExA
+0x4010b3	0x402014	import	0x401000	ADVAPI32.dll.RegCloseKey
+0x4010ba	0x402044	import	0x401000	KERNEL32.dll.SetLastError
+0x4010cd	0x406f04	string	0x401000	RegQueryValueEx(Svchost\netsvcs)
+0x4010e0	0x402018	import	0x401000	ADVAPI32.dll.OpenSCManagerA
+0x4010f8	0x406ef4	string	0x401000	OpenSCManager()
+0x401113	0x406ee4	string	0x401000	Network Logon
+0x40111d	0x406ee4	string	0x401000	Network Logon
+0x40113e	0x406eb4	string	0x401000	%SystemRoot%\System32\svchost.exe -k netsvcs
+0x40115f	0x40201c	import	0x401000	ADVAPI32.dll.CreateServiceA
+0x40116d	0x402020	import	0x401000	ADVAPI32.dll.CloseServiceHandle
+0x401176	0x4020a8	import	0x401000	MSVCRT.dll.strchr
+0x401189	0x402048	import	0x401000	KERNEL32.dll.Sleep
+0x4011b3	0x402020	import	0x401000	ADVAPI32.dll.CloseServiceHandle
+0x4011c7	0x406e90	string	0x401000	SYSTEM\CurrentControlSet\Services\
+0x4011d4	0x40205c	import	0x401000	MSVCRT.dll.strncpy
+0x4011e8	0x4020a4	import	0x401000	MSVCRT.dll.strncat
+0x401207	0x40200c	import	0x401000	ADVAPI32.dll.RegOpenKeyExA
+0x401230	0x406e84	string	0x401000	Parameters
+0x401236	0x402024	import	0x401000	ADVAPI32.dll.RegCreateKeyA
+0x401242	0x402044	import	0x401000	KERNEL32.dll.SetLastError
+0x401255	0x406e68	string	0x401000	RegCreateKey(Parameters)
+0x401261	0x406e58	string	0x401000	netcat27.dll
+0x401270	0x406e58	string	0x401000	netcat27.dll
+0x40127b	0x406e4c	string	0x401000	ServiceDll
+0x401281	0x402000	import	0x401000	ADVAPI32.dll.RegSetValueExA
+0x40128d	0x402044	import	0x401000	KERNEL32.dll.SetLastError
+0x4012a0	0x406e30	string	0x401000	RegSetValueEx(ServiceDll)
+0x4012b8	0x40204c	import	0x401000	KERNEL32.dll.GetLastError
+0x4012ca	0x402020	import	0x401000	ADVAPI32.dll.CloseServiceHandle
+0x4012d3	0x402014	import	0x401000	ADVAPI32.dll.RegCloseKey
+0x401325	0x402038	import	0x401310	KERNEL32.dll.CreateFileA
+0x401344	0x40203c	import	0x401310	KERNEL32.dll.WriteFile
+0x40134b	0x402040	import	0x401310	KERNEL32.dll.CloseHandle
+0x40136b	0x402018	import	0x401360	ADVAPI32.dll.OpenSCManagerA
+0x401385	0x402004	import	0x401360	ADVAPI32.dll.OpenServiceA
+0x401393	0x402020	import	0x401360	ADVAPI32.dll.CloseServiceHandle
+0x4013a6	0x402008	import	0x401360	ADVAPI32.dll.StartServiceA
+0x4013ad	0x402020	import	0x401360	ADVAPI32.dll.CloseServiceHandle
+0x4013fa	0x40202c	import	0x4013c0	KERNEL32.dll.GetSystemDirectoryA
+0x40141b	0x406f78	string	0x4013c0	\netcat27.dll
+0x401456	0x406f68	string	0x4013c0	\browseui.dll
+0x4014b2	0x401360	string	0x4013c0	VWh?
+0x4014c6	0x402030	import	0x4013c0	KERNEL32.dll.GetModuleFileNameA
+0x4014d8	0x402034	import	0x4013c0	KERNEL32.dll.MoveFileExA
+0x401520	0x402064	import	0x401520	MSVCRT.dll._CxxThrowException
+0x401553	0x402098	import	0x401520	MSVCRT.dll.__set_app_type
+0x401568	0x402094	import	0x401520	MSVCRT.dll.__p__fmode
+0x401576	0x402090	import	0x401520	MSVCRT.dll.__p__commode
+0x4015a2	0x402088	import	0x401520	MSVCRT.dll.__setusermatherr
+0x4015db	0x402080	import	0x401520	MSVCRT.dll.__getmainargs
+0x40162a	0x402054	import	0x401520	KERNEL32.dll.GetStartupInfoA
+0x401634	0x401647	string	0x401520	j\nXPVSS
+0x40164e	0x402050	import	0x401520	KERNEL32.dll.GetModuleHandleA
+0x40165e	0x402078	import	0x401520	MSVCRT.dll.exit
+0x401684	0x402068	import	0x401684	MSVCRT.dll.sym_imp_void __cdecl operator delete(void *)
+0x40168a	0x40206c	import	0x40168a	MSVCRT.dll.sym_imp_public virtual: void __thiscall type_info::~destructor(void)
+0x401690	0x402074	import	0x401690	MSVCRT.dll._XcptFilter
+0x401696	0x402084	import	0x401696	MSVCRT.dll._initterm
+0x4016b2	0x40209c	import	0x4016b1	MSVCRT.dll._except_handler3
+0x4016b8	0x4020a0	import	0x4016b8	MSVCRT.dll._controlfp

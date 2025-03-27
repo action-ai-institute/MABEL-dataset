@@ -1,0 +1,1196 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401097	0x410068	import	0x401075	KERNEL32.dll.GetCurrentProcessId
+0x4010c4	0x410064	import	0x401075	KERNEL32.dll.OpenEventA
+0x4010d7	0x410060	import	0x401075	KERNEL32.dll.SetEvent
+0x4010e1	0x4101e8	string	0x401075	remove_dll_callback(): SetEvent() failed
+0x4010e6	0x41005c	import	0x401075	KERNEL32.dll.GetLastError
+0x4010f5	0x410058	import	0x401075	KERNEL32.dll.CloseHandle
+0x4010ff	0x410054	import	0x401075	KERNEL32.dll.SleepEx
+0x40110c	0x410214	string	0x40110c	RemoveDllAll(): started
+0x401157	0x4102b4	string	0x401126	StopQbotThread(): started
+0x401164	0x410068	import	0x401126	KERNEL32.dll.GetCurrentProcessId
+0x401171	0x4102ac	string	0x401126	2%s%u
+0x401195	0x410270	string	0x401126	StopQbotThread(): event szQbotStopEvent='%s' signaled ok
+0x4011a3	0x410268	string	0x401126	Global
+0x4011da	0x41022c	string	0x401126	StopQbotThread(): waiting on szQbotRunMutex='%s' ...
+0x4011f9	0x4102e4	string	0x4011f9	stop_hook(): started
+0x40120d	0x4102d0	string	0x4011f9	stop_hook(): done
+0x40125f	0x4102fc	string	0x40121b	finish_qbot_update_callback(): update file found '%s'
+0x40131c	0x4103b8	string	0x40131a	stop_dllinject(): started
+0x40133b	0x41038c	string	0x40131a	stop_dllinject(): window found hWnd=0x%x
+0x401355	0x410364	string	0x40131a	stop_dllinject(): Message sent ret=%u.
+0x401364	0x410338	string	0x40131a	stop_dllinject(): FindWindow('%s') failed
+0x401369	0x41005c	import	0x40131a	KERNEL32.dll.GetLastError
+0x4013ad	0x410068	import	0x40138e	KERNEL32.dll.GetCurrentProcessId
+0x401411	0x410064	import	0x40138e	KERNEL32.dll.OpenEventA
+0x40141c	0x410058	import	0x40138e	KERNEL32.dll.CloseHandle
+0x401427	0x41005c	import	0x40138e	KERNEL32.dll.GetLastError
+0x401454	0x4104c8	string	0x40138e	InfectProcessCallback(): OpenProcess() ok pid=%u exe='%s'
+0x40147e	0x410000	import	0x40138e	ADVAPI32.dll.EqualSid
+0x40149f	0x410470	string	0x40138e	InfectProcessCallback(): was already infected, but event not created! pid=%u exe='%s'
+0x4014d1	0x410434	string	0x40138e	InfectProcessCallback(): explorer ignored! pid=%u exe='%s'
+0x401505	0x410404	string	0x40138e	InfectProcessCallback(): x64 ok pid=%u exe='%s'
+0x401520	0x4103d4	string	0x40138e	InfectProcessCallback(): x32 ok pid=%u exe='%s'
+0x401555	0x41006c	import	0x40138e	KERNEL32.dll.Sleep
+0x40160d	0x410534	string	0x4015bb	MySetHook(): PreparePEImage() pPeImage32 failed
+0x401649	0x410504	string	0x4015bb	MySetHook(): PreparePEImage() pPeImage64 failed
+0x4016be	0x410598	string	0x4016b5	QbotMainDllThread(): started
+0x4016f1	0x410564	string	0x4016b5	QbotMainDllThread(): UnpackQbotDll() failed nErr=%d
+0x401730	0x4108e4	string	0x401727	inj_main_thread() started
+0x40177a	0x4108b4	string	0x401727	inj_main_thread(): cannot load qbot_hook_dll_64
+0x4017ae	0x410884	string	0x401727	inj_main_thread(): cannot load qbot_hook_dll
+0x4017ee	0x410854	string	0x401727	inj_main_thread(): cannot load qbot_main_dll
+0x401809	0x410828	string	0x401727	inj_main_thread(): PreparePEImage() failed
+0x401840	0x4107f4	string	0x401727	inj_main_thread(): GetResData() ok: dwConfLen=%u
+0x40186d	0x4107c0	string	0x401727	inj_main_thread(): GetResData() failed: res=[%s]
+0x40188c	0x410784	string	0x401727	inj_main_thread(): Configuration file loaded successfully!
+0x401898	0x410748	string	0x401727	inj_main_thread(): Cannot load default configuration file
+0x4018b8	0x410700	string	0x401727	inj_main_thread(): variable CONFVAR_LOAD_MODE is set: dwLoaderMode=%u
+0x4018ca	0x4106c4	string	0x401727	inj_main_thread(): variable CONFVAR_LOAD_MODE not set
+0x4018db	0x410070	import	0x401727	KERNEL32.dll.GetModuleHandleA
+0x4018e5	0x410688	string	0x401727	DetectAVInstalled(): Bitdefender antivirus detected by dll!
+0x401938	0x410618	string	0x401727	StartQbotThread(): disabled! dwNoMain=%u
+0x401942	0x401977	string	0x401727	YYSW
+0x401944	0x4105e4	string	0x401727	StartQbotThread: 'nomain' var not set, start load
+0x401966	0x4105b8	string	0x401727	StartQbotThread(): CreateThread() failed
+0x40196b	0x41005c	import	0x401727	KERNEL32.dll.GetLastError
+0x40197b	0x41006c	import	0x401727	KERNEL32.dll.Sleep
+0x4019a9	0x41066c	string	0x401727	inj_main_thread(): finished
+0x4019ea	0x4019f3	string	0x4019ce	hl\tA
+0x4019f3	0x41096c	string	0x4019ce	WndProc(): Got WM_QBOT_MSG_4 message
+0x401a19	0x410944	string	0x4019ce	WndProc(): Got WM_QBOT_MSG_2 message
+0x401a49	0x410924	string	0x4019ce	WndProc(): Got WM_QUIT message
+0x401a6d	0x410900	string	0x4019ce	WndProc(): Got WM_DESTROY message
+0x401a94	0x410a74	string	0x401a8d	user32.dll
+0x401abc	0x41007c	import	0x401a8d	KERNEL32.dll.LoadLibraryA
+0x401ac8	0x410a44	string	0x401a8d	setup_message_filter(): LoadLibrary() failed
+0x401acd	0x41005c	import	0x401a8d	KERNEL32.dll.GetLastError
+0x401ae1	0x410a28	string	0x401a8d	ChangeWindowMessageFilter
+0x401ae7	0x410078	import	0x401a8d	KERNEL32.dll.GetProcAddress
+0x401af3	0x4109f8	string	0x401a8d	setup_message_filter(): GetProcAddress() failed
+0x401af8	0x41005c	import	0x401a8d	KERNEL32.dll.GetLastError
+0x401b1b	0x4109b8	string	0x401a8d	setup_message_filter(): ChangeWindowMessageFilter() failed i=%d
+0x401b20	0x41005c	import	0x401a8d	KERNEL32.dll.GetLastError
+0x401b35	0x410994	string	0x401a8d	setup_message_filter(): finished
+0x401b41	0x410074	import	0x401a8d	KERNEL32.dll.FreeLibrary
+0x401b57	0x410c4c	string	0x401b4e	listen_msg_loop(): started
+0x401ba8	0x41005c	import	0x401b4e	KERNEL32.dll.GetLastError
+0x401bb3	0x410c24	string	0x401b4e	msg_thread(): RegisterClassEx() failed
+0x401bf5	0x410bec	string	0x401b4e	msg_thread(): CreateWindowExA() failed wnd_name='%s'
+0x401c2c	0x410bac	string	0x401b4e	msg_thread(): Create window ok: hWndMain=0x%08x wnd_name='%s'
+0x401c40	0x410b80	string	0x401b4e	msg_thread(): GetMessage() returned ret=-1
+0x401c72	0x410b54	string	0x401b4e	msg_thread(): GetMessage() loop finished.
+0x401cbc	0x410b10	string	0x401b4e	msg_thread(): WaitForSingleObjects() returned unknown error: 0x%x
+0x401ccc	0x410ae0	string	0x401b4e	msg_thread(): WaitForSingleObject() WAIT_FAILED
+0x401cdc	0x410aac	string	0x401b4e	msg_thread(): WaitForSingleObject() WAIT_TIMEOUT
+0x401ce4	0x410a80	string	0x401b4e	msg_thread(): InjMain thread finished ok.
+0x401d03	0x410080	import	0x401b4e	KERNEL32.dll.ReleaseMutex
+0x401d8a	0x410cbc	string	0x401d41	run_as_injector(): CreateThread() inj_main_thread failed
+0x401d8f	0x41005c	import	0x401d41	KERNEL32.dll.GetLastError
+0x401da6	0x410c68	string	0x401d41	run_as_injector(): CreateThread() inj_main_thread ok th_id=%x hInjMainThread=%p.
+0x401de7	0x410e34	string	0x401dbd	RunAsInjectorEP(): init_constants_lib() failed
+0x401f06	0x410f0c	string	0x401eaf	LoadConfigEmbedded(): cannot load qbot_main_dll
+0x401f2f	0x410edc	string	0x401eaf	LoadConfigEmbedded(): PreparePEImage() failed
+0x401f60	0x410e9c	string	0x401eaf	LoadConfigEmbedded(): GetResData(RESDLL_CONF) ok: dwConfLen=%u
+0x401f92	0x410e68	string	0x401eaf	LoadConfigEmbedded(): GetResData() failed: res=[%s]
+0x401fcb	0x410fd8	string	0x401fc0	TRUE
+0x401fd5	0x410fd0	string	0x401fc0	FALSE
+0x401fdf	0x410f98	string	0x401fc0	run_as_exe_installer(): started flags=%08x bSystem=%s
+0x40201a	0x41008c	import	0x401fc0	KERNEL32.dll.GetDriveTypeA
+0x402023	0x410f70	string	0x401fc0	run_as_exe_installer(): drive_type=%u
+0x40207f	0x410f3c	string	0x401fc0	run_as_exe_installer(): ===>>> szBotGroup='%s'
+0x402097	0x40209e	string	0x401fc0	Y_^3
+0x4020e7	0x410090	import	0x4020c8	KERNEL32.dll.lstrcmpA
+0x402128	0x410fe0	string	0x4020c8	TestStringConstants(): CS3[] corrupted!!!
+0x40218e	0x411010	string	0x40214f	TestQbotDllsRes(): ===>>> res: %s
+0x4021af	0x4021eb	string	0x40214f	9]\bt<
+0x402286	0x411074	string	0x402232	CheckExeSilent(): success
+0x4022a0	0x411034	string	0x402232	EXE Error: res_test=%d dwSehTest=%u res_msg='%s' iConstTest=%d
+0x40236d	0x4110e4	string	0x4022b4	\n!!! Achtung !!! DEBUG IS ENABLED !!!
+0x402379	0x410094	import	0x4022b4	KERNEL32.dll.lstrcatA
+0x402382	0x4110b4	string	0x4022b4	PrintVersionMessage(): szSelfTestResult='%s'
+0x40238f	0x411090	string	0x4022b4	PrintVersionMessage(): szFmt='%s'
+0x40245e	0x4111c8	string	0x40243c	create_argv(): mem_alloc() 1 failed
+0x402463	0x41005c	import	0x40243c	KERNEL32.dll.GetLastError
+0x402487	0x41009c	import	0x40243c	KERNEL32.dll.lstrlenA
+0x402496	0x4111b4	string	0x40243c	[/c] found in [%s]!
+0x4024cf	0x41118c	string	0x40243c	create_argv(): [/c] not found in [%s]
+0x4025fa	0x4100a0	import	0x4025e3	KERNEL32.dll.OpenProcess
+0x402607	0x41143c	string	0x4025e3	TestInfectProcess(): OpenProcess() failed: pid=%u
+0x40260c	0x41005c	import	0x4025e3	KERNEL32.dll.GetLastError
+0x402618	0x41140c	string	0x4025e3	TestInfectProcess(): OpenProcess() ok pid=%u
+0x402630	0x4113d0	string	0x4025e3	TestInfectProcess(): GetProcessOwnerToken() failed pid=%u
+0x40264e	0x410000	import	0x4025e3	ADVAPI32.dll.EqualSid
+0x402659	0x4113a4	string	0x4025e3	TestInfectProcess(): skip not my SID pid=%u
+0x402669	0x411384	string	0x4025e3	TestInfectProcess(): ===>>> 1
+0x40269c	0x411354	string	0x4025e3	TestInfectProcess(): UnpackQbotDll() 64 failed
+0x4026be	0x411324	string	0x4025e3	TestInfectProcess(): PreparePEImage() 64 failed
+0x4026e0	0x4112f0	string	0x4025e3	TestInfectProcess(): HideLoadLibrary64() ok pid=%u
+0x4026e7	0x4112b8	string	0x4025e3	TestInfectProcess(): HideLoadLibrary64() failed: pid=%u
+0x402700	0x411288	string	0x4025e3	TestInfectProcess(): UnpackQbotDll() 32 failed
+0x402718	0x411258	string	0x4025e3	TestInfectProcess(): PreparePEImage() 32 failed
+0x40272d	0x411224	string	0x4025e3	TestInfectProcess(): HideLoadLibrary32() ok pid=%u
+0x40273d	0x4111ec	string	0x4025e3	TestInfectProcess(): HideLoadLibrary32() failed: pid=%u
+0x402790	0x4116cc	string	0x402753	c:\tmp_dbg
+0x402795	0x4100a8	import	0x402753	KERNEL32.dll.CreateDirectoryA
+0x4027ae	0x4027c6	string	0x402753	SSSV
+0x4027b1	0x41169c	string	0x402753	WinMain(): init_constants_lib() failed: ret=%d
+0x4027db	0x411670	string	0x402753	qbotinject started. qbotinj version: %X.%u
+0x4027e8	0x411660	string	0x402753	lpCmdLine='%s'
+0x402826	0x41009c	import	0x402753	KERNEL32.dll.lstrlenA
+0x402837	0x411648	string	0x402753	===>>> Running /c: [%s]
+0x40286d	0x411628	string	0x402753	arg_str=[%s] argc=%d proc2=[%s]
+0x40288f	0x411620	string	0x402753	%s%s
+0x4028ac	0x411608	string	0x402753	dllinject_run_mutex=%s
+0x4028ce	0x4115e0	string	0x402753	Another copy of process running. Exit.
+0x4028d8	0x4115c0	string	0x402753	dllinject_run_mutex locked ok
+0x4028f4	0x411598	string	0x402753	ResolveProcs(dllinject_winapi) failed!
+0x40291b	0x411564	string	0x402753	Bad command line arguments: argc=%u argv[1]='%s'
+0x402956	0x402bd3	string	0x402753	Y_^[
+0x402963	0x402bc5	string	0x402753	YYhp
+0x4029b1	0x411548	string	0x402753	Bad command line arguments
+0x402a18	0x411530	string	0x402753	Running as installer
+0x402a3f	0x4101d0	import	0x402753	ole32.dll.CoInitializeEx
+0x402a45	0x4101b4	import	0x402753	USER32.dll.GetForegroundWindow
+0x402a4c	0x411510	string	0x402753	GetForegroundWindow()=0x%08x
+0x402a5b	0x411508	string	0x402753	/c "%s"
+0x402aa7	0x4114e0	string	0x402753	ShellExecute() failed dRet=%d cmd='%s'
+0x402abb	0x41006c	import	0x402753	KERNEL32.dll.Sleep
+0x402ac3	0x4114d4	string	0x402753	Finished.
+0x402aec	0x4114c8	string	0x402753	%s\%d.exe
+0x402b09	0x41149c	string	0x402753	Started as NT SYSTEM, copy myself to '%s'
+0x402b24	0x4100a4	import	0x402753	KERNEL32.dll.CopyFileA
+0x402b36	0x41147c	string	0x402753	CopyFileA() failed '%s'=>'%s'
+0x402b3b	0x41005c	import	0x402753	KERNEL32.dll.GetLastError
+0x402b58	0x410080	import	0x402753	KERNEL32.dll.ReleaseMutex
+0x402b88	0x410cf8	string	0x402753	IJcdwzcx
+0x402b90	0x410084	import	0x402753	KERNEL32.dll.CreateEventW
+0x402ba3	0x410080	import	0x402753	KERNEL32.dll.ReleaseMutex
+0x402bc7	0x411470	string	0x402753	Finished!
+0x402c2d	0x4116dc	string	0x402bfc	AddInfectedProcess(): mem_realloc() failed
+0x402c32	0x41005c	import	0x402bfc	KERNEL32.dll.GetLastError
+0x402cf9	0x411708	string	0x402cc7	AddRunningProc(): mem_realloc() failed
+0x402cfe	0x41005c	import	0x402cc7	KERNEL32.dll.GetLastError
+0x402d90	0x4117f4	string	0x402d5a	CleanInfectedFinished(): mem_alloc() failed
+0x402d95	0x41005c	import	0x402d5a	KERNEL32.dll.GetLastError
+0x402dbf	0x4117b4	string	0x402d5a	CleanInfectedFinished(): dwRunningCount=%u dwInfectedCount=%u
+0x402e3a	0x411768	string	0x402d5a	CleanInfectedFinished(): ===>>> not running: i=%u dwPid=%u szExeFile='%s'
+0x402eb2	0x411730	string	0x402d5a	CleanInfectedFinished(): %u inactive processes cleaned
+0x402ee1	0x411844	string	0x402d5a	srvc ===>>> ServiceMain() started
+0x402ef8	0x410004	import	0x402d5a	ADVAPI32.dll.RegisterServiceCtrlHandlerA
+0x402f09	0x411820	string	0x402d5a	RegisterServiceCtrlHandler() failed
+0x402f0e	0x41005c	import	0x402d5a	KERNEL32.dll.GetLastError
+0x402f64	0x4118a8	string	0x402f64	run_as_install_service() started
+0x402fa1	0x410040	import	0x402f64	ADVAPI32.dll.StartServiceCtrlDispatcherA
+0x402fab	0x411868	string	0x402f64	run_as_install_service(): StartServiceCtrlDispatcher() failed
+0x402fb0	0x41005c	import	0x402f64	KERNEL32.dll.GetLastError
+0x403014	0x410008	import	0x402fc5	ADVAPI32.dll.SetServiceStatus
+0x403034	0x411964	string	0x40301c	got unknown service control code: %d
+0x4030e1	0x4119fc	string	0x4030d6	RunPluginOnceMain(): running '%s'
+0x403107	0x4119cc	string	0x4030d6	RunPluginOnceMain(): sxor2_open('%s') failed
+0x40313b	0x4119b0	string	0x4030d6	RunPluginOnceMain(): failed
+0x40314a	0x41198c	string	0x4030d6	RunPluginOnceMain(): dll loaded ok
+0x40315b	0x41006c	import	0x4030d6	KERNEL32.dll.Sleep
+0x4031df	0x411aa0	string	0x4031d5	finish_uninstall(): started
+0x40323a	0x411a70	string	0x4031d5	finish_uninstall(): cmd='%s' szRegData='%s'
+0x40326e	0x411a3c	string	0x4031d5	finish_uninstall(): force_exec() failed: cmd=[%s]
+0x403273	0x41005c	import	0x4031d5	KERNEL32.dll.GetLastError
+0x4032be	0x411a20	string	0x4031d5	finish_uninstall(): done
+0x4032dd	0x41e0fc	string	0x4032d0	msvcrt.dll
+0x4032e2	0x41007c	import	0x4032d0	KERNEL32.dll.LoadLibraryA
+0x4032eb	0x41e108	string	0x4032d0	_except_handler3
+0x4032f4	0x410078	import	0x4032d0	KERNEL32.dll.GetProcAddress
+0x403341	0x4100b0	import	0x40331c	KERNEL32.dll.WriteFile
+0x40336c	0x4100c4	import	0x40335d	KERNEL32.dll.GetLocalTime
+0x403372	0x4100c0	import	0x40335d	KERNEL32.dll.GetCurrentThreadId
+0x403379	0x410068	import	0x40335d	KERNEL32.dll.GetCurrentProcessId
+0x40338f	0x411b24	string	0x40335d	[%02u:%02u:%02u] [%u] [%u]
+0x4033be	0x4100bc	import	0x40335d	KERNEL32.dll.CreateFileA
+0x4033ce	0x4100b8	import	0x40335d	KERNEL32.dll.OutputDebugStringA
+0x4033db	0x4100b4	import	0x40335d	KERNEL32.dll.SetFilePointer
+0x4033e8	0x41009c	import	0x40335d	KERNEL32.dll.lstrlenA
+0x40342a	0x4100b8	import	0x40335d	KERNEL32.dll.OutputDebugStringA
+0x403430	0x411b08	string	0x40335d	WriteLogFile() failed!
+0x40343d	0x410058	import	0x40335d	KERNEL32.dll.CloseHandle
+0x4034a5	0x411b50	string	0x403447	{-} %s:
+0x4034c1	0x41009c	import	0x403447	KERNEL32.dll.lstrlenA
+0x403503	0x4100c8	import	0x403447	KERNEL32.dll.FormatMessageA
+0x40353b	0x41009c	import	0x403447	KERNEL32.dll.lstrlenA
+0x403548	0x411b40	string	0x403447	: %s
+0x403579	0x41009c	import	0x403447	KERNEL32.dll.lstrlenA
+0x4035c7	0x411b5c	string	0x403593	%s:
+0x4035d9	0x41009c	import	0x403593	KERNEL32.dll.lstrlenA
+0x403654	0x411b5c	string	0x403621	%s:
+0x403670	0x41009c	import	0x403621	KERNEL32.dll.lstrlenA
+0x403697	0x4100b8	import	0x403621	KERNEL32.dll.OutputDebugStringA
+0x4036fe	0x411b50	string	0x4036a0	{-} %s:
+0x40371a	0x41009c	import	0x4036a0	KERNEL32.dll.lstrlenA
+0x40375c	0x4100c8	import	0x4036a0	KERNEL32.dll.FormatMessageA
+0x403794	0x41009c	import	0x4036a0	KERNEL32.dll.lstrlenA
+0x4037a1	0x411b40	string	0x4036a0	: %s
+0x4037d2	0x4100b8	import	0x4036a0	KERNEL32.dll.OutputDebugStringA
+0x4037e9	0x41009c	import	0x4037dd	KERNEL32.dll.lstrlenA
+0x403841	0x411b64	string	0x4037dd	%02x
+0x40387e	0x41009c	import	0x403876	KERNEL32.dll.lstrlenA
+0x40388c	0x4038a3	string	0x403876	_^[]
+0x40396d	0x411b70	string	0x40395e	abcdefghijklmnopqrstuvwxyz
+0x403997	0x41009c	import	0x40395e	KERNEL32.dll.lstrlenA
+0x4039c9	0x41009c	import	0x4039c3	KERNEL32.dll.lstrlenA
+0x403a55	0x41009c	import	0x403a46	KERNEL32.dll.lstrlenA
+0x403a88	0x41009c	import	0x403a80	KERNEL32.dll.lstrlenA
+0x403aac	0x4100d0	import	0x403a80	KERNEL32.dll.MultiByteToWideChar
+0x403ace	0x4100cc	import	0x403ab8	KERNEL32.dll.WideCharToMultiByte
+0x403ae8	0x4100d0	import	0x403ad6	KERNEL32.dll.MultiByteToWideChar
+0x403b05	0x41009c	import	0x403af0	KERNEL32.dll.lstrlenA
+0x403b22	0x403b34	string	0x403af0	_^[]
+0x403b2a	0x410094	import	0x403af0	KERNEL32.dll.lstrcatA
+0x403b42	0x41009c	import	0x403b39	KERNEL32.dll.lstrlenA
+0x403b71	0x411b8c	string	0x403b39	my_concat_strings(): out_str_size is too small
+0x403bde	0x41009c	import	0x403bd2	KERNEL32.dll.lstrlenA
+0x403c04	0x403c1a	string	0x403bd2	B@;E
+0x403c13	0x403c1a	string	0x403bd2	B@;E
+0x403c37	0x411bec	string	0x403bd2	ParseStringItems(): mem_alloc() 1 failed
+0x403cb1	0x411bbc	string	0x403bd2	ParseStringItems(): mem_alloc() failed len=%u
+0x403cf3	0x41009c	import	0x403cd4	KERNEL32.dll.lstrlenA
+0x403d32	0x4100d4	import	0x403d24	KERNEL32.dll.GetEnvironmentVariableA
+0x403d49	0x411ca8	string	0x403d24	GetEnvVarA(): GetEnvironmentVariableA('%s') failed
+0x403d4e	0x41005c	import	0x403d24	KERNEL32.dll.GetLastError
+0x403d63	0x411c7c	string	0x403d24	GetEnvVarA(): variable '%s' found, size=%u
+0x403d80	0x41005c	import	0x403d24	KERNEL32.dll.GetLastError
+0x403d89	0x411c58	string	0x403d24	GetEnvVarA(): mem_alloc() failed
+0x403d9d	0x411c18	string	0x403d24	GetEnvVarA(): GetEnvironmentVariableA('%s') dwSize=%u failed
+0x403da2	0x41005c	import	0x403d24	KERNEL32.dll.GetLastError
+0x403dd1	0x410068	import	0x403dc6	KERNEL32.dll.GetCurrentProcessId
+0x403dd9	0x4100dc	import	0x403dc6	KERNEL32.dll.GetCurrentProcess
+0x403e38	0x4100d8	import	0x403dc6	KERNEL32.dll.GetModuleFileNameA
+0x403e3e	0x411d20	string	0x403dc6	qbot_dll_main
+0x403e44	0x410090	import	0x403dc6	KERNEL32.dll.lstrcmpA
+0x403e60	0x41e120	string	0x403dc6	c:\tmp_dbg\
+0x403e65	0x411d08	string	0x403dc6	%sdbg_%s_%u_qbotdll.txt
+0x403e74	0x41e120	string	0x403dc6	c:\tmp_dbg\
+0x403e79	0x411cf8	string	0x403dc6	%sdbg_%s_%u.txt
+0x403e93	0x4100b8	import	0x403dc6	KERNEL32.dll.OutputDebugStringA
+0x403e99	0x411cec	string	0x403dc6	szLogFile=
+0x403ea3	0x411cdc	string	0x403dc6	test from low\n
+0x403ea9	0x41009c	import	0x403dc6	KERNEL32.dll.lstrlenA
+0x403f92	0x41009c	import	0x403f84	KERNEL32.dll.lstrlenA
+0x403fdc	0x411d30	string	0x403fc7	%s%u
+0x4040b2	0x411dac	string	0x40400c	force_exec(): CreateProcess("%s") success
+0x4040d2	0x411d80	string	0x40400c	force_exec(): WaitForSingleObject() failed
+0x4040d7	0x41005c	import	0x40400c	KERNEL32.dll.GetLastError
+0x4040e9	0x4100e0	import	0x40400c	KERNEL32.dll.GetExitCodeProcess
+0x4040f1	0x411d64	string	0x40400c	force_exec(): ret_code_2=%d
+0x404102	0x411d38	string	0x40400c	force_exec(): CreateProcess("%s") failed
+0x404107	0x41005c	import	0x40400c	KERNEL32.dll.GetLastError
+0x404197	0x411e70	string	0x40413b	CreateProcessDirect(): CreateProcess("%s") success
+0x4041ba	0x411e3c	string	0x40413b	CreateProcessDirect(): WaitForSingleObject() failed
+0x4041bf	0x41005c	import	0x40413b	KERNEL32.dll.GetLastError
+0x4041d1	0x4100e0	import	0x40413b	KERNEL32.dll.GetExitCodeProcess
+0x4041d9	0x411e0c	string	0x40413b	CreateProcessDirect(): process return code: %d
+0x4041ee	0x411dd8	string	0x40413b	CreateProcessDirect(): CreateProcess("%s") failed
+0x4041f3	0x41005c	import	0x40413b	KERNEL32.dll.GetLastError
+0x404211	0x411f28	string	0x404207	EnumWinProcesses(): started
+0x40422d	0x411ef0	string	0x404207	EnumWinProcesses(): CreateToolhelp32Snapshot () failed
+0x404232	0x41005c	import	0x404207	KERNEL32.dll.GetLastError
+0x404277	0x411ec8	string	0x404207	EnumWinProcesses(): Process32First()
+0x40427c	0x41005c	import	0x404207	KERNEL32.dll.GetLastError
+0x4042ac	0x41009c	import	0x404207	KERNEL32.dll.lstrlenA
+0x4042da	0x411ea4	string	0x404207	EnumWinProcesses(): Scan finished.\n
+0x40430f	0x4120c0	string	0x4042f7	createProcessForSession(): WTSQueryUserToken not resolved
+0x404333	0x41005c	import	0x4042f7	KERNEL32.dll.GetLastError
+0x40433f	0x412068	string	0x4042f7	createProcessForSession(): WTSQueryUserToken() failed err=%d sessionId=%u szCmd='%s'
+0x404364	0x412030	string	0x4042f7	createProcessForSession(): GetUserByToken() failed
+0x404369	0x41005c	import	0x4042f7	KERNEL32.dll.GetLastError
+0x40437f	0x410000	import	0x4042f7	ADVAPI32.dll.EqualSid
+0x4043aa	0x411fe8	string	0x4042f7	createProcessForSession(): creating process for session %08x szCmd='%s'
+0x4043c9	0x411fb8	string	0x4042f7	createProcessForSession(): szDesktop='%s'
+0x4043f5	0x41000c	import	0x4042f7	ADVAPI32.dll.CreateProcessAsUserA
+0x4043ff	0x411f80	string	0x4042f7	createProcessForSession(): CreateProcessAsUser() failed
+0x404404	0x41005c	import	0x4042f7	KERNEL32.dll.GetLastError
+0x404415	0x411f44	string	0x4042f7	createProcessForSession(): CreateProcessAsUser() ok pid=%u
+0x404465	0x412140	string	0x404440	AllocateAndWriteDataToProcess(): VirtualAllocEx() failed hProcess=%#p data_size=%08x
+0x40446a	0x41005c	import	0x404440	KERNEL32.dll.GetLastError
+0x404491	0x4120fc	string	0x404440	AllocateAndWriteDataToProcess(): WriteProcessMemory() failed
+0x404496	0x41005c	import	0x404440	KERNEL32.dll.GetLastError
+0x404510	0x412254	string	0x4044f0	Wow64DisableWow64FsRedirection
+0x40451b	0x410070	import	0x4044f0	KERNEL32.dll.GetModuleHandleA
+0x404522	0x410078	import	0x4044f0	KERNEL32.dll.GetProcAddress
+0x404531	0x412200	string	0x4044f0	DisableWOW64Redirection(): GetProcAddress('Wow64DisableWow64FsRedirection') failed
+0x40454e	0x4121b8	string	0x4044f0	DisableWOW64Redirection(): Wow64DisableWow64FsRedirection() failed
+0x404555	0x412198	string	0x4044f0	DisableWOW64Redirection(): ok
+0x404585	0x412334	string	0x404565	Wow64EnableWow64FsRedirection
+0x404590	0x410070	import	0x404565	KERNEL32.dll.GetModuleHandleA
+0x404597	0x410078	import	0x404565	KERNEL32.dll.GetProcAddress
+0x4045a6	0x4122e0	string	0x404565	EnableWOW64Redirection(): GetProcAddress('fWow64EnableWow64FsRedirection') failed
+0x4045c1	0x4045ca	string	0x404565	ht"A
+0x4045c3	0x412298	string	0x404565	EnableWOW64Redirection(): Wow64EnableWow64FsRedirection() failed
+0x4045ca	0x412274	string	0x404565	EnableWOW64Redirection(): ok
+0x4045e5	0x4100e8	import	0x4045da	KERNEL32.dll.CreateMutexA
+0x4045f4	0x412380	string	0x4045da	check_lock_mutex(): CreateMutex("%s") failed
+0x4045f9	0x41005c	import	0x4045da	KERNEL32.dll.GetLastError
+0x40460c	0x41005c	import	0x4045da	KERNEL32.dll.GetLastError
+0x40461c	0x412354	string	0x4045da	check_lock_mutex(): Mutex %s already exists
+0x404643	0x4100ec	import	0x404636	KERNEL32.dll.OpenMutexA
+0x404655	0x4123d8	string	0x404636	NULL
+0x40465b	0x4123b0	string	0x404636	mutex_open(): OpenMutex("%s") failed
+0x404660	0x41005c	import	0x404636	KERNEL32.dll.GetLastError
+0x404694	0x412430	string	0x404673	mutex_lock(): mutex locked with WAIT_ABANDONED hMutex=%p
+0x4046ac	0x4123e0	string	0x404673	mutex_lock(): cannot lock the mutex: hMutex=%#p dwWaitResult=%08x timeout=%u
+0x4046b1	0x41005c	import	0x404673	KERNEL32.dll.GetLastError
+0x4046cb	0x410080	import	0x4046c5	KERNEL32.dll.ReleaseMutex
+0x4046d8	0x41246c	string	0x4046c5	mutex_unlock(): Cannot unlock mutex hMutex=%p
+0x4046dd	0x41005c	import	0x4046c5	KERNEL32.dll.GetLastError
+0x404702	0x4100e8	import	0x4046f5	KERNEL32.dll.CreateMutexA
+0x404712	0x4123d8	string	0x4046f5	NULL
+0x404718	0x4124e8	string	0x4046f5	mutex_create(): CreateMutex("%s") failed
+0x40471d	0x41005c	import	0x4046f5	KERNEL32.dll.GetLastError
+0x404731	0x41005c	import	0x4046f5	KERNEL32.dll.GetLastError
+0x404744	0x4123d8	string	0x4046f5	NULL
+0x40474a	0x4124c0	string	0x4046f5	mutex_create(): Mutex %s already exists
+0x404764	0x41249c	string	0x4046f5	mutex_create(): mutex_lock() failed
+0x404790	0x410064	import	0x404783	KERNEL32.dll.OpenEventA
+0x40479f	0x41253c	string	0x404783	SignalEvent(): OpenEvent('%s') failed
+0x4047a4	0x41005c	import	0x404783	KERNEL32.dll.GetLastError
+0x4047ec	0x4125dc	string	0x4047eb	msvcrt.dll
+0x4047f1	0x41007c	import	0x4047eb	KERNEL32.dll.LoadLibraryA
+0x4047ff	0x410078	import	0x4047eb	KERNEL32.dll.GetProcAddress
+0x404805	0x4125d0	string	0x4047eb	iswlower
+0x40480d	0x41005c	import	0x4047eb	KERNEL32.dll.GetLastError
+0x40481c	0x4125a0	string	0x4047eb	InitCrt(): GetProcAddress('iswlower') failed
+0x40482b	0x412594	string	0x4047eb	_wcsicmp
+0x40483c	0x412564	string	0x4047eb	InitCrt(): GetProcAddress('_wcsicmp') failed
+0x40486f	0x410198	import	0x40484f	SHLWAPI.dll.wvnsprintfA
+0x40487f	0x41009c	import	0x40484f	KERNEL32.dll.lstrlenA
+0x4048b7	0x410198	import	0x40488f	SHLWAPI.dll.wvnsprintfA
+0x4048c7	0x41009c	import	0x40488f	KERNEL32.dll.lstrlenA
+0x4049f4	0x4049f8	string	0x4049a5	_^[]
+0x404a06	0x4100f0	import	0x4049fd	KERNEL32.dll.lstrcmpiA
+0x404a17	0x4100f4	import	0x404a0e	KERNEL32.dll.GetSystemTimeAsFileTime
+0x404a37	0x40db90	string	0x404a0e	WVS3
+0x404ad0	0x4101a4	import	0x404ab0	SHLWAPI.dll.PathCombineA
+0x404af3	0x4126a0	string	0x404ade	CreateShortcut(): pszTargetfile='%s' pszLinkfile='%s'
+0x404b14	0x4101d8	import	0x404ade	ole32.dll.CoCreateInstance
+0x404b1e	0x412674	string	0x404ade	CreateShortcut(): CoCreateInstance() failed
+0x404b23	0x41005c	import	0x404ade	KERNEL32.dll.GetLastError
+0x404b80	0x412648	string	0x404ade	CreateShortcut(): QueryInterface() failed
+0x404b85	0x41005c	import	0x404ade	KERNEL32.dll.GetLastError
+0x404bab	0x4100d0	import	0x404ade	KERNEL32.dll.MultiByteToWideChar
+0x404bc7	0x412610	string	0x404ade	CreateShortcut(): pPersistFile->lpVtbl->Save() failed
+0x404bcc	0x41005c	import	0x404ade	KERNEL32.dll.GetLastError
+0x404be5	0x4125e8	string	0x404ade	CreateShortcut(): success '%s'->'%s'
+0x404c07	0x41009c	import	0x404ade	KERNEL32.dll.lstrlenA
+0x404c66	0x410188	import	0x404c25	SHELL32.dll.SHGetFolderPathA
+0x404c96	0x4101bc	import	0x404c25	USERENV.dll.GetUserProfileDirectoryA
+0x404ca0	0x4126d8	string	0x404c25	GetRelativeCSIDLFolderPath(): GetUserProfileDirectory() failed
+0x404ca5	0x41005c	import	0x404c25	KERNEL32.dll.GetLastError
+0x404ce8	0x41009c	import	0x404c25	KERNEL32.dll.lstrlenA
+0x404d1e	0x4100a4	import	0x404d08	KERNEL32.dll.CopyFileA
+0x404d4a	0x41005c	import	0x404d08	KERNEL32.dll.GetLastError
+0x404d50	0x412800	string	0x404d08	MyMoveFile(): cannot copy %s to %s
+0x404d70	0x4127f8	string	0x404d08	%s.%06d
+0x404d9f	0x4127c8	string	0x404d08	MyMoveFile(): MoveFile() failed [%s] -> [%s]
+0x404db1	0x412798	string	0x404d08	MyMoveFile(): MoveFile() success [%s] -> [%s]
+0x404dc5	0x4100a4	import	0x404d08	KERNEL32.dll.CopyFileA
+0x404dd1	0x412770	string	0x404d08	MyMoveFile(): 2 cannot copy file %s->%s
+0x404de6	0x412740	string	0x404d08	MyMoveFile(): CopyFile() success [%s] -> [%s]
+0x404df4	0x4100f8	import	0x404d08	KERNEL32.dll.DeleteFileA
+0x404dfd	0x4100f8	import	0x404d08	KERNEL32.dll.DeleteFileA
+0x404e05	0x412718	string	0x404d08	MyMoveFile(): copy success [%s] -> [%s]
+0x404e2b	0x41288c	string	0x404e19	SetFilePermissionsQbotShared(): failed
+0x404e43	0x410014	import	0x404e19	ADVAPI32.dll.SetFileSecurityA
+0x404e4d	0x412850	string	0x404e19	SetFilePermissionsQbotShared(): SetFileSecurityA() failed
+0x404e52	0x41005c	import	0x404e19	KERNEL32.dll.GetLastError
+0x404e64	0x412824	string	0x404e19	SetFilePermissionsQbotShared(): success!
+0x404e83	0x410100	import	0x404e7c	KERNEL32.dll.GetFileAttributesA
+0x404e93	0x410fd8	string	0x404e7c	TRUE
+0x404e9c	0x410fd0	string	0x404e7c	FALSE
+0x404ea6	0x4128b4	string	0x404e7c	FileExistsA(): ===>>> szFilePath='%s' dwAttrib=%08x bRet=%s
+0x404ed3	0x4128f0	string	0x404eb8	EnumFilesRecur(): mem_alloc() failed
+0x404ed8	0x41005c	import	0x404eb8	KERNEL32.dll.GetLastError
+0x404f1f	0x41006c	import	0x404eb8	KERNEL32.dll.Sleep
+0x404f85	0x410190	import	0x404eb8	SHLWAPI.dll.PathMatchSpecA
+0x405055	0x410084	import	0x405043	KERNEL32.dll.CreateEventW
+0x405064	0x410104	import	0x405043	KERNEL32.dll.WaitForSingleObject
+0x40507a	0x410058	import	0x405043	KERNEL32.dll.CloseHandle
+0x4050f3	0x4100d0	import	0x405043	KERNEL32.dll.MultiByteToWideChar
+0x40523b	0x410070	import	0x405226	KERNEL32.dll.GetModuleHandleA
+0x405245	0x416df8	string	0x405226	ResolveProcs(): GetModuleHandle() failed!
+0x40524a	0x41005c	import	0x405226	KERNEL32.dll.GetLastError
+0x40527c	0x410078	import	0x405226	KERNEL32.dll.GetProcAddress
+0x4052c3	0x41007c	import	0x405226	KERNEL32.dll.LoadLibraryA
+0x4052da	0x416db0	string	0x405226	ResolveProcs(): LoadLibrary('%s') failed procs_def[i].dll_const_ind=%u
+0x4052df	0x41005c	import	0x405226	KERNEL32.dll.GetLastError
+0x405311	0x416d68	string	0x405226	ResolveProcs(): new cache entry: dll='%s' hDll=%#p dwModulesCount=%u
+0x405358	0x416cf0	string	0x405226	ResolveProcs(): ffGetProcAddress('%s') procs_def[i].proc_const_ind=%u dll='%s' procs_def[i].dll_const_ind=%u failed
+0x40535d	0x41005c	import	0x405226	KERNEL32.dll.GetLastError
+0x40539f	0x410070	import	0x405390	KERNEL32.dll.GetModuleHandleA
+0x4053a6	0x410078	import	0x405390	KERNEL32.dll.GetProcAddress
+0x4053c1	0x416e28	string	0x405390	ResolveSystemProcs(): GetProcAddress() failed CS[KERNEL32_DLL]='%s' CS[GET_MODULE_HANDLE]=%s
+0x4053c6	0x41005c	import	0x405390	KERNEL32.dll.GetLastError
+0x4053fc	0x410108	import	0x4053f0	KERNEL32.dll.HeapCreate
+0x405421	0x41010c	import	0x405410	KERNEL32.dll.HeapAlloc
+0x405457	0x41009c	import	0x405440	KERNEL32.dll.lstrlenA
+0x405499	0x410110	import	0x405440	KERNEL32.dll.HeapFree
+0x4056f0	0x416ed8	string	0x4056dc	PrepareLocalData(): mem_alloc() failed
+0x4056f5	0x41005c	import	0x4056dc	KERNEL32.dll.GetLastError
+0x40570f	0x416ecc	string	0x4056dc	ntdll.dll
+0x405723	0x416ebc	string	0x4056dc	kernel32.dll
+0x405735	0x416eac	string	0x4056dc	LoadLibraryA
+0x405748	0x416e9c	string	0x4056dc	GetProcAddress
+0x40575b	0x416e88	string	0x4056dc	GetModuleHandleA
+0x405797	0x4171ac	string	0x40577d	PreparePEImage(): pDosHeader->e_magic bad signature
+0x4057b9	0x417174	string	0x40577d	PreparePEImage(): pPeHeader32->Signature bad signature
+0x4057e2	0x4170f8	string	0x40577d	PreparePEImage(): PeHeader.FileHeader.Machine=IMAGE_FILE_MACHINE_I386 pPeHeader32->OptionalHeader.Magic=%04x ImageBase=%#p
+0x4057f9	0x40582f	string	0x40577d	PhHpA
+0x405818	0x417078	string	0x40577d	PreparePEImage(): PeHeader.FileHeader.Machine=IMAGE_FILE_MACHINE_AMD64 pPeHeader64->OptionalHeader.Magic=%04x ImageBase=%016llx
+0x405830	0x417048	string	0x40577d	PreparePEImage(): OptionalHeader.SizeOfImage=%u
+0x405851	0x410114	import	0x40577d	KERNEL32.dll.VirtualAlloc
+0x405861	0x417014	string	0x40577d	PreparePEImage(): VirtualAlloc() %u bytes failed
+0x405866	0x41005c	import	0x40577d	KERNEL32.dll.GetLastError
+0x405872	0x416fe8	string	0x40577d	PreparePEImage(): VirtualAlloc() success!
+0x40588c	0x416fb8	string	0x40577d	PreparePEImage(): mem_alloc() %u bytes failed
+0x405893	0x416f90	string	0x40577d	PreparePEImage(): MemAlloc() success!
+0x405934	0x416f48	string	0x40577d	PreparePEImage(): (pEndOfImage - (LONG_PTR)file_buf)=%u dwFileBufLen=%u
+0x405947	0x416f00	string	0x40577d	PreparePEImage(): unsupported pPeHeader->FileHeader.Machine: %04x
+0x405982	0x417204	string	0x40595d	EncryptPEImage(): mem_alloc() failed %u bytes
+0x405987	0x41005c	import	0x40595d	KERNEL32.dll.GetLastError
+0x4059d1	0x4171e0	string	0x40595d	EncryptPEImage(): pe_image_len=%u
+0x405a02	0x4172f4	string	0x4059e5	HideLoadLibraryPrepare(): pSrcShellcode is NULL
+0x405a67	0x410118	import	0x4059e5	KERNEL32.dll.GetProcessId
+0x405a74	0x4172ec	string	0x4059e5	%u%u
+0x405aa4	0x4172b4	string	0x4059e5	HideLoadLibraryPrepare(): pLocalData->szRunMutex='%s'
+0x405b2e	0x417294	string	0x4059e5	HideLoadLibraryPrepare() failed
+0x405b9c	0x417238	string	0x4059e5	HideLoadLibraryPrepare(): rpRemoteImage=%#p rpRemoteShellcode=%#p rpRemoteShellcodeData=%#p
+0x405c54	0x4173a0	string	0x405be0	HideLoadLibrary32(): CreateRemoteThread() failed
+0x405c59	0x41005c	import	0x405be0	KERNEL32.dll.GetLastError
+0x405c65	0x417374	string	0x405be0	HideLoadLibrary32(): failed, free memory
+0x405caa	0x41005c	import	0x405be0	KERNEL32.dll.GetLastError
+0x405cb5	0x417328	string	0x405be0	HideLoadLibrary32(): done ok! dwThreadId=%u hThread=%#p GetLastError()=%u
+0x405cc3	0x410058	import	0x405be0	KERNEL32.dll.CloseHandle
+0x405d39	0x417420	string	0x405cd1	HideLoadLibrary64(): CreateRemoteThreadWow64tox64() failed
+0x405d3e	0x41005c	import	0x405cd1	KERNEL32.dll.GetLastError
+0x405d4a	0x4173f4	string	0x405cd1	HideLoadLibrary64(): failed, free memory
+0x405d90	0x4173d4	string	0x405cd1	HideLoadLibrary64(): done ok!
+0x405e3a	0x417460	string	0x405da2	_LoadDllImage(): DllMainProc=%#p pNtHeaders->OptionalHeader.AddressOfEntryPoint=%#p lpImageBase=%#p
+0x405f11	0x417524	string	0x405ef7	LoadDllInMem(): PreparePEImage() failed
+0x405f27	0x4174f0	string	0x405ef7	LoadDllInMem(): pPeImage=%#p dwDllFileDataLen=%u
+0x405f3e	0x4174c4	string	0x405ef7	LoadDllInMem(): _LoadDllImage() done ret=%d
+0x405f5e	0x41011c	import	0x405f50	KERNEL32.dll.GetCurrentThread
+0x405f65	0x41003c	import	0x405f50	ADVAPI32.dll.OpenThreadToken
+0x405f6f	0x41005c	import	0x405f50	KERNEL32.dll.GetLastError
+0x405f85	0x4100dc	import	0x405f50	KERNEL32.dll.GetCurrentProcess
+0x405f8c	0x410018	import	0x405f50	ADVAPI32.dll.OpenProcessToken
+0x405f96	0x417580	string	0x405f50	GetCurrentThreadToken(): OpenProcessToken() failed\n
+0x405fa9	0x41754c	string	0x405f50	GetCurrentThreadToken(): OpenThreadToken() failed\n
+0x405fbd	0x410038	import	0x405fb6	ADVAPI32.dll.GetTokenInformation
+0x405fd7	0x41005c	import	0x405fb6	KERNEL32.dll.GetLastError
+0x405ffb	0x41762c	string	0x405fb6	GetTokenInformationData(): mem_alloc() %d bytes failed
+0x406022	0x4175f0	string	0x405fb6	GetTokenInformationData(): GetTokenInformation() 1 failed
+0x406044	0x4175b4	string	0x405fb6	GetTokenInformationData(): GetTokenInformation() 2 failed
+0x40608d	0x410018	import	0x406076	ADVAPI32.dll.OpenProcessToken
+0x40609a	0x4176a8	string	0x406076	GetProcessOwnerToken(): OpenProcessToken(): failed hProcess=%#p
+0x40609f	0x41005c	import	0x406076	KERNEL32.dll.GetLastError
+0x4060c3	0x417664	string	0x406076	GetProcessOwnerToken(): GetUserByToken() failed hProcess=%#p
+0x40615a	0x4176e8	string	0x4060f5	AllocateAndInitializeSid() failed\n
+0x40615f	0x41005c	import	0x4060f5	KERNEL32.dll.GetLastError
+0x406183	0x410000	import	0x4060f5	ADVAPI32.dll.EqualSid
+0x4061f5	0x41770c	string	0x4061c7	IsUserNTSystem(): AllocateAndInitializeSid() failed\n
+0x4061fa	0x41005c	import	0x4061c7	KERNEL32.dll.GetLastError
+0x406213	0x410000	import	0x4061c7	ADVAPI32.dll.EqualSid
+0x40623f	0x410018	import	0x406229	ADVAPI32.dll.OpenProcessToken
+0x406249	0x417820	string	0x406229	GetProcessIntegrityLevel(): OpenProcessToken() failed
+0x40624e	0x41005c	import	0x406229	KERNEL32.dll.GetLastError
+0x40627b	0x4177e0	string	0x406229	GetProcessIntegrityLevel(): GetTokenInformationData() failed
+0x406290	0x410030	import	0x406229	ADVAPI32.dll.GetSidSubAuthorityCount
+0x40629a	0x406304	string	0x406229	hDwA
+0x40629f	0x406304	string	0x406229	hDwA
+0x4062b7	0x41009c	import	0x406229	KERNEL32.dll.lstrlenA
+0x4062c7	0x410034	import	0x406229	ADVAPI32.dll.GetSidSubAuthority
+0x4062d4	0x4177a8	string	0x406229	GetProcessIntegrityLevel(): GetSidSubAuthority() failed
+0x4062dd	0x417784	string	0x406229	GetProcessIntegrityLevel(): %08x
+0x406304	0x417744	string	0x406229	GetProcessIntegrityLevel(): GetSidSubAuthorityCount() failed
+0x406309	0x41005c	import	0x406229	KERNEL32.dll.GetLastError
+0x40632e	0x410058	import	0x406229	KERNEL32.dll.CloseHandle
+0x40638c	0x41009c	import	0x406339	KERNEL32.dll.lstrlenA
+0x4063ad	0x417a10	string	0x406339	CreateSecurityDescriptorQbotShared(): AllocateAndInitializeSid() pEveryoneSID failed
+0x40640d	0x4179b8	string	0x406339	CreateSecurityDescriptorQbotShared(): AllocateAndInitializeSid() pAllAppsSID failed
+0x40641a	0x417980	string	0x406339	CreateSecurityDescriptorQbotShared(): pAllAppsSID=%#p
+0x406449	0x41794c	string	0x406339	CreateSecurityDescriptorQbotShared(): dwSidCount=%u
+0x40646b	0x41790c	string	0x406339	CreateSecurityDescriptorQbotShared(): SetEntriesInAcl() failed
+0x406476	0x410120	import	0x406339	KERNEL32.dll.LocalAlloc
+0x406485	0x4178d0	string	0x406339	CreateSecurityDescriptorQbotShared(): LocalAlloc() failed
+0x40648f	0x410028	import	0x406339	ADVAPI32.dll.InitializeSecurityDescriptor
+0x4064a0	0x41002c	import	0x406339	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x4064aa	0x417888	string	0x406339	CreateSecurityDescriptorQbotShared(): SetSecurityDescriptorDac() failed
+0x4064af	0x41005c	import	0x406339	KERNEL32.dll.GetLastError
+0x4064fa	0x417858	string	0x406339	CreateSecurityDescriptorQbotShared(): success
+0x406534	0x417bd0	string	0x406523	GetResData(): g_CoreData.dwVirtualMachineFlag=%u
+0x406575	0x41012c	import	0x406523	KERNEL32.dll.FindResourceA
+0x40658b	0x417b94	string	0x406523	GetResData(): FindResource() failed res_id='%s' hMod=%#p
+0x406590	0x41005c	import	0x406523	KERNEL32.dll.GetLastError
+0x4065b2	0x410128	import	0x406523	KERNEL32.dll.SizeofResource
+0x4065bc	0x417b6c	string	0x406523	GetResData(): resource_size=%d hMod=%#p
+0x4065cb	0x410124	import	0x406523	KERNEL32.dll.LoadResource
+0x4065d8	0x417b38	string	0x406523	GetResData(): LoadResource() failed file_size=%u
+0x4065dd	0x41005c	import	0x406523	KERNEL32.dll.GetLastError
+0x406625	0x417b00	string	0x406523	GetResData(): cannot decrypt resourse '%s' file_size=%u
+0x406650	0x417ac8	string	0x406523	GetResData(): file_size=%u (decrypted and decompressed)
+0x406670	0x417a98	string	0x406523	GetResData(): mem_alloc() %u bytes failed '%s'
+0x406675	0x41005c	import	0x406523	KERNEL32.dll.GetLastError
+0x40674d	0x417c30	string	0x40670e	UnpackQbotDll(): GetResData() failed res='%s' err=%d g_CoreData.hModule=%08x
+0x40676c	0x417c04	string	0x40670e	UnpackQbotDll(): GetResData() ok dwSize=%u
+0x4067d6	0x4100e8	import	0x4067c0	KERNEL32.dll.CreateMutexA
+0x4067ea	0x417c80	string	0x4067c0	init_vars(): CreateMutex() hConfVarsMutex failed
+0x4067ef	0x41005c	import	0x4067c0	KERNEL32.dll.GetLastError
+0x406837	0x417cb4	string	0x406810	lock_vars(): cannot lock hConfVarsMutex
+0x40688f	0x41009c	import	0x406870	KERNEL32.dll.lstrlenA
+0x4068ae	0x417d98	string	0x406870	set_var2(): cannot lock vars wVarName=%u
+0x4068d1	0x41009c	import	0x406870	KERNEL32.dll.lstrlenA
+0x40694a	0x417d7c	string	0x406870	set_var2(): var deleted: %u
+0x406a0f	0x417d40	string	0x406870	set_var2(): Cannot allocate %d bytes for szVarValue "%s"
+0x406a14	0x41005c	import	0x406870	KERNEL32.dll.GetLastError
+0x406a89	0x417d10	string	0x406870	set_var2(): var updated: %u='%s' wFlags=%04x
+0x406b15	0x417d40	string	0x406870	set_var2(): Cannot allocate %d bytes for szVarValue "%s"
+0x406b1a	0x41005c	import	0x406870	KERNEL32.dll.GetLastError
+0x406b80	0x417cdc	string	0x406870	set_var2(): new var created: %u='%s' wFlags=%04x
+0x406c72	0x41009c	import	0x406c50	KERNEL32.dll.lstrlenA
+0x406ca0	0x41009c	import	0x406c50	KERNEL32.dll.lstrlenA
+0x406d48	0x417e88	string	0x406cd0	save_conf(): sxor2_open(%s) failed
+0x406d4d	0x41005c	import	0x406cd0	KERNEL32.dll.GetLastError
+0x406db9	0x417e4c	string	0x406cd0	save_conf(): ===>>> skip embedded: var_list[%u].wName=%u
+0x406dfa	0x417e18	string	0x406cd0	save_conf(): ===>>> saving: var_list[%u].wName=%u
+0x406e4f	0x417dec	string	0x406cd0	save_conf(): sxor2_close() failed ret=%d
+0x406e54	0x41005c	import	0x406cd0	KERNEL32.dll.GetLastError
+0x406e6c	0x417dcc	string	0x406cd0	save_conf(): complete ret=%d
+0x406ea3	0x417eac	string	0x406e80	load_conf_mem(): sxor2_open_from_mem() failed
+0x406ee9	0x417f44	string	0x406ed0	_load_conf() do lock conf file...
+0x406f1d	0x417f04	string	0x406ed0	===>>> _load_conf(): sxor2_parse_strings() done: ctx->str_i=%d
+0x406fd7	0x417edc	string	0x406ed0	_load_conf(): bad variable name: '%s'
+0x40704c	0x417f8c	string	0x407030	load_conf(): file_name='%s'
+0x40707a	0x417f68	string	0x407030	load_conf(): sxor2_open(%s) failed
+0x40716d	0x417fa8	string	0x407140	SaveTimeVariable(): szVar=%u now_time_str='%s'
+0x40736b	0x4100f0	import	0x407336	KERNEL32.dll.lstrcmpiA
+0x4073aa	0x41006c	import	0x407336	KERNEL32.dll.Sleep
+0x4075ac	0x418054	string	0x4073b7	DetectAVInstalled(): No antivirus detected
+0x4075bb	0x418028	string	0x4073b7	DetectAVInstalled(): antivirus found: %08x
+0x407600	0x4100dc	import	0x4075eb	KERNEL32.dll.GetCurrentProcess
+0x40762b	0x410130	import	0x407612	KERNEL32.dll.GetSystemInfo
+0x40763e	0x4180e0	string	0x407612	GetOsPlatform(): PROCESSOR_ARCHITECTURE_AMD64 (x64)
+0x40764f	0x4180ac	string	0x407612	GetOsPlatform(): PROCESSOR_ARCHITECTURE_INTEL (x86)
+0x40765a	0x418080	string	0x407612	GetOsPlatform(): strange platform id: %04x
+0x40766d	0x4100dc	import	0x40766c	KERNEL32.dll.GetCurrentProcess
+0x40767a	0x418160	string	0x40766c	ReinitCoreData(): g_CoreData.user.pToken=%#p
+0x40768c	0x418150	string	0x40766c	IsWow64Process
+0x407691	0x418144	string	0x40766c	kernel32
+0x407696	0x410070	import	0x40766c	KERNEL32.dll.GetModuleHandleA
+0x40769d	0x410078	import	0x40766c	KERNEL32.dll.GetProcAddress
+0x4076b5	0x4100d8	import	0x40766c	KERNEL32.dll.GetModuleFileNameA
+0x4076bf	0x418114	string	0x40766c	ReinitCoreData(): GetModuleFileName() failed
+0x4076c4	0x41005c	import	0x40766c	KERNEL32.dll.GetLastError
+0x407708	0x410134	import	0x40766c	KERNEL32.dll.GetVersionExA
+0x407731	0x418568	string	0x407710	InitCoreData(): szQbotinjExePath='%s' sizeof(g_CoreData.szQbotinjExePath)=%u
+0x407751	0x410068	import	0x407710	KERNEL32.dll.GetCurrentProcessId
+0x407761	0x410140	import	0x407710	KERNEL32.dll.GetTickCount
+0x407781	0x4100d8	import	0x407710	KERNEL32.dll.GetModuleFileNameA
+0x407789	0x41009c	import	0x407710	KERNEL32.dll.lstrlenA
+0x407793	0x41853c	string	0x407710	InitCoreData(): GetModuleFileName() failed
+0x407798	0x41005c	import	0x407710	KERNEL32.dll.GetLastError
+0x4077ce	0x4100dc	import	0x407710	KERNEL32.dll.GetCurrentProcess
+0x4077f0	0x41850c	string	0x407710	InitCoreData(): dwUserType=%u CURUSER_SYSTEM
+0x407804	0x4184e0	string	0x407710	InitCoreData(): dwUserType=%u CURUSER_ADMIN
+0x40780f	0x4184b4	string	0x407710	InitCoreData(): dwUserType=%u CURUSER_USER
+0x40785d	0x418488	string	0x407710	InitCoreData(): LookupAccountSid() failed
+0x407862	0x41005c	import	0x407710	KERNEL32.dll.GetLastError
+0x40788a	0x4078bc	string	0x407710	j j\h
+0x4078a0	0x418450	string	0x407710	InitCoreData(): ===>>> g_CoreData.szQbotinjExePath='%s'
+0x4078ad	0x4078bc	string	0x407710	j j\h
+0x407977	0x4100dc	import	0x407710	KERNEL32.dll.GetCurrentProcess
+0x407987	0x418424	string	0x407710	InitCoreData(): dwProcessIntegrityLevel=%#p
+0x4079d0	0x410134	import	0x407710	KERNEL32.dll.GetVersionExA
+0x4079d6	0x418150	string	0x407710	IsWow64Process
+0x4079db	0x418144	string	0x407710	kernel32
+0x4079e0	0x410070	import	0x407710	KERNEL32.dll.GetModuleHandleA
+0x4079e7	0x410078	import	0x407710	KERNEL32.dll.GetProcAddress
+0x407a14	0x418400	string	0x407710	InitCoreData(): OS version %u.%u
+0x407a2c	0x41013c	import	0x407710	KERNEL32.dll.GetWindowsDirectoryA
+0x407a36	0x4183c8	string	0x407710	InitCoreData(): ===>>> GetWindowsDirectoryA() failed
+0x407a3b	0x41005c	import	0x407710	KERNEL32.dll.GetLastError
+0x407a4a	0x4183a8	string	0x407710	InitCoreData(): windir: '%s'
+0x407a62	0x41839c	string	0x407710	SystemRoot
+0x407a67	0x4100d4	import	0x407710	KERNEL32.dll.GetEnvironmentVariableA
+0x407a71	0x41835c	string	0x407710	InitCoreData(): GetEnvironmentVariable('SystemRoot'): failed
+0x407a7d	0x41839c	string	0x407710	SystemRoot
+0x407a82	0x410138	import	0x407710	KERNEL32.dll.SetEnvironmentVariableA
+0x407a98	0x4100d4	import	0x407710	KERNEL32.dll.GetEnvironmentVariableA
+0x407aa8	0x418324	string	0x407710	InitCoreData(): GetEnvironmentVariable('%s'): failed
+0x407ab4	0x41831c	string	0x407710	TEMP
+0x407adc	0x410138	import	0x407710	KERNEL32.dll.SetEnvironmentVariableA
+0x407af2	0x4100d4	import	0x407710	KERNEL32.dll.GetEnvironmentVariableA
+0x407b02	0x418324	string	0x407710	InitCoreData(): GetEnvironmentVariable('%s'): failed
+0x407b0e	0x41831c	string	0x407710	TEMP
+0x407b33	0x410138	import	0x407710	KERNEL32.dll.SetEnvironmentVariableA
+0x407b3f	0x418310	string	0x407710	SystemDrive
+0x407b44	0x4100d4	import	0x407710	KERNEL32.dll.GetEnvironmentVariableA
+0x407b4e	0x4182d0	string	0x407710	InitCoreData(): GetEnvironmentVariable('SystemDrive'): failed
+0x407b75	0x418310	string	0x407710	SystemDrive
+0x407b7a	0x410138	import	0x407710	KERNEL32.dll.SetEnvironmentVariableA
+0x407b94	0x41829c	string	0x407710	InitCoreData(): ConvertSidToStringSidA() failed
+0x407b99	0x41005c	import	0x407710	KERNEL32.dll.GetLastError
+0x407ba5	0x407bb4	string	0x407710	YYVh
+0x407baa	0x418264	string	0x407710	InitCoreData(): ConvertSidToStringSidA() ok. szSid='%s'
+0x407bd3	0x4181e0	string	0x407710	InitCoreData(): szSid='%s' szUserName='%s' szDomainName=%s szQbotinjExe=%s szHomeDir='%s' szVarsMutex='%s' szBaseRandomName='%s'
+0x407c18	0x4181b4	string	0x407710	InitCoreData(): g_CoreData.bCommonCryptKey:
+0x407c39	0x418190	string	0x407710	InitCoreData(): szSeclogMutex='%s'
+0x407cca	0x4100f0	import	0x407c70	KERNEL32.dll.lstrcmpiA
+0x407cd4	0x4185b8	string	0x407c70	DetectVMCpuid(): detected!
+0x407dbd	0x4185d4	string	0x407d50	VmwareBackdoreMemsize(): memsize=%u
+0x407ec6	0x410178	import	0x407e00	SETUPAPI.dll.SetupDiGetClassDevsA
+0x407f02	0x41017c	import	0x407e00	SETUPAPI.dll.SetupDiEnumDeviceInfo
+0x407f85	0x41019c	import	0x407e00	SHLWAPI.dll.StrStrIA
+0x407f96	0x418628	string	0x407e00	DetectVMHardware(): found: SPDRP_DEVICEDESC: %s
+0x40801d	0x41019c	import	0x407e00	SHLWAPI.dll.StrStrIA
+0x40802e	0x4185f8	string	0x407e00	DetectVMHardware(): found: SPDRP_SERVICE: %s
+0x408070	0x410170	import	0x407e00	SETUPAPI.dll.SetupDiDestroyDeviceInfoList
+0x4080b7	0x410174	import	0x408080	SETUPAPI.dll.SetupDiGetDeviceRegistryPropertyA
+0x4080c1	0x41005c	import	0x408080	KERNEL32.dll.GetLastError
+0x408175	0x410068	import	0x408130	KERNEL32.dll.GetCurrentProcessId
+0x408213	0x41019c	import	0x408130	SHLWAPI.dll.StrStrIA
+0x408224	0x418658	string	0x408130	DetectVMProcesses(): found: %s
+0x40826b	0x410058	import	0x408130	KERNEL32.dll.CloseHandle
+0x4082a7	0x410068	import	0x408280	KERNEL32.dll.GetCurrentProcessId
+0x408358	0x418678	string	0x408280	DetectVMExceptions(): found: %s
+0x40839f	0x410058	import	0x408280	KERNEL32.dll.CloseHandle
+0x4083e8	0x410068	import	0x4083b0	KERNEL32.dll.GetCurrentProcessId
+0x40847d	0x41019c	import	0x4083b0	SHLWAPI.dll.StrStrIA
+0x40848e	0x418698	string	0x4083b0	DetectVMHandles(): found: %s
+0x4084cf	0x410058	import	0x4083b0	KERNEL32.dll.CloseHandle
+0x408513	0x410070	import	0x4084e0	KERNEL32.dll.GetModuleHandleA
+0x40851a	0x4100d8	import	0x4084e0	KERNEL32.dll.GetModuleFileNameA
+0x40855d	0x41019c	import	0x4084e0	SHLWAPI.dll.StrStrIA
+0x408567	0x4186b8	string	0x4084e0	DetectVMFiles(): found
+0x4085fa	0x4186d0	string	0x408590	vmdetect(): LongInstructionTest(): detected!
+0x40868e	0x4186d0	string	0x408620	vmdetect(): LongInstructionTest(): detected!
+0x4086b6	0x418790	string	0x4086b0	DetectVirtualMachines() started
+0x40872f	0x41876c	string	0x4086b0	DetectVirtualMachines(): VM found!
+0x408750	0x418728	string	0x4086b0	DetectVirtualMachines(): found debug file '%s', continue running
+0x4087b2	0x418700	string	0x4086b0	DetectVirtualMachines(): VM not found
+0x408857	0x4187b0	string	0x4087d0	VmwareBackdoreVersion(): detected b=%u
+0x4088e6	0x418858	string	0x408880	DetectVirtualMachinesTest(): szCmd='%s'
+0x408925	0x41882c	string	0x408880	DetectVirtualMachinesTest(): dwChildRet=%d
+0x40893b	0x418804	string	0x408880	DetectVirtualMachinesTest(): detected!
+0x408951	0x4187d8	string	0x408880	DetectVirtualMachinesTest(): test failed
+0x408978	0x410070	import	0x408966	KERNEL32.dll.GetModuleHandleA
+0x4089b3	0x410078	import	0x408966	KERNEL32.dll.GetProcAddress
+0x408aed	0x4188e4	string	0x408aa3	InjectMeToProcess(): file is not valid PE
+0x408b16	0x4100dc	import	0x408aa3	KERNEL32.dll.GetCurrentProcess
+0x408b5b	0x4188b4	string	0x408aa3	InjectMeToProcess(): NtCreateSection() failed
+0x408b72	0x4100dc	import	0x408aa3	KERNEL32.dll.GetCurrentProcess
+0x408b86	0x418880	string	0x408aa3	InjectMeToProcess(): NtMapViewOfSection() failed
+0x408be6	0x418938	string	0x408aa3	Qbot inject
+0x408beb	0x418924	string	0x408aa3	Inject works ok!
+0x408bf2	0x4101b0	import	0x408aa3	USER32.dll.MessageBoxA
+0x408c12	0x418910	string	0x408aa3	RemoteMain(): ok!
+0x408cdc	0x41897c	string	0x408c22	StartTrustedExeSuspended(): CreateProcessA('%s'): failed
+0x408ce1	0x41005c	import	0x408c22	KERNEL32.dll.GetLastError
+0x408cf5	0x418944	string	0x408c22	StartTrustedExeSuspended(): CreateProcess('%s') success
+0x408d16	0x41009c	import	0x408c22	KERNEL32.dll.lstrlenA
+0x408d4d	0x418ad8	string	0x408d38	RunMeInTrustedExePrepare(): ResolveNativeApis() failed
+0x408d52	0x41005c	import	0x408d38	KERNEL32.dll.GetLastError
+0x408dab	0x410144	import	0x408d38	KERNEL32.dll.GetThreadContext
+0x408db5	0x418aa0	string	0x408d38	RunMeInTrustedExePrepare(): GetThreadContext() failed
+0x408dba	0x41005c	import	0x408d38	KERNEL32.dll.GetLastError
+0x408ddb	0x418a28	string	0x408d38	RunMeInTrustedExePrepare(): ThreadContext.Eax=%08x ThreadContext.Eip=%08x BaseAddressRemote=%#p pCurrentModuleBase=%#p
+0x408dfb	0x408be4	string	0x408d38	j@h8
+0x408e34	0x418a00	string	0x408d38	RunMeInTrustedExePrepare(): new_ep=%#p
+0x408e44	0x4189b8	string	0x408d38	RunMeInTrustedExePrepare(): Injection Succesful ThreadContext.Eax=%08x
+0x408e65	0x4100e4	import	0x408e58	KERNEL32.dll.ResumeThread
+0x408e6f	0x418b10	string	0x408e58	RunMeInTrustedExeGo(): ResumeThread(): failed
+0x408e74	0x41005c	import	0x408e58	KERNEL32.dll.GetLastError
+0x408ec2	0x410058	import	0x408e89	KERNEL32.dll.CloseHandle
+0x408eea	0x4101b0	import	0x408edb	USER32.dll.MessageBoxA
+0x408f08	0x41014c	import	0x408ef6	KERNEL32.dll.CreateThread
+0x408f14	0x410104	import	0x408ef6	KERNEL32.dll.WaitForSingleObject
+0x408f24	0x410148	import	0x408ef6	KERNEL32.dll.TerminateThread
+0x408f2d	0x408f31	string	0x408ef6	^]áT\fB blocks=Basic Latin,Latin-1 Supplement
+0x408f85	0x410070	import	0x408f75	KERNEL32.dll.GetModuleHandleA
+0x408fa1	0x418b4c	string	0x408f75	IsAvastBehaviorOn() on!
+0x408fba	0x418b90	string	0x408fb1	AvMSDisableSpyNet(): started
+0x409024	0x418b64	string	0x408fb1	AvMSDisableSpyNet(): processing szKey='%s'
+0x40908f	0x418bb0	string	0x409086	AvMSAntimalwareAddExceptionDir(): started
+0x409114	0x410070	import	0x40910c	KERNEL32.dll.GetModuleHandleA
+0x40911d	0x418ec0	string	0x40910c	NtQuerySystemInformation
+0x409122	0x416ecc	string	0x40910c	ntdll.dll
+0x409140	0x410078	import	0x40910c	KERNEL32.dll.GetProcAddress
+0x409149	0x418eac	string	0x40910c	NtDuplicateObject
+0x409157	0x418e9c	string	0x40910c	NtQueryObject
+0x40918d	0x4100a0	import	0x40910c	KERNEL32.dll.OpenProcess
+0x4091a0	0x418e68	string	0x40910c	FindHandlesByMask(): OpenProcess() failed dwPid=%u
+0x4091a5	0x41005c	import	0x40910c	KERNEL32.dll.GetLastError
+0x4091ca	0x4091e2	string	0x40910c	SVPj
+0x4091cc	0x418e3c	string	0x40910c	FindHandlesByMask(): mem_alloc() failed
+0x4091d1	0x41005c	import	0x40910c	KERNEL32.dll.GetLastError
+0x40921e	0x418e04	string	0x40910c	FindHandlesByMask(): NtQuerySystemInformation() failed
+0x409225	0x418dd8	string	0x40910c	FindHandlesByMask(): mem_realloc() failed
+0x40923f	0x418da0	string	0x40910c	FindHandlesByMask(): mem_alloc() objectTypeInfo failed
+0x409254	0x418d68	string	0x40910c	FindHandlesByMask(): mem_alloc() objectNameInfo failed
+0x409261	0x41009c	import	0x40910c	KERNEL32.dll.lstrlenA
+0x40927b	0x418d30	string	0x40910c	FindHandlesByMask(): mem_alloc() wszFileNameMask failed
+0x4092cf	0x4100dc	import	0x40910c	KERNEL32.dll.GetCurrentProcess
+0x409308	0x418d04	string	0x40910c	FindHandlesByMask(): NtQueryObject() failed
+0x40930d	0x41005c	import	0x40910c	KERNEL32.dll.GetLastError
+0x409323	0x418cf8	string	0x40910c	File
+0x409344	0x418cc4	string	0x40910c	FindHandlesByMask(): handle %08x - did not get name
+0x40936f	0x418c90	string	0x40910c	FindHandlesByMask(): NtQueryObject() %08x failed
+0x409374	0x41005c	import	0x40910c	KERNEL32.dll.GetLastError
+0x4093a6	0x418c68	string	0x40910c	FindHandlesByMask(): %08x %.*S: '%.*S'
+0x4093b7	0x4101a0	import	0x40910c	SHLWAPI.dll.StrStrIW
+0x4093c4	0x410058	import	0x40910c	KERNEL32.dll.CloseHandle
+0x4093e2	0x418c30	string	0x40910c	FindHandlesByMask(): no handles with mask '%s' found
+0x40941c	0x410058	import	0x40910c	KERNEL32.dll.CloseHandle
+0x409428	0x418c08	string	0x40910c	FindHandlesByMask(): handle found! '%S'
+0x40943b	0x418bdc	string	0x40910c	FindHandlesByMask(): cannot resolve nt api
+0x40948e	0x418f50	string	0x40945c	RegistryReadStrValue(): RegOpenKeyEx() failed: szKeyPath='%s'
+0x4094d0	0x418f14	string	0x40945c	RegistryReadStrValue(): mem_alloc() failed: dwDataLen=%u
+0x4094f2	0x418edc	string	0x40945c	RegistryReadStrValue(): RegQueryValueEx() '%s' failed
+0x40959c	0x41009c	import	0x40953f	KERNEL32.dll.lstrlenA
+0x4095cd	0x41009c	import	0x40953f	KERNEL32.dll.lstrlenA
+0x40960b	0x4191cc	string	0x40953f	RegistrySetValue(): mem_alloc() failed
+0x409610	0x41005c	import	0x40953f	KERNEL32.dll.GetLastError
+0x409620	0x40964a	string	0x40953f	X[_^
+0x409623	0x4191bc	string	0x40953f	%s\system32\
+0x409639	0x419188	string	0x40953f	RegistrySetValue(): mycrt_snprintfA() returned l=%d
+0x409826	0x41009c	import	0x409820	KERNEL32.dll.lstrlenA
+0x409884	0x4191f4	string	0x409846	gen_crypt_key(): key_len=%d
+0x4098a9	0x41009c	import	0x409898	KERNEL32.dll.lstrlenA
+0x4098c5	0x419210	string	0x409898	build_key_from_pass(): ok pass='%s'
+0x409a4d	0x419280	string	0x409a3d	sxor2_write(): write operaton on readonly file
+0x409aa7	0x419260	string	0x409a3d	sxor2_write(): mem_alloc failed
+0x409aac	0x41005c	import	0x409a3d	KERNEL32.dll.GetLastError
+0x409abd	0x409b16	string	0x409a3d	_[^]
+0x409b30	0x4192dc	string	0x409b1b	sxor3_decrypt(): dwSrcBufLen=%u dwKeyLen=%u
+0x409b89	0x4192b0	string	0x409b1b	sxor3_decrypt() sha1 check value not match
+0x409c22	0x4193e8	string	0x409bae	sxor3_encrypt_data_to_file(): CreateFile() [%s] failed
+0x409c27	0x41005c	import	0x409bae	KERNEL32.dll.GetLastError
+0x409c6b	0x419398	string	0x409bae	sxor3_encrypt_data_to_file(): file=[%s] crypt_key is not set, generating random
+0x409cff	0x419348	string	0x409bae	sxor3_encrypt_data_to_file(): file=[%s] crypt_key is set! crypt_key_len=%u
+0x409d10	0x419308	string	0x409bae	sxor3_encrypt_data_to_file(): ctx->buf_len=%u out_buf_size=%u
+0x409dd3	0x41963c	string	0x409dc9	sxor2_decrypt_full(): work as version 3. in_buf_size=%u
+0x409df6	0x41960c	string	0x409dc9	sxor2_decrypt_full(): mem_alloc %d bytes failed
+0x409e07	0x409f52	string	0x409dc9	_^[]
+0x409e2f	0x4195a8	string	0x409dc9	sxor2_decrypt_full(): decrypt without passphrase failed: message is in bad format. in_buf_size=%u
+0x409e55	0x419570	string	0x409dc9	sxor2_decrypt_full(): decrypt with passphrase failed
+0x409e68	0x41953c	string	0x409dc9	sxor2_decrypt_full(): decrypted ok with passphrase
+0x409eb7	0x4194f8	string	0x409dc9	sxor2_decrypt_full(): decrypt with passphrase (and without) failed
+0x409ebe	0x4194c0	string	0x409dc9	sxor2_decrypt_full(): decrypt without passphrase failed
+0x409ec5	0x419488	string	0x409dc9	sxor2_decrypt_full(): decrypted ok without passphrase
+0x409eff	0x419450	string	0x409dc9	sxor2_decrypt_full(): blz_decompress_data failed ret=%d
+0x409f28	0x419420	string	0x409dc9	sxor2_decrypt_full(): blz_depack() returned %u
+0x409f73	0x4196a4	string	0x409f57	sxor2_open_from_mem(): mem_alloc() failed
+0x409f78	0x41005c	import	0x409f57	KERNEL32.dll.GetLastError
+0x409fac	0x419674	string	0x409f57	sxor2_open_from_mem(): decrypt failed ret=%d
+0x40a001	0x419748	string	0x409fdd	sxor2_open(): mem_alloc() failed
+0x40a006	0x41005c	import	0x409fdd	KERNEL32.dll.GetLastError
+0x40a062	0x419718	string	0x409fdd	sxor2_open(): fio_load_file() failed file='%s'
+0x40a067	0x41005c	import	0x409fdd	KERNEL32.dll.GetLastError
+0x40a08f	0x4196f4	string	0x409fdd	sxor2_open(): decrypt failed ret=%d
+0x40a0dd	0x4196d0	string	0x409fdd	sxor2_open(): mem_alloc 2 failed
+0x40a0e2	0x41005c	import	0x409fdd	KERNEL32.dll.GetLastError
+0x40a25c	0x41987c	string	0x40a216	PATH
+0x40a28a	0x41986c	string	0x40a216	powershell.exe
+0x40a2c7	0x419838	string	0x40a216	GetStartupCmd(): powershell.exe path not found!!!
+0x40a2da	0x4197d8	string	0x40a216	%s\System32\WindowsPowerShell\v1.0\powershell.exe "$windowsupdate = \"%s\"; & $windowsupdate"
+0x40a2f4	0x4197a4	string	0x40a216	GetStartupCmd(): powershell.exe path found: '%s'
+0x40a30b	0x419774	string	0x40a216	%s "$windowsupdate = \"%s\"; & $windowsupdate"
+0x40a325	0x41976c	string	0x40a216	"%s"
+0x40a357	0x4198dc	string	0x40a340	SetRunKey(): mem_alloc() value failed
+0x40a35c	0x41005c	import	0x40a340	KERNEL32.dll.GetLastError
+0x40a3a2	0x4198a4	string	0x40a340	SetRunKey(): RegistrySetStrValue() [%s\%s]=[%s] failed
+0x40a3bc	0x419884	string	0x40a340	SetRunKey(): ok! [%s\%s]=[%s]
+0x40a43e	0x419b48	string	0x40a3dc	CleanRunKey(): mem_alloc() value failed
+0x40a467	0x419b1c	string	0x40a3dc	CleanRunKey(): mem_alloc() val_data failed
+0x40a47c	0x419af0	string	0x40a3dc	CleanRunKey(): mem_alloc() new_data failed
+0x40a48f	0x40a4a6	string	0x40a3dc	Wj@^V
+0x40a491	0x419ac4	string	0x40a3dc	CleanRunKey(): mem_alloc() my_data1 failed
+0x40a4df	0x419944	string	0x40a3dc	HKEY_LOCAL_MACHINE
+0x40a4ed	0x419930	string	0x40a3dc	HKEY_CURRENT_USER
+0x40a4fb	0x41991c	string	0x40a3dc	HKEY_CLASSES_ROOT
+0x40a509	0x419910	string	0x40a3dc	HKEY_USERS
+0x40a510	0x419904	string	0x40a3dc	<UNKNOWN>
+0x40a542	0x419a84	string	0x40a3dc	CleanRunKey(): RegOpenKeyEx() KEY_READ [%s\%s] failed
+0x40a595	0x419a54	string	0x40a3dc	CleanRunKey(): RegQueryInfoKey() [%s\%s] failed
+0x40a5cd	0x41009c	import	0x40a3dc	KERNEL32.dll.lstrlenA
+0x40a67d	0x419a10	string	0x40a3dc	CleanRunKey(): RegistrySetStrValue() [%s\%s\%s]=[%s] i=%d failed
+0x40a69f	0x4199d0	string	0x40a3dc	CleanRunKey(): RegistrySetStrValue() [%s\%s\%s]=[%s] i=%d ok!
+0x40a6d6	0x419990	string	0x40a3dc	CleanRunKey(): Value with has len=0 (value_len=%d). Skipping...
+0x40a6ee	0x419958	string	0x40a3dc	CleanRunKey(): RegEnumValue() [%s\%s] failed i=%d
+0x40a8ab	0x410150	import	0x40a88d	KERNEL32.dll.GetFileSize
+0x40a97f	0x419e10	string	0x40a959	CreateRemoteThreadWow64tox64(): Windows 2003 not supported
+0x40a997	0x410114	import	0x40a959	KERNEL32.dll.VirtualAlloc
+0x40a9af	0x40a9d0	string	0x40a959	j@ShI
+0x40a9b1	0x419dd0	string	0x40a959	CreateRemoteThreadWow64tox64(): VirtualAlloc pExecuteX64 failed
+0x40a9b6	0x41005c	import	0x40a959	KERNEL32.dll.GetLastError
+0x40a9e4	0x419d88	string	0x40a959	CreateRemoteThreadWow64tox64(): VirtualAlloc pX64function failed
+0x40a9e9	0x41005c	import	0x40a959	KERNEL32.dll.GetLastError
+0x40aa46	0x419d38	string	0x40a959	CreateRemoteThreadWow64tox64(): pExecuteX64=%#p, pX64function=%#p, ctx=%#p
+0x40aa61	0x419cfc	string	0x40a959	CreateRemoteThreadWow64tox64(): pExecuteX64() failed
+0x40aa7e	0x419cb8	string	0x40a959	CreateRemoteThreadWow64tox64(): pExecuteX64() failed hThread=NULL
+0x40aa93	0x419c7c	string	0x40a959	CreateRemoteThreadWow64tox64(): Success, hThread=%#p
+0x40aaba	0x419c38	string	0x40a959	CreateRemoteThreadWow64tox64(): VirtualAlloc pCloseHandle64 failed
+0x40aabf	0x41005c	import	0x40a959	KERNEL32.dll.GetLastError
+0x40aaf5	0x419be8	string	0x40a959	CreateRemoteThreadWow64tox64(): pCloseHandle64=%#p sizeof(close_handle)=%u
+0x40ab0b	0x419bb0	string	0x40a959	CreateRemoteThreadWow64tox64(): pCloseHandle64() failed
+0x40ab22	0x410154	import	0x40a959	KERNEL32.dll.VirtualFree
+0x40ab32	0x410154	import	0x40a959	KERNEL32.dll.VirtualFree
+0x40ab96	0x41009c	import	0x40ab40	KERNEL32.dll.lstrlenA
+0x40abd7	0x419f14	string	0x40abc6	OldGetHostUniqId(): username='%s'
+0x40ac1e	0x41009c	import	0x40abc6	KERNEL32.dll.lstrlenA
+0x40ac2e	0x419edc	string	0x40abc6	OldGetHostUniqId(): RegOpenKeyEx('%s') KEY_READ failed
+0x40ac5b	0x419ea8	string	0x40abc6	OldGetHostUniqId(): RegQueryValueEx('%s') failed
+0x40acc6	0x410158	import	0x40abc6	KERNEL32.dll.GetComputerNameA
+0x40acf1	0x419e70	string	0x40abc6	OldGetHostUniqId(): GetVolumeInformation() failed
+0x40acf6	0x41005c	import	0x40abc6	KERNEL32.dll.GetLastError
+0x40ad3b	0x410094	import	0x40abc6	KERNEL32.dll.lstrcatA
+0x40ad48	0x419e4c	string	0x40abc6	OldGetHostUniqId(): product_id='%s'
+0x40ad84	0x419ff4	string	0x40ad73	GetHostUniqId2(): szUsername='%s'
+0x40add5	0x419fbc	string	0x40ad73	GetHostUniqId2(): RegOpenKeyEx('%s') KEY_READ failed
+0x40adff	0x419f8c	string	0x40ad73	GetHostUniqId2(): RegQueryValueEx('%s') failed
+0x40ae20	0x41009c	import	0x40ad73	KERNEL32.dll.lstrlenA
+0x40ae3a	0x410158	import	0x40ad73	KERNEL32.dll.GetComputerNameA
+0x40ae67	0x419f5c	string	0x40ad73	GetHostUniqId2(): GetVolumeInformation() failed
+0x40ae6c	0x41005c	import	0x40ad73	KERNEL32.dll.GetLastError
+0x40ae9e	0x410094	import	0x40ad73	KERNEL32.dll.lstrcatA
+0x40aeac	0x4101ac	import	0x40ad73	USER32.dll.CharUpperBuffA
+0x40aeb3	0x419f38	string	0x40ad73	GetHostUniqId2(): szProductId='%s'
+0x40af1f	0x41009c	import	0x40aeef	KERNEL32.dll.lstrlenA
+0x40af7a	0x41a018	string	0x40aeef	===>>> create_bot_nick(): new nick: %s
+0x40b265	0x40b2a3	string	0x40b242	^_[]
+0x40b29a	0x40b2a3	string	0x40b242	^_[]
+0x40b7ed	0x41a1d0	string	0x40b740	CreateStartup(): reg run key: '%s'
+0x40b87c	0x41a1a0	string	0x40b740	CreateStartup(): Loading hive szRegFile='%s'
+0x40b89c	0x41001c	import	0x40b740	ADVAPI32.dll.RegLoadKeyA
+0x40b8a6	0x41005c	import	0x40b740	KERNEL32.dll.GetLastError
+0x40b8bb	0x41a158	string	0x40b740	CreateStartup(): RegLoadKey() failed szRegFile='%s' szSid='%s' err=%d
+0x40b8c0	0x41005c	import	0x40b740	KERNEL32.dll.GetLastError
+0x40b8d8	0x41a11c	string	0x40b740	CreateStartup(): RegLoadKey() success szRegFile='%s'
+0x40b90f	0x410020	import	0x40b740	ADVAPI32.dll.RegUnLoadKeyA
+0x40b919	0x41a0f4	string	0x40b740	CreateStartup(): RegUnloadKey() failed
+0x40b91e	0x41005c	import	0x40b740	KERNEL32.dll.GetLastError
+0x40b939	0x41a0bc	string	0x40b740	CreateStartup(): AV_NORTON installed, skip this step
+0x40b953	0x41a094	string	0x40b740	CreateStartup(): try to create shorcut
+0x40b96d	0x410098	import	0x40b740	KERNEL32.dll.lstrcpyA
+0x40b980	0x410094	import	0x40b740	KERNEL32.dll.lstrcatA
+0x40b9c9	0x4101dc	import	0x40b740	ole32.dll.CoInitialize
+0x40ba04	0x41a068	string	0x40b740	CreateStartup(): CreateShortcut() failed
+0x40ba1f	0x41a040	string	0x40b740	CreateStartup(): CreateShortcut() ok!
+0x40ba36	0x4101cc	import	0x40b740	ole32.dll.CoUninitialize
+0x40ba97	0x41a224	string	0x40ba70	RunQbotForCurrentUser(): szExePath='%s'
+0x40bb0a	0x41005c	import	0x40ba70	KERNEL32.dll.GetLastError
+0x40bb17	0x41a1f4	string	0x40ba70	RunQbotForCurrentUser(): failed szExePath='%s'
+0x40bb61	0x41a344	string	0x40bb40	RunQbotForAnotherUser(): start using createProcessForSession()
+0x40bbb0	0x41a308	string	0x40bb40	RunQbotForAnotherUser(): SessionId=%u pWinStationName='%s'
+0x40bbfe	0x41005c	import	0x40bb40	KERNEL32.dll.GetLastError
+0x40bc0b	0x41a2d4	string	0x40bb40	RunQbotForAnotherUser(): failed WTSUserName err=%d
+0x40bc10	0x41005c	import	0x40bb40	KERNEL32.dll.GetLastError
+0x40bc25	0x41a2ac	string	0x40bb40	RunQbotForAnotherUser(): szUser='%s'
+0x40bc57	0x41005c	import	0x40bb40	KERNEL32.dll.GetLastError
+0x40bc64	0x41a274	string	0x40bb40	RunQbotForAnotherUser(): failed WTSDomainName err=%d
+0x40bc69	0x41005c	import	0x40bb40	KERNEL32.dll.GetLastError
+0x40bc7e	0x41a24c	string	0x40bb40	RunQbotForAnotherUser(): szDomain='%s'
+0x40bd67	0x41a41c	string	0x40bd40	InstallQbotForAnotherUser(): szwUsername=%S
+0x40bd99	0x410000	import	0x40bd40	ADVAPI32.dll.EqualSid
+0x40bda3	0x41a3ec	string	0x40bd40	InstallQbotForAnotherUser(): skip current user
+0x40bdf0	0x41a388	string	0x40bd40	InstallQbotForAnotherUser(): pSessionsEnumData->user_type=%u pSessionsEnumData->dwSessionsCount=%u
+0x40bea8	0x41a478	string	0x40be60	lock_installer_mutex(): mutex_create('%s') failed
+0x40bead	0x41005c	import	0x40be60	KERNEL32.dll.GetLastError
+0x40bec4	0x41a448	string	0x40be60	lock_installer_mutex(): mutex '%s' locked ok
+0x40bee9	0x410058	import	0x40bee0	KERNEL32.dll.CloseHandle
+0x40bef3	0x41a4ac	string	0x40bee0	unlock_installer_mutex(): CloseHandle() failed
+0x40bef8	0x41005c	import	0x40bee0	KERNEL32.dll.GetLastError
+0x40bf2e	0x41a4fc	string	0x40bf10	DeleteMyExe(): AV detected! No delete!
+0x40bf7f	0x41a4dc	string	0x40bf10	DeleteMyExe(): szCmdArgs='%s'
+0x40bfb1	0x410184	import	0x40bf10	SHELL32.dll.ShellExecuteA
+0x40bfe3	0x4100e8	import	0x40bfc0	KERNEL32.dll.CreateMutexA
+0x40bfec	0x41005c	import	0x40bfc0	KERNEL32.dll.GetLastError
+0x40c008	0x41a598	string	0x40bfc0	CheckQbotRunning(): CreateMutex("%s") ok but dwErr=ERROR_ALREADY_EXISTS.
+0x40c037	0x41a55c	string	0x40bfc0	CheckQbotRunning(): CreateMutex("%s") failed dwErr=%08x.
+0x40c03c	0x41005c	import	0x40bfc0	KERNEL32.dll.GetLastError
+0x40c080	0x410fd8	string	0x40bfc0	TRUE
+0x40c089	0x410fd0	string	0x40bfc0	FALSE
+0x40c098	0x41a524	string	0x40bfc0	CheckQbotRunning(): bAlreadyRunning=%s szQbotMutex='%s'
+0x40c11e	0x41a858	string	0x40c0b0	qbot_install_user(): no profile dir for user '%s'
+0x40c171	0x41a828	string	0x40c0b0	qbot_install_user(): host_id=%08x username='%s'
+0x40c1ca	0x41009c	import	0x40c0b0	KERNEL32.dll.lstrlenA
+0x40c1f7	0x41a7ec	string	0x40c0b0	qbot_install_user(): szUserBotNick='%s' locking mutex '%s'
+0x40c21f	0x410070	import	0x40c0b0	KERNEL32.dll.GetModuleHandleA
+0x40c237	0x41a7b0	string	0x40c0b0	qbot_install_user(): FSecure detected, skip mutex create!
+0x40c355	0x41a784	string	0x40c0b0	qbot_install_user(): ===>>> szOldBrn='%s'
+0x40c396	0x41009c	import	0x40c0b0	KERNEL32.dll.lstrlenA
+0x40c3c3	0x410090	import	0x40c0b0	KERNEL32.dll.lstrcmpA
+0x40c4bb	0x410080	import	0x40c0b0	KERNEL32.dll.ReleaseMutex
+0x40c4df	0x4100fc	import	0x40c0b0	KERNEL32.dll.lstrcpynA
+0x40c4f2	0x410094	import	0x40c0b0	KERNEL32.dll.lstrcatA
+0x40c590	0x41a738	string	0x40c0b0	qbot_install_user(): username='%s' bot_bome_dir='%s' qbotinj_exe_path='%s'
+0x40c5cd	0x41a70c	string	0x40c0b0	qbot_install_user(): qbot_conf_path='%s'
+0x40c607	0x41a6b0	string	0x40c0b0	qbot_install_user(): Software already installed but not running! init_data->install_type=%u
+0x40c71f	0x41a678	string	0x40c0b0	qbot_install_user(): g_CoreData.dwAVInstalled=%08x
+0x40c785	0x41a648	string	0x40c0b0	qbot_install_user(): INSTALL_FLAG_RUN_EXE_ONLY
+0x40c80b	0x410098	import	0x40c0b0	KERNEL32.dll.lstrcpyA
+0x40c822	0x410098	import	0x40c0b0	KERNEL32.dll.lstrcpyA
+0x40c866	0x41a620	string	0x40c0b0	qbot_install_user(): exception happened
+0x40c896	0x410080	import	0x40c0b0	KERNEL32.dll.ReleaseMutex
+0x40c8b4	0x41a5e4	string	0x40c0b0	qbot_install_user(): installation finished for '%s' ret=%d
+0x40c934	0x410098	import	0x40c8e0	KERNEL32.dll.lstrcpyA
+0x40c940	0x41009c	import	0x40c8e0	KERNEL32.dll.lstrlenA
+0x40c95b	0x410094	import	0x40c8e0	KERNEL32.dll.lstrcatA
+0x40c978	0x410094	import	0x40c8e0	KERNEL32.dll.lstrcatA
+0x40c984	0x410268	string	0x40c8e0	Global
+0x40c9d8	0x4100c4	import	0x40c9b0	KERNEL32.dll.GetLocalTime
+0x40ca86	0x41aa18	string	0x40ca50	qbot_install_main_system(): Avast behavior detected, cancel installation.
+0x40cab3	0x41a9d0	string	0x40ca50	qbot_install_main_system(): ResolveProcs(wts_winapi_procs) failed
+0x40cac4	0x41a98c	string	0x40ca50	qbot_install_main_system(): ResolveProcs(wts_winapi_procs) ok
+0x40cb27	0x41a950	string	0x40ca50	qbot_install_main_system(): WTSEnumerateSessions() failed
+0x40cb2c	0x41005c	import	0x40ca50	KERNEL32.dll.GetLastError
+0x40cb3d	0x41a910	string	0x40ca50	qbot_install_main_system(): WTSEnumerateSessions() not resolved
+0x40cb50	0x41a8c0	string	0x40ca50	qbot_install_main_system(): WTSEnumerateSessions() ok. %u sessions found
+0x40cb9c	0x41a88c	string	0x40ca50	qbot_install_main_system(): exception happened
+0x40cc09	0x41aca0	string	0x40cbd0	qbot_install_main(): Avast behavior detected, cancel installation.
+0x40cc31	0x41ac64	string	0x40cbd0	qbot_install_main(): ResolveProcs(wts_winapi_procs) failed
+0x40cc42	0x41ac2c	string	0x40cbd0	qbot_install_main(): ResolveProcs(wts_winapi_procs) ok
+0x40cc75	0x41abf8	string	0x40cbd0	qbot_install_main(): installing for current user
+0x40cce6	0x41abc4	string	0x40cbd0	qbot_install_main(): trying to infect other users
+0x40cd14	0x41ab90	string	0x40cbd0	qbot_install_main(): WTSEnumerateSessions() failed
+0x40cd19	0x41005c	import	0x40cbd0	KERNEL32.dll.GetLastError
+0x40cd2a	0x41ab54	string	0x40cbd0	qbot_install_main(): WTSEnumerateSessions() not resolved
+0x40cd3d	0x41ab10	string	0x40cbd0	qbot_install_main(): WTSEnumerateSessions() ok. %u sessions found
+0x40cd77	0x41aae4	string	0x40cbd0	qbot_install_main(): all users processed
+0x40cdc7	0x41aab8	string	0x40cbd0	qbot_install_main(): restart me as system
+0x40cdf3	0x4100c4	import	0x40cbd0	KERNEL32.dll.GetLocalTime
+0x40ce76	0x41aa8c	string	0x40cbd0	qbot_install_main(): ===>>> szAtCmd='%s'
+0x40cefd	0x41aa64	string	0x40cbd0	qbot_install_main(): exception happened
+0x40cf24	0x4100fc	import	0x40cbd0	KERNEL32.dll.lstrcpynA
+0x40cf38	0x410094	import	0x40cbd0	KERNEL32.dll.lstrcatA
+0x40cf58	0x4100f8	import	0x40cbd0	KERNEL32.dll.DeleteFileA
+0x40cfb4	0x41ad88	string	0x40cf80	AddInstalledUser(): mem_alloc() failed
+0x40cfb9	0x41005c	import	0x40cf80	KERNEL32.dll.GetLastError
+0x40d008	0x41ad5c	string	0x40cf80	AddInstalledUser(): mem_realloc() failed
+0x40d00d	0x41005c	import	0x40cf80	KERNEL32.dll.GetLastError
+0x40d042	0x41009c	import	0x40cf80	KERNEL32.dll.lstrlenA
+0x40d062	0x41ad38	string	0x40cf80	AddInstalledUser(): szBotNick='%s'
+0x40d07c	0x41009c	import	0x40cf80	KERNEL32.dll.lstrlenA
+0x40d0b3	0x41ad10	string	0x40cf80	AddInstalledUser(): bCommonCryptKey:
+0x40d113	0x41ace4	string	0x40cf80	AddInstalledUser(): pNew->szSeclogPath='%s'
+0x40d274	0x410098	import	0x40d240	KERNEL32.dll.lstrcpyA
+0x40d286	0x410094	import	0x40d240	KERNEL32.dll.lstrcatA
+0x40d297	0x410094	import	0x40d240	KERNEL32.dll.lstrcatA
+0x40d29d	0x41ae24	string	0x40d240	.txt
+0x40d2a9	0x410094	import	0x40d240	KERNEL32.dll.lstrcatA
+0x40d2fa	0x41ae00	string	0x40d240	RunMimikatz(): szMimikatzRun='%s'
+0x40d355	0x41add8	string	0x40d240	RunMimikatz(): cannot open file '%s'
+0x40d35a	0x41005c	import	0x40d240	KERNEL32.dll.GetLastError
+0x40d375	0x41adb0	string	0x40d240	RunMimikatz(): got %u bytes of result
+0x40d3ae	0x4100f8	import	0x40d240	KERNEL32.dll.DeleteFileA
+0x40d3e2	0x41aea4	string	0x40d3c0	ReportDuplicateInstall(): get_wininet_functions() failed
+0x40d485	0x41ae78	string	0x40d3c0	ReportDuplicateInstall(): ===>>> szUrl='%s'
+0x40d4d2	0x41ae50	string	0x40d3c0	ReportDuplicateInstall(): done url='%s'
+0x40d4e1	0x41ae2c	string	0x40d3c0	ReportDuplicateInstall(): failed
+0x40d517	0x4100a4	import	0x40d500	KERNEL32.dll.CopyFileA
+0x40d521	0x41005c	import	0x40d500	KERNEL32.dll.GetLastError
+0x40d532	0x41aef8	string	0x40d500	CopyBotProcDirect(): failed '%s'->'%s'
+0x40d55a	0x41aee0	string	0x40d500	CopyBotProcDirect(): ok
+0x40d592	0x41005c	import	0x40d570	KERNEL32.dll.GetLastError
+0x40d5a3	0x41af44	string	0x40d570	CopyBotProcWMI(): failed '%s'->'%s'
+0x40d5bd	0x41af20	string	0x40d570	CopyBotProcWMI(): WMICopyFile(): ok
+0x40d61e	0x41005c	import	0x40d5e0	KERNEL32.dll.GetLastError
+0x40d639	0x41af8c	string	0x40d5e0	CopyBotProcDirectWithTrash() failed: szDstPath='%s'
+0x40d63e	0x41005c	import	0x40d5e0	KERNEL32.dll.GetLastError
+0x40d656	0x41af68	string	0x40d5e0	CopyBotProcDirectWithTrash(): ok
+0x40d673	0x41005c	import	0x40d5e0	KERNEL32.dll.GetLastError
+0x40d68e	0x41af8c	string	0x40d5e0	CopyBotProcDirectWithTrash() failed: szDstPath='%s'
+0x40d693	0x41005c	import	0x40d5e0	KERNEL32.dll.GetLastError
+0x40d74d	0x41006c	import	0x40d6b0	KERNEL32.dll.Sleep
+0x40d780	0x41b050	string	0x40d6b0	CopyBotExeToHomeDir(): copy ok!
+0x40d79f	0x41b018	string	0x40d6b0	CopyBotExeToHomeDir(): file is not ok, dwDstFileSize==0
+0x40d7b0	0x41aff0	string	0x40d6b0	CopyBotExeToHomeDir(): file is not ok.
+0x40d7e2	0x41afc0	string	0x40d6b0	CopyBotExeToHomeDir(): copy failed '%s'=>'%s'
+0x40d841	0x41b180	string	0x40d800	MakeQbotDir(): directory "%s" already exists
+0x40d871	0x41b154	string	0x40d800	MakeQbotDir(): CreateDirectory("%s") failed
+0x40d876	0x41005c	import	0x40d800	KERNEL32.dll.GetLastError
+0x40d896	0x41006c	import	0x40d800	KERNEL32.dll.Sleep
+0x40d8b0	0x41b110	string	0x40d800	MakeQbotDir(): CreateDirectory("%s") ok, but directory not created
+0x40d8ca	0x41b0e8	string	0x40d800	Directory %s created successfully!
+0x40d8f2	0x41b0b0	string	0x40d800	MakeQbotDir(): cannot set permissions on directory '%s'
+0x40d913	0x41b070	string	0x40d800	MakeQbotDir(): exception in SetFilePermissionsQbotShared()!!!
+0x40d97f	0x41b254	string	0x40d950	GetUserProfileDir(): ConvertSidToStringSid() failed
+0x40d984	0x41005c	import	0x40d950	KERNEL32.dll.GetLastError
+0x40d9ec	0x41b21c	string	0x40d950	GetUserProfileDir(): RegistryReadStrValue('%s') failed
+0x40da01	0x410194	import	0x40d950	SHLWAPI.dll.PathUnquoteSpacesA
+0x40da13	0x410048	import	0x40d950	KERNEL32.dll.ExpandEnvironmentStringsA
+0x40da21	0x41b1e0	string	0x40d950	GetUserProfileDir(): ExpandEnvironmentStrings('%s') failed
+0x40da26	0x41005c	import	0x40d950	KERNEL32.dll.GetLastError
+0x40da3b	0x41b1b0	string	0x40d950	GetUserProfileDir(): ===>>> 3 szProfile='%s'
+0x40dad6	0x41b314	string	0x40da80	%s%c
+0x40db01	0x41b2dc	string	0x40da80	create_home_dir(): szUserProfileDir='%s' szAppData='%s'
+0x40db52	0x41b2ac	string	0x40da80	create_home_dir(): Cannot create directory [%s]
+0x40db69	0x41b288	string	0x40da80	create_home_dir(): szOutBuf='%s'
+0x40db80	0x4101c4	import	0x40db80	WTSAPI32.dll.WTSQuerySessionInformationA
+0x40db86	0x410024	import	0x40db86	ADVAPI32.dll.ConvertSidToStringSidA
+0x40dc57	0x41005c	import	0x40dc3a	KERNEL32.dll.GetLastError
+0x40dcb4	0x41009c	import	0x40dcae	KERNEL32.dll.lstrlenA
+0x40dcd0	0x41b37c	string	0x40dcae	WriteVBS(): Cannot create file '%s'
+0x40dcd5	0x41005c	import	0x40dcae	KERNEL32.dll.GetLastError
+0x40dd16	0x41009c	import	0x40dd10	KERNEL32.dll.lstrlenA
+0x40dd3f	0x41976c	string	0x40dd10	"%s"
+0x40dd59	0x4101d0	import	0x40dd10	ole32.dll.CoInitializeEx
+0x40dd78	0x410184	import	0x40dd10	SHELL32.dll.ShellExecuteA
+0x40dd85	0x41b3f0	string	0x40dd10	RunVBS(): ShellExecute() failed dRet=%d cmd='cscript.exe' szScriptQuoted='%s'
+0x40dd9c	0x41b3a0	string	0x40dd10	RunVBS(): ShellExecute() success dRet=%u szCscript='%s' szScriptQuoted='%s'!
+0x40ddce	0x41b4c8	string	0x40ddba	WMICopyFile(): szSrc='%s' szDst='%s'
+0x40ddec	0x41b4a4	string	0x40ddba	WMICopyFile(): mem_alloc() failed
+0x40ddf1	0x41005c	import	0x40ddba	KERNEL32.dll.GetLastError
+0x40de28	0x41b484	string	0x40ddba	WMICopyFile(): szSrc2='%s'
+0x40de62	0x41b460	string	0x40ddba	WMICopyFile(): szVbsContent='%s'
+0x40de89	0x41b440	string	0x40ddba	WMICopyFile(): szVbsFile='%s'
+0x40deaa	0x41006c	import	0x40ddba	KERNEL32.dll.Sleep
+0x40ded0	0x410058	import	0x40ddba	KERNEL32.dll.CloseHandle
+0x40df1b	0x41b5f4	string	0x40df07	WMIRunExeWithDelay(): szExePath='%s' dwDelaySec=%u
+0x40df39	0x41b5c8	string	0x40df07	WMIRunExeWithDelay(): mem_alloc() failed
+0x40df3e	0x41005c	import	0x40df07	KERNEL32.dll.GetLastError
+0x40df96	0x41b5a0	string	0x40df07	WMIRunExeWithDelay(): szVbsContent='%s'
+0x40dfb5	0x41b578	string	0x40df07	WMIRunExeWithDelay(): szVbsFile='%s'
+0x40dfe5	0x41b538	string	0x40df07	WMIRunExeWithDelay(): CreateProcessDirect(): ok! szExePath='%s'
+0x40dff6	0x41b4f0	string	0x40df07	WMIRunExeWithDelay(): CreateProcessDirect(): failed szExePath='%s'
+0x40e056	0x41b7bc	string	0x40e027	WMIRunExe(): wszExePath='%S'
+0x40e064	0x4101d0	import	0x40e027	ole32.dll.CoInitializeEx
+0x40e06e	0x41b794	string	0x40e027	WMIRunExe(): CoInitializeEx() failed
+0x40e086	0x4101e0	import	0x40e027	ole32.dll.CoInitializeSecurity
+0x40e090	0x41b768	string	0x40e027	WMIRunExe(): CoInitializeSecurity() failed
+0x40e0ad	0x4101d8	import	0x40e027	ole32.dll.CoCreateInstance
+0x40e0b7	0x41b740	string	0x40e027	WMIRunExe(): CoCreateInstance() failed
+0x40e0df	0x41b728	string	0x40e027	ROOT\CIMV2
+0x40e0ec	0x41b700	string	0x40e027	WMIRunExe(): ConnectServer() failed
+0x40e112	0x4101d4	import	0x40e027	ole32.dll.CoSetProxyBlanket
+0x40e11c	0x41b6d8	string	0x40e027	WMIRunExe(): CoSetProxyBlanket() failed
+0x40e140	0x41b6bc	string	0x40e027	Win32_Process
+0x40e163	0x41b6ac	string	0x40e027	Create
+0x40e171	0x41b68c	string	0x40e027	WMIRunExe(): GetMethod() failed
+0x40e1ad	0x41b674	string	0x40e027	CommandLine
+0x40e1cf	0x41b654	string	0x40e027	WMIRunExe() ExecMethod() ok!
+0x40e1dd	0x41b628	string	0x40e027	WMIRunExe() ExecMethod() failed hres=%08x
+0x40e217	0x41b89c	string	0x40e1fa	NULL
+0x40e21d	0x41b878	string	0x40e1fa	EnumerateUsers2(): wszServer='%S'
+0x40e24b	0x41b848	string	0x40e1fa	EnumerateUsers2(): NetUserEnum() failed: %d\n
+0x40e250	0x41005c	import	0x40e1fa	KERNEL32.dll.GetLastError
+0x40e274	0x410010	import	0x40e1fa	ADVAPI32.dll.LookupAccountNameW
+0x40e2ab	0x41b81c	string	0x40e1fa	EnumerateUsers2(): mem_alloc() pSid failed
+0x40e2b0	0x41005c	import	0x40e1fa	KERNEL32.dll.GetLastError
+0x40e2ee	0x41b7dc	string	0x40e1fa	EnumerateUsers2(): LookupAccountName(): failed usri0_name='%S'
+0x40e2f3	0x41005c	import	0x40e1fa	KERNEL32.dll.GetLastError
+0x40e315	0x41006c	import	0x40e1fa	KERNEL32.dll.Sleep
+0x40e373	0x41b8a8	string	0x40e339	EnumerateUsers(): NetGetDCName() failed nStatus=%d
+0x40e407	0x41b900	string	0x40e3f0	OpenSecLog(): mem_alloc() 1 failed
+0x40e40c	0x41005c	import	0x40e3f0	KERNEL32.dll.GetLastError
+0x40e43b	0x41b8e0	string	0x40e3f0	OpenSecLog() mem_alloc failed
+0x40e440	0x41005c	import	0x40e3f0	KERNEL32.dll.GetLastError
+0x40e48d	0x4100c4	import	0x40e470	KERNEL32.dll.GetLocalTime
+0x40e4fa	0x41009c	import	0x40e4f0	KERNEL32.dll.lstrlenA
+0x40e509	0x41b9dc	string	0x40e4f0	WriteSecLogStr(): hSeclog=NULL
+0x40e526	0x41b9c0	string	0x40e4f0	WriteSecLogStr(): buff=NULL
+0x40e579	0x41b950	string	0x40e4f0	WriteSecLogStr(): increasing buf size new_buf_size=%u (hSeclog->buf_size=%u hSeclog->data_len=%u buf_len=%u)
+0x40e5a4	0x41b924	string	0x40e4f0	WriteSecLogStr(): mem_realloc() failed
+0x40e5a9	0x41005c	import	0x40e4f0	KERNEL32.dll.GetLastError
+0x40e610	0x41bbc0	string	0x40e600	CloseSecLog2(): started
+0x40e625	0x41bba0	string	0x40e600	CloseSecLog2(): hSeclog=NULL
+0x40e642	0x41bb7c	string	0x40e600	CloseSecLog2() hSeclog->data_len=%u
+0x40e67c	0x41bb58	string	0x40e600	CloseSecLog2(): mem_alloc() failed
+0x40e681	0x41005c	import	0x40e600	KERNEL32.dll.GetLastError
+0x40e69e	0x41bb2c	string	0x40e600	CloseSecLog2(): (*lphSeclog)->data_len=%u
+0x40e6df	0x41bb08	string	0x40e600	CloseSecLog2(): bCommonCryptKey:
+0x40e73b	0x41bae0	string	0x40e600	CloseSecLog2(): block first 4 bytes:
+0x40e757	0x41bab4	string	0x40e600	CloseSecLog2(): data_len_crypted=%08x (%u)
+0x40e77e	0x41ba90	string	0x40e600	CloseSecLog2(): cannot lock mutex
+0x40e783	0x41005c	import	0x40e600	KERNEL32.dll.GetLastError
+0x40e7aa	0x4100bc	import	0x40e600	KERNEL32.dll.CreateFileA
+0x40e7c3	0x41ba68	string	0x40e600	CloseSecLog2(): CreateFile("%s") failed
+0x40e7c8	0x41005c	import	0x40e600	KERNEL32.dll.GetLastError
+0x40e7e6	0x4100b4	import	0x40e600	KERNEL32.dll.SetFilePointer
+0x40e7f0	0x41ba40	string	0x40e600	CloseSecLog2(): SetFilePointer() failed
+0x40e7f5	0x41005c	import	0x40e600	KERNEL32.dll.GetLastError
+0x40e84a	0x41ba14	string	0x40e600	CloseSecLog2() data saved ok! szLog='%s'
+0x40e897	0x41b9fc	string	0x40e600	CloseSecLog2(): done
+0x40e8ca	0x41007c	import	0x40e8a8	KERNEL32.dll.LoadLibraryA
+0x40e8d7	0x41bc4c	string	0x40e8a8	ua_detect(): LoadLibrary() urlmon.dll failed
+0x40e8dc	0x41005c	import	0x40e8a8	KERNEL32.dll.GetLastError
+0x40e8f3	0x410078	import	0x40e8a8	KERNEL32.dll.GetProcAddress
+0x40e8ff	0x41bc10	string	0x40e8a8	ua_detect(): GetProcAddress() ObtainUserAgentString failed
+0x40e904	0x41005c	import	0x40e8a8	KERNEL32.dll.GetLastError
+0x40e93f	0x41bbd8	string	0x40e8a8	ua_detect(): ObtainUserAgentString failed ret2=0x%08x
+0x40e944	0x41005c	import	0x40e8a8	KERNEL32.dll.GetLastError
+0x40e956	0x410074	import	0x40e8a8	KERNEL32.dll.FreeLibrary
+0x40e979	0x410074	import	0x40e8a8	KERNEL32.dll.FreeLibrary
+0x40e9a2	0x41bd20	string	0x40e99b	bandwith_calculate(): started!
+0x40e9b1	0x41004c	import	0x40e99b	KERNEL32.dll.GetSystemTime
+0x40e9b7	0x410050	import	0x40e99b	KERNEL32.dll.SystemTimeToFileTime
+0x40ea1f	0x41bcd0	string	0x40e99b	bandwith_calculate(): rate=%d
+0x40ea36	0x41bc80	string	0x40e99b	bandwith_calculate(): cannot calculate bandwith! time_delta=%u bytes_count=%u
+0x40ea75	0x41bd68	string	0x40ea4a	get_content_type(): HttpQueryInfo() HTTP_QUERY_CONTENT_TYPE failed
+0x40ea7a	0x41005c	import	0x40ea4a	KERNEL32.dll.GetLastError
+0x40ea8e	0x41bd40	string	0x40ea4a	get_content_type(): Content-Type: %s
+0x40eacb	0x41bdd8	string	0x40ea9f	get_content_length(): HttpQueryInfo() HTTP_QUERY_CONTENT_LENGTH failed
+0x40ead0	0x41005c	import	0x40ea9f	KERNEL32.dll.GetLastError
+0x40eae5	0x41bdac	string	0x40ea9f	get_content_length(): Content-Length: %d
+0x40eb35	0x41bf14	string	0x40eaf6	read_http_response_content(): content_len=%u
+0x40eb58	0x41bed8	string	0x40eaf6	read_http_response_content(): mem_alloc() %u bytes failed
+0x40eb5d	0x41005c	import	0x40eaf6	KERNEL32.dll.GetLastError
+0x40eb87	0x41bed8	string	0x40eaf6	read_http_response_content(): mem_alloc() %u bytes failed
+0x40eb8c	0x41005c	import	0x40eaf6	KERNEL32.dll.GetLastError
+0x40ebab	0x41004c	import	0x40eaf6	KERNEL32.dll.GetSystemTime
+0x40ebd6	0x41be90	string	0x40eaf6	===>>> read_http_response_content(): in_buf is too small, do reallocate
+0x40ec4d	0x41be54	string	0x40eaf6	read_http_response_content(): InternetReadFile() failed
+0x40ec52	0x41005c	import	0x40eaf6	KERNEL32.dll.GetLastError
+0x40ec8c	0x41be20	string	0x40eaf6	read_http_response_content(): mem_realloc() failed
+0x40ec91	0x41005c	import	0x40eaf6	KERNEL32.dll.GetLastError
+0x40ecf1	0x41005c	import	0x40ecce	KERNEL32.dll.GetLastError
+0x40ecf8	0x41bf90	string	0x40ecce	SetWininetConnectionOptionsSSL(): InternetQueryOptionA() failed err=%u
+0x40ed26	0x41005c	import	0x40ecce	KERNEL32.dll.GetLastError
+0x40ed2d	0x41bf48	string	0x40ecce	SetWininetConnectionOptionsSSL(): InternetSetOptionA() failed err=%u
+0x40ed59	0x41c0f0	string	0x40ed39	SetWininetConnectionOptions(): InternetSetOption() INTERNET_OPTION_CONNECT_RETRIES failed
+0x40ed5e	0x41005c	import	0x40ed39	KERNEL32.dll.GetLastError
+0x40ed86	0x41c090	string	0x40ed39	SetWininetConnectionOptions(): InternetSetOption() INTERNET_OPTION_CONNECT_TIMEOUT failed
+0x40ed8b	0x41005c	import	0x40ed39	KERNEL32.dll.GetLastError
+0x40edb3	0x41c030	string	0x40ed39	SetWininetConnectionOptions(): InternetSetOption() INTERNET_OPTION_RECEIVE_TIMEOUT failed
+0x40edb8	0x41005c	import	0x40ed39	KERNEL32.dll.GetLastError
+0x40ede1	0x41bfd8	string	0x40ed39	SetWininetConnectionOptions(): InternetSetOption() INTERNET_OPTION_SEND_TIMEOUT failed
+0x40ede6	0x41005c	import	0x40ed39	KERNEL32.dll.GetLastError
+0x40ee6a	0x41c404	string	0x40edf6	Content-Type: application/x-www-form-urlencoded
+0x40eecc	0x41009c	import	0x40edf6	KERNEL32.dll.lstrlenA
+0x40eee3	0x41c3c4	string	0x40edf6	WininetSendHttpRequest(): InternetCrackUrl() failed: url='%s'
+0x40eee8	0x41005c	import	0x40edf6	KERNEL32.dll.GetLastError
+0x40ef19	0x41c368	string	0x40edf6	WininetSendHttpRequest(): szUrlScheme='%s' url_comps.nPort=%u szUrlHost='%s' szUrlPath='%s'
+0x40ef23	0x41005c	import	0x40edf6	KERNEL32.dll.GetLastError
+0x40ef5b	0x41c328	string	0x40edf6	WininetSendHttpRequest(): InternetOpen() failed err=%d i=%d
+0x40efb1	0x41c2d8	string	0x40edf6	WininetSendHttpRequest(): InternetConnect() szUrlHost='%s' failed err=%d i=%d
+0x40efd6	0x41c2cc	string	0x40edf6	POST
+0x40f01d	0x41c280	string	0x40edf6	WininetSendHttpRequest(): InternetOpenRequest() [%s] failed err=%d i=%d
+0x40f03e	0x40f05d	string	0x40edf6	SSSSW
+0x40f04d	0x41009c	import	0x40edf6	KERNEL32.dll.lstrlenA
+0x40f087	0x41c230	string	0x40edf6	WininetSendHttpRequest(): fHttpSendRequest() failed. szUrl='%s' err=%u i=%d
+0x40f0fd	0x41c1e0	string	0x40edf6	WininetSendHttpRequest(): HttpQueryInfo() HTTP_QUERY_STATUS_CODE failed err=%d
+0x40f12b	0x41c1a0	string	0x40edf6	WininetSendHttpRequest(): Bad HTTP status code: '%s' szUrl='%s'
+0x40f166	0x41c2cc	string	0x40edf6	POST
+0x40f17a	0x41c150	string	0x40edf6	WininetSendHttpRequest(): request sent ok! verb=%s status code: '%s' szUrl='%s'
+0x40f247	0x41c500	string	0x40f224	GenerateExeWithTrash(): fio_open_write() failed szDstFile='%s'
+0x40f24c	0x41005c	import	0x40f224	KERNEL32.dll.GetLastError
+0x40f27b	0x41c4c4	string	0x40f224	GenerateExeWithTrash(): fio_write() failed szDstFile='%s'
+0x40f280	0x41005c	import	0x40f224	KERNEL32.dll.GetLastError
+0x40f290	0x410058	import	0x40f224	KERNEL32.dll.CloseHandle
+0x40f2c8	0x41c498	string	0x40f224	GenerateExeWithTrash(): mem_alloc() failed
+0x40f2cd	0x41005c	import	0x40f224	KERNEL32.dll.GetLastError
+0x40f308	0x41c468	string	0x40f224	GenerateExeWithTrash(): fio_write() failed i=%u
+0x40f30d	0x41005c	import	0x40f224	KERNEL32.dll.GetLastError
+0x40f327	0x41c434	string	0x40f224	GenerateExeWithTrash(): success dwFileSize=%u bytes
+0x40f336	0x410058	import	0x40f224	KERNEL32.dll.CloseHandle
+0x40f362	0x41009c	import	0x40f351	KERNEL32.dll.lstrlenA
+0x40f40e	0x41c540	string	0x40f351	StrReplace(): '%s' replaced ok with '%s'
+0x40f458	0x410168	import	0x40f458	NETAPI32.dll.NetApiBufferFree
+0x40f45e	0x410160	import	0x40f45e	NETAPI32.dll.NetUserEnum
+0x40f464	0x410164	import	0x40f464	NETAPI32.dll.NetGetDCName

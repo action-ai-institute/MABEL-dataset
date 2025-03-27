@@ -1,0 +1,540 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x1000108a	0x1001e3d4	string	0x1000100f	[-] Error retrieving parameters\n
+0x10001130	0x1001e3c0	string	0x1000100f	\n[*] Exploit Info:
+0x10001142	0x1001e3a0	string	0x1000100f	\n\t[*] TargetIp %s
+0x10001153	0x1001e37c	string	0x1000100f	\n\t[*] TargetPort %hu
+0x10001162	0x1001e35c	string	0x1000100f	\n\t[*] Redirected TargetIP %s
+0x10001173	0x1001e338	string	0x1000100f	\n\t[*] Redirected TargetPort %hu
+0x10001187	0x1001e314	string	0x1000100f	\n\t[*] NetworkTimeout %hu
+0x10001196	0x1001e2f4	string	0x1000100f	\n\t[*] Credentials %s
+0x100011a5	0x1001e2d4	string	0x1000100f	\n\t[*] Target %s
+0x100011bc	0x1001e2b4	string	0x1000100f	\n\t[*] Pipe %s
+0x100011d3	0x1001e290	string	0x1000100f	\n\t[*] Share %ls
+0x100011e5	0x1001e26c	string	0x1000100f	\n\t[*] MaxExploitAttempts %d\n\n
+0x10001298	0x1001e15c	import	0x1000100f	msvcrt.dll.malloc
+0x100012a6	0x1001e220	string	0x1000100f	[-] Error allocating buffer to serialize input parameters; malloc() failed\n
+0x100012e6	0x1001e154	import	0x100012da	msvcrt.dll.free
+0x10001309	0x1001e458	string	0x10001301	\n\n[-] Exploit Failed:\n
+0x10001343	0x1001e44c	string	0x10001301	<unknown>
+0x1000134f	0x1001e438	string	0x10001301	\t0x%08X: %s @ %d\n
+0x1000137a	0x1001e414	string	0x10001301	\n\tExploit returned error: 0x%08X\n
+0x100013a0	0x1001e3fc	string	0x10001301	\tDetails: 0x%08X - %s\n
+0x100013e3	0x1001e53c	string	0x100013c8	[-] Invalid context for cleanup()\n
+0x10001414	0x1001e534	string	0x100013c8	did NOT
+0x10001421	0x1001e4fc	string	0x100013c8	[*] Hookup: Reader thread %s terminate normally\n
+0x10001433	0x1001e4d0	string	0x100013c8	[*] Hookup: Proxy thread exit code: 0x%08x\n
+0x1000145a	0x1001e4a0	string	0x100013c8	[*] Loopback: Core thread exit code: 0x%08x\n
+0x1000146c	0x1001e470	string	0x100013c8	[*] Loopback: Proxy thread exit code: 0x%08x\n
+0x10001488	0x1001e154	import	0x100013c8	msvcrt.dll.free
+0x100014a3	0x1001e15c	import	0x10001494	msvcrt.dll.malloc
+0x100014b0	0x1001e698	string	0x10001494	[-] Error allocating cleanup context; malloc() failed...\n
+0x100014ca	0x1001e688	string	0x10001494	DaveProxyPort
+0x100014e6	0x100014f1	string	0x10001494	Wf9]
+0x100014e8	0x1001e650	string	0x10001494	[-] Error retrieving input parameter 'DaveProxyPort'\n
+0x10001520	0x1001e61c	string	0x10001494	[-] Error starting DAVE Hookup engine; aborting...\n
+0x1000153c	0x1001e5e4	string	0x10001494	[-] Error getting output back from Core; aborting...\n
+0x1000155c	0x1001e534	string	0x10001494	did NOT
+0x1000156c	0x1001e4fc	string	0x10001494	[*] Hookup: Reader thread %s terminate normally\n
+0x1000157c	0x1001e4d0	string	0x10001494	[*] Hookup: Proxy thread exit code: 0x%08x\n
+0x100015d4	0x1001e5ac	string	0x10001494	[-] Error starting DAVE Loopback engine; aborting...\n
+0x100015f1	0x1001e5e4	string	0x10001494	[-] Error getting output back from Core; aborting...\n
+0x10001611	0x1001e588	string	0x10001494	[*] Core thread exit code: 0x%08x\n
+0x10001621	0x1001e560	string	0x10001494	[*] Proxy thread exit code: 0x%08x\n
+0x10001668	0x1001e7b4	string	0x10001645	Credentials
+0x10001685	0x1001e688	string	0x10001645	DaveProxyPort
+0x100016a5	0x1001e7a0	string	0x10001645	MaxExploitAttempts
+0x100016c5	0x1001e790	string	0x10001645	NetworkTimeout
+0x100016e5	0x1001e784	string	0x10001645	NtlmHash
+0x1000170a	0x1001e778	string	0x10001645	Password
+0x1000172f	0x1001e76c	string	0x10001645	PipeName
+0x1000174f	0x1001e760	string	0x10001645	Protocol
+0x1000176f	0x1001e74c	string	0x10001645	RedirectedTargetIp
+0x1000179f	0x1001e734	string	0x10001645	RedirectedTargetPort
+0x100017cf	0x1001e728	string	0x10001645	ShareName
+0x100017f4	0x1001e718	string	0x10001645	ShellcodeBuffer
+0x10001819	0x1001e710	string	0x10001645	Target
+0x10001839	0x1001e704	string	0x10001645	TargetIp
+0x10001859	0x1001e6ec	string	0x10001645	TargetOsArchitecture
+0x10001879	0x1001e6e0	string	0x10001645	TargetPort
+0x10001899	0x1001e6d4	string	0x10001645	Username
+0x100018d2	0x1001f464	string	0x100018c4	[!] Received unknown status message (code=%d, arg=%x)\n
+0x10001957	0x1001f56c	string	0x10001900	[-] Error allocating async message buffer; malloc() failed...\n
+0x1000198b	0x1001e008	import	0x10001900	KERNEL32.dll.Sleep
+0x100019b9	0x1001f528	string	0x10001900	[!] Unhandled DAVE message type (%x) received from CORE (%u bytes)\n
+0x10001a03	0x1001f50c	string	0x10001900	[*] CORE raw buffer dump
+0x10001a20	0x1001f4dc	string	0x10001900	[+] CORE terminated with status code 0x%08x\n
+0x10001a4b	0x1001f49c	string	0x10001900	[-] Error polling for async message from CORE: DAVE status %x\n
+0x10001a89	0x1001e15c	import	0x10001a75	msvcrt.dll.malloc
+0x10001ade	0x1001e150	import	0x10001aa3	msvcrt.dll.realloc
+0x10001b47	0x1001e154	import	0x10001b3a	msvcrt.dll.free
+0x10001b60	0x1001e15c	import	0x10001b5d	msvcrt.dll.malloc
+0x10001b86	0x1001e154	import	0x10001b5d	msvcrt.dll.free
+0x10001bb8	0x1001e15c	import	0x10001ba6	msvcrt.dll.malloc
+0x10001c3f	0x1001e154	import	0x10001ba6	msvcrt.dll.free
+0x10001c97	0x1001e154	import	0x10001c4b	msvcrt.dll.free
+0x10001cd4	0x1001e154	import	0x10001cd3	msvcrt.dll.free
+0x10001d33	0x1001e154	import	0x10001d22	msvcrt.dll.free
+0x10001d71	0x1001e0b4	import	0x10001d3d	WS2_32.dll.send
+0x10001dc6	0x10019cd0	string	0x10001d3d	;\r@h
+0x10001ddd	0x1001e154	import	0x10001dd4	msvcrt.dll.free
+0x10001df7	0x1001e064	import	0x10001df3	KERNEL32.dll.EnterCriticalSection
+0x10001e02	0x1001e00c	import	0x10001dfe	KERNEL32.dll.LeaveCriticalSection
+0x10001e0d	0x1001e064	import	0x10001e09	KERNEL32.dll.EnterCriticalSection
+0x10001e18	0x1001e00c	import	0x10001e14	KERNEL32.dll.LeaveCriticalSection
+0x10001e29	0x1001e010	import	0x10001e14	KERNEL32.dll.SetEvent
+0x10001e59	0x1001e018	import	0x10001e30	KERNEL32.dll.WaitForMultipleObjects
+0x10001e7c	0x1001e014	import	0x10001e30	KERNEL32.dll.WaitForSingleObject
+0x10001ebf	0x1001e018	import	0x10001e99	KERNEL32.dll.WaitForMultipleObjects
+0x10001ec5	0x1001e024	import	0x10001e99	KERNEL32.dll.GetExitCodeThread
+0x10001eeb	0x1001e020	import	0x10001e99	KERNEL32.dll.DeleteCriticalSection
+0x10001f05	0x1001e01c	import	0x10001e99	KERNEL32.dll.CloseHandle
+0x10001f24	0x1001e064	import	0x10001f20	KERNEL32.dll.EnterCriticalSection
+0x10001f2f	0x1001e00c	import	0x10001f2b	KERNEL32.dll.LeaveCriticalSection
+0x10001f3d	0x1001e010	import	0x10001f2b	KERNEL32.dll.SetEvent
+0x10001f74	0x1001e15c	import	0x10001f44	msvcrt.dll.malloc
+0x10001f9a	0x1001e0ac	import	0x10001f44	WS2_32.dll.recv
+0x10001fca	0x1001f66c	string	0x10001f44	[*] Got DAVE MSG header (type=%x, length=%u)\n
+0x10001fe5	0x1001e150	import	0x10001f44	msvcrt.dll.realloc
+0x10002010	0x1001e0ac	import	0x10001f44	WS2_32.dll.recv
+0x10002028	0x1001e064	import	0x10001f44	KERNEL32.dll.EnterCriticalSection
+0x10002041	0x1001e00c	import	0x10001f44	KERNEL32.dll.LeaveCriticalSection
+0x1000205e	0x1001e154	import	0x10001f44	msvcrt.dll.free
+0x1000206b	0x1001e0b0	import	0x10001f44	WS2_32.dll.WSAGetLastError
+0x10002072	0x1001f634	string	0x10001f44	[!] Hookup readerThread terminating abnormally... (%d)\n
+0x1000208f	0x10019cd0	string	0x10001f44	;\r@h
+0x100020e3	0x1001e018	import	0x100020bd	KERNEL32.dll.WaitForMultipleObjects
+0x10002103	0x1001e014	import	0x100020bd	KERNEL32.dll.WaitForSingleObject
+0x10002157	0x1001e018	import	0x10002120	KERNEL32.dll.WaitForMultipleObjects
+0x1000215d	0x1001e024	import	0x10002120	KERNEL32.dll.GetExitCodeThread
+0x1000218e	0x1001e020	import	0x10002120	KERNEL32.dll.DeleteCriticalSection
+0x10002197	0x1001e01c	import	0x10002120	KERNEL32.dll.CloseHandle
+0x1000228b	0x1001e15c	import	0x1000227a	msvcrt.dll.malloc
+0x10002339	0x1001e154	import	0x1000227a	msvcrt.dll.free
+0x1000237f	0x1001e15c	import	0x10002379	msvcrt.dll.malloc
+0x100023ec	0x1001e154	import	0x10002379	msvcrt.dll.free
+0x10002421	0x1001e030	import	0x100023f8	KERNEL32.dll.InitializeCriticalSection
+0x10002437	0x1001e02c	import	0x100023f8	KERNEL32.dll.CreateEventW
+0x1000244a	0x1001e028	import	0x100023f8	KERNEL32.dll.CreateThread
+0x10002498	0x1001e01c	import	0x100023f8	KERNEL32.dll.CloseHandle
+0x10002503	0x10002379	string	0x100024c9	VWjX3
+0x10002546	0x1001e030	import	0x100024c9	KERNEL32.dll.InitializeCriticalSection
+0x10002550	0x1001e02c	import	0x100024c9	KERNEL32.dll.CreateEventW
+0x1000256a	0x1001e08c	import	0x100024c9	WS2_32.dll.WSAStartup
+0x10002575	0x1001f810	string	0x100024c9	[-] Hookup engine failed to initialize Winsock 2.2 (%d)\n
+0x10002592	0x1001e090	import	0x100024c9	WS2_32.dll.socket
+0x100025a2	0x1001e0b0	import	0x100024c9	WS2_32.dll.WSAGetLastError
+0x100025a9	0x1001f7e0	string	0x100024c9	[-] Hookup engine failed to create socket (%d)\n
+0x100025b5	0x1001f7d4	string	0x100024c9	127.0.0.1
+0x100025c1	0x1001e094	import	0x100024c9	WS2_32.dll.inet_addr
+0x100025d3	0x1001e098	import	0x100024c9	WS2_32.dll.htons
+0x100025ea	0x1001e0e4	import	0x100024c9	WS2_32.dll.bind
+0x100025f4	0x1001e0b0	import	0x100024c9	WS2_32.dll.WSAGetLastError
+0x10002603	0x1001f794	string	0x100024c9	[-] Hookup engine failed to bind socket to localhost:%d (%d)\n
+0x1000261d	0x1001e09c	import	0x100024c9	WS2_32.dll.listen
+0x10002627	0x1001e0b0	import	0x100024c9	WS2_32.dll.WSAGetLastError
+0x1000262e	0x1001f750	string	0x100024c9	[-] Hookup engine failed to start listening for connecitons (%d)\n
+0x1000263b	0x1001e0a0	import	0x100024c9	WS2_32.dll.accept
+0x10002648	0x1001e0b0	import	0x100024c9	WS2_32.dll.WSAGetLastError
+0x1000264f	0x1001f710	string	0x100024c9	[-] Hookup engine failed to accept hookup connection (%d)\n
+0x10002659	0x1001e028	import	0x100024c9	KERNEL32.dll.CreateThread
+0x10002672	0x1001e034	import	0x100024c9	KERNEL32.dll.GetLastError
+0x10002679	0x1001f6d8	string	0x100024c9	[-] Hookup engine failed to launch reader thread (%d)\n
+0x100026a7	0x1001e034	import	0x100024c9	KERNEL32.dll.GetLastError
+0x100026ae	0x1001f69c	string	0x100024c9	[-] Hookup engine failed to launch EDF-Proxy thread (%d)\n
+0x100026c9	0x1001e01c	import	0x100024c9	KERNEL32.dll.CloseHandle
+0x100026d7	0x1001e01c	import	0x100024c9	KERNEL32.dll.CloseHandle
+0x100026df	0x1001e0a4	import	0x100024c9	WS2_32.dll.closesocket
+0x10002700	0x1001e01c	import	0x100024c9	KERNEL32.dll.CloseHandle
+0x1000270b	0x1001e0a8	import	0x100024c9	WS2_32.dll.WSACleanup
+0x1000271f	0x10019cd0	string	0x100024c9	;\r@h
+0x10002b91	0x1001fc28	string	0x10002839	IPC$
+0x10002cc0	0x1001fc1c	string	0x10002839	Guest
+0x10002eab	0x10002d1c	string	0x10002d1c	SUVW
+0x1000379f	0x100037cd	string	0x10003681	WWWS
+0x100038b4	0x100038c7	string	0x10003681	SSWWSS
+0x10003bc1	0x1001e008	import	0x10003b9b	KERNEL32.dll.Sleep
+0x10003ccd	0x1001e008	import	0x10003c94	KERNEL32.dll.Sleep
+0x10003e13	0x1001e008	import	0x10003c94	KERNEL32.dll.Sleep
+0x10003f7b	0x10003fcc	string	0x10003f13	j@Xf
+0x10003fbe	0x10003fcc	string	0x10003f13	j@Xf
+0x10005433	0x1000544b	string	0x100053d3	8^,t\eW
+0x1000591a	0x1001e148	import	0x10005836	msvcrt.dll.memmove
+0x100059b4	0x1001fc38	string	0x1000595e	WrLehDO
+0x10005ba2	0x10019cd0	string	0x1000595e	;\r@h
+0x10005d2c	0x1001e148	import	0x10005ba9	msvcrt.dll.memmove
+0x10005def	0x1001fc54	string	0x10005da2	zb12g12DWrLehig24
+0x10005f53	0x1001fc44	string	0x10005da2	\PIPE\LANMAN
+0x10006030	0x10019cd0	string	0x10005da2	;\r@h
+0x100061d0	0x10006236	string	0x10006037	WWWS
+0x100064fd	0x10019cd0	string	0x10006037	;\r@h
+0x10006564	0x1001e008	import	0x10006507	KERNEL32.dll.Sleep
+0x10006598	0x1001e180	import	0x10006598	trch-1.dll.Parameter_U8_getValue
+0x1000659e	0x1001e184	import	0x1000659e	trch-1.dll.Parameter_U32_getValue
+0x100065a4	0x1001e1a8	import	0x100065a4	trch-1.dll.Params_findParameter
+0x100065aa	0x1001e1a4	import	0x100065aa	trch-1.dll.Parameter_Port_getValue
+0x100065b0	0x1001e1a0	import	0x100065b0	trch-1.dll.Parameter_IPv4_getValue
+0x100065b6	0x1001e19c	import	0x100065b6	trch-1.dll.Parameter_hasValue
+0x100065bc	0x1001e198	import	0x100065bc	trch-1.dll.Parameter_String_getValue
+0x100065c2	0x1001e194	import	0x100065c2	trch-1.dll.Parameter_Buffer_getValue
+0x100065c8	0x1001e190	import	0x100065c8	trch-1.dll.Parameter_S16_getValue
+0x100065ce	0x1001e18c	import	0x100065ce	trch-1.dll.Paramchoice_getValue
+0x100065d4	0x1001e188	import	0x100065d4	trch-1.dll.Params_findParamchoice
+0x100065da	0x1001e1b4	import	0x100065da	tucl-1.dll.TcLog
+0x100065e0	0x1001e1b0	import	0x100065e0	tucl-1.dll.TcLogBuffer
+0x1000664d	0x10019cd0	string	0x1000660b	;\r@h
+0x10006778	0x1001fc78	string	0x10006775	Windows NT 1381
+0x10006794	0x1001fc68	string	0x10006775	Windows NT 4.0
+0x10006816	0x1001fc9c	string	0x10006813	Windows 2000 2195
+0x10006832	0x1001fc88	string	0x10006813	Windows 2000 5.0
+0x100068af	0x1001fcc4	string	0x100068ac	Windows 2002 2600
+0x100068cb	0x1001fcb0	string	0x100068ac	Windows 2002 5.1
+0x10006948	0x1001fcd8	string	0x10006945	Windows 2002 Service Pack 2 2600
+0x10006964	0x1001fcb0	string	0x10006945	Windows 2002 5.1
+0x100069f3	0x1001fcfc	string	0x100069de	Windows 2002 Service Pack 3 2600
+0x10006a10	0x1001fd38	string	0x10006a0d	Windows Server 2003 3790
+0x10006a2c	0x1001fd20	string	0x10006a0d	Windows Server 2003 5.2
+0x10006abb	0x1001fd54	string	0x10006aa6	Windows Server 2003 3790 Service Pack 1
+0x10006aea	0x1001fd7c	string	0x10006ad5	Windows Server 2003 3790 Service Pack 2
+0x10006c3b	0x1001fdb4	string	0x10006c38	Unix
+0x10006c57	0x1001fda4	string	0x10006c38	Samba 4.0.0tp4
+0x10006ce0	0x1001fdbc	string	0x10006cd1	Windows XP 3790 Service Pack 1
+0x10006d0c	0x1001fddc	string	0x10006cfd	Windows XP 3790 Service Pack 2
+0x10006d37	0x1001e098	import	0x10006d29	WS2_32.dll.htons
+0x1000792c	0x10019cd0	string	0x100077b9	;\r@h
+0x10007c3a	0x10019cd0	string	0x10007b0a	;\r@h
+0x10007e05	0x10007e27	string	0x10007c41	_^[]
+0x10007e19	0x10007e27	string	0x10007c41	_^[]
+0x10007e20	0x10007e27	string	0x10007c41	_^[]
+0x10007e65	0x1001fe9c	string	0x10007e2c	NT Error: Error=%x
+0x10007e71	0x1001fe88	string	0x10007e2c	Dos Error: Error=%x
+0x10007e7d	0x1001fe70	string	0x10007e2c	Server Error: Error=%x
+0x10007e89	0x1001fe54	string	0x10007e2c	Hardware Error: Error=%x
+0x10007e95	0x1001fe40	string	0x10007e2c	Warning: Error=%x
+0x10007ea1	0x1001fe20	string	0x10007e2c	Command Format Error: Error=%x
+0x10007eac	0x1001e144	import	0x10007e2c	msvcrt.dll._snprintf
+0x10007eb5	0x10007ecf	string	0x10007e2c	_^[]
+0x10007ebb	0x1001fe04	string	0x10007e2c	ErrorClass: %x Error=%x
+0x10007ec6	0x1001e144	import	0x10007e2c	msvcrt.dll._snprintf
+0x10007f09	0x10019cd0	string	0x10007ed4	;\r@h
+0x10008101	0x10019cd0	string	0x10007f10	;\r@h
+0x10008464	0x10019cd0	string	0x100082d0	;\r@h
+0x1000864a	0x10019cd0	string	0x1000846e	;\r@h
+0x1000867d	0x100086b3	string	0x10008654	^Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x100087fe	0x1001ffc0	string	0x100087ee	PC NETWORK PROGRAM 1.0
+0x10008804	0x1001ffb4	string	0x100087ee	PCLAN1.0
+0x1000880a	0x1001ff9c	string	0x100087ee	MICROSOFT NETWORKS 1.03
+0x10008810	0x1001ff84	string	0x100087ee	MICROSOFT NETWORKS 3.0
+0x10008816	0x1001ff78	string	0x100087ee	LANMAN1.0
+0x1000881c	0x1001ff6c	string	0x100087ee	LM1.2X002
+0x10008822	0x1001ff5c	string	0x100087ee	DOS LM1.2X002
+0x10008828	0x1001ff50	string	0x100087ee	LANMAN2.1
+0x1000882e	0x1001ff40	string	0x100087ee	DOS LANMAN2.1
+0x10008834	0x1001ff34	string	0x100087ee	NT LM 0.12
+0x1000883a	0x1001ff28	string	0x100087ee	Cairo 0.xa
+0x10008840	0x1001ff1c	string	0x100087ee	NT LM 0.13
+0x10008846	0x1001ff10	string	0x100087ee	XENIX CORE
+0x1000884c	0x1001fef4	string	0x100087ee	Windows for Workgroups 3.1a
+0x10008852	0x1001feec	string	0x100087ee	Samba
+0x10008858	0x1001fedc	string	0x100087ee	NT LANMAN 1.0
+0x1000885e	0x1001fed0	string	0x100087ee	SMB 2.001
+0x10008864	0x1001fec4	string	0x100087ee	SMB 2.002
+0x1000886a	0x1001feb8	string	0x100087ee	SMB 2.???
+0x10008870	0x1001feb0	string	0x100087ee	ILLEGAL
+0x10009fd6	0x1001e008	import	0x10009ed9	KERNEL32.dll.Sleep
+0x1000a11f	0x10019cd0	string	0x10009ed9	;\r@h
+0x1000a16a	0x1001ffd8	string	0x1000a129	IPC$
+0x1000a212	0x1000a225	string	0x1000a129	9u\fu
+0x1000a27a	0x1000a287	string	0x1000a129	9u\fu
+0x1000a76f	0x1000a776	string	0x1000a55e	_^[]
+0x1000aea4	0x10019cd0	string	0x1000aa7f	;\r@h
+0x1000b1e8	0x10019cd0	string	0x1000b0d3	;\r@h
+0x1000b2c1	0x1001ffec	string	0x1000b269	*SMBCLIENT
+0x1000b307	0x1001ffe0	string	0x1000b269	*SMBSERVER
+0x1000b553	0x10019cd0	string	0x1000b361	;\r@h
+0x1000b636	0x10019cd0	string	0x1000b5e3	;\r@h
+0x1000b7df	0x10019cd0	string	0x1000b734	;\r@h
+0x1000bc03	0x10019cd0	string	0x1000babd	;\r@h
+0x1000c362	0x1000c36e	string	0x1000c34f	9}Lu\n
+0x1000c3cb	0x1000c3d0	string	0x1000c34f	j9Xf
+0x1000c785	0x1000c78c	string	0x1000c605	_^[]
+0x1000c916	0x1001fff8	string	0x1000c791	LPT1:
+0x1000c9fc	0x10020008	string	0x1000c9a9	?????
+0x1000cc06	0x10019cd0	string	0x1000cab1	;\r@h
+0x1000cd92	0x1000cd9c	string	0x1000cd48	Wj\tj
+0x1000cf86	0x1000cf9f	string	0x1000ce07	9~4v:
+0x1000cfe5	0x1000d000	string	0x1000ce07	_^[]
+0x1000cff2	0x1000d000	string	0x1000ce07	_^[]
+0x1000cff9	0x1000d000	string	0x1000ce07	_^[]
+0x1000d8b5	0x10019cd0	string	0x1000d5e6	;\r@h
+0x1000dcbb	0x10019cd0	string	0x1000d8bc	;\r@h
+0x1000efef	0x10019cd0	string	0x1000eed9	;\r@h
+0x1000f0e5	0x10019cd0	string	0x1000eff9	;\r@h
+0x1000f695	0x1001e174	import	0x1000f67a	msvcrt.dll.calloc
+0x1000f6dc	0x1001e094	import	0x1000f6b7	WS2_32.dll.inet_addr
+0x1000f6f6	0x1001e174	import	0x1000f6f4	msvcrt.dll.calloc
+0x1000f71b	0x1001e154	import	0x1000f6f4	msvcrt.dll.free
+0x1000f773	0x1001e088	import	0x1000f75e	WS2_32.dll.gethostbyname
+0x1000f7cd	0x1000f7fa	string	0x1000f75e	_^[]
+0x1000f7d2	0x1000f7fa	string	0x1000f75e	_^[]
+0x1000f7d4	0x1001e0b0	import	0x1000f75e	WS2_32.dll.WSAGetLastError
+0x1000f7e3	0x1000f7fa	string	0x1000f75e	_^[]
+0x1000f7ec	0x1000f7fa	string	0x1000f75e	_^[]
+0x1000f7f3	0x1000f7fa	string	0x1000f75e	_^[]
+0x1000f92d	0x10019cd0	string	0x1000f801	;\r@h
+0x1000f989	0x1001e154	import	0x1000f97c	msvcrt.dll.free
+0x1000fa7c	0x1000fb66	string	0x1000f9b8	9}\bt<
+0x1000fa8b	0x1001e0f8	import	0x1000f9b8	msvcrt.dll.strtoul
+0x1000faa3	0x1001e098	import	0x1000f9b8	WS2_32.dll.htons
+0x1000fab7	0x1000fb66	string	0x1000f9b8	9}\bt<
+0x1000fac3	0x1000fb66	string	0x1000f9b8	9}\bt<
+0x1000fad4	0x1001e0e8	import	0x1000f9b8	WS2_32.dll.getservbyname
+0x1000fbbe	0x1001e0e0	import	0x1000f9b8	WS2_32.dll.htonl
+0x1000fbf6	0x1001e0dc	import	0x1000f9b8	WS2_32.dll.inet_ntoa
+0x1000fc5f	0x1002001c	string	0x1000fc43	65535
+0x1000fcef	0x1001e0c0	import	0x1000fc43	WS2_32.dll.getservbyport
+0x1000fd04	0x1001e0bc	import	0x1000fc43	WS2_32.dll.ntohs
+0x1000fd6a	0x1001e0b8	import	0x1000fc43	WS2_32.dll.gethostbyaddr
+0x1000fd85	0x1001e164	import	0x1000fc43	msvcrt.dll.strchr
+0x1000fd9c	0x1001e0b0	import	0x1000fc43	WS2_32.dll.WSAGetLastError
+0x1000fdc0	0x10019cd0	string	0x1000fc43	;\r@h
+0x1000fe23	0x10020050	string	0x1000fe01	getaddrinfo
+0x1000fe31	0x10020044	string	0x1000fe01	getnameinfo
+0x1000fe3f	0x10020034	string	0x1000fe01	freeaddrinfo
+0x1000fe5c	0x1001e040	import	0x1000fe01	KERNEL32.dll.GetSystemDirectoryA
+0x1000fe83	0x1002002c	string	0x1000fe01	\ws2_32
+0x1000fe95	0x1001e03c	import	0x1000fe01	KERNEL32.dll.LoadLibraryA
+0x1000fead	0x10020050	string	0x1000fe01	getaddrinfo
+0x1000feb3	0x1001e000	import	0x1000fe01	KERNEL32.dll.GetProcAddress
+0x1000febe	0x1001e038	import	0x1000fe01	KERNEL32.dll.FreeLibrary
+0x1000fedb	0x10020024	string	0x1000fe01	\wship6
+0x1000feff	0x10020050	string	0x1000fe01	getaddrinfo
+0x1000ff05	0x1001e000	import	0x1000fe01	KERNEL32.dll.GetProcAddress
+0x1000ff10	0x1001e038	import	0x1000fe01	KERNEL32.dll.FreeLibrary
+0x1000ff23	0x1001e000	import	0x1000fe01	KERNEL32.dll.GetProcAddress
+0x1000ff3a	0x1001e038	import	0x1000fe01	KERNEL32.dll.FreeLibrary
+0x1000ff7d	0x10019cd0	string	0x1000fe01	;\r@h
+0x1000ffb6	0x1001e0c4	import	0x1000ff8c	WS2_32.dll.WSASetLastError
+0x1000fff5	0x1001e0c4	import	0x1000ffc2	WS2_32.dll.WSASetLastError
+0x10010062	0x1001e0c8	import	0x10010040	WS2_32.dll.getsockopt
+0x1001013e	0x1001e0bc	import	0x100100e3	WS2_32.dll.ntohs
+0x10010153	0x1001015a	string	0x100100e3	^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001021a	0x1001e098	import	0x10010184	WS2_32.dll.htons
+0x100102c3	0x1001e08c	import	0x100102a2	WS2_32.dll.WSAStartup
+0x100102e5	0x10019cd0	string	0x100102a2	;\r@h
+0x1001038e	0x1001e090	import	0x10010312	WS2_32.dll.socket
+0x100103e1	0x1001e0cc	import	0x10010312	WS2_32.dll.setsockopt
+0x100103f6	0x1001e0a4	import	0x10010312	WS2_32.dll.closesocket
+0x10010406	0x1001e0e4	import	0x10010312	WS2_32.dll.bind
+0x1001041a	0x1001e09c	import	0x10010312	WS2_32.dll.listen
+0x1001043d	0x1001e0a4	import	0x1001042b	WS2_32.dll.closesocket
+0x100106c2	0x1001e0d4	import	0x10010632	WS2_32.dll.connect
+0x100106fc	0x1001e0d0	import	0x10010632	WS2_32.dll.select
+0x10010773	0x1001e0d8	import	0x10010762	WS2_32.dll.ioctlsocket
+0x1001079b	0x1001e0d8	import	0x10010788	WS2_32.dll.ioctlsocket
+0x10010826	0x1001e0d0	import	0x100107b0	WS2_32.dll.select
+0x10010850	0x1001e0b4	import	0x100107b0	WS2_32.dll.send
+0x10010908	0x1001e0d0	import	0x1001089c	WS2_32.dll.select
+0x1001092f	0x1001e0ac	import	0x1001089c	WS2_32.dll.recv
+0x10010cac	0x10010d05	string	0x10010c9c	^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10010d6d	0x10010d71	string	0x10010d08	^ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10010e12	0x10010e30	string	0x10010df8	^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10010e2c	0x10010e30	string	0x10010df8	^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001118d	0x10011191	string	0x1001115e	]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001151b	0x10011551	string	0x100114ca	_^ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001154a	0x10011551	string	0x100114ca	_^ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x100119a4	0x10011a16	string	0x10011983	_[ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x100127ca	0x10019cd0	string	0x100124f5	;\r@h
+0x10012895	0x100128b6	string	0x100124f5	^ËD$\b blocks=Basic Latin,Latin-1 Supplement
+0x100128c6	0x100128e7	string	0x100128b8	^ËD$\b blocks=Basic Latin,Latin-1 Supplement
+0x10012be3	0x10012bef	string	0x10012b8a	jXSP
+0x10012fee	0x10012ffa	string	0x10012f88	jHSP
+0x10014154	0x10019cd0	string	0x10014029	;\r@h
+0x1001458e	0x1001459a	string	0x100144f5	jXSP
+0x10014728	0x10019cd0	string	0x100144f5	;\r@h
+0x10014a03	0x10019cd0	string	0x10014999	;\r@h
+0x10014ae6	0x10014aed	string	0x10014a0a	_^[]
+0x10014dab	0x10019cd0	string	0x10014a0a	;\r@h
+0x100151b1	0x10019cd0	string	0x10014dbc	;\r@h
+0x10015391	0x10019cd0	string	0x10014dbc	;\r@h
+0x10015405	0x10019cd0	string	0x1001539e	;\r@h
+0x10015651	0x1001e0fc	import	0x1001540c	msvcrt.dll.toupper
+0x10015919	0x10019cd0	string	0x1001540c	;\r@h
+0x10015b1f	0x10019cd0	string	0x10015923	;\r@h
+0x100160cb	0x10019cd0	string	0x10015b29	;\r@h
+0x10016197	0x10019cd0	string	0x100160d5	;\r@h
+0x10016204	0x10019cd0	string	0x1001619e	;\r@h
+0x10016559	0x1001657a	string	0x1001652c	^_ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10016573	0x1001657a	string	0x1001652c	^_ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x100165c9	0x10016630	string	0x100165a1	_^[]
+0x10016629	0x10016630	string	0x100165a1	_^[]
+0x10016772	0x1001679c	string	0x10016732	[_^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1001678e	0x1001679c	string	0x10016732	[_^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10016795	0x1001679c	string	0x10016732	[_^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10016800	0x1001684d	string	0x100167d4	_^ËL$ blocks=Basic Latin,Latin-1 Supplement
+0x1001682c	0x1001684d	string	0x100167d4	_^ËL$ blocks=Basic Latin,Latin-1 Supplement
+0x10016846	0x1001684d	string	0x100167d4	_^ËL$ blocks=Basic Latin,Latin-1 Supplement
+0x10016935	0x10016939	string	0x1001688d	^[_]
+0x1001696f	0x1001e100	import	0x1001695b	msvcrt.dll.tolower
+0x1001699d	0x100169a6	string	0x1001695b	_^][Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x100169a1	0x100169a6	string	0x1001695b	_^][Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x10016afc	0x1001e104	import	0x10016ad1	msvcrt.dll.memchr
+0x10016b1e	0x10016b16	string	0x10016b0b	@AA3
+0x10016b9e	0x10016bcd	string	0x10016b52	_^[]
+0x10016bc2	0x10016bcd	string	0x10016b52	_^[]
+0x10016bc6	0x10016bcd	string	0x10016b52	_^[]
+0x10016c24	0x10016c4a	string	0x10016bd2	u\t9u
+0x10016cd0	0x10016cf4	string	0x10016c7a	[_^]
+0x10016cda	0x10016cf4	string	0x10016c7a	[_^]
+0x10016cec	0x10016cf4	string	0x10016c7a	[_^]
+0x10017280	0x100172c8	string	0x10017257	^[]Ã|$\b blocks=Basic Latin,Latin-1 Supplement
+0x10017298	0x100172c8	string	0x10017257	^[]Ã|$\b blocks=Basic Latin,Latin-1 Supplement
+0x100172b0	0x100172c8	string	0x10017257	^[]Ã|$\b blocks=Basic Latin,Latin-1 Supplement
+0x100172c6	0x100172c8	string	0x10017257	^[]Ã|$\b blocks=Basic Latin,Latin-1 Supplement
+0x10017316	0x1002005c	string	0x100172cc	%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X
+0x1001731f	0x1001e108	import	0x100172cc	msvcrt.dll.sprintf
+0x10017398	0x100173a1	string	0x1001735b	9u t\v9u
+0x100175eb	0x1001761a	string	0x100175de	^]ËD$\b blocks=Basic Latin,Latin-1 Supplement
+0x1001760b	0x1001761a	string	0x100175de	^]ËD$\b blocks=Basic Latin,Latin-1 Supplement
+0x100176c6	0x1001e034	import	0x100176c6	KERNEL32.dll.GetLastError
+0x100177c8	0x100176e0	string	0x1001778e	SUVW3=
+0x1001796e	0x1001e154	import	0x10017967	msvcrt.dll.free
+0x10017988	0x1001e15c	import	0x10017975	msvcrt.dll.malloc
+0x100179d8	0x1001e048	import	0x100179be	KERNEL32.dll.GetSystemTime
+0x100179e6	0x1001e044	import	0x100179be	KERNEL32.dll.SystemTimeToFileTime
+0x10017a7d	0x10017aa1	string	0x10017a63	^_]Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x10017a82	0x10017aa1	string	0x10017a63	^_]Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x10017a87	0x10017aa1	string	0x10017a63	^_]Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x10017a8c	0x10017aa1	string	0x10017a63	^_]Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x10017a90	0x10017aa1	string	0x10017a63	^_]Ã|$ blocks=Basic Latin,Latin-1 Supplement
+0x1001851d	0x10018522	string	0x100184f0	j@X+ÉE blocks=Basic Latin,Latin-1 Supplement
+0x1001866c	0x10019cd0	string	0x100185ad	;\r@h
+0x1001877a	0x10019cd0	string	0x100186e9	;\r@h
+0x100187e8	0x10019cd0	string	0x10018781	;\r@h
+0x10018866	0x10019cd0	string	0x100187ef	;\r@h
+0x100188df	0x10019cd0	string	0x1001886d	;\r@h
+0x10018fe4	0x10018fe9	string	0x10018fb7	j@X+ÉE blocks=Basic Latin,Latin-1 Supplement
+0x10019133	0x10019cd0	string	0x10019074	;\r@h
+0x10019189	0x10019cd0	string	0x1001913a	;\r@h
+0x10019314	0x10019cd0	string	0x1001925f	;\r@h
+0x100193bc	0x100193c1	string	0x10019396	^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x10019c05	0x10019cd0	string	0x10019b0c	;\r@h
+0x10019c95	0x10022c48	string	0x10019c0e	Invalid parameter passed to C runtime function.\n
+0x10019ca0	0x1001e04c	import	0x10019c0e	KERNEL32.dll.OutputDebugStringA
+0x10019cab	0x10019cd0	string	0x10019c0e	;\r@h
+0x10019cbe	0x1001e168	import	0x10019cbe	msvcrt.dll._errno
+0x10019d20	0x1001e168	import	0x10019d0b	msvcrt.dll._errno
+0x10019dbd	0x10019dfb	string	0x10019d8c	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10019e31	0x10019e63	string	0x10019e00	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10019fcb	0x10019cd0	string	0x10019f20	;\r@h
+0x1001a04c	0x1001a057	string	0x1001a042	_^[]
+0x1001a109	0x1001a012	string	0x1001a080	UVWS
+0x1001a29c	0x1001e158	import	0x1001a29c	msvcrt.dll.memset
+0x1001a2cd	0x1001a2de	string	0x1001a2c2	;u\fr
+0x1001a2eb	0x1001e15c	import	0x1001a2c2	msvcrt.dll.malloc
+0x1001a326	0x1001e118	import	0x1001a308	msvcrt.dll._adjust_fdiv
+0x1001a347	0x1001e058	import	0x1001a308	KERNEL32.dll.InterlockedCompareExchange
+0x1001a368	0x1001e008	import	0x1001a308	KERNEL32.dll.Sleep
+0x1001a3dc	0x1001e054	import	0x1001a308	KERNEL32.dll.InterlockedExchange
+0x1001a41a	0x1001e058	import	0x1001a308	KERNEL32.dll.InterlockedCompareExchange
+0x1001a42d	0x1001e008	import	0x1001a308	KERNEL32.dll.Sleep
+0x1001a477	0x1001e154	import	0x1001a308	msvcrt.dll.free
+0x1001a499	0x1001e054	import	0x1001a308	KERNEL32.dll.InterlockedExchange
+0x1001a5ac	0x1001a64e	string	0x1001a308	9u\ft
+0x1001a5b5	0x1001a64e	string	0x1001a308	9u\ft
+0x1001a620	0x1001a64e	string	0x1001a308	9u\ft
+0x1001a709	0x1001a4a9	string	0x1001a6fa	j,h\b1
+0x1001a70e	0x1001e14c	import	0x1001a70e	msvcrt.dll.memcpy
+0x1001a760	0x1001e140	import	0x1001a760	msvcrt.dll.memcmp
+0x1001a766	0x1001e0f0	import	0x1001a766	msvcrt.dll.strcmp
+0x1001a76c	0x1001e0f4	import	0x1001a76c	msvcrt.dll.strlen
+0x1001a997	0x1001e06c	import	0x1001a8dc	KERNEL32.dll.SetUnhandledExceptionFilter
+0x1001a9a2	0x1001e068	import	0x1001a8dc	KERNEL32.dll.UnhandledExceptionFilter
+0x1001a9ad	0x1001e060	import	0x1001a8dc	KERNEL32.dll.GetCurrentProcess
+0x1001a9b4	0x1001e05c	import	0x1001a8dc	KERNEL32.dll.TerminateProcess
+0x1001a9ef	0x1001aa38	string	0x1001a9c0	+D$\b\eT$\f
+0x1001aaca	0x1001aaf8	string	0x1001aaae	^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1001aade	0x1001e168	import	0x1001aaae	msvcrt.dll._errno
+0x1001aae7	0x1001aaf8	string	0x1001aaae	^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1001ab45	0x1001e120	import	0x1001aafc	msvcrt.dll._itoa
+0x1001ab83	0x1001e144	import	0x1001aafc	msvcrt.dll._snprintf
+0x1001aba6	0x10019cd0	string	0x1001aafc	;\r@h
+0x1001abf2	0x1001e168	import	0x1001abad	msvcrt.dll._errno
+0x1001ac17	0x1001e124	import	0x1001abad	msvcrt.dll.wctomb
+0x1001ac39	0x1001e168	import	0x1001abad	msvcrt.dll._errno
+0x1001ac69	0x1001e168	import	0x1001abad	msvcrt.dll._errno
+0x1001ac71	0x1001abfa	string	0x1001abad	YSSSSS
+0x1001ac8f	0x10019cd0	string	0x1001abad	;\r@h
+0x1001acf3	0x1001e168	import	0x1001ac96	msvcrt.dll._errno
+0x1001af96	0x1001e11c	import	0x1001ac96	msvcrt.dll.isleadbyte
+0x1001b2bd	0x1001e15c	import	0x1001ac96	msvcrt.dll.malloc
+0x1001b6d3	0x1001e154	import	0x1001ac96	msvcrt.dll.free
+0x1001b702	0x1001e168	import	0x1001ac96	msvcrt.dll._errno
+0x1001b71a	0x1001e168	import	0x1001ac96	msvcrt.dll._errno
+0x1001b74d	0x10019cd0	string	0x1001ac96	;\r@h
+0x1001b798	0x1001e168	import	0x1001b776	msvcrt.dll._errno
+0x1001b8c3	0x1001b8d1	string	0x1001b890	_^[]
+0x1001b9ea	0x1001e004	import	0x1001b992	KERNEL32.dll.GetVersion
+0x1001ba12	0x1001e10c	import	0x1001ba12	msvcrt.dll._XcptFilter
+0x1001ba18	0x1001e110	import	0x1001ba18	msvcrt.dll._initterm
+0x1001ba1e	0x1001e114	import	0x1001ba1e	msvcrt.dll._amsg_exit
+0x1001ba96	0x10019cd0	string	0x1001ba87	;\r@h
+0x1001bade	0x1001e080	import	0x1001baaa	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1001baea	0x1001e07c	import	0x1001baaa	KERNEL32.dll.GetCurrentProcessId
+0x1001baf2	0x1001e078	import	0x1001baaa	KERNEL32.dll.GetCurrentThreadId
+0x1001bafa	0x1001e074	import	0x1001baaa	KERNEL32.dll.GetTickCount
+0x1001bb06	0x1001e070	import	0x1001baaa	KERNEL32.dll.QueryPerformanceCounter
+0x1001bb3a	0x1001e130	import	0x1001bb2f	msvcrt.dll._fileno
+0x1001bb4b	0x1001e168	import	0x1001bb2f	msvcrt.dll._errno
+0x1001bb67	0x1001e168	import	0x1001bb2f	msvcrt.dll._errno
+0x1001bbbc	0x1001e13c	import	0x1001bb2f	msvcrt.dll._isatty
+0x1001bbc7	0x1001e168	import	0x1001bb2f	msvcrt.dll._errno
+0x1001bc15	0x1001e138	import	0x1001bb2f	msvcrt.dll._write
+0x1001bc30	0x1001e12c	import	0x1001bb2f	msvcrt.dll.__pioinfo
+0x1001bc58	0x1001e134	import	0x1001bb2f	msvcrt.dll._lseeki64
+0x1001bc7d	0x1001e138	import	0x1001bb2f	msvcrt.dll._write
+0x1001bca4	0x1001e050	import	0x1001bca4	KERNEL32.dll.RtlUnwind
+0x1001bcb6	0x10022d00	string	0x1001bcaa	WARNING: out-of-memory allocating a block of size %u (%s:%u)\n
+0x1001bcc5	0x1001e16c	import	0x1001bcaa	msvcrt.dll.fprintf
+0x1001bccf	0x10022d40	string	0x1001bcaa	Out Of Memory!!!\n
+0x1001bcde	0x1001e16c	import	0x1001bcaa	msvcrt.dll.fprintf
+0x1001bce6	0x1001e170	import	0x1001bcaa	msvcrt.dll.abort
+0x1001bcfb	0x1001e15c	import	0x1001bcaa	msvcrt.dll.malloc
+0x1001bd1d	0x1001e154	import	0x1001bcaa	msvcrt.dll.free
+0x1001c374	0x1001e148	import	0x1001c340	msvcrt.dll.memmove
+0x1001c7da	0x1001e148	import	0x1001c648	msvcrt.dll.memmove
+0x1001c9af	0x1001c9be	string	0x1001c949	^[_]
+0x1001ca7b	0x1001e178	import	0x1001ca37	msvcrt.dll.printf
+0x1001ca81	0x10022db0	string	0x1001ca37	error parsing length for length-prefixed data
+0x1001caa1	0x1001e178	import	0x1001ca37	msvcrt.dll.printf
+0x1001caa8	0x10022d84	string	0x1001ca37	data too short after length-prefix of %u
+0x1001caf7	0x10022e4c	string	0x1001cadd	length must be a multiple of 4 for fixed-length 32-bit types
+0x1001cafc	0x1001e178	import	0x1001cadd	msvcrt.dll.printf
+0x1001cb1e	0x10022e0c	string	0x1001cadd	length must be a multiple of 8 for fixed-length 64-bit types
+0x1001cb37	0x1001e178	import	0x1001cadd	msvcrt.dll.printf
+0x1001cb3e	0x10022de0	string	0x1001cadd	bad protobuf-c type %u for packed-repeated
+0x1001cfae	0x1001d006	string	0x1001cf8b	_^[]
+0x1001d054	0x1001d12c	string	0x1001d028	3ۉ]\b9^ blocks=Basic Latin,Arabic
+0x1001d33f	0x10022d54	string	0x1001d1fd	..\..\source\src\google\protobuf-c\protobuf-c.c
+0x1001d55d	0x10022d54	string	0x1001d4f6	..\..\source\src\google\protobuf-c\protobuf-c.c
+0x1001d596	0x1001d5c3	string	0x1001d4f6	YY_^[
+0x1001d5a4	0x1001d5c3	string	0x1001d4f6	YY_^[
+0x1001d5b2	0x1001d5c3	string	0x1001d4f6	YY_^[
+0x1001d66e	0x10022d54	string	0x1001d5c9	..\..\source\src\google\protobuf-c\protobuf-c.c
+0x1001d6b4	0x1001d89b	string	0x1001d5c9	+u|Vh80
+0x1001d737	0x1001d797	string	0x1001d5c9	j\nY9MXs
+0x1001d754	0x1002308c	string	0x1001d5c9	too short after 32bit wiretype at offset %u
+0x1001d78d	0x10023060	string	0x1001d5c9	too short after 64bit wiretype at offset %u
+0x1001d89f	0x10023038	string	0x1001d5c9	error parsing tag/wiretype at offset %u
+0x1001d8a4	0x1001e178	import	0x1001d5c9	msvcrt.dll.printf
+0x1001d8bc	0x1001e178	import	0x1001d5c9	msvcrt.dll.printf
+0x1001d8c3	0x10023018	string	0x1001d5c9	unsupported tag %u at offset %u
+0x1001d8da	0x10022ff4	string	0x1001d5c9	unterminated varint at offset %u
+0x1001d8e1	0x10022fe4	string	0x1001d5c9	too many fields
+0x1001d8ed	0x10022d54	string	0x1001d5c9	..\..\source\src\google\protobuf-c\protobuf-c.c
+0x1001d8fa	0x10022fc8	string	0x1001d5c9	counting packed elements
+0x1001d8ff	0x1001e178	import	0x1001d5c9	msvcrt.dll.printf
+0x1001d9ce	0x10022d54	string	0x1001d5c9	..\..\source\src\google\protobuf-c\protobuf-c.c
+0x1001da63	0x10022f9c	string	0x1001d5c9	message '%s': missing required field '%s'
+0x1001da87	0x10022d54	string	0x1001d5c9	..\..\source\src\google\protobuf-c\protobuf-c.c
+0x1001daaf	0x1001dad3	string	0x1001d5c9	C;]\
+0x1001db19	0x10019cd0	string	0x1001d5c9	;\r@h

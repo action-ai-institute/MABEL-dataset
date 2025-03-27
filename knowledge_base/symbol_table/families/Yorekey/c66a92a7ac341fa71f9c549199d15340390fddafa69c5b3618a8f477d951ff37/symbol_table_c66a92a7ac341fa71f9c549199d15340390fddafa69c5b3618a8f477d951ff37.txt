@@ -1,0 +1,1272 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x14000109d	0x1400240b0	import	0x140001070	KERNEL32.dll.GetLastError
+0x1400010a5	0x1400240d0	import	0x140001070	KERNEL32.dll.GetCurrentThreadId
+0x1400010ba	0x1400240c8	import	0x140001070	KERNEL32.dll.GetLocalTime
+0x1400010c0	0x14002b818	string	0x140001070	a,ccs=UTF-8
+0x1400010c7	0x14002b830	string	0x140001070	C:\Program Files\Npcap\NPFInstall.log
+0x1400010de	0x1400240a8	import	0x140001070	KERNEL32.dll.Sleep
+0x14000112f	0x14002b880	string	0x140001070	[%.08X] %.04u-%.02u-%.02u %.02u:%02u:%02u
+0x140001163	0x1400240b8	import	0x140001070	KERNEL32.dll.SetLastError
+0x1400011a2	0x14002b8d8	string	0x140001180	--> isFileExist\n
+0x1400011b6	0x1400240a0	import	0x140001180	KERNEL32.dll.FindFirstFileW
+0x1400011c5	0x1400240b0	import	0x140001180	KERNEL32.dll.GetLastError
+0x1400011cb	0x14002b900	string	0x140001180	FindFirstFile: error, szFileFullPath = %s, errCode = 0x%08x.\n
+0x1400011dd	0x14002b988	string	0x140001180	<-- isFileExist\n
+0x1400011ed	0x14002b9b0	string	0x140001180	FindFirstFile: succeed, szFileFullPath = %s.\n
+0x1400011ff	0x1400240c0	import	0x140001180	KERNEL32.dll.FindClose
+0x140001205	0x14002b988	string	0x140001180	<-- isFileExist\n
+0x140001259	0x14002ba18	string	0x140001240	--> InstallWFPCallout\n
+0x140001265	0x140032fa8	string	0x140001240	--> GetWFPCalloutInfFilePath\n
+0x14000127e	0x140024108	import	0x140001240	KERNEL32.dll.GetModuleFileNameW
+0x1400012af	0x140032f20	string	0x140001240	.inf
+0x1400012b6	0x140032fe8	string	0x140001240	NPCAP_wfp
+0x1400012de	0x140032f40	string	0x140001240	lpFilename = %s\n
+0x1400012ea	0x140033000	string	0x140001240	<-- GetWFPCalloutInfFilePath\n
+0x140001320	0x14002bae0	string	0x140001240	WFP callout INF file doesn't exist\n
+0x140001331	0x14002bb30	string	0x140001240	%s,DefaultInstall,,36,N
+0x140001352	0x14002bb60	string	0x140001240	LaunchINFSectionEx: executing, szCmd = %s.\n
+0x14000136d	0x140024090	import	0x140001240	ADVPACK.dll.LaunchINFSectionExW
+0x14000137a	0x14002bbc0	string	0x140001240	WFP INF install failed!\n
+0x140001383	0x14002bab0	string	0x140001240	<-- InstallWFPCallout\n
+0x1400013ac	0x14002ba50	string	0x140001240	Unable to get WFP callout INF file path\n
+0x1400013b8	0x14002bab0	string	0x140001240	<-- InstallWFPCallout\n
+0x1400013f9	0x14002bc00	string	0x1400013e0	--> UninstallWFPCallout\n
+0x140001405	0x140032fa8	string	0x1400013e0	--> GetWFPCalloutInfFilePath\n
+0x14000141e	0x140024108	import	0x1400013e0	KERNEL32.dll.GetModuleFileNameW
+0x14000144f	0x140032f20	string	0x1400013e0	.inf
+0x140001456	0x140032fe8	string	0x1400013e0	NPCAP_wfp
+0x14000147e	0x140032f40	string	0x1400013e0	lpFilename = %s\n
+0x14000148a	0x140033000	string	0x1400013e0	<-- GetWFPCalloutInfFilePath\n
+0x1400014c0	0x14002bae0	string	0x1400013e0	WFP callout INF file doesn't exist\n
+0x1400014d1	0x14002bc70	string	0x1400013e0	%s,DefaultUninstall,,36,N
+0x1400014f2	0x14002bb60	string	0x1400013e0	LaunchINFSectionEx: executing, szCmd = %s.\n
+0x14000150d	0x140024090	import	0x1400013e0	ADVPACK.dll.LaunchINFSectionExW
+0x14000151a	0x14002bca8	string	0x1400013e0	WFP INF removal failed!\n
+0x140001523	0x14002bc38	string	0x1400013e0	<-- UninstallWFPCallout\n
+0x14000154c	0x14002ba50	string	0x1400013e0	Unable to get WFP callout INF file path\n
+0x140001558	0x14002bc38	string	0x1400013e0	<-- UninstallWFPCallout\n
+0x1400015db	0x14002bcf0	string	0x140001590	--> getInfNamesFromPnpUtilOutput\n
+0x1400016d3	0x14002bd40	string	0x140001590	Nmap Project
+0x140001738	0x14002bd60	string	0x140001590	find: executing, strInfFileName = %s.\n
+0x140001789	0x14002bdc0	string	0x140001590	<-- getInfNamesFromPnpUtilOutput\n
+0x140001848	0x14002be08	string	0x140001810	--> ClearDriverStore\n
+0x140001854	0x14002be38	string	0x140001810	pnputil.exe -e
+0x1400018d5	0x140001590	string	0x140001810	@UVWATAUAVAWH
+0x140001903	0x14002be58	string	0x140001810	pnputil.exe -d %s
+0x140001952	0x14002be80	string	0x140001810	<-- ClearDriverStore\n
+0x140001bab	0x140001bda	string	0x140001b20	fA9\t
+0x140001f7b	0x140001fab	string	0x140001ed0	fA9\t
+0x140002666	0x1400240e8	import	0x140002610	KERNEL32.dll.VerSetConditionMask
+0x140002675	0x1400240e8	import	0x140002610	KERNEL32.dll.VerSetConditionMask
+0x140002684	0x1400240e8	import	0x140002610	KERNEL32.dll.VerSetConditionMask
+0x1400026a6	0x140024118	import	0x140002610	KERNEL32.dll.VerifyVersionInfoW
+0x140002718	0x1400240f8	import	0x1400026d0	KERNEL32.dll.FormatMessageW
+0x14000273b	0x140024498	import	0x1400026d0	USER32.dll.CharPrevW
+0x14000278b	0x140024130	import	0x1400026d0	KERNEL32.dll.LocalFree
+0x1400027c5	0x140024110	import	0x1400027a0	KERNEL32.dll.lstrlenW
+0x140002826	0x140024110	import	0x1400027a0	KERNEL32.dll.lstrlenW
+0x1400028f9	0x1400244a0	import	0x140002870	USER32.dll.CharNextW
+0x140002960	0x1400244a0	import	0x140002870	USER32.dll.CharNextW
+0x1400029a3	0x1400244a0	import	0x140002870	USER32.dll.CharNextW
+0x140002a95	0x1400243e0	import	0x140002a20	SETUPAPI.dll.SetupDiGetDeviceRegistryPropertyW
+0x140002aa0	0x1400240b0	import	0x140002a20	KERNEL32.dll.GetLastError
+0x140002b12	0x1400243e0	import	0x140002a20	SETUPAPI.dll.SetupDiGetDeviceRegistryPropertyW
+0x140002c0a	0x1400244a0	import	0x140002b70	USER32.dll.CharNextW
+0x140002c6e	0x1400244a0	import	0x140002b70	USER32.dll.CharNextW
+0x140002caf	0x1400244a0	import	0x140002b70	USER32.dll.CharNextW
+0x140002d96	0x14002bf10	string	0x140002d50	--> EnumerateDevices\n
+0x140002e1b	0x140024440	import	0x140002d50	SETUPAPI.dll.SetupDiClassGuidsFromNameExW
+0x140002e23	0x140002e34	string	0x140002d50	9t$@u\a
+0x140002e25	0x1400240b0	import	0x140002d50	KERNEL32.dll.GetLastError
+0x140002eb1	0x1400244a0	import	0x140002d50	USER32.dll.CharNextW
+0x140002ec5	0x1400244a0	import	0x140002d50	USER32.dll.CharNextW
+0x140002f3b	0x1400243f8	import	0x140002d50	SETUPAPI.dll.SetupDiCreateDeviceInfoListExW
+0x140002f7e	0x140024460	import	0x140002d50	SETUPAPI.dll.SetupDiGetClassDevsExW
+0x140002fca	0x140024420	import	0x140002d50	SETUPAPI.dll.SetupDiOpenDeviceInfoW
+0x140002fec	0x140024418	import	0x140002d50	SETUPAPI.dll.SetupDiGetDeviceInfoListDetailW
+0x14000301f	0x1400243f0	import	0x140002d50	SETUPAPI.dll.SetupDiEnumDeviceInfo
+0x14000308d	0x140024468	import	0x140002d50	SETUPAPI.dll.CM_Get_Device_ID_ExW
+0x1400031ad	0x140003260	string	0x140002d50	@SVWH
+0x1400031cd	0x1400243f0	import	0x140002d50	SETUPAPI.dll.SetupDiEnumDeviceInfo
+0x14000320b	0x1400243e8	import	0x140002d50	SETUPAPI.dll.SetupDiDestroyDeviceInfoList
+0x140003211	0x14002bf70	string	0x140002d50	EnumerateDevices: failcode = 0x%d.\n
+0x14000321f	0x14002bf40	string	0x140002d50	<-- EnumerateDevices\n
+0x140003293	0x140024418	import	0x140003260	SETUPAPI.dll.SetupDiGetDeviceInfoListDetailW
+0x1400032bf	0x140024468	import	0x140003260	SETUPAPI.dll.CM_Get_Device_ID_ExW
+0x140003301	0x140024410	import	0x140003260	SETUPAPI.dll.SetupDiSetClassInstallParamsW
+0x140003316	0x140024438	import	0x140003260	SETUPAPI.dll.SetupDiCallClassInstaller
+0x140003339	0x140024448	import	0x140003260	SETUPAPI.dll.SetupDiGetDeviceInstallParamsW
+0x140003373	0x14002bfc0	string	0x140003260	%-60s: %s\n
+0x14000338a	0x14002bfe0	string	0x140003260	RemoveCallback: devID=%s, action=%s\n\n
+0x1400033e7	0x14002c038	string	0x1400033c0	--> cmdUpdate\n
+0x14000340c	0x14002c080	string	0x1400033c0	cmdUpdate: error, argv[0] = %s.\n
+0x140003418	0x14002c058	string	0x1400033c0	<-- cmdUpdate\n
+0x14000343b	0x14002c0d0	string	0x1400033c0	cmdUpdate: error, argv[1] = %s.\n
+0x140003451	0x1400240d8	import	0x1400033c0	KERNEL32.dll.GetFullPathNameW
+0x14000346b	0x140024100	import	0x1400033c0	KERNEL32.dll.GetFileAttributesW
+0x14000347b	0x14002c170	string	0x1400033c0	GetFileAttributes: error, InfPath = %s.\n
+0x14000348c	0x14002c1d0	string	0x1400033c0	newdev.dll
+0x14000349b	0x1400240f0	import	0x1400033c0	KERNEL32.dll.LoadLibraryW
+0x1400034a9	0x1400240b0	import	0x1400033c0	KERNEL32.dll.GetLastError
+0x1400034af	0x14002c1e8	string	0x1400033c0	LoadLibrary failed: %x\n
+0x1400034c2	0x14002c220	string	0x1400033c0	UpdateDriverForPlugAndPlayDevicesW
+0x1400034d4	0x140024120	import	0x1400033c0	KERNEL32.dll.GetProcAddress
+0x1400034e2	0x1400240b0	import	0x1400033c0	KERNEL32.dll.GetLastError
+0x1400034e8	0x14002c250	string	0x1400033c0	GetProcAddress failed to get UpdateDriverForPlugAndPlayDevices: %x\n
+0x140003533	0x1400240b0	import	0x1400033c0	KERNEL32.dll.GetLastError
+0x140003539	0x14002c2e0	string	0x1400033c0	UpdateFn failed: %x\n
+0x140003568	0x1400240e0	import	0x1400033c0	KERNEL32.dll.FreeLibrary
+0x140003576	0x14002c318	string	0x1400033c0	cmdUpdate: failcode = %d.\n
+0x140003584	0x14002c058	string	0x1400033c0	<-- cmdUpdate\n
+0x14000359a	0x14002c120	string	0x1400033c0	GetFullPathName: error, res = %d.\n
+0x1400035a6	0x14002c058	string	0x1400033c0	<-- cmdUpdate\n
+0x14000361b	0x14002c080	string	0x1400035e0	cmdUpdate: error, argv[0] = %s.\n
+0x140003627	0x14002c378	string	0x1400035e0	<-- cmdInstall\n
+0x14000364d	0x14002c0d0	string	0x1400035e0	cmdUpdate: error, argv[1] = %s.\n
+0x14000365c	0x14002c378	string	0x1400035e0	<-- cmdInstall\n
+0x140003682	0x1400240d8	import	0x1400035e0	KERNEL32.dll.GetFullPathNameW
+0x1400036e9	0x140024400	import	0x1400035e0	SETUPAPI.dll.SetupDiGetINFClassW
+0x1400036fe	0x140024428	import	0x1400035e0	SETUPAPI.dll.SetupDiCreateDeviceInfoList
+0x140003743	0x140024408	import	0x1400035e0	SETUPAPI.dll.SetupDiCreateDeviceInfoW
+0x140003759	0x140024110	import	0x1400035e0	KERNEL32.dll.lstrlenW
+0x14000377e	0x140024470	import	0x1400035e0	SETUPAPI.dll.SetupDiSetDeviceRegistryPropertyW
+0x1400037a7	0x140024458	import	0x1400035e0	SETUPAPI.dll.SetupDiGetDeviceInstanceIdW
+0x1400037d3	0x140024438	import	0x1400035e0	SETUPAPI.dll.SetupDiCallClassInstaller
+0x140003811	0x140024430	import	0x1400035e0	SETUPAPI.dll.SetupDiCreateDevRegKeyW
+0x140003829	0x14002c398	string	0x1400035e0	*NdisDeviceType
+0x14000384b	0x140024000	import	0x1400035e0	ADVAPI32.dll.RegSetValueExW
+0x140003855	0x1400240b0	import	0x1400035e0	KERNEL32.dll.GetLastError
+0x14000385b	0x14002c3c0	string	0x1400035e0	Couldn't set *NdisDeviceType: %x\n
+0x14000386c	0x140024080	import	0x1400035e0	ADVAPI32.dll.RegCloseKey
+0x140003874	0x1400240b0	import	0x1400035e0	KERNEL32.dll.GetLastError
+0x14000387a	0x14002c410	string	0x1400035e0	Couldn't create/open dev reg key: %x\n
+0x140003894	0x14002c470	string	0x1400035e0	cmdInstall: failcode = %d.\n
+0x1400038a7	0x1400240b0	import	0x1400035e0	KERNEL32.dll.GetLastError
+0x1400038ad	0x14002c4b0	string	0x1400035e0	cmdInstall: GetLastError: %0x\n
+0x1400038c4	0x1400243e8	import	0x1400035e0	SETUPAPI.dll.SetupDiDestroyDeviceInfoList
+0x1400038cc	0x14002c120	string	0x1400035e0	GetFullPathName: error, res = %d.\n
+0x1400038d8	0x14002c378	string	0x1400035e0	<-- cmdInstall\n
+0x14000394d	0x14002c4f8	string	0x140003920	--> cmdRemove\n
+0x140003962	0x14002c518	string	0x140003920	Removed
+0x140003981	0x14002c528	string	0x140003920	Removed on reboot
+0x1400039b4	0x14002c550	string	0x140003920	Remove failed
+0x140003a23	0x14002c590	string	0x140003920	cmdRemove: %d devices removed\n
+0x140003a83	0x14002c5e0	string	0x140003920	cmdRemove: requires reboot.\n
+0x140003a94	0x14002c628	string	0x140003920	cmdRemove: failcode = %d.\n
+0x140003aa2	0x14002c570	string	0x140003920	<-- cmdRemove\n
+0x140003aee	0x14002c7d0	string	0x140003ad0	--> GetConfigFilePath\n
+0x140003b0a	0x140024108	import	0x140003ad0	KERNEL32.dll.GetModuleFileNameW
+0x140003b14	0x1400240b0	import	0x140003ad0	KERNEL32.dll.GetLastError
+0x140003b1a	0x14002c800	string	0x140003ad0	GetModuleFileName: error, errCode = 0x%08x.\n
+0x140003b28	0x14002c868	string	0x140003ad0	<-- GetConfigFilePath\n
+0x140003b7c	0x14002c898	string	0x140003ad0	%s%sloopback.ini
+0x140003b95	0x14002c8c0	string	0x140003ad0	GetModuleFileName: succeed, strConfigPath = %s.\n
+0x140003ba4	0x14002c868	string	0x140003ad0	<-- GetConfigFilePath\n
+0x140003be9	0x14002c930	string	0x140003bd0	--> InstallLoopbackDeviceInternal\n
+0x140003bf5	0x14002c668	string	0x140003bd0	--> GetLoopbackINFFilePath\n
+0x140003c12	0x140024480	import	0x140003bd0	SHELL32.dll.SHGetSpecialFolderPathW
+0x140003c1c	0x14002c6a0	string	0x140003bd0	SHGetSpecialFolderPath: error.\n
+0x140003c28	0x14002c6e8	string	0x140003bd0	<-- GetLoopbackINFFilePath\n
+0x140003c34	0x14002c980	string	0x140003bd0	GetLoopbackINFFilePath: error.\n
+0x140003c48	0x14002c720	string	0x140003bd0	%s\inf\netloop.inf
+0x140003c63	0x14002c750	string	0x140003bd0	SHGetSpecialFolderPath: succeed, strLoopbackInfPath = %s.\n
+0x140003c6f	0x14002c6e8	string	0x140003bd0	<-- GetLoopbackINFFilePath\n
+0x140003c80	0x14002c358	string	0x140003bd0	--> cmdInstall\n
+0x140003c8c	0x14002ca18	string	0x140003bd0	*msloop
+0x140003cab	0x14002c9d0	string	0x140003bd0	<-- InstallLoopbackDeviceInternal\n
+0x140003cd4	0x14002ca28	string	0x140003bd0	cmdInstall: error.\n
+0x140003ce0	0x14002c9d0	string	0x140003bd0	<-- InstallLoopbackDeviceInternal\n
+0x140003d2d	0x14002ca60	string	0x140003d10	--> RemoveLoopbackDeviceInternal\n
+0x140003d39	0x14002caa8	string	0x140003d10	@ROOT\NET\%04d
+0x140003d57	0x14002cad0	string	0x140003d10	Removing loopback device: %s\n\n
+0x140003d80	0x14002cb20	string	0x140003d10	<-- RemoveLoopbackDeviceInternal\n
+0x140003d93	0x14002cb68	string	0x140003d10	cmdRemove: error.\n
+0x140003d9f	0x14002cb20	string	0x140003d10	<-- RemoveLoopbackDeviceInternal\n
+0x140003ded	0x14002cb98	string	0x140003dd0	--> SaveDevIDToFile\n
+0x140003e07	0x14002cbc8	string	0x140003dd0	GetConfigFilePath: error.\n
+0x140003e52	0x14002cc08	string	0x140003dd0	<-- SaveDevIDToFile\n
+0x140003e6a	0x14002cc40	string	0x140003dd0	_tfopen_s: error, errCode = 0x%08x.\n
+0x140003e78	0x14002cc08	string	0x140003dd0	<-- SaveDevIDToFile\n
+0x140003eb9	0x14002cca0	string	0x140003ea0	--> DeleteDevIDFile\n
+0x140003ed3	0x14002cbc8	string	0x140003ea0	GetConfigFilePath: error.\n
+0x140003edf	0x14002ccd0	string	0x140003ea0	<-- DeleteDevIDFile\n
+0x140003f0a	0x140024128	import	0x140003ea0	KERNEL32.dll.DeleteFileW
+0x140003f14	0x1400240b0	import	0x140003ea0	KERNEL32.dll.GetLastError
+0x140003f1a	0x14002cd00	string	0x140003ea0	DeleteFile %s: error: %08x\n
+0x140003f28	0x14002ccd0	string	0x140003ea0	<-- DeleteDevIDFile\n
+0x140003f4e	0x14002ccd0	string	0x140003ea0	<-- DeleteDevIDFile\n
+0x140003f99	0x14002cd40	string	0x140003f80	--> LoadDevIDFromFile\n
+0x140003fb3	0x14002cbc8	string	0x140003f80	GetConfigFilePath: error.\n
+0x140003fbf	0x14002cd70	string	0x140003f80	<-- LoadDevIDFromFile\n
+0x140004024	0x14002cd70	string	0x140003f80	<-- LoadDevIDFromFile\n
+0x140004051	0x14002cc40	string	0x140003f80	_tfopen_s: error, errCode = 0x%08x.\n
+0x14000405f	0x14002cd70	string	0x140003f80	<-- LoadDevIDFromFile\n
+0x140004096	0x14002cda8	string	0x140004090	--> InstallLoopbackAdapter\n
+0x1400040ae	0x14002ee20	string	0x140004090	--> PrepareRenameLoopbackNetwork2\n
+0x1400040bf	0x14002ee70	string	0x140004090	<-- PrepareRenameLoopbackNetwork2\n
+0x1400040d4	0x14002cde0	string	0x140004090	InstallLoopbackDeviceInternal: error.\n
+0x1400040e0	0x14002ce38	string	0x140004090	<-- InstallLoopbackAdapter\n
+0x140004104	0x14002ce70	string	0x140004090	iNpcapAdapterID == -1: error.\n
+0x140004125	0x14002cec0	string	0x140004090	DoRenameLoopbackNetwork2: error.\n
+0x14000412e	0x14002cf10	string	0x140004090	RecordLoopbackDevice: error.\n
+0x140004142	0x14002cf58	string	0x140004090	SaveDevIDToFile: error.\n
+0x14000414e	0x14002ce38	string	0x140004090	<-- InstallLoopbackAdapter\n
+0x140004167	0x14002ce38	string	0x140004090	<-- InstallLoopbackAdapter\n
+0x140004194	0x14002cf98	string	0x140004190	--> UninstallLoopbackAdapter\n
+0x1400041aa	0x14002ce70	string	0x140004190	iNpcapAdapterID == -1: error.\n
+0x1400041b6	0x14002cfd8	string	0x140004190	<-- UninstallLoopbackAdapter\n
+0x1400041d4	0x14002d020	string	0x140004190	RemoveLoopbackDeviceInternal: error.\n
+0x1400041e6	0x14002d080	string	0x140004190	EraseLoopbackRecord: error.\n
+0x1400041f8	0x14002d0c8	string	0x140004190	DeleteDevIDFile: error.\n
+0x140004201	0x14002cfd8	string	0x140004190	<-- UninstallLoopbackAdapter\n
+0x1400042fa	0x14002d110	string	0x1400042d0	unknown error
+0x140004460	0x140024138	import	0x140004460	KERNEL32.dll.InitializeCriticalSectionEx
+0x140004474	0x14002d1f0	string	0x140004460	--> COM::~COM\n
+0x140004480	0x1400244f8	import	0x140004460	ole32.dll.CoUninitialize
+0x140004486	0x14002d210	string	0x140004460	<-- COM::~COM\n
+0x1400044c4	0x14002d230	string	0x1400044a0	--> NetCfg::NetCfg\n
+0x1400044e9	0x140024500	import	0x1400044a0	ole32.dll.CoCreateInstance
+0x1400044f5	0x14002d260	string	0x1400044a0	INetCfg::CoCreateInstance: error, errCode = 0x%08x.\n
+0x140004534	0x14002d2e0	string	0x1400044a0	INetCfg::QueryInterface: error, errCode = 0x%08x.\n
+0x140004564	0x14002d350	string	0x1400044a0	Npcap_Loopback
+0x140004577	0x14002d370	string	0x1400044a0	INetCfgLock::AcquireWriteLock: error, errCode = 0x%08x.\n
+0x1400045ae	0x14002d3f0	string	0x1400044a0	INetCfg::Initialize: error, errCode = 0x%08x.\n
+0x1400045d4	0x14002d458	string	0x1400044a0	<-- NetCfg::NetCfg\n
+0x1400046bf	0x14002d5d0	string	0x1400046a0	--> EnumerateComponents\n
+0x1400046eb	0x14002d610	string	0x1400046a0	INetCfg::EnumComponents: error, errCode = 0x%08x.\n
+0x140004770	0x14002db80	string	0x1400046a0	--> getIntDevID\n
+0x140004784	0x14002bef0	string	0x1400046a0	ROOT\NET\%04d
+0x14000479b	0x14002dbb0	string	0x1400046a0	_stscanf_s: iMatched = %d, iDevID = %d.\n
+0x1400047b4	0x14002dc10	string	0x1400046a0	<-- getIntDevID\n
+0x1400047d8	0x14002d700	string	0x1400046a0	INetCfgComponent::GetPnpDevNodeId: executing, pszPndDevNodeId = %s, iDevID = %d, g_NpcapAdapterID = %d, pszBindName = %ws.\n
+0x1400047fd	0x14002d800	string	0x1400046a0	INetCfgComponent::SetDisplayName: executing, g_NpcapAdapterID = iDevID = %d, pszBindName = %ws.\n
+0x140004810	0x14002d8d0	string	0x1400046a0	Npcap Loopback Adapter
+0x140004820	0x14002d900	string	0x1400046a0	INetCfgComponent::SetDisplayName: error, errCode = 0x%08x.\n
+0x140004876	0x14002d980	string	0x1400046a0	AddFlagToRegistry: error, pszBindName = %ws.\n
+0x1400048d5	0x14002d9f0	string	0x1400046a0	AddFlagToRegistry_Service: error, pszBindName = %ws.\n
+0x1400048f5	0x14002da70	string	0x1400046a0	RenameLoopbackNetwork: error, pszBindName = %ws.\n
+0x140004908	0x1400244d8	import	0x1400046a0	ole32.dll.CoTaskMemFree
+0x140004912	0x1400244d8	import	0x1400046a0	ole32.dll.CoTaskMemFree
+0x14000494f	0x14002d6c8	string	0x1400046a0	<-- EnumerateComponents\n
+0x140004986	0x14002d680	string	0x1400046a0	GetPnpDevNodeId failed: %#x\n
+0x140004992	0x14002d6c8	string	0x1400046a0	<-- EnumerateComponents\n
+0x1400049dd	0x14002db80	string	0x1400049d0	--> getIntDevID\n
+0x1400049ee	0x14002bef0	string	0x1400049d0	ROOT\NET\%04d
+0x140004a09	0x14002dbb0	string	0x1400049d0	_stscanf_s: iMatched = %d, iDevID = %d.\n
+0x140004a27	0x14002dc10	string	0x1400049d0	<-- getIntDevID\n
+0x140004a7e	0x14002dc38	string	0x140004a50	--> AddFlagToRegistry\n
+0x140004a8a	0x14002dc68	string	0x140004a50	<-- AddFlagToRegistry\n
+0x140004a99	0x14002dc98	string	0x140004a50	\Device\
+0x140004abd	0x14002dcb0	string	0x140004a50	LoopbackAdapter
+0x140004ac4	0x14002dcd0	string	0x140004a50	SOFTWARE\NPCAP
+0x140004b81	0x14002dcf0	string	0x140004b40	--> AddFlagToRegistry_Service\n
+0x140004baf	0x14002dd30	string	0x140004b40	SYSTEM\CurrentControlSet\Services\npcap\Parameters
+0x140004bbd	0x140024070	import	0x140004b40	ADVAPI32.dll.RegOpenKeyExW
+0x140004be7	0x14002dd98	string	0x140004b40	WinPcapCompatible
+0x140004bf3	0x140024078	import	0x140004b40	ADVAPI32.dll.RegQueryValueExA
+0x140004c0a	0x1400240b0	import	0x140004b40	KERNEL32.dll.GetLastError
+0x140004c12	0x14002ddb0	string	0x140004b40	RegQueryValueExA(WinPcapCompatible) failed or not REG_DWORD: %#x\n\n
+0x140004c26	0x140024080	import	0x140004b40	ADVAPI32.dll.RegCloseKey
+0x140004c33	0x14002dc98	string	0x140004b40	\Device\
+0x140004c57	0x14002dcb0	string	0x140004b40	LoopbackAdapter
+0x140004c5e	0x14002dee0	string	0x140004b40	SYSTEM\CurrentControlSet\Services\npf\Parameters
+0x140004c80	0x1400240b0	import	0x140004b40	KERNEL32.dll.GetLastError
+0x140004c89	0x14002de40	string	0x140004b40	SYSTEM\CurrentControlSet\Services\npcap
+0x140004c90	0x14002de90	string	0x140004b40	%s\Parameters) failed: %#x\n\n
+0x140004c9f	0x14002dc98	string	0x140004b40	\Device\
+0x140004cc3	0x14002dcb0	string	0x140004b40	LoopbackAdapter
+0x140004cca	0x14002dd30	string	0x140004b40	SYSTEM\CurrentControlSet\Services\npcap\Parameters
+0x140004cf3	0x14002df48	string	0x140004b40	<-- AddFlagToRegistry_Service\n
+0x140004d61	0x14002df88	string	0x140004d50	--> RecordLoopbackDevice\n
+0x140004d73	0x14002d150	string	0x140004d50	--> COM::COM\n
+0x140004d83	0x1400244e0	import	0x140004d50	ole32.dll.CoInitializeEx
+0x140004d8f	0x14002d170	string	0x140004d50	CoInitializeEx: error, errCode = 0x%08x.\n
+0x140004d9b	0x14002d1d0	string	0x140004d50	<-- COM::COM\n
+0x140004db3	0x14002dae0	string	0x140004d50	--> NetCfg::GetNetworkConfiguration\n
+0x140004dbf	0x14002db30	string	0x140004d50	<-- NetCfg::GetNetworkConfiguration\n
+0x140004ddd	0x14002dfc0	string	0x140004d50	NetCfg::GetNetworkConfiguration: error.\n
+0x140004de9	0x14002e020	string	0x140004d50	<-- RecordLoopbackDevice\n
+0x140004df6	0x14002d480	string	0x140004d50	--> NetCfg::~NetCfg\n
+0x140004e18	0x14002d4b0	string	0x140004d50	INetCfg::Uninitialize: error, errCode = 0x%08x.\n
+0x140004e35	0x14002d520	string	0x140004d50	INetCfgLock::ReleaseWriteLock: error, errCode = 0x%08x.\n
+0x140004e41	0x14002d5a0	string	0x140004d50	<-- NetCfg::~NetCfg\n
+0x140004e70	0x14002d1f0	string	0x140004d50	--> COM::~COM\n
+0x140004e7c	0x1400244f8	import	0x140004d50	ole32.dll.CoUninitialize
+0x140004e82	0x14002d210	string	0x140004d50	<-- COM::~COM\n
+0x140004e95	0x14002d480	string	0x140004d50	--> NetCfg::~NetCfg\n
+0x140004eb7	0x14002d4b0	string	0x140004d50	INetCfg::Uninitialize: error, errCode = 0x%08x.\n
+0x140004ed4	0x14002d520	string	0x140004d50	INetCfgLock::ReleaseWriteLock: error, errCode = 0x%08x.\n
+0x140004ee0	0x14002d5a0	string	0x140004d50	<-- NetCfg::~NetCfg\n
+0x140004f0f	0x14002d1f0	string	0x140004d50	--> COM::~COM\n
+0x140004f1b	0x1400244f8	import	0x140004d50	ole32.dll.CoUninitialize
+0x140004f21	0x14002d210	string	0x140004d50	<-- COM::~COM\n
+0x140004f2e	0x14002e020	string	0x140004d50	<-- RecordLoopbackDevice\n
+0x140004f6f	0x14002e0d8	string	0x140004f50	--> EraseLoopbackRecord\n
+0x140004f80	0x14002dd30	string	0x140004f50	SYSTEM\CurrentControlSet\Services\npcap\Parameters
+0x140004fa9	0x140024070	import	0x140004f50	ADVAPI32.dll.RegOpenKeyExW
+0x140004fd2	0x14002dd98	string	0x140004f50	WinPcapCompatible
+0x140004fe9	0x140024078	import	0x140004f50	ADVAPI32.dll.RegQueryValueExA
+0x140005000	0x1400240b0	import	0x140004f50	KERNEL32.dll.GetLastError
+0x140005006	0x14002ddb0	string	0x140004f50	RegQueryValueExA(WinPcapCompatible) failed or not REG_DWORD: %#x\n\n
+0x14000501b	0x140024080	import	0x140004f50	ADVAPI32.dll.RegCloseKey
+0x14000502d	0x14002dee0	string	0x140004f50	SYSTEM\CurrentControlSet\Services\npf\Parameters
+0x140005040	0x1400240b0	import	0x140004f50	KERNEL32.dll.GetLastError
+0x140005046	0x14002de40	string	0x140004f50	SYSTEM\CurrentControlSet\Services\npcap
+0x14000504d	0x14002de90	string	0x140004f50	%s\Parameters) failed: %#x\n\n
+0x14000505c	0x14002dcd0	string	0x140004f50	SOFTWARE\NPCAP
+0x140005068	0x14002dd30	string	0x140004f50	SYSTEM\CurrentControlSet\Services\npcap\Parameters
+0x140005079	0x14002e110	string	0x140004f50	<-- EraseLoopbackRecord\n
+0x140005a5b	0x14002e168	string	0x140005a30	--> DoTheWork\n
+0x140005ada	0x140005aea	string	0x140005a30	H9|$p
+0x140005adc	0x14002e230	string	0x140005a30	INetSharingEveryConnectionCollection::get__NewEnum: error, errCode = 0x%08x.\n
+0x140005af9	0x140024398	import	0x140005a30	OLEAUT32.dll.VariantClear
+0x140005c1a	0x14002e2e0	string	0x140005a30	{%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X}
+0x140005c3e	0x14002e350	string	0x140005a30	IEnumVARIANT::Next: executing, currentGUID = %s, strDeviceName = %s.\n
+0x140005c78	0x14002d8d0	string	0x140005a30	Npcap Loopback Adapter
+0x140005c83	0x14002e3f0	string	0x140005a30	INetConnection::Rename: executing, currentGUID = strDeviceName = %s, pszwNewName = %s.\n
+0x140005c93	0x14002d8d0	string	0x140005a30	Npcap Loopback Adapter
+0x140005cb0	0x14002e4b0	string	0x140005a30	INetConnection::Rename: error, errCode = 0x%08x.\n
+0x140005cc7	0x14002e4b0	string	0x140005a30	INetConnection::Rename: error, errCode = 0x%08x.\n
+0x140005cf1	0x1400243a0	import	0x140005a30	OLEAUT32.dll.VariantCopy
+0x140005d46	0x14002e568	string	0x140005a30	<-- DoTheWork\n
+0x140005d5e	0x14002e190	string	0x140005a30	INetSharingManager::get_EnumEveryConnection: error, errCode = 0x%08x.\n
+0x140005d6c	0x14002e520	string	0x140005a30	DoTheWork: error, bFound = 0.\n
+0x140005d78	0x14002e568	string	0x140005a30	<-- DoTheWork\n
+0x140005dbd	0x14002e588	string	0x140005db0	--> RenameLoopbackNetwork\n
+0x140005df4	0x1400244e8	import	0x140005db0	ole32.dll.CoInitializeSecurity
+0x140005dfe	0x14002e5c0	string	0x140005db0	CoInitializeSecurity: error, errCode = 0x%08x.\n
+0x140005e0c	0x14002e628	string	0x140005db0	<-- RenameLoopbackNetwork\n
+0x140005e48	0x140024500	import	0x140005db0	ole32.dll.CoCreateInstance
+0x140005e58	0x14002e660	string	0x140005db0	CoCreateInstance: error, errCode = 0x%08x.\n
+0x140005e64	0x140005a30	string	0x140005db0	@USWATAUH
+0x140005e76	0x14002e628	string	0x140005db0	<-- RenameLoopbackNetwork\n
+0x140005ea5	0x14002e700	string	0x140005e90	--> getNpcapLoopbackAdapterName\n
+0x140005eec	0x14002e750	string	0x140005e90	getNpcapLoopbackAdapterName: error, g_InterfaceNameList1.size() = %d, g_InterfaceNameList2.size() = %d.\n
+0x140005efe	0x14002e830	string	0x140005e90	<-- getNpcapLoopbackAdapterName\n
+0x140005fb1	0x14002e880	string	0x140005e90	getNpcapLoopbackAdapterName: found the new interface, i = %d.\n
+0x140005fc0	0x14002e830	string	0x140005e90	<-- getNpcapLoopbackAdapterName\n
+0x140006006	0x140006018	string	0x140005e90	f9\bA
+0x140006041	0x14002e910	string	0x140005e90	getNpcapLoopbackAdapterName: unknown error.\n
+0x14000604d	0x14002e830	string	0x140005e90	<-- getNpcapLoopbackAdapterName\n
+0x1400060f1	0x140024170	import	0x1400060a0	KERNEL32.dll.MultiByteToWideChar
+0x140006141	0x140024170	import	0x1400060a0	KERNEL32.dll.MultiByteToWideChar
+0x1400061f3	0x14002e978	string	0x1400061b0	--> executeCommand\n
+0x140006202	0x14002e9a0	string	0x1400061b0	executeCommand: executing, strCmd = %s.\n
+0x140006295	0x140024180	import	0x1400061b0	KERNEL32.dll.CreatePipe
+0x14000629f	0x1400240b0	import	0x1400061b0	KERNEL32.dll.GetLastError
+0x1400062a7	0x14002ea00	string	0x1400061b0	CreatePipe: error, errCode = 0x%08x.\n
+0x1400062b3	0x14002ea58	string	0x1400061b0	<-- executeCommand\n
+0x140006314	0x140024160	import	0x1400061b0	KERNEL32.dll.SetHandleInformation
+0x14000633f	0x140024178	import	0x1400061b0	KERNEL32.dll.GetStdHandle
+0x140006381	0x140024158	import	0x1400061b0	KERNEL32.dll.CreateProcessW
+0x14000638b	0x1400240b0	import	0x1400061b0	KERNEL32.dll.GetLastError
+0x140006393	0x14002ea80	string	0x1400061b0	CreateProcess: error, errCode = 0x%08x.\n
+0x14000639f	0x14002ea58	string	0x1400061b0	<-- executeCommand\n
+0x1400063b0	0x140024188	import	0x1400061b0	KERNEL32.dll.CloseHandle
+0x1400063bb	0x140024188	import	0x1400061b0	KERNEL32.dll.CloseHandle
+0x1400063cb	0x140024188	import	0x1400061b0	KERNEL32.dll.CloseHandle
+0x1400063d6	0x140024188	import	0x1400061b0	KERNEL32.dll.CloseHandle
+0x1400063e1	0x140024188	import	0x1400061b0	KERNEL32.dll.CloseHandle
+0x14000640d	0x140024168	import	0x1400061b0	KERNEL32.dll.ReadFile
+0x14000648c	0x140024168	import	0x1400061b0	KERNEL32.dll.ReadFile
+0x1400064a3	0x140024188	import	0x1400061b0	KERNEL32.dll.CloseHandle
+0x140006509	0x14002eae0	string	0x1400061b0	executeCommand: result = %s.\n
+0x140006515	0x14002ea58	string	0x1400061b0	<-- executeCommand\n
+0x140006625	0x14002eb30	string	0x1400065e0	--> getInterfaceNamesFromNetshOutput\n
+0x140006653	0x14002eb80	string	0x1400065e0	<-- getInterfaceNamesFromNetshOutput\n
+0x1400066da	0x14002ebd0	string	0x1400065e0	
+0x1400066e4	0x140007040	string	0x1400065e0	@VWAVH
+0x14000678f	0x14002ebf0	string	0x1400065e0	getInterfaceNamesFromNetshOutput: executing, strInterfaceName = %s.\n
+0x140006951	0x14002beb0	string	0x1400065e0	vector<T> too long
+0x14000695e	0x14002beb0	string	0x1400065e0	vector<T> too long
+0x14000696b	0x14002eb80	string	0x1400065e0	<-- getInterfaceNamesFromNetshOutput\n
+0x1400069fe	0x14002ec90	string	0x1400069d0	--> snapshotInterfaceListBeforeInstall\n
+0x140006a0a	0x14002ece0	string	0x1400069d0	netsh.exe interface show interface
+0x140006aaa	0x1400065e0	string	0x1400069d0	@UVWATAUAVAWH
+0x140006b36	0x14002ed30	string	0x1400069d0	<-- snapshotInterfaceListBeforeInstall\n
+0x140006bae	0x14002ed80	string	0x140006b80	--> snapshotInterfaceListAfterInstall\n
+0x140006bba	0x14002ece0	string	0x140006b80	netsh.exe interface show interface
+0x140006c5a	0x1400065e0	string	0x140006b80	@UVWATAUAVAWH
+0x140006ce6	0x14002edd0	string	0x140006b80	<-- snapshotInterfaceListAfterInstall\n
+0x140006d5c	0x14002eec0	string	0x140006d30	--> changeLoopbackInterfaceMTU\n
+0x140006d7f	0x14002ef00	string	0x140006d30	netsh.exe interface ipv4 set subinterface "%s" mtu=%d store=persistent
+0x140006dcd	0x14002ef90	string	0x140006d30	netsh.exe interface ipv6 set subinterface "%s" mtu=%d store=persistent
+0x140006e04	0x14002f020	string	0x140006d30	<-- changeLoopbackInterfaceMTU\n
+0x140006e7c	0x14002f060	string	0x140006e50	--> renameLoopbackInterface\n
+0x140006e97	0x14002d8d0	string	0x140006e50	Npcap Loopback Adapter
+0x140006ea3	0x14002f0a0	string	0x140006e50	netsh.exe interface set interface name="%s" newname="%s"
+0x140006eda	0x14002f118	string	0x140006e50	<-- renameLoopbackInterface\n
+0x140006f3e	0x14002f158	string	0x140006f20	--> DoRenameLoopbackNetwork2\n
+0x140006f6b	0x14002f1a0	string	0x140006f20	getNpcapLoopbackAdapterName: executing, strOriginalInterfaceName = %s.\n
+0x140006f87	0x14002f240	string	0x140006f20	getNpcapLoopbackAdapterName: error, strOriginalInterfaceName = NULL.\n
+0x140006f93	0x14002f2d8	string	0x140006f20	<-- DoRenameLoopbackNetwork2\n
+0x140007007	0x14002f2d8	string	0x140006f20	<-- DoRenameLoopbackNetwork2\n
+0x1400070ff	0x1400070a0	string	0x140007040	f9+uIH
+0x140007251	0x14002bee0	string	0x140007120	string too long
+0x14000725e	0x14002bee0	string	0x140007120	string too long
+0x140007417	0x1400075f0	string	0x1400073a0	@SUVATAVH
+0x1400079c2	0x14002f328	string	0x1400079b0	--> HrGetINetCfg\n
+0x1400079ed	0x1400244f0	import	0x1400079b0	ole32.dll.CoInitialize
+0x140007a27	0x140024500	import	0x1400079b0	ole32.dll.CoCreateInstance
+0x140007a58	0x140032f30	string	0x1400079b0	NPCAP
+0x140007ad1	0x14002f350	string	0x1400079b0	CoCreateInstance: error, hr = 0x%08x.\n
+0x140007ae3	0x1400244f8	import	0x1400079b0	ole32.dll.CoUninitialize
+0x140007ae9	0x14002f3a8	string	0x1400079b0	<-- HrGetINetCfg\n
+0x140007b1d	0x14002f3d0	string	0x140007b10	--> HrReleaseINetCfg\n
+0x140007b81	0x1400244f8	import	0x140007b10	ole32.dll.CoUninitialize
+0x140007b87	0x14002f400	string	0x140007b10	<-- HrReleaseINetCfg\n
+0x140007bc2	0x14002f430	string	0x140007ba0	--> HrInstallNetComponent\n
+0x140007c85	0x140024450	import	0x140007ba0	SETUPAPI.dll.SetupCopyOEMInfW
+0x140007c97	0x1400240b0	import	0x140007ba0	KERNEL32.dll.GetLastError
+0x140007cac	0x14002f470	string	0x140007ba0	SetupCopyOEMInfW: error, errCode = 0x%08x.\n
+0x140007cc9	0x14002f4d0	string	0x140007ba0	bWiFiService = %d.\n
+0x140007cd5	0x14002f500	string	0x140007ba0	INSECURE_NPCAP
+0x140007cdc	0x14002f520	string	0x140007ba0	HrInstallComponent: executing, szComponentId = %s.\n
+0x140007ce8	0x14002f500	string	0x140007ba0	INSECURE_NPCAP
+0x140007d05	0x14002f590	string	0x140007ba0	INSECURE_NPCAP_WIFI
+0x140007d0c	0x14002f520	string	0x140007ba0	HrInstallComponent: executing, szComponentId = %s.\n
+0x140007d18	0x14002f590	string	0x140007ba0	INSECURE_NPCAP_WIFI
+0x140007d2b	0x14002f590	string	0x140007ba0	INSECURE_NPCAP_WIFI
+0x140007d32	0x14002f620	string	0x140007ba0	HrInstallComponent: error, szComponentId = %s.\n
+0x140007d4d	0x14002f5c0	string	0x140007ba0	INetCfg::Apply: error, errCode = 0x%08x.\n
+0x140007d5d	0x14002f500	string	0x140007ba0	INSECURE_NPCAP
+0x140007d64	0x14002f620	string	0x140007ba0	HrInstallComponent: error, szComponentId = %s.\n
+0x140007d70	0x14002f688	string	0x140007ba0	<-- HrInstallNetComponent\n
+0x140007db7	0x14002f6c0	string	0x140007da0	--> HrInstallComponent\n
+0x140007e74	0x14002f6f0	string	0x140007da0	INetCfgClassSetup::Install: error, szComponentId = %s.\n
+0x140007e98	0x14002f770	string	0x140007da0	INetCfg::QueryNetCfgClass: error, szComponentId = %s.\n
+0x140007ea7	0x14002f7e8	string	0x140007da0	<-- HrInstallComponent\n
+0x140007ef4	0x14002f818	string	0x140007ed0	--> HrUninstallNetComponent\n
+0x140007fc9	0x14002f8c8	string	0x140007ed0	Failed to uninstall %s.
+0x140007fe8	0x14002f860	string	0x140007ed0	Couldn't apply the changes after uninstalling %s.
+0x14000800b	0x14002f900	string	0x140007ed0	Couldn't get an interface to setup class.
+0x14000802b	0x14002f960	string	0x140007ed0	Couldn't get a pointer to class interface of %s.
+0x140008034	0x14002f9d0	string	0x140007ed0	Couldn't get the class guid of %s.
+0x140008057	0x14002fa20	string	0x140007ed0	Couldn't get an interface pointer to %s.
+0x140008068	0x14002fa78	string	0x140007ed0	<-- HrUninstallNetComponent\n
+0x1400080c8	0x14002fab8	string	0x1400080a0	--> RestartAllBindings\n
+0x1400080e8	0x14002faf0	string	0x1400080a0	INetCfg::FindComponent: error, hr = 0x%08x.\n
+0x140008109	0x14002fb90	string	0x1400080a0	INetCfgComponent::QueryInterface: error, hr = 0x%08x.\n
+0x140008117	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x140008145	0x14002fc10	string	0x1400080a0	INetCfgComponentBindings::EnumBindingPaths: error, hr = 0x%08x.\n
+0x140008151	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x1400081a4	0x14002fd10	string	0x1400080a0	INetCfgBindingPath::GetPathToken: error, hr = 0x%08x.\n
+0x1400081b0	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x1400081c0	0x14002fd88	string	0x1400080a0	Found binding %ws.\n
+0x1400081d0	0x1400244d8	import	0x1400080a0	ole32.dll.CoTaskMemFree
+0x1400081e6	0x14002fdc0	string	0x1400080a0	INetCfgBindingPath::IsEnabled: error, hr = 0x%08x.\n
+0x1400081f2	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x140008203	0x14002fe30	string	0x1400080a0	Path is already disabled. Skipping over it.\n
+0x14000820f	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x14000822a	0x14002fea0	string	0x1400080a0	INetCfgBindingPath::Enable(FALSE): error, hr = 0x%08x.\n
+0x140008236	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x14000824c	0x14002ff78	string	0x1400080a0	Path disabled.\n
+0x140008278	0x140030018	string	0x1400080a0	Path enabled.\n
+0x1400082b8	0x14002ff20	string	0x1400080a0	INetCfg::Apply: error, hr = 0x%08x.\n
+0x1400082c1	0x14002ffa0	string	0x1400080a0	INetCfgBindingPath::Enable(TRUE): error, hr = 0x%08x.\n
+0x1400082ca	0x14002fca0	string	0x1400080a0	IEnumNetCfgBindingPath::Next: error, hr = 0x%08x.\n
+0x1400082d8	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x140008305	0x14002fb58	string	0x1400080a0	<-- RestartAllBindings\n
+0x140008387	0x140030040	string	0x140008360	--> ConnectToNetCfg\n
+0x1400083b1	0x140024500	import	0x140008360	ole32.dll.CoCreateInstance
+0x1400083bb	0x140030070	string	0x140008360	CoCreateInstance(CLSID_CNetCfg): error, hr = 0x%08x.\n
+0x1400083e1	0x140030120	string	0x140008360	INetCfg::QueryInterface: error, hr = 0x%08x.\n
+0x1400083f8	0x140032f30	string	0x140008360	NPCAP
+0x140008409	0x140030190	string	0x140008360	INetCfgLock::AcquireWriteLock: error, hr = 0x%08x.\n
+0x140008423	0x140030200	string	0x140008360	INetCfg::Initialize: error, hr = 0x%08x.\n
+0x140008434	0x1400080a0	string	0x140008360	@UVWH
+0x14000844c	0x140030260	string	0x140008360	INetCfg::Uninitialize: error, hr = 0x%08x.\n
+0x140008467	0x1400302c0	string	0x140008360	INetCfgLock::ReleaseWriteLock: error, hr = 0x%08x.\n
+0x140008475	0x1400300e8	string	0x140008360	<-- ConnectToNetCfg\n
+0x1400084c9	0x140030330	string	0x1400084b0	--> PacketIsServiceStopPending\n
+0x1400084d7	0x140024190	import	0x1400084b0	KERNEL32.dll.GetTickCount
+0x1400084e7	0x140024050	import	0x1400084b0	ADVAPI32.dll.OpenSCManagerW
+0x1400084f5	0x1400240b0	import	0x1400084b0	KERNEL32.dll.GetLastError
+0x1400084fb	0x140030370	string	0x1400084b0	OpenSCManager failed (0x%08x)\n
+0x140008509	0x1400303c0	string	0x1400084b0	<-- PacketIsServiceStopPending\n
+0x14000851c	0x140030400	string	0x1400084b0	npcap
+0x140008534	0x140024048	import	0x1400084b0	ADVAPI32.dll.OpenServiceW
+0x140008542	0x1400240b0	import	0x1400084b0	KERNEL32.dll.GetLastError
+0x140008548	0x140030410	string	0x1400084b0	OpenService failed (0x%08x)\n
+0x140008559	0x140024060	import	0x1400084b0	ADVAPI32.dll.CloseServiceHandle
+0x14000855f	0x1400303c0	string	0x1400084b0	<-- PacketIsServiceStopPending\n
+0x140008589	0x140024040	import	0x1400084b0	ADVAPI32.dll.QueryServiceStatusEx
+0x140008593	0x1400240b0	import	0x1400084b0	KERNEL32.dll.GetLastError
+0x140008599	0x140030460	string	0x1400084b0	QueryServiceStatusEx failed (0x%08x)\n
+0x1400085b2	0x1400304c0	string	0x1400084b0	Service is already stopped.\n
+0x1400085ce	0x140024060	import	0x1400084b0	ADVAPI32.dll.CloseServiceHandle
+0x1400085d7	0x140024060	import	0x1400084b0	ADVAPI32.dll.CloseServiceHandle
+0x1400085dd	0x1400303c0	string	0x1400084b0	<-- PacketIsServiceStopPending\n
+0x14000862b	0x1400305d8	string	0x140008610	--> PacketInstallDriver40\n
+0x140008646	0x140024050	import	0x140008610	ADVAPI32.dll.OpenSCManagerW
+0x140008654	0x140030610	string	0x140008610	<-- PacketInstallDriver40\n
+0x140008667	0x140033040	string	0x140008610	--> GetServiceSysFilePath\n
+0x14000868b	0x140024108	import	0x140008610	KERNEL32.dll.GetModuleFileNameW
+0x1400086bd	0x140033078	string	0x140008610	.sys
+0x1400086c4	0x140032f30	string	0x140008610	NPCAP
+0x1400086f2	0x140032f40	string	0x140008610	lpFilename = %s\n
+0x1400086fe	0x140033088	string	0x140008610	<-- GetServiceSysFilePath\n
+0x140008755	0x140030648	string	0x140008610	Npcap Packet Driver (NPCAP)
+0x14000875c	0x140030400	string	0x140008610	npcap
+0x14000877c	0x140024068	import	0x140008610	ADVAPI32.dll.CreateServiceW
+0x14000878d	0x140024060	import	0x140008610	ADVAPI32.dll.CloseServiceHandle
+0x140008796	0x140024060	import	0x140008610	ADVAPI32.dll.CloseServiceHandle
+0x14000879c	0x140030610	string	0x140008610	<-- PacketInstallDriver40\n
+0x1400087af	0x140030610	string	0x140008610	<-- PacketInstallDriver40\n
+0x1400087e6	0x140030680	string	0x1400087e0	--> PacketStopDriver40\n
+0x1400087fc	0x140024050	import	0x1400087e0	ADVAPI32.dll.OpenSCManagerW
+0x14000880a	0x1400306b0	string	0x1400087e0	<-- PacketStopDriver40\n
+0x14000881e	0x140030400	string	0x1400087e0	npcap
+0x140008833	0x140024048	import	0x1400087e0	ADVAPI32.dll.OpenServiceW
+0x140008841	0x1400306b0	string	0x1400087e0	<-- PacketStopDriver40\n
+0x14000885d	0x140024058	import	0x1400087e0	ADVAPI32.dll.DeleteService
+0x140008866	0x140024060	import	0x1400087e0	ADVAPI32.dll.CloseServiceHandle
+0x14000886f	0x140024060	import	0x1400087e0	ADVAPI32.dll.CloseServiceHandle
+0x140008875	0x1400306b0	string	0x1400087e0	<-- PacketStopDriver40\n
+0x1400088e1	0x140030750	string	0x1400088a0	--> wmain\n
+0x1400088f3	0x140030770	string	0x1400088a0	NPFInstall for Npcap 0.992 (http://npcap.org)
+0x1400088fa	0x140024198	import	0x1400088a0	KERNEL32.dll.SetConsoleTitleW
+0x14000896b	0x1400307d0	string	0x1400088a0	_tmain: executing, argv[%d] = %s.\n
+0x140008bb0	0x14002beb0	string	0x1400088a0	vector<T> too long
+0x140008bbd	0x14002beb0	string	0x1400088a0	vector<T> too long
+0x140008bce	0x140024310	import	0x1400088a0	KERNEL32.dll.GetConsoleWindow
+0x140008bd9	0x140024490	import	0x1400088a0	USER32.dll.ShowWindow
+0x140008bf7	0x140030830	string	0x1400088a0	NPFInstall for Npcap 0.992 ( http://npcap.org )\nUsage: NPFInstall [Options]\n\nOPTIONS:\n -i\t\t\t: Install the LWF driver\n -i2\t\t\t: Install the LWF driver (with Wi-Fi support)\n -u\t\t\t: Uninstall the LWF driver\n -u2\t\t\t: Uninstall the LWF driver (with Wi-Fi support)\n -iw\t\t\t: Install the WFP callout driver\n -uw\t\t\t: Uninstall the WFP callout driver\n -il\t\t\t: Install "Npcap loopback adapter"\n -ul\t\t\t: Uninstall "Npcap loopback adapter"\n -ii\t\t\t: Install the legacy driver (for XP)\n -uu\t\t\t: Uninstall the legacy driver (for XP)\n -r\t\t\t: Restart all bindings\n -r2\t\t\t: Restart all bindings (with Wi-Fi support)\n -d\t\t\t: Detect whether the driver service is pending to stop\n -check_dll\t\t: Detect whether the Npcap DLLs are still used by any processes, will list them if yes\n -kill_proc\t\t: Terminate all the processes that are still using Npcap DLLs\n -kill_proc_soft\t: Gracefully terminate all the processes that are still using Npcap DLLs (only for GUI processes, CLI processes will not be terminated)\n -kill_proc_polite\t: Politely terminate all the processes that are still using Npcap DLLs (wait for 15 seconds for GUI processes to close themselves, CLI processes will still be terminiated immediatelly)\n -c\t\t\t: Clear all the driverstore cache for the driver\n -wlan_check\t\t: Check whether this machine owns a wireless adapter\n -wlan_write_reg\t: Write the names of all wireless adapters to registry\n -add_path\t\t: Add Npcap folder to the PATH environment variable\n -remove_path\t\t: Remove Npcap folder from the PATH environment variable\n -n\t\t\t: Hide this window when executing the command\n -h\t\t\t: Print this help summary page\n\nEXAMPLES:\n NPFInstall -i\n NPFInstall -iw\n\nSEE THE MAN PAGE (https://github.com/nmap/npcap) FOR MORE OPTIONS AND EXAMPLES\n
+0x140008c9f	0x140030508	string	0x1400088a0	--> PacketInstallDriver60\n
+0x140008cb2	0x140030540	string	0x1400088a0	<-- PacketInstallDriver60\n
+0x140008cc2	0x1400240b0	import	0x1400088a0	KERNEL32.dll.GetLastError
+0x140008ccf	0x1400316e8	string	0x1400088a0	Too many filters installed!\n
+0x140008cf3	0x140030508	string	0x1400088a0	--> PacketInstallDriver60\n
+0x140008d06	0x140030540	string	0x1400088a0	<-- PacketInstallDriver60\n
+0x140008d1a	0x1400317a8	string	0x1400088a0	Unknown error! %x\n
+0x140008d26	0x1400317d0	string	0x1400088a0	Npcap LWF driver has failed to be installed.\n
+0x140008d32	0x140031680	string	0x1400088a0	Npcap LWF driver has been successfully installed!\n
+0x140008dc5	0x140030508	string	0x1400088a0	--> PacketInstallDriver60\n
+0x140008dd8	0x140030540	string	0x1400088a0	<-- PacketInstallDriver60\n
+0x140008de8	0x1400240b0	import	0x1400088a0	KERNEL32.dll.GetLastError
+0x140008df5	0x1400316e8	string	0x1400088a0	Too many filters installed!\n
+0x140008e19	0x140030508	string	0x1400088a0	--> PacketInstallDriver60\n
+0x140008e2c	0x140030540	string	0x1400088a0	<-- PacketInstallDriver60\n
+0x140008e40	0x1400317a8	string	0x1400088a0	Unknown error! %x\n
+0x140008e4c	0x1400318d0	string	0x1400088a0	Npcap LWF driver (with Wi-Fi support) has failed to be installed.\n
+0x140008e58	0x140031840	string	0x1400088a0	Npcap LWF driver (with Wi-Fi support) has been successfully installed!\n
+0x140008ee3	0x140030578	string	0x1400088a0	--> PacketStopDriver60\n
+0x140008ef6	0x1400305a8	string	0x1400088a0	<-- PacketStopDriver60\n
+0x140008f06	0x140031960	string	0x1400088a0	Npcap LWF driver has been successfully uninstalled!\n
+0x140008f12	0x1400319d0	string	0x1400088a0	Npcap LWF driver has failed to be uninstalled.\n
+0x140008fa1	0x140030578	string	0x1400088a0	--> PacketStopDriver60\n
+0x140008fb4	0x1400305a8	string	0x1400088a0	<-- PacketStopDriver60\n
+0x140008fc4	0x140031a40	string	0x1400088a0	Npcap LWF driver (with Wi-Fi support) has been successfully uninstalled!\n
+0x140008fd0	0x140031ae0	string	0x1400088a0	Npcap LWF driver (with Wi-Fi support) has failed to be uninstalled.\n
+0x14000905b	0x1400306e0	string	0x1400088a0	--> PacketRenableBindings\n
+0x14000906e	0x140030718	string	0x1400088a0	<-- PacketRenableBindings\n
+0x14000907e	0x140031b80	string	0x1400088a0	The bindings of Npcap driver have been successfully restarted!\n
+0x14000908a	0x140031c00	string	0x1400088a0	The bindings of Npcap driver have failed to be restarted.\n
+0x140009112	0x1400306e0	string	0x1400088a0	--> PacketRenableBindings\n
+0x140009125	0x140030718	string	0x1400088a0	<-- PacketRenableBindings\n
+0x140009135	0x140031c80	string	0x1400088a0	The bindings of Npcap driver (with Wi-Fi support) have been successfully restarted!\n
+0x140009141	0x140031d30	string	0x1400088a0	The bindings of Npcap driver (with Wi-Fi support) have failed to be restarted.\n
+0x1400091cb	0x140031de0	string	0x1400088a0	NPF legacy driver has been successfully installed!\n
+0x1400091d7	0x140031e50	string	0x1400088a0	NPF legacy driver has failed to be installed.\n
+0x140009263	0x140031ec0	string	0x1400088a0	NPF legacy driver has been successfully uninstalled!\n
+0x14000926f	0x140031f30	string	0x1400088a0	NPF legacy driver has failed to be uninstalled.\n
+0x1400092f9	0x140031fa0	string	0x1400088a0	Npcap Loopback adapter has been successfully installed!\n
+0x140009305	0x140032020	string	0x1400088a0	Npcap Loopback adapter has failed to be installed.\n
+0x140009393	0x140032090	string	0x1400088a0	Npcap Loopback adapter has been successfully uninstalled!\n
+0x14000939f	0x140032110	string	0x1400088a0	Npcap Loopback adapter has failed to be uninstalled.\n
+0x140009429	0x140032190	string	0x1400088a0	Npcap WFP callout driver has been successfully installed!\n
+0x140009435	0x140032210	string	0x1400088a0	Npcap WFP callout driver has failed to be installed.\n
+0x1400094c5	0x140032290	string	0x1400088a0	Npcap WFP callout driver has been successfully uninstalled!\n
+0x1400094d1	0x140032310	string	0x1400088a0	Npcap WFP callout driver has failed to be uninstalled.\n
+0x14000955b	0x140032390	string	0x1400088a0	Npcap service is pending to stop!\n
+0x140009567	0x1400323e0	string	0x1400088a0	Npcap service is not pending to stop.\n
+0x14000959a	0x140032430	string	0x1400088a0	-check_dll
+0x140009605	0x140032448	string	0x1400088a0	<NULL>\n
+0x140009666	0x140032460	string	0x1400088a0	-kill_proc
+0x140009683	0x140032480	string	0x1400088a0	All the processes that are still using Npcap DLLs have been successfully terminated!\n
+0x14000968f	0x140032530	string	0x1400088a0	Some of the processes that are still using Npcap DLLs have failed to be terminated.\n
+0x14000969b	0x1400325e0	string	0x1400088a0	-kill_proc_soft
+0x1400096b8	0x140032600	string	0x1400088a0	All the processes that are still using Npcap DLLs have been successfully terminated gracefully!\n
+0x1400096c4	0x1400326d0	string	0x1400088a0	Some of the processes that are still using Npcap DLLs have failed to be terminated gracefully.\n
+0x1400096d0	0x140032790	string	0x1400088a0	-kill_proc_polite
+0x1400096ed	0x1400327c0	string	0x1400088a0	All the processes that are still using Npcap DLLs have been successfully terminated politely!\n
+0x1400096f9	0x140032880	string	0x1400088a0	Some of the processes that are still using Npcap DLLs have failed to be terminated politely.\n
+0x140009725	0x140032950	string	0x1400088a0	Npcap driver cache in Driver Store has been successfully cleaned up!\n
+0x140009731	0x1400329e0	string	0x1400088a0	Npcap driver cache in Driver Store has failed to be cleaned up.\n
+0x14000973d	0x140032a70	string	0x1400088a0	-wlan_check
+0x140009765	0x14000dcb0	string	0x1400088a0	@UATAUAVAWH
+0x1400097e6	0x140032a88	string	0x1400088a0	Wlan adapters: %s\n
+0x140009813	0x140032ab0	string	0x1400088a0	Wlan adapters: NULL\n
+0x140009834	0x140032ae0	string	0x1400088a0	-wlan_write_reg
+0x140009851	0x140032b00	string	0x1400088a0	Wlan adapters have been successfully written to registry!\n
+0x14000985d	0x140032b80	string	0x1400088a0	Wlan adapters have failed to be written to registry.\n
+0x140009869	0x140032bf0	string	0x1400088a0	-add_path
+0x140009886	0x140032c10	string	0x1400088a0	Npcap folder has been successfully added to PATH!\n
+0x14000988f	0x140032c80	string	0x1400088a0	Npcap folder has failed to be added to PATH.\n
+0x140009898	0x140032ce0	string	0x1400088a0	-remove_path
+0x1400098b5	0x140032d00	string	0x1400088a0	Npcap folder has been successfully removed from PATH!\n
+0x1400098be	0x140032d70	string	0x1400088a0	Npcap folder has failed to be removed from PATH.\n
+0x1400098db	0x140030830	string	0x1400088a0	NPFInstall for Npcap 0.992 ( http://npcap.org )\nUsage: NPFInstall [Options]\n\nOPTIONS:\n -i\t\t\t: Install the LWF driver\n -i2\t\t\t: Install the LWF driver (with Wi-Fi support)\n -u\t\t\t: Uninstall the LWF driver\n -u2\t\t\t: Uninstall the LWF driver (with Wi-Fi support)\n -iw\t\t\t: Install the WFP callout driver\n -uw\t\t\t: Uninstall the WFP callout driver\n -il\t\t\t: Install "Npcap loopback adapter"\n -ul\t\t\t: Uninstall "Npcap loopback adapter"\n -ii\t\t\t: Install the legacy driver (for XP)\n -uu\t\t\t: Uninstall the legacy driver (for XP)\n -r\t\t\t: Restart all bindings\n -r2\t\t\t: Restart all bindings (with Wi-Fi support)\n -d\t\t\t: Detect whether the driver service is pending to stop\n -check_dll\t\t: Detect whether the Npcap DLLs are still used by any processes, will list them if yes\n -kill_proc\t\t: Terminate all the processes that are still using Npcap DLLs\n -kill_proc_soft\t: Gracefully terminate all the processes that are still using Npcap DLLs (only for GUI processes, CLI processes will not be terminated)\n -kill_proc_polite\t: Politely terminate all the processes that are still using Npcap DLLs (wait for 15 seconds for GUI processes to close themselves, CLI processes will still be terminiated immediatelly)\n -c\t\t\t: Clear all the driverstore cache for the driver\n -wlan_check\t\t: Check whether this machine owns a wireless adapter\n -wlan_write_reg\t: Write the names of all wireless adapters to registry\n -add_path\t\t: Add Npcap folder to the PATH environment variable\n -remove_path\t\t: Remove Npcap folder from the PATH environment variable\n -n\t\t\t: Hide this window when executing the command\n -h\t\t\t: Print this help summary page\n\nEXAMPLES:\n NPFInstall -i\n NPFInstall -iw\n\nSEE THE MAN PAGE (https://github.com/nmap/npcap) FOR MORE OPTIONS AND EXAMPLES\n
+0x1400098ec	0x140032de0	string	0x1400088a0	_tmain: succeed, nStatus = %d.\n
+0x1400098f5	0x1400315f0	string	0x1400088a0	Error: invalid parameter, type in "NPFInstall -h" for help.\n
+0x140009909	0x140032e30	string	0x1400088a0	_tmain: error, nStatus = %d.\n
+0x140009915	0x140032e78	string	0x1400088a0	<-- wmain\n
+0x140009a1a	0x14002beb0	string	0x1400099c0	vector<T> too long
+0x140009b46	0x140032e90	string	0x140009b10	Error %#lx:
+0x140009bc4	0x1400240f8	import	0x140009b10	KERNEL32.dll.FormatMessageW
+0x140009bf5	0x140032eb0	string	0x140009b10	\n\nPossible cause:\n\n
+0x140009c64	0x140024130	import	0x140009b10	KERNEL32.dll.LocalFree
+0x140009c6f	0x140032ed8	string	0x140009b10	%s\n
+0x140009cb7	0x1400330c0	string	0x140009ca0	--> InstallSpecifiedComponent\n
+0x140009cfc	0x140033100	string	0x140009ca0	Couldn't install the network component.
+0x140009d25	0x140033150	string	0x140009ca0	%s currently holds the lock, try later.
+0x140009d38	0x1400244d8	import	0x140009ca0	ole32.dll.CoTaskMemFree
+0x140009d40	0x1400331a0	string	0x140009ca0	Couldn't the get notify object interface.
+0x140009d4e	0x1400331f8	string	0x140009ca0	<-- InstallSpecifiedComponent\n
+0x140009d8b	0x140033238	string	0x140009d70	--> InstallDriver\n
+0x140009d97	0x140032ee8	string	0x140009d70	--> GetServiceInfFilePath\n
+0x140009db0	0x140024108	import	0x140009d70	KERNEL32.dll.GetModuleFileNameW
+0x140009de1	0x140032f20	string	0x140009d70	.inf
+0x140009de8	0x140032f30	string	0x140009d70	NPCAP
+0x140009e10	0x140032f40	string	0x140009d70	lpFilename = %s\n
+0x140009e1c	0x140032f70	string	0x140009d70	<-- GetServiceInfFilePath\n
+0x140009e57	0x1400332d0	string	0x140009d70	InstallSpecifiedComponent\n
+0x140009e65	0x1400332a8	string	0x140009d70	<-- InstallDriver\n
+0x140009e73	0x1400240b8	import	0x140009d70	KERNEL32.dll.SetLastError
+0x140009ed6	0x140033308	string	0x140009ed0	--> UninstallDriver\n
+0x140009f05	0x14002f4d0	string	0x140009ed0	bWiFiService = %d.\n
+0x140009f11	0x14002f500	string	0x140009ed0	INSECURE_NPCAP
+0x140009f18	0x140033340	string	0x140009ed0	HrUninstallNetComponent: executing, szComponentId = %s.\n
+0x140009f29	0x14002f500	string	0x140009ed0	INSECURE_NPCAP
+0x140009f40	0x1400333c0	string	0x140009ed0	Couldn't uninstall the network component.
+0x140009f59	0x14002f590	string	0x140009ed0	INSECURE_NPCAP_WIFI
+0x140009f60	0x140033340	string	0x140009ed0	HrUninstallNetComponent: executing, szComponentId = %s.\n
+0x140009f71	0x14002f590	string	0x140009ed0	INSECURE_NPCAP_WIFI
+0x140009f88	0x1400333c0	string	0x140009ed0	Couldn't uninstall the network component.
+0x140009fb7	0x140033150	string	0x140009ed0	%s currently holds the lock, try later.
+0x140009fca	0x1400244d8	import	0x140009ed0	ole32.dll.CoTaskMemFree
+0x140009fd2	0x140033420	string	0x140009ed0	Couldn't get the notify object interface.
+0x140009fe0	0x140033478	string	0x140009ed0	<-- UninstallDriver\n
+0x14000a004	0x1400334a8	string	0x14000a000	--> RenableBindings\n
+0x14000a014	0x1400244e0	import	0x14000a000	ole32.dll.CoInitializeEx
+0x14000a01e	0x1400334d8	string	0x14000a000	CoInitializeEx: 0x%08x\n\n
+0x14000a02c	0x140033518	string	0x14000a000	<-- RenableBindings\n
+0x14000a042	0x14002f500	string	0x14000a000	INSECURE_NPCAP
+0x14000a059	0x14002f500	string	0x14000a000	INSECURE_NPCAP
+0x14000a060	0x140033550	string	0x14000a000	ConnectToNetCfg: error, PNP Device ID = %s.\n
+0x14000a075	0x14002f590	string	0x14000a000	INSECURE_NPCAP_WIFI
+0x14000a087	0x14002f590	string	0x14000a000	INSECURE_NPCAP_WIFI
+0x14000a08e	0x140033550	string	0x14000a000	ConnectToNetCfg: error, PNP Device ID = %s.\n
+0x14000a09a	0x1400244f8	import	0x14000a000	ole32.dll.CoUninitialize
+0x14000a0a0	0x140033518	string	0x14000a000	<-- RenableBindings\n
+0x14000a17c	0x1400241a0	import	0x14000a160	KERNEL32.dll.GetCurrentProcess
+0x14000a18d	0x140024038	import	0x14000a160	ADVAPI32.dll.OpenProcessToken
+0x14000a1b1	0x1400335b8	string	0x14000a160	SeDebugPrivilege
+0x14000a1ba	0x140024030	import	0x14000a160	ADVAPI32.dll.LookupPrivilegeValueW
+0x14000a1fa	0x140024028	import	0x14000a160	ADVAPI32.dll.AdjustTokenPrivileges
+0x14000a295	0x1400335e0	string	0x14000a220	--> getFileProductName\n
+0x14000a2b5	0x1400244c0	import	0x14000a220	VERSION.dll.GetFileVersionInfoSizeW
+0x14000a2c1	0x1400240b0	import	0x14000a220	KERNEL32.dll.GetLastError
+0x14000a2c7	0x140033610	string	0x14000a220	GetFileVersionInfoSize: error, errCode = 0x%08x.\n
+0x14000a2db	0x1400241b8	import	0x14000a220	KERNEL32.dll.GlobalAlloc
+0x14000a304	0x1400244c8	import	0x14000a220	VERSION.dll.GetFileVersionInfoW
+0x14000a314	0x1400336b0	string	0x14000a220	\VarFileInfo\Translation
+0x14000a31e	0x1400244b8	import	0x14000a220	VERSION.dll.VerQueryValueW
+0x14000a331	0x1400336e8	string	0x14000a220	ProductName
+0x14000a341	0x140033700	string	0x14000a220	\StringFileInfo\%04x%04x\%s
+0x14000a367	0x1400244b8	import	0x14000a220	VERSION.dll.VerQueryValueW
+0x14000a39c	0x140033738	string	0x14000a220	VerQueryValue: error.\n
+0x14000a3ab	0x1400241c8	import	0x14000a220	KERNEL32.dll.GlobalFree
+0x14000a3b1	0x140033680	string	0x14000a220	<-- getFileProductName\n
+0x14000a415	0x1400240b0	import	0x14000a220	KERNEL32.dll.GetLastError
+0x14000a41b	0x140033770	string	0x14000a220	GlobalAlloc: error, errCode = 0x%08x.\n
+0x14000a429	0x140033680	string	0x14000a220	<-- getFileProductName\n
+0x14000a518	0x1400337d0	string	0x14000a4d0	checkModulePathName::find_last_of: error, strModulePathName = %s.\n
+0x14000a586	0x140033860	string	0x14000a4d0	wpcap.dll
+0x14000a5fb	0x140033880	string	0x14000a4d0	packet.dll
+0x14000a758	0x1400241b0	import	0x14000a6f0	KERNEL32.dll.OpenProcess
+0x14000a77a	0x1400240b0	import	0x14000a6f0	KERNEL32.dll.GetLastError
+0x14000a788	0x1400338a0	string	0x14000a6f0	enumDLLs::OpenProcess: error, errCode = 0x%08x, strProcessName = %s, dwProcessID = %d.\n
+0x14000a7b3	0x1400243b8	import	0x14000a6f0	PSAPI.DLL.EnumProcessModulesEx
+0x14000a7f8	0x1400243b0	import	0x14000a6f0	PSAPI.DLL.GetModuleFileNameExW
+0x14000a92f	0x14000a220	string	0x14000a6f0	@UVWAVAWH
+0x14000a959	0x140033958	string	0x14000a6f0	Npcap
+0x14000a9e9	0x140033970	string	0x14000a6f0	enumDLLs: succeed, strProcessName = %s, strModulePathName = %s.\n
+0x14000aa29	0x140024188	import	0x14000a6f0	KERNEL32.dll.CloseHandle
+0x14000aa43	0x1400240b0	import	0x14000a6f0	KERNEL32.dll.GetLastError
+0x14000aa4b	0x140033a00	string	0x14000a6f0	EnumProcessModulesEx: error, errCode = 0x%08x.\n
+0x14000aaf9	0x140033a68	string	0x14000aab0	--> enumProcesses\n
+0x14000ab1f	0x1400241e0	import	0x14000aab0	KERNEL32.dll.CreateToolhelp32Snapshot
+0x14000ab40	0x1400241d0	import	0x14000aab0	KERNEL32.dll.Process32FirstW
+0x14000ab5f	0x1400241d8	import	0x14000aab0	KERNEL32.dll.Process32NextW
+0x14000abdb	0x14000a6f0	string	0x14000aab0	@UVWATAUAVAWH
+0x14000ad9d	0x14002beb0	string	0x14000aab0	vector<T> too long
+0x14000adaa	0x14002beb0	string	0x14000aab0	vector<T> too long
+0x14000adb7	0x140024188	import	0x14000aab0	KERNEL32.dll.CloseHandle
+0x14000adbd	0x140033b20	string	0x14000aab0	<-- enumProcesses\n
+0x14000add6	0x1400240b0	import	0x14000aab0	KERNEL32.dll.GetLastError
+0x14000adde	0x140033a90	string	0x14000aab0	enumProcesses::CreateToolhelp32Snapshot: error, errCode = 0x%08x.\n
+0x14000adea	0x140033b20	string	0x14000aab0	<-- enumProcesses\n
+0x14000ae8b	0x140033b48	string	0x14000ae40	--> enumProcesses_PID\n
+0x14000aeb2	0x1400241e0	import	0x14000ae40	KERNEL32.dll.CreateToolhelp32Snapshot
+0x14000aed3	0x1400241d0	import	0x14000ae40	KERNEL32.dll.Process32FirstW
+0x14000aef2	0x1400241d8	import	0x14000ae40	KERNEL32.dll.Process32NextW
+0x14000af6e	0x14000a6f0	string	0x14000ae40	@UVWATAUAVAWH
+0x14000b0da	0x14002beb0	string	0x14000ae40	vector<T> too long
+0x14000b0e7	0x14002beb0	string	0x14000ae40	vector<T> too long
+0x14000b0f4	0x140024188	import	0x14000ae40	KERNEL32.dll.CloseHandle
+0x14000b0fa	0x140033c18	string	0x14000ae40	<-- enumProcesses_PID\n
+0x14000b113	0x1400240b0	import	0x14000ae40	KERNEL32.dll.GetLastError
+0x14000b11b	0x140033b80	string	0x14000ae40	enumProcesses_PID::CreateToolhelp32Snapshot: error, errCode = 0x%08x.\n
+0x14000b127	0x140033c18	string	0x14000ae40	<-- enumProcesses_PID\n
+0x14000b1b2	0x140033c48	string	0x14000b180	--> getInUseProcesses\n
+0x14000b2d8	0x140033c80	string	0x14000b180	<-- getInUseProcesses\n
+0x14000b35c	0x140033cb0	string	0x14000b350	--> killProcess\n
+0x14000b370	0x1400241b0	import	0x14000b350	KERNEL32.dll.OpenProcess
+0x14000b37e	0x1400240b0	import	0x14000b350	KERNEL32.dll.GetLastError
+0x14000b389	0x140033ce0	string	0x14000b350	killProcess: the process terminates itself, dwProcessID = %d.\n
+0x14000b3a5	0x140033d70	string	0x14000b350	killProcess::OpenProcess: error, errCode = 0x%08x, dwProcessID = %d.\n
+0x14000b3c8	0x1400241c0	import	0x14000b350	KERNEL32.dll.TerminateProcess
+0x14000b3d2	0x1400240b0	import	0x14000b350	KERNEL32.dll.GetLastError
+0x14000b3d8	0x140033e10	string	0x14000b350	killProcess::TerminateProcess: error, errCode = 0x%08x, dwProcessID = %d.\n
+0x14000b3e9	0x140033eb0	string	0x14000b350	<-- killProcess\n
+0x14000b40a	0x1400241a8	import	0x14000b350	KERNEL32.dll.WaitForSingleObject
+0x14000b410	0x140033ee0	string	0x14000b350	killProcess::TerminateProcess: succeeds, dwProcessID = %d.\n
+0x14000b41e	0x140033eb0	string	0x14000b350	<-- killProcess\n
+0x14000b461	0x140033f60	string	0x14000b440	--> killInUseProcesses\n
+0x14000b4e9	0x140033f90	string	0x14000b440	<-- killInUseProcesses\n
+0x14000b553	0x140033fc0	string	0x14000b520	--> killProcess_Soft\n
+0x14000b575	0x140033ff0	string	0x14000b520	taskkill /pid
+0x14000b61a	0x140034010	string	0x14000b520	SUCCESS
+0x14000b62c	0x140034020	string	0x14000b520	killProcess_Soft: gracefully kill process, bResult = 1, dwProcessID = %d.\n
+0x14000b638	0x1400340c0	string	0x14000b520	<-- killProcess_Soft\n
+0x14000b64b	0x1400340f0	string	0x14000b520	killProcess_Soft: gracefully kill process, bResult = 0, dwProcessID = %d.\n
+0x14000b657	0x1400340c0	string	0x14000b520	<-- killProcess_Soft\n
+0x14000b6e1	0x140034190	string	0x14000b6c0	--> killInUseProcesses_Soft\n
+0x14000b786	0x1400341d0	string	0x14000b6c0	<-- killInUseProcesses_Soft\n
+0x14000b7cc	0x140034210	string	0x14000b7c0	--> killProcess_Wait\n
+0x14000b7e2	0x1400241b0	import	0x14000b7c0	KERNEL32.dll.OpenProcess
+0x14000b7f0	0x1400240b0	import	0x14000b7c0	KERNEL32.dll.GetLastError
+0x14000b7fb	0x140034240	string	0x14000b7c0	killProcess_Wait: the process terminates itself, dwProcessID = %d.\n
+0x14000b817	0x1400342d0	string	0x14000b7c0	killProcess_Wait::OpenProcess: error, errCode = 0x%08x, dwProcessID = %d.\n
+0x14000b83a	0x140024190	import	0x14000b7c0	KERNEL32.dll.GetTickCount
+0x14000b84b	0x1400241a8	import	0x14000b7c0	KERNEL32.dll.WaitForSingleObject
+0x14000b864	0x1400241c0	import	0x14000b7c0	KERNEL32.dll.TerminateProcess
+0x14000b86e	0x1400240b0	import	0x14000b7c0	KERNEL32.dll.GetLastError
+0x14000b874	0x140034370	string	0x14000b7c0	killProcess_Wait::TerminateProcess: error, errCode = 0x%08x, dwProcessID = %d.\n
+0x14000b885	0x140034418	string	0x14000b7c0	<-- killProcess_Wait\n
+0x14000b8ab	0x1400241a8	import	0x14000b7c0	KERNEL32.dll.WaitForSingleObject
+0x14000b8b1	0x140034450	string	0x14000b7c0	killProcess_Wait::TerminateProcess: succeeds, dwProcessID = %d.\n
+0x14000b8c1	0x140024190	import	0x14000b7c0	KERNEL32.dll.GetTickCount
+0x14000b8e1	0x1400344e0	string	0x14000b7c0	killProcess_Wait: the process terminates itself, dwProcessID = %d, dwTimeout = %d.\n
+0x14000b8f6	0x140034418	string	0x14000b7c0	<-- killProcess_Wait\n
+0x14000b941	0x140034590	string	0x14000b920	--> killInUseProcesses_Polite\n
+0x14000ba0a	0x1400345d0	string	0x14000b920	<-- killInUseProcesses_Polite\n
+0x14000bc12	0x140024080	import	0x14000bb50	ADVAPI32.dll.RegCloseKey
+0x14000bc31	0x140024080	import	0x14000bb50	ADVAPI32.dll.RegCloseKey
+0x14000bcb1	0x140024080	import	0x14000bc60	ADVAPI32.dll.RegCloseKey
+0x14000bcc7	0x140024080	import	0x14000bc60	ADVAPI32.dll.RegCloseKey
+0x14000bd1d	0x140024020	import	0x14000bc60	ADVAPI32.dll.RegCreateKeyExW
+0x14000bd30	0x140024070	import	0x14000bc60	ADVAPI32.dll.RegOpenKeyExW
+0x14000bd3a	0x1400240b0	import	0x14000bc60	KERNEL32.dll.GetLastError
+0x14000bd82	0x140024080	import	0x14000bd70	ADVAPI32.dll.RegCloseKey
+0x14000bd9a	0x140024080	import	0x14000bd70	ADVAPI32.dll.RegCloseKey
+0x14000be57	0x140024000	import	0x14000bdd0	ADVAPI32.dll.RegSetValueExW
+0x14000be61	0x1400240b0	import	0x14000bdd0	KERNEL32.dll.GetLastError
+0x14000bf37	0x140024000	import	0x14000beb0	ADVAPI32.dll.RegSetValueExW
+0x14000bf41	0x1400240b0	import	0x14000beb0	KERNEL32.dll.GetLastError
+0x14000c002	0x140024010	import	0x14000bf90	ADVAPI32.dll.RegDeleteValueW
+0x14000c00c	0x1400240b0	import	0x14000bf90	KERNEL32.dll.GetLastError
+0x14000c33c	0x140034680	string	0x14000c300	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000c375	0x140034680	string	0x14000c300	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000c419	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c432	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c46f	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000c47d	0x140024070	import	0x14000c390	ADVAPI32.dll.RegOpenKeyExW
+0x14000c487	0x1400240b0	import	0x14000c390	KERNEL32.dll.GetLastError
+0x14000c4c7	0x140024018	import	0x14000c390	ADVAPI32.dll.RegQueryValueExW
+0x14000c4e8	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c4ff	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c666	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c680	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c6ac	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000c736	0x140024018	import	0x14000c390	ADVAPI32.dll.RegQueryValueExW
+0x14000c740	0x1400240b0	import	0x14000c390	KERNEL32.dll.GetLastError
+0x14000c75c	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c773	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c7d5	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c7ee	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c82a	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c845	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c883	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000c891	0x140024070	import	0x14000c390	ADVAPI32.dll.RegOpenKeyExW
+0x14000c89b	0x1400240b0	import	0x14000c390	KERNEL32.dll.GetLastError
+0x14000c904	0x140024018	import	0x14000c390	ADVAPI32.dll.RegQueryValueExW
+0x14000c90e	0x1400240b0	import	0x14000c390	KERNEL32.dll.GetLastError
+0x14000c93a	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000c951	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000cb26	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000cb3f	0x140034628	string	0x14000c390	Set Value
+0x14000cb46	0x1400241e8	import	0x14000c390	KERNEL32.dll.OutputDebugStringW
+0x14000cb4c	0x140034628	string	0x14000c390	Set Value
+0x14000cbbf	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000cbdb	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000cc5a	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000cc73	0x140034628	string	0x14000c390	Set Value
+0x14000cc7a	0x1400241e8	import	0x14000c390	KERNEL32.dll.OutputDebugStringW
+0x14000cc80	0x140034628	string	0x14000c390	Set Value
+0x14000cdd9	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000ce1a	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000ce2f	0x140034640	string	0x14000c390	Delete Value
+0x14000ce36	0x1400241e8	import	0x14000c390	KERNEL32.dll.OutputDebugStringW
+0x14000ce3c	0x140034640	string	0x14000c390	Delete Value
+0x14000cecb	0x140034680	string	0x14000c390	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+0x14000cee4	0x140034640	string	0x14000c390	Delete Value
+0x14000ceeb	0x1400241e8	import	0x14000c390	KERNEL32.dll.OutputDebugStringW
+0x14000cef1	0x140034640	string	0x14000c390	Delete Value
+0x14000cf22	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000cf3e	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000cfd8	0x140034660	string	0x14000c390	Environment
+0x14000cfeb	0x1400244a8	import	0x14000c390	USER32.dll.SendMessageTimeoutW
+0x14000d004	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000d020	0x140024080	import	0x14000c390	ADVAPI32.dll.RegCloseKey
+0x14000d287	0x140034718	string	0x14000d270	--> WriteStrToRegistry\n
+0x14000d29c	0x140034750	string	0x14000d270	WriteStrToRegistry: executing, strSubKey = %s, strValueName = %s, strDeviceName = %s, dwSamDesired = 0x%08x.\n
+0x14000d2d3	0x140024070	import	0x14000d270	ADVAPI32.dll.RegOpenKeyExW
+0x14000d2e0	0x140024110	import	0x14000d270	KERNEL32.dll.lstrlenW
+0x14000d307	0x140024000	import	0x14000d270	ADVAPI32.dll.RegSetValueExW
+0x14000d311	0x140034840	string	0x14000d270	RegSetValueEx: error, errCode = 0x%08x.\n
+0x14000d324	0x140024080	import	0x14000d270	ADVAPI32.dll.RegCloseKey
+0x14000d331	0x140024080	import	0x14000d270	ADVAPI32.dll.RegCloseKey
+0x14000d337	0x1400348a0	string	0x14000d270	<-- WriteStrToRegistry\n
+0x14000d34a	0x1400348d0	string	0x14000d270	RegOpenKeyEx: error, errCode = 0x%08x.\n
+0x14000d358	0x1400348a0	string	0x14000d270	<-- WriteStrToRegistry\n
+0x14000d393	0x140034928	string	0x14000d380	--> IncrementRegistryDword\n
+0x14000d3a7	0x140031728	string	0x14000d380	MaxNumFilters
+0x14000d3ae	0x140031750	string	0x14000d380	SYSTEM\CurrentControlSet\Control\Network
+0x14000d3b5	0x140034960	string	0x14000d380	IncrementRegistryDword: executing, strSubKey = %s, strValueName = %s\n
+0x14000d3c6	0x140031750	string	0x14000d380	SYSTEM\CurrentControlSet\Control\Network
+0x14000d3e2	0x140024070	import	0x14000d380	ADVAPI32.dll.RegOpenKeyExW
+0x14000d3fa	0x140031728	string	0x14000d380	MaxNumFilters
+0x14000d421	0x140024008	import	0x14000d380	ADVAPI32.dll.RegGetValueW
+0x14000d42b	0x140034a00	string	0x14000d380	RegGetValue: error, errCode = 0x%08x.\n
+0x14000d43e	0x140024080	import	0x14000d380	ADVAPI32.dll.RegCloseKey
+0x14000d444	0x140034a58	string	0x14000d380	<-- IncrementRegistryDword\n
+0x14000d460	0x140034a90	string	0x14000d380	Current value %d is greater than max value %d\n
+0x14000d479	0x140024080	import	0x14000d380	ADVAPI32.dll.RegCloseKey
+0x14000d47f	0x140034a58	string	0x14000d380	<-- IncrementRegistryDword\n
+0x14000d499	0x140031728	string	0x14000d380	MaxNumFilters
+0x14000d4bf	0x140024000	import	0x14000d380	ADVAPI32.dll.RegSetValueExW
+0x14000d4c9	0x140034840	string	0x14000d380	RegSetValueEx: error, errCode = 0x%08x.\n
+0x14000d4dc	0x140024080	import	0x14000d380	ADVAPI32.dll.RegCloseKey
+0x14000d4e2	0x140034a58	string	0x14000d380	<-- IncrementRegistryDword\n
+0x14000d4fa	0x140024080	import	0x14000d380	ADVAPI32.dll.RegCloseKey
+0x14000d500	0x140034a58	string	0x14000d380	<-- IncrementRegistryDword\n
+0x14000d516	0x1400348d0	string	0x14000d380	RegOpenKeyEx: error, errCode = 0x%08x.\n
+0x14000d524	0x140034a58	string	0x14000d380	<-- IncrementRegistryDword\n
+0x14000d54d	0x140034af8	string	0x14000d540	--> DeleteValueFromRegistry\n
+0x14000d559	0x14002dcb0	string	0x14000d540	LoopbackAdapter
+0x14000d560	0x140034b40	string	0x14000d540	DeleteValueFromRegistry: executing, strSubKey = %s, strValueName = %s, dwSamDesired = 0x%08x.\n
+0x14000d58c	0x140024070	import	0x14000d540	ADVAPI32.dll.RegOpenKeyExW
+0x14000d59b	0x14002dcb0	string	0x14000d540	LoopbackAdapter
+0x14000d5a2	0x140024010	import	0x14000d540	ADVAPI32.dll.RegDeleteValueW
+0x14000d5ac	0x140034c10	string	0x14000d540	RegDeleteValue: error, errCode = 0x%08x.\n
+0x14000d5bf	0x140024080	import	0x14000d540	ADVAPI32.dll.RegCloseKey
+0x14000d5cc	0x140024080	import	0x14000d540	ADVAPI32.dll.RegCloseKey
+0x14000d5d2	0x140034c70	string	0x14000d540	<-- DeleteValueFromRegistry\n
+0x14000d5e9	0x1400348d0	string	0x14000d540	RegOpenKeyEx: error, errCode = 0x%08x.\n
+0x14000d5f7	0x140034c70	string	0x14000d540	<-- DeleteValueFromRegistry\n
+0x14000d732	0x140034cb0	string	0x14000d720	--> addNpcapFolderToPath\n
+0x14000d764	0x140034ce8	string	0x14000d720	C:\Windows\System32\Npcap
+0x14000d78d	0x140034d20	string	0x14000d720	PATH
+0x14000d7ac	0x14000c390	string	0x14000d720	@UVWATAUAVAWH
+0x14000d7b1	0x140034d30	string	0x14000d720	<-- addNpcapFolderToPath\n
+0x14000d7f2	0x140034d68	string	0x14000d7e0	--> removeNpcapFolderFromPath\n
+0x14000d824	0x140034ce8	string	0x14000d7e0	C:\Windows\System32\Npcap
+0x14000d84d	0x140034d20	string	0x14000d7e0	PATH
+0x14000d86c	0x14000c390	string	0x14000d7e0	@UVWATAUAVAWH
+0x14000d871	0x140034da8	string	0x14000d7e0	<-- removeNpcapFolderFromPath\n
+0x14000d8a6	0x140034de8	string	0x14000d8a0	--> initWlanFunctions\n
+0x14000d8b2	0x140034e18	string	0x14000d8a0	wlanapi.dll
+0x14000d8b9	0x1400240f0	import	0x14000d8a0	KERNEL32.dll.LoadLibraryW
+0x14000d8cf	0x140034e30	string	0x14000d8a0	WlanOpenHandle
+0x14000d8d9	0x140024120	import	0x14000d8a0	KERNEL32.dll.GetProcAddress
+0x14000d8e6	0x140034e40	string	0x14000d8a0	WlanCloseHandle
+0x14000d8f4	0x140024120	import	0x14000d8a0	KERNEL32.dll.GetProcAddress
+0x14000d901	0x140034e50	string	0x14000d8a0	WlanEnumInterfaces
+0x14000d90f	0x140024120	import	0x14000d8a0	KERNEL32.dll.GetProcAddress
+0x14000d91c	0x140034e68	string	0x14000d8a0	WlanFreeMemory
+0x14000d92a	0x140024120	import	0x14000d8a0	KERNEL32.dll.GetProcAddress
+0x14000d961	0x1400240b0	import	0x14000d8a0	KERNEL32.dll.GetLastError
+0x14000d967	0x140034e80	string	0x14000d8a0	GetProcAddress: error, errCode = 0x%08x.\n
+0x14000d970	0x1400240b0	import	0x14000d8a0	KERNEL32.dll.GetLastError
+0x14000d976	0x140034ee0	string	0x14000d8a0	LoadLibrary: error, errCode = 0x%08x.\n
+0x14000d986	0x140034f38	string	0x14000d8a0	<-- initWlanFunctions\n
+0x14000daca	0x140034f68	string	0x14000dab0	--> EnumInterface\n
+0x14000daf3	0x140034f90	string	0x14000dab0	My_WlanEnumInterfaces: error, errCode = 0x%08x.\n
+0x14000db1a	0x140035000	string	0x14000dab0	My_WlanEnumInterfaces: pIntfList->dwNumberOfItems = %d.\n
+0x14000db26	0x140035080	string	0x14000dab0	<-- EnumInterface\n
+0x14000dbc4	0x140035000	string	0x14000dab0	My_WlanEnumInterfaces: pIntfList->dwNumberOfItems = %d.\n
+0x14000dbd0	0x140035080	string	0x14000dab0	<-- EnumInterface\n
+0x14000dc22	0x1400350a8	string	0x14000dc10	--> OpenHandleAndCheckVersion\n
+0x14000dc55	0x1400350f0	string	0x14000dc10	My_WlanOpenHandle: error, errCode = 0x%08x.\n
+0x14000dc85	0x140035158	string	0x14000dc10	<-- OpenHandleAndCheckVersion\n
+0x14000dd0a	0x140035198	string	0x14000dcb0	--> getWlanAdapterGuids\n
+0x14000dd39	0x1400351d0	string	0x14000dcb0	initWlanFunctions: error.\n
+0x14000dd45	0x140035210	string	0x14000dcb0	<-- getWlanAdapterGuids\n
+0x14000dd6f	0x140035250	string	0x14000dcb0	OpenHandleAndCheckVersion: error.\n
+0x14000dd7b	0x140035210	string	0x14000dcb0	<-- getWlanAdapterGuids\n
+0x14000ddd6	0x1400243c8	import	0x14000dcb0	RPCRT4.dll.UuidToStringW
+0x14000dde9	0x1400352a0	string	0x14000dcb0	EnumInterface: executing, strGuid = %s.\n
+0x14000e04d	0x1400243d0	import	0x14000dcb0	RPCRT4.dll.RpcStringFreeW
+0x14000e060	0x14002beb0	string	0x14000dcb0	vector<T> too long
+0x14000e06d	0x14002beb0	string	0x14000dcb0	vector<T> too long
+0x14000e07a	0x140035210	string	0x14000dcb0	<-- getWlanAdapterGuids\n
+0x14000e109	0x1400353c0	string	0x14000e0d0	--> writeWlanAdapterGuidsToRegistry\n
+0x14000e119	0x14000dcb0	string	0x14000e0d0	@UATAUAVAWH
+0x14000e138	0x140035410	string	0x14000e0d0	getWlanAdapterGuids: error, nstrWlanAdapterGuids.size() = %d.\n
+0x14000e144	0x1400354a0	string	0x14000e0d0	<-- writeWlanAdapterGuidsToRegistry\n
+0x14000e262	0x140035510	string	0x14000e0d0	AddFlagToRegistry_Dot11Adapters: executing, strGuidText = %s.\n
+0x14000e26e	0x1400354a0	string	0x14000e0d0	<-- writeWlanAdapterGuidsToRegistry\n
+0x14000e288	0x140035300	string	0x14000e0d0	--> AddFlagToRegistry_Dot11Adapters\n
+0x14000e294	0x140035350	string	0x14000e0d0	<-- AddFlagToRegistry_Dot11Adapters\n
+0x14000e2a9	0x1400353a0	string	0x14000e0d0	Dot11Adapters
+0x14000e2b0	0x14002dd30	string	0x14000e0d0	SYSTEM\CurrentControlSet\Services\npcap\Parameters
+0x14000e487	0x14000e496	string	0x14000e414	fD9>u"
+0x14000edfe	0x140024688	string	0x14000edd4	bad allocation
+0x14000f07b	0x14000f0f9	string	0x14000efb0	@8l$8t\fH
+0x14000f53a	0x14000f52e	string	0x14000f478	f9\vt\tH
+0x14000f748	0x14000f74f	string	0x14000f478	HcȺ\b blocks=Basic Latin,Latin Extended-B
+0x14000f8db	0x140024320	import	0x14000f894	KERNEL32.dll.LeaveCriticalSection
+0x14000f8fa	0x140024320	import	0x14000f8e4	KERNEL32.dll.LeaveCriticalSection
+0x14000fcd5	0x140024328	import	0x14000fccc	KERNEL32.dll.IsDebuggerPresent
+0x14000fd3d	0x140016a70	string	0x14000fccc	@SVWH
+0x14000fff6	0x140024338	import	0x14000ffe0	KERNEL32.dll.HeapFree
+0x140010008	0x1400240b0	import	0x14000ffe0	KERNEL32.dll.GetLastError
+0x14001008d	0x140024148	import	0x140010064	KERNEL32.dll.DecodePointer
+0x14001009d	0x140024148	import	0x140010064	KERNEL32.dll.DecodePointer
+0x14001011b	0x140024340	import	0x140010064	KERNEL32.dll.EncodePointer
+0x14001012b	0x140024340	import	0x140010064	KERNEL32.dll.EncodePointer
+0x140010138	0x140024340	import	0x140010064	KERNEL32.dll.EncodePointer
+0x140010358	0x14001034c	string	0x140010298	f9\vt\tH
+0x140010b3f	0x140024348	import	0x1400109e4	KERNEL32.dll.GetCommandLineW
+0x140010cd0	0x140024328	import	0x140010c2c	KERNEL32.dll.IsDebuggerPresent
+0x140010d4f	0x140024148	import	0x140010d28	KERNEL32.dll.DecodePointer
+0x140010ecd	0x140024318	import	0x140010dec	KERNEL32.dll.EnterCriticalSection
+0x140010fc6	0x14001118f	string	0x140010f24	fD9+t
+0x1400110cb	0x14001118f	string	0x140010f24	fD9+t
+0x1400110d1	0x1400110d7	string	0x140010f24	fD9+t
+0x1400110fe	0x140011104	string	0x140010f24	fD9+t
+0x14001111e	0x1400246c0	string	0x140010f24	UTF-8
+0x14001113f	0x14001118f	string	0x140010f24	fD9+t
+0x140011141	0x1400246d0	string	0x140010f24	UTF-16LE
+0x140011162	0x14001118f	string	0x140010f24	fD9+t
+0x140011164	0x1400246e8	string	0x140010f24	UNICODE
+0x140011189	0x14001118f	string	0x140010f24	fD9+t
+0x1400119a3	0x140011a40	string	0x140011788	D9T$x
+0x1400119b1	0x140011a40	string	0x140011788	D9T$x
+0x140011dbc	0x140024148	import	0x140011788	KERNEL32.dll.DecodePointer
+0x140011dfe	0x140024148	import	0x140011788	KERNEL32.dll.DecodePointer
+0x140011e23	0x140024148	import	0x140011788	KERNEL32.dll.DecodePointer
+0x140011e56	0x140011a40	string	0x140011788	D9T$x
+0x1400132c7	0x140024188	import	0x140013268	KERNEL32.dll.CloseHandle
+0x1400132d1	0x1400240b0	import	0x140013268	KERNEL32.dll.GetLastError
+0x1400137a1	0x140024358	import	0x14001374c	KERNEL32.dll.HeapAlloc
+0x1400139b4	0x140024148	import	0x1400139a4	KERNEL32.dll.DecodePointer
+0x140013a4e	0x140024360	import	0x1400139ea	KERNEL32.dll.RtlPcToFileHeader
+0x140013a8d	0x140024140	import	0x1400139ea	KERNEL32.dll.RaiseException
+0x140013e9e	0x140024378	import	0x140013e74	KERNEL32.dll.GetOEMCP
+0x140013eb5	0x140024370	import	0x140013e74	KERNEL32.dll.GetACP
+0x140013fba	0x140024380	import	0x140013f84	KERNEL32.dll.GetCPInfo
+0x1400144e2	0x140024368	import	0x140014468	KERNEL32.dll.IsValidCodePage
+0x1400144f7	0x140024380	import	0x140014468	KERNEL32.dll.GetCPInfo
+0x14001487a	0x1400240b0	import	0x140014870	KERNEL32.dll.GetLastError
+0x1400148c6	0x1400240d0	import	0x140014870	KERNEL32.dll.GetCurrentThreadId
+0x1400148de	0x1400240b8	import	0x140014870	KERNEL32.dll.SetLastError
+0x140014a16	0x1400240d0	import	0x1400149b8	KERNEL32.dll.GetCurrentThreadId
+0x140014aeb	0x140024388	import	0x140014aa4	KERNEL32.dll.GetStringTypeW
+0x140014d93	0x140015d41	string	0x140014bf4	fE;"u
+0x1400150f3	0x1400156f4	string	0x140014bf4	A+щT$Du}E blocks=Basic Latin,Cyrillic
+0x1400154b5	0x140024148	import	0x140014bf4	KERNEL32.dll.DecodePointer
+0x140015613	0x1400156d6	string	0x140014bf4	fE92
+0x14001593b	0x140015879	string	0x140014bf4	D9\$Xt
+0x14001596e	0x140015879	string	0x140014bf4	D9\$Xt
+0x14001597b	0x140015879	string	0x140014bf4	D9\$Xt
+0x140015989	0x140015879	string	0x140014bf4	D9\$Xt
+0x140015fae	0x140024150	import	0x140015f48	KERNEL32.dll.DeleteCriticalSection
+0x14001602d	0x140024318	import	0x140015ff0	KERNEL32.dll.EnterCriticalSection
+0x140016067	0x140024150	import	0x140015ff0	KERNEL32.dll.DeleteCriticalSection
+0x140016097	0x140024150	import	0x140015ff0	KERNEL32.dll.DeleteCriticalSection
+0x140016160	0x140024320	import	0x1400160bc	KERNEL32.dll.LeaveCriticalSection
+0x1400161f1	0x140024320	import	0x1400161e0	KERNEL32.dll.LeaveCriticalSection
+0x140016409	0x140024c10	string	0x1400163fc	mscoree.dll
+0x140016412	0x1400242f8	import	0x1400163fc	KERNEL32.dll.GetModuleHandleExW
+0x140016421	0x140024c28	string	0x1400163fc	CorExitProcess
+0x140016428	0x140024120	import	0x1400163fc	KERNEL32.dll.GetProcAddress
+0x14001644f	0x140024300	import	0x140016440	KERNEL32.dll.ExitProcess
+0x14001654c	0x140024340	import	0x140016544	KERNEL32.dll.EncodePointer
+0x1400166a0	0x140024148	import	0x140016644	KERNEL32.dll.DecodePointer
+0x1400166be	0x140024148	import	0x140016644	KERNEL32.dll.DecodePointer
+0x1400166ec	0x140024340	import	0x140016644	KERNEL32.dll.EncodePointer
+0x140016701	0x140024148	import	0x140016644	KERNEL32.dll.DecodePointer
+0x14001670c	0x140024340	import	0x140016644	KERNEL32.dll.EncodePointer
+0x14001671e	0x140024148	import	0x140016644	KERNEL32.dll.DecodePointer
+0x14001672e	0x140024148	import	0x140016644	KERNEL32.dll.DecodePointer
+0x1400167ba	0x140024300	import	0x140016644	KERNEL32.dll.ExitProcess
+0x14001682f	0x1400169ae	string	0x140016804	HcG\bH
+0x14001691f	0x1400169ae	string	0x140016804	HcG\bH
+0x140016942	0x14001694e	string	0x140016804	9\$ ~>L
+0x140016a0d	0x1400242e8	import	0x140016a00	KERNEL32.dll.RtlCaptureContext
+0x140016a25	0x1400242e0	import	0x140016a00	KERNEL32.dll.RtlLookupFunctionEntry
+0x140016a5c	0x1400242d8	import	0x140016a00	KERNEL32.dll.RtlVirtualUnwind
+0x140016a7b	0x1400242e8	import	0x140016a70	KERNEL32.dll.RtlCaptureContext
+0x140016a95	0x1400242e0	import	0x140016a70	KERNEL32.dll.RtlLookupFunctionEntry
+0x140016acc	0x1400242d8	import	0x140016a70	KERNEL32.dll.RtlVirtualUnwind
+0x140016af7	0x140024218	import	0x140016ae4	KERNEL32.dll.TlsAlloc
+0x140016b13	0x140024200	import	0x140016b00	KERNEL32.dll.TlsFree
+0x140016b2f	0x140024210	import	0x140016b1c	KERNEL32.dll.TlsGetValue
+0x140016b4b	0x140024208	import	0x140016b38	KERNEL32.dll.TlsSetValue
+0x140016b6f	0x1400242c0	import	0x140016b54	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x140016bd2	0x140024c38	string	0x140016b80	kernel32.dll
+0x140016bd9	0x1400241f0	import	0x140016b80	KERNEL32.dll.GetModuleHandleW
+0x140016bdf	0x140024c58	string	0x140016b80	FlsAlloc
+0x140016bec	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016bf2	0x140024c68	string	0x140016b80	FlsFree
+0x140016c0a	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016c10	0x140024c70	string	0x140016b80	FlsGetValue
+0x140016c28	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016c2e	0x140024c80	string	0x140016b80	FlsSetValue
+0x140016c46	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016c4c	0x140024c90	string	0x140016b80	InitializeCriticalSectionEx
+0x140016c64	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016c6a	0x140024cb0	string	0x140016b80	CreateEventExW
+0x140016c82	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016c88	0x140024cc0	string	0x140016b80	CreateSemaphoreExW
+0x140016ca0	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016ca6	0x140024cd8	string	0x140016b80	SetThreadStackGuarantee
+0x140016cbe	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016cc4	0x140024cf0	string	0x140016b80	CreateThreadpoolTimer
+0x140016cdc	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016ce2	0x140024d08	string	0x140016b80	SetThreadpoolTimer
+0x140016cfa	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016d00	0x140024d20	string	0x140016b80	WaitForThreadpoolTimerCallbacks
+0x140016d18	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016d1e	0x140024d40	string	0x140016b80	CloseThreadpoolTimer
+0x140016d36	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016d3c	0x140024d58	string	0x140016b80	CreateThreadpoolWait
+0x140016d54	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016d5a	0x140024d70	string	0x140016b80	SetThreadpoolWait
+0x140016d72	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016d78	0x140024d88	string	0x140016b80	CloseThreadpoolWait
+0x140016d90	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016d96	0x140024da0	string	0x140016b80	FlushProcessWriteBuffers
+0x140016dae	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016dbb	0x140024dc0	string	0x140016b80	FreeLibraryWhenCallbackReturns
+0x140016dcc	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016dd2	0x140024de0	string	0x140016b80	GetCurrentProcessorNumber
+0x140016dea	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016df0	0x140024e00	string	0x140016b80	GetLogicalProcessorInformation
+0x140016e08	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016e0e	0x140024e20	string	0x140016b80	CreateSymbolicLinkW
+0x140016e26	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016e2c	0x140024e38	string	0x140016b80	SetDefaultDllDirectories
+0x140016e44	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016e4a	0x140024e58	string	0x140016b80	EnumSystemLocalesEx
+0x140016e62	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016e68	0x140024e70	string	0x140016b80	CompareStringEx
+0x140016e80	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016e86	0x140024e80	string	0x140016b80	GetDateFormatEx
+0x140016e9e	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016ea4	0x140024e90	string	0x140016b80	GetLocaleInfoEx
+0x140016ebc	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016ec2	0x140024ea0	string	0x140016b80	GetTimeFormatEx
+0x140016eda	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016ee0	0x140024eb0	string	0x140016b80	GetUserDefaultLocaleName
+0x140016ef8	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016efe	0x140024ed0	string	0x140016b80	IsValidLocaleName
+0x140016f16	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016f1c	0x140024ee8	string	0x140016b80	LCMapStringEx
+0x140016f34	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016f3a	0x140024ef8	string	0x140016b80	GetCurrentPackageId
+0x140016f52	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016f58	0x140024f10	string	0x140016b80	GetTickCount64
+0x140016f70	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016f76	0x140024f20	string	0x140016b80	GetFileInformationByHandleExW
+0x140016f8e	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016f9b	0x140024f40	string	0x140016b80	SetFileInformationByHandleW
+0x140016fac	0x140024120	import	0x140016b80	KERNEL32.dll.GetProcAddress
+0x140016fc8	0x1400242c8	import	0x140016fc8	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140016fd0	0x1400240a8	import	0x140016fd0	KERNEL32.dll.Sleep
+0x140016fe0	0x1400241a0	import	0x140016fd0	KERNEL32.dll.GetCurrentProcess
+0x140016ff0	0x1400241c0	import	0x140016fd0	KERNEL32.dll.TerminateProcess
+0x140017003	0x1400242c8	import	0x140016ff8	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140017011	0x1400242d0	import	0x140016ff8	KERNEL32.dll.UnhandledExceptionFilter
+0x14001701c	0x140024220	import	0x140017018	KERNEL32.dll.GetProcessHeap
+0x140017286	0x14001729f	string	0x1400171d4	f99u
+0x1400172bb	0x1400172e6	string	0x1400171d4	f99u
+0x1400172cd	0x1400172e6	string	0x1400171d4	f99u
+0x1400174a3	0x140024170	import	0x140017408	KERNEL32.dll.MultiByteToWideChar
+0x140017554	0x140024170	import	0x140017408	KERNEL32.dll.MultiByteToWideChar
+0x1400176a2	0x1400242f0	import	0x140017408	KERNEL32.dll.WideCharToMultiByte
+0x140017760	0x140017408	string	0x1400176f4	@UATAUAVAWH
+0x140017a6b	0x1400241f8	import	0x1400179a8	KERNEL32.dll.GetStartupInfoW
+0x140017b64	0x140024230	import	0x1400179a8	KERNEL32.dll.GetFileType
+0x140017c22	0x140024178	import	0x1400179a8	KERNEL32.dll.GetStdHandle
+0x140017c38	0x140024230	import	0x1400179a8	KERNEL32.dll.GetFileType
+0x140017cff	0x140024108	import	0x140017cd8	KERNEL32.dll.GetModuleFileNameW
+0x140017e42	0x140017e08	string	0x140017dc8	fD9!u
+0x140017e4e	0x140017e08	string	0x140017dc8	fD9!u
+0x140017ea2	0x140017eaa	string	0x140017dc8	fD99t
+0x1400180fa	0x1400180e8	string	0x1400180dc	A;\bt
+0x140018191	0x140025ac8	string	0x14001810c	Runtime Error!\n\nProgram:
+0x1400181c4	0x140024108	import	0x14001810c	KERNEL32.dll.GetModuleFileNameW
+0x1400181d2	0x140025b00	string	0x14001810c	<program name unknown>
+0x140018265	0x140025b40	string	0x14001810c	Microsoft Visual C++ Runtime Library
+0x140018275	0x14001cc00	string	0x14001810c	@SUVWATAVAWH
+0x140018281	0x140024178	import	0x14001810c	KERNEL32.dll.GetStdHandle
+0x1400182e1	0x140024238	import	0x14001810c	KERNEL32.dll.WriteFile
+0x1400183f0	0x140024250	import	0x1400183c4	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1400183fe	0x1400240d0	import	0x1400183c4	KERNEL32.dll.GetCurrentThreadId
+0x14001840a	0x140024248	import	0x1400183c4	KERNEL32.dll.GetCurrentProcessId
+0x14001841a	0x140024240	import	0x1400183c4	KERNEL32.dll.QueryPerformanceCounter
+0x1400184f4	0x140024258	import	0x1400184e0	KERNEL32.dll.GetEnvironmentStringsW
+0x140018544	0x140024260	import	0x1400184e0	KERNEL32.dll.FreeEnvironmentStringsW
+0x140018610	0x140024c38	string	0x1400185e8	kernel32.dll
+0x140018617	0x1400241f0	import	0x1400185e8	KERNEL32.dll.GetModuleHandleW
+0x14001861d	0x140025b90	string	0x1400185e8	CreateFile2
+0x140018627	0x140024120	import	0x1400185e8	KERNEL32.dll.GetProcAddress
+0x1400186b9	0x140024268	import	0x1400185e8	KERNEL32.dll.CreateFileW
+0x140019029	0x140018fb0	string	0x140019000	LcA<E3
+0x14001905b	0x140019060	string	0x140019050	HcH<H
+0x140019305	0x140024278	import	0x1400191c4	KERNEL32.dll.GetConsoleMode
+0x140019324	0x140024270	import	0x1400191c4	KERNEL32.dll.GetConsoleCP
+0x14001942c	0x1400242f0	import	0x1400191c4	KERNEL32.dll.WideCharToMultiByte
+0x14001946a	0x140024238	import	0x1400191c4	KERNEL32.dll.WriteFile
+0x1400194ca	0x140024238	import	0x1400191c4	KERNEL32.dll.WriteFile
+0x14001959b	0x1400240b0	import	0x1400191c4	KERNEL32.dll.GetLastError
+0x1400195a5	0x1400240b0	import	0x1400191c4	KERNEL32.dll.GetLastError
+0x1400196ab	0x140024238	import	0x1400191c4	KERNEL32.dll.WriteFile
+0x140019798	0x140024238	import	0x1400191c4	KERNEL32.dll.WriteFile
+0x140019871	0x1400242f0	import	0x1400191c4	KERNEL32.dll.WideCharToMultiByte
+0x1400198ba	0x140024238	import	0x1400191c4	KERNEL32.dll.WriteFile
+0x1400198cf	0x1400240b0	import	0x1400191c4	KERNEL32.dll.GetLastError
+0x14001990f	0x140024238	import	0x1400191c4	KERNEL32.dll.WriteFile
+0x140019924	0x1400240b0	import	0x1400191c4	KERNEL32.dll.GetLastError
+0x140019ae4	0x140024280	import	0x140019aa0	KERNEL32.dll.SetFilePointerEx
+0x140019aee	0x1400240b0	import	0x140019aa0	KERNEL32.dll.GetLastError
+0x140019dd2	0x140024340	import	0x140019dbc	KERNEL32.dll.EncodePointer
+0x140019e6f	0x140024318	import	0x140019df8	KERNEL32.dll.EnterCriticalSection
+0x140019f5e	0x140024318	import	0x140019e90	KERNEL32.dll.EnterCriticalSection
+0x140019f6e	0x140024320	import	0x140019e90	KERNEL32.dll.LeaveCriticalSection
+0x14001a0f8	0x140024290	import	0x14001a088	KERNEL32.dll.SetStdHandle
+0x14001a217	0x140024290	import	0x14001a1a8	KERNEL32.dll.SetStdHandle
+0x14001a27b	0x140024320	import	0x14001a258	KERNEL32.dll.LeaveCriticalSection
+0x14001a300	0x140024298	import	0x14001a284	KERNEL32.dll.FlushFileBuffers
+0x14001a30a	0x1400240b0	import	0x14001a284	KERNEL32.dll.GetLastError
+0x14001a40c	0x14001ac6c	string	0x14001a3e4	@SUVWH
+0x14001a433	0x14001ad40	string	0x14001a3e4	@SUVWAVH
+0x14001a458	0x14001aa10	string	0x14001a3e4	@SUVWH
+0x14001a4ee	0x14001a7e1	string	0x14001a464	D8L$Ht\fH
+0x14001a52b	0x14001aa10	string	0x14001a464	@SUVWH
+0x14001a53c	0x14001a7e1	string	0x14001a464	D8L$Ht\fH
+0x14001a906	0x140025d60	string	0x14001a814	e+000
+0x14001a9ab	0x14001a9c1	string	0x14001a814	3ۀ|$H blocks=Basic Latin,Arabic
+0x14001a9b0	0x14001a9c1	string	0x14001a814	3ۀ|$H blocks=Basic Latin,Arabic
+0x14001aa49	0x14001df8c	string	0x14001aa10	@USVWH
+0x14001abbe	0x14001ac37	string	0x14001ab08	3ۀ|$8 blocks=Basic Latin,Arabic
+0x14001abf3	0x14001ac37	string	0x14001ab08	3ۀ|$8 blocks=Basic Latin,Arabic
+0x14001ac0b	0x14001ac27	string	0x14001ab08	Lcú0 blocks=Basic Latin,Latin-1 Supplement
+0x14001aca2	0x14001df8c	string	0x14001ac6c	@USVWH
+0x14001ad7b	0x14001df8c	string	0x14001ad40	@USVWH
+0x14001b62e	0x140024170	import	0x14001b5d0	KERNEL32.dll.MultiByteToWideChar
+0x14001b6ee	0x140024170	import	0x14001b5d0	KERNEL32.dll.MultiByteToWideChar
+0x14001b705	0x140024388	import	0x14001b5d0	KERNEL32.dll.GetStringTypeW
+0x14001b79c	0x14001b5d0	string	0x14001b748	@UATAUAVAWH
+0x14001ba01	0x1400242a0	import	0x14001b988	KERNEL32.dll.LCMapStringW
+0x14001c1f9	0x14001c1ec	string	0x14001c104	fD9 t\tH
+0x14001c235	0x1400242f0	import	0x14001c104	KERNEL32.dll.WideCharToMultiByte
+0x14001c282	0x1400242f0	import	0x14001c104	KERNEL32.dll.WideCharToMultiByte
+0x14001c2ac	0x1400240b0	import	0x14001c104	KERNEL32.dll.GetLastError
+0x14001c2f5	0x1400242f0	import	0x14001c104	KERNEL32.dll.WideCharToMultiByte
+0x14001c3d1	0x1400242f0	import	0x14001c104	KERNEL32.dll.WideCharToMultiByte
+0x14001c591	0x1400242a8	import	0x14001c540	KERNEL32.dll.HeapReAlloc
+0x14001c6f3	0x140024358	import	0x14001c69c	KERNEL32.dll.HeapAlloc
+0x14001c743	0x140024148	import	0x14001c738	KERNEL32.dll.DecodePointer
+0x14001c783	0x140024340	import	0x14001c778	KERNEL32.dll.EncodePointer
+0x14001c79f	0x140024148	import	0x14001c798	KERNEL32.dll.DecodePointer
+0x14001c8d7	0x140024148	import	0x14001c7c8	KERNEL32.dll.DecodePointer
+0x14001c986	0x140024340	import	0x14001c7c8	KERNEL32.dll.EncodePointer
+0x14001cc29	0x140024340	import	0x14001cc00	KERNEL32.dll.EncodePointer
+0x14001cc49	0x14002a1e0	string	0x14001cc00	USER32.DLL
+0x14001cc58	0x1400242b0	import	0x14001cc00	KERNEL32.dll.LoadLibraryExW
+0x14001cc66	0x1400240b0	import	0x14001cc00	KERNEL32.dll.GetLastError
+0x14001cc75	0x14002a1e0	string	0x14001cc00	USER32.DLL
+0x14001cc81	0x1400242b0	import	0x14001cc00	KERNEL32.dll.LoadLibraryExW
+0x14001cc93	0x14002a1f8	string	0x14001cc00	MessageBoxW
+0x14001cc9d	0x140024120	import	0x14001cc00	KERNEL32.dll.GetProcAddress
+0x14001ccaf	0x140024340	import	0x14001cc00	KERNEL32.dll.EncodePointer
+0x14001ccb5	0x14002a208	string	0x14001cc00	GetActiveWindow
+0x14001ccc6	0x140024120	import	0x14001cc00	KERNEL32.dll.GetProcAddress
+0x14001cccf	0x140024340	import	0x14001cc00	KERNEL32.dll.EncodePointer
+0x14001ccd5	0x14002a218	string	0x14001cc00	GetLastActivePopup
+0x14001cce6	0x140024120	import	0x14001cc00	KERNEL32.dll.GetProcAddress
+0x14001ccef	0x140024340	import	0x14001cc00	KERNEL32.dll.EncodePointer
+0x14001ccf5	0x14002a230	string	0x14001cc00	GetUserObjectInformationW
+0x14001cd06	0x140024120	import	0x14001cc00	KERNEL32.dll.GetProcAddress
+0x14001cd0f	0x140024340	import	0x14001cc00	KERNEL32.dll.EncodePointer
+0x14001cd21	0x14002a250	string	0x14001cc00	GetProcessWindowStation
+0x14001cd2b	0x140024120	import	0x14001cc00	KERNEL32.dll.GetProcAddress
+0x14001cd34	0x140024340	import	0x14001cc00	KERNEL32.dll.EncodePointer
+0x14001cd41	0x140024328	import	0x14001cc00	KERNEL32.dll.IsDebuggerPresent
+0x14001cd53	0x1400241e8	import	0x14001cc00	KERNEL32.dll.OutputDebugStringW
+0x14001cd74	0x140024148	import	0x14001cc00	KERNEL32.dll.DecodePointer
+0x14001cd99	0x140024148	import	0x14001cc00	KERNEL32.dll.DecodePointer
+0x14001cda9	0x140024148	import	0x14001cc00	KERNEL32.dll.DecodePointer
+0x14001cdff	0x140024148	import	0x14001cc00	KERNEL32.dll.DecodePointer
+0x14001ce20	0x140024148	import	0x14001cc00	KERNEL32.dll.DecodePointer
+0x14001ce3a	0x140024148	import	0x14001cc00	KERNEL32.dll.DecodePointer
+0x14001cece	0x140024220	import	0x14001ce74	KERNEL32.dll.GetProcessHeap
+0x14001cee3	0x140024358	import	0x14001ce74	KERNEL32.dll.HeapAlloc
+0x14001d36e	0x140024278	import	0x14001d128	KERNEL32.dll.GetConsoleMode
+0x14001d3a5	0x140024308	import	0x14001d128	KERNEL32.dll.ReadConsoleW
+0x14001d3af	0x1400240b0	import	0x14001d128	KERNEL32.dll.GetLastError
+0x14001d3f1	0x140024168	import	0x14001d128	KERNEL32.dll.ReadFile
+0x14001d4db	0x140024168	import	0x14001d128	KERNEL32.dll.ReadFile
+0x14001d4e5	0x1400240b0	import	0x14001d128	KERNEL32.dll.GetLastError
+0x14001d69e	0x140024170	import	0x14001d128	KERNEL32.dll.MultiByteToWideChar
+0x14001d6aa	0x1400240b0	import	0x14001d128	KERNEL32.dll.GetLastError
+0x14001d7e3	0x14001d8f7	string	0x14001d128	L;e`
+0x14001d833	0x140024168	import	0x14001d128	KERNEL32.dll.ReadFile
+0x14001d83d	0x1400240b0	import	0x14001d128	KERNEL32.dll.GetLastError
+0x14001d8e0	0x14001d8f7	string	0x14001d128	L;e`
+0x14001d933	0x1400240b0	import	0x14001d128	KERNEL32.dll.GetLastError
+0x14001dae9	0x140024288	import	0x14001daa4	KERNEL32.dll.WriteConsoleW
+0x14001deb7	0x14001dd1c	string	0x14001deb4	@SVWH
+0x14001e4b9	0x14002a268	string	0x14001e4a4	CONOUT$
+0x14001e4cd	0x140024268	import	0x14001e4a4	KERNEL32.dll.CreateFileW
+0x14001e597	0x14003c5d8	string	0x14001e4e0	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x14001e6b8	0x14003c5d8	string	0x14001e4e0	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x14001eb2a	0x14001efe6	string	0x14001ea98	D+%\a
+0x14001eb3b	0x14001efe6	string	0x14001ea98	D+%\a
+0x14001f17e	0x14001f1a4	string	0x14001f050	M+y\v
+0x14001f280	0x14001f1a4	string	0x14001f050	M+y\v
+0x14001f99f	0x14002a278	string	0x14001f8b4	1#SNAN
+0x14001f9d4	0x14002a280	string	0x14001f8b4	1#IND
+0x14001f9fb	0x14002a288	string	0x14001f8b4	1#INF
+0x14001fa21	0x14002a290	string	0x14001f8b4	1#QNAN
+0x140020658	0x140024688	string	0x140020654	bad allocation
+0x1400207b9	0x1400240b0	import	0x140020758	KERNEL32.dll.GetLastError
+0x1400207d1	0x140024328	import	0x140020758	KERNEL32.dll.IsDebuggerPresent
+0x1400207db	0x14002b6c0	string	0x140020758	ERROR : Unable to initialize critical section in CAtlBaseModule\n
+0x1400207e2	0x1400241e8	import	0x140020758	KERNEL32.dll.OutputDebugStringW
+0x140020834	0x140024330	import	0x140020834	KERNEL32.dll.IsProcessorFeaturePresent
+0x14002083a	0x140024350	import	0x14002083a	KERNEL32.dll.RtlUnwindEx
+0x1400208a2	0x1400242e0	import	0x140020840	KERNEL32.dll.RtlLookupFunctionEntry
+0x1400209c0	0x1400209d1	string	0x14002090c	D;!|
+0x140020d99	0x140021b74	string	0x140020d04	@SVWATAUAVAWH
+0x140020e07	0x140024350	import	0x140020d04	KERNEL32.dll.RtlUnwindEx
+0x140021105	0x140021486	string	0x140021054	D9c\fv
+0x140021252	0x140021486	string	0x140021054	D9c\fv
+0x14002125c	0x140021486	string	0x140021054	D9c\fv
+0x14002126d	0x140021486	string	0x140021054	D9c\fv
+0x140021552	0x140024340	import	0x140021508	KERNEL32.dll.EncodePointer

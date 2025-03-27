@@ -1,0 +1,663 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x1000101d	0x10001013	string	0x10001000	;\nt\v@
+0x10001044	0x1000e12c	import	0x10001024	KERNEL32.dll.HeapAlloc
+0x10001075	0x1000e130	import	0x10001024	KERNEL32.dll.HeapReAlloc
+0x100010f2	0x1000e130	import	0x100010a6	KERNEL32.dll.HeapReAlloc
+0x10001139	0x1000e05c	import	0x10001109	KERNEL32.dll.GetThreadContext
+0x100011e2	0x1000e064	import	0x10001109	KERNEL32.dll.SetThreadContext
+0x10001208	0x1000de48	string	0x10001109	;\r@
+0x10001273	0x1000e058	import	0x1000125b	KERNEL32.dll.CreateToolhelp32Snapshot
+0x10001290	0x1000e04c	import	0x1000125b	KERNEL32.dll.Thread32First
+0x100012a1	0x1000e0a4	import	0x1000125b	KERNEL32.dll.GetCurrentProcessId
+0x100012ac	0x1000e0a8	import	0x1000125b	KERNEL32.dll.GetCurrentThreadId
+0x100012d0	0x1000e12c	import	0x1000125b	KERNEL32.dll.HeapAlloc
+0x100012f4	0x1000e130	import	0x1000125b	KERNEL32.dll.HeapReAlloc
+0x1000131d	0x1000e048	import	0x1000125b	KERNEL32.dll.Thread32Next
+0x1000132c	0x1000e094	import	0x1000125b	KERNEL32.dll.CloseHandle
+0x10001339	0x1000de48	string	0x1000125b	;\r@
+0x10001370	0x1000e068	import	0x10001342	KERNEL32.dll.OpenThread
+0x1000137d	0x1000e050	import	0x10001342	KERNEL32.dll.SuspendThread
+0x10001392	0x1000e094	import	0x10001342	KERNEL32.dll.CloseHandle
+0x100013c2	0x1000e068	import	0x100013a8	KERNEL32.dll.OpenThread
+0x100013cc	0x100013dc	string	0x100013a8	G;~\br
+0x100013cf	0x1000e054	import	0x100013a8	KERNEL32.dll.ResumeThread
+0x100013d6	0x1000e094	import	0x100013a8	KERNEL32.dll.CloseHandle
+0x100013ed	0x1000e134	import	0x100013a8	KERNEL32.dll.HeapFree
+0x10001431	0x1000e110	import	0x100013f6	KERNEL32.dll.VirtualProtect
+0x1000148a	0x1000e110	import	0x100013f6	KERNEL32.dll.VirtualProtect
+0x10001492	0x1000e0a0	import	0x100013f6	KERNEL32.dll.GetCurrentProcess
+0x10001499	0x1000e060	import	0x100013f6	KERNEL32.dll.FlushInstructionCache
+0x10001580	0x1000e084	import	0x10001570	KERNEL32.dll.Sleep
+0x10001590	0x1000e044	import	0x10001570	KERNEL32.dll.InterlockedCompareExchange
+0x100015a3	0x1000e100	import	0x1000159c	KERNEL32.dll.InterlockedExchange
+0x100015bd	0x1000e124	import	0x100015aa	KERNEL32.dll.HeapCreate
+0x10001615	0x1000e158	import	0x100015aa	KERNEL32.dll.VirtualFree
+0x1000162f	0x1000e134	import	0x100015aa	KERNEL32.dll.HeapFree
+0x1000163b	0x1000e128	import	0x100015aa	KERNEL32.dll.HeapDestroy
+0x1000179a	0x1000de48	string	0x10001668	;\r@
+0x10001a57	0x10001a76	string	0x10001909	+MȍE blocks=Basic Latin,Latin Extended-B
+0x10001a5e	0x10001a76	string	0x10001909	+MȍE blocks=Basic Latin,Latin Extended-B
+0x10001b9d	0x1000de48	string	0x10001909	;\r@
+0x10001bc9	0x1000e154	import	0x10001ba6	KERNEL32.dll.VirtualAlloc
+0x10001c5f	0x1000e158	import	0x10001c1a	KERNEL32.dll.VirtualFree
+0x10001c74	0x1000e06c	import	0x10001c67	KERNEL32.dll.VirtualQuery
+0x1000220a	0x1000e084	import	0x100021ca	KERNEL32.dll.Sleep
+0x10002227	0x1000e260	string	0x100021ca	Backsocks::getAddress url %S, port %u
+0x10002261	0x1000e2b0	string	0x100021ca	Backsocks::getAddress result %d, url %S
+0x10002316	0x1000e224	import	0x10002286	WS2_32.dll.WSASetEvent
+0x100023b3	0x1000e238	import	0x100023a5	WS2_32.dll.WSAGetLastError
+0x1000242f	0x1000e088	import	0x100023ee	KERNEL32.dll.GetLastError
+0x10002441	0x1000e08c	import	0x100023ee	KERNEL32.dll.SetLastError
+0x10002493	0x1000e234	import	0x10002472	WS2_32.dll.WSASetLastError
+0x100024c7	0x1000e23c	import	0x1000249b	WS2_32.dll.WSACreateEvent
+0x100024f4	0x1000e238	import	0x1000249b	WS2_32.dll.WSAGetLastError
+0x10002505	0x1000e090	import	0x1000249b	KERNEL32.dll.WaitForSingleObject
+0x1000251c	0x1000e094	import	0x1000249b	KERNEL32.dll.CloseHandle
+0x10002562	0x1000e22c	import	0x1000254e	WS2_32.dll.WSAEnumNetworkEvents
+0x1000256b	0x1000e09c	import	0x1000254e	KERNEL32.dll.UnregisterWait
+0x10002578	0x1000e228	import	0x1000254e	WS2_32.dll.WSAEventSelect
+0x10002581	0x1000e220	import	0x1000254e	WS2_32.dll.WSACloseEvent
+0x100025ca	0x1000e230	import	0x100025b5	WS2_32.dll.ioctlsocket
+0x100025dc	0x1000e088	import	0x100025b5	KERNEL32.dll.GetLastError
+0x10002708	0x1000e238	import	0x100026d8	WS2_32.dll.WSAGetLastError
+0x1000275e	0x1000e23c	import	0x100026d8	WS2_32.dll.WSACreateEvent
+0x1000276f	0x1000e228	import	0x100026d8	WS2_32.dll.WSAEventSelect
+0x1000278a	0x1000e098	import	0x100026d8	KERNEL32.dll.RegisterWaitForSingleObject
+0x100027a0	0x1000e08c	import	0x100026d8	KERNEL32.dll.SetLastError
+0x10002831	0x1000e224	import	0x100027b2	WS2_32.dll.WSASetEvent
+0x100028ac	0x1000e088	import	0x10002872	KERNEL32.dll.GetLastError
+0x100028f1	0x1000e23c	import	0x10002872	WS2_32.dll.WSACreateEvent
+0x10002902	0x1000e228	import	0x10002872	WS2_32.dll.WSAEventSelect
+0x1000291c	0x1000e098	import	0x10002872	KERNEL32.dll.RegisterWaitForSingleObject
+0x10002932	0x1000e08c	import	0x10002872	KERNEL32.dll.SetLastError
+0x100029f7	0x1000e0b8	import	0x100029d8	KERNEL32.dll.OpenEventW
+0x10002a04	0x1000e0ac	import	0x100029d8	KERNEL32.dll.SetEvent
+0x10002a10	0x1000e094	import	0x100029d8	KERNEL32.dll.CloseHandle
+0x10002bde	0x1000e4ec	string	0x10002b92	SOFTWARE\Microsoft
+0x10002c8a	0x1000e4ec	string	0x10002c36	SOFTWARE\Microsoft
+0x10002cdd	0x1000e34c	string	0x10002cbd	Hello, webinjects!
+0x10002d3c	0x1000e0a4	import	0x10002cbd	KERNEL32.dll.GetCurrentProcessId
+0x10002d57	0x1000e39c	string	0x10002cbd	Error createMutexOfProcess()
+0x10002d6a	0x1000e3d8	string	0x10002cbd	Error initPaths()
+0x10002dac	0x1000e300	string	0x10002cbd	Webinjector options: csp %d / vnc %d
+0x10002dc4	0x1000e0a8	import	0x10002cbd	KERNEL32.dll.GetCurrentThreadId
+0x10002dcb	0x1000e1d4	import	0x10002cbd	USER32.dll.GetThreadDesktop
+0x10002df3	0x1000e1d0	import	0x10002cbd	USER32.dll.GetUserObjectInformationW
+0x10002dff	0x1000e3fc	string	0x10002cbd	default
+0x10002e0b	0x1000e0b0	import	0x10002cbd	KERNEL32.dll.lstrcmpiW
+0x10002e15	0x1000e40c	string	0x10002cbd	Detected VNC Desktop. Relax...
+0x10002e43	0x1000e0bc	import	0x10002cbd	KERNEL32.dll.GetCommandLineW
+0x10002e58	0x1000e450	string	0x10002cbd	initialized successfully:\nIntegrity level: %u\nFull path: %s\nCommand line: %s\n
+0x10002e6a	0x1000e374	string	0x10002cbd	Error initOsBasic()
+0x10002e97	0x1000e180	import	0x10002e7f	SHELL32.dll.SHGetFolderPathW
+0x10002ea8	0x1000e180	import	0x10002e7f	SHELL32.dll.SHGetFolderPathW
+0x10002eb7	0x1000e190	import	0x10002e7f	SHLWAPI.dll.PathRemoveBackslashW
+0x10002eca	0x1000e0a0	import	0x10002e7f	KERNEL32.dll.GetCurrentProcess
+0x10002f52	0x1000e094	import	0x10002f1a	KERNEL32.dll.CloseHandle
+0x10002f95	0x1000e0b4	import	0x10002f62	KERNEL32.dll.SleepEx
+0x10002ffb	0x1000e798	string	0x10002faf	webinject%ddata
+0x1000310b	0x1000e574	string	0x100030f3	created
+0x10003115	0x1000e57c	string	0x100030f3	botnet
+0x1000311f	0x1000e584	string	0x100030f3	check_config
+0x10003129	0x1000e594	string	0x100030f3	send_report
+0x10003133	0x1000e5a0	string	0x100030f3	check_update
+0x1000313d	0x1000e5b0	string	0x100030f3	url_config
+0x10003147	0x1000e5bc	string	0x100030f3	url_webinjects
+0x10003151	0x1000e5cc	string	0x100030f3	url_update
+0x1000315b	0x1000e5d8	string	0x100030f3	url_plugin_vnc32
+0x10003165	0x1000e5ec	string	0x100030f3	url_plugin_vnc64
+0x1000316f	0x1000e600	string	0x100030f3	url_plugin_vnc_backserver
+0x10003179	0x1000e61c	string	0x100030f3	url_plugin_grabber
+0x10003183	0x1000e630	string	0x100030f3	url_plugin_backsocks
+0x1000318d	0x1000e648	string	0x100030f3	url_plugin_backsocks_backserver
+0x10003197	0x1000e668	string	0x100030f3	reserved
+0x100031a1	0x1000e674	string	0x100030f3	dgaconfigs
+0x100031a8	0x1000e680	string	0x100030f3	grabber_pause
+0x100031af	0x1000e690	string	0x100030f3	grab_softlist
+0x100031b6	0x1000e6a0	string	0x100030f3	grab_pass
+0x100031bd	0x1000e6ac	string	0x100030f3	grab_form
+0x100031c4	0x1000e6b8	string	0x100030f3	grab_cert
+0x100031cb	0x1000e6c4	string	0x100030f3	grab_cookie
+0x100031d2	0x1000e6d0	string	0x100030f3	grab_del_cookie
+0x100031d9	0x1000e6e0	string	0x100030f3	grab_del_cache
+0x100031e0	0x1000e6f0	string	0x100030f3	notify_process
+0x100031e7	0x1000e700	string	0x100030f3	url_plugin_keylogger
+0x100031ee	0x1000e718	string	0x100030f3	keylog_process
+0x100031f5	0x1000e728	string	0x100030f3	screen_process
+0x100031fc	0x1000e738	string	0x100030f3	url_plugin_webinject32
+0x10003203	0x1000e750	string	0x100030f3	url_plugin_webinject64
+0x1000320a	0x1000e768	string	0x100030f3	remove_csp
+0x10003211	0x1000e774	string	0x100030f3	inject_vnc
+0x10003218	0x1000e780	string	0x100030f3	webfilters
+0x1000321f	0x1000e78c	string	0x100030f3	webinjects
+0x10003425	0x1000e518	string	0x1000339b	Signaling Core::OBJECT_ID_RESET_CONFIG_ETAGS
+0x10003485	0x1000e7a8	string	0x10003470	text/
+0x10003496	0x1000e7b0	string	0x10003470	application/x-javascript
+0x100034a7	0x1000e7cc	string	0x10003470	application/javascript
+0x100034b8	0x1000e7e4	string	0x10003470	application/xml
+0x100034c9	0x1000e7f4	string	0x10003470	application/xhtml+xml
+0x100034da	0x1000e80c	string	0x10003470	application/octet-stream
+0x100034eb	0x1000e828	string	0x10003470	application/json
+0x10003642	0x1000e9f4	string	0x10003635	%BOTID%
+0x10003652	0x1000e9fc	string	0x10003635	%SOCKS%
+0x10003661	0x1000ea04	string	0x10003635	%VNC%
+0x10003715	0x1000e9f4	string	0x10003635	%BOTID%
+0x100037c7	0x1000e9fc	string	0x10003635	%SOCKS%
+0x10003867	0x1000ea04	string	0x10003635	%VNC%
+0x10003938	0x1000ea10	string	0x10003635	HttpGrabber::_executeInjects no start
+0x100039d0	0x1000eaa8	string	0x10003635	HttpGrabber::_executeInjects do!
+0x10003b03	0x1000ea60	string	0x10003635	HttpGrabber::_executeInjects no end
+0x10003b86	0x1000e1f0	import	0x10003635	WININET.dll.InternetCrackUrlA
+0x10003ba6	0x1000e0d0	import	0x10003635	KERNEL32.dll.GetSystemTime
+0x10003bc7	0x1000eaec	string	0x10003635	grabbed\%S_%02u_%02u_%02u.txt
+0x10003c0c	0x1000eb28	string	0x10003635	Grabbed data from: %s\n\n%S
+0x10003c86	0x1000e0d4	import	0x10003635	KERNEL32.dll.GetLocalTime
+0x10003cba	0x1000e0c4	import	0x10003635	KERNEL32.dll.EnterCriticalSection
+0x10003cf7	0x1000e0c8	import	0x10003635	KERNEL32.dll.LeaveCriticalSection
+0x10003d5b	0x1000e1f4	import	0x10003d1c	WININET.dll.InternetCrackUrlW
+0x10003def	0x1000eb80	string	0x10003d1c	%s%s\nUser input: %s\n%sRequest:\n\n%S
+0x1000405e	0x1000e0c4	import	0x1000404d	KERNEL32.dll.EnterCriticalSection
+0x1000409b	0x1000e840	string	0x1000404d	Detected blocking url [%S] for current url.
+0x10004100	0x1000e0c8	import	0x1000404d	KERNEL32.dll.LeaveCriticalSection
+0x10004211	0x1000e898	string	0x1000404d	requestData->url=[%S] matched [%S] for filter type %u.
+0x1000427d	0x1000e908	string	0x1000404d	application/x-www-form-urlencoded
+0x10004297	0x1000e908	string	0x1000404d	application/x-www-form-urlencoded
+0x100042ee	0x1000e930	string	0x1000404d	HTTP authentication: username="%s", password="%s"\n
+0x10004354	0x1000e1f0	import	0x1000404d	WININET.dll.InternetCrackUrlA
+0x100043aa	0x1000e998	string	0x1000404d	HTTP authentication (encoded): %S\n
+0x100043f7	0x100043fe	string	0x1000404d	9F v
+0x10004429	0x1000e9e0	string	0x1000404d	*EMPTY*
+0x10004444	0x1000e9e8	string	0x1000404d	*UNKNOWN*
+0x10004686	0x1000e0d4	import	0x100044d3	KERNEL32.dll.GetLocalTime
+0x10004813	0x1000e0c0	import	0x100047fd	KERNEL32.dll.InitializeCriticalSection
+0x10004837	0x1000e0cc	import	0x1000481a	KERNEL32.dll.DeleteCriticalSection
+0x10004850	0x1000ebd8	string	0x1000483e	list_blockedinjects
+0x10004857	0x1000ebc8	string	0x1000483e	list_blocked
+0x10004ba0	0x1000e180	import	0x10004b88	SHELL32.dll.SHGetFolderPathW
+0x10004bb4	0x1000ebec	string	0x10004b88	Mozilla\Firefox
+0x10004bcb	0x1000ec0c	string	0x10004b88	profiles.ini
+0x10004bf5	0x1000e0f4	import	0x10004b88	KERNEL32.dll.GetFileAttributesW
+0x10004c09	0x1000ec28	string	0x10004b88	Profile%u
+0x10004c2e	0x1000ec3c	string	0x10004b88	IsRelative
+0x10004c37	0x1000e0e8	import	0x10004b88	KERNEL32.dll.GetPrivateProfileIntW
+0x10004c59	0x1000ec54	string	0x10004b88	Path
+0x10004c62	0x1000e0ec	import	0x10004b88	KERNEL32.dll.GetPrivateProfileStringW
+0x10004cd2	0x1000ec60	string	0x10004cc3	prefs.js
+0x10004d05	0x1000e0f0	import	0x10004cc3	KERNEL32.dll.CreateFileW
+0x10004d43	0x1000e0e0	import	0x10004cc3	KERNEL32.dll.ReadFile
+0x10004d4b	0x10004f20	string	0x10004cc3	SSSW
+0x10004d54	0x10004f20	string	0x10004cc3	SSSW
+0x10004d5a	0x1000ec78	string	0x10004cc3	privacy.clearOnShutdown.cookies
+0x10004d5f	0x1000edd0	string	0x10004cc3	false
+0x10004d6f	0x1000ee18	string	0x10004cc3	user_pref("%s", %s);\r\n
+0x10004dfc	0x1000ee18	string	0x10004cc3	user_pref("%s", %s);\r\n
+0x10004e4c	0x10004f20	string	0x10004cc3	SSSW
+0x10004eaf	0x1000ee18	string	0x10004cc3	user_pref("%s", %s);\r\n
+0x10004ed6	0x10004f20	string	0x10004cc3	SSSW
+0x10004f04	0x10004f20	string	0x10004cc3	SSSW
+0x10004f3a	0x1000e0dc	import	0x10004cc3	KERNEL32.dll.WriteFile
+0x10004f62	0x1000e0dc	import	0x10004cc3	KERNEL32.dll.WriteFile
+0x10004f77	0x1000e0e4	import	0x10004cc3	KERNEL32.dll.FlushFileBuffers
+0x10004f87	0x1000e094	import	0x10004cc3	KERNEL32.dll.CloseHandle
+0x10005041	0x1000ee78	string	0x10005013	NSS layer
+0x10005085	0x1000ee30	string	0x10005078	firefox.exe
+0x100050b3	0x1000e0d8	import	0x100050aa	KERNEL32.dll.GetProcAddress
+0x100050b9	0x1000ee48	string	0x100050aa	PR_GetNameForIdentity
+0x100050c3	0x1000ee60	string	0x100050aa	PR_SetError
+0x100050d2	0x1000ee6c	string	0x100050aa	PR_GetError
+0x1000519c	0x1000e0c4	import	0x1000515a	KERNEL32.dll.EnterCriticalSection
+0x100051de	0x1000e0c8	import	0x1000515a	KERNEL32.dll.LeaveCriticalSection
+0x100051f6	0x100051fa	string	0x1000515a	_[^]
+0x10005333	0x1000eebc	string	0x100051ff	Content-Type
+0x100053cf	0x1000ef8c	string	0x100051ff	%x\r\n
+0x100053ec	0x1000ef94	string	0x100051ff	\r\n0\r\n\r\n
+0x10005423	0x1000ee98	string	0x100051ff	Content-Length
+0x10005930	0x1000eedc	string	0x10005923	\r\n\r\n
+0x10005990	0x1000eee4	string	0x10005923	HTTP/1.
+0x100059e9	0x1000eeec	string	0x10005923	Transfer-Encoding
+0x10005a04	0x1000ef00	string	0x10005923	chunked
+0x10005a21	0x1000ee98	string	0x10005923	Content-Length
+0x10005a77	0x1000ef08	string	0x10005923	Connection
+0x10005a97	0x1000ef14	string	0x10005923	close
+0x10005aac	0x1000ef1c	string	0x10005923	Proxy-Connection
+0x10005acc	0x1000ef14	string	0x10005923	close
+0x10005cd9	0x1000ef38	string	0x10005cc1	X-Frame-Options
+0x10005ce2	0x1000c41b	string	0x10005cc1	QQSUVW
+0x10005ce7	0x1000ef48	string	0x10005cc1	Content-Security-Policy
+0x10005cf1	0x1000c41b	string	0x10005cc1	QQSUVW
+0x10005cf6	0x1000ef60	string	0x10005cc1	X-Content-Security-Policy
+0x10005d00	0x1000c41b	string	0x10005cc1	QQSUVW
+0x10005d05	0x1000ef7c	string	0x10005cc1	X-Webkit-CSP
+0x10005d0f	0x1000c41b	string	0x10005cc1	QQSUVW
+0x10005d16	0x1000eedc	string	0x10005cc1	\r\n\r\n
+0x10005d8b	0x1000ee84	string	0x10005d4d	HTTP/1.1
+0x10005def	0x1000ee90	string	0x10005d4d	Host
+0x10005e36	0x1000ee98	string	0x10005d4d	Content-Length
+0x10005ed9	0x1000eeb0	string	0x10005d4d	https://
+0x10005ee1	0x1000eea8	string	0x10005d4d	http://
+0x10005f9c	0x1000eebc	string	0x10005d4d	Content-Type
+0x10005fe3	0x1000eecc	string	0x10005d4d	Authorization
+0x10006055	0x1000e100	import	0x1000604e	KERNEL32.dll.InterlockedExchange
+0x10006062	0x1000e100	import	0x1000604e	KERNEL32.dll.InterlockedExchange
+0x1000606d	0x1000e0c0	import	0x1000604e	KERNEL32.dll.InitializeCriticalSection
+0x10006099	0x1000e0f8	import	0x10006074	KERNEL32.dll.InterlockedIncrement
+0x100060a5	0x1000e0c4	import	0x10006074	KERNEL32.dll.EnterCriticalSection
+0x100060bb	0x1000e0c8	import	0x10006074	KERNEL32.dll.LeaveCriticalSection
+0x100060e4	0x1000e0c4	import	0x100060d7	KERNEL32.dll.EnterCriticalSection
+0x10006108	0x1000e0c8	import	0x100060d7	KERNEL32.dll.LeaveCriticalSection
+0x10006121	0x1000e0c4	import	0x10006114	KERNEL32.dll.EnterCriticalSection
+0x10006157	0x1000e0c8	import	0x10006114	KERNEL32.dll.LeaveCriticalSection
+0x10006162	0x1000e0fc	import	0x10006114	KERNEL32.dll.InterlockedDecrement
+0x100061cc	0x1000f010	string	0x100061a9	systime
+0x100061e6	0x1000f008	string	0x100061a9	process
+0x10006225	0x1000f018	string	0x100061a9	user
+0x10006289	0x1000efd0	string	0x10006277	file
+0x10006290	0x1000efd8	string	0x10006277	http
+0x10006297	0x1000efe0	string	0x10006277	testinject
+0x1000629e	0x1000efec	string	0x10006277	script
+0x100062a5	0x1000eff4	string	0x10006277	socks
+0x100062b3	0x1000f000	string	0x10006277	debug
+0x100062ba	0x1000f008	string	0x10006277	process
+0x10006421	0x1000f020	string	0x100063ea	type
+0x10006433	0x1000f028	string	0x100063ea	data
+0x10006441	0x1000f030	string	0x100063ea	source
+0x1000644f	0x1000f038	string	0x100063ea	dest
+0x1000649d	0x1000f020	string	0x1000647c	type
+0x100064ab	0x1000f028	string	0x1000647c	data
+0x100064b9	0x1000f030	string	0x1000647c	source
+0x100064c7	0x1000f038	string	0x1000647c	dest
+0x10006560	0x1000f078	string	0x10006555	Screenshot::take in
+0x10006584	0x1000f040	string	0x10006555	\\.\pipe\%s
+0x10006593	0x1000f058	string	0x10006555	GetPipeName %s
+0x100065af	0x1000f0a0	string	0x10006555	Screenshot::take 2
+0x100065ce	0x1000e0f0	import	0x10006555	KERNEL32.dll.CreateFileW
+0x100065df	0x1000f0c8	string	0x10006555	Screenshot::take 3
+0x10006603	0x1000e0dc	import	0x10006555	KERNEL32.dll.WriteFile
+0x1000661b	0x1000f0f0	string	0x10006555	Screenshot::take 4
+0x10006637	0x1000e0e0	import	0x10006555	KERNEL32.dll.ReadFile
+0x10006647	0x1000f118	string	0x10006555	Screenshot::take 5
+0x10006664	0x1000f140	string	0x10006555	Screenshot::take 6
+0x1000667d	0x1000e0e0	import	0x10006555	KERNEL32.dll.ReadFile
+0x1000668f	0x1000f168	string	0x10006555	Screenshot::take FAIL
+0x100066a9	0x1000e094	import	0x10006555	KERNEL32.dll.CloseHandle
+0x100066b1	0x1000e088	import	0x10006555	KERNEL32.dll.GetLastError
+0x100066b8	0x1000f198	string	0x10006555	Screenshot create file error %d
+0x10006702	0x1000e0c4	import	0x100066db	KERNEL32.dll.EnterCriticalSection
+0x100067a4	0x1000e0c8	import	0x100066db	KERNEL32.dll.LeaveCriticalSection
+0x100067b6	0x1000e0c4	import	0x100066db	KERNEL32.dll.EnterCriticalSection
+0x100067d7	0x1000e0c8	import	0x100066db	KERNEL32.dll.LeaveCriticalSection
+0x100067e3	0x1000f1d8	string	0x100067df	screenshot on!
+0x100067f7	0x1000e0c4	import	0x100067df	KERNEL32.dll.EnterCriticalSection
+0x1000683c	0x1000e0c8	import	0x100067df	KERNEL32.dll.LeaveCriticalSection
+0x10006859	0x1000e0c4	import	0x10006845	KERNEL32.dll.EnterCriticalSection
+0x100068a2	0x1000e0c8	import	0x10006845	KERNEL32.dll.LeaveCriticalSection
+0x100068d9	0x1000e104	import	0x100068af	KERNEL32.dll.GlobalLock
+0x1000691c	0x1000e0c4	import	0x100068af	KERNEL32.dll.EnterCriticalSection
+0x10006939	0x1000e0c8	import	0x100068af	KERNEL32.dll.LeaveCriticalSection
+0x1000694b	0x1000e108	import	0x100068af	KERNEL32.dll.GlobalUnlock
+0x100069a7	0x1000e1cc	import	0x1000695a	USER32.dll.GetKeyboardState
+0x100069cf	0x1000e1c8	import	0x1000695a	USER32.dll.ToUnicode
+0x10006a17	0x1000e0c4	import	0x1000695a	KERNEL32.dll.EnterCriticalSection
+0x10006a2d	0x1000f1f8	string	0x1000695a	Screenshot request.
+0x10006a6b	0x1000f220	string	0x1000695a	Screenshot ready, size %u.
+0x10006a7a	0x1000e10c	import	0x1000695a	KERNEL32.dll.GetTickCount
+0x10006a86	0x1000f258	string	0x1000695a	unknown
+0x10006a9d	0x1000f268	string	0x1000695a	screenshots\%s\%04x_%08x.jpg
+0x10006ac6	0x1000f2a8	string	0x1000695a	Screenshot write to report FAIL.
+0x10006ae2	0x1000e0c8	import	0x1000695a	KERNEL32.dll.LeaveCriticalSection
+0x10006afb	0x1000e0c0	import	0x10006af6	KERNEL32.dll.InitializeCriticalSection
+0x10006b29	0x1000e0cc	import	0x10006b24	KERNEL32.dll.DeleteCriticalSection
+0x10006b83	0x1000e084	import	0x10006b48	KERNEL32.dll.Sleep
+0x10006be8	0x1000f5dc	string	0x10006bdc	tls_method.cc
+0x10006bf3	0x1000f5d4	string	0x10006bdc	.rdata
+0x10006c91	0x1000f5d4	string	0x10006c86	.rdata
+0x10006cff	0x1000f5d4	string	0x10006cf0	.rdata
+0x10006e1d	0x1000e110	import	0x10006dfc	KERNEL32.dll.VirtualProtect
+0x10006e33	0x1000e110	import	0x10006dfc	KERNEL32.dll.VirtualProtect
+0x10006e96	0x1000f8f0	string	0x10006e96	WinApiTables::init common hooks
+0x10006eb8	0x1000f930	string	0x10006e96	TranslateMessage
+0x10006ebd	0x1000f944	string	0x10006e96	user32.dll
+0x10006ecd	0x1000e114	import	0x10006e96	KERNEL32.dll.GetModuleHandleW
+0x10006ed4	0x1000e0d8	import	0x10006e96	KERNEL32.dll.GetProcAddress
+0x10006eda	0x1000f95c	string	0x10006e96	GetClipboardData
+0x10006eef	0x1000e114	import	0x10006e96	KERNEL32.dll.GetModuleHandleW
+0x10006ef6	0x1000e0d8	import	0x10006e96	KERNEL32.dll.GetProcAddress
+0x10006f14	0x1000f970	string	0x10006e96	WinApiTables::init error: set user hooks
+0x10006f22	0x1000f9c8	string	0x10006e96	WinApiTables::init browser hooks
+0x10006f4a	0x1000fa10	string	0x10006e96	WinApiTables::init error: enable hooks!
+0x10006f7a	0x1000e114	import	0x10006f59	KERNEL32.dll.GetModuleHandleW
+0x10006f82	0x1000f658	string	0x10006f59	chrome.dll
+0x10006f8f	0x1000f670	string	0x10006f59	opera_browser.dll
+0x100070c1	0x1000f5ec	string	0x100070b4	chrome.exe
+0x100070d5	0x1000f604	string	0x100070b4	opera.exe
+0x10007100	0x1000f618	string	0x100070b4	setChromeHooks Yes, I'm Chrome!
+0x1000710e	0x1000f658	string	0x100070b4	chrome.dll
+0x10007114	0x1000f670	string	0x100070b4	opera_browser.dll
+0x10007121	0x1000e084	import	0x100070b4	KERNEL32.dll.Sleep
+0x10007128	0x1000e114	import	0x100070b4	KERNEL32.dll.GetModuleHandleW
+0x10007245	0x1000f6a4	string	0x100070b4	Opera
+0x1000724b	0x1000f694	string	0x100070b4	Chrome
+0x10007256	0x1000f6b0	string	0x100070b4	%s full version %d.%d.XXX.XXX
+0x1000727c	0x1000f8a8	string	0x100070b4	Chrome/Opera unsupported version!
+0x10007286	0x1000f6f0	string	0x100070b4	Chrome XP (49-51), settings hooks.
+0x1000729b	0x1000f738	string	0x100070b4	Chrome 60 (54-60 or Opera 45-47), settings hooks.
+0x100072b0	0x1000f79c	string	0x100070b4	Chrome 61, settings hooks.
+0x100073ed	0x1000f7d4	string	0x100070b4	ws2_32.dll
+0x100073f4	0x1000e114	import	0x100070b4	KERNEL32.dll.GetModuleHandleW
+0x100073fa	0x1000e0d8	import	0x100070b4	KERNEL32.dll.GetProcAddress
+0x10007402	0x1000f7ec	string	0x100070b4	closesocket
+0x10007414	0x1000f7f8	string	0x100070b4	WSASend
+0x1000742b	0x1000f800	string	0x100070b4	WSARecv
+0x10007442	0x1000f808	string	0x100070b4	recv
+0x10007475	0x1000f810	string	0x100070b4	WinApiTables::init ChromeWinapiHooks!
+0x100074d3	0x1000f860	string	0x100070b4	Chrome/Opera ssl struct not found!
+0x100074ec	0x1000ee30	string	0x100074e8	firefox.exe
+0x10007509	0x1000e114	import	0x100074e8	KERNEL32.dll.GetModuleHandleW
+0x1000750f	0x1000f51c	string	0x100074e8	nss3.dll
+0x10007519	0x1000e084	import	0x100074e8	KERNEL32.dll.Sleep
+0x10007528	0x1000f530	string	0x100074e8	Firefox, settings hooks.
+0x10007534	0x1000e0d8	import	0x100074e8	KERNEL32.dll.GetProcAddress
+0x1000753c	0x1000f564	string	0x100074e8	PR_Close
+0x1000754e	0x1000f570	string	0x100074e8	PR_Read
+0x10007565	0x1000f578	string	0x100074e8	PR_Write
+0x1000757c	0x1000f584	string	0x100074e8	PR_Poll
+0x100075d2	0x1000f590	string	0x100074e8	WinApiTables::init FirefoxHooks!
+0x10007601	0x1000f310	string	0x100075e4	microsoftedge.exe
+0x1000761e	0x1000f334	string	0x100075e4	microsoftedgecp.exe
+0x10007648	0x1000f35c	string	0x100075e4	IE/Edge, settings hooks.
+0x10007656	0x1000f390	string	0x100075e4	wininet.dll
+0x1000765b	0x1000e114	import	0x100075e4	KERNEL32.dll.GetModuleHandleW
+0x10007661	0x1000e0d8	import	0x100075e4	KERNEL32.dll.GetProcAddress
+0x10007669	0x1000f3a8	string	0x100075e4	HttpSendRequestW
+0x1000767b	0x1000f3bc	string	0x100075e4	HttpSendRequestA
+0x10007692	0x1000f3d0	string	0x100075e4	HttpSendRequestExW
+0x100076a9	0x1000f3e4	string	0x100075e4	HttpSendRequestExA
+0x100076c0	0x1000f3f8	string	0x100075e4	InternetReadFile
+0x100076d7	0x1000f40c	string	0x100075e4	InternetReadFileExA
+0x100076ee	0x1000f420	string	0x100075e4	InternetReadFileExW
+0x10007705	0x1000f434	string	0x100075e4	InternetQueryDataAvailable
+0x1000771c	0x1000f450	string	0x100075e4	InternetCloseHandle
+0x10007733	0x1000f464	string	0x100075e4	HttpOpenRequestA
+0x1000774a	0x1000f478	string	0x100075e4	HttpOpenRequestW
+0x10007761	0x1000f48c	string	0x100075e4	HttpQueryInfoA
+0x10007778	0x1000f49c	string	0x100075e4	InternetConnectA
+0x1000778f	0x1000f4b0	string	0x100075e4	InternetConnectW
+0x100077b5	0x1000f4c4	string	0x100075e4	InternetWriteFile
+0x100077da	0x1000f4d8	string	0x100075e4	WinApiTables::init WininetHooks!
+0x1000783e	0x1000e084	import	0x10007813	KERNEL32.dll.Sleep
+0x100078a4	0x1000e208	import	0x10007857	WININET.dll.GetUrlCacheEntryInfoW
+0x100078f1	0x1000e1f8	import	0x100078e3	WININET.dll.InternetQueryOptionA
+0x10007b09	0x1000e20c	import	0x10007a48	WININET.dll.DeleteUrlCacheEntryA
+0x10007b16	0x1000fc10	string	0x10007a48	Accept-Encoding:\n
+0x10007b1d	0x1000e200	import	0x10007a48	WININET.dll.HttpAddRequestHeadersA
+0x10007b98	0x1000e200	import	0x10007b7a	WININET.dll.HttpAddRequestHeadersA
+0x10007bac	0x1000e204	import	0x10007b7a	WININET.dll.HttpAddRequestHeadersW
+0x10007bb9	0x1000fc10	string	0x10007b7a	Accept-Encoding:\n
+0x10007c00	0x10007c08	string	0x10007b7a	_^[]
+0x10007c2e	0x1000e200	import	0x10007c0f	WININET.dll.HttpAddRequestHeadersA
+0x10007c36	0x1000e204	import	0x10007c0f	WININET.dll.HttpAddRequestHeadersW
+0x10007c80	0x1000e08c	import	0x10007c0f	KERNEL32.dll.SetLastError
+0x10007d24	0x1000e120	import	0x10007ceb	KERNEL32.dll.CreateEventW
+0x10007d36	0x1000e118	import	0x10007ceb	KERNEL32.dll.ResetEvent
+0x10007d80	0x1000e0ac	import	0x10007ceb	KERNEL32.dll.SetEvent
+0x10007e05	0x1000e0ac	import	0x10007df0	KERNEL32.dll.SetEvent
+0x10007e44	0x1000efd8	string	0x10007e17	http
+0x10007e4f	0x1000fc24	string	0x10007e17	https
+0x10007e5c	0x1000fc34	string	0x10007e17	%s://%S
+0x10007e61	0x1000fc2c	string	0x10007e17	%s://%s
+0x10007ec4	0x1000e120	import	0x10007e80	KERNEL32.dll.CreateEventW
+0x10007f0b	0x1000e088	import	0x10007e80	KERNEL32.dll.GetLastError
+0x10007f35	0x1000e118	import	0x10007e80	KERNEL32.dll.ResetEvent
+0x10007f9a	0x1000e094	import	0x10007e80	KERNEL32.dll.CloseHandle
+0x10008075	0x1000e214	import	0x10008059	WININET.dll.InternetSetOptionA
+0x10008080	0x1000e1fc	import	0x10008059	WININET.dll.InternetSetStatusCallbackW
+0x100080b4	0x1000e1f8	import	0x10008091	WININET.dll.InternetQueryOptionA
+0x100080c2	0x1000e1fc	import	0x10008091	WININET.dll.InternetSetStatusCallbackW
+0x100080db	0x1000e214	import	0x10008091	WININET.dll.InternetSetOptionA
+0x10008115	0x1000fc44	string	0x100080e5	%s%s
+0x1000811d	0x1000fc3c	string	0x100080e5	%s%S
+0x100081ba	0x100081c1	string	0x100080e5	VVhd
+0x100081c3	0x1000fc64	string	0x100080e5	POST
+0x10008334	0x1000e908	string	0x100082dc	application/x-www-form-urlencoded
+0x1000836a	0x1000e908	string	0x100082dc	application/x-www-form-urlencoded
+0x10008372	0x1000e188	import	0x100082dc	SHLWAPI.dll.StrCmpNA
+0x10008416	0x1000e0f8	import	0x1000840b	KERNEL32.dll.InterlockedIncrement
+0x10008441	0x1000e0f8	import	0x1000840b	KERNEL32.dll.InterlockedIncrement
+0x1000845a	0x1000e0f8	import	0x1000844f	KERNEL32.dll.InterlockedIncrement
+0x10008485	0x1000e0f8	import	0x1000844f	KERNEL32.dll.InterlockedIncrement
+0x1000849d	0x1000e0f8	import	0x10008493	KERNEL32.dll.InterlockedIncrement
+0x1000850f	0x1000e11c	import	0x10008493	KERNEL32.dll.lstrcmpiA
+0x10008517	0x1000ef38	string	0x10008493	X-Frame-Options
+0x10008523	0x1000ef60	string	0x10008493	X-Content-Security-Policy
+0x1000852f	0x1000ee98	string	0x10008493	Content-Length
+0x10008550	0x1000e08c	import	0x10008493	KERNEL32.dll.SetLastError
+0x1000855e	0x1000fd24	string	0x10008493	Cache-Control
+0x10008583	0x1000fd10	string	0x10008493	no-cache, no-store
+0x1000859b	0x1000e08c	import	0x10008493	KERNEL32.dll.SetLastError
+0x100085c2	0x1000fd38	string	0x10008493	HTTP_QUERY_X_FRAME_OPTIONS
+0x10008618	0x1000ef38	string	0x10008493	X-Frame-Options
+0x10008620	0x1000c41b	string	0x10008493	QQSUVW
+0x10008625	0x1000ef60	string	0x10008493	X-Content-Security-Policy
+0x1000862e	0x1000c41b	string	0x10008493	QQSUVW
+0x10008638	0x1000ee98	string	0x10008493	Content-Length
+0x10008640	0x1000c41b	string	0x10008493	QQSUVW
+0x10008645	0x1000fd10	string	0x10008493	no-cache, no-store
+0x1000864a	0x1000fd24	string	0x10008493	Cache-Control
+0x10008666	0x1000e0f8	import	0x10008493	KERNEL32.dll.InterlockedIncrement
+0x10008689	0x1000e0f8	import	0x10008493	KERNEL32.dll.InterlockedIncrement
+0x100086a2	0x1000e0f8	import	0x10008697	KERNEL32.dll.InterlockedIncrement
+0x100086c1	0x1000e0f8	import	0x10008697	KERNEL32.dll.InterlockedIncrement
+0x100086da	0x1000e0f8	import	0x100086cf	KERNEL32.dll.InterlockedIncrement
+0x100086f9	0x1000e0f8	import	0x100086cf	KERNEL32.dll.InterlockedIncrement
+0x10008712	0x1000e0f8	import	0x10008707	KERNEL32.dll.InterlockedIncrement
+0x10008731	0x1000e0f8	import	0x10008707	KERNEL32.dll.InterlockedIncrement
+0x1000874a	0x1000e0f8	import	0x1000873f	KERNEL32.dll.InterlockedIncrement
+0x10008769	0x1000e0f8	import	0x1000873f	KERNEL32.dll.InterlockedIncrement
+0x10008792	0x1000e090	import	0x10008777	KERNEL32.dll.WaitForSingleObject
+0x10008856	0x1000e0f8	import	0x1000884b	KERNEL32.dll.InterlockedIncrement
+0x10008876	0x1000e0f8	import	0x1000884b	KERNEL32.dll.InterlockedIncrement
+0x1000888f	0x1000e0f8	import	0x10008884	KERNEL32.dll.InterlockedIncrement
+0x100088ae	0x1000e0f8	import	0x10008884	KERNEL32.dll.InterlockedIncrement
+0x100088c7	0x1000e0f8	import	0x100088bc	KERNEL32.dll.InterlockedIncrement
+0x100088e7	0x1000e0f8	import	0x100088bc	KERNEL32.dll.InterlockedIncrement
+0x10008900	0x1000e0f8	import	0x100088f5	KERNEL32.dll.InterlockedIncrement
+0x10008920	0x1000e0f8	import	0x100088f5	KERNEL32.dll.InterlockedIncrement
+0x10008938	0x1000e0f8	import	0x1000892e	KERNEL32.dll.InterlockedIncrement
+0x100089ce	0x1000e0f8	import	0x1000892e	KERNEL32.dll.InterlockedIncrement
+0x10008a11	0x1000e0f8	import	0x100089dc	KERNEL32.dll.InterlockedIncrement
+0x10008a1c	0x1000e0c4	import	0x100089dc	KERNEL32.dll.EnterCriticalSection
+0x10008a36	0x1000e0c8	import	0x100089dc	KERNEL32.dll.LeaveCriticalSection
+0x10008a64	0x1000e0c4	import	0x10008a57	KERNEL32.dll.EnterCriticalSection
+0x10008a8b	0x1000e0c8	import	0x10008a57	KERNEL32.dll.LeaveCriticalSection
+0x10008aa4	0x1000e0c4	import	0x10008a97	KERNEL32.dll.EnterCriticalSection
+0x10008ae3	0x1000e0c8	import	0x10008a97	KERNEL32.dll.LeaveCriticalSection
+0x10008aee	0x1000e0fc	import	0x10008a97	KERNEL32.dll.InterlockedDecrement
+0x10008b50	0x1000e0c0	import	0x10008b35	KERNEL32.dll.InitializeCriticalSection
+0x10008b74	0x1000fa60	string	0x10008b35	IExplore, settings hooks.
+0x10008b85	0x1000f310	string	0x10008b35	microsoftedge.exe
+0x10008b9e	0x1000f334	string	0x10008b35	microsoftedgecp.exe
+0x10008bb5	0x1000fa94	string	0x10008b35	MS Edge, settings hooks.
+0x10008bdd	0x1000fac8	string	0x10008b35	Enabled
+0x10008be7	0x1000fad8	string	0x10008b35	EnabledV8
+0x10008bf3	0x1000faec	string	0x10008b35	EnabledV9
+0x10008bfd	0x1000fb00	string	0x10008b35	Software\Microsoft\Internet Explorer\PhishingFilter
+0x10008c13	0x1000fb00	string	0x10008b35	Software\Microsoft\Internet Explorer\PhishingFilter
+0x10008cdd	0x1000fb68	string	0x10008b35	WarnonBadCertRecving
+0x10008ce2	0x1000fb98	string	0x10008b35	Software\Microsoft\Windows\CurrentVersion\Internet Settings
+0x10008dec	0x10008e0c	string	0x10008dca	^ÊD$\b blocks=Basic Latin,Latin-1 Supplement
+0x10008dfd	0x10008e0c	string	0x10008dca	^ÊD$\b blocks=Basic Latin,Latin-1 Supplement
+0x10008e43	0x1000e12c	import	0x10008e2e	KERNEL32.dll.HeapAlloc
+0x10008e7c	0x1000e134	import	0x10008e69	KERNEL32.dll.HeapFree
+0x10008e8b	0x1000e124	import	0x10008e83	KERNEL32.dll.HeapCreate
+0x10008e9a	0x1000e138	import	0x10008e83	KERNEL32.dll.GetProcessHeap
+0x10008eca	0x1000e12c	import	0x10008eb5	KERNEL32.dll.HeapAlloc
+0x10008eed	0x1000e12c	import	0x10008ed1	KERNEL32.dll.HeapAlloc
+0x10008f00	0x1000e130	import	0x10008ed1	KERNEL32.dll.HeapReAlloc
+0x10008f4a	0x1000e128	import	0x10008f07	KERNEL32.dll.HeapDestroy
+0x10008f5c	0x1000e1c0	import	0x10008f58	USER32.dll.CharLowerW
+0x10009619	0x10009701	string	0x10009570	]_^[
+0x1000965e	0x1000e1d8	import	0x10009570	USER32.dll.CharLowerA
+0x1000966e	0x1000e1d8	import	0x10009570	USER32.dll.CharLowerA
+0x1000994c	0x1000e18c	import	0x10009926	SHLWAPI.dll.wvnsprintfA
+0x100099be	0x10009b3c	string	0x100099a9	SUVW
+0x10009a10	0x1000e198	import	0x100099e6	SHLWAPI.dll.wvnsprintfW
+0x10009a5e	0x1000e148	import	0x10009a35	KERNEL32.dll.WideCharToMultiByte
+0x10009acb	0x10009acf	string	0x10009a78	_^[]
+0x10009b17	0x1000e18c	import	0x10009ad4	SHLWAPI.dll.wvnsprintfA
+0x10009b32	0x10009b37	string	0x10009ad4	_^[]
+0x10009b8f	0x1000e198	import	0x10009b3c	SHLWAPI.dll.wvnsprintfW
+0x10009bad	0x10009bb2	string	0x10009b3c	_^][
+0x10009bdc	0x1000e144	import	0x10009bb7	KERNEL32.dll.MultiByteToWideChar
+0x10009c4d	0x10009c51	string	0x10009bf7	_^[]
+0x10009c5e	0x1000e088	import	0x10009c56	KERNEL32.dll.GetLastError
+0x10009c6a	0x1000e0d4	import	0x10009c56	KERNEL32.dll.GetLocalTime
+0x10009cac	0x1000e0a8	import	0x10009c56	KERNEL32.dll.GetCurrentThreadId
+0x10009cb3	0x1000e0a4	import	0x10009c56	KERNEL32.dll.GetCurrentProcessId
+0x10009cd9	0x1000fe78	string	0x10009c56	[%02u.%02u.%4u %02u:%02u:%02u] webinject, log=0x%04X, PID=0x%04X, TID=0x%04X, LE=%u(0x%X)\r\n%S:
+0x10009d46	0x1000e08c	import	0x10009c56	KERNEL32.dll.SetLastError
+0x1000a39b	0x1000a3bb	string	0x1000a385	QSUV
+0x1000a6af	0x1000e00c	import	0x1000a69f	ADVAPI32.dll.CryptAcquireContextW
+0x1000a962	0x1000a992	string	0x1000a7a1	_^][
+0x1000ab55	0x1000ab85	string	0x1000a99a	_^][
+0x1000ae64	0x1000ae84	string	0x1000ab8d	_^]3
+0x1000b19e	0x1000b1ca	string	0x1000b158	Wj\a3\b]
+0x1000b1fe	0x100100d4	string	0x1000b158	%02X
+0x1000b244	0x1000e180	import	0x1000b22a	SHELL32.dll.SHGetFolderPathW
+0x1000b2d9	0x1000e158	import	0x1000b2c6	KERNEL32.dll.VirtualFree
+0x1000b2e8	0x1000e094	import	0x1000b2c6	KERNEL32.dll.CloseHandle
+0x1000b314	0x1000e0f0	import	0x1000b2f0	KERNEL32.dll.CreateFileW
+0x1000b32a	0x1000e15c	import	0x1000b2f0	KERNEL32.dll.GetFileSizeEx
+0x1000b352	0x1000e154	import	0x1000b2f0	KERNEL32.dll.VirtualAlloc
+0x1000b36a	0x1000e0e0	import	0x1000b2f0	KERNEL32.dll.ReadFile
+0x1000b384	0x1000e158	import	0x1000b2f0	KERNEL32.dll.VirtualFree
+0x1000b38d	0x1000e094	import	0x1000b2f0	KERNEL32.dll.CloseHandle
+0x1000b3a7	0x1000e15c	import	0x1000b39b	KERNEL32.dll.GetFileSizeEx
+0x1000b402	0x1000e1a4	import	0x1000b3df	SHLWAPI.dll.PathCombineW
+0x1000b418	0x1000e164	import	0x1000b40f	KERNEL32.dll.SetFileAttributesW
+0x1000b422	0x1000e168	import	0x1000b40f	KERNEL32.dll.DeleteFileW
+0x1000b449	0x1000e0f0	import	0x1000b42e	KERNEL32.dll.CreateFileW
+0x1000b46c	0x1000e0dc	import	0x1000b42e	KERNEL32.dll.WriteFile
+0x1000b479	0x1000e094	import	0x1000b42e	KERNEL32.dll.CloseHandle
+0x1000b4a7	0x1000e160	import	0x1000b495	KERNEL32.dll.SetFilePointerEx
+0x1000b4be	0x1000e170	import	0x1000b4b3	KERNEL32.dll.CreateMutexW
+0x1000b4ca	0x1000e088	import	0x1000b4b3	KERNEL32.dll.GetLastError
+0x1000b4d8	0x1000e094	import	0x1000b4b3	KERNEL32.dll.CloseHandle
+0x1000b4e8	0x1000e16c	import	0x1000b4e4	KERNEL32.dll.ReleaseMutex
+0x1000b4f2	0x1000e094	import	0x1000b4e4	KERNEL32.dll.CloseHandle
+0x1000b51b	0x1000e1bc	import	0x1000b4f9	USER32.dll.TranslateMessage
+0x1000b525	0x1000e1b8	import	0x1000b4f9	USER32.dll.DispatchMessageW
+0x1000b536	0x1000e1b4	import	0x1000b4f9	USER32.dll.PeekMessageW
+0x1000b54f	0x1000e1c4	import	0x1000b4f9	USER32.dll.MsgWaitForMultipleObjects
+0x1000b56f	0x1000e170	import	0x1000b564	KERNEL32.dll.CreateMutexW
+0x1000b580	0x1000e090	import	0x1000b564	KERNEL32.dll.WaitForSingleObject
+0x1000b592	0x1000e094	import	0x1000b564	KERNEL32.dll.CloseHandle
+0x1000b5c8	0x1000e010	import	0x1000b5a0	ADVAPI32.dll.OpenProcessToken
+0x1000b5e1	0x1000e014	import	0x1000b5a0	ADVAPI32.dll.GetTokenInformation
+0x1000b5eb	0x1000e088	import	0x1000b5a0	KERNEL32.dll.GetLastError
+0x1000b613	0x1000e014	import	0x1000b5a0	ADVAPI32.dll.GetTokenInformation
+0x1000b61f	0x1000e008	import	0x1000b5a0	ADVAPI32.dll.GetSidSubAuthorityCount
+0x1000b636	0x1000e004	import	0x1000b5a0	ADVAPI32.dll.GetSidSubAuthority
+0x1000b662	0x1000e094	import	0x1000b5a0	KERNEL32.dll.CloseHandle
+0x1000b68e	0x1000e14c	import	0x1000b66f	KERNEL32.dll.GetVersionExW
+0x1000b782	0x1000e000	import	0x1000b774	ADVAPI32.dll.InitializeSecurityDescriptor
+0x1000b793	0x1000e03c	import	0x1000b774	ADVAPI32.dll.SetSecurityDescriptorDacl
+0x1000b7a4	0x100100e0	string	0x1000b774	S:(ML;;NRNWNX;;;LW)
+0x1000b7c4	0x1000e034	import	0x1000b774	ADVAPI32.dll.GetSecurityDescriptorSacl
+0x1000b7d8	0x1000e038	import	0x1000b774	ADVAPI32.dll.SetSecurityDescriptorSacl
+0x1000b7ea	0x1000e13c	import	0x1000b774	KERNEL32.dll.LocalFree
+0x1000b9fc	0x1000e024	import	0x1000b9e7	ADVAPI32.dll.RegOpenKeyExW
+0x1000ba18	0x1000e020	import	0x1000b9e7	ADVAPI32.dll.RegQueryValueExW
+0x1000ba27	0x1000e02c	import	0x1000b9e7	ADVAPI32.dll.RegCloseKey
+0x1000ba4f	0x1000e024	import	0x1000ba32	ADVAPI32.dll.RegOpenKeyExW
+0x1000ba6b	0x1000e020	import	0x1000ba32	ADVAPI32.dll.RegQueryValueExW
+0x1000baa0	0x1000e020	import	0x1000ba32	ADVAPI32.dll.RegQueryValueExW
+0x1000babb	0x1000e02c	import	0x1000ba32	ADVAPI32.dll.RegCloseKey
+0x1000bb19	0x1000e028	import	0x1000bb02	ADVAPI32.dll.RegCreateKeyExW
+0x1000bb33	0x1000e01c	import	0x1000bb02	ADVAPI32.dll.RegSetValueExW
+0x1000bb47	0x1000e02c	import	0x1000bb02	ADVAPI32.dll.RegCloseKey
+0x1000bbbe	0x1000bc73	string	0x1000bb9d	_^][
+0x1000bd73	0x1000be08	string	0x1000bc7b	_^][
+0x1000bed8	0x1000e018	import	0x1000bebb	ADVAPI32.dll.CryptEncrypt
+0x1000befd	0x1000e018	import	0x1000bebb	ADVAPI32.dll.CryptEncrypt
+0x1000bfc2	0x1000eedc	string	0x1000bf9f	\r\n\r\n
+0x1000bfec	0x10010188	string	0x1000bf9f	%s: %s\r\n\r\n
+0x1000c08f	0x1000e194	import	0x1000c06d	SHLWAPI.dll.StrCmpNIA
+0x1000c136	0x1000e194	import	0x1000c0bd	SHLWAPI.dll.StrCmpNIA
+0x1000c264	0x1000e194	import	0x1000c1fd	SHLWAPI.dll.StrCmpNIA
+0x1000c334	0x10010194	string	0x1000c31a	Basic
+0x1000c45f	0x1000e194	import	0x1000c41b	SHLWAPI.dll.StrCmpNIA
+0x1000c4d8	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c4f1	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c50d	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c516	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c520	0x1000efec	string	0x1000c4a8	script
+0x1000c533	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c53b	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c548	0x1000efec	string	0x1000c4a8	script
+0x1000c5af	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c5b3	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c5b7	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c5bb	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c5bf	0x1000c5fb	string	0x1000c4a8	G;|$$
+0x1000c5dd	0x1000e194	import	0x1000c4a8	SHLWAPI.dll.StrCmpNIA
+0x1000c692	0x1000c6c2	string	0x1000c637	_^[ËL$ blocks=Basic Latin,Latin-1 Supplement
+0x1000c838	0x1000c842	string	0x1000c7af	_^[ËT$ blocks=Basic Latin,Latin-1 Supplement
+0x1000c88a	0x1000c895	string	0x1000c846	<A|\t<F
+0x1000c88e	0x1000c895	string	0x1000c846	<A|\t<F
+0x1000c8ba	0x1000c8c5	string	0x1000c846	<A|\t<F
+0x1000c8be	0x1000c8c5	string	0x1000c846	<A|\t<F
+0x1000c8ea	0x1000c8f8	string	0x1000c846	<A|\f<F
+0x1000c8ee	0x1000c8f8	string	0x1000c846	<A|\f<F
+0x1000c8fa	0x1000c908	string	0x1000c846	<a|\r<f
+0x1000c8fe	0x1000c908	string	0x1000c846	<a|\r<f
+0x1000ca6a	0x1000ca7b	string	0x1000c973	_^[ËD$\b3 blocks=Basic Latin,Latin-1 Supplement
+0x1000cc71	0x100101b4	string	0x1000cc5b	null
+0x1000cc99	0x100101bc	string	0x1000cc5b	false
+0x1000ccbb	0x100101c4	string	0x1000cc5b	true
+0x1000ccea	0x1000cd2a	string	0x1000cc5b	YY^]Ã blocks=Basic Latin,Latin-1 Supplement
+0x1000cd05	0x1000cd2a	string	0x1000cc5b	YY^]Ã blocks=Basic Latin,Latin-1 Supplement
+0x1000cd14	0x1000cd2a	string	0x1000cc5b	YY^]Ã blocks=Basic Latin,Latin-1 Supplement
+0x1000cd87	0x1000cfb6	string	0x1000cd2f	_^][
+0x1000cdf8	0x1000cda6	string	0x1000cd2f	VUPW
+0x1000cf81	0x1000cfb6	string	0x1000cd2f	_^][
+0x1000d451	0x1000d4b5	string	0x1000cffc	_^][
+0x1000d48f	0x1000d4b5	string	0x1000cffc	_^][
+0x1000d515	0x100101a4	string	0x1000d4bd	"\\b\f\n\r\t
+0x1000d5b6	0x100101ac	string	0x1000d4bd	u%04x
+0x1000d623	0x1000d640	string	0x1000d4bd	]_^[Y
+0x1000d655	0x1000d782	string	0x1000d646	^]ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1000d6e5	0x100101b4	string	0x1000d646	null
+0x1000d702	0x100101c4	string	0x1000d646	true
+0x1000d71b	0x100101bc	string	0x1000d646	false
+0x1000d765	0x100101b4	string	0x1000d646	null
+0x1000d76c	0x100101c4	string	0x1000d646	true
+0x1000d773	0x100101bc	string	0x1000d646	false
+0x1000d904	0x1000d90c	string	0x1000d8d6	;V\bu
+0x1000d95b	0x1000d95f	string	0x1000d925	_^[ËD$ blocks=Basic Latin,Latin-1 Supplement
+0x1000da48	0x1000e0d0	import	0x1000da3e	KERNEL32.dll.GetSystemTime
+0x1000da68	0x1000e074	import	0x1000da5c	KERNEL32.dll.SystemTimeToFileTime
+0x1000da9c	0x1000e070	import	0x1000da7c	KERNEL32.dll.GetModuleFileNameW
+0x1000db79	0x1000db7e	string	0x1000db43	]ËL$ blocks=Basic Latin,Latin-1 Supplement
+0x1000dc33	0x1000e210	import	0x1000dc08	WININET.dll.HttpQueryInfoA
+0x1000dc3d	0x1000e088	import	0x1000dc08	KERNEL32.dll.GetLastError
+0x1000dc61	0x1000e210	import	0x1000dc08	WININET.dll.HttpQueryInfoA
+0x1000dc92	0x1000e1f8	import	0x1000dc7e	WININET.dll.InternetQueryOptionA
+0x1000dca0	0x1000e088	import	0x1000dc7e	KERNEL32.dll.GetLastError
+0x1000dcc3	0x1000e1f8	import	0x1000dc7e	WININET.dll.InternetQueryOptionA
+0x1000dcfc	0x1000e218	import	0x1000dcdf	WININET.dll.InternetQueryOptionW
+0x1000dd0a	0x1000e088	import	0x1000dcdf	KERNEL32.dll.GetLastError
+0x1000dd2f	0x1000e218	import	0x1000dcdf	WININET.dll.InternetQueryOptionW
+0x1000dd66	0x1000e250	import	0x1000dd4d	ole32.dll.CoCreateInstance
+0x1000dd83	0x1000e248	import	0x1000dd7d	ole32.dll.CoInitializeEx
+0x1000ddb4	0x1000e244	import	0x1000dda6	ole32.dll.CoUninitialize
+0x1000de24	0x1000e1e4	import	0x1000de24	VERSION.dll.GetFileVersionInfoSizeW
+0x1000de2a	0x1000e1e0	import	0x1000de2a	VERSION.dll.GetFileVersionInfoW
+0x1000de30	0x1000e1e8	import	0x1000de30	VERSION.dll.VerQueryValueW
+0x1000de36	0x1000e178	import	0x1000de36	PSAPI.DLL.GetModuleFileNameExW
+0x1000de3c	0x1000e1ac	import	0x1000de3c	Secur32.dll.GetUserNameExW
+0x1000de42	0x1000e030	import	0x1000de42	ADVAPI32.dll.ConvertStringSecurityDescriptorToSecurityDescriptorW
+0x1000de5e	0x1000e07c	import	0x1000de59	KERNEL32.dll.SetUnhandledExceptionFilter
+0x1000de67	0x1000e078	import	0x1000de59	KERNEL32.dll.UnhandledExceptionFilter
+0x1000de72	0x1000e0a0	import	0x1000de59	KERNEL32.dll.GetCurrentProcess
+0x1000de79	0x1000e080	import	0x1000de59	KERNEL32.dll.TerminateProcess
+0x1000df7c	0x1000e140	import	0x1000df7c	KERNEL32.dll.IsProcessorFeaturePresent

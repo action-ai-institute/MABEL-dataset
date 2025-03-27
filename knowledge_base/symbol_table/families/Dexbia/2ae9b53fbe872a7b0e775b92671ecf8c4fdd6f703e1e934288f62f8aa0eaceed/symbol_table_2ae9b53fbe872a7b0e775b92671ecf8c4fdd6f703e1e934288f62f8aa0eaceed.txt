@@ -1,0 +1,252 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401052	0x40401c	import	0x401022	KERNEL32.dll.TerminateProcess
+0x40105c	0x404018	import	0x401022	KERNEL32.dll.TerminateThread
+0x401065	0x404014	import	0x401022	KERNEL32.dll.CloseHandle
+0x4010ad	0x40402c	import	0x401022	KERNEL32.dll.GetSystemDirectoryW
+0x4010b9	0x405020	string	0x401022	\cmd.exe
+0x4010bf	0x404178	import	0x401022	MSVCRT.dll.wcscat
+0x4010e5	0x40404c	import	0x401022	KERNEL32.dll.CreatePipe
+0x40111a	0x40404c	import	0x401022	KERNEL32.dll.CreatePipe
+0x401139	0x404050	import	0x401022	KERNEL32.dll.GetStartupInfoW
+0x401173	0x40405c	import	0x401022	KERNEL32.dll.CreateProcessW
+0x401186	0x404054	import	0x401022	KERNEL32.dll.Sleep
+0x4011d1	0x40407c	import	0x401022	KERNEL32.dll.ReadFile
+0x4011f8	0x40417c	import	0x401022	MSVCRT.dll.wcslen
+0x40123c	0x404014	import	0x401022	KERNEL32.dll.CloseHandle
+0x401256	0x404014	import	0x401022	KERNEL32.dll.CloseHandle
+0x4012a8	0x404024	import	0x401275	KERNEL32.dll.GetExitCodeProcess
+0x4012b2	0x4012f8	string	0x401275	h4P@
+0x4012bb	0x4012f8	string	0x401275	h4P@
+0x4012f0	0x404020	import	0x401275	KERNEL32.dll.WriteFile
+0x4012f8	0x405034	string	0x401275	\r\nCMD is not running!\r\n
+0x401300	0x404170	import	0x401275	MSVCRT.dll.wcscpy
+0x401309	0x40417c	import	0x401275	MSVCRT.dll.wcslen
+0x401351	0x404028	import	0x40131c	KERNEL32.dll.ReleaseSemaphore
+0x401367	0x404024	import	0x40131c	KERNEL32.dll.GetExitCodeProcess
+0x4013a5	0x40407c	import	0x40131c	KERNEL32.dll.ReadFile
+0x4013d6	0x405034	string	0x40131c	\r\nCMD is not running!\r\n
+0x4013dc	0x404170	import	0x40131c	MSVCRT.dll.wcscpy
+0x40141b	0x40417c	import	0x40131c	MSVCRT.dll.wcslen
+0x401495	0x404054	import	0x40131c	KERNEL32.dll.Sleep
+0x4014c4	0x404058	import	0x4014ad	KERNEL32.dll.MultiByteToWideChar
+0x40150a	0x40417c	import	0x401501	MSVCRT.dll.wcslen
+0x401518	0x404030	import	0x401501	KERNEL32.dll.WideCharToMultiByte
+0x40163d	0x404178	import	0x40163c	MSVCRT.dll.wcscat
+0x40165a	0x4050b8	string	0x40163c	open
+0x401660	0x4041b4	import	0x40163c	SHELL32.dll.ShellExecuteW
+0x40166b	0x405090	string	0x40163c	Execute Failed!\r\n
+0x401675	0x404034	import	0x40163c	KERNEL32.dll.GetLastError
+0x40167d	0x405064	string	0x40163c	| Execute Success!\r\n
+0x401688	0x40417c	import	0x40163c	MSVCRT.dll.wcslen
+0x40178c	0x404160	import	0x401694	MSVCRT.dll._wtoi64
+0x40188a	0x4050c4	string	0x401694	Dst Space is not Enough!
+0x4018ac	0x40417c	import	0x401694	MSVCRT.dll.wcslen
+0x40195b	0x4040d8	import	0x401909	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::_Tidy(bool)
+0x401979	0x4040dc	import	0x401909	MSVCP60.dll.sym_imp_public: class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> & __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::assign(char const *, unsigned int)
+0x401994	0x4040e0	import	0x401909	MSVCP60.dll.sym_imp_public: unsigned int __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::find(char const *, unsigned int, unsigned int)const
+0x4019af	0x4040e0	import	0x401909	MSVCP60.dll.sym_imp_public: unsigned int __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::find(char const *, unsigned int, unsigned int)const
+0x4019c4	0x4040e4	import	0x401909	MSVCP60.dll.sym_imp_public: class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::substr(unsigned int, unsigned int)
+0x4019de	0x4040e4	import	0x401909	MSVCP60.dll.sym_imp_public: class std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>> __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::substr(unsigned int, unsigned int)
+0x4019f5	0x404148	import	0x401909	MSVCRT.dll._atoi64
+0x401a09	0x4040e8	import	0x401909	MSVCP60.dll.sym_imp_char const `private: static char const * __cdecl std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::_Nullstr(void)'::`2'::_C
+0x401a7a	0x40414c	import	0x401909	MSVCRT.dll.wcscmp
+0x401ab8	0x404150	import	0x401909	MSVCRT.dll._wfopen
+0x401aef	0x404154	import	0x401909	MSVCRT.dll.fwrite
+0x401b22	0x405124	string	0x401909	Upload Success.
+0x401b6c	0x404158	import	0x401909	MSVCRT.dll._ui64tow
+0x401bc3	0x40415c	import	0x401909	MSVCRT.dll.fclose
+0x401c28	0x4040d8	import	0x401909	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::_Tidy(bool)
+0x401c36	0x4040d8	import	0x401909	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::_Tidy(bool)
+0x401c45	0x4040d8	import	0x401909	MSVCP60.dll.sym_imp_private: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::_Tidy(bool)
+0x401cf6	0x404204	import	0x401c65	WS2_32.dll.WSAStartup
+0x401d07	0x404038	import	0x401c65	KERNEL32.dll.GetComputerNameW
+0x401d1d	0x404000	import	0x401c65	ADVAPI32.dll.GetUserNameW
+0x401d4b	0x404208	import	0x401c65	WS2_32.dll.gethostname
+0x401d55	0x40420c	import	0x401c65	WS2_32.dll.gethostbyname
+0x401d62	0x404210	import	0x401c65	WS2_32.dll.inet_ntoa
+0x401d70	0x404058	import	0x401c65	KERNEL32.dll.MultiByteToWideChar
+0x401d92	0x404178	import	0x401c65	MSVCRT.dll.wcscat
+0x401de2	0x401deb	string	0x401c65	h\Q@
+0x401e02	0x401e0b	string	0x401c65	h\Q@
+0x401e43	0x40417c	import	0x401c65	MSVCRT.dll.wcslen
+0x401e9a	0x404040	import	0x401e82	KERNEL32.dll.GetSystemInfo
+0x401eb1	0x40403c	import	0x401e82	KERNEL32.dll.GetVersionExW
+0x401ee3	0x4052cc	string	0x401e82	UnKnown Version
+0x401f01	0x4052b8	string	0x401e82	Windows 8
+0x401f08	0x405284	string	0x401e82	Windows 7/Server 2008 R2
+0x401f0f	0x405250	string	0x401e82	Windows Server 2008/Vista
+0x401f26	0x405228	string	0x401e82	Windows Server 2003
+0x401f2d	0x405210	string	0x401e82	Windows XP
+0x401f34	0x4051f4	string	0x401e82	Windows 2000
+0x401f55	0x4051dc	string	0x401e82	Windows Me
+0x401f5c	0x4051c4	string	0x401e82	Windows 98
+0x401f6c	0x4051a4	string	0x401e82	Windows NT 4.0
+0x401f7c	0x40518c	string	0x401e82	Windows 95
+0x402079	0x4052f8	string	0x40206a	Software\Microsoft\Windows\CurrentVersion\Internet Settings
+0x402091	0x4052ec	string	0x40206a	ProxyEnable
+0x4020cf	0x404008	import	0x40206a	ADVAPI32.dll.RegOpenKeyExA
+0x4020ed	0x404004	import	0x40206a	ADVAPI32.dll.RegQueryValueExA
+0x4020f6	0x40400c	import	0x40206a	ADVAPI32.dll.RegCloseKey
+0x4021e9	0x405384	string	0x402193	Host: www.google.com\r\n
+0x4021f4	0x405368	string	0x402193	Connection: Keep-Alive\r\n
+0x402202	0x405334	string	0x402193	Content-Type: application/x-www-form-urlencoded\r\n
+0x40224a	0x404048	import	0x40223d	KERNEL32.dll.WaitForSingleObject
+0x4022aa	0x404044	import	0x40223d	KERNEL32.dll.ReleaseMutex
+0x4022e8	0x404048	import	0x4022b6	KERNEL32.dll.WaitForSingleObject
+0x402352	0x404044	import	0x4022b6	KERNEL32.dll.ReleaseMutex
+0x402368	0x404134	import	0x4022b6	MSVCRT.dll.time
+0x40236f	0x404138	import	0x4022b6	MSVCRT.dll.srand
+0x402377	0x4041a8	import	0x4022b6	MSVCRT.dll.rand
+0x40238c	0x404054	import	0x4022b6	KERNEL32.dll.Sleep
+0x4023fb	0x404134	import	0x4022b6	MSVCRT.dll.time
+0x402402	0x404138	import	0x4022b6	MSVCRT.dll.srand
+0x40240a	0x4041a8	import	0x4022b6	MSVCRT.dll.rand
+0x40241a	0x404054	import	0x4022b6	KERNEL32.dll.Sleep
+0x402462	0x4053ac	string	0x4022b6	ptnrk|3prn/tr|3~rp
+0x402467	0x40539c	string	0x4022b6	{yryn3pd-.3~rp
+0x4024ae	0x404028	import	0x4022b6	KERNEL32.dll.ReleaseSemaphore
+0x4024bc	0x404048	import	0x4022b6	KERNEL32.dll.WaitForSingleObject
+0x4024ec	0x4041c0	import	0x4024c7	WININET.dll.InternetOpenW
+0x4024fc	0x4041c4	import	0x4024c7	WININET.dll.InternetSetOptionW
+0x402530	0x4041c8	import	0x4024c7	WININET.dll.InternetConnectA
+0x40253d	0x404034	import	0x4024c7	KERNEL32.dll.GetLastError
+0x402545	0x4041cc	import	0x4024c7	WININET.dll.InternetCloseHandle
+0x40255a	0x405414	string	0x4024c7	HTTP/1.1
+0x40255f	0x405404	string	0x4024c7	/test/post.asp
+0x402564	0x4053fc	string	0x4024c7	POST
+0x40256a	0x4041d0	import	0x4024c7	WININET.dll.HttpOpenRequestA
+0x402577	0x404034	import	0x4024c7	KERNEL32.dll.GetLastError
+0x40257f	0x4041cc	import	0x4024c7	WININET.dll.InternetCloseHandle
+0x4025ae	0x4041d4	import	0x4024c7	WININET.dll.InternetQueryOptionW
+0x4025d6	0x4041d8	import	0x4024c7	WININET.dll.HttpSendRequestA
+0x4025e0	0x404034	import	0x4024c7	KERNEL32.dll.GetLastError
+0x4025f4	0x4053c0	string	0x4024c7	HttpSendRequest error: %d .\n
+0x402605	0x404130	import	0x4024c7	MSVCRT.dll.wprintf
+0x40260b	0x4041cc	import	0x4024c7	WININET.dll.InternetCloseHandle
+0x402635	0x404034	import	0x4024c7	KERNEL32.dll.GetLastError
+0x40263d	0x4041cc	import	0x4024c7	WININET.dll.InternetCloseHandle
+0x402679	0x404054	import	0x402656	KERNEL32.dll.Sleep
+0x40268e	0x4041bc	import	0x402656	WININET.dll.InternetReadFile
+0x4026a6	0x404034	import	0x402656	KERNEL32.dll.GetLastError
+0x4026be	0x405420	string	0x402656	InternetReadFile error: %d .\n
+0x4026cc	0x404130	import	0x402656	MSVCRT.dll.wprintf
+0x4026d2	0x4041cc	import	0x402656	WININET.dll.InternetCloseHandle
+0x402707	0x4041cc	import	0x402656	WININET.dll.InternetCloseHandle
+0x402785	0x405494	string	0x402760	C:\windows\system32\browser.dll
+0x40278a	0x404070	import	0x402760	KERNEL32.dll.CreateFileA
+0x402881	0x4053ac	string	0x402760	ptnrk|3prn/tr|3~rp
+0x402886	0x40539c	string	0x402760	{yryn3pd-.3~rp
+0x4028b5	0x404128	import	0x402760	MSVCRT.dll.atoi
+0x402903	0x404074	import	0x402760	KERNEL32.dll.CreateSemaphoreW
+0x402914	0x404074	import	0x402760	KERNEL32.dll.CreateSemaphoreW
+0x40292d	0x404078	import	0x402760	KERNEL32.dll.CreateThread
+0x402934	0x404014	import	0x402760	KERNEL32.dll.CloseHandle
+0x402942	0x404048	import	0x402760	KERNEL32.dll.WaitForSingleObject
+0x4029d6	0x40417c	import	0x402760	MSVCRT.dll.wcslen
+0x402aaa	0x404074	import	0x402760	KERNEL32.dll.CreateSemaphoreW
+0x402ac0	0x404078	import	0x402760	KERNEL32.dll.CreateThread
+0x402ace	0x404048	import	0x402760	KERNEL32.dll.WaitForSingleObject
+0x402ae0	0x40417c	import	0x402760	MSVCRT.dll.wcslen
+0x402b00	0x40545c	string	0x402760	Receive Data Broken!!!\r\n
+0x402b05	0x404130	import	0x402760	MSVCRT.dll.wprintf
+0x402b3b	0x40417c	import	0x402760	MSVCRT.dll.wcslen
+0x402ba2	0x404028	import	0x402760	KERNEL32.dll.ReleaseSemaphore
+0x402bae	0x40412c	import	0x402760	MSVCRT.dll.exit
+0x402bdd	0x404204	import	0x402bc5	WS2_32.dll.WSAStartup
+0x402c58	0x4041fc	import	0x402bc5	WS2_32.dll.WSASetLastError
+0x402c63	0x4054c0	string	0x402bc5	getaddrinfo failed with error: %d\n
+0x402c68	0x404120	import	0x402bc5	MSVCRT.dll.printf
+0x402c81	0x404210	import	0x402bc5	WS2_32.dll.inet_ntoa
+0x402c90	0x4054b4	string	0x402bc5	127.0.0.1
+0x402ca8	0x404200	import	0x402bc5	WS2_32.dll.WSACleanup
+0x402cd1	0x40552c	string	0x402cc1	getaddrinfo
+0x402cdf	0x405520	string	0x402cc1	getnameinfo
+0x402ced	0x405510	string	0x402cc1	freeaddrinfo
+0x402d1c	0x404060	import	0x402cc1	KERNEL32.dll.GetSystemDirectoryA
+0x402d43	0x4054ec	string	0x402cc1	\ws2_32
+0x402d4e	0x404064	import	0x402cc1	KERNEL32.dll.LoadLibraryA
+0x402d60	0x404068	import	0x402cc1	KERNEL32.dll.GetProcAddress
+0x402d6c	0x40552c	string	0x402cc1	getaddrinfo
+0x402d79	0x40406c	import	0x402cc1	KERNEL32.dll.FreeLibrary
+0x402d9e	0x4054e4	string	0x402cc1	\wship6
+0x402dbb	0x40552c	string	0x402cc1	getaddrinfo
+0x402dc8	0x40406c	import	0x402cc1	KERNEL32.dll.FreeLibrary
+0x402df6	0x40406c	import	0x402cc1	KERNEL32.dll.FreeLibrary
+0x402e3f	0x404118	import	0x402e32	MSVCRT.dll.free
+0x402f32	0x403009	string	0x402e6e	9]\bt<
+0x402f41	0x404114	import	0x402e6e	MSVCRT.dll.strtoul
+0x402f55	0x4041e8	import	0x402e6e	WS2_32.dll.htons
+0x402f63	0x403009	string	0x402e6e	9]\bt<
+0x402f6f	0x403009	string	0x402e6e	9]\bt<
+0x402f7e	0x4041f4	import	0x402e6e	WS2_32.dll.getservbyname
+0x402f86	0x402f8d	string	0x402e6e	h<U@
+0x402fa7	0x402fae	string	0x402e6e	h8U@
+0x40305e	0x4041f8	import	0x402e6e	WS2_32.dll.htonl
+0x403096	0x404210	import	0x402e6e	WS2_32.dll.inet_ntoa
+0x4030f6	0x404110	import	0x4030e3	MSVCRT.dll.calloc
+0x403136	0x4041e0	import	0x403114	WS2_32.dll.inet_addr
+0x403154	0x404110	import	0x403152	MSVCRT.dll.calloc
+0x403175	0x404118	import	0x403152	MSVCRT.dll.free
+0x403210	0x40410c	import	0x4031b8	MSVCRT.dll.strncpy
+0x4032ce	0x40420c	import	0x4032b9	WS2_32.dll.gethostbyname
+0x403312	0x403359	string	0x4032b9	_^[]
+0x40331f	0x40410c	import	0x4032b9	MSVCRT.dll.strncpy
+0x403331	0x403359	string	0x4032b9	_^[]
+0x403333	0x4041e4	import	0x4032b9	WS2_32.dll.WSAGetLastError
+0x403342	0x403359	string	0x4032b9	_^[]
+0x40334b	0x403359	string	0x4032b9	_^[]
+0x403352	0x403359	string	0x4032b9	_^[]
+0x4033a9	0x405544	string	0x4033a0	65535
+0x40343d	0x4041f0	import	0x4033a0	WS2_32.dll.getservbyport
+0x403453	0x4041ec	import	0x4033a0	WS2_32.dll.ntohs
+0x403466	0x404104	import	0x4033a0	MSVCRT.dll.sprintf
+0x4034b4	0x404214	import	0x4033a0	WS2_32.dll.gethostbyaddr
+0x4034ce	0x404108	import	0x4033a0	MSVCRT.dll.strchr
+0x4034e4	0x4041e4	import	0x4033a0	WS2_32.dll.WSAGetLastError
+0x403561	0x404058	import	0x40353b	KERNEL32.dll.MultiByteToWideChar
+0x40359c	0x40417c	import	0x403592	MSVCRT.dll.wcslen
+0x4035a8	0x404030	import	0x403592	KERNEL32.dll.WideCharToMultiByte
+0x403687	0x404134	import	0x4035dc	MSVCRT.dll.time
+0x40368e	0x404138	import	0x4035dc	MSVCRT.dll.srand
+0x403696	0x4041a8	import	0x4035dc	MSVCRT.dll.rand
+0x4036a7	0x404054	import	0x4035dc	KERNEL32.dll.Sleep
+0x4037ae	0x4040d4	import	0x4037a9	MSVCP60.dll.sym_imp_public: void __thiscall std::ios_base::Init::constructor(void)
+0x4037da	0x4040d0	import	0x4037d5	MSVCP60.dll.sym_imp_public: void __thiscall std::_Winit::constructor(void)
+0x4037fe	0x4040c8	import	0x4037fe	MFC42u.DLL.operatordelete
+0x403804	0x4040c0	import	0x403804	MFC42u.DLL.CString::~CString
+0x40381c	0x4040b0	import	0x40381c	MFC42u.DLL.operator+
+0x403828	0x4040a8	import	0x403828	MFC42u.DLL.CString::ReleaseBuffer
+0x40382e	0x4040a4	import	0x40382e	MFC42u.DLL.CString::GetBuffer
+0x403834	0x4040a0	import	0x403834	MFC42u.DLL.CString::operator=
+0x40383a	0x40409c	import	0x40383a	MFC42u.DLL.CString::Mid
+0x403840	0x404098	import	0x403840	MFC42u.DLL.CString::Find
+0x403846	0x404094	import	0x403846	MFC42u.DLL.CString::CString
+0x40384c	0x404090	import	0x40384c	MFC42u.DLL.operatornew
+0x403852	0x40408c	import	0x403852	MFC42u.DLL.CString::Format
+0x403858	0x404088	import	0x403858	MFC42u.DLL.CWinApp::CWinApp
+0x40385e	0x404084	import	0x403858	MFC42u.DLL.CWinApp::~CWinApp
+0x403864	0x404180	import	0x403864	MSVCRT.dll.memcpy
+0x40386a	0x404174	import	0x40386a	MSVCRT.dll.memset
+0x4038a0	0x40416c	import	0x4038a0	MSVCRT.dll.strlen
+0x4038a6	0x404168	import	0x4038a0	MSVCRT.dll.__CxxFrameHandler
+0x4038b0	0x404164	import	0x4038b0	MSVCRT.dll._EH_prolog
+0x4038b6	0x404144	import	0x4038b0	MSVCRT.dll._except_handler3
+0x4038bc	0x404140	import	0x4038bc	MSVCRT.dll.strcat
+0x4038c9	0x4038d7	string	0x4038c2	hXV@
+0x4038cf	0x4041ac	import	0x4038c2	MSVCRT.dll._onexit
+0x403900	0x404124	import	0x403900	MSVCRT.dll.strcmp
+0x403906	0x40411c	import	0x403906	MSVCRT.dll.strcpy
+0x403938	0x40413c	import	0x403906	MSVCRT.dll.__set_app_type
+0x40394d	0x404184	import	0x403906	MSVCRT.dll.__p__fmode
+0x40395b	0x404188	import	0x403906	MSVCRT.dll.__p__commode
+0x403988	0x404190	import	0x403906	MSVCRT.dll.__setusermatherr
+0x4039c1	0x404198	import	0x403906	MSVCRT.dll.__wgetmainargs
+0x4039d6	0x40419c	import	0x403906	MSVCRT.dll.__p___winitenv
+0x4039f6	0x40412c	import	0x403906	MSVCRT.dll.exit
+0x403a1c	0x404100	import	0x403a1c	MSVCRT.dll.__dllonexit
+0x403a22	0x4041a0	import	0x403a22	MSVCRT.dll._XcptFilter
+0x403a28	0x404194	import	0x403a28	MSVCRT.dll._initterm
+0x403a44	0x4040fc	import	0x403a44	MSVCRT.dll._controlfp
+0x403b13	0x4040ec	import	0x403a44	MSVCP60.dll.sym_imp_public: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::~destructor(void)
+0x403b1c	0x4040ec	import	0x403a44	MSVCP60.dll.sym_imp_public: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::~destructor(void)
+0x403b25	0x4040ec	import	0x403a44	MSVCP60.dll.sym_imp_public: void __thiscall std::basic_string<char, struct std::char_traits<char>, class std::allocator<char>>::~destructor(void)

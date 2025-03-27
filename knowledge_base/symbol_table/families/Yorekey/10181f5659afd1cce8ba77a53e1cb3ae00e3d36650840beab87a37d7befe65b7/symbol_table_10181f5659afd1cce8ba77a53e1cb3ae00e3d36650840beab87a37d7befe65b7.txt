@@ -1,0 +1,906 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x180001025	0x180022018	string	0x180001000	initCRSClient
+0x18000102c	0x180022038	string	0x180001000	--%s--%d- -\n
+0x18000103e	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x18000107c	0x180023b48	string	0x180001000	a, ccs=UNICODE
+0x18000109c	0x180023b48	string	0x180001000	a, ccs=UNICODE
+0x1800010b5	0x1800010d3	string	0x180001000	H9=^
+0x1800010e7	0x18001c128	import	0x180001000	KERNEL32.dll.SetEvent
+0x1800010ed	0x180022018	string	0x180001000	initCRSClient
+0x1800010f4	0x180022038	string	0x180001000	--%s--%d- -\n
+0x180001106	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x180001122	0x18001c130	import	0x180001000	KERNEL32.dll.WaitForSingleObject
+0x18000113a	0x1800220d8	string	0x180001000	--%s--%d-wait failed-\n
+0x180001143	0x180022018	string	0x180001000	initCRSClient
+0x18000114a	0x180022058	string	0x180001000	--%s--%d-timeout failed-\n
+0x18000115c	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x180001175	0x18001c058	import	0x180001000	KERNEL32.dll.TerminateThread
+0x180001183	0x180022090	string	0x180001000	--%s--%d-terminate thread failed-\n
+0x18000118a	0x180022018	string	0x180001000	initCRSClient
+0x180001196	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x1800011ad	0x18001c090	import	0x180001000	KERNEL32.dll.CloseHandle
+0x1800011c1	0x18001c090	import	0x180001000	KERNEL32.dll.CloseHandle
+0x1800011ce	0x180022018	string	0x180001000	initCRSClient
+0x1800011d5	0x180022038	string	0x180001000	--%s--%d- -\n
+0x1800011e7	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x180001222	0x180023b48	string	0x180001000	a, ccs=UNICODE
+0x180001242	0x180023b48	string	0x180001000	a, ccs=UNICODE
+0x180001283	0x18001c080	import	0x180001000	KERNEL32.dll.CreateEventW
+0x180001299	0x180022018	string	0x180001000	initCRSClient
+0x1800012a0	0x180022110	string	0x180001000	--%s--%d- event creation failed-\n
+0x1800012ac	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x1800012e5	0x18001c098	import	0x180001000	KERNEL32.dll.CreateThread
+0x1800012eb	0x180022018	string	0x180001000	initCRSClient
+0x180001307	0x180022160	string	0x180001000	--%s--%d-CR thread creation failed-\n
+0x18000130e	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x180001325	0x18001c090	import	0x180001000	KERNEL32.dll.CloseHandle
+0x18000132f	0x180022038	string	0x180001000	--%s--%d- -\n
+0x18000133c	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x180001358	0x180022018	string	0x180001000	initCRSClient
+0x18000135f	0x180022038	string	0x180001000	--%s--%d- -\n
+0x180001371	0x18001c368	import	0x180001000	USER32.dll.wsprintfW
+0x180001ca1	0x1800221f8	string	0x180001c80	releaseCRSClient
+0x180001ca8	0x180022038	string	0x180001c80	--%s--%d- -\n
+0x180001cba	0x18001c368	import	0x180001c80	USER32.dll.wsprintfW
+0x180001cfa	0x180023b48	string	0x180001c80	a, ccs=UNICODE
+0x180001d1a	0x180023b48	string	0x180001c80	a, ccs=UNICODE
+0x180001d7c	0x18001c128	import	0x180001c80	KERNEL32.dll.SetEvent
+0x180001d82	0x1800221f8	string	0x180001c80	releaseCRSClient
+0x180001d89	0x180022038	string	0x180001c80	--%s--%d- -\n
+0x180001d9b	0x18001c368	import	0x180001c80	USER32.dll.wsprintfW
+0x180001db7	0x18001c130	import	0x180001c80	KERNEL32.dll.WaitForSingleObject
+0x180001dcf	0x1800220d8	string	0x180001c80	--%s--%d-wait failed-\n
+0x180001dd8	0x1800221f8	string	0x180001c80	releaseCRSClient
+0x180001ddf	0x180022058	string	0x180001c80	--%s--%d-timeout failed-\n
+0x180001df1	0x18001c368	import	0x180001c80	USER32.dll.wsprintfW
+0x180001e0a	0x18001c058	import	0x180001c80	KERNEL32.dll.TerminateThread
+0x180001e1a	0x180022090	string	0x180001c80	--%s--%d-terminate thread failed-\n
+0x180001e21	0x1800221f8	string	0x180001c80	releaseCRSClient
+0x180001e2d	0x18001c368	import	0x180001c80	USER32.dll.wsprintfW
+0x180001e44	0x18001c090	import	0x180001c80	KERNEL32.dll.CloseHandle
+0x180001e5c	0x18001c090	import	0x180001c80	KERNEL32.dll.CloseHandle
+0x180001ebb	0x180022220	string	0x180001e90	ProcessContentRedirection
+0x180001ec9	0x180022260	string	0x180001e90	--%s--%d---cmd=[%d]--cmd_type=[%d]---\n
+0x180001edf	0x18001c368	import	0x180001e90	USER32.dll.wsprintfW
+0x180001f1f	0x180023b48	string	0x180001e90	a, ccs=UNICODE
+0x180001f3f	0x180023b48	string	0x180001e90	a, ccs=UNICODE
+0x180001f88	0x1800222b0	string	0x180001e90	--%s--%d--unknown command=[%d]--\n
+0x180002009	0x180022220	string	0x180001e90	ProcessContentRedirection
+0x180002015	0x1800222f8	string	0x180001e90	--%s--%d--frs subsytem--\n
+0x180002022	0x18001c368	import	0x180001e90	USER32.dll.wsprintfW
+0x180002046	0x180022330	string	0x180001e90	--%s--%d--unknown command type=[%d]--\n
+0x18000204d	0x180022220	string	0x180001e90	ProcessContentRedirection
+0x180002059	0x18001c368	import	0x180001e90	USER32.dll.wsprintfW
+0x18000214b	0x18001c040	import	0x180002110	IPHLPAPI.DLL.GetIpAddrTable
+0x1800021a0	0x18001c040	import	0x180002110	IPHLPAPI.DLL.GetIpAddrTable
+0x1800021f5	0x18001c378	import	0x180002110	WS2_32.dll.inet_ntoa
+0x180002270	0x180022380	string	0x180002240	vFortLoginInfoShared
+0x180002286	0x18001c088	import	0x180002240	KERNEL32.dll.OpenFileMappingW
+0x1800022ab	0x18001c138	import	0x180002240	KERNEL32.dll.MapViewOfFile
+0x180002302	0x18001c090	import	0x180002240	KERNEL32.dll.CloseHandle
+0x180002314	0x18001c010	import	0x180002240	ADVAPI32.dll.GetUserNameA
+0x1800023b4	0x18001c048	import	0x180002360	IPHLPAPI.DLL.GetAdaptersInfo
+0x1800023ea	0x18001c048	import	0x180002360	IPHLPAPI.DLL.GetAdaptersInfo
+0x180002400	0x18001c060	import	0x180002360	KERNEL32.dll.GetVersionExW
+0x180002456	0x1800223b0	string	0x180002360	%02X:%02X:%02X:%02X:%02X:%02X
+0x180002571	0x18001c140	import	0x1800024a0	KERNEL32.dll.GetComputerNameA
+0x1800025ae	0x180002110	string	0x1800024a0	@VAVH
+0x1800025c7	0x18001c0b0	import	0x1800024a0	KERNEL32.dll.GlobalAlloc
+0x1800025e0	0x18001c038	import	0x1800024a0	IPHLPAPI.DLL.GetNetworkParams
+0x1800025ee	0x18001c078	import	0x1800024a0	KERNEL32.dll.GlobalFree
+0x1800025fd	0x18001c0b0	import	0x1800024a0	KERNEL32.dll.GlobalAlloc
+0x18000260e	0x18001c038	import	0x1800024a0	IPHLPAPI.DLL.GetNetworkParams
+0x180002647	0x18001c078	import	0x1800024a0	KERNEL32.dll.GlobalFree
+0x18000266a	0x1800223d0	string	0x1800024a0	%s,%s
+0x18000267c	0x1800223d8	string	0x1800024a0	%s,%s,%s,%s,%s,%s
+0x180002779	0x1800223f0	string	0x1800026e0	SendUserInfo
+0x180002780	0x180022410	string	0x1800026e0	--%s--%d---userinfo=
+0x180002798	0x18001c368	import	0x1800026e0	USER32.dll.wsprintfW
+0x180002848	0x180022460	string	0x1800027f0	--%s--%d---ack sent\n
+0x180002863	0x18001c368	import	0x1800027f0	USER32.dll.wsprintfW
+0x180002923	0x180022490	string	0x1800028a0	%s,%s,%s
+0x180002962	0x1800224a0	string	0x1800028a0	SendRDPSessionTiminigs
+0x180002969	0x1800224d0	string	0x1800028a0	--%s--%d---timing=[%d][%s]\n
+0x180002a9b	0x1800224f0	string	0x180002a20	RDPProcessContent
+0x180002aa4	0x180022520	string	0x180002a20	--%s--%d---first entry-total content len=[%d], remaining buff=[%d]-\n
+0x180002ae3	0x18001c368	import	0x180002a20	USER32.dll.wsprintfW
+0x180002b04	0x1800224f0	string	0x180002a20	RDPProcessContent
+0x180002b0b	0x1800221e0	string	0x180002a20	--%s--%d--\n
+0x180002b25	0x18001c368	import	0x180002a20	USER32.dll.wsprintfW
+0x180002b49	0x1800224f0	string	0x180002a20	RDPProcessContent
+0x180002b5a	0x1800225b0	string	0x180002a20	--%s--%d---remaining len=[%d]-\n
+0x180002b67	0x18001c368	import	0x180002a20	USER32.dll.wsprintfW
+0x180002b9b	0x1800225f0	string	0x180002a20	--%s--%d---remaining/total len=[%d]-\n
+0x180002ba8	0x18001c368	import	0x180002a20	USER32.dll.wsprintfW
+0x180002c19	0x1800224f0	string	0x180002a20	RDPProcessContent
+0x180002c20	0x180022640	string	0x180002a20	--%s--%d---content=
+0x180002c38	0x18001c368	import	0x180002a20	USER32.dll.wsprintfW
+0x180002c85	0x180002e90	string	0x180002a20	@UVWH
+0x180002cb6	0x1800224f0	string	0x180002a20	RDPProcessContent
+0x180002cbd	0x180022640	string	0x180002a20	--%s--%d---content=
+0x180002cdb	0x18001c368	import	0x180002a20	USER32.dll.wsprintfW
+0x180002d95	0x180022668	string	0x180002d50	client_process_command
+0x180002d9c	0x1800226a0	string	0x180002d50	---%s--%d--process command called\n
+0x180002dae	0x18001c368	import	0x180002d50	USER32.dll.wsprintfW
+0x180002e45	0x1800226f0	string	0x180002d50	cmd.exe
+0x180002e4c	0x180022700	string	0x180002d50	open
+0x180002e66	0x18001c358	import	0x180002d50	SHELL32.dll.ShellExecuteW
+0x180002eff	0x180022710	string	0x180002e90	jaykumarjk
+0x180002f51	0x180022728	string	0x180002e90	client_process_msg_dialog
+0x180002f58	0x1800227c8	string	0x180002e90	--%s--%d-title [%s]-\n
+0x180002f6f	0x18001c368	import	0x180002e90	USER32.dll.wsprintfW
+0x180002f9e	0x180022728	string	0x180002e90	client_process_msg_dialog
+0x180002fa5	0x1800227f8	string	0x180002e90	--%s--%d-message [%s]-\n
+0x180002fbc	0x18001c368	import	0x180002e90	USER32.dll.wsprintfW
+0x180003002	0x180022728	string	0x180002e90	client_process_msg_dialog
+0x180003009	0x180022828	string	0x180002e90	---%s---%d-----\n
+0x18000301b	0x18001c368	import	0x180002e90	USER32.dll.wsprintfW
+0x180003058	0x180023b48	string	0x180002e90	a, ccs=UNICODE
+0x180003078	0x180023b48	string	0x180002e90	a, ccs=UNICODE
+0x1800030b8	0x180022728	string	0x180002e90	client_process_msg_dialog
+0x1800030bf	0x180022828	string	0x180002e90	---%s---%d-----\n
+0x1800030d1	0x18001c368	import	0x180002e90	USER32.dll.wsprintfW
+0x18000310e	0x180023b48	string	0x180002e90	a, ccs=UNICODE
+0x18000312e	0x180023b48	string	0x180002e90	a, ccs=UNICODE
+0x1800031de	0x1800031d5	string	0x180002e90	fD9x
+0x180003219	0x180003210	string	0x180002e90	fD9x
+0x18000321b	0x180022850	string	0x180002e90	mboxexe.exe
+0x180003256	0x18001c068	import	0x180002e90	KERNEL32.dll.CreateFileW
+0x180003266	0x180022728	string	0x180002e90	client_process_msg_dialog
+0x18000326d	0x180022870	string	0x180002e90	---%s---%d--file--open for execute failed=--\n
+0x18000327f	0x18001c368	import	0x180002e90	USER32.dll.wsprintfW
+0x1800032bc	0x180022728	string	0x180002e90	client_process_msg_dialog
+0x1800032c3	0x180022828	string	0x180002e90	---%s---%d-----\n
+0x1800032d5	0x18001c368	import	0x180002e90	USER32.dll.wsprintfW
+0x1800035f8	0x1800229f0	string	0x1800035d0	client_process_url
+0x1800035ff	0x180022a18	string	0x1800035d0	---%s--%d--process url called\n
+0x180003611	0x18001c368	import	0x1800035d0	USER32.dll.wsprintfW
+0x180003651	0x180023b48	string	0x1800035d0	a, ccs=UNICODE
+0x180003671	0x180023b48	string	0x1800035d0	a, ccs=UNICODE
+0x1800036bc	0x180022700	string	0x1800035d0	open
+0x1800036dc	0x18001c358	import	0x1800035d0	SHELL32.dll.ShellExecuteW
+0x180003751	0x180022a60	string	0x180003710	SOFTWARE\Microsoft\Terminal Server Client\Default\Addins
+0x180003775	0x18001c008	import	0x180003710	ADVAPI32.dll.RegOpenKeyExW
+0x18000377b	0x180022c08	string	0x180003710	resrdr
+0x1800037cb	0x18001c000	import	0x180003710	ADVAPI32.dll.RegQueryInfoKeyW
+0x1800037d1	0x180022ad8	string	0x180003710	getpluginEntries
+0x1800037f0	0x180022b00	string	0x180003710	--%s--%d--nr-plugin-[%d]\n
+0x180003801	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003820	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003827	0x180022b38	string	0x180003710	--%s--%d--enumkey [%d]-\n
+0x180003854	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x18000388f	0x180023b48	string	0x180003710	a, ccs=UNICODE
+0x1800038af	0x180023b48	string	0x180003710	a, ccs=UNICODE
+0x180003920	0x18001c020	import	0x180003710	ADVAPI32.dll.RegEnumKeyExW
+0x18000392a	0x18001c070	import	0x180003710	KERNEL32.dll.GetLastError
+0x180003930	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003937	0x180022b70	string	0x180003710	--%s--%d--enumkey failed--error=%d-\n
+0x18000394c	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x18000395e	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003965	0x180022bc0	string	0x180003710	--%s--%d---plugin-key-[%s]\n
+0x18000397b	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003991	0x180022a60	string	0x180003710	SOFTWARE\Microsoft\Terminal Server Client\Default\Addins
+0x180003998	0x180022bf8	string	0x180003710	%s\%s
+0x1800039a6	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003a05	0x18001c008	import	0x180003710	ADVAPI32.dll.RegOpenKeyExW
+0x180003a0f	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003a16	0x180022c18	string	0x180003710	--%s--%d---open key failed\n
+0x180003a27	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003a47	0x18001c018	import	0x180003710	ADVAPI32.dll.RegCloseKey
+0x180003a6c	0x180022c50	string	0x180003710	Name
+0x180003a7b	0x18001c028	import	0x180003710	ADVAPI32.dll.RegQueryValueExW
+0x180003a8c	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003a93	0x180022c60	string	0x180003710	--%s--%d---plugin-value=[%s]\n
+0x180003aa9	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003ae5	0x18001c018	import	0x180003710	ADVAPI32.dll.RegCloseKey
+0x180003af0	0x18001c018	import	0x180003710	ADVAPI32.dll.RegCloseKey
+0x180003afe	0x180022ca0	string	0x180003710	--%s--%d---no plugins\n
+0x180003b0d	0x180022cd0	string	0x180003710	--%s--%d--query info on cu key failed-\n
+0x180003b14	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003b28	0x18001c018	import	0x180003710	ADVAPI32.dll.RegCloseKey
+0x180003b30	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003b37	0x180022d20	string	0x180003710	--%s--%d-open cu rdp addins key failed-\n
+0x180003b48	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003b5c	0x180022a60	string	0x180003710	SOFTWARE\Microsoft\Terminal Server Client\Default\Addins
+0x180003b78	0x18001c008	import	0x180003710	ADVAPI32.dll.RegOpenKeyExW
+0x180003b86	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003b8d	0x180022d80	string	0x180003710	--%s--%d---open lm rdp addins key failed-\n
+0x180003b9e	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003bd9	0x180023b48	string	0x180003710	a, ccs=UNICODE
+0x180003bf9	0x180023b48	string	0x180003710	a, ccs=UNICODE
+0x180003c72	0x18001c000	import	0x180003710	ADVAPI32.dll.RegQueryInfoKeyW
+0x180003c78	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003c87	0x180022de0	string	0x180003710	--%s--%d-query info on cu key failed\n
+0x180003c94	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003cb0	0x180022ca0	string	0x180003710	--%s--%d---no plugins\n
+0x180003cbd	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003cd1	0x180022b00	string	0x180003710	--%s--%d--nr-plugin-[%d]\n
+0x180003ce2	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003d00	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003d07	0x180022b38	string	0x180003710	--%s--%d--enumkey [%d]-\n
+0x180003d34	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003d6f	0x180023b48	string	0x180003710	a, ccs=UNICODE
+0x180003d8f	0x180023b48	string	0x180003710	a, ccs=UNICODE
+0x180003dec	0x18001c020	import	0x180003710	ADVAPI32.dll.RegEnumKeyExW
+0x180003df6	0x18001c070	import	0x180003710	KERNEL32.dll.GetLastError
+0x180003dfc	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003e03	0x180022e30	string	0x180003710	--%s--%d--enumkey failed--%d-\n
+0x180003e18	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003e2a	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003e31	0x180022bc0	string	0x180003710	--%s--%d---plugin-key-[%s]\n
+0x180003e47	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003e5d	0x180022a60	string	0x180003710	SOFTWARE\Microsoft\Terminal Server Client\Default\Addins
+0x180003e64	0x180022bf8	string	0x180003710	%s\%s
+0x180003e72	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003ec5	0x18001c008	import	0x180003710	ADVAPI32.dll.RegOpenKeyExW
+0x180003ecf	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003ed6	0x180022c18	string	0x180003710	--%s--%d---open key failed\n
+0x180003ee7	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003f21	0x180022c50	string	0x180003710	Name
+0x180003f30	0x18001c028	import	0x180003710	ADVAPI32.dll.RegQueryValueExW
+0x180003f41	0x180022ad8	string	0x180003710	getpluginEntries
+0x180003f48	0x180022c60	string	0x180003710	--%s--%d---plugin-value=[%s]\n
+0x180003f5e	0x18001c368	import	0x180003710	USER32.dll.wsprintfW
+0x180003f98	0x18001c018	import	0x180003710	ADVAPI32.dll.RegCloseKey
+0x180003fa3	0x18001c018	import	0x180003710	ADVAPI32.dll.RegCloseKey
+0x180004005	0x180022e70	string	0x180003fe0	initFRSClient
+0x18000400c	0x180022038	string	0x180003fe0	--%s--%d- -\n
+0x18000401e	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x18000405c	0x180023b48	string	0x180003fe0	a, ccs=UNICODE
+0x18000407c	0x180023b48	string	0x180003fe0	a, ccs=UNICODE
+0x1800040c7	0x18001c128	import	0x180003fe0	KERNEL32.dll.SetEvent
+0x1800040cd	0x180022e70	string	0x180003fe0	initFRSClient
+0x1800040d4	0x180022038	string	0x180003fe0	--%s--%d- -\n
+0x1800040e6	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x180004102	0x18001c130	import	0x180003fe0	KERNEL32.dll.WaitForSingleObject
+0x18000411a	0x1800220d8	string	0x180003fe0	--%s--%d-wait failed-\n
+0x180004123	0x180022e70	string	0x180003fe0	initFRSClient
+0x18000412a	0x180022058	string	0x180003fe0	--%s--%d-timeout failed-\n
+0x18000413c	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x180004155	0x18001c058	import	0x180003fe0	KERNEL32.dll.TerminateThread
+0x180004163	0x180022090	string	0x180003fe0	--%s--%d-terminate thread failed-\n
+0x18000416a	0x180022e70	string	0x180003fe0	initFRSClient
+0x180004176	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x18000418d	0x18001c090	import	0x180003fe0	KERNEL32.dll.CloseHandle
+0x1800041a1	0x18001c090	import	0x180003fe0	KERNEL32.dll.CloseHandle
+0x1800041ae	0x180022e70	string	0x180003fe0	initFRSClient
+0x1800041b5	0x180022038	string	0x180003fe0	--%s--%d- -\n
+0x1800041c7	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x180004202	0x180023b48	string	0x180003fe0	a, ccs=UNICODE
+0x180004222	0x180023b48	string	0x180003fe0	a, ccs=UNICODE
+0x180004263	0x18001c080	import	0x180003fe0	KERNEL32.dll.CreateEventW
+0x180004279	0x180022e70	string	0x180003fe0	initFRSClient
+0x180004280	0x180022110	string	0x180003fe0	--%s--%d- event creation failed-\n
+0x18000428c	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x1800042c5	0x18001c098	import	0x180003fe0	KERNEL32.dll.CreateThread
+0x1800042cb	0x180022e70	string	0x180003fe0	initFRSClient
+0x1800042e7	0x180022e90	string	0x180003fe0	--%s--%d-file transfer thread creation failed-\n
+0x1800042ee	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x180004305	0x18001c090	import	0x180003fe0	KERNEL32.dll.CloseHandle
+0x18000430f	0x180022038	string	0x180003fe0	--%s--%d- -\n
+0x18000431c	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x180004366	0x180022038	string	0x180003fe0	--%s--%d- -\n
+0x180004372	0x180022e70	string	0x180003fe0	initFRSClient
+0x180004379	0x18001c368	import	0x180003fe0	USER32.dll.wsprintfW
+0x180004caa	0x180022f20	string	0x180004c80	releaseFRSClient
+0x180004cb1	0x180022038	string	0x180004c80	--%s--%d- -\n
+0x180004cc3	0x18001c368	import	0x180004c80	USER32.dll.wsprintfW
+0x180004d03	0x180023b48	string	0x180004c80	a, ccs=UNICODE
+0x180004d23	0x180023b48	string	0x180004c80	a, ccs=UNICODE
+0x180004d8b	0x18001c0e8	import	0x180004c80	KERNEL32.dll.DeleteFileW
+0x180004dca	0x18001c128	import	0x180004c80	KERNEL32.dll.SetEvent
+0x180004dd0	0x180022f20	string	0x180004c80	releaseFRSClient
+0x180004dd7	0x180022038	string	0x180004c80	--%s--%d- -\n
+0x180004de9	0x18001c368	import	0x180004c80	USER32.dll.wsprintfW
+0x180004e05	0x18001c130	import	0x180004c80	KERNEL32.dll.WaitForSingleObject
+0x180004e1d	0x1800220d8	string	0x180004c80	--%s--%d-wait failed-\n
+0x180004e26	0x180022f20	string	0x180004c80	releaseFRSClient
+0x180004e2d	0x180022058	string	0x180004c80	--%s--%d-timeout failed-\n
+0x180004e3f	0x18001c368	import	0x180004c80	USER32.dll.wsprintfW
+0x180004e58	0x18001c058	import	0x180004c80	KERNEL32.dll.TerminateThread
+0x180004e68	0x180022090	string	0x180004c80	--%s--%d-terminate thread failed-\n
+0x180004e6f	0x180022f20	string	0x180004c80	releaseFRSClient
+0x180004e7b	0x18001c368	import	0x180004c80	USER32.dll.wsprintfW
+0x180004e92	0x18001c090	import	0x180004c80	KERNEL32.dll.CloseHandle
+0x180004eaa	0x18001c090	import	0x180004c80	KERNEL32.dll.CloseHandle
+0x180004f1b	0x180022f48	string	0x180004ef0	ProcessFileRedirection
+0x180004f29	0x180022260	string	0x180004ef0	--%s--%d---cmd=[%d]--cmd_type=[%d]---\n
+0x180004f3f	0x18001c368	import	0x180004ef0	USER32.dll.wsprintfW
+0x180004f7f	0x180023b48	string	0x180004ef0	a, ccs=UNICODE
+0x180004f9f	0x180023b48	string	0x180004ef0	a, ccs=UNICODE
+0x180004fe7	0x1800222b0	string	0x180004ef0	--%s--%d--unknown command=[%d]--\n
+0x180005022	0x180005a00	string	0x180004ef0	@UWH
+0x18000502c	0x180022f48	string	0x180004ef0	ProcessFileRedirection
+0x180005033	0x180022f80	string	0x180004ef0	--%s--%d--starting post process--\n
+0x180005045	0x18001c368	import	0x180004ef0	USER32.dll.wsprintfW
+0x180005071	0x180006540	string	0x180004ef0	@USAVH
+0x18000508a	0x180022330	string	0x180004ef0	--%s--%d--unknown command type=[%d]--\n
+0x180005091	0x180022f48	string	0x180004ef0	ProcessFileRedirection
+0x18000509d	0x18001c368	import	0x180004ef0	USER32.dll.wsprintfW
+0x180005109	0x180022ff0	string	0x1800050d0	--%s--%d--invalid file sequence-=[0xd]-\n
+0x180005110	0x180022fc8	string	0x1800050d0	isValidFileInfo
+0x18000511c	0x18001c368	import	0x1800050d0	USER32.dll.wsprintfW
+0x18000515a	0x180023050	string	0x1800050d0	--%s--%d--invalid client ack code-=[0x%x]-\n
+0x1800051c5	0x1800230b0	string	0x1800050d0	--%s--%d--expected state was BFT-\n
+0x1800051cc	0x180022fc8	string	0x1800050d0	isValidFileInfo
+0x1800051d8	0x18001c368	import	0x1800050d0	USER32.dll.wsprintfW
+0x1800052d8	0x180023158	string	0x1800052b0	getUniqueFileName
+0x1800052df	0x180023180	string	0x1800052b0	--%s--%d--file name=\n
+0x1800052f4	0x18001c368	import	0x1800052b0	USER32.dll.wsprintfW
+0x180005334	0x180023b48	string	0x1800052b0	a, ccs=UNICODE
+0x180005354	0x180023b48	string	0x1800052b0	a, ccs=UNICODE
+0x1800053c9	0x18001c068	import	0x1800052b0	KERNEL32.dll.CreateFileW
+0x1800053d8	0x18001c070	import	0x1800052b0	KERNEL32.dll.GetLastError
+0x1800053e3	0x18001c070	import	0x1800052b0	KERNEL32.dll.GetLastError
+0x1800053e9	0x180023158	string	0x1800052b0	getUniqueFileName
+0x1800053f0	0x1800231b0	string	0x1800052b0	--%s--%d--file not present use existing name=[%d]--\n
+0x180005409	0x18001c368	import	0x1800052b0	USER32.dll.wsprintfW
+0x18000541f	0x18001c090	import	0x1800052b0	KERNEL32.dll.CloseHandle
+0x180005490	0x180023220	string	0x1800052b0	%s%d%d%d%d%d%d
+0x1800054a6	0x18001c368	import	0x1800052b0	USER32.dll.wsprintfW
+0x180005575	0x180023158	string	0x1800052b0	getUniqueFileName
+0x18000557c	0x180023240	string	0x1800052b0	--%s--%d--updated name=\n
+0x180005591	0x18001c368	import	0x1800052b0	USER32.dll.wsprintfW
+0x1800055d1	0x180023b48	string	0x1800052b0	a, ccs=UNICODE
+0x1800055f1	0x180023b48	string	0x1800052b0	a, ccs=UNICODE
+0x18000577d	0x180023278	string	0x180005720	SendBFTAck
+0x180005784	0x180023290	string	0x180005720	--%s--%d--invalid file info-\n
+0x180005799	0x18001c368	import	0x180005720	USER32.dll.wsprintfW
+0x1800057c2	0x180023278	string	0x180005720	SendBFTAck
+0x1800057c9	0x1800232d0	string	0x180005720	--%s--%d--invalid rx data-\n
+0x1800057e5	0x18001c368	import	0x180005720	USER32.dll.wsprintfW
+0x1800058e3	0x180023278	string	0x180005720	SendBFTAck
+0x1800058ea	0x180023310	string	0x180005720	--%s--%d--file size=[%d], namelen=[%d] name[%s]-\n
+0x180005903	0x18001c368	import	0x180005720	USER32.dll.wsprintfW
+0x180005928	0x180023278	string	0x180005720	SendBFTAck
+0x18000592f	0x180023378	string	0x180005720	--%s--%d--invalid file name-\n
+0x18000594b	0x18001c368	import	0x180005720	USER32.dll.wsprintfW
+0x1800059bb	0x1800233b8	string	0x180005720	.zip
+0x180005a60	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005a70	0x1800233e0	string	0x180005a00	--%s--%d--invalid file info--\n
+0x180005a7d	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005a9e	0x180023420	string	0x180005a00	--%s--%d----\n
+0x180005abb	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005af4	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005afb	0x180023440	string	0x180005a00	--%s--%d--file size and bytes pending not matching--\n
+0x180005b11	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005b53	0x18001c0c8	import	0x180005a00	KERNEL32.dll.GetTempPathW
+0x180005b6b	0x1800234b0	string	0x180005a00	DosPrint
+0x180005b85	0x18001c0a8	import	0x180005a00	KERNEL32.dll.CreateDirectoryW
+0x180005c06	0x18001c0c8	import	0x180005a00	KERNEL32.dll.GetTempPathW
+0x180005c1b	0x1800234b0	string	0x180005a00	DosPrint
+0x180005c35	0x18001c0a8	import	0x180005a00	KERNEL32.dll.CreateDirectoryW
+0x180005cab	0x1800233b8	string	0x180005a00	.zip
+0x180005cc2	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005cc9	0x1800234d0	string	0x180005a00	--%s--%d-first data, -data size=[%d], file--\n
+0x180005cdf	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005d27	0x18001c068	import	0x180005a00	KERNEL32.dll.CreateFileW
+0x180005d35	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005d51	0x180023530	string	0x180005a00	--%s--%d--file open for write failed--\n
+0x180005d58	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005d6f	0x180023580	string	0x180005a00	--%s--%d--data size=[%d]--\n
+0x180005d81	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005da8	0x18001c158	import	0x180005a00	KERNEL32.dll.WriteFile
+0x180005dbb	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005dc2	0x1800235b8	string	0x180005a00	--%s--%d--file write failed--\n
+0x180005dcd	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005de2	0x18001c0c0	import	0x180005a00	KERNEL32.dll.FlushFileBuffers
+0x180005df5	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005e08	0x180023600	string	0x180005a00	--%s--%d-middle data,-data size=[%d]--\n
+0x180005e15	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005e4c	0x18001c068	import	0x180005a00	KERNEL32.dll.CreateFileW
+0x180005e6b	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005e93	0x18001c158	import	0x180005a00	KERNEL32.dll.WriteFile
+0x180005eb7	0x180023650	string	0x180005a00	--%s--%d-last data,-data size=[%d]--\n
+0x180005ec4	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005efb	0x18001c068	import	0x180005a00	KERNEL32.dll.CreateFileW
+0x180005f1a	0x1800233c8	string	0x180005a00	SendDataAck
+0x180005f42	0x18001c158	import	0x180005a00	KERNEL32.dll.WriteFile
+0x180005f5e	0x1800236a0	string	0x180005a00	--%s--%d not supposed to be present--data size=[%d]--\n
+0x180005f70	0x18001c368	import	0x180005a00	USER32.dll.wsprintfW
+0x180005f92	0x18001c090	import	0x180005a00	KERNEL32.dll.CloseHandle
+0x180005fa3	0x18001c090	import	0x180005a00	KERNEL32.dll.CloseHandle
+0x180006053	0x18001c090	import	0x180006010	KERNEL32.dll.CloseHandle
+0x1800061fe	0x18001c098	import	0x180006100	KERNEL32.dll.CreateThread
+0x180006209	0x180023710	string	0x180006100	initPostProcess
+0x180006210	0x180023730	string	0x180006100	--%s--%d-print thread creation failed-\n
+0x180006222	0x18001c368	import	0x180006100	USER32.dll.wsprintfW
+0x180006237	0x18001c090	import	0x180006100	KERNEL32.dll.CloseHandle
+0x180006577	0x18001c0c8	import	0x180006540	KERNEL32.dll.GetTempPathW
+0x1800065a2	0x1800234b0	string	0x180006540	DosPrint
+0x1800065a9	0x1800239a0	string	0x180006540	cleanPrintFolder
+0x1800065b0	0x1800239c8	string	0x180006540	--%s--%d-dir=[%s]-\n
+0x1800065d7	0x18001c368	import	0x180006540	USER32.dll.wsprintfW
+0x180006617	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006637	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006679	0x18001c0a8	import	0x180006540	KERNEL32.dll.CreateDirectoryW
+0x180006687	0x18001c070	import	0x180006540	KERNEL32.dll.GetLastError
+0x1800066d9	0x1800066d0	string	0x180006540	fD9q
+0x1800066fa	0x18001c0a0	import	0x180006540	KERNEL32.dll.FindFirstFileW
+0x180006738	0x1800239a0	string	0x180006540	cleanPrintFolder
+0x18000673f	0x1800239f8	string	0x180006540	--%s--%d-file=[%s]-\n
+0x180006758	0x18001c368	import	0x180006540	USER32.dll.wsprintfW
+0x180006795	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x1800067b5	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x18000683b	0x1800239a0	string	0x180006540	cleanPrintFolder
+0x180006842	0x180023a30	string	0x180006540	--%s--%d-NOT deleting=[%s]-\n
+0x18000685b	0x18001c368	import	0x180006540	USER32.dll.wsprintfW
+0x180006898	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x1800068db	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x18000693d	0x1800239a0	string	0x180006540	cleanPrintFolder
+0x180006944	0x180023a30	string	0x180006540	--%s--%d-NOT deleting=[%s]-\n
+0x18000695d	0x18001c368	import	0x180006540	USER32.dll.wsprintfW
+0x1800069ad	0x1800069a4	string	0x180006540	fD9q
+0x1800069cb	0x1800069c2	string	0x180006540	fD9q
+0x1800069f3	0x1800239a0	string	0x180006540	cleanPrintFolder
+0x1800069fa	0x180023a70	string	0x180006540	--%s--%d-deleting=\n
+0x180006a0e	0x18001c368	import	0x180006540	USER32.dll.wsprintfW
+0x180006a4b	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006a6b	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006a84	0x180006aa4	string	0x180006540	D955
+0x180006adb	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006afb	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006b47	0x18001c0e8	import	0x180006540	KERNEL32.dll.DeleteFileW
+0x180006b55	0x18001c0e0	import	0x180006540	KERNEL32.dll.FindNextFileW
+0x180006b6a	0x1800239a0	string	0x180006540	cleanPrintFolder
+0x180006b71	0x180023a98	string	0x180006540	--%s--%d-[%s]is now empty-\n
+0x180006b8a	0x18001c368	import	0x180006540	USER32.dll.wsprintfW
+0x180006bdf	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006bff	0x180023b48	string	0x180006540	a, ccs=UNICODE
+0x180006c3d	0x18001c0d8	import	0x180006540	KERNEL32.dll.FindClose
+0x180006c95	0x18001c0c8	import	0x180006c80	KERNEL32.dll.GetTempPathW
+0x180006cab	0x180023ad0	string	0x180006c80	\Accops
+0x180006cba	0x18001c0a8	import	0x180006c80	KERNEL32.dll.CreateDirectoryW
+0x180006ccf	0x180023ae0	string	0x180006c80	\VirtChannels
+0x180006cf4	0x18001c0a8	import	0x180006c80	KERNEL32.dll.CreateDirectoryW
+0x180006d0b	0x180023b00	string	0x180006c80	\crdrclient.txt
+0x180006d2f	0x18001c100	import	0x180006c80	KERNEL32.dll.GetTempPathA
+0x180006d4a	0x180023b20	string	0x180006c80	\Accops
+0x180006d5b	0x18001c0f8	import	0x180006c80	KERNEL32.dll.CreateDirectoryA
+0x180006d75	0x180023b28	string	0x180006c80	\VirtChannels
+0x180006d94	0x18001c0f8	import	0x180006c80	KERNEL32.dll.CreateDirectoryA
+0x180006daa	0x180023b38	string	0x180006c80	\crdrclient.txt
+0x180006e11	0x180023b48	string	0x180006dc0	a, ccs=UNICODE
+0x180006e31	0x180023b48	string	0x180006dc0	a, ccs=UNICODE
+0x180006f72	0x18001c068	import	0x180006f40	KERNEL32.dll.CreateFileW
+0x180006f86	0x18001c0f0	import	0x180006f40	KERNEL32.dll.GetFileSize
+0x180006f9b	0x18001c090	import	0x180006f40	KERNEL32.dll.CloseHandle
+0x180006fad	0x18001c0e8	import	0x180006f40	KERNEL32.dll.DeleteFileW
+0x180006fbc	0x18001c090	import	0x180006f40	KERNEL32.dll.CloseHandle
+0x18000700b	0x18001c080	import	0x180006fd0	KERNEL32.dll.CreateEventW
+0x180007021	0x180023b78	string	0x180006fd0	init_DataQueue
+0x180007028	0x180022110	string	0x180006fd0	--%s--%d- event creation failed-\n
+0x180007034	0x18001c368	import	0x180006fd0	USER32.dll.wsprintfW
+0x18000706e	0x18001c128	import	0x180006fd0	KERNEL32.dll.SetEvent
+0x18000707e	0x18001c130	import	0x180006fd0	KERNEL32.dll.WaitForSingleObject
+0x1800070c7	0x18001c128	import	0x180006fd0	KERNEL32.dll.SetEvent
+0x1800070d1	0x180023b78	string	0x180006fd0	init_DataQueue
+0x1800070d8	0x180022038	string	0x180006fd0	--%s--%d- -\n
+0x1800070e4	0x18001c368	import	0x180006fd0	USER32.dll.wsprintfW
+0x180007131	0x180023b48	string	0x180006fd0	a, ccs=UNICODE
+0x180007159	0x180023b48	string	0x180006fd0	a, ccs=UNICODE
+0x180007205	0x180023b98	string	0x1800071c0	post_DataQueue
+0x18000720c	0x180023bc0	string	0x1800071c0	--%s--%d--scd-allocation failed\n
+0x180007218	0x18001c368	import	0x1800071c0	USER32.dll.wsprintfW
+0x18000724e	0x180023b98	string	0x1800071c0	post_DataQueue
+0x180007255	0x180023c10	string	0x1800071c0	--%s--%d-Ss=[%d]-cmd=[%d]--type=[%d]--flags=[0x%x]--res=[0x%x]-\n
+0x18000729a	0x18001c368	import	0x1800071c0	USER32.dll.wsprintfW
+0x1800072ad	0x180023b98	string	0x1800071c0	post_DataQueue
+0x1800072b8	0x180023ca0	string	0x1800071c0	--%s--%d---totoal len=[%d]-bufferlength=[%d]-\n
+0x1800072ce	0x18001c368	import	0x1800071c0	USER32.dll.wsprintfW
+0x1800072f9	0x180023b98	string	0x1800071c0	post_DataQueue
+0x180007300	0x180023d00	string	0x1800071c0	--%s--%d---triggering crs-\n
+0x180007312	0x18001c368	import	0x1800071c0	USER32.dll.wsprintfW
+0x180007329	0x18001c128	import	0x1800071c0	KERNEL32.dll.SetEvent
+0x1800073c2	0x18001c130	import	0x180007380	KERNEL32.dll.WaitForSingleObject
+0x1800073de	0x180023d38	string	0x180007380	post_scdDataQueue
+0x1800073e5	0x180023d60	string	0x180007380	---%s--%d--reached max nodes on queue[0x%x] on tail=[%d]\n
+0x1800073fc	0x18001c368	import	0x180007380	USER32.dll.wsprintfW
+0x18000743e	0x18001c128	import	0x180007380	KERNEL32.dll.SetEvent
+0x18000744f	0x180023d38	string	0x180007380	post_scdDataQueue
+0x180007456	0x180023de0	string	0x180007380	---%s--%d--node NOT emplty on queue[0x%x] on tail=[%d]\n
+0x18000746d	0x18001c368	import	0x180007380	USER32.dll.wsprintfW
+0x180007484	0x18001c128	import	0x180007380	KERNEL32.dll.SetEvent
+0x1800074f2	0x18001c130	import	0x1800074c0	KERNEL32.dll.WaitForSingleObject
+0x18000750e	0x180023e50	string	0x1800074c0	peek_DataQueue
+0x180007515	0x180023e70	string	0x1800074c0	---%s--%d--NO nodes on queue[0x%x] on head=[%d]\n
+0x18000752c	0x18001c368	import	0x1800074c0	USER32.dll.wsprintfW
+0x180007583	0x18001c128	import	0x1800074c0	KERNEL32.dll.SetEvent
+0x180007594	0x180023e50	string	0x1800074c0	peek_DataQueue
+0x18000759b	0x180023ee0	string	0x1800074c0	---%s--%d--node NOT Filled on queue[0x%x] on head=[%d]\n
+0x1800075b2	0x18001c368	import	0x1800074c0	USER32.dll.wsprintfW
+0x1800075d0	0x18001c128	import	0x1800074c0	KERNEL32.dll.SetEvent
+0x18000765a	0x18001c130	import	0x180007600	KERNEL32.dll.WaitForSingleObject
+0x1800076b4	0x18001c128	import	0x180007600	KERNEL32.dll.SetEvent
+0x1800076c1	0x18001c090	import	0x180007600	KERNEL32.dll.CloseHandle
+0x1800076c7	0x180023f80	string	0x180007600	quit_DataQueue
+0x1800076ce	0x180022038	string	0x180007600	--%s--%d- -\n
+0x1800076e0	0x18001c368	import	0x180007600	USER32.dll.wsprintfW
+0x18000772d	0x180023b48	string	0x180007600	a, ccs=UNICODE
+0x180007755	0x180023b48	string	0x180007600	a, ccs=UNICODE
+0x180007fd8	0x1800243f8	string	0x180007f90	FreeChannelData
+0x180007fdf	0x1800221e0	string	0x180007f90	--%s--%d--\n
+0x180007ff1	0x18001c368	import	0x180007f90	USER32.dll.wsprintfW
+0x180008041	0x180024418	string	0x180008020	initClientSS
+0x180008048	0x180022038	string	0x180008020	--%s--%d- -\n
+0x18000805a	0x18001c368	import	0x180008020	USER32.dll.wsprintfW
+0x18000809a	0x180023b48	string	0x180008020	a, ccs=UNICODE
+0x1800080ba	0x180023b48	string	0x180008020	a, ccs=UNICODE
+0x180008103	0x180024418	string	0x180008020	initClientSS
+0x18000810a	0x180022038	string	0x180008020	--%s--%d- -\n
+0x18000811c	0x18001c368	import	0x180008020	USER32.dll.wsprintfW
+0x180008171	0x180024438	string	0x180008150	releaseClientSS
+0x180008178	0x180022038	string	0x180008150	--%s--%d- -\n
+0x18000818a	0x18001c368	import	0x180008150	USER32.dll.wsprintfW
+0x1800081ca	0x180023b48	string	0x180008150	a, ccs=UNICODE
+0x1800081ea	0x180023b48	string	0x180008150	a, ccs=UNICODE
+0x18000822b	0x180024438	string	0x180008150	releaseClientSS
+0x180008232	0x180022038	string	0x180008150	--%s--%d- -\n
+0x180008244	0x18001c368	import	0x180008150	USER32.dll.wsprintfW
+0x180008284	0x180023b48	string	0x180008150	a, ccs=UNICODE
+0x1800082a4	0x180023b48	string	0x180008150	a, ccs=UNICODE
+0x180008339	0x180024458	string	0x180008300	send_VCClientData
+0x180008347	0x180024480	string	0x180008300	--%s--%d-ss=[%d], cmd=[%d], type=[%d] seq=[0x%x]-\n
+0x180008363	0x18001c368	import	0x180008300	USER32.dll.wsprintfW
+0x1800083a3	0x180023b48	string	0x180008300	a, ccs=UNICODE
+0x1800083c3	0x180023b48	string	0x180008300	a, ccs=UNICODE
+0x1800083fd	0x180024458	string	0x180008300	send_VCClientData
+0x180008404	0x1800244f0	string	0x180008300	--%s--%d-data flag=[0x%x] datalen=[%d]-\n\n\n
+0x18000841e	0x18001c368	import	0x180008300	USER32.dll.wsprintfW
+0x18000845e	0x180023b48	string	0x180008300	a, ccs=UNICODE
+0x18000847e	0x180023b48	string	0x180008300	a, ccs=UNICODE
+0x18000870e	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x180008720	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x180008732	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x180008750	0x18001c170	import	0x1800085e0	KERNEL32.dll.MultiByteToWideChar
+0x180008761	0x18001c070	import	0x1800085e0	KERNEL32.dll.GetLastError
+0x1800087be	0x18001c170	import	0x1800085e0	KERNEL32.dll.MultiByteToWideChar
+0x1800087da	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x1800087df	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x1800087f5	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x180008811	0x18001c170	import	0x1800085e0	KERNEL32.dll.MultiByteToWideChar
+0x180008829	0x18000882f	string	0x1800085e0	D8d$Ht\fH
+0x1800088d5	0x18001c178	import	0x180008880	KERNEL32.dll.HeapAlloc
+0x180008c52	0x180008caf	string	0x180008af4	fA;0t)fA98t
+0x180008e38	0x180008e2c	string	0x180008d78	f9\vt\tH
+0x180009072	0x18001c450	string	0x180009048	bad allocation
+0x180009106	0x18001c180	import	0x1800090f0	KERNEL32.dll.HeapFree
+0x180009118	0x18001c070	import	0x1800090f0	KERNEL32.dll.GetLastError
+0x180009157	0x180009178	string	0x180009130	@USWH
+0x180009492	0x18001c188	import	0x180009484	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1800095f7	0x180009606	string	0x180009578	fD9>u"
+0x18000998b	0x18001c190	import	0x180009954	KERNEL32.dll.GetCommandLineA
+0x180009a83	0x18001c198	import	0x180009954	KERNEL32.dll.GetCurrentThreadId
+0x180009c1d	0x18001c1a0	import	0x180009c14	KERNEL32.dll.IsDebuggerPresent
+0x180009c85	0x1800103b0	string	0x180009c14	@SVWH
+0x180009dd8	0x18001c1a0	import	0x180009d34	KERNEL32.dll.IsDebuggerPresent
+0x180009e57	0x18001c1b8	import	0x180009e30	KERNEL32.dll.DecodePointer
+0x18000a43b	0x18000a444	string	0x18000a080	+ˉL$D blocks=Basic Latin,Spacing Modifier Letters
+0x18000a63f	0x18001c1b8	import	0x18000a080	KERNEL32.dll.DecodePointer
+0x18000a681	0x18001c1b8	import	0x18000a080	KERNEL32.dll.DecodePointer
+0x18000a6a1	0x18001c1b8	import	0x18000a080	KERNEL32.dll.DecodePointer
+0x18000a8cb	0x18000a8de	string	0x18000a080	,X< w
+0x18000a8d1	0x18000a8de	string	0x18000a080	,X< w
+0x18000b2d2	0x18001c1d0	import	0x18000b2a8	KERNEL32.dll.GetOEMCP
+0x18000b2e9	0x18001c1c8	import	0x18000b2a8	KERNEL32.dll.GetACP
+0x18000b3ee	0x18001c1d8	import	0x18000b3b8	KERNEL32.dll.GetCPInfo
+0x18000b916	0x18001c1c0	import	0x18000b89c	KERNEL32.dll.IsValidCodePage
+0x18000b92b	0x18001c1d8	import	0x18000b89c	KERNEL32.dll.GetCPInfo
+0x18000be36	0x18001c070	import	0x18000be2c	KERNEL32.dll.GetLastError
+0x18000be82	0x18001c198	import	0x18000be2c	KERNEL32.dll.GetCurrentThreadId
+0x18000be9a	0x18001c1e0	import	0x18000be2c	KERNEL32.dll.SetLastError
+0x18000bfd2	0x18001c198	import	0x18000bf74	KERNEL32.dll.GetCurrentThreadId
+0x18000c070	0x18001c1b8	import	0x18000c060	KERNEL32.dll.DecodePointer
+0x18000c0ee	0x18001c200	import	0x18000c09c	KERNEL32.dll.AreFileApisANSI
+0x18000c114	0x18001c170	import	0x18000c09c	KERNEL32.dll.MultiByteToWideChar
+0x18000c121	0x18001c070	import	0x18000c09c	KERNEL32.dll.GetLastError
+0x18000c159	0x18001c170	import	0x18000c09c	KERNEL32.dll.MultiByteToWideChar
+0x18000c163	0x18001c070	import	0x18000c09c	KERNEL32.dll.GetLastError
+0x18000c1a9	0x18001c990	string	0x18000c19c	mscoree.dll
+0x18000c1b2	0x18001c1f0	import	0x18000c19c	KERNEL32.dll.GetModuleHandleExW
+0x18000c1c1	0x18001c9a8	string	0x18000c19c	CorExitProcess
+0x18000c1c8	0x18001c1f8	import	0x18000c19c	KERNEL32.dll.GetProcAddress
+0x18000c1ef	0x18001c1e8	import	0x18000c1e0	KERNEL32.dll.ExitProcess
+0x18000c209	0x18001c1b8	import	0x18000c1f8	KERNEL32.dll.DecodePointer
+0x18000c2c4	0x18001c1b0	import	0x18000c1f8	KERNEL32.dll.EncodePointer
+0x18000c424	0x18001c1b0	import	0x18000c41c	KERNEL32.dll.EncodePointer
+0x18000c578	0x18001c1b8	import	0x18000c51c	KERNEL32.dll.DecodePointer
+0x18000c596	0x18001c1b8	import	0x18000c51c	KERNEL32.dll.DecodePointer
+0x18000c5c4	0x18001c1b0	import	0x18000c51c	KERNEL32.dll.EncodePointer
+0x18000c5d9	0x18001c1b8	import	0x18000c51c	KERNEL32.dll.DecodePointer
+0x18000c5e4	0x18001c1b0	import	0x18000c51c	KERNEL32.dll.EncodePointer
+0x18000c5f6	0x18001c1b8	import	0x18000c51c	KERNEL32.dll.DecodePointer
+0x18000c606	0x18001c1b8	import	0x18000c51c	KERNEL32.dll.DecodePointer
+0x18000c692	0x18001c1e8	import	0x18000c51c	KERNEL32.dll.ExitProcess
+0x18000c716	0x18000c704	string	0x18000c6f8	A;\bt
+0x18000c7ad	0x18001d460	string	0x18000c728	Runtime Error!\n\nProgram:
+0x18000c7e0	0x18001c218	import	0x18000c728	KERNEL32.dll.GetModuleFileNameW
+0x18000c7ee	0x18001d498	string	0x18000c728	<program name unknown>
+0x18000c881	0x18001d4e0	string	0x18000c728	Microsoft Visual C++ Runtime Library
+0x18000c891	0x1800135fc	string	0x18000c728	@SUVWATAVAWH
+0x18000c89d	0x18001c210	import	0x18000c728	KERNEL32.dll.GetStdHandle
+0x18000c8fd	0x18001c158	import	0x18000c728	KERNEL32.dll.WriteFile
+0x18000c99c	0x18001c220	import	0x18000c998	KERNEL32.dll.GetProcessHeap
+0x18000ce12	0x18001c228	import	0x18000cdae	KERNEL32.dll.RtlPcToFileHeader
+0x18000ce51	0x18001c230	import	0x18000cdae	KERNEL32.dll.RaiseException
+0x18000d6aa	0x18001c238	import	0x18000d544	KERNEL32.dll.GetTimeZoneInformation
+0x18000d6d9	0x18000d6eb	string	0x18000d544	fD9%
+0x18000d75d	0x18001c208	import	0x18000d544	KERNEL32.dll.WideCharToMultiByte
+0x18000d7ad	0x18001c208	import	0x18000d544	KERNEL32.dll.WideCharToMultiByte
+0x18000d8d0	0x18000d8db	string	0x18000d544	D8't6Ǆ$ blocks=Basic Latin,Latin Extended-B
+0x18000de6f	0x18001c248	import	0x18000de28	KERNEL32.dll.LeaveCriticalSection
+0x18000de8e	0x18001c248	import	0x18000de78	KERNEL32.dll.LeaveCriticalSection
+0x18000e1bb	0x18000e258	string	0x18000dfa0	D9T$x
+0x18000e1c9	0x18000e258	string	0x18000dfa0	D9T$x
+0x18000e5d4	0x18001c1b8	import	0x18000dfa0	KERNEL32.dll.DecodePointer
+0x18000e616	0x18001c1b8	import	0x18000dfa0	KERNEL32.dll.DecodePointer
+0x18000e63b	0x18001c1b8	import	0x18000dfa0	KERNEL32.dll.DecodePointer
+0x18000e66e	0x18000e258	string	0x18000dfa0	D9T$x
+0x18000ee25	0x18001c240	import	0x18000ed44	KERNEL32.dll.EnterCriticalSection
+0x18000ef1e	0x18000f0e7	string	0x18000ee7c	fD9+t
+0x18000f023	0x18000f0e7	string	0x18000ee7c	fD9+t
+0x18000f029	0x18000f02f	string	0x18000ee7c	fD9+t
+0x18000f056	0x18000f05c	string	0x18000ee7c	fD9+t
+0x18000f076	0x18001d600	string	0x18000ee7c	UTF-8
+0x18000f097	0x18000f0e7	string	0x18000ee7c	fD9+t
+0x18000f099	0x18001d610	string	0x18000ee7c	UTF-16LE
+0x18000f0ba	0x18000f0e7	string	0x18000ee7c	fD9+t
+0x18000f0bc	0x18001d628	string	0x18000ee7c	UNICODE
+0x18000f0e1	0x18000f0e7	string	0x18000ee7c	fD9+t
+0x18000f3ad	0x18001d63c	string	0x18000f1d4	UTF-8
+0x18000f3d0	0x18001d648	string	0x18000f1d4	UTF-16LE
+0x18000f3f3	0x18001d658	string	0x18000f1d4	UNICODE
+0x18000f57b	0x18001c268	import	0x18000f4b8	KERNEL32.dll.GetStartupInfoW
+0x18000f674	0x18001c258	import	0x18000f4b8	KERNEL32.dll.GetFileType
+0x18000f732	0x18001c210	import	0x18000f4b8	KERNEL32.dll.GetStdHandle
+0x18000f748	0x18001c258	import	0x18000f4b8	KERNEL32.dll.GetFileType
+0x18000f81e	0x18001c260	import	0x18000f7e8	KERNEL32.dll.DeleteCriticalSection
+0x18000f97f	0x18001c090	import	0x18000f920	KERNEL32.dll.CloseHandle
+0x18000f989	0x18001c070	import	0x18000f920	KERNEL32.dll.GetLastError
+0x18000fde6	0x18001c270	import	0x18000fdb0	KERNEL32.dll.GetModuleFileNameA
+0x1800101cc	0x18001c188	import	0x1800101a0	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1800101da	0x18001c198	import	0x1800101a0	KERNEL32.dll.GetCurrentThreadId
+0x1800101e6	0x18001c280	import	0x1800101a0	KERNEL32.dll.GetCurrentProcessId
+0x1800101f6	0x18001c278	import	0x1800101a0	KERNEL32.dll.QueryPerformanceCounter
+0x180010265	0x18001c288	import	0x18001024c	KERNEL32.dll.GetEnvironmentStringsW
+0x1800102bc	0x18001c208	import	0x18001024c	KERNEL32.dll.WideCharToMultiByte
+0x1800102f7	0x18001c208	import	0x18001024c	KERNEL32.dll.WideCharToMultiByte
+0x18001030f	0x18001c290	import	0x18001024c	KERNEL32.dll.FreeEnvironmentStringsW
+0x18001031d	0x18001c290	import	0x18001024c	KERNEL32.dll.FreeEnvironmentStringsW
+0x18001034d	0x18001c298	import	0x180010340	KERNEL32.dll.RtlCaptureContext
+0x180010365	0x18001c2a0	import	0x180010340	KERNEL32.dll.RtlLookupFunctionEntry
+0x18001039c	0x18001c2a8	import	0x180010340	KERNEL32.dll.RtlVirtualUnwind
+0x1800103bb	0x18001c298	import	0x1800103b0	KERNEL32.dll.RtlCaptureContext
+0x1800103d5	0x18001c2a0	import	0x1800103b0	KERNEL32.dll.RtlLookupFunctionEntry
+0x18001040c	0x18001c2a8	import	0x1800103b0	KERNEL32.dll.RtlVirtualUnwind
+0x180010437	0x18001c2d8	import	0x180010424	KERNEL32.dll.TlsAlloc
+0x180010453	0x18001c2f0	import	0x180010440	KERNEL32.dll.TlsFree
+0x18001046f	0x18001c2e0	import	0x18001045c	KERNEL32.dll.TlsGetValue
+0x18001048b	0x18001c2e8	import	0x180010478	KERNEL32.dll.TlsSetValue
+0x1800104af	0x18001c2c0	import	0x180010494	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x180010519	0x18001c2f8	import	0x1800104c0	KERNEL32.dll.GetModuleHandleW
+0x18001051f	0x18001d750	string	0x1800104c0	FlsAlloc
+0x18001052c	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010532	0x18001d760	string	0x1800104c0	FlsFree
+0x18001054a	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010550	0x18001d768	string	0x1800104c0	FlsGetValue
+0x180010568	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001056e	0x18001d778	string	0x1800104c0	FlsSetValue
+0x180010586	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001058c	0x18001d788	string	0x1800104c0	InitializeCriticalSectionEx
+0x1800105a4	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800105aa	0x18001d7a8	string	0x1800104c0	CreateEventExW
+0x1800105c2	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800105c8	0x18001d7b8	string	0x1800104c0	CreateSemaphoreExW
+0x1800105e0	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800105e6	0x18001d7d0	string	0x1800104c0	SetThreadStackGuarantee
+0x1800105fe	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010604	0x18001d7e8	string	0x1800104c0	CreateThreadpoolTimer
+0x18001061c	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010622	0x18001d800	string	0x1800104c0	SetThreadpoolTimer
+0x18001063a	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010640	0x18001d818	string	0x1800104c0	WaitForThreadpoolTimerCallbacks
+0x180010658	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001065e	0x18001d838	string	0x1800104c0	CloseThreadpoolTimer
+0x180010676	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001067c	0x18001d850	string	0x1800104c0	CreateThreadpoolWait
+0x180010694	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001069a	0x18001d868	string	0x1800104c0	SetThreadpoolWait
+0x1800106b2	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800106b8	0x18001d880	string	0x1800104c0	CloseThreadpoolWait
+0x1800106d0	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800106d6	0x18001d898	string	0x1800104c0	FlushProcessWriteBuffers
+0x1800106ee	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800106fb	0x18001d8b8	string	0x1800104c0	FreeLibraryWhenCallbackReturns
+0x18001070c	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010712	0x18001d8d8	string	0x1800104c0	GetCurrentProcessorNumber
+0x18001072a	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010730	0x18001d8f8	string	0x1800104c0	GetLogicalProcessorInformation
+0x180010748	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001074e	0x18001d918	string	0x1800104c0	CreateSymbolicLinkW
+0x180010766	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001076c	0x18001d930	string	0x1800104c0	SetDefaultDllDirectories
+0x180010784	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001078a	0x18001d950	string	0x1800104c0	EnumSystemLocalesEx
+0x1800107a2	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800107a8	0x18001d968	string	0x1800104c0	CompareStringEx
+0x1800107c0	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800107c6	0x18001d978	string	0x1800104c0	GetDateFormatEx
+0x1800107de	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800107e4	0x18001d988	string	0x1800104c0	GetLocaleInfoEx
+0x1800107fc	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010802	0x18001d998	string	0x1800104c0	GetTimeFormatEx
+0x18001081a	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010820	0x18001d9a8	string	0x1800104c0	GetUserDefaultLocaleName
+0x180010838	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001083e	0x18001d9c8	string	0x1800104c0	IsValidLocaleName
+0x180010856	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001085c	0x18001d9e0	string	0x1800104c0	LCMapStringEx
+0x180010874	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x18001087a	0x18001d9f0	string	0x1800104c0	GetCurrentPackageId
+0x180010892	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010898	0x18001da08	string	0x1800104c0	GetTickCount64
+0x1800108b0	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800108b6	0x18001da18	string	0x1800104c0	GetFileInformationByHandleExW
+0x1800108ce	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x1800108db	0x18001da38	string	0x1800104c0	SetFileInformationByHandleW
+0x1800108ec	0x18001c1f8	import	0x1800104c0	KERNEL32.dll.GetProcAddress
+0x180010908	0x18001c0b8	import	0x180010908	KERNEL32.dll.Sleep
+0x180010918	0x18001c2c8	import	0x180010908	KERNEL32.dll.GetCurrentProcess
+0x180010928	0x18001c2d0	import	0x180010908	KERNEL32.dll.TerminateProcess
+0x18001093b	0x18001c2b8	import	0x180010930	KERNEL32.dll.SetUnhandledExceptionFilter
+0x180010949	0x18001c2b0	import	0x180010930	KERNEL32.dll.UnhandledExceptionFilter
+0x180010ed5	0x18001c308	import	0x180010d94	KERNEL32.dll.GetConsoleMode
+0x180010ef4	0x18001c300	import	0x180010d94	KERNEL32.dll.GetConsoleCP
+0x180010ffc	0x18001c208	import	0x180010d94	KERNEL32.dll.WideCharToMultiByte
+0x18001103a	0x18001c158	import	0x180010d94	KERNEL32.dll.WriteFile
+0x18001109a	0x18001c158	import	0x180010d94	KERNEL32.dll.WriteFile
+0x18001116b	0x18001c070	import	0x180010d94	KERNEL32.dll.GetLastError
+0x180011175	0x18001c070	import	0x180010d94	KERNEL32.dll.GetLastError
+0x18001127b	0x18001c158	import	0x180010d94	KERNEL32.dll.WriteFile
+0x180011368	0x18001c158	import	0x180010d94	KERNEL32.dll.WriteFile
+0x180011441	0x18001c208	import	0x180010d94	KERNEL32.dll.WideCharToMultiByte
+0x18001148a	0x18001c158	import	0x180010d94	KERNEL32.dll.WriteFile
+0x18001149f	0x18001c070	import	0x180010d94	KERNEL32.dll.GetLastError
+0x1800114df	0x18001c158	import	0x180010d94	KERNEL32.dll.WriteFile
+0x1800114f4	0x18001c070	import	0x180010d94	KERNEL32.dll.GetLastError
+0x1800116b4	0x18001c310	import	0x180011670	KERNEL32.dll.SetFilePointerEx
+0x1800116be	0x18001c070	import	0x180011670	KERNEL32.dll.GetLastError
+0x180011926	0x18001c1b0	import	0x180011910	KERNEL32.dll.EncodePointer
+0x180011989	0x18001c240	import	0x18001194c	KERNEL32.dll.EnterCriticalSection
+0x1800119c3	0x18001c260	import	0x18001194c	KERNEL32.dll.DeleteCriticalSection
+0x1800119f3	0x18001c260	import	0x18001194c	KERNEL32.dll.DeleteCriticalSection
+0x180011abc	0x18001c248	import	0x180011a18	KERNEL32.dll.LeaveCriticalSection
+0x180011b4d	0x18001c248	import	0x180011b3c	KERNEL32.dll.LeaveCriticalSection
+0x180012163	0x18001c170	import	0x1800120c8	KERNEL32.dll.MultiByteToWideChar
+0x180012214	0x18001c170	import	0x1800120c8	KERNEL32.dll.MultiByteToWideChar
+0x180012362	0x18001c208	import	0x1800120c8	KERNEL32.dll.WideCharToMultiByte
+0x180012420	0x1800120c8	string	0x1800123b4	@UATAUAVAWH
+0x1800124aa	0x18001c170	import	0x18001244c	KERNEL32.dll.MultiByteToWideChar
+0x18001256a	0x18001c170	import	0x18001244c	KERNEL32.dll.MultiByteToWideChar
+0x180012581	0x18001c318	import	0x18001244c	KERNEL32.dll.GetStringTypeW
+0x180012618	0x18001244c	string	0x1800125c4	@UATAUAVAWH
+0x180012687	0x18001c318	import	0x180012640	KERNEL32.dll.GetStringTypeW
+0x180012f99	0x18001c320	import	0x180012f20	KERNEL32.dll.CompareStringW
+0x18001305d	0x18001c328	import	0x180012fe4	KERNEL32.dll.LCMapStringW
+0x180013149	0x1800130d0	string	0x180013120	LcA<E3
+0x18001317b	0x180013180	string	0x180013170	HcH<H
+0x18001320d	0x18001c1b8	import	0x1800131e4	KERNEL32.dll.DecodePointer
+0x18001321d	0x18001c1b8	import	0x1800131e4	KERNEL32.dll.DecodePointer
+0x18001329b	0x18001c1b0	import	0x1800131e4	KERNEL32.dll.EncodePointer
+0x1800132ab	0x18001c1b0	import	0x1800131e4	KERNEL32.dll.EncodePointer
+0x1800132b8	0x18001c1b0	import	0x1800131e4	KERNEL32.dll.EncodePointer
+0x180013333	0x18001c1b0	import	0x180013328	KERNEL32.dll.EncodePointer
+0x180013357	0x18001c1b8	import	0x180013350	KERNEL32.dll.DecodePointer
+0x18001348f	0x18001c1b8	import	0x180013380	KERNEL32.dll.DecodePointer
+0x18001353e	0x18001c1b0	import	0x180013380	KERNEL32.dll.EncodePointer
+0x180013625	0x18001c1b0	import	0x1800135fc	KERNEL32.dll.EncodePointer
+0x180013645	0x1800215d0	string	0x1800135fc	USER32.DLL
+0x180013654	0x18001c330	import	0x1800135fc	KERNEL32.dll.LoadLibraryExW
+0x180013662	0x18001c070	import	0x1800135fc	KERNEL32.dll.GetLastError
+0x180013671	0x1800215d0	string	0x1800135fc	USER32.DLL
+0x18001367d	0x18001c330	import	0x1800135fc	KERNEL32.dll.LoadLibraryExW
+0x18001368f	0x1800215e8	string	0x1800135fc	MessageBoxW
+0x180013699	0x18001c1f8	import	0x1800135fc	KERNEL32.dll.GetProcAddress
+0x1800136ab	0x18001c1b0	import	0x1800135fc	KERNEL32.dll.EncodePointer
+0x1800136b1	0x1800215f8	string	0x1800135fc	GetActiveWindow
+0x1800136c2	0x18001c1f8	import	0x1800135fc	KERNEL32.dll.GetProcAddress
+0x1800136cb	0x18001c1b0	import	0x1800135fc	KERNEL32.dll.EncodePointer
+0x1800136d1	0x180021608	string	0x1800135fc	GetLastActivePopup
+0x1800136e2	0x18001c1f8	import	0x1800135fc	KERNEL32.dll.GetProcAddress
+0x1800136eb	0x18001c1b0	import	0x1800135fc	KERNEL32.dll.EncodePointer
+0x1800136f1	0x180021620	string	0x1800135fc	GetUserObjectInformationW
+0x180013702	0x18001c1f8	import	0x1800135fc	KERNEL32.dll.GetProcAddress
+0x18001370b	0x18001c1b0	import	0x1800135fc	KERNEL32.dll.EncodePointer
+0x18001371d	0x180021640	string	0x1800135fc	GetProcessWindowStation
+0x180013727	0x18001c1f8	import	0x1800135fc	KERNEL32.dll.GetProcAddress
+0x180013730	0x18001c1b0	import	0x1800135fc	KERNEL32.dll.EncodePointer
+0x18001373d	0x18001c1a0	import	0x1800135fc	KERNEL32.dll.IsDebuggerPresent
+0x18001374f	0x18001c338	import	0x1800135fc	KERNEL32.dll.OutputDebugStringW
+0x180013770	0x18001c1b8	import	0x1800135fc	KERNEL32.dll.DecodePointer
+0x180013795	0x18001c1b8	import	0x1800135fc	KERNEL32.dll.DecodePointer
+0x1800137a5	0x18001c1b8	import	0x1800135fc	KERNEL32.dll.DecodePointer
+0x1800137fb	0x18001c1b8	import	0x1800135fc	KERNEL32.dll.DecodePointer
+0x18001381c	0x18001c1b8	import	0x1800135fc	KERNEL32.dll.DecodePointer
+0x180013836	0x18001c1b8	import	0x1800135fc	KERNEL32.dll.DecodePointer
+0x180013b96	0x18001c260	import	0x180013b30	KERNEL32.dll.DeleteCriticalSection
+0x180013c03	0x180013d82	string	0x180013bd8	HcG\bH
+0x180013cf3	0x180013d82	string	0x180013bd8	HcG\bH
+0x180013d16	0x180013d22	string	0x180013bd8	9\$ ~>L
+0x180013f57	0x18001c2f8	import	0x180013f28	KERNEL32.dll.GetModuleHandleW
+0x180013f5d	0x180021658	string	0x180013f28	CreateFile2
+0x180013f67	0x18001c1f8	import	0x180013f28	KERNEL32.dll.GetProcAddress
+0x180013ff9	0x18001c068	import	0x180013f28	KERNEL32.dll.CreateFileW
+0x180014c89	0x180014d3c	string	0x180014c30	@8l$8t\fH
+0x180014cad	0x180014d3c	string	0x180014c30	@8l$8t\fH
+0x180014d33	0x180014d3c	string	0x180014c30	@8l$8t\fH
+0x180014db8	0x180014ef1	string	0x180014d64	@8l$8t\fH
+0x180014ddc	0x180014ef1	string	0x180014d64	@8l$8t\fH
+0x180014df8	0x180014e13	string	0x180014d64	@8.u
+0x180014ee8	0x180014ef1	string	0x180014d64	@8l$8t\fH
+0x180014f93	0x18001c240	import	0x180014f1c	KERNEL32.dll.EnterCriticalSection
+0x180015082	0x18001c240	import	0x180014fb4	KERNEL32.dll.EnterCriticalSection
+0x180015092	0x18001c248	import	0x180014fb4	KERNEL32.dll.LeaveCriticalSection
+0x18001521c	0x18001c340	import	0x1800151ac	KERNEL32.dll.SetStdHandle
+0x18001533b	0x18001c340	import	0x1800152cc	KERNEL32.dll.SetStdHandle
+0x18001539f	0x18001c248	import	0x18001537c	KERNEL32.dll.LeaveCriticalSection
+0x180015424	0x18001c0c0	import	0x1800153a8	KERNEL32.dll.FlushFileBuffers
+0x18001542e	0x18001c070	import	0x1800153a8	KERNEL32.dll.GetLastError
+0x180015561	0x18001c168	import	0x180015510	KERNEL32.dll.HeapReAlloc
+0x1800156c3	0x18001c178	import	0x18001566c	KERNEL32.dll.HeapAlloc
+0x18001574d	0x18001c160	import	0x180015708	KERNEL32.dll.WriteConsoleW
+0x180015b28	0x18001c208	import	0x180015adc	KERNEL32.dll.WideCharToMultiByte
+0x180015b6f	0x18001c208	import	0x180015adc	KERNEL32.dll.WideCharToMultiByte
+0x180015ec2	0x18001c220	import	0x180015e68	KERNEL32.dll.GetProcessHeap
+0x180015ed7	0x18001c178	import	0x180015e68	KERNEL32.dll.HeapAlloc
+0x180016246	0x18001c308	import	0x180016000	KERNEL32.dll.GetConsoleMode
+0x18001627d	0x18001c150	import	0x180016000	KERNEL32.dll.ReadConsoleW
+0x180016287	0x18001c070	import	0x180016000	KERNEL32.dll.GetLastError
+0x1800162c9	0x18001c148	import	0x180016000	KERNEL32.dll.ReadFile
+0x1800163b3	0x18001c148	import	0x180016000	KERNEL32.dll.ReadFile
+0x1800163bd	0x18001c070	import	0x180016000	KERNEL32.dll.GetLastError
+0x180016576	0x18001c170	import	0x180016000	KERNEL32.dll.MultiByteToWideChar
+0x180016582	0x18001c070	import	0x180016000	KERNEL32.dll.GetLastError
+0x1800166bb	0x1800167cf	string	0x180016000	L;e`
+0x18001670b	0x18001c148	import	0x180016000	KERNEL32.dll.ReadFile
+0x180016715	0x18001c070	import	0x180016000	KERNEL32.dll.GetLastError
+0x1800167b8	0x1800167cf	string	0x180016000	L;e`
+0x18001680b	0x18001c070	import	0x180016000	KERNEL32.dll.GetLastError
+0x180016c89	0x180021fd0	string	0x180016c74	CONOUT$
+0x180016c9d	0x18001c068	import	0x180016c74	KERNEL32.dll.CreateFileW
+0x180016f27	0x180016d8c	string	0x180016f24	@SVWH
+0x180017095	0x1800170b2	string	0x180016fbc	I!>E3
+0x180017564	0x18001c1d8	import	0x180017470	KERNEL32.dll.GetCPInfo
+0x1800175e1	0x18001c170	import	0x180017470	KERNEL32.dll.MultiByteToWideChar
+0x18001769b	0x18001c170	import	0x180017470	KERNEL32.dll.MultiByteToWideChar
+0x1800176c1	0x18001c170	import	0x180017470	KERNEL32.dll.MultiByteToWideChar
+0x18001776c	0x18001c170	import	0x180017470	KERNEL32.dll.MultiByteToWideChar
+0x180017839	0x180017470	string	0x1800177d8	@USVWATAUAVAWH
+0x180017ae7	0x180028500	string	0x180017a30	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x180017c08	0x180028500	string	0x180017a30	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x1800186ce	0x1800186f4	string	0x1800185a0	M+y\v
+0x1800187d0	0x1800186f4	string	0x1800185a0	M+y\v
+0x180018e50	0x1800196b0	string	0x180018e28	@SUVWH
+0x180018e77	0x180019784	string	0x180018e28	@SUVWAVH
+0x180018e9c	0x180019454	string	0x180018e28	@SUVWH
+0x180018f32	0x180019225	string	0x180018ea8	D8L$Ht\fH
+0x180018f6f	0x180019454	string	0x180018ea8	@SUVWH
+0x180018f80	0x180019225	string	0x180018ea8	D8L$Ht\fH
+0x18001934a	0x180021fe8	string	0x180019258	e+000
+0x1800193ef	0x180019405	string	0x180019258	3ۀ|$H blocks=Basic Latin,Arabic
+0x1800193f4	0x180019405	string	0x180019258	3ۀ|$H blocks=Basic Latin,Arabic
+0x18001948d	0x18001a0f4	string	0x180019454	@USVWH
+0x180019602	0x18001967b	string	0x18001954c	3ۀ|$8 blocks=Basic Latin,Arabic
+0x180019637	0x18001967b	string	0x18001954c	3ۀ|$8 blocks=Basic Latin,Arabic
+0x18001964f	0x18001966b	string	0x18001954c	Lcú0 blocks=Basic Latin,Latin-1 Supplement
+0x1800196e6	0x18001a0f4	string	0x1800196b0	@USVWH
+0x1800197bf	0x18001a0f4	string	0x180019784	@USVWH
+0x180019b05	0x180019b4b	string	0x180019aac	@8t$8t\fH
+0x180019b33	0x180019b4b	string	0x180019aac	@8t$8t\fH
+0x180019b46	0x180019b4b	string	0x180019aac	@8t$8t\fH
+0x18001a323	0x180021ff8	string	0x18001a238	1#SNAN
+0x18001a358	0x180022000	string	0x18001a238	1#IND
+0x18001a37f	0x180022008	string	0x18001a238	1#INF
+0x18001a3a5	0x180022010	string	0x18001a238	1#QNAN
+0x18001ad10	0x18001c1a8	import	0x18001ad10	KERNEL32.dll.IsProcessorFeaturePresent
+0x18001ad16	0x18001c250	import	0x18001ad16	KERNEL32.dll.RtlUnwindEx

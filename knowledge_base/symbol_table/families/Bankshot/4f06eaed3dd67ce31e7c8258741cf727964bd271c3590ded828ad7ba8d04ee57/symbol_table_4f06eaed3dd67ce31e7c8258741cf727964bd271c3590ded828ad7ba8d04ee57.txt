@@ -1,0 +1,788 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x401059	0x4140dc	import	0x40104f	KERNEL32.dll.LoadLibraryA
+0x401068	0x4140d4	import	0x40104f	KERNEL32.dll.GetProcAddress
+0x40106e	0x416248	string	0x40104f	GetKeyState
+0x40107f	0x416254	string	0x40104f	GetKeyboardState
+0x401095	0x416268	string	0x40104f	GetWindowTextA
+0x4010ab	0x416278	string	0x40104f	GetForegroundWindow
+0x4010fd	0x41628c	string	0x4010ca	All_Keylog : RetrieveAPIs failed
+0x401129	0x4141b4	import	0x4010ca	SHLWAPI.dll.PathIsDirectoryA
+0x401135	0x4140d0	import	0x4010ca	KERNEL32.dll.CreateDirectoryA
+0x401151	0x4162b0	string	0x4010ca	%s\%s
+0x401167	0x4141b4	import	0x4010ca	SHLWAPI.dll.PathIsDirectoryA
+0x401173	0x4140d0	import	0x4010ca	KERNEL32.dll.CreateDirectoryA
+0x401186	0x4162b0	string	0x4010ca	%s\%s
+0x4011a7	0x4162b0	string	0x4010ca	%s\%s
+0x4011c8	0x4162b0	string	0x4010ca	%s\%s
+0x4017c3	0x4140b8	import	0x4017bd	KERNEL32.dll.IsBadStringPtrA
+0x4017d3	0x4140c4	import	0x4017bd	KERNEL32.dll.lstrlenA
+0x4017fc	0x4140ac	import	0x4017f1	KERNEL32.dll.IsBadReadPtr
+0x40180e	0x4140b4	import	0x4017f1	KERNEL32.dll.IsBadWritePtr
+0x401850	0x4140b8	import	0x401845	KERNEL32.dll.IsBadStringPtrA
+0x401860	0x4140b4	import	0x401845	KERNEL32.dll.IsBadWritePtr
+0x40186b	0x4140c4	import	0x401845	KERNEL32.dll.lstrlenA
+0x4018c6	0x414010	import	0x4018a9	KERNEL32.dll.CreateFileA
+0x4018da	0x414014	import	0x4018a9	KERNEL32.dll.GetFileSize
+0x4018e8	0x414018	import	0x4018a9	KERNEL32.dll.CloseHandle
+0x4018f6	0x4140c0	import	0x4018a9	KERNEL32.dll.LocalAlloc
+0x40190b	0x41401c	import	0x4018a9	KERNEL32.dll.ReadFile
+0x401924	0x414018	import	0x4018a9	KERNEL32.dll.CloseHandle
+0x401933	0x4140bc	import	0x4018a9	KERNEL32.dll.LocalFree
+0x40195f	0x414010	import	0x401942	KERNEL32.dll.CreateFileA
+0x40197b	0x414020	import	0x401942	KERNEL32.dll.WriteFile
+0x401992	0x414018	import	0x401942	KERNEL32.dll.CloseHandle
+0x4019d3	0x4140c0	import	0x4019a3	KERNEL32.dll.LocalAlloc
+0x4019ef	0x4140bc	import	0x4019a3	KERNEL32.dll.LocalFree
+0x401a0c	0x4140bc	import	0x4019a3	KERNEL32.dll.LocalFree
+0x401bc8	0x414010	import	0x401bb2	KERNEL32.dll.CreateFileA
+0x401bd3	0x401bdb	string	0x401bb2	WWWj
+0x401d4c	0x408d34	string	0x401d0d	j\fhp
+0x401da2	0x4140c8	import	0x401d0d	KERNEL32.dll.GetLocalTime
+0x401dc1	0x4173d4	string	0x401d0d	%02d%02d%02d%02d%02d
+0x401e3d	0x414010	import	0x401e0d	KERNEL32.dll.CreateFileA
+0x401e4e	0x414038	import	0x401e0d	KERNEL32.dll.SetFilePointer
+0x401e5b	0x4140c8	import	0x401e0d	KERNEL32.dll.GetLocalTime
+0x401e97	0x4173f0	string	0x401e0d	[%02d/%02d/%04d, %02d:%02d:%02d]
+0x401eb8	0x414020	import	0x401e0d	KERNEL32.dll.WriteFile
+0x401f5d	0x414018	import	0x401e0d	KERNEL32.dll.CloseHandle
+0x402133	0x414044	import	0x40210b	KERNEL32.dll.GetEnvironmentVariableA
+0x402167	0x417448	string	0x40210b	CmdExe : cmd = %s, args = %s
+0x40219b	0x4141ac	import	0x40210b	SHELL32.dll.ShellExecuteExA
+0x4021b6	0x414048	import	0x40210b	KERNEL32.dll.WaitForSingleObject
+0x4021c2	0x414018	import	0x40210b	KERNEL32.dll.CloseHandle
+0x4021cd	0x414034	import	0x40210b	KERNEL32.dll.GetLastError
+0x4021d4	0x417468	string	0x40210b	CmdExe : ShellExecuteEx error %d
+0x402211	0x4141d0	import	0x4021ee	USER32.dll.GetWindowThreadProcessId
+0x402246	0x4141cc	import	0x4021ee	USER32.dll.GetWindowTextA
+0x40225a	0x41748c	string	0x4021ee	[EnumWindow] Pid[%d] - hwnd[%X], %s
+0x40226e	0x4141c8	import	0x4021ee	USER32.dll.PostMessageA
+0x402278	0x4141c4	import	0x4021ee	USER32.dll.GetWindow
+0x4022af	0x41404c	import	0x402290	KERNEL32.dll.CreateToolhelp32Snapshot
+0x4022bc	0x4174b0	string	0x402290	KillProc : CreateToolhelp32Snapshot Fail
+0x4022dc	0x414050	import	0x402290	KERNEL32.dll.Process32First
+0x4022e6	0x4174dc	string	0x402290	KillProc : Process32First Fail
+0x4022f2	0x414018	import	0x402290	KERNEL32.dll.CloseHandle
+0x402312	0x414054	import	0x402290	KERNEL32.dll.OpenProcess
+0x40231d	0x4174fc	string	0x402290	KillProc : %s OpenProcess Fail
+0x40232e	0x41405c	import	0x402290	KERNEL32.dll.TerminateProcess
+0x402336	0x402377	string	0x402290	ShDuA
+0x40233d	0x41751c	string	0x402290	KillProc : %s TerminateProcess Succ[%d]
+0x402350	0x414058	import	0x402290	KERNEL32.dll.Process32Next
+0x40235b	0x414018	import	0x402290	KERNEL32.dll.CloseHandle
+0x4023d9	0x414018	import	0x402388	KERNEL32.dll.CloseHandle
+0x40267f	0x41757c	string	0x402669	DownloadProc
+0x402696	0x41758c	string	0x402669	DownloadProc : DOWNCTRL_RUN_EXE
+0x4026a9	0x4175ac	string	0x402669	DownloadProc : DOWNCTRL_CMD_ACTION
+0x4026ca	0x4175d0	string	0x402669	s_%s
+0x4026dc	0x4175d8	string	0x402669	f_%s
+0x4026fe	0x4175e0	string	0x402669	DownloadProc : DOWNCTRL_INSTALL_ERROR
+0x402749	0x417608	string	0x402669	DownloadProc : DownloadphpName = %s
+0x402753	0x414040	import	0x402669	KERNEL32.dll.DeleteFileA
+0x40277a	0x41762c	string	0x402669	DownloadProc : NaverDown Err
+0x4028fb	0x417730	string	0x4028e8	UploadProc : Start!!!
+0x40290a	0x4140c8	import	0x4028e8	KERNEL32.dll.GetLocalTime
+0x4029be	0x417748	string	0x4028e8	STKYL
+0x402ab4	0x417780	string	0x4028e8	UploadProc : %s EncodeFile failed
+0x402ac4	0x4177a4	string	0x4028e8	UploadProc : UploadFile Err
+0x402ad1	0x414040	import	0x4028e8	KERNEL32.dll.DeleteFileA
+0x402b12	0x4141a8	import	0x402af2	SHELL32.dll.SHGetFolderPathA
+0x402b24	0x4141b4	import	0x402af2	SHLWAPI.dll.PathIsDirectoryA
+0x402b30	0x4140d0	import	0x402af2	KERNEL32.dll.CreateDirectoryA
+0x402b43	0x4162b0	string	0x402af2	%s\%s
+0x402b5a	0x4141b4	import	0x402af2	SHLWAPI.dll.PathIsDirectoryA
+0x402b66	0x4140d0	import	0x402af2	KERNEL32.dll.CreateDirectoryA
+0x402df4	0x4177c0	string	0x402dd7	Global\MutexCommABC
+0x402dfe	0x414078	import	0x402dd7	KERNEL32.dll.CreateMutexA
+0x402e13	0x4140cc	import	0x402dd7	KERNEL32.dll.Sleep
+0x402e1e	0x4177d4	string	0x402dd7	PreCommProc : Start!
+0x402e31	0x4177ec	string	0x402dd7	PreCommProc : g_wDownControlOption(%d)
+0x402e4a	0x414074	import	0x402dd7	KERNEL32.dll.CreateEventA
+0x402e50	0x41403c	import	0x402dd7	KERNEL32.dll.FindFirstFileA
+0x402e6c	0x417814	string	0x402dd7	PreCommProc : Install Service Ok!
+0x402e8c	0x417838	string	0x402dd7	PreCommProc : Install Service Failed!
+0x402ea9	0x417860	string	0x402dd7	PreCommProc : DownloadProc failed
+0x402ebd	0x417884	string	0x402dd7	PreCommProc : UploadProc failed
+0x402ed3	0x414048	import	0x402dd7	KERNEL32.dll.WaitForSingleObject
+0x402eda	0x41407c	import	0x402dd7	KERNEL32.dll.ReleaseMutex
+0x402ee1	0x414018	import	0x402dd7	KERNEL32.dll.CloseHandle
+0x402ee8	0x414080	import	0x402dd7	KERNEL32.dll.ExitProcess
+0x4037b0	0x4037ba	string	0x403778	<a|\b<f
+0x4037b4	0x4037ba	string	0x403778	<a|\b<f
+0x4037d9	0x4037e3	string	0x403778	<a|\b<f
+0x4037dd	0x4037e3	string	0x403778	<a|\b<f
+0x403874	0x414084	import	0x403829	KERNEL32.dll.GetTickCount
+0x403a8f	0x4178a4	string	0x403a59	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x403aa0	0x4178dc	string	0x403a59	Host: static.nid.naver.com
+0x403ab0	0x4178f8	string	0x403a59	Upgrade-Insecure-Requests: 1
+0x403ac1	0x417918	string	0x403a59	Connection: keep-alive
+0x403ad1	0x417930	string	0x403a59	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0x403ae4	0x4179a4	string	0x403a59	static.nid.naver.com
+0x403af2	0x4179bc	string	0x403a59	/enclogin/nid_t.nvr
+0x403afa	0x417a28	string	0x403a59	wininet.dll
+0x403b01	0x4179d0	string	0x403a59	text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+0x403b15	0x4140dc	import	0x403a59	KERNEL32.dll.LoadLibraryA
+0x403b24	0x417a34	string	0x403a59	InternetOpenA
+0x403b2a	0x4140d4	import	0x403a59	KERNEL32.dll.GetProcAddress
+0x403b55	0x4141dc	import	0x403a59	WININET.dll.InternetConnectA
+0x403b65	0x417a44	string	0x403a59	Login_RecvNId_T : InternetConnect failed
+0x403e10	0x4178a4	string	0x403dd9	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x403e23	0x417b5c	string	0x403dd9	Host: nid.naver.com
+0x403e2e	0x417b80	string	0x403dd9	Referer: https://nid.naver.com/nidlogin.login?url=http%3A%2F%2Fmail.naver.com%2F
+0x403e3f	0x417930	string	0x403dd9	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0x403e4f	0x417b70	string	0x403dd9	nid.naver.com
+0x403e69	0x417bd4	string	0x403dd9	/login/ext/keys_js2.nhn
+0x403ea1	0x4141dc	import	0x403dd9	WININET.dll.InternetConnectA
+0x403eb1	0x414034	import	0x403dd9	KERNEL32.dll.GetLastError
+0x403eb8	0x417bf0	string	0x403dd9	Login_RecvGetKeys : InternetConnect failed. %d
+0x40448b	0x4178a4	string	0x404449	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x40449c	0x417b80	string	0x404449	Referer: https://nid.naver.com/nidlogin.login?url=http%3A%2F%2Fmail.naver.com%2F
+0x4044b6	0x417d74	string	0x404449	Content-Type: application/x-www-form-urlencoded
+0x4044c6	0x417b5c	string	0x404449	Host: nid.naver.com
+0x4044d1	0x417da4	string	0x404449	Origin: https://nid.naver.com
+0x4044e9	0x417dc4	string	0x404449	Cache-Control: max-age=0
+0x404513	0x417de0	string	0x404449	Login_PostPWDpage : GetEncPWD failed
+0x404524	0x417e08	string	0x404449	enctp=2&encpw=
+0x404588	0x417e18	string	0x404449	&encnm=
+0x4045d0	0x417e20	string	0x404449	&svctype=0&svc=&viewtype=0&locale=ko_KR&postDataKey=&smart_LEVEL=1&logintp=&url=http%3A%2F%2Fmail.naver.com%2F&localechange=&theme_mode=&ls=&xid=&pre_id=&resp=&exp=&ru=&id=&pw=
+0x4045ed	0x417ed8	string	0x404449	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)
+0x4045fd	0x417b70	string	0x404449	nid.naver.com
+0x40460a	0x417f78	string	0x404449	/nidlogin.login
+0x404627	0x4179d0	string	0x404449	text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+0x404653	0x4141dc	import	0x404449	WININET.dll.InternetConnectA
+0x404663	0x414034	import	0x404449	KERNEL32.dll.GetLastError
+0x40466a	0x417f88	string	0x404449	Login_PostPWDpage : InternetConnect failed. %d
+0x404688	0x417a70	string	0x404449	HTTP/1.1
+0x404691	0x417fb8	string	0x404449	POST
+0x40469c	0x4141e0	import	0x404449	WININET.dll.HttpOpenRequestA
+0x4046ac	0x414034	import	0x404449	KERNEL32.dll.GetLastError
+0x4046b3	0x417fc0	string	0x404449	Login_PostPWDpage : HttpOpenRequest failed. %d
+0x4046e1	0x417ff0	string	0x404449	%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s
+0x4046ec	0x418008	string	0x404449	POST
+0x40474b	0x417ac4	string	0x404449	HTTP/1.1
+0x404754	0x417ad0	string	0x404449	User-Agent:
+0x4047a8	0x417ae0	string	0x404449	Accept:
+0x404815	0x4141f4	import	0x404449	WININET.dll.HttpSendRequestA
+0x40481d	0x404835	string	0x404449	jd^V
+0x40481f	0x417aec	string	0x404449	////////////// Response Headers getting failure //////////
+0x404829	0x418010	string	0x404449	Login_PostPWDpage : HttpSendRequest failed
+0x404862	0x4141e4	import	0x404449	WININET.dll.HttpQueryInfoA
+0x404870	0x414034	import	0x404449	KERNEL32.dll.GetLastError
+0x4048dd	0x4141e8	import	0x404449	WININET.dll.InternetQueryDataAvailable
+0x404923	0x4141ec	import	0x404449	WININET.dll.InternetReadFile
+0x4049af	0x4048d0	string	0x404449	SSh\
+0x4049bb	0x4141f0	import	0x404449	WININET.dll.InternetCloseHandle
+0x4049de	0x41803c	string	0x404449	"mailSN":
+0x404a23	0x418048	string	0x404449	"subject":"f_%s"
+0x404a2a	0x414034	import	0x404449	KERNEL32.dll.GetLastError
+0x404a31	0x417c80	string	0x404449	Login_RecvGetKeys : InternetQueryDataAvailable error. %d
+0x404a3b	0x414034	import	0x404449	KERNEL32.dll.GetLastError
+0x404a42	0x417cbc	string	0x404449	Login_RecvGetKeys : InternetReadFile failed. %d
+0x404a4c	0x41805c	string	0x404449	"subject":"s_%s"
+0x404a5a	0x41bf00	string	0x404449	123456789
+0x404a65	0x418070	string	0x404449	"subject":"%s"
+0x404c29	0x418080	string	0x404449	MailSN value For <%s>: mailSN = %s, id = %s
+0x404c3f	0x4180ac	string	0x404449	MailSN not found. <%s>
+0x404ca7	0x4178a4	string	0x404c74	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x404cb8	0x4180c4	string	0x404c74	Host: mail.naver.com
+0x404cc6	0x4180dc	string	0x404c74	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x404cd7	0x418118	string	0x404c74	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x404ce7	0x41818c	string	0x404c74	mail.naver.com
+0x404cf8	0x41819c	string	0x404c74	/file/download/each/?attachType=normal&mailSN=
+0x404d6e	0x4181cc	string	0x404c74	&attachIndex=2&virus=1&domain=mail.naver.com&u=
+0x404d73	0x41c008	string	0x404c74	poewt25
+0x404daf	0x4179d0	string	0x404c74	text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+0x404ddc	0x4141dc	import	0x404c74	WININET.dll.InternetConnectA
+0x404dec	0x4181fc	string	0x404c74	MailDownLoading : InternetConnect failed
+0x404e0b	0x417a70	string	0x404c74	HTTP/1.1
+0x404e1d	0x4141e0	import	0x404c74	WININET.dll.HttpOpenRequestA
+0x404e2d	0x418228	string	0x404c74	MailDownLoading : HttpOpenRequest failed
+0x404e4c	0x417570	string	0x404c74	%s\r\n%s\r\n%s
+0x404e57	0x417abc	string	0x404c74	GET
+0x404eb8	0x417ac4	string	0x404c74	HTTP/1.1
+0x404ec1	0x417ad0	string	0x404c74	User-Agent:
+0x404f15	0x417ae0	string	0x404c74	Accept:
+0x404f77	0x4141f4	import	0x404c74	WININET.dll.HttpSendRequestA
+0x404f7f	0x404f97	string	0x404c74	jd^V
+0x404f81	0x417aec	string	0x404c74	////////////// Response Headers getting failure //////////
+0x404f8b	0x418254	string	0x404c74	MailDownLoading : HttpSendRequest failed
+0x404fc4	0x4141e4	import	0x404c74	WININET.dll.HttpQueryInfoA
+0x404fd2	0x414034	import	0x404c74	KERNEL32.dll.GetLastError
+0x405033	0x4141e8	import	0x404c74	WININET.dll.InternetQueryDataAvailable
+0x405079	0x4141ec	import	0x404c74	WININET.dll.InternetReadFile
+0x405107	0x405026	string	0x404c74	SSh\
+0x40510c	0x414034	import	0x404c74	KERNEL32.dll.GetLastError
+0x405113	0x417c80	string	0x404c74	Login_RecvGetKeys : InternetQueryDataAvailable error. %d
+0x405123	0x414034	import	0x404c74	KERNEL32.dll.GetLastError
+0x40512a	0x417cbc	string	0x404c74	Login_RecvGetKeys : InternetReadFile failed. %d
+0x405137	0x414040	import	0x404c74	KERNEL32.dll.DeleteFileA
+0x40513d	0x418280	string	0x404c74	Saving download result...
+0x40518f	0x41829c	string	0x404c74	Mail Download OK!!!
+0x4051a2	0x4141f0	import	0x404c74	WININET.dll.InternetCloseHandle
+0x40520b	0x4178a4	string	0x4051d8	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x40521c	0x4180c4	string	0x4051d8	Host: mail.naver.com
+0x40522a	0x4180dc	string	0x4051d8	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x405238	0x4182b0	string	0x4051d8	charset: utf-8
+0x405249	0x4182c0	string	0x4051d8	Origin: https://mail.naver.com
+0x405259	0x4182e0	string	0x4051d8	X-Requested-With: XMLHttpRequest
+0x40526a	0x418304	string	0x4051d8	Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+0x40527d	0x418118	string	0x4051d8	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x40528d	0x41818c	string	0x4051d8	mail.naver.com
+0x40529e	0x418344	string	0x4051d8	/json/select/delete/
+0x4052a9	0x41835c	string	0x4051d8	mailSNList=
+0x405326	0x418368	string	0x4051d8	&deleteSpamDirect=-1&currentFolderType=etc&folderSNList=0&u=
+0x405336	0x41c008	string	0x4051d8	poewt25
+0x4053a5	0x4141dc	import	0x4051d8	WININET.dll.InternetConnectA
+0x4053b5	0x4183a8	string	0x4051d8	Deleting : InternetConnect failed
+0x4053d5	0x417a70	string	0x4051d8	HTTP/1.1
+0x4053de	0x417fb8	string	0x4051d8	POST
+0x4053e4	0x4141e0	import	0x4051d8	WININET.dll.HttpOpenRequestA
+0x4053f4	0x4183cc	string	0x4051d8	Deleting : HttpOpenRequest failed
+0x405429	0x4183f0	string	0x4051d8	%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s
+0x405434	0x418008	string	0x4051d8	POST
+0x405493	0x417ac4	string	0x4051d8	HTTP/1.1
+0x40549c	0x417ad0	string	0x4051d8	User-Agent:
+0x4054f0	0x417ae0	string	0x4051d8	Accept:
+0x40555d	0x4141f4	import	0x4051d8	WININET.dll.HttpSendRequestA
+0x405565	0x40557d	string	0x4051d8	jd^V
+0x405567	0x417aec	string	0x4051d8	////////////// Response Headers getting failure //////////
+0x405571	0x41840c	string	0x4051d8	Deleting : HttpSendRequest failed
+0x4055aa	0x4141e4	import	0x4051d8	WININET.dll.HttpQueryInfoA
+0x4055b8	0x414034	import	0x4051d8	KERNEL32.dll.GetLastError
+0x405607	0x4141f0	import	0x4051d8	WININET.dll.InternetCloseHandle
+0x40566b	0x4178a4	string	0x405638	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x40567c	0x4180dc	string	0x405638	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x40568d	0x418304	string	0x405638	Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+0x4056a0	0x4180c4	string	0x405638	Host: mail.naver.com
+0x4056ae	0x418430	string	0x405638	orderType=new&lists=&charset=&u=
+0x4056e1	0x41c008	string	0x405638	poewt25
+0x405725	0x418118	string	0x405638	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x405735	0x41818c	string	0x405638	mail.naver.com
+0x405743	0x418454	string	0x405638	/json/write/
+0x40578c	0x4141dc	import	0x405638	WININET.dll.InternetConnectA
+0x40579c	0x418464	string	0x405638	PreUploading : InternetConnect failed
+0x4057bb	0x417a70	string	0x405638	HTTP/1.1
+0x4057c4	0x417fb8	string	0x405638	POST
+0x4057ca	0x4141e0	import	0x405638	WININET.dll.HttpOpenRequestA
+0x4057da	0x41848c	string	0x405638	PreUploading : HttpOpenRequest failed
+0x405800	0x417aac	string	0x405638	%s\r\n%s\r\n%s\r\n%s
+0x40580b	0x418008	string	0x405638	POST
+0x40586a	0x417ac4	string	0x405638	HTTP/1.1
+0x405873	0x417ad0	string	0x405638	User-Agent:
+0x4058c7	0x417ae0	string	0x405638	Accept:
+0x405934	0x4141f4	import	0x405638	WININET.dll.HttpSendRequestA
+0x40593c	0x405954	string	0x405638	jd^V
+0x40593e	0x417aec	string	0x405638	////////////// Response Headers getting failure //////////
+0x405948	0x4184b4	string	0x405638	PreUploading : HttpSendRequest failed
+0x405981	0x4141e4	import	0x405638	WININET.dll.HttpQueryInfoA
+0x40598f	0x414034	import	0x405638	KERNEL32.dll.GetLastError
+0x4059f0	0x4141e8	import	0x405638	WININET.dll.InternetQueryDataAvailable
+0x405a36	0x4141ec	import	0x405638	WININET.dll.InternetReadFile
+0x405aca	0x4059e3	string	0x405638	SSh\
+0x405acf	0x414034	import	0x405638	KERNEL32.dll.GetLastError
+0x405ad6	0x417c80	string	0x405638	Login_RecvGetKeys : InternetQueryDataAvailable error. %d
+0x405ae6	0x414034	import	0x405638	KERNEL32.dll.GetLastError
+0x405aed	0x417cbc	string	0x405638	Login_RecvGetKeys : InternetReadFile failed. %d
+0x405afa	0x4141f0	import	0x405638	WININET.dll.InternetCloseHandle
+0x405b12	0x4184dc	string	0x405638	"attachId":"
+0x405b7a	0x4184ec	string	0x405638	PreUploading : lpAttachID = %s
+0x405bd3	0x4178a4	string	0x405ba0	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x405be4	0x4180dc	string	0x405ba0	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x405bf2	0x41850c	string	0x405ba0	Content-Type:
+0x405c4a	0x4180c4	string	0x405ba0	Host: mail.naver.com
+0x405c58	0x4182c0	string	0x405ba0	Origin: https://mail.naver.com
+0x405c68	0x41851c	string	0x405ba0	indexNum: 1
+0x405c8b	0x41bf00	string	0x405ba0	123456789
+0x405c90	0x418528	string	0x405ba0	fileName: %s.dat
+0x405ca5	0x41853c	string	0x405ba0	attachID:
+0x405cf7	0x418548	string	0x405ba0	type:
+0x405d48	0x418550	string	0x405ba0	fileSize:
+0x405d8b	0x41855c	string	0x405ba0	getting the attachFile handle error in uploading step-1
+0x405da5	0x408d34	string	0x405ba0	j\fhp
+0x405df0	0x418598	string	0x405ba0	file buffer malloc error in uploading step-1
+0x405e9e	0x418118	string	0x405ba0	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x405eae	0x41818c	string	0x405ba0	mail.naver.com
+0x405ebf	0x4185cc	string	0x405ba0	/json/write/file/uploadByXHR
+0x405f01	0x4141dc	import	0x405ba0	WININET.dll.InternetConnectA
+0x405f11	0x4185ec	string	0x405ba0	uploading step-1 : InternetConnect failed
+0x405f29	0x417a70	string	0x405ba0	HTTP/1.1
+0x405f32	0x417fb8	string	0x405ba0	POST
+0x405f38	0x4141e0	import	0x405ba0	WININET.dll.HttpOpenRequestA
+0x405f48	0x418618	string	0x405ba0	uploading step-1 : HttpOpenRequest failed.
+0x405f98	0x418648	string	0x405ba0	%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s
+0x405fa3	0x418008	string	0x405ba0	POST
+0x406002	0x417ac4	string	0x405ba0	HTTP/1.1
+0x40600b	0x417ad0	string	0x405ba0	User-Agent:
+0x40605f	0x417ae0	string	0x405ba0	Accept:
+0x4060cb	0x4141f4	import	0x405ba0	WININET.dll.HttpSendRequestA
+0x4060d3	0x4060fa	string	0x405ba0	jd^V
+0x4060d5	0x414034	import	0x405ba0	KERNEL32.dll.GetLastError
+0x4060dc	0x418670	string	0x405ba0	uploading step-1 : HttpSendRequest failed. Err[%d]
+0x4060e6	0x417aec	string	0x405ba0	////////////// Response Headers getting failure //////////
+0x406127	0x4141e4	import	0x405ba0	WININET.dll.HttpQueryInfoA
+0x406135	0x414034	import	0x405ba0	KERNEL32.dll.GetLastError
+0x4061ae	0x4141e8	import	0x405ba0	WININET.dll.InternetQueryDataAvailable
+0x4061f4	0x4141ec	import	0x405ba0	WININET.dll.InternetReadFile
+0x406282	0x4061a1	string	0x405ba0	SSh\
+0x406287	0x414034	import	0x405ba0	KERNEL32.dll.GetLastError
+0x40628e	0x417c80	string	0x405ba0	Login_RecvGetKeys : InternetQueryDataAvailable error. %d
+0x40629d	0x414034	import	0x405ba0	KERNEL32.dll.GetLastError
+0x4062a4	0x417cbc	string	0x405ba0	Login_RecvGetKeys : InternetReadFile failed. %d
+0x4062b1	0x4141f0	import	0x405ba0	WININET.dll.InternetCloseHandle
+0x40632e	0x4186ac	string	0x405ba0	Uploading : aSize = %s
+0x40638b	0x4178a4	string	0x406354	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x40639c	0x4180dc	string	0x406354	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x4063ad	0x418304	string	0x406354	Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+0x4063c0	0x4180c4	string	0x406354	Host: mail.naver.com
+0x4063cb	0x4182b0	string	0x406354	charset: utf-8
+0x4063dc	0x4182c0	string	0x406354	Origin: https://mail.naver.com
+0x4063ec	0x4182e0	string	0x406354	X-Requested-With: XMLHttpRequest
+0x4063fa	0x4186c4	string	0x406354	senderName=hot&to=chioekang59%40daum.net%3B&cc=&bcc=&subject=
+0x40641b	0x41bf00	string	0x406354	123456789
+0x40645f	0x418708	string	0x406354	&body=%3Chtml%3E%3Chead%3E%3Cstyle%3Ep%7Bmargin-top%3A0px%3Bmargin-bottom%3A0px%3B%7D%3C%2Fstyle%3E%3C%2Fhead%3E%3Cbody%3E%3Cdiv%20style%3D%22font-size%3A10pt%3B%20font-family%3AGulim%2C%20sans-serif%3B%22%3E%3Cp%3E
+0x4064a4	0x4187e0	string	0x406354	%3C%2Fp%3E%3C%2Fdiv%3E%3C%2Fbody%3E%3C%2Fhtml%3E&contentType=html&sendSeparately=false&saveSentBox=true&type=new&fromMe=0&attachID=
+0x4064e9	0x418868	string	0x406354	&reserveDate=&reserveGMT=&reserveTime=&calendarVal=&autoSaveMailSN=&attachCount=1&attachSize=
+0x406537	0x4188c8	string	0x406354	&bigfile=0&sessionID=&seqNums=&priority=0&ndriveFileInfos=&threadId=&savedType=new&savedLists=&marked=false&lists=&serviceID=&bigfileCount=0&uploaderType=html5&bigfileNotice=false&bigfileHost=bigfile.mail.naver.com&replaceImageUrl=&u=
+0x406549	0x41c008	string	0x406354	poewt25
+0x40658b	0x418118	string	0x406354	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x40659b	0x41818c	string	0x406354	mail.naver.com
+0x4065ac	0x4189b4	string	0x406354	/json/write/send/?aId=
+0x406613	0x4189cc	string	0x406354	&aCount=1&aSize=
+0x406683	0x4141dc	import	0x406354	WININET.dll.InternetConnectA
+0x406693	0x4189e0	string	0x406354	UploadSending : InternetConnect failed
+0x4066b3	0x417a70	string	0x406354	HTTP/1.1
+0x4066bf	0x417fb8	string	0x406354	POST
+0x4066ca	0x4141e0	import	0x406354	WININET.dll.HttpOpenRequestA
+0x4066da	0x418a08	string	0x406354	UploadSending : HttpOpenRequest failed
+0x40670c	0x4183f0	string	0x406354	%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s
+0x406717	0x418008	string	0x406354	POST
+0x406779	0x417ac4	string	0x406354	HTTP/1.1
+0x406782	0x417ad0	string	0x406354	User-Agent:
+0x4067d6	0x417ae0	string	0x406354	Accept:
+0x406843	0x4141f4	import	0x406354	WININET.dll.HttpSendRequestA
+0x40684b	0x406863	string	0x406354	jd^V
+0x40684d	0x417aec	string	0x406354	////////////// Response Headers getting failure //////////
+0x406857	0x418a30	string	0x406354	UploadSending : HttpSendRequest failed
+0x406890	0x4141e4	import	0x406354	WININET.dll.HttpQueryInfoA
+0x40689e	0x414034	import	0x406354	KERNEL32.dll.GetLastError
+0x4068ed	0x4141f0	import	0x406354	WININET.dll.InternetCloseHandle
+0x406954	0x4178a4	string	0x40691e	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x406965	0x4180dc	string	0x40691e	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x406976	0x418304	string	0x40691e	Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+0x406989	0x4180c4	string	0x40691e	Host: mail.naver.com
+0x406997	0x4182c0	string	0x40691e	Origin: https://mail.naver.com
+0x4069a7	0x4182b0	string	0x40691e	charset: utf-8
+0x4069b8	0x4182e0	string	0x40691e	X-Requested-With: XMLHttpRequest
+0x4069c9	0x418a58	string	0x40691e	useContactListJsonString=%5B%7B%22contactNo%22%3A0%2C%22content%22%3A%22chioekang59%40daum.net%22%2C%22name%22%3A%22%22%2C%22type%22%3A%22EMAIL%22%7D%5D&version=5.0&serviceTypeCode=MAIL
+0x4069ed	0x418118	string	0x40691e	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x4069fd	0x41818c	string	0x40691e	mail.naver.com
+0x406a0e	0x418b14	string	0x40691e	/addressComponent/useContact.nhn
+0x406a56	0x4141dc	import	0x40691e	WININET.dll.InternetConnectA
+0x406a66	0x418b38	string	0x40691e	UploadDone : InternetConnect failed
+0x406a85	0x417a70	string	0x40691e	HTTP/1.1
+0x406a8e	0x417fb8	string	0x40691e	POST
+0x406a94	0x4141e0	import	0x40691e	WININET.dll.HttpOpenRequestA
+0x406aa4	0x418b5c	string	0x40691e	UploadDone : HttpOpenRequest failed
+0x406adc	0x4183f0	string	0x40691e	%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s\r\n%s
+0x406ae7	0x418008	string	0x40691e	POST
+0x406b46	0x417ac4	string	0x40691e	HTTP/1.1
+0x406b4f	0x417ad0	string	0x40691e	User-Agent:
+0x406ba3	0x417ae0	string	0x40691e	Accept:
+0x406c10	0x4141f4	import	0x40691e	WININET.dll.HttpSendRequestA
+0x406c18	0x406c30	string	0x40691e	jd^V
+0x406c1a	0x417aec	string	0x40691e	////////////// Response Headers getting failure //////////
+0x406c24	0x418b84	string	0x40691e	UploadDone : HttpSendRequest failed
+0x406c5d	0x4141e4	import	0x40691e	WININET.dll.HttpQueryInfoA
+0x406c6b	0x414034	import	0x40691e	KERNEL32.dll.GetLastError
+0x406ccc	0x4141e8	import	0x40691e	WININET.dll.InternetQueryDataAvailable
+0x406d12	0x4141ec	import	0x40691e	WININET.dll.InternetReadFile
+0x406da6	0x406cbf	string	0x40691e	SSh\
+0x406dab	0x414034	import	0x40691e	KERNEL32.dll.GetLastError
+0x406db2	0x417c80	string	0x40691e	Login_RecvGetKeys : InternetQueryDataAvailable error. %d
+0x406dc2	0x414034	import	0x40691e	KERNEL32.dll.GetLastError
+0x406dc9	0x417cbc	string	0x40691e	Login_RecvGetKeys : InternetReadFile failed. %d
+0x406dd6	0x4141f0	import	0x40691e	WININET.dll.InternetCloseHandle
+0x406dee	0x418bac	string	0x40691e	"message":"
+0x406e55	0x418bb8	string	0x40691e	UploadDone : responseMailMessage = %s
+0x406eb3	0x4178a4	string	0x406e7b	Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+0x406ec2	0x4180dc	string	0x406e7b	Referer: https://mail.naver.com/?n=1519882513612&v=f
+0x406ed3	0x418304	string	0x406e7b	Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+0x406ee8	0x417b5c	string	0x406e7b	Host: nid.naver.com
+0x406ef3	0x4182c0	string	0x406e7b	Origin: https://mail.naver.com
+0x406f03	0x418118	string	0x406e7b	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+0x406f13	0x417b70	string	0x406e7b	nid.naver.com
+0x406f2d	0x418be0	string	0x406e7b	/nidlogin.logout?returl=http://mail.naver.com/login
+0x406f38	0x4179d0	string	0x406e7b	text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+0x406f61	0x4141dc	import	0x406e7b	WININET.dll.InternetConnectA
+0x406f71	0x418c14	string	0x406e7b	LogOut : InternetConnect failed
+0x406f91	0x417a70	string	0x406e7b	HTTP/1.1
+0x406fa0	0x4141e0	import	0x406e7b	WININET.dll.HttpOpenRequestA
+0x406fb0	0x418c34	string	0x406e7b	LogOut : HttpOpenRequest failed
+0x406fda	0x418c58	string	0x406e7b	%s\r\n%s\r\n%s\r\n%s\r\n%s
+0x406fe5	0x417abc	string	0x406e7b	GET
+0x407043	0x417ac4	string	0x406e7b	HTTP/1.1
+0x40704c	0x417ad0	string	0x406e7b	User-Agent:
+0x4070a0	0x417ae0	string	0x406e7b	Accept:
+0x407102	0x4141f4	import	0x406e7b	WININET.dll.HttpSendRequestA
+0x40710a	0x407122	string	0x406e7b	jd^V
+0x40710c	0x417aec	string	0x406e7b	////////////// Response Headers getting failure //////////
+0x407116	0x418c6c	string	0x406e7b	LogOut : HttpSendRequest failed
+0x40714f	0x4141e4	import	0x406e7b	WININET.dll.HttpQueryInfoA
+0x40715d	0x414034	import	0x406e7b	KERNEL32.dll.GetLastError
+0x4071ac	0x4141f0	import	0x406e7b	WININET.dll.InternetCloseHandle
+0x4071ef	0x414084	import	0x4071dd	KERNEL32.dll.GetTickCount
+0x4071fb	0x4140cc	import	0x4071dd	KERNEL32.dll.Sleep
+0x40720a	0x4072b3	string	0x4071dd	W3\r}
+0x40721a	0x418c90	string	0x4071dd	NaverDown : Login_RecvNId_T failed. Try[%d]
+0x40723a	0x418cbc	string	0x4071dd	NaverDown : Login_RecvId_T success
+0x407251	0x418ce0	string	0x4071dd	NaverDown : Login_RecvGetKeys failed. Try[%d]
+0x40726c	0x418d10	string	0x4071dd	NaverDown : Login_RecvIdPageandGetParams success
+0x407283	0x418d44	string	0x4071dd	NaverDown : Login_PostPWDpage failed. Try[%d]
+0x40729e	0x418d74	string	0x4071dd	NaverDown : Login_PostPWDpage success
+0x4072d0	0x418d9c	string	0x4071dd	NaverDown : Login_PostIDinfoandRecvPWDpage success
+0x4072e7	0x418dd0	string	0x4071dd	NaverDown : MailDownload failed. Try[%d]
+0x407305	0x418dfc	string	0x4071dd	NaverDown : MailDownload success
+0x40731c	0x418e20	string	0x4071dd	NaverDown :Deleting failed. Try[%d]
+0x407337	0x418e44	string	0x4071dd	NaverDown :Deleting success
+0x40735a	0x418e60	string	0x407353	log.dat
+0x407369	0x418e68	string	0x407353	NaverUpload Start!!
+0x4073ad	0x4140cc	import	0x407353	KERNEL32.dll.Sleep
+0x4073ce	0x418e7c	string	0x407353	NaverUpload : Login_RecvNId_T failed. Try[%d]
+0x4073ea	0x418eac	string	0x407353	NaverUpload : Login_RecvId_T success
+0x407401	0x418ed4	string	0x407353	NaverUpload : Login_RecvGetKeys failed. Try[%d]
+0x407418	0x418f04	string	0x407353	NaverUpload : Login_RecvGetKeys success
+0x40742f	0x418f2c	string	0x407353	NaverUpload : Login_PostPWDpage failed. Try[%d]
+0x407446	0x418f5c	string	0x407353	NaverUpload : Login_PostPWDpage success
+0x407451	0x418f84	string	0x407353	NaverUpload : Login_PostIDinfoandRecvPWDpage success
+0x407472	0x418fbc	string	0x407353	NaverUpload :PreUploading failed. Try[%d]
+0x40748c	0x418fe8	string	0x407353	NaverUpload :PreUploading success
+0x4074ac	0x41900c	string	0x407353	NaverUpload :Uploading failed. Try[%d]
+0x4074c9	0x419034	string	0x407353	NaverUpload :Uploading success
+0x4074e3	0x419054	string	0x407353	NaverUpload :UploadSending failed. Try[%d]
+0x4074fd	0x419080	string	0x407353	NaverUpload :UploadSending success
+0x40751e	0x4190a4	string	0x407353	NaverUpload :UploadDone failed. Try[%d]
+0x407535	0x4190cc	string	0x407353	main :UploadDone success
+0x40755e	0x4190e8	string	0x407353	Naverupload : LogOut failed. Try[%d]
+0x407575	0x419110	string	0x407353	Naverupload : LogOut success
+0x4076a2	0x414008	import	0x40759c	ADVAPI32.dll.RegCreateKeyExA
+0x4076db	0x414004	import	0x40759c	ADVAPI32.dll.RegSetValueExA
+0x4076f1	0x414000	import	0x40759c	ADVAPI32.dll.RegCloseKey
+0x40771c	0x4141fc	import	0x40770c	dbghelp.dll.ImageDirectoryEntryToData
+0x407726	0x414034	import	0x40770c	KERNEL32.dll.GetLastError
+0x40772d	0x419138	string	0x40770c	ie_moth : [RelocateTable] ImageDirectoryEntryToData Failed. %d
+0x4077ab	0x4140dc	import	0x407793	KERNEL32.dll.LoadLibraryA
+0x4077bd	0x419178	string	0x407793	kernel32.dll
+0x4077ca	0x419188	string	0x407793	ntdll.dll
+0x4077d3	0x4140d4	import	0x407793	KERNEL32.dll.GetProcAddress
+0x4077d9	0x419194	string	0x407793	CreateProcessA
+0x4077e7	0x4191a4	string	0x407793	ZwUnmapViewOfSection
+0x4077f9	0x4191bc	string	0x407793	SetThreadContext
+0x407806	0x4191d0	string	0x407793	WriteProcessMemory
+0x407814	0x4191e4	string	0x407793	VirtualAllocEx
+0x407822	0x4191f4	string	0x407793	TerminateProcess
+0x407830	0x419208	string	0x407793	CloseHandle
+0x407897	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x40789e	0x419214	string	0x407793	[File_Mapping] CreateProcess. Err[%d]
+0x4078c7	0x414088	import	0x407793	KERNEL32.dll.GetThreadContext
+0x4078d1	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x4078d8	0x41923c	string	0x407793	GetThreadContext Failed. %d
+0x407913	0x41408c	import	0x407793	KERNEL32.dll.ReadProcessMemory
+0x40791d	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x407924	0x419258	string	0x407793	ReadProcessMemory Failed. %d
+0x407933	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x40793a	0x419278	string	0x407793	Load ntdll.dll Failed. %d
+0x407964	0x414060	import	0x407793	KERNEL32.dll.GetVersionExA
+0x4079e3	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x4079ea	0x419294	string	0x407793	VirtualAllocEx Failed. %d
+0x407ae6	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x407aed	0x4192b0	string	0x407793	WriteProcessMemory Failed. %d
+0x407b2b	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x407b32	0x4192d0	string	0x407793	3 WriteProcessMemory Failed. %d
+0x407b5e	0x414034	import	0x407793	KERNEL32.dll.GetLastError
+0x407b65	0x4192f0	string	0x407793	SetThreadContext Failed. %d
+0x407b75	0x414090	import	0x407793	KERNEL32.dll.ResumeThread
+0x407bc1	0x4140dc	import	0x407ba5	KERNEL32.dll.LoadLibraryA
+0x407bc8	0x41930c	string	0x407ba5	shell32.dll
+0x407bdf	0x419318	string	0x407ba5	Kernel32.dll
+0x407c7e	0x414094	import	0x407ba5	KERNEL32.dll.GetWindowsDirectoryA
+0x407caf	0x417568	string	0x407ba5	%s%s
+0x407cd3	0x4141b4	import	0x407ba5	SHLWAPI.dll.PathIsDirectoryA
+0x407ce6	0x4140d0	import	0x407ba5	KERNEL32.dll.CreateDirectoryA
+0x407d00	0x4162b0	string	0x407ba5	%s\%s
+0x407de1	0x419328	string	0x407ba5	Preproc : SHGetSpecialFolderPathA failed
+0x407ea0	0x414064	import	0x407ba5	KERNEL32.dll.GetModuleFileNameA
+0x407eaa	0x419354	string	0x407ba5	Preproc : GetModuleFileName failed
+0x407ecb	0x414010	import	0x407ba5	KERNEL32.dll.CreateFileA
+0x407ee6	0x414014	import	0x407ba5	KERNEL32.dll.GetFileSize
+0x407f0a	0x41401c	import	0x407ba5	KERNEL32.dll.ReadFile
+0x407f11	0x414018	import	0x407ba5	KERNEL32.dll.CloseHandle
+0x407f17	0x4140cc	import	0x407ba5	KERNEL32.dll.Sleep
+0x407f2b	0x414040	import	0x407ba5	KERNEL32.dll.DeleteFileA
+0x407f36	0x414040	import	0x407ba5	KERNEL32.dll.DeleteFileA
+0x407f52	0x419378	string	0x407ba5	PrecomProc : IE Mapping Ok!
+0x407f77	0x407f94	string	0x407ba5	h@w\e
+0x407f7b	0x4140d8	import	0x407ba5	KERNEL32.dll.WinExec
+0x407f81	0x4193e8	string	0x407ba5	PrecomProc : First ShellExecute Ok!
+0x407fa5	0x41403c	import	0x407ba5	KERNEL32.dll.FindFirstFileA
+0x407fe3	0x408012	string	0x407ba5	h@w\e
+0x407ff1	0x408012	string	0x407ba5	h@w\e
+0x407ff5	0x4140d8	import	0x407ba5	KERNEL32.dll.WinExec
+0x407ffb	0x41940c	string	0x407ba5	PrecomProc : Second Download and ShellExecute Ok!
+0x40800c	0x414040	import	0x407ba5	KERNEL32.dll.DeleteFileA
+0x408021	0x419394	string	0x407ba5	PrecomProc : IE Mapping Failed. Try %d
+0x408040	0x4193bc	string	0x407ba5	PrecomProc : IE Mapping Failed. Try over.
+0x40807a	0x419440	string	0x408065	Preproc
+0x4080a9	0x414060	import	0x408065	KERNEL32.dll.GetVersionExA
+0x4080c9	0x419448	string	0x408065	Preproc : RetrieveAPIs failed
+0x4080e2	0x419468	string	0x408065	Preproc : Initiate value for communicate failed
+0x4080f8	0x414064	import	0x408065	KERNEL32.dll.GetModuleFileNameA
+0x40810e	0x414064	import	0x408065	KERNEL32.dll.GetModuleFileNameA
+0x408124	0x419498	string	0x408065	Preproc : Exe=%s, Module=%s
+0x408140	0x4141b8	import	0x408065	SHLWAPI.dll.StrStrIA
+0x40814f	0x4194b4	string	0x408065	Preproc : fExeIsIexplore = %d
+0x4081b8	0x4162b0	string	0x408065	%s\%s
+0x4081d8	0x41406c	import	0x408065	KERNEL32.dll.CopyFileA
+0x4081f6	0x4194d4	string	0x408065	Preproc : CopyFileExA %s
+0x408210	0x4141b8	import	0x408065	SHLWAPI.dll.StrStrIA
+0x408236	0x4194f0	string	0x408065	Preproc : Copy and Replace OK. %s
+0x408242	0x40826d	string	0x408065	YYhP
+0x40825c	0x419514	string	0x408065	Preproc : %s SetupToRun ok
+0x408263	0x419530	string	0x408065	Preproc : %s SetupToRun failed
+0x40826f	0x419550	string	0x408065	Preproc : mapping self exe to iexplore process
+0x4082c5	0x414018	import	0x4082aa	KERNEL32.dll.CloseHandle
+0x4082d5	0x4195a4	string	0x4082aa	WerFault.exe
+0x4082de	0x41404c	import	0x4082aa	KERNEL32.dll.CreateToolhelp32Snapshot
+0x4082eb	0x4174b0	string	0x4082aa	KillProc : CreateToolhelp32Snapshot Fail
+0x408309	0x414050	import	0x4082aa	KERNEL32.dll.Process32First
+0x408313	0x4174dc	string	0x4082aa	KillProc : Process32First Fail
+0x408338	0x414054	import	0x4082aa	KERNEL32.dll.OpenProcess
+0x408343	0x4174fc	string	0x4082aa	KillProc : %s OpenProcess Fail
+0x408356	0x41751c	string	0x4082aa	KillProc : %s TerminateProcess Succ[%d]
+0x408375	0x4141c0	import	0x4082aa	USER32.dll.EnumChildWindows
+0x408381	0x414058	import	0x4082aa	KERNEL32.dll.Process32Next
+0x408390	0x4140cc	import	0x4082aa	KERNEL32.dll.Sleep
+0x408423	0x4141a8	import	0x4083b9	SHELL32.dll.SHGetFolderPathA
+0x408432	0x4141b4	import	0x4083b9	SHLWAPI.dll.PathIsDirectoryA
+0x40843e	0x4140d0	import	0x4083b9	KERNEL32.dll.CreateDirectoryA
+0x408457	0x4162b0	string	0x4083b9	%s\%s
+0x408475	0x4141b4	import	0x4083b9	SHLWAPI.dll.PathIsDirectoryA
+0x408483	0x4140d0	import	0x4083b9	KERNEL32.dll.CreateDirectoryA
+0x4084a0	0x4162b0	string	0x4083b9	%s\%s
+0x408536	0x4195b4	string	0x4083b9	GetHashName : WinMain
+0x408549	0x4162b0	string	0x4083b9	%s\%s
+0x408562	0x4141b4	import	0x4083b9	SHLWAPI.dll.PathIsDirectoryA
+0x40856e	0x4140d0	import	0x4083b9	KERNEL32.dll.CreateDirectoryA
+0x408581	0x4162b0	string	0x4083b9	%s\%s
+0x4092c4	0x409223	string	0x4092b1	j\fhИA blocks=Basic Latin,Cyrillic
+0x409313	0x414130	import	0x4092ce	KERNEL32.dll.HeapAlloc
+0x409378	0x414134	import	0x409362	KERNEL32.dll.HeapFree
+0x40938a	0x414034	import	0x409362	KERNEL32.dll.GetLastError
+0x4093d7	0x40e205	string	0x40939c	j\fhX
+0x40952e	0x409547	string	0x40951c	9E\ft
+0x4097ea	0x41413c	import	0x4097b7	KERNEL32.dll.GetFileAttributesA
+0x4097f5	0x414034	import	0x4097b7	KERNEL32.dll.GetLastError
+0x409856	0x414144	import	0x40984e	KERNEL32.dll.DecodePointer
+0x4098d5	0x414140	import	0x40984e	KERNEL32.dll.EncodePointer
+0x4098e3	0x414140	import	0x40984e	KERNEL32.dll.EncodePointer
+0x409915	0x414140	import	0x40984e	KERNEL32.dll.EncodePointer
+0x409a59	0x409a68	string	0x409a30	^[_3
+0x409b95	0x414150	import	0x409b5c	KERNEL32.dll.GetStartupInfoW
+0x409baa	0x41414c	import	0x409b5c	KERNEL32.dll.HeapSetInformation
+0x409c34	0x414148	import	0x409b5c	KERNEL32.dll.GetCommandLineA
+0x409c87	0x409c8f	string	0x409b5c	j\nYQPVh
+0x409db7	0x41415c	import	0x409cfe	KERNEL32.dll.IsDebuggerPresent
+0x409dcc	0x414158	import	0x409cfe	KERNEL32.dll.SetUnhandledExceptionFilter
+0x409dd7	0x414154	import	0x409cfe	KERNEL32.dll.UnhandledExceptionFilter
+0x409df3	0x414030	import	0x409cfe	KERNEL32.dll.GetCurrentProcess
+0x409dfa	0x41405c	import	0x409cfe	KERNEL32.dll.TerminateProcess
+0x40a706	0x414144	import	0x40a00d	KERNEL32.dll.DecodePointer
+0x40acb2	0x41415c	import	0x40abc8	KERNEL32.dll.IsDebuggerPresent
+0x40acbc	0x414158	import	0x40abc8	KERNEL32.dll.SetUnhandledExceptionFilter
+0x40acc9	0x414154	import	0x40abc8	KERNEL32.dll.UnhandledExceptionFilter
+0x40ad07	0x414030	import	0x40acf1	KERNEL32.dll.GetCurrentProcess
+0x40ad0e	0x41405c	import	0x40acf1	KERNEL32.dll.TerminateProcess
+0x40ad21	0x414144	import	0x40ad16	KERNEL32.dll.DecodePointer
+0x40aeed	0x414160	import	0x40aeb5	KERNEL32.dll.EnterCriticalSection
+0x40af20	0x414160	import	0x40aef6	KERNEL32.dll.EnterCriticalSection
+0x40af5c	0x414164	import	0x40af28	KERNEL32.dll.LeaveCriticalSection
+0x40af8b	0x414164	import	0x40af64	KERNEL32.dll.LeaveCriticalSection
+0x40b16b	0x4142f0	string	0x40af93	UTF-8
+0x40b18a	0x4142f8	string	0x40af93	UTF-16LE
+0x40b1a9	0x414304	string	0x40af93	UNICODE
+0x40b281	0x410889	string	0x40b22a	j\fhp
+0x40b2e6	0x414168	import	0x40b22a	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40b30f	0x414160	import	0x40b22a	KERNEL32.dll.EnterCriticalSection
+0x40b449	0x40b642	string	0x40b3c2	UVWS
+0x40b67b	0x40b686	string	0x40b672	_^[]
+0x40b7b2	0x414174	import	0x40b6a2	KERNEL32.dll.GetConsoleMode
+0x40b7d2	0x414170	import	0x40b6a2	KERNEL32.dll.GetConsoleCP
+0x40b8c2	0x4140b0	import	0x40b6a2	KERNEL32.dll.WideCharToMultiByte
+0x40b8eb	0x414020	import	0x40b6a2	KERNEL32.dll.WriteFile
+0x40b944	0x414020	import	0x40b6a2	KERNEL32.dll.WriteFile
+0x40bab2	0x414020	import	0x40b6a2	KERNEL32.dll.WriteFile
+0x40bb8c	0x414020	import	0x40b6a2	KERNEL32.dll.WriteFile
+0x40bc5c	0x4140b0	import	0x40b6a2	KERNEL32.dll.WideCharToMultiByte
+0x40bc8d	0x414020	import	0x40b6a2	KERNEL32.dll.WriteFile
+0x40bca3	0x414034	import	0x40b6a2	KERNEL32.dll.GetLastError
+0x40bce4	0x414020	import	0x40b6a2	KERNEL32.dll.WriteFile
+0x40bd03	0x414034	import	0x40b6a2	KERNEL32.dll.GetLastError
+0x40be15	0x40f5b8	string	0x40bd9f	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x40bf89	0x40bf9c	string	0x40bf23	9}\bu
+0x40c3c3	0x414018	import	0x40c371	KERNEL32.dll.CloseHandle
+0x40c3cd	0x414034	import	0x40c371	KERNEL32.dll.GetLastError
+0x40c483	0x40f5b8	string	0x40c40d	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x40c5df	0x414150	import	0x40c5d2	KERNEL32.dll.GetStartupInfoW
+0x40c613	0x40c64b	string	0x40c5d2	SWf9M
+0x40c6e3	0x40c687	string	0x40c5d2	j@j
+0x40c712	0x414180	import	0x40c5d2	KERNEL32.dll.GetFileType
+0x40c748	0x414168	import	0x40c5d2	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40c79c	0x41417c	import	0x40c5d2	KERNEL32.dll.GetStdHandle
+0x40c7ae	0x414180	import	0x40c5d2	KERNEL32.dll.GetFileType
+0x40c7dc	0x414168	import	0x40c5d2	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40c805	0x414178	import	0x40c5d2	KERNEL32.dll.SetHandleCount
+0x40c83b	0x414318	string	0x40c817	Unknown exception
+0x40c945	0x414144	import	0x40c93a	KERNEL32.dll.DecodePointer
+0x40c9a4	0x414188	import	0x40c962	KERNEL32.dll.RaiseException
+0x40c9dd	0x414038	import	0x40c9ae	KERNEL32.dll.SetFilePointer
+0x40c9ea	0x414034	import	0x40c9ae	KERNEL32.dll.GetLastError
+0x40ca99	0x40f5b8	string	0x40ca23	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x40ce0d	0x41401c	import	0x40cc19	KERNEL32.dll.ReadFile
+0x40cec3	0x41401c	import	0x40cc19	KERNEL32.dll.ReadFile
+0x40cecd	0x414034	import	0x40cc19	KERNEL32.dll.GetLastError
+0x40d007	0x4140a8	import	0x40cc19	KERNEL32.dll.MultiByteToWideChar
+0x40d014	0x414034	import	0x40cc19	KERNEL32.dll.GetLastError
+0x40d0e9	0x41401c	import	0x40cc19	KERNEL32.dll.ReadFile
+0x40d0f3	0x414034	import	0x40cc19	KERNEL32.dll.GetLastError
+0x40d193	0x414034	import	0x40cc19	KERNEL32.dll.GetLastError
+0x40d268	0x40f5b8	string	0x40d1d0	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x40d34f	0x41435c	string	0x40d34a	mscoree.dll
+0x40d354	0x41418c	import	0x40d34a	KERNEL32.dll.GetModuleHandleW
+0x40d35e	0x41434c	string	0x40d34a	CorExitProcess
+0x40d364	0x4140d4	import	0x40d34a	KERNEL32.dll.GetProcAddress
+0x40d386	0x414080	import	0x40d375	KERNEL32.dll.ExitProcess
+0x40d3dd	0x40d3ee	string	0x40d3d2	;u\fr
+0x40d4d1	0x414144	import	0x40d48d	KERNEL32.dll.DecodePointer
+0x40d6c5	0x414d34	string	0x40d65b	Runtime Error!\n\nProgram:
+0x40d6f7	0x414190	import	0x40d65b	KERNEL32.dll.GetModuleFileNameW
+0x40d706	0x414d04	string	0x40d65b	<program name unknown>
+0x40d7a9	0x41417c	import	0x40d65b	KERNEL32.dll.GetStdHandle
+0x40d7f5	0x414020	import	0x40d65b	KERNEL32.dll.WriteFile
+0x40d84c	0x414194	import	0x40d843	KERNEL32.dll.HeapCreate
+0x40d915	0x414198	import	0x40d8f4	KERNEL32.dll.GetCPInfo
+0x40db51	0x414124	import	0x40db28	KERNEL32.dll.GetOEMCP
+0x40db74	0x414128	import	0x40db28	KERNEL32.dll.GetACP
+0x40dc17	0x414120	import	0x40dba4	KERNEL32.dll.IsValidCodePage
+0x40dc2a	0x414198	import	0x40dba4	KERNEL32.dll.GetCPInfo
+0x40de03	0x41412c	import	0x40dd8d	KERNEL32.dll.InterlockedDecrement
+0x40de22	0x41419c	import	0x40dd8d	KERNEL32.dll.InterlockedIncrement
+0x40deba	0x41412c	import	0x40dd8d	KERNEL32.dll.InterlockedDecrement
+0x40df4c	0x41419c	import	0x40df45	KERNEL32.dll.InterlockedIncrement
+0x40dfe7	0x41412c	import	0x40dfd4	KERNEL32.dll.InterlockedDecrement
+0x40e280	0x414140	import	0x40e27e	KERNEL32.dll.EncodePointer
+0x40e287	0x41411c	import	0x40e27e	KERNEL32.dll.TlsAlloc
+0x40e299	0x414118	import	0x40e290	KERNEL32.dll.TlsGetValue
+0x40e2ab	0x414144	import	0x40e290	KERNEL32.dll.DecodePointer
+0x40e2ba	0x414114	import	0x40e290	KERNEL32.dll.TlsSetValue
+0x40e2d5	0x414144	import	0x40e2c4	KERNEL32.dll.DecodePointer
+0x40e2ef	0x414110	import	0x40e2c4	KERNEL32.dll.TlsFree
+0x40e312	0x41418c	import	0x40e301	KERNEL32.dll.GetModuleHandleW
+0x40e353	0x41419c	import	0x40e301	KERNEL32.dll.InterlockedIncrement
+0x40e3b9	0x414034	import	0x40e3b5	KERNEL32.dll.GetLastError
+0x40e3f5	0x414144	import	0x40e3b5	KERNEL32.dll.DecodePointer
+0x40e404	0x40e301	string	0x40e3b5	j\bhx
+0x40e40b	0x414108	import	0x40e3b5	KERNEL32.dll.GetCurrentThreadId
+0x40e423	0x41410c	import	0x40e3b5	KERNEL32.dll.SetLastError
+0x40e4e6	0x41412c	import	0x40e42e	KERNEL32.dll.InterlockedDecrement
+0x40e57f	0x41418c	import	0x40e577	KERNEL32.dll.GetModuleHandleW
+0x40e595	0x4140d4	import	0x40e577	KERNEL32.dll.GetProcAddress
+0x40e59b	0x4150f4	string	0x40e577	FlsAlloc
+0x40e5a3	0x4150e8	string	0x40e577	FlsGetValue
+0x40e5b0	0x4150dc	string	0x40e577	FlsSetValue
+0x40e5bd	0x4150d4	string	0x40e577	FlsFree
+0x40e5d1	0x414114	import	0x40e577	KERNEL32.dll.TlsSetValue
+0x40e618	0x41411c	import	0x40e577	KERNEL32.dll.TlsAlloc
+0x40e648	0x414140	import	0x40e577	KERNEL32.dll.EncodePointer
+0x40e685	0x414144	import	0x40e577	KERNEL32.dll.DecodePointer
+0x40e6d0	0x40e301	string	0x40e577	j\bhx
+0x40e6d7	0x414108	import	0x40e577	KERNEL32.dll.GetCurrentThreadId
+0x40ef18	0x414144	import	0x40e809	KERNEL32.dll.DecodePointer
+0x40f49f	0x414104	import	0x40f448	KERNEL32.dll.SetStdHandle
+0x40f4ad	0x40f4c5	string	0x40f448	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x40f525	0x414104	import	0x40f4c9	KERNEL32.dll.SetStdHandle
+0x40f533	0x40f54a	string	0x40f4c9	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x40f602	0x414168	import	0x40f5b8	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40f63a	0x414160	import	0x40f5b8	KERNEL32.dll.EnterCriticalSection
+0x40f676	0x414164	import	0x40f657	KERNEL32.dll.LeaveCriticalSection
+0x40f695	0x410889	string	0x40f67e	j\fhp
+0x40f6c7	0x40f786	string	0x40f67e	j@j
+0x40f70d	0x414168	import	0x40f67e	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x40f732	0x414160	import	0x40f67e	KERNEL32.dll.EnterCriticalSection
+0x40f73f	0x414164	import	0x40f67e	KERNEL32.dll.LeaveCriticalSection
+0x40f7eb	0x40f5b8	string	0x40f750	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x40f89a	0x4140cc	import	0x40f879	KERNEL32.dll.Sleep
+0x40f8e6	0x4140cc	import	0x40f8be	KERNEL32.dll.Sleep
+0x40f934	0x4140cc	import	0x40f90a	KERNEL32.dll.Sleep
+0x40f983	0x414100	import	0x40f958	KERNEL32.dll.HeapSize
+0x40fb9f	0x414158	import	0x40fb5a	KERNEL32.dll.SetUnhandledExceptionFilter
+0x40fbf4	0x40fcee	string	0x40fba8	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x40fc05	0x40fcee	string	0x40fba8	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x40fd4a	0x40fd41	string	0x40fcf2	< w\aF
+0x40fff3	0x414064	import	0x40ffc7	KERNEL32.dll.GetModuleFileNameA
+0x41008c	0x4140f8	import	0x410082	KERNEL32.dll.GetEnvironmentStringsW
+0x4100b4	0x4140b0	import	0x410082	KERNEL32.dll.WideCharToMultiByte
+0x410100	0x4140fc	import	0x410082	KERNEL32.dll.FreeEnvironmentStringsW
+0x41010c	0x4140fc	import	0x410082	KERNEL32.dll.FreeEnvironmentStringsW
+0x41019c	0x414138	import	0x410165	KERNEL32.dll.GetSystemTimeAsFileTime
+0x4101a8	0x4140f0	import	0x410165	KERNEL32.dll.GetCurrentProcessId
+0x4101b0	0x414108	import	0x410165	KERNEL32.dll.GetCurrentThreadId
+0x4101b8	0x414084	import	0x410165	KERNEL32.dll.GetTickCount
+0x4101c4	0x4140f4	import	0x410165	KERNEL32.dll.QueryPerformanceCounter
+0x41024a	0x414038	import	0x410208	KERNEL32.dll.SetFilePointer
+0x410257	0x414034	import	0x410208	KERNEL32.dll.GetLastError
+0x41030d	0x40f5b8	string	0x41028d	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x410422	0x414140	import	0x410416	KERNEL32.dll.EncodePointer
+0x4106cf	0x410718	string	0x4106a0	+D$\b\eT$\f
+0x410794	0x414184	import	0x410735	KERNEL32.dll.DeleteCriticalSection
+0x4107f9	0x414168	import	0x4107d1	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x41081e	0x414184	import	0x4107d1	KERNEL32.dll.DeleteCriticalSection
+0x410881	0x414164	import	0x410872	KERNEL32.dll.LeaveCriticalSection
+0x410901	0x414168	import	0x410889	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x410961	0x410889	string	0x41094b	j\fhp
+0x410975	0x414160	import	0x41094b	KERNEL32.dll.EnterCriticalSection
+0x4109c4	0x4110a7	string	0x41097e	SSSSS
+0x4111ca	0x4111f2	string	0x411196	9]\bu&虛 blocks=Basic Latin,CJK Unified Ideographs
+0x411593	0x41159f	string	0x411560	_^[]
+0x41167b	0x411688	string	0x411670	]_^[
+0x4117d9	0x4140ec	import	0x4117a7	KERNEL32.dll.WriteConsoleW
+0x4119b1	0x40f5b8	string	0x41194b	j\fhȚA blocks=Basic Latin,Latin Extended-B
+0x4119cc	0x4140e8	import	0x41194b	KERNEL32.dll.FlushFileBuffers
+0x4119d6	0x414034	import	0x41194b	KERNEL32.dll.GetLastError
+0x411aa3	0x411aee	string	0x411a1c	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x411ac8	0x411aee	string	0x411a1c	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x411ae3	0x411aee	string	0x411a1c	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x411b29	0x4140e4	import	0x411a1c	KERNEL32.dll.IsProcessorFeaturePresent
+0x411c2f	0x414140	import	0x411c2a	KERNEL32.dll.EncodePointer
+0x411c96	0x414144	import	0x411c90	KERNEL32.dll.DecodePointer
+0x411d4f	0x414144	import	0x411c9d	KERNEL32.dll.DecodePointer
+0x411e94	0x4152ec	string	0x411e5e	USER32.DLL
+0x411e99	0x414070	import	0x411e5e	KERNEL32.dll.LoadLibraryW
+0x411ea9	0x4140d4	import	0x411e5e	KERNEL32.dll.GetProcAddress
+0x411eaf	0x4152e0	string	0x411e5e	MessageBoxW
+0x411ebf	0x414140	import	0x411e5e	KERNEL32.dll.EncodePointer
+0x411ec8	0x4152d0	string	0x411e5e	GetActiveWindow
+0x411ed8	0x4152bc	string	0x411e5e	GetLastActivePopup
+0x411ee8	0x4152a0	string	0x411e5e	GetUserObjectInformationW
+0x411f01	0x415288	string	0x411e5e	GetProcessWindowStation
+0x411f19	0x414144	import	0x411e5e	KERNEL32.dll.DecodePointer
+0x4121d6	0x4140a8	import	0x412186	KERNEL32.dll.MultiByteToWideChar
+0x41226f	0x4140e0	import	0x412186	KERNEL32.dll.LCMapStringW
+0x41233f	0x4140b0	import	0x412186	KERNEL32.dll.WideCharToMultiByte
+0x4123dc	0x4140a8	import	0x4123b3	KERNEL32.dll.MultiByteToWideChar
+0x412475	0x4140a4	import	0x4123b3	KERNEL32.dll.GetStringTypeW
+0x412c03	0x414130	import	0x412bc0	KERNEL32.dll.HeapAlloc
+0x412c81	0x4140a0	import	0x412c42	KERNEL32.dll.HeapReAlloc
+0x412dcc	0x414098	import	0x412d63	KERNEL32.dll.GetProcessHeap
+0x412dd3	0x414130	import	0x412d63	KERNEL32.dll.HeapAlloc
+0x4130f5	0x41310e	string	0x4130e3	9E\ft
+0x413149	0x4141a0	import	0x413136	KERNEL32.dll.CreateFileW
+0x413165	0x414018	import	0x413136	KERNEL32.dll.CloseHandle
+0x413274	0x41416c	import	0x413274	KERNEL32.dll.RtlUnwind

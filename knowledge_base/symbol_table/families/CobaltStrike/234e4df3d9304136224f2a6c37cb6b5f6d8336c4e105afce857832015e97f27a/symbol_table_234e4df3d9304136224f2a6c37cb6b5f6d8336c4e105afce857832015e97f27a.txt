@@ -1,0 +1,77 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x40118b	0x4481b8	import	0x40115c	KERNEL32.dll.Sleep
+0x401223	0x4481b4	import	0x40115c	KERNEL32.dll.SetUnhandledExceptionFilter
+0x401535	0x448198	import	0x401510	KERNEL32.dll.GetThreadContext
+0x401551	0x4481b0	import	0x401510	KERNEL32.dll.SetThreadContext
+0x401560	0x4481ac	import	0x401510	KERNEL32.dll.ResumeThread
+0x4015a2	0x4481c8	import	0x40156e	KERNEL32.dll.VirtualAllocEx
+0x4015c6	0x4481d8	import	0x40156e	KERNEL32.dll.WriteProcessMemory
+0x4015f1	0x4481d0	import	0x40156e	KERNEL32.dll.VirtualProtectEx
+0x401631	0x44817c	import	0x401619	KERNEL32.dll.GetCurrentProcess
+0x40166c	0x446000	string	0x401619	windir
+0x40167f	0x448188	import	0x401619	KERNEL32.dll.GetEnvironmentVariableA
+0x401696	0x446007	string	0x401619	%s\System32\%s
+0x4016a9	0x448210	import	0x401619	msvcrt.dll._snprintf
+0x4016f8	0x44816c	import	0x401619	KERNEL32.dll.CreateProcessA
+0x401766	0x446016	string	0x40173e	rundll32.exe
+0x401781	0x448184	import	0x401778	KERNEL32.dll.GetCurrentThreadId
+0x4017a2	0x44824c	import	0x401778	USER32.dll.PostThreadMessageA
+0x4017d1	0x448248	import	0x401778	USER32.dll.PeekMessageA
+0x4017f3	0x44819c	import	0x401778	KERNEL32.dll.GetTickCount
+0x401804	0x4481b8	import	0x401778	KERNEL32.dll.Sleep
+0x4018bc	0x446024	string	0x401868	DceRpcSs
+0x4018c3	0x44815c	import	0x401868	ADVAPI32.dll.RegisterServiceCtrlHandlerA
+0x4018e7	0x448178	import	0x401868	KERNEL32.dll.ExitProcess
+0x401926	0x448160	import	0x4018ef	ADVAPI32.dll.SetServiceStatus
+0x401a39	0x448194	import	0x401a00	KERNEL32.dll.GetSystemTimeAsFileTime
+0x401a4a	0x448180	import	0x401a00	KERNEL32.dll.GetCurrentProcessId
+0x401a52	0x448184	import	0x401a00	KERNEL32.dll.GetCurrentThreadId
+0x401a5a	0x44819c	import	0x401a00	KERNEL32.dll.GetTickCount
+0x401a69	0x4481a8	import	0x401a00	KERNEL32.dll.QueryPerformanceCounter
+0x401aff	0x4481b4	import	0x401ab0	KERNEL32.dll.SetUnhandledExceptionFilter
+0x401b0f	0x4481c4	import	0x401ab0	KERNEL32.dll.UnhandledExceptionFilter
+0x401b18	0x44817c	import	0x401ab0	KERNEL32.dll.GetCurrentProcess
+0x401b29	0x4481bc	import	0x401ab0	KERNEL32.dll.TerminateProcess
+0x401c92	0x446054	string	0x401c80	Unknown error
+0x401ce3	0x446064	string	0x401c80	_matherr(): %s in %s(%g, %g) (retval=%g)\n
+0x401dcd	0x4481d4	import	0x401d40	KERNEL32.dll.VirtualQuery
+0x401f79	0x4481cc	import	0x401e90	KERNEL32.dll.VirtualProtect
+0x402039	0x446254	string	0x401e90	Unknown pseudo relocation bit size %d.\n
+0x402104	0x446220	string	0x401e90	Unknown pseudo relocation protocol version %d.\n
+0x4022be	0x448174	import	0x4022b0	KERNEL32.dll.EnterCriticalSection
+0x4022d1	0x4481c0	import	0x4022b0	KERNEL32.dll.TlsGetValue
+0x4022d7	0x44818c	import	0x4022b0	KERNEL32.dll.GetLastError
+0x40230c	0x4481a4	import	0x4022b0	KERNEL32.dll.LeaveCriticalSection
+0x40236e	0x448174	import	0x4022b0	KERNEL32.dll.EnterCriticalSection
+0x40238c	0x4481a4	import	0x4022b0	KERNEL32.dll.LeaveCriticalSection
+0x4023d7	0x448174	import	0x4022b0	KERNEL32.dll.EnterCriticalSection
+0x402408	0x4481a4	import	0x4022b0	KERNEL32.dll.LeaveCriticalSection
+0x402466	0x4022b0	string	0x402440	UWVS
+0x4024cc	0x448170	import	0x402440	KERNEL32.dll.DeleteCriticalSection
+0x40258c	0x40259a	string	0x402520	[^Ív blocks=Basic Latin,Latin-1 Supplement
+0x402718	0x402729	string	0x4026a0	[Ít& blocks=Basic Latin,Latin-1 Supplement
+0x40277e	0x4027ca	string	0x402730	[^Ív blocks=Basic Latin,Latin-1 Supplement
+0x4028bc	0x448240	import	0x4028bc	msvcrt.dll.vfprintf
+0x4028c4	0x44823c	import	0x4028c4	msvcrt.dll.strncmp
+0x4028cc	0x448238	import	0x4028cc	msvcrt.dll.strlen
+0x4028d4	0x448234	import	0x4028d4	msvcrt.dll.signal
+0x4028dc	0x448230	import	0x4028dc	msvcrt.dll.memcpy
+0x4028e4	0x44822c	import	0x4028e4	msvcrt.dll.malloc
+0x4028ec	0x448228	import	0x4028ec	msvcrt.dll.fwrite
+0x4028f4	0x448224	import	0x4028f4	msvcrt.dll.free
+0x4028fc	0x448220	import	0x4028fc	msvcrt.dll.fprintf
+0x402904	0x44821c	import	0x402904	msvcrt.dll.exit
+0x40290c	0x448218	import	0x40290c	msvcrt.dll.calloc
+0x402914	0x448214	import	0x402914	msvcrt.dll.abort
+0x40291c	0x44820c	import	0x40291c	msvcrt.dll._onexit
+0x402924	0x448204	import	0x402924	msvcrt.dll._initterm
+0x40292c	0x448200	import	0x40292c	msvcrt.dll._cexit
+0x402934	0x4481fc	import	0x402934	msvcrt.dll._amsg_exit
+0x40293c	0x4481f8	import	0x402934	msvcrt.dll.__setusermatherr
+0x402944	0x4481f4	import	0x402944	msvcrt.dll.__set_app_type
+0x40294c	0x4481f0	import	0x40294c	msvcrt.dll.__p__fmode
+0x402954	0x4481ec	import	0x402954	msvcrt.dll.__p__acmdln
+0x40295c	0x4481e0	import	0x40295c	msvcrt.dll.__getmainargs
+0x402977	0x448208	import	0x402970	msvcrt.dll._iob
+0x4029ce	0x446024	string	0x4029aa	DceRpcSs
+0x4029d8	0x448164	import	0x4029aa	ADVAPI32.dll.StartServiceCtrlDispatcherA

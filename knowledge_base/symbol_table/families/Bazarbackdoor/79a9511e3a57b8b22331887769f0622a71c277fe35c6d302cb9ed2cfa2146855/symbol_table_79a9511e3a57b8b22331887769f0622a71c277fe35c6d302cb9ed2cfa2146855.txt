@@ -1,0 +1,376 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x140001010	0x14001b010	import	0x140001000	KERNEL32.dll.GetCommandLineW
+0x14000101e	0x14001b240	import	0x140001000	SHELL32.dll.CommandLineToArgvW
+0x1400010ac	0x14001bb68	string	0x140001000	WinMain
+0x1400010b3	0x14001bb70	string	0x140001000	[ERR][%s]: Failed.\n
+0x1400010e7	0x14001bad0	string	0x140001000	process
+0x1400010ee	0x14001bad8	string	0x140001000	[DBG][%s]: Processing...\n
+0x140001122	0x14001b018	import	0x140001000	KERNEL32.dll.GetTickCount64
+0x140001147	0x14001bb00	string	0x140001000	[ERR][%s]: Failed.\n
+0x14000114e	0x14001baf8	string	0x140001000	process
+0x140001157	0x14001b018	import	0x140001000	KERNEL32.dll.GetTickCount64
+0x140001170	0x14001bb18	string	0x140001000	process
+0x14000117a	0x14001bb20	string	0x140001000	[DBG][%s]: TIME: %llums\n
+0x140001186	0x14001bb48	string	0x140001000	[DBG][%s]: Done. Processing.\n
+0x14000118d	0x14001bb40	string	0x140001000	process
+0x1400011c5	0x14001bb88	string	0x140001000	WinMain
+0x1400011cc	0x14001bb90	string	0x140001000	[ERR][%s]: Failed.\n
+0x140001b2d	0x14001b928	string	0x140001af0	init
+0x140001b34	0x14001b930	string	0x140001af0	[DBG][%s]: Initializing...\n
+0x140001b83	0x14001b958	string	0x140001af0	dummy
+0x140001bc4	0x14001b4e8	string	0x140001af0	loadInputSDR
+0x140001bcb	0x14001b4f8	string	0x140001af0	[DBG][%s]: Loading input SDR...\n
+0x140001c2c	0x14001b530	string	0x140001af0	[ERR][%s]: Failed. Null pointer.\n
+0x140001c33	0x14001b520	string	0x140001af0	loadInputSDR
+0x140001cc0	0x14001b568	string	0x140001af0	[DBG][%s]: Done. Loading input SDR.\n
+0x140001cc7	0x14001b558	string	0x140001af0	loadInputSDR
+0x140001cfb	0x14001b964	string	0x140001af0	init
+0x140001d02	0x14001b970	string	0x140001af0	[ERR][%s]: Failed.\n
+0x140001d25	0x14001b350	string	0x140001af0	loadInputFileSDR
+0x140001d2f	0x14001b368	string	0x140001af0	[DBG][%s]: Loading input file SDR [%ls]...\n
+0x140001d8d	0x14001b3b0	string	0x140001af0	[ERR][%s]: Failed. Null pointer.\n
+0x140001d94	0x14001b398	string	0x140001af0	loadInputFileSDR
+0x140001dba	0x14001b3f8	string	0x140001af0	[ERR][%s]: Failed. Invalid file.\n
+0x140001dc1	0x14001b3e0	string	0x140001af0	loadInputFileSDR
+0x140001dfb	0x14001b420	string	0x140001af0	loadInputFileSDR
+0x140001e05	0x14001b438	string	0x140001af0	[DBG][%s]: FILE SIZE: [%zuB]\n
+0x140001e1f	0x14001b470	string	0x140001af0	[ERR][%s]: Failed. Invalid file size.\n
+0x140001e26	0x14001b458	string	0x140001af0	loadInputFileSDR
+0x140001e68	0x14001b4b8	string	0x140001af0	[DBG][%s]: Done. Loading input file SDR.\n
+0x140001e6f	0x14001b4a0	string	0x140001af0	loadInputFileSDR
+0x140001ea3	0x14001b984	string	0x140001af0	init
+0x140001eaa	0x14001b990	string	0x140001af0	[ERR][%s]: Failed.\n
+0x140001ecc	0x14001b9a8	string	0x140001af0	dummy
+0x140001f08	0x14001b728	string	0x140001af0	loadInputHDR
+0x140001f0f	0x14001b738	string	0x140001af0	[DBG][%s]: Loading input HDR...\n
+0x140001f73	0x14001b770	string	0x140001af0	[ERR][%s]: Failed. Null pointer.\n
+0x140001f7a	0x14001b760	string	0x140001af0	loadInputHDR
+0x14000200e	0x14001b7a8	string	0x140001af0	[DBG][%s]: Done. Loading input HDR.\n
+0x140002015	0x14001b798	string	0x140001af0	loadInputHDR
+0x140002049	0x14001b9b4	string	0x140001af0	init
+0x140002050	0x14001b9c0	string	0x140001af0	[ERR][%s]: Failed.\n
+0x140002073	0x14001b590	string	0x140001af0	loadInputFileHDR
+0x14000207d	0x14001b5a8	string	0x140001af0	[DBG][%s]: Loading input file HDR [%ls]...\n
+0x1400020da	0x14001b5f0	string	0x140001af0	[ERR][%s]: Failed. Null pointer.\n
+0x1400020e1	0x14001b5d8	string	0x140001af0	loadInputFileHDR
+0x140002107	0x14001b638	string	0x140001af0	[ERR][%s]: Failed. Invalid file.\n
+0x14000210e	0x14001b620	string	0x140001af0	loadInputFileHDR
+0x140002148	0x14001b660	string	0x140001af0	loadInputFileHDR
+0x140002152	0x14001b678	string	0x140001af0	[DBG][%s]: FILE SIZE: [%zuB]\n
+0x14000216c	0x14001b6b0	string	0x140001af0	[ERR][%s]: Failed. Invalid file size.\n
+0x140002173	0x14001b698	string	0x140001af0	loadInputFileHDR
+0x1400021b5	0x14001b6f8	string	0x140001af0	[DBG][%s]: Done. Loading input file HDR.\n
+0x1400021bc	0x14001b6e0	string	0x140001af0	loadInputFileHDR
+0x1400021ec	0x14001b9d4	string	0x140001af0	init
+0x1400021f3	0x14001b9e0	string	0x140001af0	[ERR][%s]: Failed.\n
+0x140002209	0x14001b2f0	string	0x140001af0	jxlcodec
+0x140002210	0x14001b028	import	0x140001af0	KERNEL32.dll.LoadLibraryW
+0x140002221	0x14001b308	string	0x140001af0	MRLSJXLCODEC_PROC%d
+0x14000223a	0x14001b020	import	0x140001af0	KERNEL32.dll.GetProcAddress
+0x140002257	0x14001b9f4	string	0x140001af0	init
+0x14000225e	0x14001ba00	string	0x140001af0	[ERR][%s]: Failed.\n
+0x140002296	0x14001ba14	string	0x140001af0	init
+0x14000229d	0x14001ba20	string	0x140001af0	[ERR][%s]: Failed.\n
+0x14000231a	0x14001b7d0	string	0x140001af0	printMetadata
+0x140002324	0x14001b7e0	string	0x140001af0	[DBG][%s]: -- Width: [%u]\n
+0x14000233f	0x14001b800	string	0x140001af0	printMetadata
+0x140002349	0x14001b810	string	0x140001af0	[DBG][%s]: -- Height: [%u]\n
+0x140002364	0x14001b830	string	0x140001af0	printMetadata
+0x14000236e	0x14001b840	string	0x140001af0	[DBG][%s]: -- Size: [%zu]\n
+0x140002389	0x14001b860	string	0x140001af0	printMetadata
+0x140002393	0x14001b870	string	0x140001af0	[DBG][%s]: -- Byte per channel: [%zu]\n
+0x1400023b1	0x14001b898	string	0x140001af0	printMetadata
+0x1400023bb	0x14001b8a8	string	0x140001af0	[DBG][%s]: -- Flag alpha: [%u]\n
+0x1400023d6	0x14001b8c8	string	0x140001af0	printMetadata
+0x1400023e0	0x14001b8d8	string	0x140001af0	[DBG][%s]: -- EOTF: [%u]\n
+0x1400023fb	0x14001b8f8	string	0x140001af0	printMetadata
+0x140002405	0x14001b908	string	0x140001af0	[DBG][%s]: -- ColorSpace: [%u]\n
+0x14000243e	0x14001ba34	string	0x140001af0	init
+0x140002445	0x14001ba40	string	0x140001af0	[ERR][%s]: Failed.\n
+0x140002460	0x14001ba54	string	0x140001af0	init
+0x140002467	0x14001ba60	string	0x140001af0	[DBG][%s]: Done. Initializing.\n
+0x140002480	0x1400027e0	string	0x140001af0	H;\r!8
+0x1400024c1	0x14001ba80	string	0x1400024b0	release
+0x1400024c8	0x14001ba88	string	0x1400024b0	[DBG][%s]: Releasing...\n
+0x140002554	0x14001baa8	string	0x1400024b0	release
+0x14000255b	0x14001bab0	string	0x1400024b0	[DBG][%s]: Done. Releasing.\n
+0x1400027c6	0x1400027e0	string	0x140002770	H;\r!8
+0x140002a7b	0x14001b050	import	0x140002a70	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140002a84	0x14001b048	import	0x140002a70	KERNEL32.dll.UnhandledExceptionFilter
+0x140002a8a	0x14001b058	import	0x140002a70	KERNEL32.dll.GetCurrentProcess
+0x140002a9d	0x14001b060	import	0x140002a70	KERNEL32.dll.TerminateProcess
+0x140002ac9	0x140002c98	string	0x140002a70	@SVWH
+0x140002c35	0x14001b030	import	0x140002c28	KERNEL32.dll.RtlCaptureContext
+0x140002c4d	0x14001b038	import	0x140002c28	KERNEL32.dll.RtlLookupFunctionEntry
+0x140002c84	0x14001b040	import	0x140002c28	KERNEL32.dll.RtlVirtualUnwind
+0x140002ca3	0x14001b030	import	0x140002c98	KERNEL32.dll.RtlCaptureContext
+0x140002cbd	0x14001b038	import	0x140002c98	KERNEL32.dll.RtlLookupFunctionEntry
+0x140002cf4	0x14001b040	import	0x140002c98	KERNEL32.dll.RtlVirtualUnwind
+0x140002f88	0x14001b088	import	0x140002f5c	KERNEL32.dll.GetSystemTimeAsFileTime
+0x140002f96	0x14001b080	import	0x140002f5c	KERNEL32.dll.GetCurrentThreadId
+0x140002fa2	0x14001b078	import	0x140002f5c	KERNEL32.dll.GetCurrentProcessId
+0x140002fb2	0x14001b070	import	0x140002f5c	KERNEL32.dll.QueryPerformanceCounter
+0x140003023	0x14001b090	import	0x14000301c	KERNEL32.dll.InitializeSListHead
+0x1400030c4	0x14001b030	import	0x14000307c	KERNEL32.dll.RtlCaptureContext
+0x1400030de	0x14001b038	import	0x14000307c	KERNEL32.dll.RtlLookupFunctionEntry
+0x14000311f	0x14001b040	import	0x14000307c	KERNEL32.dll.RtlVirtualUnwind
+0x140003173	0x14001b098	import	0x14000307c	KERNEL32.dll.IsDebuggerPresent
+0x140003194	0x14001b050	import	0x14000307c	KERNEL32.dll.SetUnhandledExceptionFilter
+0x14000319f	0x14001b048	import	0x14000307c	KERNEL32.dll.UnhandledExceptionFilter
+0x1400031e4	0x14001b0a0	import	0x1400031c8	KERNEL32.dll.GetStartupInfoW
+0x140003212	0x14001b0a8	import	0x14000320c	KERNEL32.dll.GetModuleHandleW
+0x140003267	0x14001b050	import	0x140003260	KERNEL32.dll.SetUnhandledExceptionFilter
+0x140003500	0x14001b068	import	0x140003500	KERNEL32.dll.IsProcessorFeaturePresent
+0x140003617	0x14001b0b8	import	0x140003500	KERNEL32.dll.RtlUnwindEx
+0x140003a97	0x14001b0c0	import	0x140003a78	KERNEL32.dll.GetLastError
+0x140003b1e	0x14001b0c8	import	0x140003a78	KERNEL32.dll.SetLastError
+0x140003bf7	0x14001b0e0	import	0x140003bd8	KERNEL32.dll.DeleteCriticalSection
+0x140003c96	0x14001b118	import	0x140003c10	KERNEL32.dll.LoadLibraryExW
+0x140003ca4	0x14001b0c0	import	0x140003c10	KERNEL32.dll.GetLastError
+0x140003cb6	0x14001ca48	string	0x140003c10	api-ms-
+0x140003cce	0x14001b118	import	0x140003c10	KERNEL32.dll.LoadLibraryExW
+0x140003d07	0x14001b110	import	0x140003c10	KERNEL32.dll.FreeLibrary
+0x140003d2c	0x14001b020	import	0x140003c10	KERNEL32.dll.GetProcAddress
+0x140003d75	0x14001ca60	string	0x140003d6c	FlsAlloc
+0x140003d85	0x14001ca60	string	0x140003d6c	FlsAlloc
+0x140003daa	0x14001b0f0	import	0x140003d6c	KERNEL32.dll.TlsAlloc
+0x140003dbc	0x14001ca78	string	0x140003db4	FlsFree
+0x140003dcf	0x14001ca78	string	0x140003db4	FlsFree
+0x140003df3	0x14001b108	import	0x140003db4	KERNEL32.dll.TlsFree
+0x140003e04	0x14001ca88	string	0x140003dfc	FlsGetValue
+0x140003e17	0x14001ca88	string	0x140003dfc	FlsGetValue
+0x140003e3b	0x14001b0f8	import	0x140003dfc	KERNEL32.dll.TlsGetValue
+0x140003e51	0x14001caa0	string	0x140003e44	FlsSetValue
+0x140003e5a	0x14001caa0	string	0x140003e44	FlsSetValue
+0x140003e84	0x14001b100	import	0x140003e44	KERNEL32.dll.TlsSetValue
+0x140003eaa	0x14001cab8	string	0x140003e98	InitializeCriticalSectionEx
+0x140003ebd	0x14001cab8	string	0x140003e98	InitializeCriticalSectionEx
+0x140003ee3	0x14001b0e8	import	0x140003e98	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x1400045ac	0x14001b0d0	import	0x1400045a8	KERNEL32.dll.EnterCriticalSection
+0x1400045b8	0x14001b0d8	import	0x1400045b4	KERNEL32.dll.LeaveCriticalSection
+0x140004f5e	0x140004f74	string	0x140004e88	HcS H
+0x140004f68	0x140004f74	string	0x140004e88	HcS H
+0x14000509a	0x14001b128	import	0x140004fd4	KERNEL32.dll.ReadFile
+0x140005127	0x1400027e0	string	0x140004fd4	H;\r!8
+0x1400057b0	0x1400057e1	string	0x14000576c	D+AHH
+0x14000583c	0x14000586f	string	0x1400057f4	E+BHH
+0x140005b34	0x1400027e0	string	0x140005a24	H;\r!8
+0x1400062c1	0x1400062dc	string	0x1400062b8	<Nu'
+0x140006435	0x140006450	string	0x14000642c	<Nu'
+0x1400065cf	0x140006627	string	0x1400065a0	<g~{<itd<ntY<ot7<pt\e<st
+0x140006853	0x1400068ab	string	0x140006824	<g~{<itd<ntY<ot7<pt\e<st
+0x140006ae5	0x14001cb50	string	0x140006a8c	(null)
+0x140006ccb	0x140006cda	string	0x140006b00	,I<%w
+0x140006f0d	0x140006f18	string	0x140006dd4	HcS8
+0x1400070d2	0x14001cb40	string	0x140007078	(null)
+0x1400070f0	0x14001cb50	string	0x140007078	(null)
+0x1400072b8	0x1400027e0	string	0x1400071ac	H;\r!8
+0x140007390	0x1400027e0	string	0x1400072d0	H;\r!8
+0x1400075d0	0x1400054f8	string	0x1400075d0	@USVWATAVAWH
+0x1400076d4	0x1400027e0	string	0x14000764c	H;\r!8
+0x1400079a8	0x140007b79	string	0x1400076ec	f;\$xs\a
+0x140007a4f	0x140007a5e	string	0x1400076ec	f;\$(
+0x140007a6e	0x140007a7d	string	0x1400076ec	f;\$,
+0x140007a8d	0x140007a9c	string	0x1400076ec	f;\$<
+0x140007aac	0x140007abb	string	0x1400076ec	f;\$D
+0x140007acb	0x140007ada	string	0x1400076ec	f;\$L
+0x140007aea	0x140007af9	string	0x1400076ec	f;\$T
+0x140007ca0	0x140007e26	string	0x1400076ec	f;L$xs\b
+0x140007fe8	0x140008168	string	0x1400076ec	f;L$x
+0x140008230	0x1400083ba	string	0x1400076ec	f;T$xs\b
+0x14000a8df	0x14000a959	string	0x140009100	E3ɉu blocks=Basic Latin,Latin Extended-B
+0x14000ad12	0x14000ad24	string	0x140009100	E;ԍC blocks=Basic Latin,Cyrillic Supplement
+0x14000ae63	0x1400027e0	string	0x140009100	H;\r!8
+0x14000afec	0x14000b016	string	0x14000af30	E3ɉl$@L blocks=Basic Latin,Latin Extended-B
+0x14000bda5	0x14000bd76	string	0x14000b76c	D8d$8t\fH
+0x14000bda9	0x14000bd76	string	0x14000b76c	D8d$8t\fH
+0x14000c677	0x14000c682	string	0x14000c64c	<"u\a@
+0x14000c680	0x14000c6a1	string	0x14000c64c	< w\tH
+0x14000c6ac	0x14000c6a1	string	0x14000c64c	< w\tH
+0x14000c887	0x14001b0a8	import	0x14000c876	KERNEL32.dll.GetModuleHandleW
+0x14000c94d	0x14001b058	import	0x14000c924	KERNEL32.dll.GetCurrentProcess
+0x14000c958	0x14001b060	import	0x14000c924	KERNEL32.dll.TerminateProcess
+0x14000c967	0x14001b000	import	0x14000c924	KERNEL32.dll.ExitProcess
+0x14000c983	0x14001d7e8	string	0x14000c970	mscoree.dll
+0x14000c98c	0x14001b148	import	0x14000c970	KERNEL32.dll.GetModuleHandleExW
+0x14000c99b	0x14001d800	string	0x14000c970	CorExitProcess
+0x14000c9a2	0x14001b020	import	0x14000c970	KERNEL32.dll.GetProcAddress
+0x14000c9bf	0x14001b110	import	0x14000c970	KERNEL32.dll.FreeLibrary
+0x14000d306	0x14001b068	import	0x14000d2e0	KERNEL32.dll.IsProcessorFeaturePresent
+0x14000d475	0x14001b030	import	0x14000d3fc	KERNEL32.dll.RtlCaptureContext
+0x14000d48d	0x14001b038	import	0x14000d3fc	KERNEL32.dll.RtlLookupFunctionEntry
+0x14000d4c8	0x14001b040	import	0x14000d3fc	KERNEL32.dll.RtlVirtualUnwind
+0x14000d501	0x14001b098	import	0x14000d3fc	KERNEL32.dll.IsDebuggerPresent
+0x14000d50b	0x14001b050	import	0x14000d3fc	KERNEL32.dll.SetUnhandledExceptionFilter
+0x14000d516	0x14001b048	import	0x14000d3fc	KERNEL32.dll.UnhandledExceptionFilter
+0x14000d53a	0x1400027e0	string	0x14000d3fc	H;\r!8
+0x14000d639	0x14001b068	import	0x14000d630	KERNEL32.dll.IsProcessorFeaturePresent
+0x14000d65e	0x14001b058	import	0x14000d630	KERNEL32.dll.GetCurrentProcess
+0x14000d670	0x14001b060	import	0x14000d630	KERNEL32.dll.TerminateProcess
+0x14000d7a5	0x14001b150	import	0x14000d750	KERNEL32.dll.HeapAlloc
+0x14000d7de	0x14001b158	import	0x14000d7c8	KERNEL32.dll.HeapFree
+0x14000d7f0	0x14001b0c0	import	0x14000d7c8	KERNEL32.dll.GetLastError
+0x14000d8ab	0x14001b118	import	0x14000d808	KERNEL32.dll.LoadLibraryExW
+0x14000d8b9	0x14001b0c0	import	0x14000d808	KERNEL32.dll.GetLastError
+0x14000d8cd	0x14001ca48	string	0x14000d808	api-ms-
+0x14000d8e0	0x14001df78	string	0x14000d808	ext-ms-
+0x14000d8fb	0x14001b118	import	0x14000d808	KERNEL32.dll.LoadLibraryExW
+0x14000d934	0x14001b110	import	0x14000d808	KERNEL32.dll.FreeLibrary
+0x14000d960	0x14001b020	import	0x14000d808	KERNEL32.dll.GetProcAddress
+0x14000d9e9	0x14001e000	string	0x14000d9e0	AppPolicyGetProcessTerminationMethod
+0x14000d9fc	0x14001e000	string	0x14000d9e0	AppPolicyGetProcessTerminationMethod
+0x14000da44	0x14001df90	string	0x14000da30	AreFileApisANSI
+0x14000da88	0x14001ca60	string	0x14000da6c	FlsAlloc
+0x14000daad	0x14001b0f0	import	0x14000da6c	KERNEL32.dll.TlsAlloc
+0x14000dacf	0x14001ca78	string	0x14000dab4	FlsFree
+0x14000daf3	0x14001b108	import	0x14000dab4	KERNEL32.dll.TlsFree
+0x14000db17	0x14001ca88	string	0x14000dafc	FlsGetValue
+0x14000db3b	0x14001b0f8	import	0x14000dafc	KERNEL32.dll.TlsGetValue
+0x14000db5a	0x14001caa0	string	0x14000db44	FlsSetValue
+0x14000db84	0x14001b100	import	0x14000db44	KERNEL32.dll.TlsSetValue
+0x14000dbbd	0x14001cab8	string	0x14000db98	InitializeCriticalSectionEx
+0x14000dbe3	0x14001b0e8	import	0x14000db98	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x14000dc18	0x14001dfd0	string	0x14000dbfc	LCMapStringEx
+0x14000dc29	0x14001dfd0	string	0x14000dbfc	LCMapStringEx
+0x14000dcbd	0x14001b160	import	0x14000dbfc	KERNEL32.dll.LCMapStringW
+0x14000dce4	0x14001dfe8	string	0x14000dcd8	LocaleNameToLCID
+0x14000dcee	0x14001dfe8	string	0x14000dcd8	LocaleNameToLCID
+0x14000de12	0x14001b0e0	import	0x14000dda0	KERNEL32.dll.DeleteCriticalSection
+0x14000e160	0x14001b0a0	import	0x14000e140	KERNEL32.dll.GetStartupInfoW
+0x14000e1cb	0x14001b168	import	0x14000e140	KERNEL32.dll.GetFileType
+0x14000e2a9	0x14001b130	import	0x14000e230	KERNEL32.dll.GetStdHandle
+0x14000e2bf	0x14001b168	import	0x14000e230	KERNEL32.dll.GetFileType
+0x14000e706	0x14000e70c	string	0x14000e518	fD97t
+0x14000e773	0x14001e030	string	0x14000e518	UTF-8
+0x14000e792	0x14001e040	string	0x14000e518	UTF-16LEUNICODE
+0x14000ea32	0x14001b170	import	0x14000e9cc	KERNEL32.dll.CloseHandle
+0x14000ea3c	0x14001b0c0	import	0x14000e9cc	KERNEL32.dll.GetLastError
+0x14000eb86	0x14001b128	import	0x14000eab4	KERNEL32.dll.ReadFile
+0x14000ed63	0x14001b128	import	0x14000ec74	KERNEL32.dll.ReadFile
+0x14000f03e	0x14001b0c0	import	0x14000eef0	KERNEL32.dll.GetLastError
+0x14000f417	0x14001b178	import	0x14000f1a8	KERNEL32.dll.GetConsoleMode
+0x14000f445	0x14001b180	import	0x14000f1a8	KERNEL32.dll.ReadConsoleW
+0x14000f44f	0x14001b0c0	import	0x14000f1a8	KERNEL32.dll.GetLastError
+0x14000f497	0x14001b128	import	0x14000f1a8	KERNEL32.dll.ReadFile
+0x14000f588	0x14000ec74	string	0x14000f1a8	@SUVWATAUAVAWH
+0x14000f592	0x14001b0c0	import	0x14000f1a8	KERNEL32.dll.GetLastError
+0x14000f8a0	0x14001b188	import	0x14000f85c	KERNEL32.dll.SetFilePointerEx
+0x14000f8aa	0x14001b0c0	import	0x14000f85c	KERNEL32.dll.GetLastError
+0x14000f977	0x14001b190	import	0x14000f908	KERNEL32.dll.GetConsoleCP
+0x14000fa05	0x14000f9f5	string	0x14000f908	D8T8>t\v
+0x14000fc21	0x14001b138	import	0x14000f908	KERNEL32.dll.WriteFile
+0x14000fc73	0x14001b138	import	0x14000f908	KERNEL32.dll.WriteFile
+0x14000fd13	0x1400027e0	string	0x14000f908	H;\r!8
+0x14000fe8b	0x14001b138	import	0x14000fdd8	KERNEL32.dll.WriteFile
+0x14000fea7	0x14001b0c0	import	0x14000fdd8	KERNEL32.dll.GetLastError
+0x14000febd	0x1400027e0	string	0x14000fdd8	H;\r!8
+0x14000ffa6	0x14001b138	import	0x14000fedc	KERNEL32.dll.WriteFile
+0x14000ffc2	0x14001b0c0	import	0x14000fedc	KERNEL32.dll.GetLastError
+0x14000ffd8	0x1400027e0	string	0x14000fedc	H;\r!8
+0x14001010f	0x14001b138	import	0x14000fff8	KERNEL32.dll.WriteFile
+0x140010131	0x14001b0c0	import	0x14000fff8	KERNEL32.dll.GetLastError
+0x140010147	0x1400027e0	string	0x14000fff8	H;\r!8
+0x140010354	0x14001b178	import	0x140010254	KERNEL32.dll.GetConsoleMode
+0x1400103d4	0x14001b0c0	import	0x140010254	KERNEL32.dll.GetLastError
+0x140010480	0x14001b138	import	0x140010254	KERNEL32.dll.WriteFile
+0x14001048a	0x14001b0c0	import	0x140010254	KERNEL32.dll.GetLastError
+0x14001065a	0x14001b188	import	0x140010614	KERNEL32.dll.SetFilePointerEx
+0x14001066c	0x14001b198	import	0x140010614	KERNEL32.dll.GetFileSizeEx
+0x1400108c6	0x14001b150	import	0x140010888	KERNEL32.dll.HeapAlloc
+0x140010e18	0x140010e0c	string	0x140010d9c	f9\nt\tH
+0x140010eed	0x140010ee1	string	0x140010d9c	f9\nt\tH
+0x140010f45	0x140010f34	string	0x140010d9c	fA9\t
+0x140010f66	0x140010f5a	string	0x140010d9c	f9\nt\tH
+0x1400112fb	0x14001b0c0	import	0x1400112ec	KERNEL32.dll.GetLastError
+0x140011399	0x14001b0c8	import	0x1400112ec	KERNEL32.dll.SetLastError
+0x140011477	0x14001b0c0	import	0x140011468	KERNEL32.dll.GetLastError
+0x140011515	0x14001b0c8	import	0x140011468	KERNEL32.dll.SetLastError
+0x140011665	0x140011936	string	0x1400115fc	D8l$ht\fH
+0x1400116c1	0x140011936	string	0x1400115fc	D8l$ht\fH
+0x14001181a	0x140011835	string	0x1400115fc	E8/L
+0x1400119b1	0x140016294	string	0x14001196c	@USVWATAUAVAWH
+0x140011d02	0x140011d1f	string	0x140011c1c	Lcƺ0 blocks=Basic Latin,Latin Extended-B
+0x140011d9f	0x140016294	string	0x140011d60	@USVWATAUAVAWH
+0x140012094	0x140016294	string	0x140011e94	@USVWATAUAVAWH
+0x140012318	0x14001457c	string	0x140012277	@UATAUAVAWH
+0x140012352	0x1400027e0	string	0x140012277	H;\r!8
+0x14001245e	0x14001b0c0	import	0x140012398	KERNEL32.dll.GetLastError
+0x1400125df	0x14001b0c0	import	0x140012510	KERNEL32.dll.GetLastError
+0x140012b3b	0x140012b58	string	0x140012a30	@8|$Ht\fH
+0x140012b96	0x14001b1a8	import	0x140012a30	KERNEL32.dll.FindFirstFileExW
+0x140012c19	0x140012c36	string	0x140012a30	@8|$ht\fH
+0x140012ca8	0x14001b1b0	import	0x140012a30	KERNEL32.dll.FindNextFileW
+0x140012ce5	0x1400177f0	string	0x140012a30	ATAUAVH
+0x140012cfd	0x14001b1a0	import	0x140012a30	KERNEL32.dll.FindClose
+0x140012d1e	0x1400027e0	string	0x140012a30	H;\r!8
+0x140012de4	0x14001b0c0	import	0x140012d48	KERNEL32.dll.GetLastError
+0x140012e98	0x14001b140	import	0x140012e5c	KERNEL32.dll.GetModuleFileNameW
+0x140012ea2	0x14001b0c0	import	0x140012e5c	KERNEL32.dll.GetLastError
+0x140012f60	0x1400027e0	string	0x140012e5c	H;\r!8
+0x140013162	0x14001b1c8	import	0x140013138	KERNEL32.dll.GetOEMCP
+0x140013179	0x14001b1c0	import	0x140013138	KERNEL32.dll.GetACP
+0x14001328a	0x14001b1d0	import	0x140013248	KERNEL32.dll.GetCPInfo
+0x14001330c	0x14001457c	string	0x140013248	@UATAUAVAWH
+0x140013411	0x1400027e0	string	0x140013248	H;\r!8
+0x14001378f	0x14001b1b8	import	0x140013724	KERNEL32.dll.IsValidCodePage
+0x1400137db	0x14001b1d0	import	0x140013724	KERNEL32.dll.GetCPInfo
+0x1400139c0	0x1400027e0	string	0x140013724	H;\r!8
+0x140013a70	0x14001b1d8	import	0x140013a58	KERNEL32.dll.GetCommandLineA
+0x140013a7d	0x14001b010	import	0x140013a58	KERNEL32.dll.GetCommandLineW
+0x140013ae7	0x14001b1e0	import	0x140013a94	KERNEL32.dll.MultiByteToWideChar
+0x140013b7f	0x14001b1e8	import	0x140013af0	KERNEL32.dll.WideCharToMultiByte
+0x140013ba1	0x14001b1f0	import	0x140013b88	KERNEL32.dll.GetEnvironmentStringsW
+0x140013c65	0x14001b1f8	import	0x140013b88	KERNEL32.dll.FreeEnvironmentStringsW
+0x140013ce6	0x14001b0d0	import	0x140013cd4	KERNEL32.dll.EnterCriticalSection
+0x140013d0f	0x14001b0e0	import	0x140013cf0	KERNEL32.dll.DeleteCriticalSection
+0x140013d3a	0x14001b0d8	import	0x140013d28	KERNEL32.dll.LeaveCriticalSection
+0x140013e51	0x14001b0e0	import	0x140013e28	KERNEL32.dll.DeleteCriticalSection
+0x140013f40	0x14001b0d0	import	0x140013f20	KERNEL32.dll.EnterCriticalSection
+0x140013fc3	0x14001b200	import	0x140013f48	KERNEL32.dll.SetStdHandle
+0x140014028	0x14001b0d8	import	0x140014008	KERNEL32.dll.LeaveCriticalSection
+0x1400140d5	0x14001b0d0	import	0x140014030	KERNEL32.dll.EnterCriticalSection
+0x1400140e4	0x14001b0d8	import	0x140014030	KERNEL32.dll.LeaveCriticalSection
+0x1400141ea	0x14001b200	import	0x140014170	KERNEL32.dll.SetStdHandle
+0x1400146ae	0x14001b208	import	0x14001457c	KERNEL32.dll.GetStringTypeW
+0x1400146ea	0x1400027e0	string	0x14001457c	H;\r!8
+0x1400150fe	0x14001b218	import	0x1400150b0	KERNEL32.dll.FlushFileBuffers
+0x140015112	0x14001b0c0	import	0x1400150b0	KERNEL32.dll.GetLastError
+0x14001537a	0x1400152f8	string	0x14001521c	fE9>s\eA
+0x140015ae2	0x14001b220	import	0x1400159dc	KERNEL32.dll.CreateFileW
+0x140015b32	0x14001b220	import	0x1400159dc	KERNEL32.dll.CreateFileW
+0x140015b62	0x14001b0c0	import	0x1400159dc	KERNEL32.dll.GetLastError
+0x140015b77	0x14001b168	import	0x1400159dc	KERNEL32.dll.GetFileType
+0x140015b81	0x14001b0c0	import	0x1400159dc	KERNEL32.dll.GetLastError
+0x140015bb4	0x14001b170	import	0x1400159dc	KERNEL32.dll.CloseHandle
+0x140015d0f	0x14001b170	import	0x1400159dc	KERNEL32.dll.CloseHandle
+0x140015d44	0x14001b220	import	0x1400159dc	KERNEL32.dll.CreateFileW
+0x140015d53	0x14001b0c0	import	0x1400159dc	KERNEL32.dll.GetLastError
+0x140015fd5	0x140015f3a	string	0x140015efc	D8/u\bA
+0x140017460	0x1400027e0	string	0x140016294	H;\r!8
+0x1400174c8	0x14001b208	import	0x1400174c8	KERNEL32.dll.GetStringTypeW
+0x140017b8a	0x1400027e0	string	0x1400177f0	H;\r!8
+0x140017cfd	0x1400027e0	string	0x140017ba0	H;\r!8
+0x140018470	0x1400027e0	string	0x14001819c	H;\r!8
+0x140018520	0x14001819c	string	0x1400184b4	@UATAUAVAWH
+0x140018651	0x14001edc2	string	0x14001861c	((((( H
+0x140018739	0x1400187cb	string	0x1400186d8	yIE3
+0x1400187ea	0x14001b0b0	import	0x1400186d8	KERNEL32.dll.SetEndOfFile
+0x140018807	0x14001b0c0	import	0x1400186d8	KERNEL32.dll.GetLastError
+0x14001889f	0x1400188ad	string	0x140018844	fE9S
+0x140018a0a	0x1400027e0	string	0x140018844	H;\r!8
+0x140018a42	0x1400223f0	string	0x140018a20	CONOUT$
+0x140018a56	0x14001b220	import	0x140018a20	KERNEL32.dll.CreateFileW
+0x140018ac1	0x14001b008	import	0x140018a90	KERNEL32.dll.WriteConsoleW
+0x140018acd	0x14001b0c0	import	0x140018a90	KERNEL32.dll.GetLastError
+0x140018ae5	0x14001b170	import	0x140018a90	KERNEL32.dll.CloseHandle
+0x140018af1	0x1400223f0	string	0x140018a90	CONOUT$
+0x140018b10	0x14001b220	import	0x140018a90	KERNEL32.dll.CreateFileW
+0x140018b2f	0x14001b008	import	0x140018a90	KERNEL32.dll.WriteConsoleW
+0x140018db5	0x140022580	string	0x140018cd0	UUUUUU
+0x140018dbd	0x140022550	string	0x140018cd0	UUUUUU
+0x14001908f	0x140022580	string	0x140018cd0	UUUUUU
+0x140019097	0x140022550	string	0x140018cd0	UUUUUU
+0x1400195bc	0x1400027e0	string	0x1400194b0	H;\r!8
+0x140019674	0x140023e90	string	0x140019670	log10
+0x140019a18	0x14001b120	import	0x1400197cb	KERNEL32.dll.RaiseException
+0x140019c49	0x140019bd0	string	0x140019c20	LcA<E3

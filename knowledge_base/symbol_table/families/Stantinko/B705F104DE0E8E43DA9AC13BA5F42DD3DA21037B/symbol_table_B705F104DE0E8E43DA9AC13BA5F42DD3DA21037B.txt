@@ -1,0 +1,603 @@
+reference_vaddr	symbol_addr	symbol_type	caller_function	data
+0x1000127d	0x10001295	string	0x10001260	3ۋ~\b blocks=Basic Latin,Arabic
+0x10001562	0x10023754	string	0x10001520	user32.dll
+0x10001569	0x10021004	import	0x10001520	KERNEL32.dll.LoadLibraryA
+0x1000156f	0x10023760	string	0x10001520	wsprintfA
+0x10001575	0x10021000	import	0x10001520	KERNEL32.dll.GetProcAddress
+0x10001586	0x1002376c	string	0x10001520	%d:%d:%d
+0x100059c6	0x10026258	string	0x100059c0	Usage: %s -f in_file [-w] [-r denom] [-k list] [-d level]\n -f in_file: set the name of an input file to "in_file"\n\n -w: input file is in WAV format\n\n -r denom: set Octave bands control to [1/denom] (must be in range [1; 24] by standard ISO)\n (default value is 1)\n\n -k list: list defines configuration of virtual knobs separated by commas, every knob has 3 properties:\n band range: either one integer representing specific band, or two integers with character '-' in between,\n to define range of bands, valid band ID value depends on choosen Octave fraction (-r option)\n function: must be one of "f" for flat, "p" for peak, or "n" for next\n gain: integer value from range [-24; 24] (in dB) with, or without its sign\n EXAMPLE: -k 1f+20,7-9n-24,42p21 (use Flat function applied to the first band with gain 20dB,\n then use Next function applied on bands 7,8 and 9 with gain -24dB, etc.)\n\n -d level: changes debug level to "level", smaller value means more info\n (default value is 90, used range is [1; 100])\n
+0x100059d4	0x1000e2e4	string	0x100059c0	j\fh(
+0x10005a0e	0x10026788	string	0x100059f0	malloc
+0x10005a13	0x1000d427	string	0x100059f0	j\fh
+0x10005a36	0x10026788	string	0x100059f0	malloc
+0x10005a3b	0x1000d427	string	0x100059f0	j\fh
+0x10005a87	0x10026788	string	0x100059f0	malloc
+0x10005a8c	0x1000d427	string	0x100059f0	j\fh
+0x10005b80	0x10026b28	string	0x100059f0	realloc
+0x10005b85	0x1000d427	string	0x100059f0	j\fh
+0x10005c29	0x10026788	string	0x100059f0	malloc
+0x10005c2e	0x1000d427	string	0x100059f0	j\fh
+0x10005cbf	0x100266c4	string	0x10005ca0	fopen
+0x10005cc4	0x1000d427	string	0x10005ca0	j\fh
+0x10005d02	0x10026b28	string	0x10005ca0	realloc
+0x10005d07	0x1000d427	string	0x10005ca0	j\fh
+0x10005d5e	0x100266cc	string	0x10005ca0	fclose
+0x10005d63	0x1000d427	string	0x10005ca0	j\fh
+0x10005da5	0x100266c4	string	0x10005d80	fopen
+0x10005daa	0x1000d427	string	0x10005d80	j\fh
+0x10005dc0	0x100266d8	string	0x10005d80	# Created by %s, @timestamp <kappa@kappa>\n
+0x10005dc6	0x1000e2e4	string	0x10005d80	j\fh(
+0x10005dcb	0x10026704	string	0x10005d80	# name:\tcompl\n
+0x10005dd1	0x1000e2e4	string	0x10005d80	j\fh(
+0x10005dd6	0x10026714	string	0x10005d80	# type:\tcomplex matrix\n
+0x10005ddc	0x1000e2e4	string	0x10005d80	j\fh(
+0x10005de1	0x1002672c	string	0x10005d80	# rows:\t1\n
+0x10005de7	0x1000e2e4	string	0x10005d80	j\fh(
+0x10005df3	0x10026738	string	0x10005d80	# columns:\t%d\n
+0x10005df9	0x1000e2e4	string	0x10005d80	j\fh(
+0x10005e21	0x10026748	string	0x10005d80	(%.14f,%.14f)
+0x10005e27	0x1000e2e4	string	0x10005d80	j\fh(
+0x10005e48	0x100266cc	string	0x10005d80	fclose
+0x10005e4d	0x1000d427	string	0x10005d80	j\fh
+0x10005e8e	0x10026758	string	0x10005e70	New modifier: func=%c band_id=%d gain=%.2fdB\n
+0x10005ea8	0x10026788	string	0x10005e70	malloc
+0x10005ead	0x1000d427	string	0x10005e70	j\fh
+0x10005f0a	0x100267d8	string	0x10005e70	Unknown modification function\n
+0x10005f18	0x1000e2e4	string	0x10005e70	j\fh(
+0x10005f9e	0x10026788	string	0x10005f80	malloc
+0x10005fa3	0x1000d427	string	0x10005f80	j\fh
+0x10006059	0x10026b28	string	0x10005f80	realloc
+0x1000605e	0x1000d427	string	0x10005f80	j\fh
+0x10006119	0x10026b28	string	0x10005f80	realloc
+0x1000611e	0x1000d427	string	0x10005f80	j\fh
+0x100061fb	0x10026b28	string	0x10005f80	realloc
+0x10006200	0x1000d427	string	0x10005f80	j\fh
+0x10006316	0x1002681c	string	0x100062d0	Processing modification of %d. band with gain %.2f\n
+0x100063b4	0x10026788	string	0x10006390	malloc
+0x100063b9	0x1000d427	string	0x10006390	j\fh
+0x100063f1	0x10026854	string	0x10006390	f:wd:o:r:k:
+0x1000648f	0x100268a8	string	0x10006390	Changing debug level to %d\n
+0x100064df	0x10026854	string	0x10006390	f:wd:o:r:k:
+0x100064fb	0x100268fc	string	0x10006390	Argument in_file is required\n
+0x10006502	0x10026860	string	0x10006390	Only one input file is required\n
+0x10006510	0x1000e2e4	string	0x10006390	j\fh(
+0x1000651d	0x10026884	string	0x10006390	Only one output file is required\n
+0x10006524	0x100268c4	string	0x10006390	Only one set of virtual knots configuration is allowed\n
+0x10006537	0x1002691c	string	0x10006390	Reading raw data from file "%s"...\n
+0x1000654e	0x10026940	string	0x10006390	Reading wav input file from "%s"...\n
+0x1000658f	0x10026968	string	0x10006390	Changing to Octave [1/%d] bands\n
+0x1000659b	0x1002698c	string	0x10006390	Ignoring r flag.\n
+0x100065a9	0x1000e2e4	string	0x10006390	j\fh(
+0x100065f1	0x100269a0	string	0x10006390	Got %d input samples\n
+0x10006696	0x100269b8	string	0x10006390	INPUT %d, #samples: %d length->^2: %d:\n blocks=Basic Latin,Latin-1 Supplement
+0x100066a0	0x10009400	string	0x10006390	VWh,
+0x100066a7	0x100269e4	string	0x10006390	set terminal png
+0x100066b6	0x100269f8	string	0x10006390	lines
+0x100066c6	0x10026a00	string	0x10006390	set output "input_%d.png"
+0x100067ff	0x10026a1c	string	0x10006390	Input
+0x10006878	0x10026788	string	0x10006390	malloc
+0x1000687d	0x1000d427	string	0x10006390	j\fh
+0x1000689f	0x10026a24	string	0x10006390	input_%d.mat
+0x100068da	0x10026a34	string	0x10006390	Total number of windows is %d\n
+0x10006925	0x10026a54	string	0x10006390	Processing %d. window:\n
+0x10006a36	0x10026c64	string	0x10006390	points
+0x10006a5e	0x10026c70	string	0x10006390	error starting gnuplot, is gnuplot or gnuplot.exe in your path?\n
+0x10006a6c	0x1000e2e4	string	0x10006390	j\fh(
+0x10006a92	0x100269e4	string	0x10006390	set terminal png
+0x10006a9d	0x100269f8	string	0x10006390	lines
+0x10006aad	0x10026a6c	string	0x10006390	set output "fft_window_%d.png"
+0x10006abb	0x10026a8c	string	0x10006390	dBPS
+0x10006ac0	0x10026d40	string	0x10006390	set ylabel "%s"
+0x10006ace	0x10026a94	string	0x10006390	frequency (Hz)
+0x10006ad3	0x10026d30	string	0x10006390	set xlabel "%s"
+0x10006b92	0x100269e4	string	0x10006390	set terminal png
+0x10006b9d	0x100269f8	string	0x10006390	lines
+0x10006bad	0x10026a6c	string	0x10006390	set output "fft_window_%d.png"
+0x10006c40	0x10026aa8	string	0x10006390	FT-modif
+0x10006da6	0x10026c64	string	0x10006390	points
+0x10006dc3	0x10026c70	string	0x10006390	error starting gnuplot, is gnuplot or gnuplot.exe in your path?\n
+0x10006dd1	0x1000e2e4	string	0x10006390	j\fh(
+0x10006def	0x100269e4	string	0x10006390	set terminal png
+0x10006dfa	0x100269f8	string	0x10006390	lines
+0x10006e0a	0x10026ab4	string	0x10006390	set output "output_%d.png"
+0x10006e9a	0x10026ad0	string	0x10006390	Invers
+0x10006f56	0x10026adc	string	0x10006390	Writing result into WAV sound file\n
+0x1000721b	0x10026b00	string	0x10007140	before=%.2fdB after=%.2fdB, dif = %.2f\n
+0x10007424	0x10026788	string	0x10007410	malloc
+0x10007429	0x1000d427	string	0x10007410	j\fh
+0x1000744e	0x10026788	string	0x10007410	malloc
+0x10007453	0x1000d427	string	0x10007410	j\fh
+0x100074b6	0x10026788	string	0x10007490	malloc
+0x100074bb	0x1000d427	string	0x10007490	j\fh
+0x100074cd	0x100074ec	string	0x10007490	_^[]
+0x100075d4	0x10026788	string	0x100075c0	malloc
+0x100075d9	0x1000d427	string	0x100075c0	j\fh
+0x10007634	0x10026b28	string	0x10007610	realloc
+0x10007639	0x1000d427	string	0x10007610	j\fh
+0x10007781	0x10026788	string	0x10007770	malloc
+0x10007786	0x1000d427	string	0x10007770	j\fh
+0x100077c8	0x10026788	string	0x100077b0	malloc
+0x100077cd	0x1000d427	string	0x100077b0	j\fh
+0x1000798c	0x10026788	string	0x10007970	malloc
+0x10007991	0x1000d427	string	0x10007970	j\fh
+0x10007a2b	0x10026b30	string	0x10007970	Octave [1/%d] length is %d\n
+0x10007a39	0x10026b4c	string	0x10007970	Bands:\n
+0x10007a68	0x10026b54	string	0x10007970	%d. %.2f (%.2f; %.2f)\n
+0x10007cb6	0x10026b6c	string	0x10007c80	modulate: st=%u, fst=%u; tg=%u, ftg=%u\n blocks=Basic Latin,Latin-1 Supplement
+0x10007d53	0x10026b6c	string	0x10007cf0	modulate: st=%u, fst=%u; tg=%u, ftg=%u\n blocks=Basic Latin,Latin-1 Supplement
+0x10007e2a	0x10026b98	string	0x10007d90	flatBand from %.2fHz to %.2fHz with gain %.2fdB\n
+0x10007e38	0x10026bcc	string	0x10007d90	fst = %d, ftg = %d\n
+0x10007f4a	0x10026be0	string	0x10007eb0	peakBand from %.2fHz to %.2fHz with gain %.2fdB\n
+0x10007f58	0x10026bcc	string	0x10007eb0	fst = %d, ftg = %d\n
+0x10008058	0x10026c14	string	0x10007fd0	nextBand from %.2fHz to %.2fHz with gain %.2fdB\n
+0x1000806c	0x10026bcc	string	0x10007fd0	fst = %d, ftg = %d\n
+0x10008ae4	0x1000d6d7	string	0x10008ac0	j\fh@
+0x10008ba8	0x10008b90	string	0x10008b20	;M\f|
+0x10008c2a	0x1000dc00	string	0x10008bd0	3\nD$\bS
+0x10008cf9	0x100261f0	string	0x10008bd0	option `%s%.*s' is ambiguous
+0x10008d39	0x10008d51	string	0x10008bd0	9^\bu
+0x10008d44	0x10026210	string	0x10008bd0	option `%s%.*s' doesn't allow an argument
+0x10008dce	0x100261cc	string	0x10008bd0	option `%s%s' requires an argument
+0x10008e5b	0x1002623c	string	0x10008bd0	unrecognized option `%s%s'
+0x10008e96	0x10026c54	string	0x10008e80	POSIXLY_CORRECT
+0x10009108	0x1000dc00	string	0x10008e80	3\nD$\bS
+0x10009174	0x1000dc00	string	0x10008e80	3\nD$\bS
+0x100091cc	0x10026178	string	0x10008e80	option requires an argument -- %c
+0x100092a4	0x10026178	string	0x10008e80	option requires an argument -- %c
+0x10009331	0x1002619c	string	0x10008e80	illegal option -- %c
+0x10009338	0x100261b4	string	0x10008e80	invalid option -- %c
+0x1000940e	0x10026c64	string	0x10009400	points
+0x1000942b	0x10026c70	string	0x10009400	error starting gnuplot, is gnuplot or gnuplot.exe in your path?\n
+0x10009439	0x1000e2e4	string	0x10009400	j\fh(
+0x10009506	0x100269f8	string	0x10009500	lines
+0x1000953d	0x10026c64	string	0x10009500	points
+0x10009571	0x10026cb4	string	0x10009500	linespoints
+0x100095a5	0x10026cc0	string	0x10009500	impulses
+0x100095dd	0x10026ccc	string	0x10009500	dots
+0x10009611	0x10026cd4	string	0x10009500	steps
+0x10009645	0x10026cdc	string	0x10009500	errorbars
+0x1000967d	0x10026ce8	string	0x10009500	boxes
+0x100096ad	0x10026cf0	string	0x10009500	boxerrorbars
+0x100096dd	0x10026d00	string	0x10009500	warning: unknown requested style: using points\n
+0x100096eb	0x1000e2e4	string	0x10009500	j\fh(
+0x100096f0	0x10026c64	string	0x10009500	points
+0x1000973a	0x10026d30	string	0x10009730	set xlabel "%s"
+0x1000975a	0x10026d40	string	0x10009750	set ylabel "%s"
+0x1000982a	0x10026d50	string	0x100097e0	cannot create temporary file: exiting plot
+0x10009838	0x1000e2e4	string	0x100097e0	j\fh(
+0x1000985c	0x10026d7c	string	0x100097e0	%.18e\n
+0x10009862	0x1000e2e4	string	0x100097e0	j\fh(
+0x10009880	0x10026db8	string	0x100097e0	replot
+0x10009887	0x10026dc0	string	0x100097e0	plot
+0x10009890	0x10026dc8	string	0x100097e0	(none)
+0x100098a0	0x10026e88	string	0x100097e0	%s "%s" title "%s" with %s
+0x10009913	0x10026d50	string	0x100098c0	cannot create temporary file: exiting plot
+0x10009921	0x1000e2e4	string	0x100098c0	j\fh(
+0x10009951	0x10026d84	string	0x100098c0	%.18e %.18e\n
+0x10009957	0x1000e2e4	string	0x100098c0	j\fh(
+0x1000997b	0x10026db8	string	0x100098c0	replot
+0x10009982	0x10026dc0	string	0x100098c0	plot
+0x1000998b	0x10026dc8	string	0x100098c0	(none)
+0x1000999b	0x10026e88	string	0x100098c0	%s "%s" title "%s" with %s
+0x100099e1	0x10009400	string	0x100099c0	VWh,
+0x100099fa	0x100269f8	string	0x100099c0	lines
+0x10009a17	0x10026d30	string	0x100099c0	set xlabel "%s"
+0x10009a34	0x10026d40	string	0x100099c0	set ylabel "%s"
+0x10009a6a	0x10026d9c	string	0x100099c0	press ENTER to continue\n
+0x10009aab	0x10026db8	string	0x10009aa0	replot
+0x10009ab2	0x10026dc0	string	0x10009aa0	plot
+0x10009abe	0x10026dc8	string	0x10009aa0	(none)
+0x10009ad9	0x10026dd0	string	0x10009aa0	%s %.18e * x + %.18e title "%s" with %s
+0x10009afb	0x10026db8	string	0x10009af0	replot
+0x10009b02	0x10026dc0	string	0x10009af0	plot
+0x10009b0e	0x10026dc8	string	0x10009af0	(none)
+0x10009b1d	0x10026df8	string	0x10009af0	%s %s title "%s" with %s
+0x10009b7d	0x10026e14	string	0x10009b40	# %s\n
+0x10009b83	0x1000e2e4	string	0x10009b40	j\fh(
+0x10009b9e	0x10026e1c	string	0x10009b40	%d, %.18e\n
+0x10009ba4	0x1000e2e4	string	0x10009b40	j\fh(
+0x10009c24	0x10026e14	string	0x10009bd0	# %s\n
+0x10009c2a	0x1000e2e4	string	0x10009bd0	j\fh(
+0x10009c53	0x10026e28	string	0x10009bd0	%.18e, %.18e\n
+0x10009c59	0x1000e2e4	string	0x10009bd0	j\fh(
+0x10009cff	0x10026e14	string	0x10009c90	# %s\n
+0x10009d05	0x1000e2e4	string	0x10009c90	j\fh(
+0x10009d25	0x10026e38	string	0x10009c90	%d, %.18e
+0x10009d2b	0x1000e2e4	string	0x10009c90	j\fh(
+0x10009d4f	0x10026e44	string	0x10009c90	, %.18e
+0x10009d55	0x1000e2e4	string	0x10009c90	j\fh(
+0x10009d69	0x1000e2e4	string	0x10009c90	j\fh(
+0x10009dab	0x10026e4c	string	0x10009da0	maximum # of temporary files reached (%d): cannot open more
+0x10009db9	0x1000e2e4	string	0x10009da0	j\fh(
+0x10009dd5	0x10023694	string	0x10009da0	gnuplot_tmpdatafile_XXXXXX
+0x10009e85	0x10026ea4	string	0x10009e70	calloc
+0x10009e8a	0x1000d427	string	0x10009e70	j\fh
+0x10009ed5	0x10026ea4	string	0x10009ec0	calloc
+0x10009eda	0x1000d427	string	0x10009ec0	j\fh
+0x10009f3e	0x10026788	string	0x10009f20	malloc
+0x10009f43	0x1000d427	string	0x10009f20	j\fh
+0x10009f92	0x10026b28	string	0x10009f70	realloc
+0x10009f97	0x1000d427	string	0x10009f70	j\fh
+0x1000a012	0x10026b28	string	0x10009fe0	realloc
+0x1000a017	0x1000d427	string	0x10009fe0	j\fh
+0x1000a076	0x10026ec8	string	0x1000a070	WAV header data:\n
+0x1000a0d2	0x10026ef8	string	0x1000a070	%s =
+0x1000a0f4	0x10026f04	string	0x1000a070	%lu\n
+0x1000a11d	0x10026f0c	string	0x1000a070	Not a WAV file header\n
+0x1000a12b	0x1000e2e4	string	0x1000a070	j\fh(
+0x1000a13b	0x10026ea4	string	0x1000a070	calloc
+0x1000a140	0x1000d427	string	0x1000a070	j\fh
+0x1000a1be	0x10026788	string	0x1000a1a0	malloc
+0x1000a1c3	0x1000d427	string	0x1000a1a0	j\fh
+0x1000a1e2	0x10026788	string	0x1000a1a0	malloc
+0x1000a1e7	0x1000d427	string	0x1000a1a0	j\fh
+0x1000a240	0x10026ea4	string	0x1000a1a0	calloc
+0x1000a245	0x1000d427	string	0x1000a1a0	j\fh
+0x1000a2c0	0x10026788	string	0x1000a1a0	malloc
+0x1000a2c5	0x1000d427	string	0x1000a1a0	j\fh
+0x1000a2fe	0x10026eac	string	0x1000a1a0	Unsupported byte length\n
+0x1000a310	0x1000e2e4	string	0x1000a1a0	j\fh(
+0x1000a33e	0x10026f24	string	0x1000a1a0	%d-th sample: %.5f\n
+0x1000a3ac	0x10026f38	string	0x1000a390	open
+0x1000a3b1	0x1000d427	string	0x1000a390	j\fh
+0x1000a3cd	0x10026f40	string	0x1000a390	Unacceptable WAVE header\n
+0x1000a3db	0x1000e2e4	string	0x1000a390	j\fh(
+0x1000a453	0x10026f5c	string	0x1000a410	write
+0x1000a458	0x1000d427	string	0x1000a410	j\fh
+0x1000a4fd	0x10026f64	string	0x1000a4d0	Header file was not written yet, can't write data\n
+0x1000a50b	0x1000e2e4	string	0x1000a4d0	j\fh(
+0x1000a531	0x10026ea4	string	0x1000a4d0	calloc
+0x1000a536	0x1000d427	string	0x1000a4d0	j\fh
+0x1000a5c2	0x10026f5c	string	0x1000a4d0	write
+0x1000a5c7	0x1000d427	string	0x1000a4d0	j\fh
+0x1000a5f5	0x10026f98	string	0x1000a5e0	Header file improperly set, %d channels required, got %d.\n
+0x1000a603	0x1000e2e4	string	0x1000a5e0	j\fh(
+0x1000a62c	0x10026f38	string	0x1000a5e0	open
+0x1000a631	0x1000d427	string	0x1000a5e0	j\fh
+0x1000a641	0x10026fd4	string	0x1000a5e0	RIFF
+0x1000a7dd	0x10009400	string	0x1000a670	VWh,
+0x1000b042	0x10026ff4	string	0x1000af00	unknown compression method
+0x1000b0a7	0x10027010	string	0x1000af00	invalid window size
+0x1000b0b6	0x10026fdc	string	0x1000af00	incorrect header check
+0x1000b0fd	0x10026ff4	string	0x1000af00	unknown compression method
+0x1000b114	0x10027024	string	0x1000af00	unknown header flags set
+0x1000b51f	0x10027040	string	0x1000af00	header crc mismatch
+0x1000b6a0	0x10027054	string	0x1000af00	invalid block type
+0x1000b6f8	0x1000b709	string	0x1000af00	3ۉF@3 blocks=Basic Latin,Arabic
+0x1000b6fd	0x10027068	string	0x1000af00	invalid stored block lengths
+0x1000b8b6	0x100270ac	string	0x1000af00	invalid code lengths set
+0x1000b8c5	0x10027088	string	0x1000af00	too many length or distance symbols
+0x1000bae9	0x100270e4	string	0x1000af00	invalid code -- missing end-of-block
+0x1000baf8	0x100270c8	string	0x1000af00	invalid bit length repeat
+0x1000bb07	0x100270c8	string	0x1000af00	invalid bit length repeat
+0x1000bb50	0x1002710c	string	0x1000af00	invalid literal/lengths set
+0x1000bb98	0x10027128	string	0x1000af00	invalid distances set
+0x1000bda3	0x10027140	string	0x1000af00	invalid literal/length code
+0x1000bf53	0x1002715c	string	0x1000af00	invalid distance code
+0x1000bff0	0x10027174	string	0x1000af00	invalid distance too far back
+0x1000c16d	0x10027194	string	0x1000af00	incorrect data check
+0x1000c1ca	0x100271ac	string	0x1000af00	incorrect length check
+0x1000ca14	0x10027174	string	0x1000c6a0	invalid distance too far back
+0x1000ca20	0x1002715c	string	0x1000c6a0	invalid distance code
+0x1000ca3c	0x10027140	string	0x1000c6a0	invalid literal/length code
+0x1000d43a	0x10010b1b	string	0x1000d427	j\fhH
+0x1000d6b3	0x1002100c	import	0x1000d69d	KERNEL32.dll.HeapFree
+0x1000d6c5	0x10021008	import	0x1000d69d	KERNEL32.dll.GetLastError
+0x1000d858	0x10021010	import	0x1000d813	KERNEL32.dll.HeapAlloc
+0x1000d8bd	0x1000d8d7	string	0x1000d8a7	3\v}\f
+0x1000db45	0x10021014	import	0x1000db0d	KERNEL32.dll.EnterCriticalSection
+0x1000db78	0x10021014	import	0x1000db4e	KERNEL32.dll.EnterCriticalSection
+0x1000dbb4	0x10021018	import	0x1000db80	KERNEL32.dll.LeaveCriticalSection
+0x1000dbe3	0x10021018	import	0x1000dbbc	KERNEL32.dll.LeaveCriticalSection
+0x1000dc6a	0x1000dc74	string	0x1000dc00	^_[3
+0x1000dc83	0x1000dc74	string	0x1000dc00	^_[3
+0x1000dc8b	0x1000dc74	string	0x1000dc00	^_[3
+0x1000dc96	0x1000dc74	string	0x1000dc00	^_[3
+0x1000dc9e	0x1000dc74	string	0x1000dc00	^_[3
+0x1000ddd4	0x1000dde7	string	0x1000dd6e	9}\bu
+0x1000decd	0x1002101c	import	0x1000dec5	KERNEL32.dll.DeleteFileA
+0x1000ded7	0x10021008	import	0x1000dec5	KERNEL32.dll.GetLastError
+0x1000defd	0x10021024	import	0x1000def5	KERNEL32.dll.DecodePointer
+0x1000df7c	0x10021020	import	0x1000def5	KERNEL32.dll.EncodePointer
+0x1000df8a	0x10021020	import	0x1000def5	KERNEL32.dll.EncodePointer
+0x1000dfbc	0x10021020	import	0x1000def5	KERNEL32.dll.EncodePointer
+0x1000e2da	0x1000e211	string	0x1000e2cd	j\fh\b
+0x1000e494	0x1000e4f3	string	0x1000e3f0	[_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1000e4dc	0x1000e4f3	string	0x1000e3f0	[_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1000e564	0x10021028	import	0x1000e535	KERNEL32.dll.SetFilePointer
+0x1000e571	0x10021008	import	0x1000e535	KERNEL32.dll.GetLastError
+0x1000e620	0x10010b1b	string	0x1000e5aa	j\fhH
+0x1000e79e	0x1000e67e	string	0x1000e789	j\fhh
+0x1000e7e7	0x1002102c	import	0x1000e7a8	KERNEL32.dll.HeapReAlloc
+0x1000eb3f	0x1001489d	string	0x1000eb04	j\fh
+0x1000ef2a	0x10021030	import	0x1000ef1f	KERNEL32.dll.GetSystemTimeAsFileTime
+0x1000ef75	0x100211e8	string	0x1000ef70	mscoree.dll
+0x1000ef7a	0x10021034	import	0x1000ef70	KERNEL32.dll.GetModuleHandleW
+0x1000ef84	0x100211d8	string	0x1000ef70	CorExitProcess
+0x1000ef8a	0x10021000	import	0x1000ef70	KERNEL32.dll.GetProcAddress
+0x1000efac	0x10021038	import	0x1000ef9b	KERNEL32.dll.ExitProcess
+0x1000f003	0x1000f014	string	0x1000eff8	;u\fr
+0x1000f0f7	0x10021024	import	0x1000f0b3	KERNEL32.dll.DecodePointer
+0x1000f297	0x10021040	import	0x1000f25e	KERNEL32.dll.GetCommandLineA
+0x1000f37c	0x10021024	import	0x1000f337	KERNEL32.dll.DecodePointer
+0x1000f38a	0x10012e13	string	0x1000f337	j\bh0
+0x1000f391	0x1002103c	import	0x1000f337	KERNEL32.dll.GetCurrentThreadId
+0x1000f416	0x1000f25e	string	0x1000f3c2	j\bh\b
+0x1000f446	0x1000f25e	string	0x1000f3c2	j\bh\b
+0x1000f466	0x1000f25e	string	0x1000f3c2	j\bh\b
+0x1000f4d1	0x1000f3c2	string	0x1000f4ba	j\fh(
+0x1000f50e	0x10021210	string	0x1000f4ea	Unknown exception
+0x1000f690	0x10021024	import	0x1000f685	KERNEL32.dll.DecodePointer
+0x1000f6ef	0x10021044	import	0x1000f6ad	KERNEL32.dll.RaiseException
+0x1000fffe	0x10021024	import	0x1000f905	KERNEL32.dll.DecodePointer
+0x100105aa	0x10021050	import	0x100104c0	KERNEL32.dll.IsDebuggerPresent
+0x100105b4	0x1002104c	import	0x100104c0	KERNEL32.dll.SetUnhandledExceptionFilter
+0x100105c1	0x10021048	import	0x100104c0	KERNEL32.dll.UnhandledExceptionFilter
+0x100105ff	0x10021058	import	0x100105e9	KERNEL32.dll.GetCurrentProcess
+0x10010606	0x10021054	import	0x100105e9	KERNEL32.dll.TerminateProcess
+0x10010619	0x10021024	import	0x1001060e	KERNEL32.dll.DecodePointer
+0x10010899	0x10012c02	string	0x10010812	UVWS
+0x10010a02	0x1002105c	import	0x100109ab	KERNEL32.dll.SetStdHandle
+0x10010a10	0x10010a28	string	0x100109ab	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10010a88	0x1002105c	import	0x10010a2c	KERNEL32.dll.SetStdHandle
+0x10010a96	0x10010aad	string	0x10010a2c	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10010b65	0x10021060	import	0x10010b1b	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10010b9d	0x10021014	import	0x10010b1b	KERNEL32.dll.EnterCriticalSection
+0x10010bd9	0x10021018	import	0x10010bba	KERNEL32.dll.LeaveCriticalSection
+0x10010c2a	0x10010ce9	string	0x10010be1	j@j
+0x10010c70	0x10021060	import	0x10010be1	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10010c95	0x10021014	import	0x10010be1	KERNEL32.dll.EnterCriticalSection
+0x10010ca2	0x10021018	import	0x10010be1	KERNEL32.dll.LeaveCriticalSection
+0x10010d4e	0x10010b1b	string	0x10010cb3	j\fhH
+0x10010e8a	0x10021074	import	0x10010d7a	KERNEL32.dll.GetConsoleMode
+0x10010eaa	0x10021070	import	0x10010d7a	KERNEL32.dll.GetConsoleCP
+0x10010f9a	0x1002106c	import	0x10010d7a	KERNEL32.dll.WideCharToMultiByte
+0x10010fc3	0x10021068	import	0x10010d7a	KERNEL32.dll.WriteFile
+0x1001101c	0x10021068	import	0x10010d7a	KERNEL32.dll.WriteFile
+0x1001118a	0x10021068	import	0x10010d7a	KERNEL32.dll.WriteFile
+0x10011264	0x10021068	import	0x10010d7a	KERNEL32.dll.WriteFile
+0x10011334	0x1002106c	import	0x10010d7a	KERNEL32.dll.WideCharToMultiByte
+0x10011365	0x10021068	import	0x10010d7a	KERNEL32.dll.WriteFile
+0x1001137b	0x10021008	import	0x10010d7a	KERNEL32.dll.GetLastError
+0x100113bc	0x10021068	import	0x10010d7a	KERNEL32.dll.WriteFile
+0x100113db	0x10021008	import	0x10010d7a	KERNEL32.dll.GetLastError
+0x100114ed	0x10010b1b	string	0x10011477	j\fhH
+0x100115f9	0x10021024	import	0x100115db	KERNEL32.dll.DecodePointer
+0x100116ea	0x10021710	string	0x100115db	log10
+0x1001170e	0x10021710	string	0x100115db	log10
+0x1001175a	0x10021704	string	0x100115db	asin
+0x10011763	0x100216fc	string	0x100115db	acos
+0x100117ad	0x100216f4	string	0x100115db	exp10
+0x100117d8	0x10021710	string	0x100115db	log10
+0x100117ea	0x100216ec	string	0x100115db	atan
+0x100117f3	0x100216e4	string	0x100115db	ceil
+0x100117ff	0x100216dc	string	0x100115db	floor
+0x1001180b	0x100216d4	string	0x100115db	modf
+0x100118a9	0x10021078	import	0x100115db	KERNEL32.dll.IsProcessorFeaturePresent
+0x10011998	0x1002107c	import	0x1001198f	KERNEL32.dll.HeapCreate
+0x100119b3	0x10021080	import	0x100119ad	KERNEL32.dll.HeapDestroy
+0x100119ce	0x1002108c	import	0x100119c1	KERNEL32.dll.GetStartupInfoW
+0x10011a02	0x10011a3a	string	0x100119c1	SWf9M
+0x10011ad2	0x10011a76	string	0x100119c1	j@j
+0x10011b01	0x10021064	import	0x100119c1	KERNEL32.dll.GetFileType
+0x10011b37	0x10021060	import	0x100119c1	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10011b8b	0x10021088	import	0x100119c1	KERNEL32.dll.GetStdHandle
+0x10011b9d	0x10021064	import	0x100119c1	KERNEL32.dll.GetFileType
+0x10011bcb	0x10021060	import	0x100119c1	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10011bf4	0x10021084	import	0x100119c1	KERNEL32.dll.SetHandleCount
+0x10011c29	0x10021090	import	0x10011c06	KERNEL32.dll.DeleteCriticalSection
+0x10011cc2	0x10021010	import	0x10011c7f	KERNEL32.dll.HeapAlloc
+0x10011d91	0x100220dc	string	0x10011d27	Runtime Error!\n\nProgram:
+0x10011dc3	0x10021094	import	0x10011d27	KERNEL32.dll.GetModuleFileNameW
+0x10011dd2	0x100220ac	string	0x10011d27	<program name unknown>
+0x10011e59	0x10022050	string	0x10011d27	Microsoft Visual C++ Runtime Library
+0x10011e75	0x10021088	import	0x10011d27	KERNEL32.dll.GetStdHandle
+0x10011ec1	0x10021068	import	0x10011d27	KERNEL32.dll.WriteFile
+0x10012087	0x10021098	import	0x10012066	KERNEL32.dll.Sleep
+0x100120d3	0x10021098	import	0x100120ab	KERNEL32.dll.Sleep
+0x10012121	0x10021098	import	0x100120f7	KERNEL32.dll.Sleep
+0x10012173	0x10021098	import	0x10012145	KERNEL32.dll.Sleep
+0x100121f6	0x10021090	import	0x10012197	KERNEL32.dll.DeleteCriticalSection
+0x1001225b	0x10021060	import	0x10012233	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10012280	0x10021090	import	0x10012233	KERNEL32.dll.DeleteCriticalSection
+0x100122e3	0x10021018	import	0x100122d4	KERNEL32.dll.LeaveCriticalSection
+0x10012363	0x10021060	import	0x100122eb	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x100123d7	0x10021014	import	0x100123ad	KERNEL32.dll.EnterCriticalSection
+0x10012446	0x10010b1b	string	0x100123e0	j\fhH
+0x10012461	0x1002109c	import	0x100123e0	KERNEL32.dll.FlushFileBuffers
+0x1001246b	0x10021008	import	0x100123e0	KERNEL32.dll.GetLastError
+0x1001273a	0x100210a0	import	0x1001270f	KERNEL32.dll.HeapSize
+0x1001291a	0x10022114	string	0x10012742	UTF-8
+0x10012939	0x1002211c	string	0x10012742	UTF-16LE
+0x10012958	0x10022128	string	0x10012742	UNICODE
+0x10012a95	0x10021060	import	0x100129d9	KERNEL32.dll.InitializeCriticalSectionAndSpinCount
+0x10012abe	0x10021014	import	0x100129d9	KERNEL32.dll.EnterCriticalSection
+0x10012c3b	0x10012c46	string	0x10012c32	_^[]
+0x10012c95	0x100210a8	import	0x10012c62	KERNEL32.dll.GetFileAttributesA
+0x10012ca0	0x10021008	import	0x10012c62	KERNEL32.dll.GetLastError
+0x10012d92	0x10021020	import	0x10012d90	KERNEL32.dll.EncodePointer
+0x10012d99	0x100210ac	import	0x10012d90	KERNEL32.dll.TlsAlloc
+0x10012dab	0x100210b0	import	0x10012da2	KERNEL32.dll.TlsGetValue
+0x10012dbd	0x10021024	import	0x10012da2	KERNEL32.dll.DecodePointer
+0x10012dcc	0x100210b4	import	0x10012da2	KERNEL32.dll.TlsSetValue
+0x10012de7	0x10021024	import	0x10012dd6	KERNEL32.dll.DecodePointer
+0x10012e01	0x100210b8	import	0x10012dd6	KERNEL32.dll.TlsFree
+0x10012e1f	0x10022130	string	0x10012e13	KERNEL32.DLL
+0x10012e24	0x10021034	import	0x10012e13	KERNEL32.dll.GetModuleHandleW
+0x10012e65	0x100210bc	import	0x10012e13	KERNEL32.dll.InterlockedIncrement
+0x10012ecb	0x10021008	import	0x10012ec7	KERNEL32.dll.GetLastError
+0x10012f07	0x10021024	import	0x10012ec7	KERNEL32.dll.DecodePointer
+0x10012f16	0x10012e13	string	0x10012ec7	j\bh0
+0x10012f1d	0x1002103c	import	0x10012ec7	KERNEL32.dll.GetCurrentThreadId
+0x10012f35	0x100210c0	import	0x10012ec7	KERNEL32.dll.SetLastError
+0x10012ff8	0x100210c4	import	0x10012f5a	KERNEL32.dll.InterlockedDecrement
+0x100130a4	0x100210b0	import	0x10013089	KERNEL32.dll.TlsGetValue
+0x100130d2	0x10021024	import	0x10013089	KERNEL32.dll.DecodePointer
+0x100130dd	0x10012f5a	string	0x10013089	j\bhX
+0x100130ef	0x100210b4	import	0x10013089	KERNEL32.dll.TlsSetValue
+0x100130f7	0x1002103c	import	0x100130f7	KERNEL32.dll.GetCurrentThreadId
+0x10013100	0x10022130	string	0x100130fd	KERNEL32.DLL
+0x10013105	0x10021034	import	0x100130fd	KERNEL32.dll.GetModuleHandleW
+0x1001311b	0x10021000	import	0x100130fd	KERNEL32.dll.GetProcAddress
+0x10013121	0x1002216c	string	0x100130fd	FlsAlloc
+0x10013129	0x10022160	string	0x100130fd	FlsGetValue
+0x10013136	0x10022154	string	0x100130fd	FlsSetValue
+0x10013143	0x1002214c	string	0x100130fd	FlsFree
+0x10013157	0x100210b4	import	0x100130fd	KERNEL32.dll.TlsSetValue
+0x1001319e	0x100210ac	import	0x100130fd	KERNEL32.dll.TlsAlloc
+0x100131ce	0x10021020	import	0x100130fd	KERNEL32.dll.EncodePointer
+0x1001320b	0x10021024	import	0x100130fd	KERNEL32.dll.DecodePointer
+0x10013211	0x10012f5a	string	0x100130fd	j\bhX
+0x10013256	0x10012e13	string	0x100130fd	j\bh0
+0x1001325d	0x1002103c	import	0x100130fd	KERNEL32.dll.GetCurrentThreadId
+0x100132d4	0x10013399	string	0x10013295	SSSSS
+0x100132e6	0x10013399	string	0x10013295	SSSSS
+0x100132f8	0x10013399	string	0x10013295	SSSSS
+0x100133be	0x100210c8	import	0x10013295	KERNEL32.dll.GetTimeZoneInformation
+0x10013436	0x1002106c	import	0x10013295	KERNEL32.dll.WideCharToMultiByte
+0x100134dc	0x10013399	string	0x10013295	SSSSS
+0x10013584	0x10013399	string	0x10013518	SSSSS
+0x100137b9	0x1001396b	string	0x1001379f	VVVVV
+0x100138ba	0x100138cf	string	0x1001379f	VVVVVQRSSj
+0x10013a87	0x10013d60	string	0x10013a06	WVS3
+0x10013b8d	0x10013d60	string	0x10013a06	WVS3
+0x10013be6	0x10013d60	string	0x10013a06	WVS3
+0x10013c03	0x10013d60	string	0x10013a06	WVS3
+0x10013c26	0x10013d60	string	0x10013a06	WVS3
+0x10013e9b	0x10013eab	string	0x10013e10	+D$\f\eT$
+0x10013ea1	0x10013eab	string	0x10013e10	+D$\f\eT$
+0x10013fad	0x100210cc	import	0x10013f8c	KERNEL32.dll.GetCPInfo
+0x100141e9	0x100210d4	import	0x100141c0	KERNEL32.dll.GetOEMCP
+0x1001420c	0x100210d0	import	0x100141c0	KERNEL32.dll.GetACP
+0x100142af	0x100210d8	import	0x1001423c	KERNEL32.dll.IsValidCodePage
+0x100142c2	0x100210cc	import	0x1001423c	KERNEL32.dll.GetCPInfo
+0x1001449b	0x100210c4	import	0x10014425	KERNEL32.dll.InterlockedDecrement
+0x100144ba	0x100210bc	import	0x10014425	KERNEL32.dll.InterlockedIncrement
+0x10014552	0x100210c4	import	0x10014425	KERNEL32.dll.InterlockedDecrement
+0x100145e4	0x100210bc	import	0x100145dd	KERNEL32.dll.InterlockedIncrement
+0x1001467f	0x100210c4	import	0x1001466c	KERNEL32.dll.InterlockedDecrement
+0x10014bea	0x10014bf0	string	0x10014aee	<+t"<-t
+0x10014bf2	0x10014c16	string	0x10014aee	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x10014bf6	0x10014c16	string	0x10014aee	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x10014c86	0x10014c16	string	0x10014aee	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x10014c8a	0x10014c16	string	0x10014aee	Jj\v넍Hπ blocks=Basic Latin,Hangul Syllables,Greek and Coptic
+0x100151e5	0x100151fa	string	0x100151ca	9]\bu&艴 blocks=Basic Latin,CJK Unified Ideographs
+0x100151fd	0x10015225	string	0x100151ca	9]\ft
+0x100152dd	0x1002106c	import	0x100152c2	KERNEL32.dll.WideCharToMultiByte
+0x10015340	0x100152e3	string	0x100152c2	VVVVj
+0x1001537f	0x100153b4	string	0x10015359	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1001540a	0x100210dc	import	0x100153b8	KERNEL32.dll.CloseHandle
+0x10015414	0x10021008	import	0x100153b8	KERNEL32.dll.GetLastError
+0x100154ca	0x10010b1b	string	0x10015454	j\fhH
+0x1001571f	0x100156d8	string	0x10015711	j\bh`
+0x10015736	0x10021024	import	0x10015724	KERNEL32.dll.DecodePointer
+0x1001575c	0x100156d8	string	0x1001575c	j\bh`
+0x10015761	0x10021020	import	0x1001575c	KERNEL32.dll.EncodePointer
+0x100157c8	0x10021024	import	0x100157c2	KERNEL32.dll.DecodePointer
+0x10015881	0x10021024	import	0x100157cf	KERNEL32.dll.DecodePointer
+0x100159e8	0x10021020	import	0x100159dc	KERNEL32.dll.EncodePointer
+0x10015a73	0x10015a7f	string	0x10015a40	_^[]
+0x10015dee	0x100210e4	import	0x10015dc2	KERNEL32.dll.GetModuleFileNameA
+0x10015e87	0x100210ec	import	0x10015e7d	KERNEL32.dll.GetEnvironmentStringsW
+0x10015eaf	0x1002106c	import	0x10015e7d	KERNEL32.dll.WideCharToMultiByte
+0x10015efb	0x100210e8	import	0x10015e7d	KERNEL32.dll.FreeEnvironmentStringsW
+0x10015f07	0x100210e8	import	0x10015e7d	KERNEL32.dll.FreeEnvironmentStringsW
+0x10015f60	0x1001605a	string	0x10015f14	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x10015f71	0x1001605a	string	0x10015f14	_^]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100160b5	0x10021030	import	0x1001607e	KERNEL32.dll.GetSystemTimeAsFileTime
+0x100160c1	0x100210f8	import	0x1001607e	KERNEL32.dll.GetCurrentProcessId
+0x100160c9	0x1002103c	import	0x1001607e	KERNEL32.dll.GetCurrentThreadId
+0x100160d1	0x100210f4	import	0x1001607e	KERNEL32.dll.GetTickCount
+0x100160dd	0x100210f0	import	0x1001607e	KERNEL32.dll.QueryPerformanceCounter
+0x100161d4	0x10021050	import	0x1001611b	KERNEL32.dll.IsDebuggerPresent
+0x100161e9	0x1002104c	import	0x1001611b	KERNEL32.dll.SetUnhandledExceptionFilter
+0x100161f4	0x10021048	import	0x1001611b	KERNEL32.dll.UnhandledExceptionFilter
+0x10016210	0x10021058	import	0x1001611b	KERNEL32.dll.GetCurrentProcess
+0x10016217	0x10021054	import	0x1001611b	KERNEL32.dll.TerminateProcess
+0x1001635a	0x10021028	import	0x10016318	KERNEL32.dll.SetFilePointer
+0x10016367	0x10021008	import	0x10016318	KERNEL32.dll.GetLastError
+0x1001641d	0x10010b1b	string	0x1001639d	j\fhH
+0x1001671f	0x10016768	string	0x100166f0	+D$\b\eT$\f
+0x100167bf	0x100210fc	import	0x1001678d	KERNEL32.dll.WriteConsoleW
+0x10016930	0x10021078	import	0x1001692b	KERNEL32.dll.IsProcessorFeaturePresent
+0x10016b62	0x10021044	import	0x1001693e	KERNEL32.dll.RaiseException
+0x10016be8	0x10016c04	string	0x1001693e	9] t\a
+0x10016bec	0x10016c04	string	0x1001693e	9] t\a
+0x10016c0e	0x10016c15	string	0x1001693e	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x100172f7	0x10022694	string	0x100172c1	USER32.DLL
+0x100172fc	0x100210e0	import	0x100172c1	KERNEL32.dll.LoadLibraryW
+0x1001730c	0x10021000	import	0x100172c1	KERNEL32.dll.GetProcAddress
+0x10017312	0x10022688	string	0x100172c1	MessageBoxW
+0x10017322	0x10021020	import	0x100172c1	KERNEL32.dll.EncodePointer
+0x1001732b	0x10022678	string	0x100172c1	GetActiveWindow
+0x1001733b	0x10022664	string	0x100172c1	GetLastActivePopup
+0x1001734b	0x10022648	string	0x100172c1	GetUserObjectInformationW
+0x10017364	0x10022630	string	0x100172c1	GetProcessWindowStation
+0x1001737c	0x10021024	import	0x100172c1	KERNEL32.dll.DecodePointer
+0x10017a7a	0x1001815d	string	0x10017a34	SSSSS肄 blocks=Basic Latin,CJK Unified Ideographs
+0x1001832e	0x10018356	string	0x100182fa	9]\bu&
+0x1001868b	0x10018698	string	0x10018680	]_^[
+0x10018889	0x1001489d	string	0x1001886c	j\fh
+0x100189bc	0x10021100	import	0x1001896c	KERNEL32.dll.MultiByteToWideChar
+0x10018a55	0x10021108	import	0x1001896c	KERNEL32.dll.LCMapStringW
+0x10018b25	0x1002106c	import	0x1001896c	KERNEL32.dll.WideCharToMultiByte
+0x10018bc2	0x10021100	import	0x10018b99	KERNEL32.dll.MultiByteToWideChar
+0x10018c5b	0x1002110c	import	0x10018b99	KERNEL32.dll.GetStringTypeW
+0x10019228	0x10031124	string	0x1001919e	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x10019324	0x10031124	string	0x1001919e	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x100193d5	0x10031124	string	0x1001919e	5\v@Ͽ blocks=Basic Latin,Greek and Coptic
+0x10019472	0x10019493	string	0x1001919e	HyދMԃ blocks=Basic Latin,Thaana,Cyrillic Supplement
+0x100199c3	0x100199e4	string	0x100196ef	HyދMԃ blocks=Basic Latin,Thaana,Cyrillic Supplement
+0x10019e0e	0x10019e32	string	0x10019df3	9M\bv
+0x1001a291	0x1001a299	string	0x1001a03b	;E\ft
+0x1001a32d	0x1001a333	string	0x1001a03b	SQRP
+0x1001a337	0x1001c580	string	0x1001a03b	WVU3
+0x1001a35d	0x1001c580	string	0x1001a03b	WVU3
+0x1001a383	0x1001c580	string	0x1001a03b	WVU3
+0x1001a757	0x1001a8a2	string	0x1001a735	9X\bu*
+0x1001a9d7	0x100210cc	import	0x1001a919	KERNEL32.dll.GetCPInfo
+0x1001aa4a	0x10021100	import	0x1001a919	KERNEL32.dll.MultiByteToWideChar
+0x1001ab59	0x10021110	import	0x1001a919	KERNEL32.dll.CompareStringW
+0x1001abe4	0x1001abf9	string	0x1001abc9	9]\bu&
+0x1001abfc	0x1001ac24	string	0x1001abc9	9]\ft
+0x1001b19b	0x10021118	import	0x1001afa7	KERNEL32.dll.ReadFile
+0x1001b251	0x10021118	import	0x1001afa7	KERNEL32.dll.ReadFile
+0x1001b25b	0x10021008	import	0x1001afa7	KERNEL32.dll.GetLastError
+0x1001b395	0x10021100	import	0x1001afa7	KERNEL32.dll.MultiByteToWideChar
+0x1001b3a2	0x10021008	import	0x1001afa7	KERNEL32.dll.GetLastError
+0x1001b477	0x10021118	import	0x1001afa7	KERNEL32.dll.ReadFile
+0x1001b481	0x10021008	import	0x1001afa7	KERNEL32.dll.GetLastError
+0x1001b521	0x10021008	import	0x1001afa7	KERNEL32.dll.GetLastError
+0x1001b5f6	0x10010b1b	string	0x1001b55e	j\fhH
+0x1001b709	0x10023664	string	0x1001b6fb	CONOUT$
+0x1001b70e	0x1002111c	import	0x1001b6fb	KERNEL32.dll.CreateFileW
+0x1001b72a	0x100210dc	import	0x1001b6fb	KERNEL32.dll.CloseHandle
+0x1001b7b0	0x1001b7fb	string	0x1001b6fb	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x1001b7d5	0x1001b7fb	string	0x1001b6fb	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x1001b7f0	0x1001b7fb	string	0x1001b6fb	X^_]ú blocks=Basic Latin,Latin-1 Supplement
+0x1001b939	0x10021124	import	0x1001b8d0	KERNEL32.dll.GetProcessHeap
+0x1001b940	0x10021010	import	0x1001b8d0	KERNEL32.dll.HeapAlloc
+0x1001bc62	0x1001bc7b	string	0x1001bc50	9E\ft
+0x1001c395	0x1001c3ad	string	0x1001c381	9E\fv
+0x1001c3b9	0x1001c3bd	string	0x1001c381	@9E\fw
+0x1001c71d	0x1001c72b	string	0x1001c6de	_^[]Ë blocks=Basic Latin,Latin-1 Supplement
+0x1001c77a	0x1000dc00	string	0x1001c730	3\nD$\bS
+0x1001c92b	0x1002368c	string	0x1001c861	1#SNAN
+0x1001c953	0x10023684	string	0x1001c861	1#IND
+0x1001c963	0x1002367c	string	0x1001c861	1#INF
+0x1001c980	0x10023674	string	0x1001c861	1#QNAN
+0x1001d4d8	0x1001724f	string	0x1001d287	j\bh
+0x1001d59a	0x100210a4	import	0x1001d59a	KERNEL32.dll.RtlUnwind
+0x1001e110	0x1001e11d	string	0x1001e0af	jjjjj
+0x1001f85c	0x1002b5f0	string	0x1001f74e	RUUUUU
+0x1001ff3e	0x100156d8	string	0x1001ff11	j\bh`
+0x10020110	0x100156d8	string	0x100200ff	j\bh`
+0x100201a6	0x100156d8	string	0x1002017a	j\bh`
+0x10020357	0x10020081	string	0x100202e9	j\bhH
+0x100204d1	0x100156d8	string	0x1002035f	j\bh`
+0x10020583	0x100204de	string	0x10020570	j\bh\b
+0x1002079a	0x100207a1	string	0x100206e5	9>u&
+0x10020825	0x100156d8	string	0x100206e5	j\bh`
+0x1002082f	0x10020081	string	0x100206e5	j\bhH
+0x1002083d	0x1002c8e0	string	0x100206e5	bad exception
+0x10020983	0x10020081	string	0x100206e5	j\bhH
