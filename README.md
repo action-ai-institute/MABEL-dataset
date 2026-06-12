@@ -17,6 +17,23 @@ If you use this dataset, framework, codebase, or any portion of this research in
 
 > Sonya, S.Y., Zou, M., Vasan, S., Kruegel, C., Vigna, G., Xu, D. (2026). One Size Doesn’t Fit All: A Dynamic Heterogeneous Learning Ensemble for Malware Family Classification. In: Laborde, R., et al. Computer Security. ESORICS 2025 International Workshops. ESORICS 2025, vol 16232. Springer, Cham. https://doi.org/10.1007/978-3-032-16092-8_13
 
+### BibTeX
+
+```bibtex
+@InProceedings{SonyaESORICS2025OneSize,
+author="Sonya, Solomon Yekini and Zou, Muqi and Vasan, Saastha and Kruegel, Christopher and Vigna, Giovanni and Xu, Dongyan",
+title="One Size Doesn't Fit All: A Dynamic Heterogeneous Learning Ensemble for Malware Family Classification",
+booktitle="Computer Security. ESORICS 2025 International Workshops",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="233--253",
+isbn="978-3-032-16092-8",
+doi="10.1007/978-3-032-16092-8_13"
+}
+```
+
+
 
 # Datatable Description
 
