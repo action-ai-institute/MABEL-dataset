@@ -8,6 +8,16 @@ More releases will be added here shortly. New releases will included analysis of
 
 #### Special thanks to vx-underground.org for providing the samples and malware family attribution in our dataset release. 
 
+# Citation
+
+
+[![Cite this work](https://img.shields.io/badge/Citation-Springer-blue)](https://link.springer.com/chapter/10.1007/978-3-032-16092-8_13#citeas)
+
+If you use this dataset, framework, codebase, or any portion of this research in your work, please cite our publication:
+
+> Sonya, S.Y., Zou, M., Vasan, S., Kruegel, C., Vigna, G., Xu, D. (2026). One Size Doesn’t Fit All: A Dynamic Heterogeneous Learning Ensemble for Malware Family Classification. In: Laborde, R., et al. Computer Security. ESORICS 2025 International Workshops. ESORICS 2025, vol 16232. Springer, Cham. https://doi.org/10.1007/978-3-032-16092-8_13
+
+
 # Datatable Description
 
 
